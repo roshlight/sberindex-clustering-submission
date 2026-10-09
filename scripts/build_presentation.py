@@ -43,7 +43,7 @@ METHOD_NAMES = {
     "kmeans_matched_k": "KMeans / сопоставимое K",
 }
 METHOD_COLORS = [TEAL, GOLD, BLUE, "#935B87"]
-TOTAL_SLIDES = 13
+TOTAL_SLIDES = 14
 
 
 def register_fonts() -> None:
@@ -484,6 +484,18 @@ def build(output: Path) -> None:
     economic = economic_comparisons()
     profile_gain = float(economic.loc[("within_region", "profile_clr"), "relative_mse_reduction"])
     heldout_gain = float(economic.loc[("heldout_regions", "profile_clr"), "relative_mse_reduction"])
+    correlations = read("reports/enriched_analysis/core_v2/correlations.csv")
+    correlations = correlations.loc[correlations.year == 2024].set_index(["feature", "outcome"])
+    population_foodservice = correlations.loc[("log_population", "p_foodservice")]
+    wage_spending = correlations.loc[("log_wage", "log_total")]
+    spatial = read("data/derived/reviews/spatial_external_v1/spatial_checks.csv")
+    spatial = spatial.loc[
+        (spatial["sample"] == "all")
+        & (spatial.hypothesis == "H2")
+        & (spatial.method == "leiden_hellinger")
+    ].set_index("month")
+    if len(spatial) != 2 or set(spatial.index) != {"2024-06", "2024-12"}:
+        raise ValueError("Expected the two original market-access comparisons")
 
     # 1: the central finding is visible before details of the protocol.
     deck.start("Результат", "Потребительские профили муниципалитетов")
@@ -574,14 +586,19 @@ def build(output: Path) -> None:
     deck.paragraph(
         54,
         601,
-        "В крупных муниципалитетах выше компонент общепита в профиле. "
-        "Зарплата работников организаций тесно связана с уровнем расходов. "
-        "На графиках показаны наблюдаемые соотношения за 2024 год.",
+        "Ранговая связь населения с общепитом: "
+        f"ρ = {russian(population_foodservice.spearman, 3)} "
+        f"({integer(population_foodservice.n)} МО). Зарплаты с уровнем расходов: "
+        f"ρ = {russian(wage_spending.spearman, 3)} ({integer(wage_spending.n)} МО). "
+        "Корреляции используют все парно доступные данные; на графиках 1 998 МО.",
         1160,
         18,
         leading=25,
     )
-    deck.footer("Источник: reports/enriched_analysis/core_v2/annual_panel.csv; выборка 2024 года")
+    deck.footer(
+        "Источники: reports/enriched_analysis/core_v2/annual_panel.csv; core_v2/correlations.csv; "
+        "2024 год"
+    )
 
     # 4: show the economic model's gain over region and municipality type.
     deck.start(
@@ -794,23 +811,27 @@ def build(output: Path) -> None:
     deck.start(
         "Контекст",
         "Доступность рынков различается между группами",
-        "В июне и декабре различия превышают перестановочный контроль "
-        "с сохранением регионального состава.",
+        "Межгрупповая доля разброса индекса: "
+        f"{russian(spatial.loc['2024-06', 'observed'] * 100, 1)}% в июне и "
+        f"{russian(spatial.loc['2024-12', 'observed'] * 100, 1)}% в декабре; 2 004 МО.",
     )
     deck.figure(market_access(), 30, 186, 1200, 402)
     deck.paragraph(
         54,
         590,
         "Точка: медиана; полоса: 25-75% процентили. Номера групп локальны для месяца. "
-        "Индекс характеризует доступность рынков за 2024 год. Проверка сохраняет "
-        "региональный состав; размер МО и пространственная автокорреляция остаются вне модели.",
+        "Региональный перестановочный контроль: "
+        f"{russian(spatial.loc['2024-06', 'null_mean'] * 100, 1)}% и "
+        f"{russian(spatial.loc['2024-12', 'null_mean'] * 100, 1)}%; "
+        "p с поправкой Holm = 0,004 в обоих месяцах. "
+        "Индекс за 2024 год; контроль сохраняет региональный состав.",
         1160,
         18,
         leading=24,
     )
     deck.footer(
         "Источники: data/derived/reviews/spatial_external_v1/group_summary.csv; "
-        "docs/reviews/spatial_validation.md"
+        "spatial_checks.csv; docs/reviews/spatial_validation.md"
     )
 
     # 12: concrete applications of profile comparison and economic interpretation.
@@ -848,42 +869,109 @@ def build(output: Path) -> None:
         "submission/METHODOLOGY.md"
     )
 
-    # 13: close on the measured results and their practical use.
-    deck.start("Итог", "Профили показывают экономику территорий")
+    # 13: name the observed relationship, its magnitude and its sample.
+    deck.start("Выводы", "Что именно показали данные за 2024 год")
     findings = [
         (
-            193,
-            "Экономика",
-            "Население, зарплата и концентрация рабочих мест снижают ошибку описания "
-            f"профиля на {russian(profile_gain * 100, 1)}% внутри регионов и "
-            f"{russian(heldout_gain * 100, 1)}% на регионах вне обучения.",
+            185,
+            "Масштаб МО",
+            "Чем крупнее муниципалитет, тем выше компонент общепита: "
+            f"ρ = {russian(population_foodservice.spearman, 3)}; после регионального "
+            f"центрирования {russian(population_foodservice.region_centered_rank_correlation, 3)}. "
+            f"Выборка: {integer(population_foodservice.n)} МО.",
         ),
         (
-            307,
-            "Отрасли",
-            "Восемь отраслевых показателей дополнительно снижают ошибку профиля "
-            "на 7,34% при проверке целых регионов.",
+            292,
+            "Зарплата",
+            "Выше зарплата организаций, выше уровень расходов: "
+            f"ρ = {russian(wage_spending.spearman, 3)}; после регионального центрирования "
+            f"{russian(wage_spending.region_centered_rank_correlation, 3)}. "
+            f"Выборка: {integer(wage_spending.n)} МО.",
         ),
         (
-            435,
-            "Сравнение",
-            "Сеть объединяет муниципалитеты с близкими потребительскими профилями. "
-            "Группы различаются по зарплате, масштабу и доступности рынков.",
+            399,
+            "Экономика и отрасли",
+            "Экономические признаки снижают ошибку профиля на "
+            f"{russian(profile_gain * 100, 1)}% внутри регионов и на "
+            f"{russian(heldout_gain * 100, 1)}% на регионах вне обучения. "
+            "Отрасли добавляют 1,38% и 7,34% в тех же режимах. Выборка: 1 998 МО.",
+        ),
+        (
+            506,
+            "Доступность рынков",
+            "В декабре между группами приходится "
+            f"{russian(spatial.loc['2024-12', 'observed'] * 100, 1)}% разброса индекса "
+            f"против {russian(spatial.loc['2024-12', 'null_mean'] * 100, 1)}% "
+            "регионального контроля; p Holm = 0,004. Выборка: 2 004 МО.",
         ),
     ]
     for top, title, body in findings:
-        deck.text(54, top, title, 23, TEAL, True)
-        deck.paragraph(365, top, body, 837, 22)
-        deck.line(54, top + 89, 1226, top + 89)
+        deck.text(54, top, title, 21, TEAL, True)
+        deck.paragraph(355, top, body, 847, 20, leading=26)
+        deck.line(54, top + 92, 1226, top + 92)
     deck.text(
-        54, 558, "Сравнивайте территории по потреблению и экономическому контексту.", 25, TEAL, True
+        54,
+        627,
+        "Для сравнения МО учитывайте масштаб, зарплату, отрасли и доступность рынков.",
+        21,
+        TEAL,
+        True,
     )
-    url = "https://github.com/roshlight/sberindex-clustering-submission"
-    deck.text(54, 603, "github.com/roshlight/sberindex-clustering-submission", 23, INK, True)
-    deck.pdf.linkURL(url, (54, H - 635, 1020, H - 598), relative=0)
     deck.footer(
-        "Результаты 2024 года. Источники: enriched_analysis/core_v2/cv_comparisons.csv; "
-        "round2_analysis/models/cv_comparisons.csv; enriched_analysis/REPORT.md"
+        "Источники: enriched_analysis/core_v2/correlations.csv; core_v2/cv_comparisons.csv; "
+        "round2_analysis/REPORT.md; docs/reviews/spatial_validation.md"
+    )
+
+    # 14: proposed hypotheses have explicit predictions and a next test.
+    deck.start(
+        "Гипотезы",
+        "Какие соотношения проверить следующим шагом",
+        "Для каждой гипотезы заданы ожидаемая связь и отдельная проверка.",
+    )
+    for left, label in [(54, "Гипотеза"), (335, "Ожидаемая связь"), (826, "Как проверить")]:
+        deck.text(left, 176, label, 18, MUTED, True)
+    hypotheses = [
+        (
+            215,
+            "01  Масштаб МО",
+            "При сопоставимой зарплате в крупных МО выше CLR-компонент общепита.",
+            "Регрессия с зарплатой, работниками на душу населения, регионом и типом МО. "
+            "Коэффициент населения > 0.",
+        ),
+        (
+            324,
+            "02  Зарплата",
+            "При сопоставимом населении выше зарплата организаций, выше расходы после "
+            "поправки на цены.",
+            "Региональный ИПЦ; регрессия log расходов с населением и работниками "
+            "на душу населения, "
+            "регионом и типом МО. Коэффициент зарплаты > 0.",
+        ),
+        (
+            433,
+            "03  Обработка",
+            "При близких населении и зарплате выше доля учтённых работников обработки: "
+            "выше CLR-компонент маркетплейсов, ниже транспорта.",
+            "Пары МО внутри регионов с близкими базовыми признаками. "
+            "Разницы CLR-компонентов: маркетплейсы > 0, транспорт < 0.",
+        ),
+        (
+            542,
+            "04  Между регионами",
+            "Экономически похожие МО из разных регионов имеют более близкие "
+            "потребительские профили.",
+            "Подбор пар по экономике. Расстояние Хеллингера ниже контроля "
+            "с перестановкой профилей внутри регионов при фиксированных парах.",
+        ),
+    ]
+    for top, title, prediction, test in hypotheses:
+        deck.line(54, top - 12, 1226, top - 12)
+        deck.text(54, top, title, 18, TEAL, True)
+        deck.paragraph(335, top, prediction, 458, 19, leading=25)
+        deck.paragraph(826, top, test, 400, 17, leading=22)
+    deck.footer(
+        "Гипотезы следующего этапа. Протокол: фиксированные выборки; региональные блоки; "
+        "поправка Holm, α = 0,05. Подробности: README.md"
     )
     deck.finish()
 
