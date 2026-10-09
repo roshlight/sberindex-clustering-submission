@@ -142,3 +142,78 @@ def test_nan_metric_requires_an_explicit_undefined_status(tmp_path):
     frame.to_csv(tmp_path / "metrics.csv", index=False)
     _save_manifest(tmp_path, manifest)
     assert VERIFY.verify_results(tmp_path)["status"] == "PASS"
+
+
+def test_incorrect_ari_fails_even_with_updated_payload_hash(tmp_path):
+    manifest = _valid_run(tmp_path)
+    frame = pd.read_csv(tmp_path / "temporal_summary.csv")
+    # The labels describe the same one-group partition, so its ARI is exactly 1.
+    frame.loc[0, "ari"] = 0
+    frame.to_csv(tmp_path / "temporal_summary.csv", index=False)
+    _save_manifest(tmp_path, manifest)
+    result = VERIFY.verify_results(tmp_path)
+    assert result["checks"]["output_hashes"] == "PASS"
+    assert result["checks"]["temporal_summary"] == "FAIL"
+    assert any("ARI mismatch with transition labels" in error for error in result["errors"])
+
+
+def test_ari_is_label_invariant_and_handles_degenerate_partitions():
+    cases = [
+        ([], [], 1),
+        ([3], [-8], 1),
+        ([0, 0, 0], [9, 9, 9], 1),
+        ([0, 1, 2], [11, -4, 8], 1),
+        ([-7, -7, 10, 10], [1, 1, 0, 0], 1),
+        ([0, 0, 1, 1], [8, 9, 8, 9], -0.5),
+        ([0, 0, 0], [1, 2, 3], 0),
+    ]
+    for left, right, expected in cases:
+        assert np.isclose(VERIFY._adjusted_rand_index(left, right), expected)
+
+
+def test_independent_ari_matches_sklearn_for_nontrivial_partitions():
+    from sklearn.metrics import adjusted_rand_score
+
+    rng = np.random.default_rng(7321)
+    for n in (2, 3, 17, 64, 2016):
+        for _ in range(8):
+            left = rng.integers(0, min(n, 12), size=n)
+            right = rng.integers(0, min(n, 9), size=n)
+            expected = adjusted_rand_score(left, right)
+            actual = VERIFY._adjusted_rand_index(left, right)
+            assert np.isclose(actual, expected, rtol=0, atol=1e-12)
+            order = rng.permutation(n)
+            assert np.isclose(
+                VERIFY._adjusted_rand_index(left[order] + 37, right[order] * 3 - 10),
+                actual,
+                rtol=0,
+                atol=1e-12,
+            )
+
+
+def test_impossible_membership_fraction_fails_even_with_updated_payload_hash(tmp_path):
+    manifest = _valid_run(tmp_path)
+    frame = pd.read_csv(tmp_path / "membership_agreement.csv")
+    frame["agreement"] = frame["agreement"].astype(float)
+    frame.loc[0, "agreement"] = 0.123  # Cannot be a count of supporters divided by 21.
+    frame.to_csv(tmp_path / "membership_agreement.csv", index=False)
+    _save_manifest(tmp_path, manifest)
+    result = VERIFY.verify_results(tmp_path)
+    assert result["checks"]["output_hashes"] == "PASS"
+    assert result["checks"]["membership_agreement"] == "FAIL"
+    assert any("integer number of supporting comparisons" in error for error in result["errors"])
+
+
+def test_all_discrete_membership_fractions_survive_csv_roundtrip(tmp_path):
+    frame = pd.DataFrame(
+        {
+            "month": "2023-01",
+            "territory_id": np.arange(1, 23),
+            "agreement": np.arange(22) / 21,
+            "n_comparisons": 21,
+        }
+    )
+    frame.to_csv(tmp_path / "membership.csv", index=False)
+    restored = pd.read_csv(tmp_path / "membership.csv")
+    assignments = frame[["month", "territory_id"]].assign(method="leiden_hellinger")
+    VERIFY._check_membership(restored, assignments)

@@ -132,21 +132,25 @@ root = Path.cwd()
 crosswalk = pd.read_csv(
     root / "data/derived/reviews/spatial_transitions_v1/territory_crosswalk.csv",
     dtype={
-        "region_code_2023": "string", "region_code_2024": "string",
-        "oktmo_2023": "string", "oktmo_2024": "string",
-        "oktmo_digits_2023": "string", "oktmo_digits_2024": "string",
+        "region_code_2023": "string",
+        "region_code_2024": "string",
+        "oktmo_2023": "string",
+        "oktmo_2024": "string",
+        "oktmo_digits_2023": "string",
+        "oktmo_digits_2024": "string",
     },
 )
-assignments = duckdb.read_parquet(
-    str(root / "reports/initial_study/assignments.parquet")
-).df()
+assignments = duckdb.read_parquet(str(root / "reports/initial_study/assignments.parquet")).df()
 keys = ["territory_id", "month", "method"]
 assert not crosswalk.territory_id.duplicated().any()
 assert not assignments.duplicated(keys).any()
 assert set(assignments.territory_id) == set(crosswalk.territory_id)
 assert crosswalk.join_status.eq("matched_unique_both_snapshots").all()
 joined = assignments.merge(
-    crosswalk, on="territory_id", how="left", validate="many_to_one",
+    crosswalk,
+    on="territory_id",
+    how="left",
+    validate="many_to_one",
     indicator="spatial_join",
 )
 assert len(joined) == len(assignments)

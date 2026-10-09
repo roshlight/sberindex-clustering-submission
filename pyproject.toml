@@ -18,6 +18,7 @@ dependencies = [
 
 [dependency-groups]
 dev = ["pytest>=8,<10", "ruff>=0.12,<1", "networkx>=3,<4"]
+presentation = ["reportlab>=4.4,<5"]
 
 [build-system]
 requires = ["hatchling>=1.26"]
