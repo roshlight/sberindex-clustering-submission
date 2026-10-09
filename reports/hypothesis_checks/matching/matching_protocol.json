@@ -1,0 +1,77 @@
+{
+  "year": 2024,
+  "seed": 13,
+  "n_resamples": 9999,
+  "core_columns": [
+    "log_population",
+    "log_wage",
+    "log_worker_concentration"
+  ],
+  "sector_columns": [
+    "sector_A_share",
+    "sector_B_share",
+    "sector_C_share",
+    "sector_D_share",
+    "sector_H_share",
+    "sector_O_share",
+    "sector_P_share",
+    "sector_Q_share"
+  ],
+  "scaling": "eligible cohort population SD (ddof=0); zero SD uses scale 1",
+  "core_caliper_each": 0.5,
+  "sector_RMS_caliper_H4": 1.0,
+  "matching": "maximum cardinality then minimum total distance; no entity reuse",
+  "tie_order": "numpy default_rng(seed) edge ordering; deterministic HiGHS; no cost jitter",
+  "H3_split": "share_C > stratum median vs <= median; same region and municipal type",
+  "H3_cost": "Euclidean distance of three standardized economic logs; no share_C gap",
+  "H3_null": "shared regional signs for all matched pairs and both CLR targets",
+  "H4_cost": "sqrt(0.5*mean(core_z_difference^2)+0.5*mean(sector_z_difference^2))",
+  "H4_null": "whole five-category profiles permuted within all eligible regional cohorts",
+  "H4_singletons": "fixed profile vectors; included in the conditional null",
+  "p_value": "one-sided Monte Carlo (1 + extreme count)/(n_resamples + 1); ties included",
+  "profile": "arithmetic mean of twelve monthly normalized five-category profiles",
+  "H3_scaling": {
+    "core_center": [
+      10.782649521213754,
+      11.26905181024548,
+      -1.5435992891494401
+    ],
+    "core_scale": [
+      0.9821447370671451,
+      0.424064386837089,
+      0.6008424135916614
+    ]
+  },
+  "H4_scaling": {
+    "core_center": [
+      11.42495326369648,
+      11.414951214677567,
+      -1.199360925180295
+    ],
+    "core_scale": [
+      1.341816900040821,
+      0.3805531992526325,
+      0.7051030562392174
+    ],
+    "sector_center": [
+      0.030847799361757508,
+      0.10857408458410836,
+      0.13189476982123194,
+      0.0429851596757291,
+      0.10157492297006952,
+      0.09439128853899385,
+      0.1343876887766555,
+      0.09935842409430373
+    ],
+    "sector_scale": [
+      0.04166502236611913,
+      0.14340220408177753,
+      0.1253572623945418,
+      0.023243182665093575,
+      0.05975051050850824,
+      0.056390743413034336,
+      0.05651944870299651,
+      0.0448345492363509
+    ]
+  }
+}

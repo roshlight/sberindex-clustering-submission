@@ -1,0 +1,35 @@
+{
+  "not_additional_hypothesis_tests": true,
+  "nominal_H2": [
+    {
+      "hypothesis": "H2_nominal_diagnostic",
+      "term": "log_population",
+      "estimate": 0.0776664885757164,
+      "standard_error_cr1": 0.006285248916794399,
+      "identifiable": true
+    },
+    {
+      "hypothesis": "H2_nominal_diagnostic",
+      "term": "log_wage",
+      "estimate": 0.30127946255084637,
+      "standard_error_cr1": 0.03569126453031555,
+      "identifiable": true
+    },
+    {
+      "hypothesis": "H2_nominal_diagnostic",
+      "term": "log_worker_concentration",
+      "estimate": 0.01905171860197974,
+      "standard_error_cr1": 0.007438170427297296,
+      "identifiable": true
+    }
+  ],
+  "scalar_regional_deflator": {
+    "interpretation": "log of a regional scalar is absorbed by region FE",
+    "max_abs_identifiable_economic_coefficient_difference": 1.2212453270876722e-15,
+    "coefficient_differences": {
+      "log_population": -1.2212453270876722e-15,
+      "log_wage": -1.1102230246251565e-16,
+      "log_worker_concentration": 5.828670879282072e-16
+    }
+  }
+}

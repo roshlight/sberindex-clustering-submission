@@ -1,0 +1,18 @@
+[
+  {
+    "source": "reports/round2_analysis/models/model_panel.csv",
+    "sha256": "fd302a8da31bf16305d1664dd2e34708dda5042f18521858db6b902e3ada2f7b"
+  },
+  {
+    "source": "reports/enriched_analysis/core_v2/annual_panel.csv",
+    "sha256": "0e44e34b94c51aeb429615ec9a0e8127def140a6f414afa75e255e00cb4f8190"
+  },
+  {
+    "source": "reports/round2_analysis/models/selected_sector_features.csv",
+    "sha256": "14a89221e2ad2eaa089d272171b4c19214b898a8c102dd273618cce92944145e"
+  },
+  {
+    "source": "src/municipal_profiles/hypothesis_matching.py",
+    "sha256": "7cdb35f2826b5e45b4a52d664ca2383a6ab7ea24265aed4e33a31569a56008ba"
+  }
+]

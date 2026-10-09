@@ -1,0 +1,4 @@
+test_id,hypothesis,year,estimate,expected_direction,p_raw,n_entities,n_regions,n_pairs,n_eligible,method,unit,available,observed,null_mean,improvement
+H3_manufacturing_marketplaces,H3,2024,0.007999877248101358,positive,0.2591,490,55,245,1092,maximum-cardinality minimum-cost matching; regional-block sign flips,mean paired CLR difference (high minus low),True,0.007999877248101358,0.00010019910905686037,
+H3_manufacturing_transport,H3,2024,-0.03034832362593662,negative,0.0031,490,55,245,1092,maximum-cardinality minimum-cost matching; regional-block sign flips,mean paired CLR difference (high minus low),True,-0.03034832362593662,-0.00014640163269782433,
+H4_cross_region_similarity,H4,2024,-0.023122067590772268,negative,0.0001,86,36,43,127,maximum-cardinality minimum-cost matching; within-region profile permutation,mean Hellinger distance minus permutation mean,True,0.04532346652972972,0.06844553412050199,0.023122067590772268

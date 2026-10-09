@@ -1,0 +1,42 @@
+{
+  "protocol_version": "profile-hypotheses-v1",
+  "year": 2024,
+  "seed": 13,
+  "n_resamples": 9999,
+  "alpha": 0.05,
+  "family": [
+    "H1_population_foodservice",
+    "H2_wage_real_spending",
+    "H3_manufacturing_marketplaces",
+    "H3_manufacturing_transport",
+    "H4_cross_region_similarity"
+  ],
+  "regressions": {
+    "sample": "core_eligible",
+    "numeric": ["log_population", "log_wage", "log_worker_concentration"],
+    "fixed_effects": ["region_code", "municipal_district_type"],
+    "H1_target": "CLR of annual mean normalized foodservice component",
+    "H2_target": "log of mean monthly nominal expenditure divided by regional CPI chain",
+    "primary_p": "restricted-null region Rademacher wild cluster bootstrap-t",
+    "diagnostics": ["nominal H2", "scalar regional deflator invariance"]
+  },
+  "H3": {
+    "sample": "core_eligible and observed sector_C_share",
+    "split": "strictly above median sector_C_share within region and municipality type",
+    "log_covariate_caliper_sd": 0.5,
+    "minimum_sector_share_gap": 0,
+    "matching": "maximum cardinality, then minimum standardized economic distance; no reuse",
+    "inference": "one shared random sign per region for all its paired differences",
+    "joint_rule": "both directed CLR component tests must pass the common Holm family"
+  },
+  "H4": {
+    "sample": "core_eligible and complete eight observed sector shares",
+    "different_regions": true,
+    "log_covariate_caliper_sd": 0.5,
+    "sector_rms_z_caliper": 1.0,
+    "cost": "sqrt(0.5*mean(core z differences squared)+0.5*mean(sector z differences squared))",
+    "matching": "maximum cardinality, then minimum cost; no reuse",
+    "distance": "sqrt(sum((sqrt(p)-sqrt(q))**2)/2)",
+    "inference": "shuffle complete five-component profiles within eligible regions; fixed pairs"
+  }
+}

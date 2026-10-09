@@ -1,0 +1,27 @@
+{
+  "year": 2024,
+  "annual_entities": 2016,
+  "core_eligible_entities": 1998,
+  "H3": {
+    "eligible_entities": 1092,
+    "eligible_regions": 71,
+    "high_entities": 503,
+    "low_entities": 589,
+    "candidate_edges": 775,
+    "candidate_entities": 577,
+    "matched_entities": 490,
+    "pairs": 245,
+    "matched_regions": 55
+  },
+  "H4": {
+    "eligible_entities": 127,
+    "eligible_regions": 44,
+    "candidate_edges": 225,
+    "candidate_entities": 89,
+    "matched_entities": 86,
+    "pairs": 43,
+    "matched_regions": 36,
+    "singleton_regions": 20,
+    "permutable_entities": 107
+  }
+}
