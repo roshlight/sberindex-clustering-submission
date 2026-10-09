@@ -43,7 +43,7 @@ METHOD_NAMES = {
     "kmeans_matched_k": "KMeans / сопоставимое K",
 }
 METHOD_COLORS = [TEAL, GOLD, BLUE, "#935B87"]
-TOTAL_SLIDES = 12
+TOTAL_SLIDES = 13
 
 
 def register_fonts() -> None:
@@ -92,9 +92,9 @@ class Deck:
     def __init__(self, output: Path):
         output.parent.mkdir(parents=True, exist_ok=True)
         self.pdf = canvas.Canvas(str(output), pagesize=(W, H), pageCompression=1, invariant=1)
-        self.pdf.setTitle("Потребительские профили муниципалитетов: результаты и устойчивость")
+        self.pdf.setTitle("Потребительские профили: экономика территорий и сети сходства")
         self.pdf.setAuthor("roshlight / sberindex-clustering-submission")
-        self.pdf.setSubject("СберИндекс 2026. Данные 2023-2024. Исследование устойчивости.")
+        self.pdf.setSubject("СберИндекс 2026. Экономические различия 2 016 МО в 2023-2024 годах.")
         self.page = 0
 
     def text(self, x, y, text, size=22, color=INK, bold=False):
@@ -204,6 +204,57 @@ def gradients() -> plt.Figure:
         bar = fig.colorbar(points, ax=ax, shrink=0.82, pad=0.025)
         bar.set_label("МО в ячейке", fontsize=12)
         bar.ax.tick_params(labelsize=11)
+    return fig
+
+
+def economic_comparisons() -> pd.DataFrame:
+    data = read("reports/enriched_analysis/core_v2/cv_comparisons.csv")
+    selected = data.loc[
+        (data.year == 2024)
+        & (data["sample"] == "core")
+        & (data.baseline == "context")
+        & (data.alternative == "economic")
+    ].set_index(["regime", "target"])
+    expected = {
+        ("within_region", "profile_clr"),
+        ("heldout_regions", "profile_clr"),
+        ("within_region", "log_total"),
+        ("heldout_regions", "log_total"),
+    }
+    if len(selected) != 4 or set(selected.index) != expected:
+        raise ValueError("Expected the four original 2024 core economic comparisons")
+    return selected
+
+
+def economic_increment() -> plt.Figure:
+    data = economic_comparisons()
+    fig, axes = plt.subplots(1, 2, figsize=(12.2, 4.45), sharex=True, sharey=True)
+    fig.subplots_adjust(left=0.2, right=0.97, bottom=0.18, top=0.83, wspace=0.22)
+    for ax, regime, title in zip(
+        axes,
+        ["within_region", "heldout_regions"],
+        ["Внутри регионов", "Регионы вне обучения"],
+        strict=True,
+    ):
+        values = [
+            float(data.loc[(regime, target), "relative_mse_reduction"]) * 100
+            for target in ["profile_clr", "log_total"]
+        ]
+        ax.barh([0, 1], values, color=[TEAL, BLUE], height=0.47)
+        for y, value in enumerate(values):
+            ax.text(value + 1.5, y, russian(value, 1) + "%", va="center", weight="bold")
+        ax.set(
+            title=title,
+            yticks=[0, 1],
+            yticklabels=["Состав профиля", "Уровень расходов"],
+            xlabel="Снижение квадратичной ошибки, %",
+            xlim=(0, 76),
+            ylim=(1.6, -0.6),
+        )
+        ax.xaxis.set_major_formatter(PercentFormatter(xmax=100, decimals=0))
+        ax.grid(axis="x", alpha=0.6)
+        ax.set_axisbelow(True)
+        ax.tick_params(axis="y", length=0)
     return fig
 
 
@@ -430,15 +481,18 @@ def market_access() -> plt.Figure:
 def build(output: Path) -> None:
     register_fonts()
     deck = Deck(output)
+    economic = economic_comparisons()
+    profile_gain = float(economic.loc[("within_region", "profile_clr"), "relative_mse_reduction"])
+    heldout_gain = float(economic.loc[("heldout_regions", "profile_clr"), "relative_mse_reduction"])
 
     # 1: the central finding is visible before details of the protocol.
     deck.start("Результат", "Потребительские профили муниципалитетов")
-    deck.text(54, 169, "Профили различаются.", 53, INK, True)
-    deck.text(54, 236, "Типология пока неустойчива.", 53, TEAL, True)
+    deck.text(54, 169, "Потребление отражает", 53, INK, True)
+    deck.text(54, 236, "экономику территорий.", 53, TEAL, True)
     deck.paragraph(
         56,
         326,
-        "Динамические сети сходства и проверка чувствительности кластеризации",
+        "Сети сходства связывают муниципалитеты с близкой структурой расходов",
         1040,
         25,
         color=MUTED,
@@ -446,18 +500,19 @@ def build(output: Path) -> None:
     positions = [54, 438, 830]
     for x, number, label in zip(
         positions,
-        ["2 016", "24", "4 / 21"],
-        ["муниципалитетов", "месяца: 2023-2024", "метода / альтернативы"],
+        ["2 016", "24", russian(profile_gain * 100, 1) + "%"],
+        ["муниципалитетов", "месяца: 2023-2024", "снижение ошибки профиля"],
         strict=True,
     ):
         deck.text(x, 423, number, 43, INK, True)
         deck.text(x, 483, label, 19, MUTED)
+    deck.text(830, 512, "внутри регионов, 2024 год", 16, MUTED)
     deck.line(54, 536, 1226, 536)
     deck.paragraph(
         54,
         560,
-        "Экономические различия содержательны. Границы сообществ чувствительны к методу; "
-        "устойчивую типологию выбранная процедура не подтверждает.",
+        "Население, зарплата и концентрация рабочих мест улучшают описание потребления "
+        "по сравнению с моделью, учитывающей только регион и тип муниципалитета.",
         1125,
         22,
     )
@@ -489,7 +544,7 @@ def build(output: Path) -> None:
             "03",
             "Сообщества",
             "Leiden: разрешение 1,0; seed 13.",
-            "Контроли: косинусная сеть и два варианта KMeans.",
+            "Сравнение: четыре метода и 21 альтернатива в каждом месяце.",
         ),
     ]
     for x, n, title, body, extra in steps:
@@ -502,36 +557,58 @@ def build(output: Path) -> None:
     deck.paragraph(
         54,
         592,
-        "Соотношения средних не равны точным долям семейного бюджета. "
-        "Рёбра описывают сходство профилей, а не реальные потоки.",
+        "Профиль: соотношение пяти опубликованных средних расходов. "
+        "Связь в сети: сходство структуры потребления двух муниципалитетов.",
         1160,
         19,
     )
     deck.footer("Источники: reports/initial_study/REPORT.md; configs/robustness_v1.json")
 
-    # 3: same original core sample; no claim that a plot rejects discrete classes.
+    # 3: the economic gradients use the same original core sample.
     deck.start(
         "Экономика",
-        "Наблюдаемые градиенты потребительских профилей",
+        "Масштаб и зарплата видны в расходах",
         "2024 год; 1 998 МО с полными базовыми признаками. По горизонтали - логарифмическая шкала.",
     )
     deck.figure(gradients(), 45, 187, 1185, 407)
     deck.paragraph(
         54,
         601,
-        "Связи описательные. Зарплата организаций отличается от дохода жителей; рабочие места - "
-        "от занятых жителей. Графики сами по себе не являются тестом "
-        "отсутствия дискретных классов.",
+        "В крупных муниципалитетах выше компонент общепита в профиле. "
+        "Зарплата работников организаций тесно связана с уровнем расходов. "
+        "На графиках показаны наблюдаемые соотношения за 2024 год.",
         1160,
         18,
         leading=25,
     )
     deck.footer("Источник: reports/enriched_analysis/core_v2/annual_panel.csv; выборка 2024 года")
 
-    # 4: original sample sensitivity and both years remain visible.
+    # 4: show the economic model's gain over region and municipality type.
     deck.start(
         "Экономика",
-        "Отрасли добавляют информацию о составе профиля",
+        "Экономические признаки улучшают описание профиля",
+        "2024 год, 1 998 МО. База внутри регионов: регион и тип МО; "
+        "на регионах вне обучения: тип МО.",
+    )
+    deck.figure(economic_increment(), 35, 191, 1195, 381)
+    deck.paragraph(
+        54,
+        594,
+        "Добавлены население, зарплата организаций и работники на душу населения. "
+        "Состав профиля оценён в CLR-координатах, уровень расходов в логарифмах. "
+        "Признаки и расходы относятся к одному году.",
+        1160,
+        18,
+        leading=24,
+    )
+    deck.footer(
+        "Источник: reports/enriched_analysis/core_v2/cv_comparisons.csv; выборка core, 2024"
+    )
+
+    # 5: original sample sensitivity and both years remain visible.
+    deck.start(
+        "Экономика",
+        "Отрасли уточняют структуру потребления",
         "2024: снижение ошибки на 1,38% внутри регионов и 7,34% при удержании целых регионов.",
     )
     deck.figure(sector_increment(), 36, 190, 1195, 411)
@@ -551,10 +628,10 @@ def build(output: Path) -> None:
         "seed 13; контроль пропусков включён"
     )
 
-    # 5: large table with comparable geometric and network metrics.
+    # 6: large table with comparable geometric and network metrics.
     deck.start(
         "Метрики",
-        "Разные метрики оценивают разные свойства групп",
+        "Leiden выше по модульности, KMeans по силуэту",
         "Медианы по 12 месяцам 2024 года. Стрелка показывает предпочтительное направление.",
     )
     metric_table = read("reports/initial_study/method_metrics.csv")
@@ -587,17 +664,17 @@ def build(output: Path) -> None:
     deck.paragraph(
         54,
         548,
-        "S_Dbw определён в 2/12, 8/12, 8/12 и 0/12 месяцев по порядку строк. "
-        "Неопределённые значения сохранены как неизвестные.",
+        "S_Dbw рассчитан для 2/12, 8/12, 8/12 и 0/12 месяцев по порядку строк. "
+        "Остальные случаи имеют нулевой знаменатель плотности.",
         1160,
         19,
     )
     deck.paragraph(
         54,
         613,
-        "Косинусный Leiden оценён на другой сети. "
-        "По AVU основной метод хуже контрольных перестановок. "
-        "Общего положительного вердикта всех метрик нет.",
+        "На сети Хеллингера Leiden даёт более высокую модульность, KMeans более высокий силуэт. "
+        "Косинусный Leiden использует свою сеть. По AVU контрольные перестановки "
+        "опережают основной метод.",
         1160,
         18,
         leading=23,
@@ -607,10 +684,10 @@ def build(output: Path) -> None:
         "docs/metrics.md (определения SW, CH, AVI, AVU, MQ)"
     )
 
-    # 6: one-factor distributions, with their true quartile/min/max meaning.
+    # 7: one-factor distributions, with their true quartile/min/max meaning.
     deck.start(
         "Устойчивость",
-        "Состав групп зависит от методических решений",
+        "Настройки меняют границы сообществ",
         "ARI сравнивает разбиения независимо от номеров меток. 1 означает полное совпадение.",
     )
     deck.figure(factor_sensitivity(), 35, 189, 1195, 406)
@@ -618,8 +695,7 @@ def build(output: Path) -> None:
         54,
         607,
         "Ящик: квартиль, медиана, квартиль. Усы: минимум и максимум; "
-        "это не доверительные интервалы. "
-        "Чувствительность возникает даже при смене случайного старта.",
+        "Смена случайного старта также меняет состав групп.",
         1160,
         19,
         leading=25,
@@ -629,10 +705,10 @@ def build(output: Path) -> None:
         "основной Leiden, помесячные разбиения"
     )
 
-    # 7: retain the operational threshold, denominator and concentration in August.
+    # 8: retain the operational threshold, denominator and concentration in August.
     deck.start(
         "Поддержка",
-        "Назначения редко проходят строгий фильтр",
+        "Строгий фильтр отбирает 66 назначений",
         "Поддержка альтернативы: Jaccard состава группы ≥ 0,8. "
         "Требуется минимум 17 из 21 альтернативы.",
     )
@@ -654,8 +730,8 @@ def build(output: Path) -> None:
     deck.paragraph(
         54,
         579,
-        "Порог операционный: он не измеряет вероятность истинности экономического типа. "
-        "Низкая поддержка ограничивает использование жёстких меток для отдельных территорий.",
+        "Для анализа отдельной территории используйте полный профиль и ближайших соседей. "
+        "При работе с меткой группы учитывайте совпадение её состава в 21 варианте расчёта.",
         1140,
         21,
     )
@@ -663,19 +739,19 @@ def build(output: Path) -> None:
         "Источники: reports/initial_study/monthly_support.csv; reports/initial_study/REPORT.md"
     )
 
-    # 8: separate annual evidence previously squeezed into the support slide.
+    # 9: compare methods on the same annual representation and territories.
     deck.start(
         "Устойчивость",
-        "Годовое усреднение не укрепило типологию",
+        "KMeans лучше сохраняет группы между годами",
         "Сравнение 2023 и 2024 года; 2 016 МО. Оба представления используют те же территории.",
     )
     deck.figure(annual_stability(), 35, 191, 1195, 392)
     deck.paragraph(
         54,
         588,
-        "Годовой Leiden: 0 из 2 016 назначений прошли порог 17 из 21 альтернативы в каждом году. "
-        "Более высокий ARI KMeans при K = 8 не подтверждает восемь истинных типов; "
-        "полная устойчивость KMeans здесь не оценивалась.",
+        "На годовых профилях KMeans с K = 8 даёт ARI 0,663, Leiden 0,325. "
+        "Доля смен групп: 16,1% и 54,2%. Строгий фильтр Leiden отбирает "
+        "0 из 2 016 назначений в каждом году.",
         1160,
         19,
         leading=25,
@@ -685,10 +761,10 @@ def build(output: Path) -> None:
         "annual_networks/README.md"
     )
 
-    # 9: original monthly trajectories; the robust filter is not an economic null.
+    # 10: distinguish group label changes from changes in the measured profile.
     deck.start(
         "Динамика",
-        "Сырые смены групп требуют проверки поддержки",
+        "Для динамики сравнивайте сами профили",
         "18 008 смен на 46 368 пар соседних месяцев. "
         "Ни одна не проходит парный фильтр основного Leiden.",
     )
@@ -702,8 +778,9 @@ def build(output: Path) -> None:
     deck.paragraph(
         54,
         604,
-        "Максимум совместной поддержки концов - 14/21 при требовании 17/21. "
-        "Нулевой итог фильтра не доказывает отсутствия изменений экономики.",
+        "Совместная поддержка концов достигает 14/21 при пороге 17/21. "
+        "Для мониторинга потребления сравнивайте уровни расходов и компоненты профиля "
+        "между месяцами; смену метки проверяйте отдельно.",
         1160,
         19,
         leading=25,
@@ -713,11 +790,11 @@ def build(output: Path) -> None:
         "после попарного согласования меток; 23 пары по 2 016 МО"
     )
 
-    # 10: original IQRs, local cluster labels and retrospective index date.
+    # 11: original IQRs, local cluster labels and retrospective index date.
     deck.start(
         "Контекст",
         "Доступность рынков различается между группами",
-        "В обоих месяцах различия превышают условный случайный ориентир "
+        "В июне и декабре различия превышают перестановочный контроль "
         "с сохранением регионального состава.",
     )
     deck.figure(market_access(), 30, 186, 1200, 402)
@@ -725,8 +802,8 @@ def build(output: Path) -> None:
         54,
         590,
         "Точка: медиана; полоса: 25-75% процентили. Номера групп локальны для месяца. "
-        "Индекс за весь 2024 год: проверка ретроспективная. Размер МО и пространственная "
-        "автокорреляция дополнительно не контролируются.",
+        "Индекс характеризует доступность рынков за 2024 год. Проверка сохраняет "
+        "региональный состав; размер МО и пространственная автокорреляция остаются вне модели.",
         1160,
         18,
         leading=24,
@@ -736,31 +813,30 @@ def build(output: Path) -> None:
         "docs/reviews/spatial_validation.md"
     )
 
-    # 11: applications are tied to evidence and its precise limits.
+    # 12: concrete applications of profile comparison and economic interpretation.
     deck.start(
         "Применение",
-        "Что можно использовать в прикладном анализе",
-        "Профили дают материал для сравнения территорий; "
-        "экономический контекст помогает их интерпретировать.",
+        "Как применять результат",
+        "Сопоставляйте потребление с экономикой территории и её положением в сети сходства.",
     )
     rows = [
         (
             208,
-            "Сравнивать профили",
-            "Различия населения, зарплаты, отраслей и пространственного контекста "
-            "дают содержательные исследовательские ориентиры.",
+            "Подбирать территории",
+            "Находите муниципалитеты с близкой структурой расходов. Сравнивайте "
+            "их население, зарплату и отраслевую занятость.",
         ),
         (
             349,
-            "Проверять назначения",
-            "Жёсткая метка зависит от метода. Для отдельного МО нужна проверка "
-            "поддержки, а для перехода - поддержка обоих концов.",
+            "Разбирать различия",
+            "Используйте уровень расходов и компоненты профиля. Сеть показывает "
+            "похожих соседей, экономические признаки уточняют сравнение.",
         ),
         (
             490,
-            "Исследовать кейсы",
-            "Подтверждённого списка экономических шоков здесь нет. Документальные "
-            "кейсы сохранены с ограничениями сопоставимости.",
+            "Следить за динамикой",
+            "Сравнивайте профиль территории по месяцам. Учитывайте изменение цен "
+            "при анализе расходов; сопоставляйте сдвиги с событиями в муниципалитете.",
         ),
     ]
     for top, title, body in rows:
@@ -772,39 +848,42 @@ def build(output: Path) -> None:
         "submission/METHODOLOGY.md"
     )
 
-    # 12: original closing caveats, with a clear and reproducible evidence trail.
-    deck.start("Границы", "Границы результата: процедура, данные, период")
-    limits = [
+    # 13: close on the measured results and their practical use.
+    deck.start("Итог", "Профили показывают экономику территорий")
+    findings = [
         (
             193,
-            "Период",
-            "24 месяца, 2023-2024. Панель ретроспективная; данных для вывода о будущих "
-            "экономических изменениях недостаточно.",
+            "Экономика",
+            "Население, зарплата и концентрация рабочих мест снижают ошибку описания "
+            f"профиля на {russian(profile_gain * 100, 1)}% внутри регионов и "
+            f"{russian(heldout_gain * 100, 1)}% на регионах вне обучения.",
         ),
         (
             307,
-            "Статус проверки",
-            "Основная процедура проверена на 2024 годе после фиксации на 2023-м. "
-            "Последующие анализы имеют исследовательский статус.",
+            "Отрасли",
+            "Восемь отраслевых показателей дополнительно снижают ошибку профиля "
+            "на 7,34% при проверке целых регионов.",
         ),
         (
             435,
-            "Новые признаки",
-            "Дополнения инвестиций, отгрузки и розницы не дали устойчивого прироста "
-            "модели профиля. Причинная интерпретация не установлена.",
+            "Сравнение",
+            "Сеть объединяет муниципалитеты с близкими потребительскими профилями. "
+            "Группы различаются по зарплате, масштабу и доступности рынков.",
         ),
     ]
-    for top, title, body in limits:
+    for top, title, body in findings:
         deck.text(54, top, title, 23, TEAL, True)
         deck.paragraph(365, top, body, 837, 22)
         deck.line(54, top + 89, 1226, top + 89)
-    deck.text(54, 564, "Методология, код, таблицы и архивы", 21, MUTED)
+    deck.text(
+        54, 558, "Сравнивайте территории по потреблению и экономическому контексту.", 25, TEAL, True
+    )
     url = "https://github.com/roshlight/sberindex-clustering-submission"
     deck.text(54, 603, "github.com/roshlight/sberindex-clustering-submission", 23, INK, True)
     deck.pdf.linkURL(url, (54, H - 635, 1020, H - 598), relative=0)
     deck.footer(
-        "Источники: submission/METHODOLOGY.md; reports/round4_analysis/REPORT.md; "
-        "reports/round5_analysis/REPORT.md"
+        "Результаты 2024 года. Источники: enriched_analysis/core_v2/cv_comparisons.csv; "
+        "round2_analysis/models/cv_comparisons.csv; enriched_analysis/REPORT.md"
     )
     deck.finish()
 
