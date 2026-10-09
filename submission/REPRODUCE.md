@@ -36,6 +36,17 @@ uv run --frozen ruff check .
 uv run --frozen ruff format --check .
 ```
 
+## Пересборка презентации
+
+Исходник оформления находится в `scripts/build_presentation.py`. Он читает сохранённые таблицы исследования, строит графики и собирает 12 слайдов формата 16:9. Шрифты с поддержкой русского языка поставляются вместе с закреплённой версией Matplotlib.
+
+```sh
+uv sync --frozen --group presentation
+uv run --frozen --group presentation python scripts/build_presentation.py --output submission/PRESENTATION.pdf
+```
+
+Для отдельной копии укажите другой путь в `--output`. Группа `presentation` добавляет зависимости сборки PDF к окружению анализа.
+
 ## Дополнительные исследования
 
 Следуйте исходным инструкциям [обогащённого анализа](../reports/enriched_analysis/REPRODUCE.md), [раунда 2](../reports/round2_analysis/REPRODUCE.md), [раунда 3](../reports/round3_analysis/REPRODUCE.md), [раунда 4](../reports/round4_analysis/REPRODUCE.md), [раунда 5](../reports/round5_analysis/REPRODUCE.md), [раунда 6](../reports/round6_analysis/REPRODUCE.md) и [пространственного трека](../docs/reviews/spatial_validation.md).

@@ -92,6 +92,32 @@ def _read_csv(path):
         return pd.DataFrame()
 
 
+def _adjusted_rand_index(left, right):
+    """Recompute ARI from pair counts, independently of the study implementation."""
+    left, right = np.asarray(left), np.asarray(right)
+    require(
+        left.ndim == right.ndim == 1 and len(left) == len(right),
+        "ARI: expected aligned one-dimensional label arrays",
+    )
+    n = len(left)
+    if n < 2:
+        return 1.0
+    _, left_codes, left_sizes = np.unique(left, return_inverse=True, return_counts=True)
+    _, right_codes, right_sizes = np.unique(right, return_inverse=True, return_counts=True)
+    _, cells = np.unique(np.column_stack((left_codes, right_codes)), axis=0, return_counts=True)
+
+    # Python integers keep pair-count products exact, including large cohorts.
+    def pairs(counts):
+        return sum(int(count) * (int(count) - 1) // 2 for count in counts)
+
+    total = n * (n - 1) // 2
+    joint, row, column = pairs(cells), pairs(left_sizes), pairs(right_sizes)
+    numerator = 2 * (total * joint - row * column)
+    denominator = total * (row + column) - 2 * row * column
+    # Identical one-group or all-singleton partitions have no adjusted variance.
+    return numerator / denominator if denominator else 1.0
+
+
 def _check_assignments(frame):
     columns(frame, ["month", "territory_id", "method", "label", *PROFILE], "assignments")
     require(not frame.empty, "assignments: empty")
@@ -121,9 +147,14 @@ def _check_membership(frame, assignments):
     actual_keys = set(frame[["month", "territory_id"]].itertuples(index=False, name=None))
     expected_keys = set(expected.itertuples(index=False, name=None))
     require(actual_keys == expected_keys, "membership: keys differ from primary assignments")
-    numeric(frame["agreement"], "membership.agreement", lower=0, upper=1)
+    agreement = numeric(frame["agreement"], "membership.agreement", lower=0, upper=1)
     counts = numeric(frame["n_comparisons"], "membership.n_comparisons", integer=True)
     require((counts == 21).all(), "membership: n_comparisons must equal 21")
+    supported = agreement * counts
+    require(
+        np.allclose(supported, np.rint(supported), rtol=0, atol=1e-9),
+        "membership: agreement must represent an integer number of supporting comparisons",
+    )
 
 
 def _check_transitions(frame, assignments):
@@ -267,6 +298,11 @@ def _check_summary(summary, transitions, flows, assignments):
             )
             continue
         numeric(pd.Series([row["ari"]]), "summary.ari", lower=-1, upper=1)
+        expected_ari = _adjusted_rand_index(group["from_label"], group["to_label"])
+        require(
+            np.isclose(row["ari"], expected_ari, rtol=0, atol=1e-10),
+            f"summary: ARI mismatch with transition labels {key}",
+        )
         switch_share = booleans(group["switched"], "transitions.switched").mean()
         require(
             np.isclose(row["switch_share"], switch_share), f"summary: switch share mismatch {key}"
