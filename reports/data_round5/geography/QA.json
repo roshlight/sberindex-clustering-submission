@@ -1,0 +1,14 @@
+{
+  "status": "ready_with_conditions",
+  "scope": "Exact code presence only",
+  "registry_versions": 6,
+  "new_registry_snapshots": 2,
+  "source_period_rows": 15440928,
+  "year_code_groups": 160690,
+  "municipal_panel_joins": 0,
+  "masks_changed": 0,
+  "workers_aggregated": false,
+  "historical_address_validated": false,
+  "historical_boundary_validated": false,
+  "tax_ids_with_this_code_additive_across_codes": false
+}

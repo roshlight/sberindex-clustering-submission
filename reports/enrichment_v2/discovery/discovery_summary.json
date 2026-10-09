@@ -1,0 +1,89 @@
+{
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "runs": [
+    {
+      "run": "population-deepseek-20260915-01",
+      "status": "failed",
+      "usage": {
+        "completed_calls": 0,
+        "http_attempts": 1,
+        "reported_cost_usd": 0.0354882,
+        "prompt_tokens": 2885,
+        "completion_tokens": 8000,
+        "calls_with_unknown_cost_or_failure": 0
+      },
+      "error_type": "ClientError",
+      "error_code": "truncated_completion",
+      "manifest_sha256": "c51e57574e257cdccc7996a7e819c0bb1985c1bf9c0acaa392d2f7268e873a52"
+    },
+    {
+      "run": "population-deepseek-20260915-02",
+      "status": "complete",
+      "usage": {
+        "completed_calls": 25,
+        "http_attempts": 26,
+        "reported_cost_usd": 0.8342989968159998,
+        "prompt_tokens": 488118,
+        "completion_tokens": 166769,
+        "calls_with_unknown_cost_or_failure": 0
+      },
+      "error_type": null,
+      "error_code": null,
+      "manifest_sha256": "acfd7c73e652ee4b162624f9857c65a652aa90baeba1845284bd8b6f4aca96dd"
+    }
+  ],
+  "reported_completed_call_models": {
+    "deepseek/deepseek-v4-pro-0813": 25
+  },
+  "documents": 31,
+  "readable_documents": 26,
+  "document_status_counts": {
+    "200": 30,
+    "None": 1
+  },
+  "cards": 22,
+  "model_review_failures": 2,
+  "search": {
+    "planned_requests": 66,
+    "requests": 10,
+    "cached_records": 0,
+    "deferred": 56,
+    "rate_limit_responses": 2,
+    "failed": 0,
+    "partial": 2,
+    "result_rows": 11,
+    "unique_urls": 19
+  },
+  "review_status": {
+    "planned": 24,
+    "cards": 22,
+    "failed": 2,
+    "deferred": 0,
+    "critic_status": "complete"
+  },
+  "model_call_states": {
+    "complete": 25,
+    "failed": 1
+  },
+  "model_processing_errors": [
+    {
+      "at": "2026-09-14T21:30:45.429476+00:00",
+      "stage": "model_error",
+      "error_type": "ClientError",
+      "error_code": "truncated_completion"
+    },
+    {
+      "at": "2026-09-14T21:33:09.383662+00:00",
+      "stage": "model_error",
+      "error_type": "ValueError",
+      "error_code": null
+    }
+  ],
+  "known_cost_total_usd": 0.8697871968159998,
+  "unknown_cost_attempts": 0,
+  "numerical_population_values_from_models": 0,
+  "limitations": [
+    "Cards are source-navigation drafts; numerical population uses deterministic source extraction.",
+    "Search quota exhaustion leaves deferred queries, not evidence of missing public data."
+  ]
+}

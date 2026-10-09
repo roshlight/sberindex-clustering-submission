@@ -1,0 +1,79 @@
+[
+  {
+    "source_id": "rosstat_prices",
+    "need_id_if_known": "regional_prices",
+    "title": "Цены и инфляция Росстата",
+    "url": "https://rosstat.gov.ru/statistics/price",
+    "download_urls": []
+  },
+  {
+    "source_id": "rosstat_bdpmo_indicators2024",
+    "need_id_if_known": "municipal_wages_employment",
+    "title": "Перечень показателей БДПМО 2024",
+    "url": "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+    "download_urls": []
+  },
+  {
+    "source_id": "rosstat_bdpmo",
+    "need_id_if_known": "municipal_wages_employment",
+    "title": "Региональные БДПМО",
+    "url": "https://rosstat.gov.ru/storage/mediabank/MUNST.htm",
+    "download_urls": []
+  },
+  {
+    "source_id": "rosstat_bdpmo_method2024",
+    "need_id_if_known": "municipal_wages_employment",
+    "title": "Методология БДПМО 2024",
+    "url": "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx",
+    "download_urls": []
+  },
+  {
+    "source_id": "rosstat_irkutsk",
+    "need_id_if_known": "sector_structure",
+    "title": "Муниципальная статистика Иркутскстата",
+    "url": "https://38.rosstat.gov.ru/main_indicators",
+    "download_urls": []
+  },
+  {
+    "source_id": "rosstat_population",
+    "need_id_if_known": "municipal_population",
+    "title": "Муниципальное население",
+    "url": "https://rosstat.gov.ru/compendium/document/13282",
+    "download_urls": []
+  },
+  {
+    "source_id": "rosstat_pskov",
+    "need_id_if_known": "territory_crosswalk",
+    "title": "Показатели муниципалитетов Псковстата",
+    "url": "https://60.rosstat.gov.ru/main_indicators",
+    "download_urls": []
+  },
+  {
+    "source_id": "fns_rmsp",
+    "need_id_if_known": "sector_structure",
+    "title": "Статистика реестра МСП",
+    "url": "https://rmsp.nalog.ru/statistics.html",
+    "download_urls": []
+  },
+  {
+    "source_id": "sber_data",
+    "need_id_if_known": "spending_methodology",
+    "title": "Описание конкурсного набора СберИндекса",
+    "url": "https://sberindex.ru/ru/research/data-sense-opisanie-nabora-dannikh-khakatona-sberindeksa-po-munitsipalnim-dannim",
+    "download_urls": []
+  },
+  {
+    "source_id": "sber_boundaries",
+    "need_id_if_known": "territory_crosswalk",
+    "title": "Границы и преобразования муниципалитетов",
+    "url": "https://sberindex.ru/ru/research/dataset-borders-and-changes-of-municipalities",
+    "download_urls": []
+  },
+  {
+    "source_id": "sber_codebook_pdf",
+    "need_id_if_known": "territory_crosswalk",
+    "title": "Метаданные муниципального справочника",
+    "url": "https://www.sberbank.ru/common/img/uploaded/files/pdf/sberindex/metadata_municipal_dict_sberindex_2.pdf",
+    "download_urls": []
+  }
+]

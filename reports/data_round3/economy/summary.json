@@ -1,0 +1,14 @@
+{
+  "rows": 12096,
+  "numeric": 10829,
+  "zeros": 0,
+  "source_cells": 10880,
+  "municipalities": 2016,
+  "links_sha256": "c268165dccd9527862f3358e6637c6346bff65196e3d1d74041af0d4505c02b5",
+  "script_sha256": "203032c7b551490939744bbe0590801b977a639cf6b394103a6f9986be6d25e3",
+  "cache_only": false,
+  "request_count": 13,
+  "cached_count": 403,
+  "boundary_equivalence_proven": 0,
+  "values_imputed": 0
+}

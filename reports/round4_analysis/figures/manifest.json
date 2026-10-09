@@ -1,0 +1,10 @@
+{
+  "input_sha256": "053c71966e6de941ad8ec47804dee9ee10fad4bc673d3f2e5cb85071252bf01f",
+  "code_sha256": "91858b5fb068d5cc612bbfacc6abc0b704a0667abb74d0eb23a6760e559540fd",
+  "outputs": {
+    "chart_contract.json": "80a45ba466c96e3cd6b49f6a68d7aa6958f824f86bfcd47febc36ad436a50793",
+    "primary_intervals.csv": "ad04c4c32a3b95100030e121be1c7866de730dee95c08e966193c6a1f999c642",
+    "profile_increment.png": "8d9d57a0dc8889a3dfe1adf235db37a01fbd3426c98301dd36f8eb79b945aa0b",
+    "profile_increment.svg": "83cff3b42763a6d7e57439c28e097decffc2c5c243d1b1a8cbdb8a9b4ed4cfb6"
+  }
+}

@@ -1,0 +1,11 @@
+year,code_kind_june2026,source_rows,source_code_groups,denominator_source_rows,share_source_rows_pct,municipal_panel_join_accepted
+2023,no_exact_code,3617,67,7555943,0.047869604098389834,False
+2023,region_group,1531266,83,7555943,20.2657166683232,False
+2023,section1_submunicipal_or_group,2234,161,7555943,0.029566130925021535,False
+2023,section1_top_level_or_group,64751,122,7555943,0.8569545852847222,False
+2023,section2_settlement,5954075,79407,7555943,78.79989301136867,False
+2024,no_exact_code,3139,49,7884985,0.0398098411093997,False
+2024,region_group,1609494,83,7884985,20.412137752957044,False
+2024,section1_submunicipal_or_group,3299,153,7884985,0.04183901427840383,False
+2024,section1_top_level_or_group,61977,107,7884985,0.7860129093460546,False
+2024,section2_settlement,6207076,80458,7884985,78.7202004823091,False

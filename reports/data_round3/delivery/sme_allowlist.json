@@ -1,0 +1,357 @@
+[
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/fns-archive-20240710-size.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/fns-archive-20240710-size.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/fns-archive-20250710-size.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/fns-archive-20250710-size.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/fns-license.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/fns-license.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/fns-license.pdf",
+    "archive_path": "work/data-round3/sme/raw/fns-license.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/fns-register-passport.html",
+    "archive_path": "work/data-round3/sme/raw/fns-register-passport.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/fns-register-passport.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/fns-register-passport.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/fns-schema-2022.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/fns-schema-2022.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/fns-schema-2022.xsd",
+    "archive_path": "work/data-round3/sme/raw/fns-schema-2022.xsd"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/fns-schema-2023.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/fns-schema-2023.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/fns-schema-2023.xsd",
+    "archive_path": "work/data-round3/sme/raw/fns-schema-2023.xsd"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/fns-schema-2025.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/fns-schema-2025.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/fns-schema-2025.xsd",
+    "archive_path": "work/data-round3/sme/raw/fns-schema-2025.xsd"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/fns-statistics-20230710.json",
+    "archive_path": "work/data-round3/sme/raw/fns-statistics-20230710.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/fns-statistics-20230710.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/fns-statistics-20230710.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/fns-statistics-20240710.json",
+    "archive_path": "work/data-round3/sme/raw/fns-statistics-20240710.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/fns-statistics-20240710.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/fns-statistics-20240710.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/fns-statistics-20250710.json",
+    "archive_path": "work/data-round3/sme/raw/fns-statistics-20250710.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/fns-statistics-20250710.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/fns-statistics-20250710.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/fns-statistics-interface.html",
+    "archive_path": "work/data-round3/sme/raw/fns-statistics-interface.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/fns-statistics-interface.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/fns-statistics-interface.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/fns-statistics-javascript.js",
+    "archive_path": "work/data-round3/sme/raw/fns-statistics-javascript.js"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/fns-statistics-javascript.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/fns-statistics-javascript.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/inventory.json",
+    "archive_path": "work/data-round3/sme/raw/inventory.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/ivanovo-municipal-page-table-1.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/ivanovo-municipal-page-table-1.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/ivanovo-municipal-page-table-1.pdf",
+    "archive_path": "work/data-round3/sme/raw/ivanovo-municipal-page-table-1.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/ivanovo-municipal-page-table-2.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/ivanovo-municipal-page-table-2.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/ivanovo-municipal-page-table-2.pdf",
+    "archive_path": "work/data-round3/sme/raw/ivanovo-municipal-page-table-2.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/ivanovo-municipal-page-table-3.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/ivanovo-municipal-page-table-3.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/ivanovo-municipal-page-table-3.pdf",
+    "archive_path": "work/data-round3/sme/raw/ivanovo-municipal-page-table-3.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/ivanovo-municipal-page-table-4.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/ivanovo-municipal-page-table-4.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/ivanovo-municipal-page-table-4.pdf",
+    "archive_path": "work/data-round3/sme/raw/ivanovo-municipal-page-table-4.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/ivanovo-municipal-page.html",
+    "archive_path": "work/data-round3/sme/raw/ivanovo-municipal-page.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/ivanovo-municipal-page.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/ivanovo-municipal-page.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/khabarovsk-municipal-page-table-1.doc",
+    "archive_path": "work/data-round3/sme/raw/khabarovsk-municipal-page-table-1.doc"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/khabarovsk-municipal-page-table-1.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/khabarovsk-municipal-page-table-1.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/khabarovsk-municipal-page-table-2.doc",
+    "archive_path": "work/data-round3/sme/raw/khabarovsk-municipal-page-table-2.doc"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/khabarovsk-municipal-page-table-2.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/khabarovsk-municipal-page-table-2.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/khabarovsk-municipal-page.html",
+    "archive_path": "work/data-round3/sme/raw/khabarovsk-municipal-page.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/khabarovsk-municipal-page.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/khabarovsk-municipal-page.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/magadan-municipal-page-table-1.docx",
+    "archive_path": "work/data-round3/sme/raw/magadan-municipal-page-table-1.docx"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/magadan-municipal-page-table-1.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/magadan-municipal-page-table-1.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/magadan-municipal-page-table-2.docx",
+    "archive_path": "work/data-round3/sme/raw/magadan-municipal-page-table-2.docx"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/magadan-municipal-page-table-2.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/magadan-municipal-page-table-2.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/magadan-municipal-page.html",
+    "archive_path": "work/data-round3/sme/raw/magadan-municipal-page.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/magadan-municipal-page.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/magadan-municipal-page.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/prikubansky-municipal-2024.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/prikubansky-municipal-2024.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/prikubansky-municipal-2024.pdf",
+    "archive_path": "work/data-round3/sme/raw/prikubansky-municipal-2024.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/rosstat-mp2020-methodology.html",
+    "archive_path": "work/data-round3/sme/raw/rosstat-mp2020-methodology.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/rosstat-mp2020-methodology.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/rosstat-mp2020-methodology.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/rosstat-municipal-catalog.htm",
+    "archive_path": "work/data-round3/sme/raw/rosstat-municipal-catalog.htm"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/rosstat-municipal-catalog.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/rosstat-municipal-catalog.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/rosstat-sme-regional-page-table-1.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/rosstat-sme-regional-page-table-1.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/rosstat-sme-regional-page-table-1.xlsx",
+    "archive_path": "work/data-round3/sme/raw/rosstat-sme-regional-page-table-1.xlsx"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/rosstat-sme-regional-page-table-2.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/rosstat-sme-regional-page-table-2.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/rosstat-sme-regional-page-table-2.xlsx",
+    "archive_path": "work/data-round3/sme/raw/rosstat-sme-regional-page-table-2.xlsx"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/rosstat-sme-regional-page.html",
+    "archive_path": "work/data-round3/sme/raw/rosstat-sme-regional-page.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/rosstat-sme-regional-page.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/rosstat-sme-regional-page.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/rosstat-transport-confidentiality.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/rosstat-transport-confidentiality.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/rosstat-transport-confidentiality.pdf",
+    "archive_path": "work/data-round3/sme/raw/rosstat-transport-confidentiality.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/sakhalin-municipal-page-table-1.htm",
+    "archive_path": "work/data-round3/sme/raw/sakhalin-municipal-page-table-1.htm"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/sakhalin-municipal-page-table-1.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/sakhalin-municipal-page-table-1.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/sakhalin-municipal-page.html",
+    "archive_path": "work/data-round3/sme/raw/sakhalin-municipal-page.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/sakhalin-municipal-page.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/sakhalin-municipal-page.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/vologda-finance-page-table-2.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/vologda-finance-page-table-2.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/vologda-finance-page-table-2.xlsx",
+    "archive_path": "work/data-round3/sme/raw/vologda-finance-page-table-2.xlsx"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/vologda-finance-page-table-4.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/vologda-finance-page-table-4.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/vologda-finance-page-table-4.xlsx",
+    "archive_path": "work/data-round3/sme/raw/vologda-finance-page-table-4.xlsx"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/vologda-finance-page.html",
+    "archive_path": "work/data-round3/sme/raw/vologda-finance-page.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/raw/vologda-finance-page.metadata.json",
+    "archive_path": "work/data-round3/sme/raw/vologda-finance-page.metadata.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/fetch_plan.json",
+    "archive_path": "work/data-round3/sme/fetch_plan.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/sme/finalize_audit.py",
+    "archive_path": "work/data-round3/sme/finalize_audit.py"
+  }
+]

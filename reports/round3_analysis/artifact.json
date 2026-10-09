@@ -1,0 +1,1940 @@
+{
+  "surface": "report",
+  "manifest": {
+    "version": 1,
+    "surface": "report",
+    "title": "Что дают инвестиции, отгрузка и розница для муниципальных профилей",
+    "generatedAt": "2026-09-16T17:01:13.371962+00:00",
+    "blocks": [
+      {
+        "id": "title",
+        "type": "markdown",
+        "body": "# Что дают инвестиции, отгрузка и розница для муниципальных профилей\n\nКейс 1 СберИндекса · третий раунд анализа · 16 сентября 2026 года"
+      },
+      {
+        "id": "summary",
+        "type": "markdown",
+        "body": "## Технический итог: оснований расширять ядро модели нет\n\n**Инвестиции, отгрузка и розничный оборот не показали устойчивого прироста качества описания потребительского профиля после учёта прежних экономических и отраслевых характеристик.** В четырёх основных сравнениях точечная ошибка немного выросла; все 95% интервалы включают ноль. Заранее установленный критерий включения блока не выполнен. Это вывод для проверенной линейной модели и этих выборок, а не доказательство экономической незначимости показателей.\n\nДля номинального уровня расходов есть положительные оценки при проверке на целых регионах. Однако перемешивание новых чисел внутри регионов сохраняет этот сигнал. Его муниципальная специфичность не подтверждена. Сохраняем новые данные для описания отдельных территорий; не меняем на их основе основную сеть и не объявляем новые устойчивые типы экономик.",
+        "sourceId": "models"
+      },
+      {
+        "id": "definitions",
+        "type": "markdown",
+        "body": "## Что именно сравнивалось\n\nЕдиница анализа — муниципалитет за год; каждый МО получает одинаковый вес. Использованы прежние 1975 МО за 2023 год и 1998 за 2024 год. Целевая структура — среднее 12 месячных нормированных показателей пяти категорий Сбера, преобразованное в CLR-координаты (логарифм компоненты относительно геометрического среднего). Это соотношения опубликованных показателей, а не полный бюджет домохозяйства.\n\nБаза включает население, зарплату организаций, число учтённых работников на жителя, тип МО, восемь отраслевых долей работников и их флаги пропусков. Число работников характеризует рабочие места организаций, не долю занятых жителей. В главном сравнении обе модели также содержат три флага отсутствия новых чисел. Разница между ними — только три новых логарифма денежных объёмов на жителя.\n\nПоложительное снижение ошибки означает улучшение: 100 × (1 − SSE новой модели / SSE базы). SSE суммируется по пяти CLR-координатам. В таблице абсолютная MSE дополнительно делится на число МО и на пять координат; это не меняет относительный выигрыш. R² рассчитан вне обучения по сумме координатных ошибок и вариаций. Вторичная цель — логарифм годового среднего месячного уровня опубликованных расходов.",
+        "sourceId": "models"
+      },
+      {
+        "id": "coverage_text",
+        "type": "markdown",
+        "body": "## Покрытие высокое, но пропуски систематичны\n\nВ сетке 2016 МО × 2 года × 3 показателя принято 10 829 чисел из 12 096 позиций. Остались 1267 пропусков: 1245 не возвращены или не приняты, 22 содержат неразрешённый маркер источника. Нулевую деятельность из этих статусов вывести нельзя. Все три модельных признака доступны для 1556 из 1975 МО в 2023 году и 1603 из 1998 в 2024 году.\n\nВ полученных ответах за 2024 год отсутствуют все три слоя у 37 МО Тверской и 36 МО Самарской области. Это ограничение сбора принятых ответов. Поэтому наличие числа контролируется отдельно от его величины; результат нельзя автоматически распространить на непокрытые территории.",
+        "sourceId": "coverage"
+      },
+      {
+        "id": "block_coverage_chart",
+        "type": "chart",
+        "chartId": "coverage_chart",
+        "layout": "full"
+      },
+      {
+        "id": "block_coverage_table",
+        "type": "table",
+        "tableId": "coverage_table",
+        "layout": "full"
+      },
+      {
+        "id": "measurement",
+        "type": "markdown",
+        "body": "Денежные значения взяты из БДПМО в тысячах рублей за год; инвестиции — годовой показатель, отгрузка и розница — январь–декабрь. Для модели используется log(значение × 1000 / население на начало года). Это номинальная интенсивность учтённой деятельности на территории, с ограничением охвата малых предприятий. Инвестиции не равны доходу жителей, отгрузка не равна добавленной стоимости, а торговля по месту продажи не равна покупкам жителей. Эти объёмы нельзя складывать. Числа не дефлированы.\n\nИсторические коды соединены по прежнему годовому справочнику. Маски качества не расширялись. Вне принятой годовой связи оказались 29 исходных строк, все с нечисловыми маркерами. В полной панели ещё 108 позиций имеют денежное число, но не имеют допустимого населения для логарифмического признака; в основной и консервативной выборках такого расхождения нет.",
+        "sourceId": "coverage"
+      },
+      {
+        "id": "main_text",
+        "type": "markdown",
+        "body": "## Новые числа не улучшают состав профиля\n\nПосле контроля пропусков снижение ошибки профиля составляет −0,033% и −0,037% внутри регионов, на −0,622% и −0,328% при удержании целых регионов в 2023 и 2024 годах соответственно. Минус здесь означает ухудшение. Все интервалы пересекают ноль. Практического основания добавлять три признака в ядро модели по этому результату нет.\n\nСтолбцы показывают точечные оценки основной выборки; интервалы и абсолютные метрики приведены в таблице. Статическая исследовательская фигура дополнительно показывает интервалы всех трёх выборок.",
+        "sourceId": "models"
+      },
+      {
+        "id": "block_profile_chart",
+        "type": "chart",
+        "chartId": "profile_chart",
+        "layout": "full"
+      },
+      {
+        "id": "block_main",
+        "type": "table",
+        "tableId": "main",
+        "layout": "full"
+      },
+      {
+        "id": "robustness",
+        "type": "markdown",
+        "body": "## Смена выборки не даёт устойчивого положительного результата\n\nСохраняем две заранее заданные проверки: МО без смены кода и типа, а также МО с полными тремя новыми показателями. Для первой точно повторены прежние разбиения; для второй построены свои общие для сравниваемых моделей разбиения. Все 12 интервалов основного сравнения профиля включают ноль. На полной подвыборке все три новых денежных показателя наблюдаются, но пропуски прежних восьми отраслей сохраняются. Изменение состава выборки и разбиения не позволяет считать разность её метрик чистым эффектом заполнения пропусков.",
+        "sourceId": "models"
+      },
+      {
+        "id": "block_sensitivity",
+        "type": "table",
+        "tableId": "sensitivity",
+        "layout": "full"
+      },
+      {
+        "id": "seed_text",
+        "type": "markdown",
+        "body": "При двух дополнительных заранее выбранных разбиениях внутри регионов знак основной оценки также отрицателен в обоих годах. Лучшее разбиение для итогового результата не выбиралось.",
+        "sourceId": "models"
+      },
+      {
+        "id": "block_seeds",
+        "type": "table",
+        "tableId": "seeds",
+        "layout": "full"
+      },
+      {
+        "id": "decomposition_text",
+        "type": "markdown",
+        "body": "## Эффект наличия данных отделён от эффекта чисел\n\nСравнение с более простой экономической базой, добавление только новых флагов пропусков и добавление всего блока не дают устойчивого выигрыша профиля. Во всех приведённых ниже сравнениях интервалы включают ноль. При последовательном исключении инвестиций, отгрузки и розницы также нет отдельного показателя с устойчивым положительным вкладом в профиль. Условные вклады зависят от остальных признаков и не обязаны складываться.",
+        "sourceId": "models"
+      },
+      {
+        "id": "block_decomposition",
+        "type": "table",
+        "tableId": "decomposition",
+        "layout": "full"
+      },
+      {
+        "id": "block_ablations",
+        "type": "table",
+        "tableId": "ablations",
+        "layout": "full"
+      },
+      {
+        "id": "secondary_text",
+        "type": "markdown",
+        "body": "## Сигнал уровня расходов сохраняется после перемешивания\n\nДля вторичной цели на целых регионах исходные числа дают снижение ошибки на 3,161% в 2023 году (95% интервал 0,860–5,385%) и на 1,852% в 2024 году (−0,259–4,056%). Внутри регионов интервалы включают ноль. На некоторых подвыборках оценки положительны, но это не заменяет основную проверку профиля.\n\nДиагностический контроль перемешивает наблюдаемые новые числа отдельно внутри каждого региона и отдельно в обучении и проверке, сохраняя места пропусков. Для целых регионов его точечный выигрыш равен 5,071% и 2,491% — он не исчезает и оказывается выше исходных оценок. Контроль сохраняет региональные распределения; результат не подтверждает, что выигрыш связан именно с соответствием числа конкретному МО.\n\nЭто одна фиксированная перестановка, без отдельного интервала разности «исходные минус перемешанные». Она не доказывает превосходство перемешанной модели или отсутствие муниципальной связи. Розничный оборот и расходы описывают близкие одновременные процессы, поэтому такую проверку также нельзя считать независимым экономическим подтверждением.",
+        "sourceId": "models"
+      },
+      {
+        "id": "block_control_chart",
+        "type": "chart",
+        "chartId": "control_chart",
+        "layout": "full"
+      },
+      {
+        "id": "block_control",
+        "type": "table",
+        "tableId": "control",
+        "layout": "full"
+      },
+      {
+        "id": "block_secondary",
+        "type": "table",
+        "tableId": "secondary",
+        "layout": "full"
+      },
+      {
+        "id": "slices_text",
+        "type": "markdown",
+        "body": "## Ошибки распределены неодинаково\n\nВ удержанных регионах у внутригородских территорий ошибка профиля возрастает на 13,075% в 2023 году и 1,600% в 2024 году; в этой группе по 242 МО. Это описательный срез сохранённых прогнозов, без отдельного интервала и без проверки множества гипотез. Он указывает на неоднородность, но не даёт основания исключить неудобную группу и пересчитать главный результат. Срезы по региону, числу доступных признаков и квартилю населения сохранены в таблице ошибок. Квартили рассчитаны только для описания, они не участвовали в обучении.",
+        "sourceId": "slices"
+      },
+      {
+        "id": "block_types",
+        "type": "table",
+        "tableId": "types",
+        "layout": "full"
+      },
+      {
+        "id": "case_text",
+        "type": "markdown",
+        "body": "## Отдельные территории нельзя описать одним темпом роста\n\nУ шести ранее выбранных МО доступны 34 из 36 денежных значений и 17 из 18 годовых пар. Для розницы Свободненского района данных нет в обоих годах. Таблица показывает номинальное изменение 2024 года к 2023-му. Коды, периоды и единицы совпадают; неизменность границ и круга респондентов не доказана.\n\nВ Верхнеколымском инвестиции выросли на 208,26%, а отгрузка снизилась на 24,89%. В Нижнеколымском инвестиции упали на 98,14%, при росте розницы на 16,75%. В Куркине рост розницы на 143,56% сочетается со снижением инвестиций на 48,59%. Такие сочетания помогают формулировать адресные вопросы к источникам, но не устанавливают завершение проекта, изменение дохода жителей или причину потребительского остатка. Эти случаи ранее выбраны по остаткам модели и не являются независимой проверочной выборкой.",
+        "sourceId": "cases"
+      },
+      {
+        "id": "block_cases",
+        "type": "table",
+        "tableId": "cases",
+        "layout": "full"
+      },
+      {
+        "id": "documents_text",
+        "type": "markdown",
+        "body": "Местные документы не снимают прежние противоречия. В Светловском число работников совпадает с опубликованной статистикой, но зарплата 2024 года отличается от зафиксированного ряда на 412,5 рубля; причина остаётся неизвестной. По Свободненскому нельзя смешивать декабрьское число работников со среднегодовым; два подозрительных числа из Амурского PDF остаются в карантине. В Куркине 8 — муниципальные служащие в штатном расписании на 31.12.2024, а 336 — трудоустроенные в «Жилищнике» на неустановленную дату отчёта. Эти сведения об отдельных учреждениях не заменяют общий итог территории.",
+        "sourceId": "documents"
+      },
+      {
+        "id": "methods",
+        "type": "markdown",
+        "body": "## Как ограничена неопределённость\n\nИспользована Ridge-регрессия с фиксированным alpha = 1. Медианы заполнения, масштабы и словари категорий оцениваются только на обучающих строках. Пять разбиений основной и консервативной выборок совпадают с прошлым раундом. Внутри регионов учитывается регион; при удержании целых регионов региональные фиктивные переменные исключены. Удержание региона не означает пространственного буфера от соседей.\n\n95% интервалы получены 2000 парными перевыборками регионов из фиксированных ошибок вне обучения. Модель при этом не переобучается. Интервалы условны относительно выборки, признаков и разбиения, не включают всю неопределённость процедуры и не скорректированы за множество вторичных сравнений.\n\nРезультаты обоих лет уже рассматривались в предыдущих раундах. Анализ остаётся исследовательским; 2024 год нельзя объявлять нетронутой проверкой. Годовые данные собраны в 2026 году, время первой публикации и история пересмотров неизвестны. Здесь нет утверждения о прогнозе будущего, доступности признаков на дату прогноза или причинном воздействии. Настройки после просмотра новых результатов не подбирались.",
+        "sourceId": "models"
+      },
+      {
+        "id": "decision",
+        "type": "markdown",
+        "body": "## Решение для первого кейса\n\n**Основную модель и сеть оставляем без нового денежного блока.** Заранее заданное правило требовало не менее 1% снижения ошибки профиля во всех четырёх основных сравнениях, положительной нижней границы интервала и согласованности на МО без смены кода. Эти условия не выполнены.\n\nНовые величины сохраняем в карточках территорий вместе с охватом и пропусками. Следующий содержательный шаг — проверка воспроизводимости экономической интерпретации прежней сети, а не расширение набора признаков ради положительной метрики. Отдельной проверки требуют отсутствие слоёв Тверской и Самарской областей, круг респондентов при резких изменениях и сопоставимость географии. До её завершения прежние ограничения по кодам, границам и несвязанной статистике МСП сохраняются."
+      }
+    ],
+    "charts": [
+      {
+        "id": "coverage_chart",
+        "title": "Доступность новых признаков в основной выборке",
+        "type": "bar",
+        "dataset": "coverage_chart",
+        "sourceId": "coverage",
+        "encodings": {
+          "x": {
+            "field": "indicator",
+            "type": "nominal"
+          },
+          "y": {
+            "field": "pct",
+            "type": "quantitative",
+            "label": "Доступно, % МО соответствующего года"
+          },
+          "color": {
+            "field": "year",
+            "type": "nominal"
+          }
+        },
+        "options": {
+          "orientation": "horizontal",
+          "grouping": "grouped"
+        },
+        "intent": "comparison",
+        "question": "Насколько полны три новых атрибута?",
+        "rationale": "Общая нулевая база; значения и интервалы приведены рядом в таблице."
+      },
+      {
+        "id": "profile_chart",
+        "title": "Дополнительная информация новых чисел о профиле",
+        "type": "bar",
+        "dataset": "profile_chart",
+        "sourceId": "models",
+        "encodings": {
+          "x": {
+            "field": "regime",
+            "type": "nominal"
+          },
+          "y": {
+            "field": "gain",
+            "type": "quantitative",
+            "label": "Снижение ошибки профиля, %"
+          },
+          "color": {
+            "field": "year",
+            "type": "nominal"
+          }
+        },
+        "options": {
+          "orientation": "horizontal",
+          "grouping": "grouped"
+        },
+        "intent": "comparison",
+        "question": "Улучшается ли профиль после старых атрибутов?",
+        "rationale": "Общая нулевая база; значения и интервалы приведены рядом в таблице."
+      },
+      {
+        "id": "control_chart",
+        "title": "Уровень расходов: исходные и перемешанные числа",
+        "type": "bar",
+        "dataset": "control_chart",
+        "sourceId": "models",
+        "encodings": {
+          "x": {
+            "field": "label",
+            "type": "nominal"
+          },
+          "y": {
+            "field": "gain",
+            "type": "quantitative",
+            "label": "Снижение ошибки log расходов, %"
+          },
+          "color": {
+            "field": "variant",
+            "type": "nominal"
+          }
+        },
+        "options": {
+          "orientation": "horizontal",
+          "grouping": "grouped"
+        },
+        "intent": "comparison",
+        "question": "Исчезает ли вторичный сигнал при перемешивании?",
+        "rationale": "Общая нулевая база; значения и интервалы приведены рядом в таблице."
+      }
+    ],
+    "tables": [
+      {
+        "id": "coverage_table",
+        "title": "Покрытие и знаменатели",
+        "dataset": "coverage_table",
+        "sourceId": "coverage",
+        "columns": [
+          {
+            "field": "year",
+            "label": "Год",
+            "type": "text"
+          },
+          {
+            "field": "indicator",
+            "label": "Показатель",
+            "type": "text"
+          },
+          {
+            "field": "n",
+            "label": "Доступно",
+            "type": "number"
+          },
+          {
+            "field": "denominator",
+            "label": "Всего МО",
+            "type": "number"
+          },
+          {
+            "field": "pct",
+            "label": "Покрытие, %",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "id": "main",
+        "title": "Основная выборка: одно и то же разбиение",
+        "dataset": "main",
+        "sourceId": "models",
+        "columns": [
+          {
+            "field": "year",
+            "label": "Год",
+            "type": "text"
+          },
+          {
+            "field": "regime",
+            "label": "Проверка",
+            "type": "text"
+          },
+          {
+            "field": "n",
+            "label": "МО",
+            "type": "number"
+          },
+          {
+            "field": "gain",
+            "label": "Снижение, %",
+            "type": "number"
+          },
+          {
+            "field": "ci",
+            "label": "95% интервал, %",
+            "type": "text"
+          },
+          {
+            "field": "mse_base",
+            "label": "MSE базы",
+            "type": "number"
+          },
+          {
+            "field": "mse_full",
+            "label": "MSE с числами",
+            "type": "number"
+          },
+          {
+            "field": "r2_base",
+            "label": "R² базы",
+            "type": "number"
+          },
+          {
+            "field": "r2_full",
+            "label": "R² с числами",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "id": "sensitivity",
+        "title": "Все заранее заданные выборки",
+        "dataset": "sensitivity",
+        "sourceId": "models",
+        "columns": [
+          {
+            "field": "year",
+            "label": "Год",
+            "type": "text"
+          },
+          {
+            "field": "sample",
+            "label": "Выборка",
+            "type": "text"
+          },
+          {
+            "field": "regime",
+            "label": "Проверка",
+            "type": "text"
+          },
+          {
+            "field": "n",
+            "label": "МО",
+            "type": "number"
+          },
+          {
+            "field": "gain",
+            "label": "Снижение ошибки, %",
+            "type": "number"
+          },
+          {
+            "field": "ci",
+            "label": "95% интервал, %",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "seeds",
+        "title": "Чувствительность к разбиению внутри регионов",
+        "dataset": "seeds",
+        "sourceId": "models",
+        "columns": [
+          {
+            "field": "year",
+            "label": "Год",
+            "type": "text"
+          },
+          {
+            "field": "seed",
+            "label": "Seed",
+            "type": "number"
+          },
+          {
+            "field": "gain",
+            "label": "Снижение ошибки, %",
+            "type": "number"
+          },
+          {
+            "field": "ci",
+            "label": "95% интервал, %",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "decomposition",
+        "title": "Дополнительные сравнения профиля",
+        "dataset": "decomposition",
+        "sourceId": "models",
+        "columns": [
+          {
+            "field": "year",
+            "label": "Год",
+            "type": "text"
+          },
+          {
+            "field": "regime",
+            "label": "Проверка",
+            "type": "text"
+          },
+          {
+            "field": "comparison",
+            "label": "Добавление",
+            "type": "text"
+          },
+          {
+            "field": "gain",
+            "label": "Снижение ошибки, %",
+            "type": "number"
+          },
+          {
+            "field": "ci",
+            "label": "95% интервал, %",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "ablations",
+        "title": "Возврат одного показателя в модель с остальными",
+        "dataset": "ablations",
+        "sourceId": "models",
+        "columns": [
+          {
+            "field": "year",
+            "label": "Год",
+            "type": "text"
+          },
+          {
+            "field": "regime",
+            "label": "Проверка",
+            "type": "text"
+          },
+          {
+            "field": "indicator",
+            "label": "Возвращённый показатель",
+            "type": "text"
+          },
+          {
+            "field": "gain",
+            "label": "Снижение ошибки, %",
+            "type": "number"
+          },
+          {
+            "field": "ci",
+            "label": "95% интервал, %",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "control",
+        "title": "Один диагностический контроль",
+        "dataset": "control",
+        "sourceId": "models",
+        "columns": [
+          {
+            "field": "year",
+            "label": "Год",
+            "type": "text"
+          },
+          {
+            "field": "regime",
+            "label": "Проверка",
+            "type": "text"
+          },
+          {
+            "field": "variant",
+            "label": "Числа",
+            "type": "text"
+          },
+          {
+            "field": "gain",
+            "label": "Снижение ошибки, %",
+            "type": "number"
+          },
+          {
+            "field": "ci",
+            "label": "95% интервал, %",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "secondary",
+        "title": "Вторичная цель во всех выборках",
+        "dataset": "secondary",
+        "sourceId": "models",
+        "columns": [
+          {
+            "field": "year",
+            "label": "Год",
+            "type": "text"
+          },
+          {
+            "field": "sample",
+            "label": "Выборка",
+            "type": "text"
+          },
+          {
+            "field": "regime",
+            "label": "Проверка",
+            "type": "text"
+          },
+          {
+            "field": "n",
+            "label": "МО",
+            "type": "number"
+          },
+          {
+            "field": "gain",
+            "label": "Снижение ошибки, %",
+            "type": "number"
+          },
+          {
+            "field": "ci",
+            "label": "95% интервал, %",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "types",
+        "title": "Профиль на целых регионах: типы МО",
+        "dataset": "types",
+        "sourceId": "slices",
+        "columns": [
+          {
+            "field": "year",
+            "label": "Год",
+            "type": "text"
+          },
+          {
+            "field": "type",
+            "label": "Тип МО",
+            "type": "text"
+          },
+          {
+            "field": "n",
+            "label": "МО",
+            "type": "number"
+          },
+          {
+            "field": "gain",
+            "label": "Снижение ошибки, %",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "id": "cases",
+        "title": "Номинальные изменения опубликованных объёмов",
+        "dataset": "cases",
+        "sourceId": "cases",
+        "columns": [
+          {
+            "field": "mo",
+            "label": "Муниципалитет",
+            "type": "text"
+          },
+          {
+            "field": "investment",
+            "label": "Инвестиции",
+            "type": "text"
+          },
+          {
+            "field": "shipments",
+            "label": "Отгрузка",
+            "type": "text"
+          },
+          {
+            "field": "retail",
+            "label": "Розница",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "models",
+        "label": "Фиксированные сравнения моделей третьего раунда",
+        "path": "reports/round3_analysis/models/cv_comparisons.csv",
+        "href": "https://github.com/sberindex-hackathon-2026/municipal-economic-profiles/blob/main/reports/round3_analysis/models/cv_comparisons.csv",
+        "query": {
+          "engine": "DuckDB",
+          "language": "sql",
+          "description": "Фиксированные сравнения моделей третьего раунда. Чтение сохранённого научного расчёта; исходное преобразование в original_python.",
+          "sql": "SELECT * FROM read_csv_auto('reports/round3_analysis/models/cv_comparisons.csv')",
+          "original_python": "# Computation: scripts/round3_model_analysis.py\nimport pandas as pd\nd = pd.read_csv('reports/round3_analysis/models/cv_comparisons.csv')\nprint(d)",
+          "tables_used": [
+            "reports/round3_analysis/models/cv_comparisons.csv",
+            "reports/round3_analysis/models/cv_metrics.csv",
+            "reports/round3_analysis/models/oof_predictions.parquet",
+            "configs/round3_analysis_v1.json",
+            "reports/round3_analysis/audit/annual_features.csv",
+            "reports/round2_analysis/models/model_panel.csv"
+          ],
+          "computation_path": "scripts/round3_model_analysis.py"
+        }
+      },
+      {
+        "id": "coverage",
+        "label": "Аудит покрытия трёх атрибутов",
+        "path": "reports/round3_analysis/audit/coverage.csv",
+        "href": "https://github.com/sberindex-hackathon-2026/municipal-economic-profiles/blob/main/reports/round3_analysis/audit/coverage.csv",
+        "query": {
+          "engine": "DuckDB",
+          "language": "sql",
+          "description": "Аудит покрытия трёх атрибутов. Чтение сохранённого научного расчёта; исходное преобразование в original_python.",
+          "sql": "SELECT * FROM read_csv_auto('reports/round3_analysis/audit/coverage.csv')",
+          "original_python": "# Computation: scripts/round3_data_audit.py\nimport pandas as pd\nd = pd.read_csv('reports/round3_analysis/audit/coverage.csv')\nprint(d)",
+          "tables_used": [
+            "reports/round3_analysis/audit/coverage.csv",
+            "reports/round3_analysis/audit/joint_coverage.csv",
+            "reports/round3_analysis/audit/coverage_by_region.csv",
+            "reports/round3_analysis/audit/collection_refusals.csv",
+            "reports/round3_analysis/audit/QA.json",
+            "reports/data_round3/economy/annual_candidate_panel.csv",
+            "reports/data_round2/sector/bulk/year_specific_links.csv"
+          ],
+          "computation_path": "scripts/round3_data_audit.py"
+        }
+      },
+      {
+        "id": "cases",
+        "label": "Шесть ранее выбранных МО: условно сопоставимые номинальные пары",
+        "path": "reports/round3_analysis/context/six_cases_economy_pairs.csv",
+        "href": "https://github.com/sberindex-hackathon-2026/municipal-economic-profiles/blob/main/reports/round3_analysis/context/six_cases_economy_pairs.csv",
+        "query": {
+          "engine": "DuckDB",
+          "language": "sql",
+          "description": "Шесть ранее выбранных МО: условно сопоставимые номинальные пары. Чтение сохранённого научного расчёта; исходное преобразование в original_python.",
+          "sql": "SELECT * FROM read_csv_auto('reports/round3_analysis/context/six_cases_economy_pairs.csv')",
+          "original_python": "# Computation: scripts/round3_context_analysis.py\nimport pandas as pd\nd = pd.read_csv('reports/round3_analysis/context/six_cases_economy_pairs.csv')\nprint(d)",
+          "tables_used": [
+            "reports/round3_analysis/context/six_cases_economy_pairs.csv"
+          ],
+          "computation_path": "scripts/round3_context_analysis.py"
+        }
+      },
+      {
+        "id": "documents",
+        "label": "Проверки сопоставимости местных документов",
+        "path": "reports/round3_analysis/context/document_comparability_checks.csv",
+        "href": "https://github.com/sberindex-hackathon-2026/municipal-economic-profiles/blob/main/reports/round3_analysis/context/document_comparability_checks.csv",
+        "query": {
+          "engine": "DuckDB",
+          "language": "sql",
+          "description": "Проверки сопоставимости местных документов. Чтение сохранённого научного расчёта; исходное преобразование в original_python.",
+          "sql": "SELECT * FROM read_csv_auto('reports/round3_analysis/context/document_comparability_checks.csv')",
+          "original_python": "# Computation: scripts/round3_context_analysis.py\nimport pandas as pd\nd = pd.read_csv('reports/round3_analysis/context/document_comparability_checks.csv')\nprint(d)",
+          "tables_used": [
+            "reports/round3_analysis/context/document_comparability_checks.csv"
+          ],
+          "computation_path": "scripts/round3_context_analysis.py"
+        }
+      },
+      {
+        "id": "slices",
+        "label": "Описательные срезы фиксированных ошибок",
+        "path": "reports/round3_analysis/models/slice_losses.csv",
+        "href": "https://github.com/sberindex-hackathon-2026/municipal-economic-profiles/blob/main/reports/round3_analysis/models/slice_losses.csv",
+        "query": {
+          "engine": "DuckDB",
+          "language": "sql",
+          "description": "Описательные срезы фиксированных ошибок. Чтение сохранённого научного расчёта; исходное преобразование в original_python.",
+          "sql": "SELECT * FROM read_csv_auto('reports/round3_analysis/models/slice_losses.csv')",
+          "original_python": "# Computation: scripts/round3_model_analysis.py\nimport pandas as pd\nd = pd.read_csv('reports/round3_analysis/models/slice_losses.csv')\nprint(d)",
+          "tables_used": [
+            "reports/round3_analysis/models/slice_losses.csv"
+          ],
+          "computation_path": "scripts/round3_model_analysis.py"
+        }
+      }
+    ]
+  },
+  "snapshot": {
+    "version": 1,
+    "status": "ready",
+    "generatedAt": "2026-09-16T17:01:13.371962+00:00",
+    "datasets": {
+      "coverage_chart": [
+        {
+          "year": "2023",
+          "indicator": "Инвестиции",
+          "n": 1801,
+          "denominator": 1975,
+          "pct": 91.19
+        },
+        {
+          "year": "2023",
+          "indicator": "Отгрузка",
+          "n": 1802,
+          "denominator": 1975,
+          "pct": 91.24
+        },
+        {
+          "year": "2023",
+          "indicator": "Розница",
+          "n": 1698,
+          "denominator": 1975,
+          "pct": 85.97
+        },
+        {
+          "year": "2024",
+          "indicator": "Инвестиции",
+          "n": 1817,
+          "denominator": 1998,
+          "pct": 90.94
+        },
+        {
+          "year": "2024",
+          "indicator": "Отгрузка",
+          "n": 1835,
+          "denominator": 1998,
+          "pct": 91.84
+        },
+        {
+          "year": "2024",
+          "indicator": "Розница",
+          "n": 1747,
+          "denominator": 1998,
+          "pct": 87.44
+        }
+      ],
+      "coverage_table": [
+        {
+          "year": "2023",
+          "indicator": "Инвестиции",
+          "n": 1801,
+          "denominator": 1975,
+          "pct": 91.19
+        },
+        {
+          "year": "2023",
+          "indicator": "Отгрузка",
+          "n": 1802,
+          "denominator": 1975,
+          "pct": 91.24
+        },
+        {
+          "year": "2023",
+          "indicator": "Розница",
+          "n": 1698,
+          "denominator": 1975,
+          "pct": 85.97
+        },
+        {
+          "year": "2024",
+          "indicator": "Инвестиции",
+          "n": 1817,
+          "denominator": 1998,
+          "pct": 90.94
+        },
+        {
+          "year": "2024",
+          "indicator": "Отгрузка",
+          "n": 1835,
+          "denominator": 1998,
+          "pct": 91.84
+        },
+        {
+          "year": "2024",
+          "indicator": "Розница",
+          "n": 1747,
+          "denominator": 1998,
+          "pct": 87.44
+        }
+      ],
+      "profile_chart": [
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": -0.033,
+          "ci": "[-0.426; 0.310]",
+          "label": "2023 · Внутри регионов",
+          "mse_base": 0.026918,
+          "mse_full": 0.026927,
+          "r2_base": 0.760564,
+          "r2_full": 0.760485
+        },
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": -0.622,
+          "ci": "[-2.547; 1.107]",
+          "label": "2023 · Целые регионы",
+          "mse_base": 0.048326,
+          "mse_full": 0.048627,
+          "r2_base": 0.570137,
+          "r2_full": 0.567462
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": -0.037,
+          "ci": "[-0.366; 0.292]",
+          "label": "2024 · Внутри регионов",
+          "mse_base": 0.026023,
+          "mse_full": 0.026033,
+          "r2_base": 0.769909,
+          "r2_full": 0.769825
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": -0.328,
+          "ci": "[-0.790; 0.179]",
+          "label": "2024 · Целые регионы",
+          "mse_base": 0.042421,
+          "mse_full": 0.04256,
+          "r2_base": 0.624923,
+          "r2_full": 0.623693
+        }
+      ],
+      "main": [
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": -0.033,
+          "ci": "[-0.426; 0.310]",
+          "label": "2023 · Внутри регионов",
+          "mse_base": 0.026918,
+          "mse_full": 0.026927,
+          "r2_base": 0.760564,
+          "r2_full": 0.760485
+        },
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": -0.622,
+          "ci": "[-2.547; 1.107]",
+          "label": "2023 · Целые регионы",
+          "mse_base": 0.048326,
+          "mse_full": 0.048627,
+          "r2_base": 0.570137,
+          "r2_full": 0.567462
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": -0.037,
+          "ci": "[-0.366; 0.292]",
+          "label": "2024 · Внутри регионов",
+          "mse_base": 0.026023,
+          "mse_full": 0.026033,
+          "r2_base": 0.769909,
+          "r2_full": 0.769825
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": -0.328,
+          "ci": "[-0.790; 0.179]",
+          "label": "2024 · Целые регионы",
+          "mse_base": 0.042421,
+          "mse_full": 0.04256,
+          "r2_base": 0.624923,
+          "r2_full": 0.623693
+        }
+      ],
+      "sensitivity": [
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": -0.033,
+          "ci": "[-0.426; 0.310]",
+          "label": "2023 · Внутри регионов"
+        },
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": -0.622,
+          "ci": "[-2.547; 1.107]",
+          "label": "2023 · Целые регионы"
+        },
+        {
+          "year": "2023",
+          "sample": "Без смены кода",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1897,
+          "regions": 72,
+          "gain": -0.206,
+          "ci": "[-0.650; 0.182]",
+          "label": "2023 · Внутри регионов"
+        },
+        {
+          "year": "2023",
+          "sample": "Без смены кода",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1897,
+          "regions": 72,
+          "gain": 0.197,
+          "ci": "[-1.727; 1.843]",
+          "label": "2023 · Целые регионы"
+        },
+        {
+          "year": "2023",
+          "sample": "Полные новые 3",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1556,
+          "regions": 59,
+          "gain": -0.235,
+          "ci": "[-0.746; 0.258]",
+          "label": "2023 · Внутри регионов"
+        },
+        {
+          "year": "2023",
+          "sample": "Полные новые 3",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1556,
+          "regions": 59,
+          "gain": -1.021,
+          "ci": "[-4.034; 1.206]",
+          "label": "2023 · Целые регионы"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": -0.037,
+          "ci": "[-0.366; 0.292]",
+          "label": "2024 · Внутри регионов"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": -0.328,
+          "ci": "[-0.790; 0.179]",
+          "label": "2024 · Целые регионы"
+        },
+        {
+          "year": "2024",
+          "sample": "Без смены кода",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1930,
+          "regions": 73,
+          "gain": -0.178,
+          "ci": "[-0.535; 0.172]",
+          "label": "2024 · Внутри регионов"
+        },
+        {
+          "year": "2024",
+          "sample": "Без смены кода",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1930,
+          "regions": 73,
+          "gain": -0.07,
+          "ci": "[-0.565; 0.460]",
+          "label": "2024 · Целые регионы"
+        },
+        {
+          "year": "2024",
+          "sample": "Полные новые 3",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1603,
+          "regions": 60,
+          "gain": -0.344,
+          "ci": "[-0.725; 0.052]",
+          "label": "2024 · Внутри регионов"
+        },
+        {
+          "year": "2024",
+          "sample": "Полные новые 3",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1603,
+          "regions": 60,
+          "gain": 0.256,
+          "ci": "[-0.631; 1.213]",
+          "label": "2024 · Целые регионы"
+        }
+      ],
+      "seeds": [
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": -0.033,
+          "ci": "[-0.426; 0.310]",
+          "label": "2023 · Внутри регионов"
+        },
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 29,
+          "n": 1975,
+          "regions": 72,
+          "gain": -0.055,
+          "ci": "[-0.430; 0.271]",
+          "label": "2023 · Внутри регионов"
+        },
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 47,
+          "n": 1975,
+          "regions": 72,
+          "gain": -0.183,
+          "ci": "[-0.574; 0.187]",
+          "label": "2023 · Внутри регионов"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": -0.037,
+          "ci": "[-0.366; 0.292]",
+          "label": "2024 · Внутри регионов"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 29,
+          "n": 1998,
+          "regions": 73,
+          "gain": -0.061,
+          "ci": "[-0.358; 0.233]",
+          "label": "2024 · Внутри регионов"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 47,
+          "n": 1998,
+          "regions": 73,
+          "gain": -0.056,
+          "ci": "[-0.362; 0.255]",
+          "label": "2024 · Внутри регионов"
+        }
+      ],
+      "decomposition": [
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": 0.389,
+          "ci": "[-0.209; 0.946]",
+          "label": "2023 · Внутри регионов",
+          "comparison": "Числа сверх простой базы"
+        },
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": -0.089,
+          "ci": "[-4.088; 3.164]",
+          "label": "2023 · Целые регионы",
+          "comparison": "Числа сверх простой базы"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": 0.189,
+          "ci": "[-0.215; 0.619]",
+          "label": "2024 · Внутри регионов",
+          "comparison": "Числа сверх простой базы"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": -0.083,
+          "ci": "[-1.585; 1.437]",
+          "label": "2024 · Целые регионы",
+          "comparison": "Числа сверх простой базы"
+        },
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": 0.114,
+          "ci": "[-0.688; 0.935]",
+          "label": "2023 · Внутри регионов",
+          "comparison": "Только новые флаги пропусков"
+        },
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": -0.576,
+          "ci": "[-5.226; 3.329]",
+          "label": "2023 · Целые регионы",
+          "comparison": "Только новые флаги пропусков"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": 0.551,
+          "ci": "[-0.059; 1.199]",
+          "label": "2024 · Внутри регионов",
+          "comparison": "Только новые флаги пропусков"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": 0.55,
+          "ci": "[-2.564; 3.111]",
+          "label": "2024 · Целые регионы",
+          "comparison": "Только новые флаги пропусков"
+        },
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": 0.081,
+          "ci": "[-0.875; 1.008]",
+          "label": "2023 · Внутри регионов",
+          "comparison": "Весь новый блок сверх отраслей"
+        },
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": -1.202,
+          "ci": "[-5.731; 2.976]",
+          "label": "2023 · Целые регионы",
+          "comparison": "Весь новый блок сверх отраслей"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": 0.514,
+          "ci": "[-0.177; 1.256]",
+          "label": "2024 · Внутри регионов",
+          "comparison": "Весь новый блок сверх отраслей"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": 0.224,
+          "ci": "[-2.748; 2.763]",
+          "label": "2024 · Целые регионы",
+          "comparison": "Весь новый блок сверх отраслей"
+        }
+      ],
+      "ablations": [
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": -0.063,
+          "ci": "[-0.213; 0.078]",
+          "label": "2023 · Внутри регионов",
+          "indicator": "Инвестиции"
+        },
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": 0.043,
+          "ci": "[-0.152; 0.253]",
+          "label": "2023 · Целые регионы",
+          "indicator": "Инвестиции"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": -0.048,
+          "ci": "[-0.193; 0.090]",
+          "label": "2024 · Внутри регионов",
+          "indicator": "Инвестиции"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": -0.208,
+          "ci": "[-0.430; 0.002]",
+          "label": "2024 · Целые регионы",
+          "indicator": "Инвестиции"
+        },
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": -0.072,
+          "ci": "[-0.159; 0.014]",
+          "label": "2023 · Внутри регионов",
+          "indicator": "Отгрузка"
+        },
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": -0.107,
+          "ci": "[-0.335; 0.126]",
+          "label": "2023 · Целые регионы",
+          "indicator": "Отгрузка"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": -0.0,
+          "ci": "[-0.198; 0.195]",
+          "label": "2024 · Внутри регионов",
+          "indicator": "Отгрузка"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": -0.093,
+          "ci": "[-0.294; 0.120]",
+          "label": "2024 · Целые регионы",
+          "indicator": "Отгрузка"
+        },
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": 0.107,
+          "ci": "[-0.209; 0.381]",
+          "label": "2023 · Внутри регионов",
+          "indicator": "Розница"
+        },
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": -0.687,
+          "ci": "[-2.953; 1.154]",
+          "label": "2023 · Целые регионы",
+          "indicator": "Розница"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": 0.061,
+          "ci": "[-0.176; 0.275]",
+          "label": "2024 · Внутри регионов",
+          "indicator": "Розница"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": 0.06,
+          "ci": "[-0.429; 0.561]",
+          "label": "2024 · Целые регионы",
+          "indicator": "Розница"
+        }
+      ],
+      "control_chart": [
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": 0.457,
+          "ci": "[-0.443; 1.509]",
+          "label": "2023 · Внутри регионов",
+          "variant": "Исходные числа"
+        },
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": 3.161,
+          "ci": "[0.860; 5.385]",
+          "label": "2023 · Целые регионы",
+          "variant": "Исходные числа"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": 0.449,
+          "ci": "[-0.546; 1.562]",
+          "label": "2024 · Внутри регионов",
+          "variant": "Исходные числа"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": 1.852,
+          "ci": "[-0.259; 4.056]",
+          "label": "2024 · Целые регионы",
+          "variant": "Исходные числа"
+        },
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": -1.238,
+          "ci": "[-1.850; -0.554]",
+          "label": "2023 · Внутри регионов",
+          "variant": "Перемешанные"
+        },
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": 5.071,
+          "ci": "[1.228; 8.206]",
+          "label": "2023 · Целые регионы",
+          "variant": "Перемешанные"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": -0.669,
+          "ci": "[-1.193; -0.095]",
+          "label": "2024 · Внутри регионов",
+          "variant": "Перемешанные"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": 2.491,
+          "ci": "[-0.117; 4.573]",
+          "label": "2024 · Целые регионы",
+          "variant": "Перемешанные"
+        }
+      ],
+      "control": [
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": 0.457,
+          "ci": "[-0.443; 1.509]",
+          "label": "2023 · Внутри регионов",
+          "variant": "Исходные числа"
+        },
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": 3.161,
+          "ci": "[0.860; 5.385]",
+          "label": "2023 · Целые регионы",
+          "variant": "Исходные числа"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": 0.449,
+          "ci": "[-0.546; 1.562]",
+          "label": "2024 · Внутри регионов",
+          "variant": "Исходные числа"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": 1.852,
+          "ci": "[-0.259; 4.056]",
+          "label": "2024 · Целые регионы",
+          "variant": "Исходные числа"
+        },
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": -1.238,
+          "ci": "[-1.850; -0.554]",
+          "label": "2023 · Внутри регионов",
+          "variant": "Перемешанные"
+        },
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": 5.071,
+          "ci": "[1.228; 8.206]",
+          "label": "2023 · Целые регионы",
+          "variant": "Перемешанные"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": -0.669,
+          "ci": "[-1.193; -0.095]",
+          "label": "2024 · Внутри регионов",
+          "variant": "Перемешанные"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": 2.491,
+          "ci": "[-0.117; 4.573]",
+          "label": "2024 · Целые регионы",
+          "variant": "Перемешанные"
+        }
+      ],
+      "secondary": [
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": 0.457,
+          "ci": "[-0.443; 1.509]",
+          "label": "2023 · Внутри регионов"
+        },
+        {
+          "year": "2023",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1975,
+          "regions": 72,
+          "gain": 3.161,
+          "ci": "[0.860; 5.385]",
+          "label": "2023 · Целые регионы"
+        },
+        {
+          "year": "2023",
+          "sample": "Без смены кода",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1897,
+          "regions": 72,
+          "gain": 0.104,
+          "ci": "[-1.060; 1.364]",
+          "label": "2023 · Внутри регионов"
+        },
+        {
+          "year": "2023",
+          "sample": "Без смены кода",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1897,
+          "regions": 72,
+          "gain": 2.593,
+          "ci": "[0.301; 5.080]",
+          "label": "2023 · Целые регионы"
+        },
+        {
+          "year": "2023",
+          "sample": "Полные новые 3",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1556,
+          "regions": 59,
+          "gain": 0.12,
+          "ci": "[-0.954; 1.450]",
+          "label": "2023 · Внутри регионов"
+        },
+        {
+          "year": "2023",
+          "sample": "Полные новые 3",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1556,
+          "regions": 59,
+          "gain": 4.201,
+          "ci": "[1.096; 6.759]",
+          "label": "2023 · Целые регионы"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": 0.449,
+          "ci": "[-0.546; 1.562]",
+          "label": "2024 · Внутри регионов"
+        },
+        {
+          "year": "2024",
+          "sample": "Основная",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1998,
+          "regions": 73,
+          "gain": 1.852,
+          "ci": "[-0.259; 4.056]",
+          "label": "2024 · Целые регионы"
+        },
+        {
+          "year": "2024",
+          "sample": "Без смены кода",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1930,
+          "regions": 73,
+          "gain": -0.058,
+          "ci": "[-1.229; 1.270]",
+          "label": "2024 · Внутри регионов"
+        },
+        {
+          "year": "2024",
+          "sample": "Без смены кода",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1930,
+          "regions": 73,
+          "gain": 2.376,
+          "ci": "[0.314; 4.334]",
+          "label": "2024 · Целые регионы"
+        },
+        {
+          "year": "2024",
+          "sample": "Полные новые 3",
+          "regime": "Внутри регионов",
+          "seed": 13,
+          "n": 1603,
+          "regions": 60,
+          "gain": 0.364,
+          "ci": "[-0.994; 1.711]",
+          "label": "2024 · Внутри регионов"
+        },
+        {
+          "year": "2024",
+          "sample": "Полные новые 3",
+          "regime": "Целые регионы",
+          "seed": 13,
+          "n": 1603,
+          "regions": 60,
+          "gain": 2.894,
+          "ci": "[0.187; 5.156]",
+          "label": "2024 · Целые регионы"
+        }
+      ],
+      "types": [
+        {
+          "year": "2023",
+          "type": "Внутригородские территории",
+          "n": 242,
+          "gain": -13.075
+        },
+        {
+          "year": "2023",
+          "type": "Городские округа",
+          "n": 427,
+          "gain": 1.769
+        },
+        {
+          "year": "2023",
+          "type": "Муниципальные округа",
+          "n": 263,
+          "gain": 0.948
+        },
+        {
+          "year": "2023",
+          "type": "Муниципальные районы",
+          "n": 1043,
+          "gain": 0.385
+        },
+        {
+          "year": "2024",
+          "type": "Внутригородские территории",
+          "n": 242,
+          "gain": -1.6
+        },
+        {
+          "year": "2024",
+          "type": "Городские округа",
+          "n": 431,
+          "gain": 0.488
+        },
+        {
+          "year": "2024",
+          "type": "Муниципальные округа",
+          "n": 351,
+          "gain": -0.509
+        },
+        {
+          "year": "2024",
+          "type": "Муниципальные районы",
+          "n": 974,
+          "gain": -0.249
+        }
+      ],
+      "cases": [
+        {
+          "mo": "Верхнеколымский",
+          "investment": "+208.26%",
+          "shipments": "-24.89%",
+          "retail": "+10.04%"
+        },
+        {
+          "mo": "Нижнеколымский",
+          "investment": "-98.14%",
+          "shipments": "-8.63%",
+          "retail": "+16.75%"
+        },
+        {
+          "mo": "Свободненский, Амурская обл.",
+          "investment": "+34.26%",
+          "shipments": "+102.77%",
+          "retail": "Нет пары"
+        },
+        {
+          "mo": "Красноярский, Астраханская обл.",
+          "investment": "-22.40%",
+          "shipments": "-0.67%",
+          "retail": "+33.92%"
+        },
+        {
+          "mo": "Светловский",
+          "investment": "-60.72%",
+          "shipments": "+6.18%",
+          "retail": "+14.71%"
+        },
+        {
+          "mo": "Куркино",
+          "investment": "-48.59%",
+          "shipments": "+7.51%",
+          "retail": "+143.56%"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "models",
+      "label": "Фиксированные сравнения моделей третьего раунда",
+      "path": "reports/round3_analysis/models/cv_comparisons.csv",
+      "href": "https://github.com/sberindex-hackathon-2026/municipal-economic-profiles/blob/main/reports/round3_analysis/models/cv_comparisons.csv",
+      "query": {
+        "engine": "DuckDB",
+        "language": "sql",
+        "description": "Фиксированные сравнения моделей третьего раунда. Чтение сохранённого научного расчёта; исходное преобразование в original_python.",
+        "sql": "SELECT * FROM read_csv_auto('reports/round3_analysis/models/cv_comparisons.csv')",
+        "original_python": "# Computation: scripts/round3_model_analysis.py\nimport pandas as pd\nd = pd.read_csv('reports/round3_analysis/models/cv_comparisons.csv')\nprint(d)",
+        "tables_used": [
+          "reports/round3_analysis/models/cv_comparisons.csv",
+          "reports/round3_analysis/models/cv_metrics.csv",
+          "reports/round3_analysis/models/oof_predictions.parquet",
+          "configs/round3_analysis_v1.json",
+          "reports/round3_analysis/audit/annual_features.csv",
+          "reports/round2_analysis/models/model_panel.csv"
+        ],
+        "computation_path": "scripts/round3_model_analysis.py"
+      }
+    },
+    {
+      "id": "coverage",
+      "label": "Аудит покрытия трёх атрибутов",
+      "path": "reports/round3_analysis/audit/coverage.csv",
+      "href": "https://github.com/sberindex-hackathon-2026/municipal-economic-profiles/blob/main/reports/round3_analysis/audit/coverage.csv",
+      "query": {
+        "engine": "DuckDB",
+        "language": "sql",
+        "description": "Аудит покрытия трёх атрибутов. Чтение сохранённого научного расчёта; исходное преобразование в original_python.",
+        "sql": "SELECT * FROM read_csv_auto('reports/round3_analysis/audit/coverage.csv')",
+        "original_python": "# Computation: scripts/round3_data_audit.py\nimport pandas as pd\nd = pd.read_csv('reports/round3_analysis/audit/coverage.csv')\nprint(d)",
+        "tables_used": [
+          "reports/round3_analysis/audit/coverage.csv",
+          "reports/round3_analysis/audit/joint_coverage.csv",
+          "reports/round3_analysis/audit/coverage_by_region.csv",
+          "reports/round3_analysis/audit/collection_refusals.csv",
+          "reports/round3_analysis/audit/QA.json",
+          "reports/data_round3/economy/annual_candidate_panel.csv",
+          "reports/data_round2/sector/bulk/year_specific_links.csv"
+        ],
+        "computation_path": "scripts/round3_data_audit.py"
+      }
+    },
+    {
+      "id": "cases",
+      "label": "Шесть ранее выбранных МО: условно сопоставимые номинальные пары",
+      "path": "reports/round3_analysis/context/six_cases_economy_pairs.csv",
+      "href": "https://github.com/sberindex-hackathon-2026/municipal-economic-profiles/blob/main/reports/round3_analysis/context/six_cases_economy_pairs.csv",
+      "query": {
+        "engine": "DuckDB",
+        "language": "sql",
+        "description": "Шесть ранее выбранных МО: условно сопоставимые номинальные пары. Чтение сохранённого научного расчёта; исходное преобразование в original_python.",
+        "sql": "SELECT * FROM read_csv_auto('reports/round3_analysis/context/six_cases_economy_pairs.csv')",
+        "original_python": "# Computation: scripts/round3_context_analysis.py\nimport pandas as pd\nd = pd.read_csv('reports/round3_analysis/context/six_cases_economy_pairs.csv')\nprint(d)",
+        "tables_used": [
+          "reports/round3_analysis/context/six_cases_economy_pairs.csv"
+        ],
+        "computation_path": "scripts/round3_context_analysis.py"
+      }
+    },
+    {
+      "id": "documents",
+      "label": "Проверки сопоставимости местных документов",
+      "path": "reports/round3_analysis/context/document_comparability_checks.csv",
+      "href": "https://github.com/sberindex-hackathon-2026/municipal-economic-profiles/blob/main/reports/round3_analysis/context/document_comparability_checks.csv",
+      "query": {
+        "engine": "DuckDB",
+        "language": "sql",
+        "description": "Проверки сопоставимости местных документов. Чтение сохранённого научного расчёта; исходное преобразование в original_python.",
+        "sql": "SELECT * FROM read_csv_auto('reports/round3_analysis/context/document_comparability_checks.csv')",
+        "original_python": "# Computation: scripts/round3_context_analysis.py\nimport pandas as pd\nd = pd.read_csv('reports/round3_analysis/context/document_comparability_checks.csv')\nprint(d)",
+        "tables_used": [
+          "reports/round3_analysis/context/document_comparability_checks.csv"
+        ],
+        "computation_path": "scripts/round3_context_analysis.py"
+      }
+    },
+    {
+      "id": "slices",
+      "label": "Описательные срезы фиксированных ошибок",
+      "path": "reports/round3_analysis/models/slice_losses.csv",
+      "href": "https://github.com/sberindex-hackathon-2026/municipal-economic-profiles/blob/main/reports/round3_analysis/models/slice_losses.csv",
+      "query": {
+        "engine": "DuckDB",
+        "language": "sql",
+        "description": "Описательные срезы фиксированных ошибок. Чтение сохранённого научного расчёта; исходное преобразование в original_python.",
+        "sql": "SELECT * FROM read_csv_auto('reports/round3_analysis/models/slice_losses.csv')",
+        "original_python": "# Computation: scripts/round3_model_analysis.py\nimport pandas as pd\nd = pd.read_csv('reports/round3_analysis/models/slice_losses.csv')\nprint(d)",
+        "tables_used": [
+          "reports/round3_analysis/models/slice_losses.csv"
+        ],
+        "computation_path": "scripts/round3_model_analysis.py"
+      }
+    }
+  ]
+}

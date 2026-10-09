@@ -1,0 +1,1417 @@
+{
+  "created_at_utc": "2026-09-14T21:11:17.410234+00:00",
+  "status": "archival_evidence_only",
+  "entries": [
+    {
+      "archive_path": "project/data/derived/enrichment/municipal_crosswalk_2023-01-01.csv",
+      "original_relative_path": "outputs/municipal-economic-profiles/data/derived/enrichment/municipal_crosswalk_2023-01-01.csv",
+      "sha256": "ee3de32865f707060ef2239f58f9f991d1c3f6ce52192019c005ba1b64954ae0",
+      "bytes": 845554,
+      "original_sha256": "ee3de32865f707060ef2239f58f9f991d1c3f6ce52192019c005ba1b64954ae0",
+      "original_bytes": 845554,
+      "source_urls": [],
+      "role": "derived_data",
+      "purpose": "Municipality crosswalk fixed at 2023-01-01.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "project/data/derived/enrichment/municipal_crosswalk_2024-01-01.csv",
+      "original_relative_path": "outputs/municipal-economic-profiles/data/derived/enrichment/municipal_crosswalk_2024-01-01.csv",
+      "sha256": "dc1603aacda2303a6ef836272d379323f527b32fd6bf0cffb55c279e0d22db3e",
+      "bytes": 845122,
+      "original_sha256": "dc1603aacda2303a6ef836272d379323f527b32fd6bf0cffb55c279e0d22db3e",
+      "original_bytes": 845122,
+      "source_urls": [],
+      "role": "derived_data",
+      "purpose": "Municipality crosswalk fixed at 2024-01-01, not the full year.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "project/data/derived/enrichment/municipal_crosswalk_audit.json",
+      "original_relative_path": "outputs/municipal-economic-profiles/data/derived/enrichment/municipal_crosswalk_audit.json",
+      "sha256": "795e5bfa51b361ec034f4fd88e919979a22ba0e090100dca00d16d8b1c86f2fa",
+      "bytes": 6241,
+      "original_sha256": "795e5bfa51b361ec034f4fd88e919979a22ba0e090100dca00d16d8b1c86f2fa",
+      "original_bytes": 6241,
+      "source_urls": [],
+      "role": "audit",
+      "purpose": "Dictionary version/cardinality and fixed-date primary-cohort audit.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "project/data/derived/enrichment/municipal_crosswalk_versions.csv",
+      "original_relative_path": "outputs/municipal-economic-profiles/data/derived/enrichment/municipal_crosswalk_versions.csv",
+      "sha256": "70825d5ae255c02026a44365d093ac102c3b737632d8b3d6beef1f00c3ace536",
+      "bytes": 935749,
+      "original_sha256": "70825d5ae255c02026a44365d093ac102c3b737632d8b3d6beef1f00c3ace536",
+      "original_bytes": 935749,
+      "source_urls": [],
+      "role": "derived_data",
+      "purpose": "Full versioned municipality crosswalk; open-ended validity does not prove coverage after 2024-01-01.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "project/data/raw/dataset_metadata.json",
+      "original_relative_path": "outputs/municipal-economic-profiles/data/raw/dataset_metadata.json",
+      "sha256": "126498bdfee9d41357655a3af2687ec15d6690a0e2f69b2c38160e321743d845",
+      "bytes": 324131,
+      "original_sha256": "126498bdfee9d41357655a3af2687ec15d6690a0e2f69b2c38160e321743d845",
+      "original_bytes": 324131,
+      "source_urls": [],
+      "role": "source_metadata",
+      "purpose": "Copy of decoded portal metadata.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "project/data/raw/manifest.json",
+      "original_relative_path": "outputs/municipal-economic-profiles/data/raw/manifest.json",
+      "sha256": "8584159729dec70308e5c98635b888068938bc02eff4ecaa53e9004c96132ce3",
+      "bytes": 1928,
+      "original_sha256": "8584159729dec70308e5c98635b888068938bc02eff4ecaa53e9004c96132ce3",
+      "original_bytes": 1928,
+      "source_urls": [],
+      "role": "source_metadata",
+      "purpose": "Prepared input manifest with source URLs and SHA256.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "project/data/raw/municipality-codebook.csv",
+      "original_relative_path": "outputs/municipal-economic-profiles/data/raw/municipality-codebook.csv",
+      "sha256": "2739525c0f6cf706a49b114c5f4391d445ef958c2402f77761296a67eefe76cb",
+      "bytes": 169711,
+      "original_sha256": "2739525c0f6cf706a49b114c5f4391d445ef958c2402f77761296a67eefe76cb",
+      "original_bytes": 169711,
+      "source_urls": [],
+      "role": "derived_codebook",
+      "purpose": "Decoded portal municipality code/name reference; name collisions must not create joins.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "project/data/raw/source_audit.json",
+      "original_relative_path": "outputs/municipal-economic-profiles/data/raw/source_audit.json",
+      "sha256": "e51e27e2d914bd55fa22b19cd38ed040cb61f1b3c48657ddab10eb387b7ea6ff",
+      "bytes": 27630,
+      "original_sha256": "e51e27e2d914bd55fa22b19cd38ed040cb61f1b3c48657ddab10eb387b7ea6ff",
+      "original_bytes": 27630,
+      "source_urls": [],
+      "role": "audit",
+      "purpose": "Copy of official bundle audit used for ingestion.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/dev_findings_aggregates.json",
+      "original_relative_path": "work/dev_findings_aggregates.json",
+      "sha256": "7e1eb3610e755671c235cda0e4b994f53c396434a9b726c1fd449f7b5ee47dc6",
+      "bytes": 54554,
+      "original_sha256": "7e1eb3610e755671c235cda0e4b994f53c396434a9b726c1fd449f7b5ee47dc6",
+      "original_bytes": 54554,
+      "source_urls": [],
+      "role": "audit",
+      "purpose": "Exact development-2023 numerical review aggregates.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/enrichment-evidence-review/quote-lineage-check.json",
+      "original_relative_path": "work/enrichment-evidence-review/quote-lineage-check.json",
+      "sha256": "8f7d6db77e76ff6de6475bbbb4674f19b5df53a3d62d4ea7f1266e14356d5590",
+      "bytes": 4370,
+      "original_sha256": "8f7d6db77e76ff6de6475bbbb4674f19b5df53a3d62d4ea7f1266e14356d5590",
+      "original_bytes": 4370,
+      "source_urls": [],
+      "role": "audit",
+      "purpose": "Selected evidence-card quote lineage audit; server cards themselves excluded.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/enrichment-sources/bdmo_met2024.download.json",
+      "original_relative_path": "work/enrichment-sources/bdmo_met2024.download.json",
+      "sha256": "990ee653557e5c1c1424a4d4763e366f845042a2da55ebb8b674c47da069837d",
+      "bytes": 267,
+      "original_sha256": "990ee653557e5c1c1424a4d4763e366f845042a2da55ebb8b674c47da069837d",
+      "original_bytes": 267,
+      "source_urls": [],
+      "role": "source_metadata",
+      "purpose": "Public source-discovery request/response/link or download metadata.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/enrichment-sources/bdmo_met2024.full-main-text.txt",
+      "original_relative_path": "work/enrichment-sources/bdmo_met2024.full-main-text.txt",
+      "sha256": "3479d0257fad5c903d28d4fd9ea12f2e44c9841d987b474a069a1d2e8832eeee",
+      "bytes": 296227,
+      "original_sha256": "3479d0257fad5c903d28d4fd9ea12f2e44c9841d987b474a069a1d2e8832eeee",
+      "original_bytes": 296227,
+      "source_urls": [],
+      "role": "derived_text",
+      "purpose": "Text extracted from a downloaded official/methodological source; prefer accompanying original source.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/enrichment-sources/bdmo_met2024.preview.txt",
+      "original_relative_path": "work/enrichment-sources/bdmo_met2024.preview.txt",
+      "sha256": "b3f49554f99366215261d943878324c9550dd4eefb70155133485e6c9426c44a",
+      "bytes": 174505,
+      "original_sha256": "b3f49554f99366215261d943878324c9550dd4eefb70155133485e6c9426c44a",
+      "original_bytes": 174505,
+      "source_urls": [],
+      "role": "derived_text",
+      "purpose": "Text extracted from a downloaded official/methodological source; prefer accompanying original source.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/enrichment-sources/crosswalk-audit-preview.csv",
+      "original_relative_path": "work/enrichment-sources/crosswalk-audit-preview.csv",
+      "sha256": "67e49617021fe53eef4d41f8cfc05ec6a3e1e7e17f33428a90f4ff49371e5567",
+      "bytes": 937029,
+      "original_sha256": "67e49617021fe53eef4d41f8cfc05ec6a3e1e7e17f33428a90f4ff49371e5567",
+      "original_bytes": 937029,
+      "source_urls": [],
+      "role": "audit",
+      "purpose": "Intermediate dictionary-version audit; final crosswalk tables supersede preview.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/enrichment-sources/crosswalk_download.json",
+      "original_relative_path": "work/enrichment-sources/crosswalk_download.json",
+      "sha256": "02a25c984bbd07a69df60012dfe30aa2e03f92b4bf04cc05d57d747976edad7d",
+      "bytes": 1471,
+      "original_sha256": "02a25c984bbd07a69df60012dfe30aa2e03f92b4bf04cc05d57d747976edad7d",
+      "original_bytes": 1471,
+      "source_urls": [],
+      "role": "source_metadata",
+      "purpose": "Public source-discovery request/response/link or download metadata.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/eval_findings_aggregates.json",
+      "original_relative_path": "work/eval_findings_aggregates.json",
+      "sha256": "4ab43191a8b51d2cadd62a6e073ce99b9fde3a22c684a8a63e5c4052e35c0bb0",
+      "bytes": 54449,
+      "original_sha256": "4ab43191a8b51d2cadd62a6e073ce99b9fde3a22c684a8a63e5c4052e35c0bb0",
+      "original_bytes": 54449,
+      "source_urls": [],
+      "role": "audit",
+      "purpose": "Exact evaluation-2024 numerical review aggregates.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/metric-sources/halkidi2002.pdf",
+      "original_relative_path": "work/metric-sources/halkidi2002.pdf",
+      "sha256": "e02b22d769bdf97731343761d17151b7334fb56ec4dbbc31446613ad95637fa3",
+      "bytes": 2183577,
+      "original_sha256": "e02b22d769bdf97731343761d17151b7334fb56ec4dbbc31446613ad95637fa3",
+      "original_bytes": 2183577,
+      "source_urls": [],
+      "role": "research_reference",
+      "purpose": "Primary cluster-validity methodological publication consulted for S_Dbw; not municipal observations.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/metric-sources/halkidi2002.txt",
+      "original_relative_path": "work/metric-sources/halkidi2002.txt",
+      "sha256": "b840d7d2d8eafd27bbb322f2c9ff60cf008af067f835f81e1af552600740cfbf",
+      "bytes": 85655,
+      "original_sha256": "b840d7d2d8eafd27bbb322f2c9ff60cf008af067f835f81e1af552600740cfbf",
+      "original_bytes": 85655,
+      "source_urls": [],
+      "role": "derived_text",
+      "purpose": "Text extracted from a downloaded official/methodological source; prefer accompanying original source.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/metric-sources/halkidi2008.pdf",
+      "original_relative_path": "work/metric-sources/halkidi2008.pdf",
+      "sha256": "d237ad6c8a22baaf896d28ec1dacf9ac11690288d9ff21569073cffcdcf30716",
+      "bytes": 56157,
+      "original_sha256": "d237ad6c8a22baaf896d28ec1dacf9ac11690288d9ff21569073cffcdcf30716",
+      "original_bytes": 56157,
+      "source_urls": [],
+      "role": "research_reference",
+      "purpose": "Additional primary cluster-validity methodological publication; not municipal observations.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/metric-sources/icsm99.pdf",
+      "original_relative_path": "work/metric-sources/icsm99.pdf",
+      "sha256": "5b7e030fc95f905fab8ba08e72c8cdbb55aa9573ad28e1ca505ca5aad5dea880",
+      "bytes": 339865,
+      "original_sha256": "5b7e030fc95f905fab8ba08e72c8cdbb55aa9573ad28e1ca505ca5aad5dea880",
+      "original_bytes": 339865,
+      "source_urls": [
+        "https://www.cs.drexel.edu/~bmitchell/pubs/icsm99.pdf"
+      ],
+      "role": "research_reference",
+      "purpose": "Primary modularization-quality publication used to disambiguate MQ; not municipal observations.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/metric-sources/icsm99.txt",
+      "original_relative_path": "work/metric-sources/icsm99.txt",
+      "sha256": "9f1ac06e8d3e3e04da3f89daacb4e1f88acf9bcd87d064fdf6cda2e899cd2660",
+      "bytes": 36180,
+      "original_sha256": "9f1ac06e8d3e3e04da3f89daacb4e1f88acf9bcd87d064fdf6cda2e899cd2660",
+      "original_bytes": 36180,
+      "source_urls": [],
+      "role": "derived_text",
+      "purpose": "Text extracted from a downloaded official/methodological source; prefer accompanying original source.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/population-join-probes/adygea-population-query.html",
+      "original_relative_path": "work/population-join-probes/adygea-population-query.html",
+      "sha256": "06bf5647148c37e7fe88d7c6aea0daa74177694ac4d6afd01b1fbd248a35feea",
+      "bytes": 50016,
+      "original_sha256": "06bf5647148c37e7fe88d7c6aea0daa74177694ac4d6afd01b1fbd248a35feea",
+      "original_bytes": 50016,
+      "source_urls": [],
+      "role": "source_snapshot",
+      "purpose": "Saved public official page or rendered page used in source discovery.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/population-join-probes/adygea-population-values.html",
+      "original_relative_path": "work/population-join-probes/adygea-population-values.html",
+      "sha256": "174b258ef0718e02544083dbac899b99d627a6397e93434c2f86ea432993fe22",
+      "bytes": 6534,
+      "original_sha256": "174b258ef0718e02544083dbac899b99d627a6397e93434c2f86ea432993fe22",
+      "original_bytes": 6534,
+      "source_urls": [],
+      "role": "source_snapshot",
+      "purpose": "Saved public official page or rendered page used in source discovery.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/population-join-probes/adygea-population.csv",
+      "original_relative_path": "work/population-join-probes/adygea-population.csv",
+      "sha256": "761d619169a4ee4493a02293a27e5fdd5324267ee3bd73f5795800542a67b2c9",
+      "bytes": 432,
+      "original_sha256": "761d619169a4ee4493a02293a27e5fdd5324267ee3bd73f5795800542a67b2c9",
+      "original_bytes": 432,
+      "source_urls": [],
+      "role": "raw_source",
+      "purpose": "Local public-source pilot export or source table; limited pilot scope applies.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/population-join-probes/adygea-selector-live.html",
+      "original_relative_path": "work/population-join-probes/adygea-selector-live.html",
+      "sha256": "f21767092da528bb161500eecb696135844eb766aa39772a385f22ad828c8917",
+      "bytes": 297820,
+      "original_sha256": "f21767092da528bb161500eecb696135844eb766aa39772a385f22ad828c8917",
+      "original_bytes": 297820,
+      "source_urls": [],
+      "role": "source_snapshot",
+      "purpose": "Saved public official page or rendered page used in source discovery.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/population-join-probes/bdpmo-cache/2d786173a5b683efd760b3284785b3f3799d6f4a31de5f30519eeebef486f86a.json",
+      "original_relative_path": "work/population-join-probes/bdpmo-cache/2d786173a5b683efd760b3284785b3f3799d6f4a31de5f30519eeebef486f86a.json",
+      "sha256": "945a5ece643b58501044ec07a928d29fba5dfd8ce642ff8b1d4d2fa6c35aec8e",
+      "bytes": 951,
+      "original_sha256": "945a5ece643b58501044ec07a928d29fba5dfd8ce642ff8b1d4d2fa6c35aec8e",
+      "original_bytes": 951,
+      "source_urls": [
+        "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi"
+      ],
+      "role": "source_provenance",
+      "purpose": "Public HTTP request/response provenance: POST https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi; application/x-csv; name=Report.csv",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/population-join-probes/bdpmo-cache/2fd7c0dd9133590283ada26fc5839a576b72c2a02648ccce8eec7d89f558d6ef.json",
+      "original_relative_path": "work/population-join-probes/bdpmo-cache/2fd7c0dd9133590283ada26fc5839a576b72c2a02648ccce8eec7d89f558d6ef.json",
+      "sha256": "e7436b6f7e422fee3fc422605bdfe7eb077324986c537148f7ff37952f570a4d",
+      "bytes": 515,
+      "original_sha256": "e7436b6f7e422fee3fc422605bdfe7eb077324986c537148f7ff37952f570a4d",
+      "original_bytes": 515,
+      "source_urls": [
+        "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi"
+      ],
+      "role": "source_provenance",
+      "purpose": "Public HTTP request/response provenance: POST https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi; text/html",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/population-join-probes/bdpmo-cache/376ccd0745be875c2b96328522ab9b33bf659aeb8feccad5b8fa8a6e8362c484.json",
+      "original_relative_path": "work/population-join-probes/bdpmo-cache/376ccd0745be875c2b96328522ab9b33bf659aeb8feccad5b8fa8a6e8362c484.json",
+      "sha256": "5e7d87c9f22b3590b78cf0f29ecf6cee9c901958d73863cd0f55547ff58fbd23",
+      "bytes": 565,
+      "original_sha256": "5e7d87c9f22b3590b78cf0f29ecf6cee9c901958d73863cd0f55547ff58fbd23",
+      "original_bytes": 565,
+      "source_urls": [
+        "https://rosstat.gov.ru/storage/mediabank/Vved_OKTMO_red891.docx"
+      ],
+      "role": "source_provenance",
+      "purpose": "Public HTTP request/response provenance: GET https://rosstat.gov.ru/storage/mediabank/Vved_OKTMO_red891.docx; application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/population-join-probes/bdpmo-cache/376ccd0745be875c2b96328522ab9b33bf659aeb8feccad5b8fa8a6e8362c484.raw",
+      "original_relative_path": "work/population-join-probes/bdpmo-cache/376ccd0745be875c2b96328522ab9b33bf659aeb8feccad5b8fa8a6e8362c484.raw",
+      "sha256": "62663a8ab0a31e683833c37527e6e523245916391a5360ff190bbce4e112d206",
+      "bytes": 27908,
+      "original_sha256": "62663a8ab0a31e683833c37527e6e523245916391a5360ff190bbce4e112d206",
+      "original_bytes": 27908,
+      "source_urls": [
+        "https://rosstat.gov.ru/storage/mediabank/Vved_OKTMO_red891.docx"
+      ],
+      "role": "raw_source",
+      "purpose": "Original public HTTP response: GET https://rosstat.gov.ru/storage/mediabank/Vved_OKTMO_red891.docx; application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/population-join-probes/bdpmo-cache/42b261872a1eb27ff687d4c842bf8877f57f58181cc28e1e71309fc5ee70d7a9.json",
+      "original_relative_path": "work/population-join-probes/bdpmo-cache/42b261872a1eb27ff687d4c842bf8877f57f58181cc28e1e71309fc5ee70d7a9.json",
+      "sha256": "e4ba7f0024958194875667fe6f9cebfa29d1a9d2e22888d85ca5ad5e56148d45",
+      "bytes": 585,
+      "original_sha256": "e4ba7f0024958194875667fe6f9cebfa29d1a9d2e22888d85ca5ad5e56148d45",
+      "original_bytes": 585,
+      "source_urls": [
+        "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20240101T1101-structure-20260210T1102.csv"
+      ],
+      "role": "source_provenance",
+      "purpose": "Public HTTP request/response provenance: GET https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20240101T1101-structure-20260210T1102.csv; text/plain;charset=UTF-8; official 2024-01-01 OKTMO registry used for exact-code bridge.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/population-join-probes/bdpmo-cache/46ddfd1744f3d51cfb1e26e21da81a1a67d5b06f0dce333603d7196b145ebf80.json",
+      "original_relative_path": "work/population-join-probes/bdpmo-cache/46ddfd1744f3d51cfb1e26e21da81a1a67d5b06f0dce333603d7196b145ebf80.json",
+      "sha256": "6bd9c6234a736e6895c22f1f48d875eb55cddc782d82ca8a7e01e36cc0e32ba9",
+      "bytes": 515,
+      "original_sha256": "6bd9c6234a736e6895c22f1f48d875eb55cddc782d82ca8a7e01e36cc0e32ba9",
+      "original_bytes": 515,
+      "source_urls": [
+        "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi"
+      ],
+      "role": "source_provenance",
+      "purpose": "Public HTTP request/response provenance: POST https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi; text/html",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/population-join-probes/bdpmo-cache/47859de188f0be2993c6cfb6f1568a9964fedeb48e053122c7c9f2a688f4e608.json",
+      "original_relative_path": "work/population-join-probes/bdpmo-cache/47859de188f0be2993c6cfb6f1568a9964fedeb48e053122c7c9f2a688f4e608.json",
+      "sha256": "d3e4ce3ffc587abfaf4a96537944775a6e1df847d940eb1a1af473b22b338a4d",
+      "bytes": 472,
+      "original_sha256": "d3e4ce3ffc587abfaf4a96537944775a6e1df847d940eb1a1af473b22b338a4d",
+      "original_bytes": 472,
+      "source_urls": [
+        "https://rosstat.gov.ru/dbscripts/munst/munst46/"
+      ],
+      "role": "source_provenance",
+      "purpose": "Public HTTP request/response provenance: GET https://rosstat.gov.ru/dbscripts/munst/munst46/; text/html",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/population-join-probes/bdpmo-cache/7062c988dcf5b686cf6737ff3263dfcca5cb3e0244d65cb5b154edf73f1ac7a0.json",
+      "original_relative_path": "work/population-join-probes/bdpmo-cache/7062c988dcf5b686cf6737ff3263dfcca5cb3e0244d65cb5b154edf73f1ac7a0.json",
+      "sha256": "f05cb0fbc46501eaf1ee46fd0454aa2203b5ac8060887d63df5092e88dcdb1f9",
+      "bytes": 1498,
+      "original_sha256": "f05cb0fbc46501eaf1ee46fd0454aa2203b5ac8060887d63df5092e88dcdb1f9",
+      "original_bytes": 1498,
+      "source_urls": [
+        "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi"
+      ],
+      "role": "source_provenance",
+      "purpose": "Public HTTP request/response provenance: POST https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi; application/x-csv; name=Report.csv",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/population-join-probes/bdpmo-cache/7a9faa7935aa5c138c5103e4e215e6342a57a4db0e8f8ee8ac0ec16a42e8e09a.json",
+      "original_relative_path": "work/population-join-probes/bdpmo-cache/7a9faa7935aa5c138c5103e4e215e6342a57a4db0e8f8ee8ac0ec16a42e8e09a.json",
+      "sha256": "e05091522e708dbab345be5a549611ec3d439a62842b4c94e12e31f7b6644a8f",
+      "bytes": 515,
+      "original_sha256": "e05091522e708dbab345be5a549611ec3d439a62842b4c94e12e31f7b6644a8f",
+      "original_bytes": 515,
+      "source_urls": [
+        "https://rosstat.gov.ru/dbscripts/munst/munst03/DBInet.cgi"
+      ],
+      "role": "source_provenance",
+      "purpose": "Public HTTP request/response provenance: POST https://rosstat.gov.ru/dbscripts/munst/munst03/DBInet.cgi; text/html",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/population-join-probes/bdpmo-cache/7f5ace834f3fff5c3235d6ca110a8af797cea41f85027f943c025ce589efbbea.json",
+      "original_relative_path": "work/population-join-probes/bdpmo-cache/7f5ace834f3fff5c3235d6ca110a8af797cea41f85027f943c025ce589efbbea.json",
+      "sha256": "f59bc7a55ba3f46fdb30bc5cfc3ce0a096eb6687ee65c70bd6be1042b9a48b0d",
+      "bytes": 1176,
+      "original_sha256": "f59bc7a55ba3f46fdb30bc5cfc3ce0a096eb6687ee65c70bd6be1042b9a48b0d",
+      "original_bytes": 1176,
+      "source_urls": [
+        "https://rosstat.gov.ru/dbscripts/munst/munst03/DBInet.cgi"
+      ],
+      "role": "source_provenance",
+      "purpose": "Public HTTP request/response provenance: POST https://rosstat.gov.ru/dbscripts/munst/munst03/DBInet.cgi; application/x-csv; name=Report.csv",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/population-join-probes/bdpmo-cache/9e2bccf3d70562b3d93d31cb38d58bc45d38a94f4554ced55c1cb5b68e9368f6.json",
+      "original_relative_path": "work/population-join-probes/bdpmo-cache/9e2bccf3d70562b3d93d31cb38d58bc45d38a94f4554ced55c1cb5b68e9368f6.json",
+      "sha256": "769c61c305ab2371ff1b5064bcad0daa4f0fb7e7a271a51dd623d38a8c61ae3c",
+      "bytes": 472,
+      "original_sha256": "769c61c305ab2371ff1b5064bcad0daa4f0fb7e7a271a51dd623d38a8c61ae3c",
+      "original_bytes": 472,
+      "source_urls": [
+        "https://rosstat.gov.ru/dbscripts/munst/munst03/"
+      ],
+      "role": "source_provenance",
+      "purpose": "Public HTTP request/response provenance: GET https://rosstat.gov.ru/dbscripts/munst/munst03/; text/html",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/population-join-probes/bdpmo-cache/d355086fe02edcedf4a4e431d269fa7e0771217d4a33ce19a31db97925f20013.json",
+      "original_relative_path": "work/population-join-probes/bdpmo-cache/d355086fe02edcedf4a4e431d269fa7e0771217d4a33ce19a31db97925f20013.json",
+      "sha256": "14dea9a165b941d3c67e56b23c849e27cc0dce2618555c9db3e8353616a2e68b",
+      "bytes": 472,
+      "original_sha256": "14dea9a165b941d3c67e56b23c849e27cc0dce2618555c9db3e8353616a2e68b",
+      "original_bytes": 472,
+      "source_urls": [
+        "https://rosstat.gov.ru/dbscripts/munst/munst79/"
+      ],
+      "role": "source_provenance",
+      "purpose": "Public HTTP request/response provenance: GET https://rosstat.gov.ru/dbscripts/munst/munst79/; text/html",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/population-join-probes/bdpmo-cache/ff838d274ddacd8a5e55ef8b9bba84b06765d4ca6cbac90211b42c4eaefb33d9.json",
+      "original_relative_path": "work/population-join-probes/bdpmo-cache/ff838d274ddacd8a5e55ef8b9bba84b06765d4ca6cbac90211b42c4eaefb33d9.json",
+      "sha256": "8a11a49a15add47a3d5b3a94063eca5e779661934a1ba44c28d2e6640e49517d",
+      "bytes": 543,
+      "original_sha256": "8a11a49a15add47a3d5b3a94063eca5e779661934a1ba44c28d2e6640e49517d",
+      "original_bytes": 543,
+      "source_urls": [
+        "https://rosstat.gov.ru/opendata/7708234640-oktmo/structure-20260210T1102.csv"
+      ],
+      "role": "source_provenance",
+      "purpose": "Public HTTP request/response provenance: GET https://rosstat.gov.ru/opendata/7708234640-oktmo/structure-20260210T1102.csv; text/plain;charset=UTF-8",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/population-join-probes/bdpmo-pilot-targets.json",
+      "original_relative_path": "work/population-join-probes/bdpmo-pilot-targets.json",
+      "sha256": "1e50acdc188fc7054fe533579e77c626950ef3f74098370fe3a06fd061d0fab2",
+      "bytes": 320,
+      "original_sha256": "1e50acdc188fc7054fe533579e77c626950ef3f74098370fe3a06fd061d0fab2",
+      "original_bytes": 320,
+      "source_urls": [],
+      "role": "source_metadata",
+      "purpose": "Public source-discovery request/response/link or download metadata.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/population-join-probes/oktmo-introduction.txt",
+      "original_relative_path": "work/population-join-probes/oktmo-introduction.txt",
+      "sha256": "70191ede5ccadcda3b924fa8cf1f63e83208e4b80b68b34d9316424395ea40ea",
+      "bytes": 31222,
+      "original_sha256": "70191ede5ccadcda3b924fa8cf1f63e83208e4b80b68b34d9316424395ea40ea",
+      "original_bytes": 31222,
+      "source_urls": [],
+      "role": "derived_text",
+      "purpose": "Text extracted from a downloaded official/methodological source; prefer accompanying original source.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/population-join-probes/pilot-region-options.json",
+      "original_relative_path": "work/population-join-probes/pilot-region-options.json",
+      "sha256": "a6c8f93c010c493fc247f719b4d7a37c1302c64ff44a4896302aa53a0fd3fbbe",
+      "bytes": 123639,
+      "original_sha256": "a6c8f93c010c493fc247f719b4d7a37c1302c64ff44a4896302aa53a0fd3fbbe",
+      "original_bytes": 123639,
+      "source_urls": [],
+      "role": "source_metadata",
+      "purpose": "Public source-discovery request/response/link or download metadata.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/population-join-probes/query-body-initial.json",
+      "original_relative_path": "work/population-join-probes/query-body-initial.json",
+      "sha256": "da48b6eb560cf03fa1d5373e848d6e4f281ff3bc853554272264125127e4722b",
+      "bytes": 230,
+      "original_sha256": "da48b6eb560cf03fa1d5373e848d6e4f281ff3bc853554272264125127e4722b",
+      "original_bytes": 230,
+      "source_urls": [],
+      "role": "source_metadata",
+      "purpose": "Public source-discovery request/response/link or download metadata.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/population-join-probes/query-body.json",
+      "original_relative_path": "work/population-join-probes/query-body.json",
+      "sha256": "f435a6b6222c0946ceb48ec9851485a400f41beb5fc341e2035ea12ad422d7cb",
+      "bytes": 303,
+      "original_sha256": "f435a6b6222c0946ceb48ec9851485a400f41beb5fc341e2035ea12ad422d7cb",
+      "original_bytes": 303,
+      "source_urls": [],
+      "role": "source_metadata",
+      "purpose": "Public source-discovery request/response/link or download metadata.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/population-join-probes/sber_rosstat_section1_2024_diagnostic.csv",
+      "original_relative_path": "work/population-join-probes/sber_rosstat_section1_2024_diagnostic.csv",
+      "sha256": "2e86cc18b06c0cb2bdb89ecde4152187f7b28c8eb052265bceef8221e9b2af05",
+      "bytes": 1167592,
+      "original_sha256": "2e86cc18b06c0cb2bdb89ecde4152187f7b28c8eb052265bceef8221e9b2af05",
+      "original_bytes": 1167592,
+      "source_urls": [],
+      "role": "audit",
+      "purpose": "Population/crosswalk diagnostic; does not authorize a name-based join.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/sberindex-research/boundaries-source-snapshot.yml",
+      "original_relative_path": "work/sberindex-research/boundaries-source-snapshot.yml",
+      "sha256": "73d39e425d051dcd467d3ba13a010d5efc1c66b65dcadd1e0eebd22b05fdabfb",
+      "bytes": 10947,
+      "original_sha256": "73d39e425d051dcd467d3ba13a010d5efc1c66b65dcadd1e0eebd22b05fdabfb",
+      "original_bytes": 10947,
+      "source_urls": [],
+      "role": "source_snapshot",
+      "purpose": "Saved public official page or rendered page used in source discovery.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/sberindex-research/category-codebook.json",
+      "original_relative_path": "work/sberindex-research/category-codebook.json",
+      "sha256": "11c5096855055a571196c8807a4295a17fd24f58cb7ce00bc6e2d9279b098418",
+      "bytes": 568,
+      "original_sha256": "11c5096855055a571196c8807a4295a17fd24f58cb7ce00bc6e2d9279b098418",
+      "original_bytes": 568,
+      "source_urls": [],
+      "role": "derived_codebook",
+      "purpose": "Decoded portal category codes and labels.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/sberindex-research/consumption-coverage-by-territory.csv",
+      "original_relative_path": "work/sberindex-research/consumption-coverage-by-territory.csv",
+      "sha256": "bca3c6f83fd970549debddb22a1b64386e02bdb1183fbebb5f06a580f31fd589",
+      "bytes": 222292,
+      "original_sha256": "bca3c6f83fd970549debddb22a1b64386e02bdb1183fbebb5f06a580f31fd589",
+      "original_bytes": 222292,
+      "source_urls": [],
+      "role": "audit",
+      "purpose": "Official consumption coverage by territory; identifies balanced cohort.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/sberindex-research/contest-rules.txt",
+      "original_relative_path": "work/sberindex-research/contest-rules.txt",
+      "sha256": "2e96dd3d00bf50a004e7de9034f1c993efcf43ecdf0b1bd0b0858f4b5f76e04d",
+      "bytes": 55763,
+      "original_sha256": "2e96dd3d00bf50a004e7de9034f1c993efcf43ecdf0b1bd0b0858f4b5f76e04d",
+      "original_bytes": 55763,
+      "source_urls": [],
+      "role": "derived_text",
+      "purpose": "Text extracted from a downloaded official/methodological source; prefer accompanying original source.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/sberindex-research/data-sense-metadata-snapshot.yml",
+      "original_relative_path": "work/sberindex-research/data-sense-metadata-snapshot.yml",
+      "sha256": "13365bf5a4f4c38e439e0a955072e005fef370009e5b4c13aa5770a4ee8dfd83",
+      "bytes": 14686,
+      "original_sha256": "13365bf5a4f4c38e439e0a955072e005fef370009e5b4c13aa5770a4ee8dfd83",
+      "original_bytes": 14686,
+      "source_urls": [],
+      "role": "source_snapshot",
+      "purpose": "Saved public official page or rendered page used in source discovery.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/sberindex-research/duplicate-candidate-keys.csv",
+      "original_relative_path": "work/sberindex-research/duplicate-candidate-keys.csv",
+      "sha256": "9872e4b6924efa08ef6f32d5f622df93a376834dc90ce5ea0c25708ca52ffbcf",
+      "bytes": 685478,
+      "original_sha256": "9872e4b6924efa08ef6f32d5f622df93a376834dc90ce5ea0c25708ca52ffbcf",
+      "original_bytes": 685478,
+      "source_urls": [],
+      "role": "audit",
+      "purpose": "Portal name/category/month duplicate candidates; evidence against joining by names.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/sberindex-research/hackathon-bundle/hackathonlicence/connection.parquet",
+      "original_relative_path": "work/sberindex-research/hackathon-bundle/hackathonlicence/connection.parquet",
+      "sha256": "20cbd5213d3ac1d0a867f097b485431811614b283d7366eb5cba9f65dc80493d",
+      "bytes": 21904682,
+      "original_sha256": "20cbd5213d3ac1d0a867f097b485431811614b283d7366eb5cba9f65dc80493d",
+      "original_bytes": 21904682,
+      "source_urls": [
+        "https://www.sberbank.com/common/img/uploaded/files/pdf/sberindex/hackathonlicence.zip"
+      ],
+      "role": "raw_source",
+      "purpose": "Official road/rail distance pairs, end-2024 snapshot.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/sberindex-research/hackathon-bundle/hackathonlicence/original_dataset_metadata.pdf",
+      "original_relative_path": "work/sberindex-research/hackathon-bundle/hackathonlicence/�����_����������_��業���.pdf",
+      "sha256": "030269e726f969250b911a1fcb72131a4b61c3952aad10c8470ce9c0736c472f",
+      "bytes": 538791,
+      "original_sha256": "030269e726f969250b911a1fcb72131a4b61c3952aad10c8470ce9c0736c472f",
+      "original_bytes": 538791,
+      "source_urls": [
+        "https://www.sberbank.com/common/img/uploaded/files/pdf/sberindex/hackathonlicence.zip"
+      ],
+      "role": "raw_source",
+      "purpose": "Original hackathon metadata PDF; extracted filename has encoding damage. Preserve original archive and hash.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/sberindex-research/hackathon-metadata.txt",
+      "original_relative_path": "work/sberindex-research/hackathon-metadata.txt",
+      "sha256": "b08edec7198dc0b7d05a4bc55cd8957cb94e6b64b6e1bdb08c79b153e1c75f3d",
+      "bytes": 11861,
+      "original_sha256": "b08edec7198dc0b7d05a4bc55cd8957cb94e6b64b6e1bdb08c79b153e1c75f3d",
+      "original_bytes": 11861,
+      "source_urls": [],
+      "role": "derived_text",
+      "purpose": "Text extracted from a downloaded official/methodological source; prefer accompanying original source.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/sberindex-research/municipal-boundaries-metadata.txt",
+      "original_relative_path": "work/sberindex-research/municipal-boundaries-metadata.txt",
+      "sha256": "8059f211f6133f50390eb71b32e48a4d44f0eb6e8e3e02ae116153a076413645",
+      "bytes": 9184,
+      "original_sha256": "8059f211f6133f50390eb71b32e48a4d44f0eb6e8e3e02ae116153a076413645",
+      "original_bytes": 9184,
+      "source_urls": [],
+      "role": "derived_text",
+      "purpose": "Text extracted from a downloaded official/methodological source; prefer accompanying original source.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/sberindex-research/municipal-spending/potrebitelskie-beznalicnye-rashody-na-urovne-munizipalnyh-obrazovanij_ru_1764079373653.csv",
+      "original_relative_path": "work/sberindex-research/municipal-spending/potrebitelskie-beznalicnye-rashody-na-urovne-munizipalnyh-obrazovanij_ru_1764079373653.csv",
+      "sha256": "c7c2b32f8a36a3a1f3a83db1dbbe8219657afcaf78677623540fa650ccaaa471",
+      "bytes": 58593282,
+      "original_sha256": "c7c2b32f8a36a3a1f3a83db1dbbe8219657afcaf78677623540fa650ccaaa471",
+      "original_bytes": 58593282,
+      "source_urls": [
+        "https://sberindex.ru/api/dataset/v1//download/potrebitelskie-beznalicnye-rashody-na-urovne-munizipalnyh-obrazovanij/csv"
+      ],
+      "role": "raw_source",
+      "purpose": "Original portal spending CSV; name-only keys collide. Do not substitute for coded official consumption.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/sberindex-research/municipal-spending-meta-sowa.json",
+      "original_relative_path": "work/sberindex-research/municipal-spending-meta-sowa.json",
+      "sha256": "e98ce6cf720c8d76ac3a0afaaeafd02b1b6d3394ce38149129b5f05048d51e77",
+      "bytes": 533332,
+      "original_sha256": "e98ce6cf720c8d76ac3a0afaaeafd02b1b6d3394ce38149129b5f05048d51e77",
+      "original_bytes": 533332,
+      "source_urls": [],
+      "role": "source_metadata",
+      "purpose": "Original encoded public API metadata response.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/sberindex-research/municipal-spending-snapshot.yml",
+      "original_relative_path": "work/sberindex-research/municipal-spending-snapshot.yml",
+      "sha256": "c00b2c84e21720c99765d1c56c39320e67e3acb51a28b92ab7da57516b67bc53",
+      "bytes": 419644,
+      "original_sha256": "c00b2c84e21720c99765d1c56c39320e67e3acb51a28b92ab7da57516b67bc53",
+      "original_bytes": 419644,
+      "source_urls": [],
+      "role": "source_snapshot",
+      "purpose": "Saved public official page or rendered page used in source discovery.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/sberindex-research/municipal-spending.parquet",
+      "original_relative_path": "work/sberindex-research/municipal-spending.parquet",
+      "sha256": "dbe07d6a3a974ab4fd13258a36382a3b056aa35d12ed6c2b132ae5775115e0f1",
+      "bytes": 1364792,
+      "original_sha256": "dbe07d6a3a974ab4fd13258a36382a3b056aa35d12ed6c2b132ae5775115e0f1",
+      "original_bytes": 1364792,
+      "source_urls": [
+        "https://sberindex.ru/api/dataset/v1//download/potrebitelskie-beznalicnye-rashody-na-urovne-munizipalnyh-obrazovanij/csv"
+      ],
+      "role": "derived_data",
+      "purpose": "Local conversion of portal CSV; name-only identity limitations remain.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/sberindex-research/municipal-spending.zip",
+      "original_relative_path": "work/sberindex-research/municipal-spending.zip",
+      "sha256": "e9a389e57dad7ec723ac58470fda2b2f870062a330efa979cb3952dd7513416d",
+      "bytes": 2251684,
+      "original_sha256": "e9a389e57dad7ec723ac58470fda2b2f870062a330efa979cb3952dd7513416d",
+      "original_bytes": 2251684,
+      "source_urls": [
+        "https://sberindex.ru/api/dataset/v1//download/potrebitelskie-beznalicnye-rashody-na-urovne-munizipalnyh-obrazovanij/csv"
+      ],
+      "role": "original_archive",
+      "purpose": "Unmodified portal CSV export; name-only keys have collisions, distinct source from coded hackathon panel.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/sberindex-research/municipality-name-collisions.json",
+      "original_relative_path": "work/sberindex-research/municipality-name-collisions.json",
+      "sha256": "b4a4fe6d4a4143857ace03352fe039095db787d6d2fbf7fb7e038afb1fab9eeb",
+      "bytes": 17708,
+      "original_sha256": "b4a4fe6d4a4143857ace03352fe039095db787d6d2fbf7fb7e038afb1fab9eeb",
+      "original_bytes": 17708,
+      "source_urls": [],
+      "role": "audit",
+      "purpose": "Portal municipality names mapping to multiple codes.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/sberindex-research/official-page-text.txt",
+      "original_relative_path": "work/sberindex-research/official-page-text.txt",
+      "sha256": "91c69071d32e6ad2d485c8426f76dd5a6af07feec7c1bc7fb8d1f762d9c0d1b1",
+      "bytes": 16588,
+      "original_sha256": "91c69071d32e6ad2d485c8426f76dd5a6af07feec7c1bc7fb8d1f762d9c0d1b1",
+      "original_bytes": 16588,
+      "source_urls": [],
+      "role": "derived_text",
+      "purpose": "Text extracted from a downloaded official/methodological source; prefer accompanying original source.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/sberindex-research/official-page.html",
+      "original_relative_path": "work/sberindex-research/official-page.html",
+      "sha256": "4b14faba4f423a6092780aef174a441b1c35ff61c5fc0ba3808310f2736e74b8",
+      "bytes": 619380,
+      "original_sha256": "4b14faba4f423a6092780aef174a441b1c35ff61c5fc0ba3808310f2736e74b8",
+      "original_bytes": 619380,
+      "source_urls": [],
+      "role": "source_snapshot",
+      "purpose": "Saved public official page or rendered page used in source discovery.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/sberindex-research/raw-data-audit.json",
+      "original_relative_path": "work/sberindex-research/raw-data-audit.json",
+      "sha256": "7bc62d18a7d1b99b758a83a733896a717a51a6e9610ea08031cdbaf5182c4973",
+      "bytes": 7488,
+      "original_sha256": "0dd56bcfc26a300b5b0ce10622e8eb065d6e693646a84fc4e5cdd5026bc5c38c",
+      "original_bytes": 7565,
+      "source_urls": [],
+      "role": "audit",
+      "purpose": "Portal CSV schema, coverage, values and duplicate-candidate audit.",
+      "transformation": "normalize_workspace_root_in_generated_metadata"
+    },
+    {
+      "archive_path": "work/sberindex-research/request-series.json",
+      "original_relative_path": "work/sberindex-research/request-series.json",
+      "sha256": "8223371d64d1181bfc2b4511eb37102feb37d823c92a8959bc01ac8db55fbc15",
+      "bytes": 366,
+      "original_sha256": "8223371d64d1181bfc2b4511eb37102feb37d823c92a8959bc01ac8db55fbc15",
+      "original_bytes": 366,
+      "source_urls": [],
+      "role": "source_metadata",
+      "purpose": "Public source-discovery request/response/link or download metadata.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/sberindex-research/response-series-decoded.json",
+      "original_relative_path": "work/sberindex-research/response-series-decoded.json",
+      "sha256": "1bdae1903fa91a55dcf3f1231aad053553e36ba4fbe021981884d58622736ca5",
+      "bytes": 10827,
+      "original_sha256": "1bdae1903fa91a55dcf3f1231aad053553e36ba4fbe021981884d58622736ca5",
+      "original_bytes": 10827,
+      "source_urls": [],
+      "role": "source_metadata",
+      "purpose": "Public source-discovery request/response/link or download metadata.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/sberindex-research/response-series-sowa.json",
+      "original_relative_path": "work/sberindex-research/response-series-sowa.json",
+      "sha256": "3db5e101fd6fe61c232fb9c8ab141a57ce492817340b738a3c004f03332af53f",
+      "bytes": 12236,
+      "original_sha256": "3db5e101fd6fe61c232fb9c8ab141a57ce492817340b738a3c004f03332af53f",
+      "original_bytes": 12236,
+      "source_urls": [],
+      "role": "source_metadata",
+      "purpose": "Public source-discovery request/response/link or download metadata.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/sberindex-research/tasks-and-submission.txt",
+      "original_relative_path": "work/sberindex-research/tasks-and-submission.txt",
+      "sha256": "07b40936f02e278018bb9ea61485472fde7c84803e47c2b438d7575e305a16fd",
+      "bytes": 28683,
+      "original_sha256": "07b40936f02e278018bb9ea61485472fde7c84803e47c2b438d7575e305a16fd",
+      "original_bytes": 28683,
+      "source_urls": [],
+      "role": "derived_text",
+      "purpose": "Text extracted from a downloaded official/methodological source; prefer accompanying original source.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/source-catalog-probes/fedstat-home.html",
+      "original_relative_path": "work/source-catalog-probes/fedstat-home.html",
+      "sha256": "dce5783ebbc18dea16ebe0603bbfb954ad63edceb0f1d8192ad1a151d5347381",
+      "bytes": 40062,
+      "original_sha256": "dce5783ebbc18dea16ebe0603bbfb954ad63edceb0f1d8192ad1a151d5347381",
+      "original_bytes": 40062,
+      "source_urls": [],
+      "role": "source_snapshot",
+      "purpose": "Saved public official page or rendered page used in source discovery.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/source-catalog-probes/head-files.json",
+      "original_relative_path": "work/source-catalog-probes/head-files.json",
+      "sha256": "84432a7716caef209523475660f38d31788c5d609d243530e77753957b09cf4b",
+      "bytes": 649,
+      "original_sha256": "84432a7716caef209523475660f38d31788c5d609d243530e77753957b09cf4b",
+      "original_bytes": 649,
+      "source_urls": [],
+      "role": "source_metadata",
+      "purpose": "Public source-discovery request/response/link or download metadata.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/source-catalog-probes/http-probe-results-2.json",
+      "original_relative_path": "work/source-catalog-probes/http-probe-results-2.json",
+      "sha256": "fa9692e366309c21a1f37e0e557a74c47ce0c695b6329296bc07655dbce61b5d",
+      "bytes": 2124,
+      "original_sha256": "fa9692e366309c21a1f37e0e557a74c47ce0c695b6329296bc07655dbce61b5d",
+      "original_bytes": 2124,
+      "source_urls": [],
+      "role": "source_metadata",
+      "purpose": "Public source-discovery request/response/link or download metadata.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/source-catalog-probes/http-probe-results-3.json",
+      "original_relative_path": "work/source-catalog-probes/http-probe-results-3.json",
+      "sha256": "30b6931b80698562148b08cd5f24c2e36ad78517b8c740ae7c01d965b36f3caa",
+      "bytes": 761,
+      "original_sha256": "30b6931b80698562148b08cd5f24c2e36ad78517b8c740ae7c01d965b36f3caa",
+      "original_bytes": 761,
+      "source_urls": [],
+      "role": "source_metadata",
+      "purpose": "Public source-discovery request/response/link or download metadata.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/source-catalog-probes/http-probe-results.json",
+      "original_relative_path": "work/source-catalog-probes/http-probe-results.json",
+      "sha256": "b389c05faf35999b4e33a1737c6ff237f8e956a7d7d959ef48ca1243ca1ef6fd",
+      "bytes": 1964,
+      "original_sha256": "b389c05faf35999b4e33a1737c6ff237f8e956a7d7d959ef48ca1243ca1ef6fd",
+      "original_bytes": 1964,
+      "source_urls": [],
+      "role": "source_metadata",
+      "purpose": "Public source-discovery request/response/link or download metadata.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/source-catalog-probes/observed-links.json",
+      "original_relative_path": "work/source-catalog-probes/observed-links.json",
+      "sha256": "d734c0d90a4be0e344341904e78585f8f112f07f616b2cf4db8d591f7de374e0",
+      "bytes": 10376,
+      "original_sha256": "d734c0d90a4be0e344341904e78585f8f112f07f616b2cf4db8d591f7de374e0",
+      "original_bytes": 10376,
+      "source_urls": [],
+      "role": "source_metadata",
+      "purpose": "Public source-discovery request/response/link or download metadata.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/source-catalog-probes/pmo-instruction.html",
+      "original_relative_path": "work/source-catalog-probes/pmo-instruction.html",
+      "sha256": "413fe4d31ad9db8f7694e9a9351ff1456966fff12d78fe4867920c166890957c",
+      "bytes": 16483,
+      "original_sha256": "413fe4d31ad9db8f7694e9a9351ff1456966fff12d78fe4867920c166890957c",
+      "original_bytes": 16483,
+      "source_urls": [],
+      "role": "source_snapshot",
+      "purpose": "Saved public official page or rendered page used in source discovery.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/source-catalog-probes/pmo-methodology.html",
+      "original_relative_path": "work/source-catalog-probes/pmo-methodology.html",
+      "sha256": "949e39712589fbd7253576b76fe43c37dda5017fbab001da0514f114071c0e18",
+      "bytes": 11918,
+      "original_sha256": "949e39712589fbd7253576b76fe43c37dda5017fbab001da0514f114071c0e18",
+      "original_bytes": 11918,
+      "source_urls": [],
+      "role": "source_snapshot",
+      "purpose": "Saved public official page or rendered page used in source discovery.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/source-catalog-probes/rosstat-classification.html",
+      "original_relative_path": "work/source-catalog-probes/rosstat-classification.html",
+      "sha256": "dbcc687854ea0c5c039a35958e59735e96c7c3d7d3528337fc5d1b1c68bc39ac",
+      "bytes": 1227690,
+      "original_sha256": "dbcc687854ea0c5c039a35958e59735e96c7c3d7d3528337fc5d1b1c68bc39ac",
+      "original_bytes": 1227690,
+      "source_urls": [],
+      "role": "source_snapshot",
+      "purpose": "Saved public official page or rendered page used in source discovery.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/source-catalog-probes/rosstat-databases.html",
+      "original_relative_path": "work/source-catalog-probes/rosstat-databases.html",
+      "sha256": "2128b8d72ea13a6eceadbbf392f12d46b44eba83b2d46daecd850547c09ebe8e",
+      "bytes": 740389,
+      "original_sha256": "2128b8d72ea13a6eceadbbf392f12d46b44eba83b2d46daecd850547c09ebe8e",
+      "original_bytes": 740389,
+      "source_urls": [],
+      "role": "source_snapshot",
+      "purpose": "Saved public official page or rendered page used in source discovery.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/source-catalog-probes/rosstat-emiss.html",
+      "original_relative_path": "work/source-catalog-probes/rosstat-emiss.html",
+      "sha256": "095a45f389ef9a849eb23fe8df458d0d4f87d289e78ffc452dc238825838eddb",
+      "bytes": 743143,
+      "original_sha256": "095a45f389ef9a849eb23fe8df458d0d4f87d289e78ffc452dc238825838eddb",
+      "original_bytes": 743143,
+      "source_urls": [],
+      "role": "source_snapshot",
+      "purpose": "Saved public official page or rendered page used in source discovery.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/source-catalog-probes/rosstat-oktmo.html",
+      "original_relative_path": "work/source-catalog-probes/rosstat-oktmo.html",
+      "sha256": "825f8fd729dbb9005b606386bd2fad09129eb4aec2cf483cb4ec1787b62f34d2",
+      "bytes": 845199,
+      "original_sha256": "825f8fd729dbb9005b606386bd2fad09129eb4aec2cf483cb4ec1787b62f34d2",
+      "original_bytes": 845199,
+      "source_urls": [],
+      "role": "source_snapshot",
+      "purpose": "Saved public official page or rendered page used in source discovery.",
+      "transformation": "none"
+    },
+    {
+      "archive_path": "work/source-catalog-probes/rosstat-population.html",
+      "original_relative_path": "work/source-catalog-probes/rosstat-population.html",
+      "sha256": "37b8264bfbf789b4cc5b88b656aacab04cfe3c2968ddd9b373d60f434fa801f6",
+      "bytes": 753925,
+      "original_sha256": "37b8264bfbf789b4cc5b88b656aacab04cfe3c2968ddd9b373d60f434fa801f6",
+      "original_bytes": 753925,
+      "source_urls": [],
+      "role": "source_snapshot",
+      "purpose": "Saved public official page or rendered page used in source discovery.",
+      "transformation": "none"
+    }
+  ],
+  "duplicate_aliases": [
+    {
+      "original_relative_path": "outputs/municipal-economic-profiles/data/raw/consumption.parquet",
+      "sha256": "9833ddaaee7b2a182ed4cceeed16469031700ea87d508bd976150c6770ef8a61",
+      "bytes": 2373939,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "data/raw/consumption.parquet"
+      },
+      "source_urls": [
+        "https://www.sberbank.com/common/img/uploaded/files/pdf/sberindex/hackathonlicence.zip"
+      ]
+    },
+    {
+      "original_relative_path": "work/enrichment-sources/bdmo_met2024.docx",
+      "sha256": "73bb0909bbc4a0b4ff1d19c0a5113b0bb59934cbbfb739544641ea2e5a7eadb3",
+      "bytes": 162482,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "enrichment/runs/research-20260914-01/raw/07f3231c7c2adcc5b69d.bin"
+      },
+      "source_urls": [
+        "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx"
+      ]
+    },
+    {
+      "original_relative_path": "work/enrichment-sources/BUL_MO_2023.xlsx",
+      "sha256": "9c2ce2e38712e33e357b25fe0a18241cd02eb1505f67be9753079806dd94adda",
+      "bytes": 1318101,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "data/raw/BUL_MO_2023.xlsx"
+      },
+      "source_urls": [
+        "https://rosstat.gov.ru/storage/mediabank/BUL_MO_2023.xlsx"
+      ]
+    },
+    {
+      "original_relative_path": "work/enrichment-sources/BUL_MO_2024.xlsx",
+      "sha256": "c831e1b408a6a21e061074f0b3a5a04c2e3bb4f8eabae6c72edff55185e921bd",
+      "bytes": 1599578,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "data/raw/BUL_MO_2024.xlsx"
+      },
+      "source_urls": [
+        "https://rosstat.gov.ru/storage/mediabank/BUL_MO_2024.xlsx"
+      ]
+    },
+    {
+      "original_relative_path": "work/enrichment-sources/t_dict_municipal.rar",
+      "sha256": "319ed22684b77716641bc15b61f7325adc44e9fc47e9be2973d88412d27d21f5",
+      "bytes": 26925727,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "data/raw/t_dict_municipal.rar"
+      },
+      "source_urls": [
+        "https://www.sberbank.com/common/files/t_dict_municipal.rar"
+      ]
+    },
+    {
+      "original_relative_path": "work/enrichment-sources/t_dict_municipal_original/t_dict_municipal_districts.xlsx",
+      "sha256": "4150658c3298fbc87ed79838f503f3a5b9a28da33257ff803c7d9231ddb775d6",
+      "bytes": 322024,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "data/raw/t_dict_municipal_original/t_dict_municipal_districts.xlsx"
+      },
+      "source_urls": [
+        "https://www.sberbank.com/common/files/t_dict_municipal.rar"
+      ]
+    },
+    {
+      "original_relative_path": "work/enrichment-sources/t_dict_municipal_original/t_dict_municipal_districts_poly.gpkg",
+      "sha256": "e62027630d48e4a13f9b6d173dd074d7358706743fe859ca3b7fa30fefa9813a",
+      "bytes": 74334208,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "data/raw/t_dict_municipal_original/t_dict_municipal_districts_poly.gpkg"
+      },
+      "source_urls": [
+        "https://www.sberbank.com/common/files/t_dict_municipal.rar"
+      ]
+    },
+    {
+      "original_relative_path": "work/population-join-probes/bdpmo-cache/2d786173a5b683efd760b3284785b3f3799d6f4a31de5f30519eeebef486f86a.raw",
+      "sha256": "d4a3001fef59b9e5f7aa89beee07cc72b5ffd153440e4b07775bb4653bc9e694",
+      "bytes": 280,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "enrichment/data/bdpmo-server-cache-20260914-v1/2d786173a5b683efd760b3284785b3f3799d6f4a31de5f30519eeebef486f86a.raw"
+      },
+      "source_urls": [
+        "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi"
+      ]
+    },
+    {
+      "original_relative_path": "work/population-join-probes/bdpmo-cache/2fd7c0dd9133590283ada26fc5839a576b72c2a02648ccce8eec7d89f558d6ef.raw",
+      "sha256": "8b745e83c55ab7f4f47fd8783e4e532ad5628f205ed54d8e064d27dc6c557b0a",
+      "bytes": 67673,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "enrichment/data/bdpmo-server-cache-20260914-v1/2fd7c0dd9133590283ada26fc5839a576b72c2a02648ccce8eec7d89f558d6ef.raw"
+      },
+      "source_urls": [
+        "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi"
+      ]
+    },
+    {
+      "original_relative_path": "work/population-join-probes/bdpmo-cache/42b261872a1eb27ff687d4c842bf8877f57f58181cc28e1e71309fc5ee70d7a9.raw",
+      "sha256": "def4fe436545f6ef7e349607c4c8256a331146fe9b977e12618443ed59ddbff3",
+      "bytes": 22617530,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "data/raw/oktmo-2024.csv"
+      },
+      "source_urls": [
+        "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20240101T1101-structure-20260210T1102.csv"
+      ]
+    },
+    {
+      "original_relative_path": "work/population-join-probes/bdpmo-cache/46ddfd1744f3d51cfb1e26e21da81a1a67d5b06f0dce333603d7196b145ebf80.raw",
+      "sha256": "bd6822bee4d9b8762b11118ba272f11484b0141d71737c734117a804aee71f54",
+      "bytes": 46208,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "enrichment/data/bdpmo-server-cache-20260914-v1/46ddfd1744f3d51cfb1e26e21da81a1a67d5b06f0dce333603d7196b145ebf80.raw"
+      },
+      "source_urls": [
+        "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi"
+      ]
+    },
+    {
+      "original_relative_path": "work/population-join-probes/bdpmo-cache/47859de188f0be2993c6cfb6f1568a9964fedeb48e053122c7c9f2a688f4e608.raw",
+      "sha256": "13db29beaa256ac37b4011f895806b331904368be63d447377d6fa4a55f7fb8c",
+      "bytes": 232617,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "enrichment/data/bdpmo-server-cache-20260914-v1/47859de188f0be2993c6cfb6f1568a9964fedeb48e053122c7c9f2a688f4e608.raw"
+      },
+      "source_urls": [
+        "https://rosstat.gov.ru/dbscripts/munst/munst46/"
+      ]
+    },
+    {
+      "original_relative_path": "work/population-join-probes/bdpmo-cache/7062c988dcf5b686cf6737ff3263dfcca5cb3e0244d65cb5b154edf73f1ac7a0.raw",
+      "sha256": "821f91baaf65101103e458c3f24d116e93f135015d31de9ccd7793100f1ccd70",
+      "bytes": 505,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "enrichment/data/bdpmo-server-cache-20260914-v1/7062c988dcf5b686cf6737ff3263dfcca5cb3e0244d65cb5b154edf73f1ac7a0.raw"
+      },
+      "source_urls": [
+        "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi"
+      ]
+    },
+    {
+      "original_relative_path": "work/population-join-probes/bdpmo-cache/7a9faa7935aa5c138c5103e4e215e6342a57a4db0e8f8ee8ac0ec16a42e8e09a.raw",
+      "sha256": "18cb632228fdfc7edfc8cce305bfd6d11af3db9ffd9a6bef6a248b4a9bff4cbb",
+      "bytes": 65008,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "enrichment/data/bdpmo-server-cache-20260914-v1/7a9faa7935aa5c138c5103e4e215e6342a57a4db0e8f8ee8ac0ec16a42e8e09a.raw"
+      },
+      "source_urls": [
+        "https://rosstat.gov.ru/dbscripts/munst/munst03/DBInet.cgi"
+      ]
+    },
+    {
+      "original_relative_path": "work/population-join-probes/bdpmo-cache/7f5ace834f3fff5c3235d6ca110a8af797cea41f85027f943c025ce589efbbea.raw",
+      "sha256": "784594a148f9e9699ce54ba4d0bd6c92289b6a4a74a68584fd62d6c4085cf3c3",
+      "bytes": 280,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "enrichment/data/bdpmo-server-cache-20260914-v1/7f5ace834f3fff5c3235d6ca110a8af797cea41f85027f943c025ce589efbbea.raw"
+      },
+      "source_urls": [
+        "https://rosstat.gov.ru/dbscripts/munst/munst03/DBInet.cgi"
+      ]
+    },
+    {
+      "original_relative_path": "work/population-join-probes/bdpmo-cache/9e2bccf3d70562b3d93d31cb38d58bc45d38a94f4554ced55c1cb5b68e9368f6.raw",
+      "sha256": "0b0eb22b5001416cecd64ee97233374aca78c1d750f7962386329ae7e0e32902",
+      "bytes": 234380,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "enrichment/data/bdpmo-server-cache-20260914-v1/9e2bccf3d70562b3d93d31cb38d58bc45d38a94f4554ced55c1cb5b68e9368f6.raw"
+      },
+      "source_urls": [
+        "https://rosstat.gov.ru/dbscripts/munst/munst03/"
+      ]
+    },
+    {
+      "original_relative_path": "work/population-join-probes/bdpmo-cache/d355086fe02edcedf4a4e431d269fa7e0771217d4a33ce19a31db97925f20013.raw",
+      "sha256": "cc073e45d4fd8a2cb32cbc721950a01d31541e11d7a1360c809730b53c648526",
+      "bytes": 236852,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "enrichment/data/bdpmo-server-cache-20260914-v1/d355086fe02edcedf4a4e431d269fa7e0771217d4a33ce19a31db97925f20013.raw"
+      },
+      "source_urls": [
+        "https://rosstat.gov.ru/dbscripts/munst/munst79/"
+      ]
+    },
+    {
+      "original_relative_path": "work/population-join-probes/bdpmo-cache/ff838d274ddacd8a5e55ef8b9bba84b06765d4ca6cbac90211b42c4eaefb33d9.raw",
+      "sha256": "29a55d7bc34f52e0a9dfb97916c852183e48b665eeda013fa88c60f15dc2abd7",
+      "bytes": 1307,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "enrichment/runs/research-20260914-01/raw/40eb4b6106b11c042ca7.bin"
+      },
+      "source_urls": [
+        "https://rosstat.gov.ru/opendata/7708234640-oktmo/structure-20260210T1102.csv"
+      ]
+    },
+    {
+      "original_relative_path": "work/sberindex-research/bundle-data-audit.json",
+      "sha256": "e51e27e2d914bd55fa22b19cd38ed040cb61f1b3c48657ddab10eb387b7ea6ff",
+      "bytes": 27630,
+      "stored_as": {
+        "asset": "local-data-supplement.zip",
+        "archive_path": "project/data/raw/source_audit.json"
+      },
+      "source_urls": []
+    },
+    {
+      "original_relative_path": "work/sberindex-research/contest-rules.pdf",
+      "sha256": "2afee8b042ac0f16baa420a79a10663929a92950cd1b2c6f80a079088c71d0d3",
+      "bytes": 360440,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "enrichment/runs/primary-pdf-20260914-01/raw/767e741ffe881a8a01ae.bin"
+      },
+      "source_urls": [
+        "https://sber.ru/common/assets/sber/sberindex_polozhenie_o_konkurse.pdf"
+      ]
+    },
+    {
+      "original_relative_path": "work/sberindex-research/hackathon-bundle/hackathonlicence/consumption.parquet",
+      "sha256": "9833ddaaee7b2a182ed4cceeed16469031700ea87d508bd976150c6770ef8a61",
+      "bytes": 2373939,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "data/raw/consumption.parquet"
+      },
+      "source_urls": [
+        "https://www.sberbank.com/common/img/uploaded/files/pdf/sberindex/hackathonlicence.zip"
+      ]
+    },
+    {
+      "original_relative_path": "work/sberindex-research/hackathon-bundle/hackathonlicence/market_access.parquet",
+      "sha256": "434258afe322b7e6e6610b2552d129ae47094613de72dae3d13f6965a28d1dc1",
+      "bytes": 25163,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "data/raw/market_access.parquet"
+      },
+      "source_urls": [
+        "https://www.sberbank.com/common/img/uploaded/files/pdf/sberindex/hackathonlicence.zip"
+      ]
+    },
+    {
+      "original_relative_path": "work/sberindex-research/hackathonlicence.zip",
+      "sha256": "a9f932ff4096a7df797d1547987937f34d3995ac445b4748177114488d12b010",
+      "bytes": 19603203,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "enrichment/runs/research-20260914-01/raw/34ceab675a13febb8d64.bin"
+      },
+      "source_urls": [
+        "https://www.sberbank.com/common/img/uploaded/files/pdf/sberindex/hackathonlicence.zip"
+      ]
+    },
+    {
+      "original_relative_path": "work/sberindex-research/municipal-boundaries-metadata.pdf",
+      "sha256": "05707427a64061552d1f23f74f578a99fdabeff69f0c8a0fc99d924210fee0b3",
+      "bytes": 333567,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "enrichment/runs/primary-pdf-20260914-01/raw/f4655919246d967cf114.bin"
+      },
+      "source_urls": [
+        "https://www.sberbank.ru/common/img/uploaded/files/pdf/sberindex/metadata_municipal_dict_sberindex_2.pdf"
+      ]
+    },
+    {
+      "original_relative_path": "work/sberindex-research/municipal-spending-metadata-decoded.json",
+      "sha256": "126498bdfee9d41357655a3af2687ec15d6690a0e2f69b2c38160e321743d845",
+      "bytes": 324131,
+      "stored_as": {
+        "asset": "local-data-supplement.zip",
+        "archive_path": "project/data/raw/dataset_metadata.json"
+      },
+      "source_urls": []
+    },
+    {
+      "original_relative_path": "work/sberindex-research/municipality-codebook.csv",
+      "sha256": "2739525c0f6cf706a49b114c5f4391d445ef958c2402f77761296a67eefe76cb",
+      "bytes": 169711,
+      "stored_as": {
+        "asset": "local-data-supplement.zip",
+        "archive_path": "project/data/raw/municipality-codebook.csv"
+      },
+      "source_urls": []
+    },
+    {
+      "original_relative_path": "work/source-catalog-probes/pmo-indicators-2024.html",
+      "sha256": "9f245a8e1a1cfad4565cfa6ad2980b4f4b8f8f6e61ac8beddd01d6fc92ca2501",
+      "bytes": 565790,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "enrichment/runs/recovery-20260914-01/raw/08887cc57ce12eaec63f.bin"
+      },
+      "source_urls": [
+        "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm"
+      ]
+    },
+    {
+      "original_relative_path": "work/source-catalog-probes/pmo-region-example.html",
+      "sha256": "cc073e45d4fd8a2cb32cbc721950a01d31541e11d7a1360c809730b53c648526",
+      "bytes": 236852,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "enrichment/data/bdpmo-server-cache-20260914-v1/d355086fe02edcedf4a4e431d269fa7e0771217d4a33ce19a31db97925f20013.raw"
+      },
+      "source_urls": []
+    },
+    {
+      "original_relative_path": "work/source-catalog-probes/pmo-selector.html",
+      "sha256": "a7e1d9dbb4973f7e8b988be3b7189b3ef9fbc447893a5f406d41fb146ab7c766",
+      "bytes": 24934,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "data/raw/pmo-selector.html"
+      },
+      "source_urls": [
+        "https://rosstat.gov.ru/storage/mediabank/MUNST.htm"
+      ]
+    },
+    {
+      "original_relative_path": "work/source-catalog-probes/population-2023.xlsx",
+      "sha256": "9c2ce2e38712e33e357b25fe0a18241cd02eb1505f67be9753079806dd94adda",
+      "bytes": 1318101,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "data/raw/BUL_MO_2023.xlsx"
+      },
+      "source_urls": [
+        "https://rosstat.gov.ru/storage/mediabank/BUL_MO_2023.xlsx"
+      ]
+    },
+    {
+      "original_relative_path": "work/source-catalog-probes/population-2024.xlsx",
+      "sha256": "c831e1b408a6a21e061074f0b3a5a04c2e3bb4f8eabae6c72edff55185e921bd",
+      "bytes": 1599578,
+      "stored_as": {
+        "asset": "server-data-snapshots.zip",
+        "archive_path": "data/raw/BUL_MO_2024.xlsx"
+      },
+      "source_urls": [
+        "https://rosstat.gov.ru/storage/mediabank/BUL_MO_2024.xlsx"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "path": "outputs/municipal-economic-profiles/data/releases/2026-09-15/server-file-catalog.json",
+      "reason": "New release catalog itself; separately published, not an input source."
+    },
+    {
+      "path": "work/sberindex-research/consumers-page.html",
+      "bytes": 2616,
+      "reason": "Protection/error/probe response, not valid dataset."
+    },
+    {
+      "path": "work/sberindex-research/mobility-page.html",
+      "bytes": 2616,
+      "reason": "Protection/error/probe response, not valid dataset."
+    },
+    {
+      "path": "work/sberindex-research/municipal-spending-meta.json",
+      "bytes": 145,
+      "reason": "Protection/error/probe response, not valid dataset."
+    },
+    {
+      "path": "work/sberindex-research/municipal-spending-page.json",
+      "bytes": 870,
+      "reason": "Protection/error/probe response, not valid dataset."
+    },
+    {
+      "path": "work/source-catalog-probes/sber-boundaries-archive.html",
+      "bytes": 3000000,
+      "reason": "Truncated 3 MB RAR probe, superseded by complete RAR."
+    }
+  ],
+  "excluded_operational_categories": [
+    "unrelated work/research",
+    "certificates and secrets",
+    "installation/test caches",
+    "deployment archives",
+    "server-copy model cards and raw/text copies",
+    "browser caches/logs/headers",
+    "code/scripts",
+    "derived image renders",
+    "analysis prose memos"
+  ],
+  "secret_scan": {
+    "known_telegram_token": "PASS",
+    "known_key_patterns": "PASS"
+  },
+  "warning": "Exact source snapshots plus exploratory audits; inclusion does not establish fitness for analysis. Duplicate aliases reference byte-identical files in the server or local ZIP."
+}

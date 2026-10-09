@@ -1,0 +1,21 @@
+{
+  "inputs": {
+    "configs/round6_analysis_v1.json": "2ece886fe1f4bf2c43bde3f10d6486e900ac9337558b945e0fbe74b44de74da6",
+    "reports/data_round6/economy/regional_context_candidate.csv": "8b28b00c77a8a84dc4894595973a6565eed4148a08c60f6a4200d9a47d7b9ea0",
+    "reports/round5_analysis/audit/annual_features.csv": "6148d10db93a7f346179d743f593ebf3a6d802391a3c80a5185680299d19578e",
+    "reports/enriched_analysis/annual_networks/assignments.parquet": "f0d516da6d0f065f1685819dad6ba4c1c309802c47988a8fc538562f4516825d",
+    "reports/enriched_analysis/annual_networks/annual_profiles.parquet": "9679f8966b8228a25265d55af7d9719b51e72f16e390f40aa92052463bc0c358",
+    "reports/enriched_analysis/annual_networks/yearly_support.csv": "babf88b6e2aa11472c1ea1738a39eb04253b4ec9c32629930a9aa3853a163302",
+    "uv.lock": "0a6a3b3051ad89b3aebc2a673966f0d67c4601453f9c386e924de7065bbca6f4"
+  },
+  "script_sha256": "9c337c608b7ef8e48c021fc4c9c468807fbd0a6475b8a460431fb62f0eaea5c0",
+  "outputs": {
+    "associations.csv": "0ecfd6d211fe03da5d410fdffc47bbb4509cfb957dd0e238dbbec24c50d4813a",
+    "cluster_alignment.csv": "f2cdcd12e946f8cbdcf674b52b22d6e7004196a4991c16e80450295446233b32",
+    "cluster_profiles.csv": "d56279ae31f37fd8e682ce72a74f69c72f56b5164b82e49a2cbec8aa46017d03",
+    "coverage.csv": "cf0ceaf9d2ee97406c854a399c010551c8e0ac1720e0ae84b7a44aed56950dc8",
+    "QA.json": "830300b3fd7fb404ac021c2790aa01f779f7a4757cc31986d4f727d95b700743",
+    "regional_panel.csv": "a906c2ad08f7f7deb637626142d21b48c91cfdf41c09ec4d101b4c76e6046acc",
+    "regional_summary.csv": "60357a0cb1fda0b1cdb47744f5e3ff679b7d7dae66abd9a7f615397e1162536d"
+  }
+}

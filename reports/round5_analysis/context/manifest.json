@@ -1,0 +1,84 @@
+{
+  "script_sha256": "126a2d7f475bc2ff967383468fdfa689cdc0c222e885c84578cfa3c823fc5960",
+  "inputs": [
+    {
+      "root": "repo",
+      "path": "reports/data_round5/geography/manifest.json",
+      "sha256": "0432e147c72ac37dcb8f115030d4f4716d85ed8b1bee00e944c8ff04785923aa"
+    },
+    {
+      "root": "repo",
+      "path": "reports/data_round4/sme/manifest.json",
+      "sha256": "49b53e887bc0b968484c91b0f8347a550c1bca8a47eb755d0416f4114c053d3c"
+    },
+    {
+      "root": "repo",
+      "path": "reports/data_round5/sme/artifact_manifest.json",
+      "sha256": "5d4bd58abe716d43776d7b92aa0d02b93a11deddc238c5fca87bc863aeacd050"
+    },
+    {
+      "root": "repo",
+      "path": "reports/data_round5/cases/manifest.json",
+      "sha256": "fd94ca5e087628d7ee64908041835afd22e7ee164310aebe24070505bef6115d"
+    },
+    {
+      "root": "repo",
+      "path": "reports/round4_analysis/context/manifest.json",
+      "sha256": "80d548a77aa06a280e52f63561ac8d7bf9adae0918e24653d2dfceccf91d0b97"
+    },
+    {
+      "root": "repo",
+      "path": "uv.lock",
+      "sha256": "0a6a3b3051ad89b3aebc2a673966f0d67c4601453f9c386e924de7065bbca6f4"
+    },
+    {
+      "root": "repo",
+      "path": "pyproject.toml",
+      "sha256": "e64729e61b0e88cf9804b9a54de9f058fe1dce22d2d13a9b5a21ae53ee4c0dc6"
+    },
+    {
+      "root": "repo",
+      "path": "reports/data_round5/geography/sme_code_presence.parquet",
+      "sha256": "b86bf7cab49e8634556dbc00b852df8b6c182102989f7d5507280a4a9d83c477"
+    },
+    {
+      "root": "sme_raw",
+      "path": "extracted/2023/entire/data_sme_153_entire_year_2023_v20260605.parquet",
+      "sha256": "5b3f2dbcdfdad8a009c620c135b6207dc3a1748a77b4fa57bccc6f12b64e6572"
+    },
+    {
+      "root": "sme_raw",
+      "path": "extracted/2024/entire/data_sme_153_entire_year_2024_v20260605.parquet",
+      "sha256": "91ed51745f8eb76dfaeba22e92debad583fc0f6439c69e239001c99dafe2af23"
+    },
+    {
+      "root": "repo",
+      "path": "reports/data_round5/sme/official_stock_counts.csv",
+      "sha256": "b7367214062a701cf55c1c640b0a73d466510103e39fe654c2931792e630ba73"
+    },
+    {
+      "root": "repo",
+      "path": "reports/data_round5/cases/evidence_ledger.csv",
+      "sha256": "73d90248fcf4a9770616b04c1e41306fd6b9d024062a3d2bb99fa5fe39dff16a"
+    },
+    {
+      "root": "repo",
+      "path": "reports/round4_analysis/context/investment_paths.csv",
+      "sha256": "3b5a801d04952ded5a7012f75cf8f65e493b9af4cbe7deeff446291cb7b7e3ad"
+    }
+  ],
+  "outputs": {
+    "annual_population.csv": "b04e277bb3c87db85f9eb2abc854fcc7bac00619695017c1220ec0f1643ced7f",
+    "budget_revision.csv": "0185ddde50d00cb50341f766d0413ed7a0223b0ab2ab1e39f7c226107dccc1bc",
+    "chersky_investment_alignment.csv": "b381952bf702835c114cdd300e7326056cc180ce9164fb3858adda950f5215d3",
+    "chersky_timeline.csv": "18a2e6ce04fb39a85d0fed8b1a71ac21ee6f2d0ea22d04ac78095bc1f32fe012",
+    "coverage_interpretation.csv": "753a996c23a903ce5a698ae1e89ed2f9e1c8cdaa75ba681c7cdaf161f515c7b7",
+    "entity_multiplicity.csv": "44cdfb87500a9d3047a5da9b07f904d842cd8b0c260280d88c33b9f4a2dabf1e",
+    "fns_population_contrast.csv": "3b9c899d5f1b5e68b8a4bd7bbc36ec25329858bc265d7bad1b36c8b1bfe815d0",
+    "geography_legal_workers.csv": "12cddcf715b643a66e311fff4a2064384f6e81163127d4e0f0ec084b8c19ab65",
+    "geography_strata.csv": "6c76b03dee9d43a1f0d88eb371ee4bf5439dd79cbad4969b7ff852c621a79cf4",
+    "QA.json": "2699b7ddc5d74381f1e7acf69b236cf1776bb0f7d2ae21a11a8d5472452e4c3c",
+    "regional_code_profile.csv": "34f90e8151757edd7d09be43aaa94996dee88ee3639d05cad32acef93168eba6",
+    "unmatched_audit.csv": "efdb122f767678b9f4a0f21614e843997ef6cc95ae1941cd773112fdc57e0578"
+  }
+}

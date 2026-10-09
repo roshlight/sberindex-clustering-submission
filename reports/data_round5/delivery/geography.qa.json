@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "archive": "data-round5-geography.zip",
+  "archive_sha256": "e97459041c0ebba6c0821dadb7a246256f4b93507d53c70c639e8b89d2f3a9c2",
+  "archive_bytes": 13437154,
+  "verified_files": 15,
+  "uncompressed_bytes": 127031099,
+  "allowlist_sha256": "2099764008e62e80cbcf8541c33b641b15e4ef7e196caf1fbb448a1a5a38987c",
+  "packager_sha256": "233f9ce509bb7466b86d4a807d485189a1616a563c161027ff53056ea3a8ef1d",
+  "credential_scan_policy": "block_all_matches_except_one_exact_audited_pdf_jpeg_dht",
+  "audited_exceptions_applied": 0,
+  "credential_scan_exceptions": []
+}

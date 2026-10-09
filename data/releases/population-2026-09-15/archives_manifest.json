@@ -1,0 +1,30 @@
+{
+  "release_tag": "population-data-2026-09-15",
+  "created_at_utc": "2026-09-14T22:06:32.781779+00:00",
+  "status": "replayable_with_constraints",
+  "archive_role": "archival_evidence_only",
+  "previous_release": "data-2026-09-15",
+  "archives": [
+    {
+      "asset": "server-population-snapshots.zip",
+      "sha256": "02b785cc9ab6d0dfd6bce6e6096cf7fc7a4149efa14a19f0483d495def647fde",
+      "bytes": 46262849,
+      "archived_files": 5864,
+      "uncompressed_bytes": 235321345,
+      "zip_crc_and_entry_hashes": "PASS"
+    },
+    {
+      "asset": "local-source-snapshots.zip",
+      "sha256": "a1a1b6c1c9a5ce9817cf199a4420678eb852c902d03bd90721dade1b1e0f173c",
+      "bytes": 134118647,
+      "archived_files": 82,
+      "uncompressed_bytes": 280150629
+    }
+  ],
+  "archived_files_total": 5946,
+  "compressed_bytes_total": 180381496,
+  "uncompressed_bytes_total": 515471974,
+  "canonical_population_source": "enrichment/data/population-bulk-20260915-v3",
+  "canonical_population_panel": "reports/enrichment_v2/population",
+  "report": "reports/enrichment_v2/REPORT.md"
+}

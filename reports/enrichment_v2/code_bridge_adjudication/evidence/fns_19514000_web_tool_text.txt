@@ -1,0 +1,12 @@
+source_capture_kind: web_tool_text
+source_url: https://www.nalog.gov.ru/rn35/taxation/submission_statements/rekvizit/12986966/
+captured_on: 2026-09-15 Europe/Moscow
+page_publication_timestamp: 29.12.2022 08:50
+locator: Main article, opening paragraph and municipality list entry for official_oktmo_8=19514000; web tool extracted lines 38-44 and 78.
+capture_scope: Selected text returned by the web tool from the official FNS page; not raw HTML, not a full-page snapshot. Direct HTTP downloads of the HTML and linked spreadsheets returned 403.
+
+Exact excerpts (10 source words in total):
+с 01.01.2023 вновь образованы:
+Великоустюгский муниципальный округ (код ОКТМО 19514000),
+
+Interpretation limited to code/date: the official FNS historical notice explicitly associates this municipality and code with 2023-01-01. It does not establish that a Bdpmo population cell has the same geography as the Sber annual panel.

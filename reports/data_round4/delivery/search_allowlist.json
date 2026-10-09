@@ -1,0 +1,602 @@
+[
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/candidates.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/candidates.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/cards/174397f42ac41bc10e95.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/cards/174397f42ac41bc10e95.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/cards/1a7c47f4d4dab8729cf6.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/cards/1a7c47f4d4dab8729cf6.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/cards/6edd069fedaa6289a676.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/cards/6edd069fedaa6289a676.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/cards/ada33ea9b28731c0f54d.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/cards/ada33ea9b28731c0f54d.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/cards/d9735c0df5ce83154e67.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/cards/d9735c0df5ce83154e67.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/cross_source_review_error.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/cross_source_review_error.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/data_needs.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/data_needs.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/document_inventory.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/document_inventory.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/documents/01588aa7429e7a6599ec.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/documents/01588aa7429e7a6599ec.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/documents/02d546764629393b1a4e.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/documents/02d546764629393b1a4e.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/documents/0b3b3c0fad411a8571db.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/documents/0b3b3c0fad411a8571db.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/documents/14eae7cf19ef9d5e1063.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/documents/14eae7cf19ef9d5e1063.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/documents/174397f42ac41bc10e95.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/documents/174397f42ac41bc10e95.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/documents/1a7c47f4d4dab8729cf6.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/documents/1a7c47f4d4dab8729cf6.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/documents/3060e8a0282979e25101.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/documents/3060e8a0282979e25101.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/documents/3db14c21e1524775985b.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/documents/3db14c21e1524775985b.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/documents/476fb9e816e025623db7.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/documents/476fb9e816e025623db7.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/documents/69d1f3a9c904994867c2.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/documents/69d1f3a9c904994867c2.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/documents/6edd069fedaa6289a676.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/documents/6edd069fedaa6289a676.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/documents/774caac3f6e3e6ea8272.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/documents/774caac3f6e3e6ea8272.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/documents/79d67830870b415435db.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/documents/79d67830870b415435db.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/documents/7dc9db73e78ffa99c0a1.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/documents/7dc9db73e78ffa99c0a1.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/documents/7e210104659c3234f0f2.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/documents/7e210104659c3234f0f2.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/documents/8298665af4aebed202f1.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/documents/8298665af4aebed202f1.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/documents/998dcc0d73d78855c757.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/documents/998dcc0d73d78855c757.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/documents/ada33ea9b28731c0f54d.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/documents/ada33ea9b28731c0f54d.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/documents/d9735c0df5ce83154e67.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/documents/d9735c0df5ce83154e67.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/events.jsonl",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/events.jsonl"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/pyproject.toml",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/pyproject.toml"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/src/sber_enrichment/__init__.py",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/src/sber_enrichment/__init__.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/src/sber_enrichment/bdpmo.py",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/src/sber_enrichment/bdpmo.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/src/sber_enrichment/clients.py",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/src/sber_enrichment/clients.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/src/sber_enrichment/economy_bulk.py",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/src/sber_enrichment/economy_bulk.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/src/sber_enrichment/evidence.py",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/src/sber_enrichment/evidence.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/src/sber_enrichment/office_text.py",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/src/sber_enrichment/office_text.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/src/sber_enrichment/pipeline.py",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/src/sber_enrichment/pipeline.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/src/sber_enrichment/population.py",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/src/sber_enrichment/population.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/src/sber_enrichment/population_bulk.py",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/src/sber_enrichment/population_bulk.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/src/sber_enrichment/round3_economy.py",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/src/sber_enrichment/round3_economy.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/src/sber_enrichment/search_guard.py",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/src/sber_enrichment/search_guard.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/uv.lock",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/implementation_snapshot/uv.lock"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/model_calls/174397f42ac41bc10e95-83c411f6d190.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/model_calls/174397f42ac41bc10e95-83c411f6d190.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/model_calls/1a7c47f4d4dab8729cf6-50c9614134e5.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/model_calls/1a7c47f4d4dab8729cf6-50c9614134e5.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/model_calls/6edd069fedaa6289a676-233ff836fe59.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/model_calls/6edd069fedaa6289a676-233ff836fe59.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/model_calls/ada33ea9b28731c0f54d-08675b794cb6.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/model_calls/ada33ea9b28731c0f54d-08675b794cb6.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/model_calls/cross-source-review-edeb610625b5.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/model_calls/cross-source-review-edeb610625b5.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/model_calls/d9735c0df5ce83154e67-302d1b85b857.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/model_calls/d9735c0df5ce83154e67-302d1b85b857.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/model_catalog.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/model_catalog.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/observed_download_candidates.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/observed_download_candidates.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/prompts/174397f42ac41bc10e95-83c411f6d190.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/prompts/174397f42ac41bc10e95-83c411f6d190.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/prompts/1a7c47f4d4dab8729cf6-50c9614134e5.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/prompts/1a7c47f4d4dab8729cf6-50c9614134e5.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/prompts/6edd069fedaa6289a676-233ff836fe59.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/prompts/6edd069fedaa6289a676-233ff836fe59.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/prompts/ada33ea9b28731c0f54d-08675b794cb6.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/prompts/ada33ea9b28731c0f54d-08675b794cb6.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/prompts/cross-source-review-edeb610625b5.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/prompts/cross-source-review-edeb610625b5.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/prompts/d9735c0df5ce83154e67-302d1b85b857.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/prompts/d9735c0df5ce83154e67-302d1b85b857.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/raw/01588aa7429e7a6599ec.bin",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/raw/01588aa7429e7a6599ec.bin"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/raw/174397f42ac41bc10e95.bin",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/raw/174397f42ac41bc10e95.bin"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/raw/1a7c47f4d4dab8729cf6.bin",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/raw/1a7c47f4d4dab8729cf6.bin"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/raw/6edd069fedaa6289a676.bin",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/raw/6edd069fedaa6289a676.bin"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/raw/ada33ea9b28731c0f54d.bin",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/raw/ada33ea9b28731c0f54d.bin"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/raw/d9735c0df5ce83154e67.bin",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/raw/d9735c0df5ce83154e67.bin"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/review_status.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/review_status.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/router_attempts.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/router_attempts.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/run_manifest.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/run_manifest.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/RUN_REPORT.md",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/RUN_REPORT.md"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/search/09a9e5e20784118f865a108b.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/search/09a9e5e20784118f865a108b.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/search/103ba927a184308477b833bb.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/search/103ba927a184308477b833bb.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/search/1b3e09152aa7ef417508223c.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/search/1b3e09152aa7ef417508223c.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/search/26fa7cd6ec2f61d72c077a6b.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/search/26fa7cd6ec2f61d72c077a6b.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/search/32d243ddcf97e59b6fab5bef.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/search/32d243ddcf97e59b6fab5bef.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/search/38f18cb01537c7e2616d1bd1.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/search/38f18cb01537c7e2616d1bd1.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/search/48d9a9dd60d258cf24633cd3.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/search/48d9a9dd60d258cf24633cd3.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/search/4929e7d79c8ac2697a9568ad.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/search/4929e7d79c8ac2697a9568ad.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/search/82c40abf4d02056ed847a30b.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/search/82c40abf4d02056ed847a30b.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/search/89de0b57d2e5ef84bb1a5472.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/search/89de0b57d2e5ef84bb1a5472.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/search/b9859a76d84ff2982810de6d.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/search/b9859a76d84ff2982810de6d.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/search/d2b5f7f181d3532d90372896.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/search/d2b5f7f181d3532d90372896.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/search/da989bd51c382ccde8b10e06.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/search/da989bd51c382ccde8b10e06.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/search/e17cd9ee55329b4b046d97ba.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/search/e17cd9ee55329b4b046d97ba.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/search/f0ad37816a918e09d6de4c89.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/search/f0ad37816a918e09d6de4c89.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/search_plan.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/search_plan.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/searxng_config.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/searxng_config.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/source_catalog.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/source_catalog.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/text/01588aa7429e7a6599ec.txt",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/text/01588aa7429e7a6599ec.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/text/174397f42ac41bc10e95.txt",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/text/174397f42ac41bc10e95.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/text/1a7c47f4d4dab8729cf6.txt",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/text/1a7c47f4d4dab8729cf6.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/text/6edd069fedaa6289a676.txt",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/text/6edd069fedaa6289a676.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/text/ada33ea9b28731c0f54d.txt",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/text/ada33ea9b28731c0f54d.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/text/d9735c0df5ce83154e67.txt",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/text/d9735c0df5ce83154e67.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/trust_snapshot/867f7441e50867674230f2b7154798178513c742d51bfb52e09f6b47d0e3b110.pem",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/trust_snapshot/867f7441e50867674230f2b7154798178513c742d51bfb52e09f6b47d0e3b110.pem"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-01/trust_snapshot/fd9fe86c296f5354cb578551a4f1216fc900624e88dbc8625e4ae506d1e8d624.pem",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-01/trust_snapshot/fd9fe86c296f5354cb578551a4f1216fc900624e88dbc8625e4ae506d1e8d624.pem"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/candidates.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/candidates.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/data_needs.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/data_needs.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/document_inventory.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/document_inventory.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/events.jsonl",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/events.jsonl"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/pyproject.toml",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/pyproject.toml"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/src/sber_enrichment/__init__.py",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/src/sber_enrichment/__init__.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/src/sber_enrichment/bdpmo.py",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/src/sber_enrichment/bdpmo.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/src/sber_enrichment/clients.py",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/src/sber_enrichment/clients.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/src/sber_enrichment/economy_bulk.py",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/src/sber_enrichment/economy_bulk.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/src/sber_enrichment/evidence.py",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/src/sber_enrichment/evidence.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/src/sber_enrichment/office_text.py",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/src/sber_enrichment/office_text.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/src/sber_enrichment/pipeline.py",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/src/sber_enrichment/pipeline.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/src/sber_enrichment/population.py",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/src/sber_enrichment/population.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/src/sber_enrichment/population_bulk.py",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/src/sber_enrichment/population_bulk.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/src/sber_enrichment/round3_economy.py",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/src/sber_enrichment/round3_economy.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/src/sber_enrichment/search_guard.py",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/src/sber_enrichment/search_guard.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/uv.lock",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/implementation_snapshot/uv.lock"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/run_manifest.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/run_manifest.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/RUN_REPORT.md",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/RUN_REPORT.md"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/search/027fdf03600680af5a9aafce.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/search/027fdf03600680af5a9aafce.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/search/4aaebc47876332673be0dcc9.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/search/4aaebc47876332673be0dcc9.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/search/8bcdb587e3bd5ad582c1d751.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/search/8bcdb587e3bd5ad582c1d751.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/search/b7484b7b68a95c0ce688230c.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/search/b7484b7b68a95c0ce688230c.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/search_plan.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/search_plan.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/searxng_config.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/searxng_config.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/source_catalog.json",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/source_catalog.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/trust_snapshot/867f7441e50867674230f2b7154798178513c742d51bfb52e09f6b47d0e3b110.pem",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/trust_snapshot/867f7441e50867674230f2b7154798178513c742d51bfb52e09f6b47d0e3b110.pem"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/server-complete/data-round4-20260916-02/trust_snapshot/fd9fe86c296f5354cb578551a4f1216fc900624e88dbc8625e4ae506d1e8d624.pem",
+    "archive_path": "work/data-round4/server-complete/data-round4-20260916-02/trust_snapshot/fd9fe86c296f5354cb578551a4f1216fc900624e88dbc8625e4ae506d1e8d624.pem"
+  }
+]

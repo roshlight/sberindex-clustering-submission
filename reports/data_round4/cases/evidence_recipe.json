@@ -1,0 +1,316 @@
+{
+  "review_date": "2026-09-16",
+  "extract_method": "manual_transcription_from_rendered_pdf_pages; OCR used only to locate pages",
+  "source_catalogue_sha256": "74c5ce5b3a18349feab000d6f2e79c61cdb24aa7d6cd786e133271054d554014",
+  "observations": [
+    {
+      "source_id": "yakutia_yearbook2023",
+      "source_sha256": "ba3ce2ff23b1d3b454d95f8e83a1f61fff899714fb2018a3ca4fb1f4f84f56db",
+      "publication_series": "Статистический ежегодник Республики Саха (Якутия)",
+      "edition_year": 2023,
+      "catalogue_display_date": "2023-12-20",
+      "catalogue_date_proves_downloaded_bytes_existed_on_date": false,
+      "physical_pdf_page": 264,
+      "printed_page": 264,
+      "table": "13.8",
+      "scope_physical_page": 261,
+      "scope_table": "13.5 footnote 1 applies to 13.6–13.8",
+      "unit": "million_rubles",
+      "price_basis": "actual_current_prices",
+      "period": "calendar_year",
+      "scope": "excludes_small_business_and_investment_not_directly_observed",
+      "images": [
+        {
+          "file": "render/yakutia_yearbook2023-264.png",
+          "sha256": "dea3aba41694fd6781ecb2bcbf96416e424c5d75453e354007953bfac470efe1",
+          "physical_pdf_page": 264
+        },
+        {
+          "file": "render/yakutia_yearbook2023-261.png",
+          "sha256": "15b2df9be4f80ef2dfe857b8a1dcb1998518a953574f11d577fdcb00a77a9dfc",
+          "physical_pdf_page": 261
+        }
+      ],
+      "visually_reviewed": true,
+      "years": [
+        2020,
+        2021,
+        2022
+      ],
+      "rows": [
+        {
+          "territory_id_context_candidate": 318,
+          "regional_row_label": "Верхнеколымский",
+          "values": [
+            "29.9",
+            "100.8",
+            "251.4"
+          ]
+        },
+        {
+          "territory_id_context_candidate": 331,
+          "regional_row_label": "Нижнеколымский",
+          "values": [
+            "12.0",
+            "25.9",
+            "31.8"
+          ]
+        }
+      ],
+      "join_status": "documentary_context_named_municipality_only_no_code_in_table",
+      "model_join_accepted": false,
+      "version_note": "Catalogue-linked edition; date is catalogue label, not archived-byte proof"
+    },
+    {
+      "source_id": "yakutia_yearbook2024",
+      "source_sha256": "478b76e74d76ad8d48dc809d9879601ddcf4207b19c60f137b2893791a6b57a0",
+      "publication_series": "Статистический ежегодник Республики Саха (Якутия)",
+      "edition_year": 2024,
+      "catalogue_display_date": "2024-12-19",
+      "catalogue_date_proves_downloaded_bytes_existed_on_date": false,
+      "physical_pdf_page": 244,
+      "printed_page": 244,
+      "table": "13.8",
+      "scope_physical_page": 241,
+      "scope_table": "13.5 footnote 1 applies to 13.6–13.8",
+      "unit": "million_rubles",
+      "price_basis": "actual_current_prices",
+      "period": "calendar_year",
+      "scope": "excludes_small_business_and_investment_not_directly_observed",
+      "images": [
+        {
+          "file": "render/yakutia_yearbook2024-244.png",
+          "sha256": "7802110cdc9636957ef2f048a7da15b8c452ef156e799428611a2bb6b30ebfb5",
+          "physical_pdf_page": 244
+        },
+        {
+          "file": "render/yakutia_yearbook2024-241.png",
+          "sha256": "56932617cb1d8607a2e7d3cd32fc99412a4843fadc8e398c35d729f42eba949a",
+          "physical_pdf_page": 241
+        }
+      ],
+      "visually_reviewed": true,
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "rows": [
+        {
+          "territory_id_context_candidate": 318,
+          "regional_row_label": "Верхнеколымский",
+          "values": [
+            "29.9",
+            "100.8",
+            "251.4",
+            "294.9"
+          ]
+        },
+        {
+          "territory_id_context_candidate": 331,
+          "regional_row_label": "Нижнеколымский",
+          "values": [
+            "12.0",
+            "25.9",
+            "31.8",
+            "1329.7"
+          ]
+        }
+      ],
+      "join_status": "documentary_context_named_municipality_only_no_code_in_table",
+      "model_join_accepted": false,
+      "version_note": "Catalogue-linked edition; date is catalogue label, not archived-byte proof"
+    },
+    {
+      "source_id": "yakutia_yearbook2025",
+      "source_sha256": "437cad9a5e0313b09ce47d443fdc983ac2f1fabba57d9a0ffa1dcb59e7f9df0b",
+      "publication_series": "Статистический ежегодник Республики Саха (Якутия)",
+      "edition_year": 2025,
+      "catalogue_display_date": null,
+      "catalogue_date_proves_downloaded_bytes_existed_on_date": false,
+      "physical_pdf_page": 234,
+      "printed_page": 234,
+      "table": "13.8",
+      "scope_physical_page": 231,
+      "scope_table": "13.5 footnote 1 applies to 13.6–13.8",
+      "unit": "million_rubles",
+      "price_basis": "actual_current_prices",
+      "period": "calendar_year",
+      "scope": "excludes_small_business_and_investment_not_directly_observed",
+      "images": [
+        {
+          "file": "render/yakutia_yearbook2025-234.png",
+          "sha256": "ac1eecd7dbb1fa042479a40204f6cad490a7fdd2a09bbb0dcdc575566bab8f74",
+          "physical_pdf_page": 234
+        }
+      ],
+      "visually_reviewed": true,
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "rows": [
+        {
+          "territory_id_context_candidate": 318,
+          "regional_row_label": "Верхнеколымский",
+          "values": [
+            "29.9",
+            "100.8",
+            "251.4",
+            "294.9",
+            "909.2"
+          ]
+        },
+        {
+          "territory_id_context_candidate": 331,
+          "regional_row_label": "Нижнеколымский",
+          "values": [
+            "12.0",
+            "25.9",
+            "31.8",
+            "1329.7",
+            "24.8"
+          ]
+        }
+      ],
+      "join_status": "documentary_context_named_municipality_only_no_code_in_table",
+      "model_join_accepted": false,
+      "version_note": "Indexed alternate URL; same publication as current version; scope read in current version",
+      "scope_source_id": "yakutia_yearbook2025_current"
+    },
+    {
+      "source_id": "yakutia_yearbook2025_current",
+      "source_sha256": "b8398deec6653dfe2fb454d164c44d7d27485ffa12395b31931f73330ac7d8e2",
+      "publication_series": "Статистический ежегодник Республики Саха (Якутия)",
+      "edition_year": 2025,
+      "catalogue_display_date": "2025-12-12",
+      "catalogue_date_proves_downloaded_bytes_existed_on_date": false,
+      "physical_pdf_page": 234,
+      "printed_page": 234,
+      "table": "13.8",
+      "scope_physical_page": 231,
+      "scope_table": "13.5 footnote 1 applies to 13.6–13.8",
+      "unit": "million_rubles",
+      "price_basis": "actual_current_prices",
+      "period": "calendar_year",
+      "scope": "excludes_small_business_and_investment_not_directly_observed",
+      "images": [
+        {
+          "file": "render/yakutia_yearbook2025_current-234.png",
+          "sha256": "ac1eecd7dbb1fa042479a40204f6cad490a7fdd2a09bbb0dcdc575566bab8f74",
+          "physical_pdf_page": 234
+        },
+        {
+          "file": "render/yakutia_yearbook2025_current-231.png",
+          "sha256": "0d94eea5f637202a94da90b72fd38f76b15e446c867d83edacb987c6a151f050",
+          "physical_pdf_page": 231
+        }
+      ],
+      "visually_reviewed": true,
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "rows": [
+        {
+          "territory_id_context_candidate": 318,
+          "regional_row_label": "Верхнеколымский",
+          "values": [
+            "29.9",
+            "100.8",
+            "251.4",
+            "294.9",
+            "909.2"
+          ]
+        },
+        {
+          "territory_id_context_candidate": 331,
+          "regional_row_label": "Нижнеколымский",
+          "values": [
+            "12.0",
+            "25.9",
+            "31.8",
+            "1329.7",
+            "24.8"
+          ]
+        }
+      ],
+      "join_status": "documentary_context_named_municipality_only_no_code_in_table",
+      "model_join_accepted": false,
+      "version_note": "Catalogue-linked edition; date is catalogue label, not archived-byte proof"
+    }
+  ],
+  "scope_quote": "Здесь и далее (табл. 13.6-13.8) без субъектов малого предпринимательства и объема инвестиций, не наблюдаемых прямыми статистическими методами.",
+  "case_review_status": [
+    {
+      "territory_id": 318,
+      "name": "Верхнеколымский",
+      "indicator": "investments",
+      "status": "rounded_publication_values_and_scope_agree",
+      "cause_resolved": false,
+      "model_join_accepted": false,
+      "finding": "Публикация 2024 и обе версии публикации 2025 согласуются с БДПМО за2023/24; причины роста не установлены."
+    },
+    {
+      "territory_id": 331,
+      "name": "Нижнеколымский",
+      "indicator": "investments",
+      "status": "rounded_publication_values_and_scope_agree",
+      "cause_resolved": false,
+      "model_join_accepted": false,
+      "finding": "В трёх выпусках устойчив ряд2020–2022; сумма2023 и падение2024 повторены. Источник состава инвестиций по проектам или респондентам не найден."
+    },
+    {
+      "territory_id": 318,
+      "name": "Верхнеколымский",
+      "indicator": "shipments",
+      "status": "unresolved_after_bounded_search",
+      "cause_resolved": false,
+      "model_join_accepted": false,
+      "finding": "Дополнительная сопоставимая муниципальная таблица отгрузки не получена; -24.89% остаётся описанием исходной БДПМО."
+    },
+    {
+      "territory_id": 2527,
+      "name": "Куркино (Москва)",
+      "indicator": "retail",
+      "status": "unresolved_after_bounded_search",
+      "cause_resolved": false,
+      "model_join_accepted": false,
+      "finding": "Свежий поиск не дал принятой официальной таблицы с теми же единицами, годами и охватом. Рост +143.56% не объяснён; одноимённое Куркино Тульской области исключено."
+    },
+    {
+      "territory_id": 1180,
+      "name": "Светловский",
+      "indicator": "wage",
+      "status": "unresolved_prior_contradiction",
+      "cause_resolved": false,
+      "model_join_accepted": false,
+      "finding": "Прежнее расхождение2024:106044.3 в муниципальном документе против105631.8 БДПМО;412.5 руб. Причина в этом раунде не установлена; никаких замен."
+    },
+    {
+      "territory_id": 883,
+      "name": "Свободненский",
+      "indicator": "investments_and_shipments",
+      "status": "not_extended_in_this_bounded_package",
+      "cause_resolved": false,
+      "model_join_accepted": false,
+      "finding": "Нового источника с доказанной сопоставимостью здесь нет. Прежнее расхождение декабрьской и годовой численности не устранено и не смешивается."
+    },
+    {
+      "territory_id": 925,
+      "name": "Красноярский (Астраханская область)",
+      "indicator": "money_indicators",
+      "status": "not_extended_in_this_bounded_package",
+      "cause_resolved": false,
+      "model_join_accepted": false,
+      "finding": "Для этого примера отдельный новый документ не извлекался; прежние результаты не изменены."
+    }
+  ]
+}

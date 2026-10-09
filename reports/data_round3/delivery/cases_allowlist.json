@@ -1,0 +1,777 @@
+[
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/download_inventory.json",
+    "archive_path": "work/data-round3/cases/download_inventory.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_adm_2024.extracted.json",
+    "archive_path": "work/data-round3/cases/kurkino_adm_2024.extracted.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_adm_2024.meta.json",
+    "archive_path": "work/data-round3/cases/kurkino_adm_2024.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_adm_2024.pdf",
+    "archive_path": "work/data-round3/cases/kurkino_adm_2024.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_adm_2024.txt",
+    "archive_path": "work/data-round3/cases/kurkino_adm_2024.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_adm_2024_page-01.png",
+    "archive_path": "work/data-round3/cases/kurkino_adm_2024_page-01.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_decisions_2024.extracted.json",
+    "archive_path": "work/data-round3/cases/kurkino_decisions_2024.extracted.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_decisions_2024.html",
+    "archive_path": "work/data-round3/cases/kurkino_decisions_2024.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_decisions_2024.meta.json",
+    "archive_path": "work/data-round3/cases/kurkino_decisions_2024.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_decisions_2024.txt",
+    "archive_path": "work/data-round3/cases/kurkino_decisions_2024.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_head_2024.extracted.json",
+    "archive_path": "work/data-round3/cases/kurkino_head_2024.extracted.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_head_2024.meta.json",
+    "archive_path": "work/data-round3/cases/kurkino_head_2024.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_head_2024.pdf",
+    "archive_path": "work/data-round3/cases/kurkino_head_2024.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_head_2024.txt",
+    "archive_path": "work/data-round3/cases/kurkino_head_2024.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_home.extracted.json",
+    "archive_path": "work/data-round3/cases/kurkino_home.extracted.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_home.html",
+    "archive_path": "work/data-round3/cases/kurkino_home.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_home.meta.json",
+    "archive_path": "work/data-round3/cases/kurkino_home.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_home.txt",
+    "archive_path": "work/data-round3/cases/kurkino_home.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_org_reports.extracted.json",
+    "archive_path": "work/data-round3/cases/kurkino_org_reports.extracted.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_org_reports.html",
+    "archive_path": "work/data-round3/cases/kurkino_org_reports.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_org_reports.meta.json",
+    "archive_path": "work/data-round3/cases/kurkino_org_reports.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_org_reports.txt",
+    "archive_path": "work/data-round3/cases/kurkino_org_reports.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_reports.extracted.json",
+    "archive_path": "work/data-round3/cases/kurkino_reports.extracted.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_reports.html",
+    "archive_path": "work/data-round3/cases/kurkino_reports.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_reports.meta.json",
+    "archive_path": "work/data-round3/cases/kurkino_reports.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_reports.txt",
+    "archive_path": "work/data-round3/cases/kurkino_reports.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_2024.extracted.json",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_2024.extracted.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_2024.meta.json",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_2024.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_2024.pdf",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_2024.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_2024.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_2024.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-01.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-01.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-01.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-01.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-02.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-02.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-02.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-02.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-03.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-03.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-03.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-03.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-04.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-04.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-04.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-04.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-05.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-05.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-05.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-05.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-06.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-06.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-06.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-06.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-07.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-07.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-07.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-07.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-08.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-08.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-08.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-08.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-09.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-09.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-09.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-09.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-10.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-10.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-10.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-10.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-11.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-11.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-11.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-11.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-12.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-12.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-12.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-12.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-13.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-13.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-13.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-13.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-14.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-14.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-14.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-14.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-15.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-15.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-15.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-15.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-16.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-16.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-16.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-16.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-17.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-17.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-17.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-17.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-18.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-18.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-18.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-18.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-19.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-19.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-19.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-19.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-20.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-20.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-20.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-20.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-21.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-21.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-21.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-21.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-22.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-22.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-22.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-22.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-23.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-23.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-23.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-23.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-24.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-24.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-24.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-24.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-25.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-25.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-25.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-25.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-26.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-26.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-26.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-26.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-27.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-27.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-27.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-27.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-28.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-28.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-28.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-28.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-29.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-29.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-29.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-29.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-30.png",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-30.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_uprava_page-30.txt",
+    "archive_path": "work/data-round3/cases/kurkino_uprava_page-30.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_zhilishnik_2024.extracted.json",
+    "archive_path": "work/data-round3/cases/kurkino_zhilishnik_2024.extracted.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_zhilishnik_2024.meta.json",
+    "archive_path": "work/data-round3/cases/kurkino_zhilishnik_2024.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_zhilishnik_2024.pdf",
+    "archive_path": "work/data-round3/cases/kurkino_zhilishnik_2024.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_zhilishnik_2024.txt",
+    "archive_path": "work/data-round3/cases/kurkino_zhilishnik_2024.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/kurkino_zhilishnik_2024_page-1.png",
+    "archive_path": "work/data-round3/cases/kurkino_zhilishnik_2024_page-1.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/ocr_manifest.json",
+    "archive_path": "work/data-round3/cases/ocr_manifest.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svetl_2023_report.extracted.json",
+    "archive_path": "work/data-round3/cases/svetl_2023_report.extracted.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svetl_2023_report.meta.json",
+    "archive_path": "work/data-round3/cases/svetl_2023_report.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svetl_2023_report.pdf",
+    "archive_path": "work/data-round3/cases/svetl_2023_report.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svetl_2023_report.txt",
+    "archive_path": "work/data-round3/cases/svetl_2023_report.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svetl_2024_report.extracted.json",
+    "archive_path": "work/data-round3/cases/svetl_2024_report.extracted.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svetl_2024_report.meta.json",
+    "archive_path": "work/data-round3/cases/svetl_2024_report.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svetl_2024_report.pdf",
+    "archive_path": "work/data-round3/cases/svetl_2024_report.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svetl_2024_report.txt",
+    "archive_path": "work/data-round3/cases/svetl_2024_report.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svetl_2024_report_page-04.png",
+    "archive_path": "work/data-round3/cases/svetl_2024_report_page-04.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svetl_budget_2026.extracted.json",
+    "archive_path": "work/data-round3/cases/svetl_budget_2026.extracted.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svetl_budget_2026.meta.json",
+    "archive_path": "work/data-round3/cases/svetl_budget_2026.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svetl_budget_2026.pdf",
+    "archive_path": "work/data-round3/cases/svetl_budget_2026.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svetl_budget_2026.txt",
+    "archive_path": "work/data-round3/cases/svetl_budget_2026.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svetl_workers_2024.meta.json",
+    "archive_path": "work/data-round3/cases/svetl_workers_2024.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svetl_workers_2024.pdf",
+    "archive_path": "work/data-round3/cases/svetl_workers_2024.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svetl_workers_2025_vintage.extracted.json",
+    "archive_path": "work/data-round3/cases/svetl_workers_2025_vintage.extracted.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svetl_workers_2025_vintage.meta.json",
+    "archive_path": "work/data-round3/cases/svetl_workers_2025_vintage.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svetl_workers_2025_vintage.pdf",
+    "archive_path": "work/data-round3/cases/svetl_workers_2025_vintage.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svetl_workers_2025_vintage.txt",
+    "archive_path": "work/data-round3/cases/svetl_workers_2025_vintage.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_annual2024.extracted.json",
+    "archive_path": "work/data-round3/cases/svob_annual2024.extracted.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_annual2024.meta.json",
+    "archive_path": "work/data-round3/cases/svob_annual2024.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_annual2024.pdf",
+    "archive_path": "work/data-round3/cases/svob_annual2024.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_annual2024.txt",
+    "archive_path": "work/data-round3/cases/svob_annual2024.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_annual2024_page-014.png",
+    "archive_path": "work/data-round3/cases/svob_annual2024_page-014.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_bulletin.extracted.json",
+    "archive_path": "work/data-round3/cases/svob_bulletin.extracted.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_bulletin.html",
+    "archive_path": "work/data-round3/cases/svob_bulletin.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_bulletin.meta.json",
+    "archive_path": "work/data-round3/cases/svob_bulletin.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_bulletin.txt",
+    "archive_path": "work/data-round3/cases/svob_bulletin.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_council.extracted.json",
+    "archive_path": "work/data-round3/cases/svob_council.extracted.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_council.html",
+    "archive_path": "work/data-round3/cases/svob_council.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_council.meta.json",
+    "archive_path": "work/data-round3/cases/svob_council.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_council.txt",
+    "archive_path": "work/data-round3/cases/svob_council.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_dec2023.extracted.json",
+    "archive_path": "work/data-round3/cases/svob_dec2023.extracted.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_dec2023.meta.json",
+    "archive_path": "work/data-round3/cases/svob_dec2023.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_dec2023.pdf",
+    "archive_path": "work/data-round3/cases/svob_dec2023.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_dec2023.txt",
+    "archive_path": "work/data-round3/cases/svob_dec2023.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_dec2023_page-52.png",
+    "archive_path": "work/data-round3/cases/svob_dec2023_page-52.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_dec2024.extracted.json",
+    "archive_path": "work/data-round3/cases/svob_dec2024.extracted.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_dec2024.meta.json",
+    "archive_path": "work/data-round3/cases/svob_dec2024.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_dec2024.pdf",
+    "archive_path": "work/data-round3/cases/svob_dec2024.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_dec2024.txt",
+    "archive_path": "work/data-round3/cases/svob_dec2024.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_dec2024_page-49.png",
+    "archive_path": "work/data-round3/cases/svob_dec2024_page-49.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_economy_program2024.extracted.json",
+    "archive_path": "work/data-round3/cases/svob_economy_program2024.extracted.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_economy_program2024.meta.json",
+    "archive_path": "work/data-round3/cases/svob_economy_program2024.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_economy_program2024.pdf",
+    "archive_path": "work/data-round3/cases/svob_economy_program2024.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_economy_program2024.txt",
+    "archive_path": "work/data-round3/cases/svob_economy_program2024.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_home.meta.json",
+    "archive_path": "work/data-round3/cases/svob_home.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_legacy.meta.json",
+    "archive_path": "work/data-round3/cases/svob_legacy.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_strategy2035.extracted.json",
+    "archive_path": "work/data-round3/cases/svob_strategy2035.extracted.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_strategy2035.meta.json",
+    "archive_path": "work/data-round3/cases/svob_strategy2035.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_strategy2035.rar",
+    "archive_path": "work/data-round3/cases/svob_strategy2035.rar"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_strategy2035.txt",
+    "archive_path": "work/data-round3/cases/svob_strategy2035.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_strategy2035_docx.extracted.json",
+    "archive_path": "work/data-round3/cases/svob_strategy2035_docx.extracted.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_strategy2035_docx.txt",
+    "archive_path": "work/data-round3/cases/svob_strategy2035_docx.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_strategy2035_members/Решение № 130 от 24.12.2025 стратегия/Решение Об утверждении Стратегии социально экономического развития до 2035 года +Пояснительнаяя.doc",
+    "archive_path": "work/data-round3/cases/svob_strategy2035_members/Решение № 130 от 24.12.2025 стратегия/Решение Об утверждении Стратегии социально экономического развития до 2035 года +Пояснительнаяя.doc"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_strategy2035_members/Решение № 130 от 24.12.2025 стратегия/СТРАТЕГИЯ СВОБОДНЕНСКИЙ РАЙОН ДО 2035 новая 2.docx",
+    "archive_path": "work/data-round3/cases/svob_strategy2035_members/Решение № 130 от 24.12.2025 стратегия/СТРАТЕГИЯ СВОБОДНЕНСКИЙ РАЙОН ДО 2035 новая 2.docx"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_strategy2035_members.json",
+    "archive_path": "work/data-round3/cases/svob_strategy2035_members.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_strategy2035_paragraphs.json",
+    "archive_path": "work/data-round3/cases/svob_strategy2035_paragraphs.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/cases/svob_strategy2035_tables.json",
+    "archive_path": "work/data-round3/cases/svob_strategy2035_tables.json"
+  }
+]

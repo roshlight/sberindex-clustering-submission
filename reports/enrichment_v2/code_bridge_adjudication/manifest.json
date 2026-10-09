@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "audit_source": "..\\reports\\enrichment_v2\\code_bridge\\temporal_review_2023.csv",
+  "audit_source_sha256": "adc95727412f9677dd7f92effc2771be6dd12e20ebc880c90041469041d04912",
+  "processor_sha256": "0c744a074824eff6d460c627ac44d5624ce24c7f116fcad7a97898e465f91a16",
+  "output_hashes": {
+    "calendar_code_adjudication.csv": "3b932ab68ace042cbdbad56988baa842641b2d63fecd53c9973e35cd24fc7eff",
+    "calendar_code_adjudication.json": "2c2f7bb97c98631bfe37e3ab20de149f953689a0861f3959acff22445f1f9184",
+    "evidence/fns_19514000_web_tool_text.txt": "b36ad8d5ff00681ab9d11d6166e02868a7679b5666dc9ab80755e566482b4b95",
+    "evidence/gost_change_593_2022.html": "b71b96fffbe7b3d5f5d47b08ab300fb6ed02c64e0dcb43d90ec2921458679152",
+    "evidence/gost_change_594_2022.html": "2086dff17aa89d0886737d93afb775a43630dfc34a14ba72678ef3ae99f5850c",
+    "evidence/gost_change_598_2023.html": "cbef4677f2222f26ce9ea0d7092486e5169aa41d62ef2528f8cd5cd9b366c25b",
+    "evidence/gost_change_600_2023.html": "893b13dcc1df5f8a34d6a6de2674844e82ea291ec054006e993894ef7161f38a",
+    "summary.json": "bc0735f23cdd355958269ed9c8ab04debf3925d657c5cd3f0bab847dcc275dd5"
+  }
+}

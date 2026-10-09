@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-09-14T23:46:39.388509+00:00",
+  "scratch_run": "work/enriched-analysis/input-audit/portable-check",
+  "csv_byte_identical": {
+    "annual_masks_and_diagnostics.csv": true,
+    "calendar_flag_cases.csv": true,
+    "code_type_changes.csv": true,
+    "core_validation_coverage.csv": true,
+    "core_validation_folds.csv": true,
+    "coverage_by_region_and_type.csv": true,
+    "coverage_masks.csv": true,
+    "employees_resident_ratio_over_one.csv": true,
+    "paired_coverage.csv": true,
+    "spatial_source_year_code_mismatches.csv": true
+  },
+  "same_validation_counts": true,
+  "same_48_validation_checks": true,
+  "published_output_guard_exit_code": 2,
+  "snapshot_manifests_unchanged_by_guard_test": true,
+  "snapshot_manifest_hashes": {
+    "audit_manifest.json": "b54c5f7ed0004287ef7b99968337eeb06d65873ecf23da5ae00f9141172bf29a",
+    "core_validation.json": "137091f28fa80f41503bea631937f139810a79d138ea14e35359538e2ad08773"
+  },
+  "portable_script_hashes": {
+    "audit_cli.py": "1d57d06dbc6fddcf04643c9cc2d4a9d5738a8a2fc13d6fc7e041401f9f6d8613",
+    "audit_inputs.py": "cde636253bd0a010dd1be05a7b8a6045dc1c0237fdc9275602b0728ce0b69041",
+    "coverage_details.py": "d87377b0c8ca55b3ad33c7342e6be95814e5895c68a2c7aad985a7ac427e5a03",
+    "validate_core.py": "ca561aa588f7317e4eeaecbb7b1b0f85b66ed3ee5eedf60c245b31e2b8eec93d"
+  },
+  "scratch_core_validation_sha256": "bad0cf491552a7142c77f82fd969266353aac9e23f9300ee3e961a1c82b7fc20",
+  "ruff_check": "PASS",
+  "ruff_format_check": "PASS",
+  "network_requests": 0
+}

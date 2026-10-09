@@ -1,0 +1,100 @@
+{
+  "status": "PASS_small_source_spotcheck",
+  "checked_at_utc": "2026-09-14T23:02:16.510079+00:00",
+  "network_requests": 0,
+  "model_calls": 0,
+  "archives_not_reopened_locally": true,
+  "parquet_sources_verified": 9,
+  "filtered_parquet_sources_verified": 9,
+  "filtered_rows": 3214192,
+  "indicator_counts_sum": 57,
+  "summary_checks": [
+    {
+      "file": "years2023_2024_data_section13_112_v20250918.parquet",
+      "rows": 0,
+      "indicators": 0,
+      "year_counts_match_source": true,
+      "sha256": "72faa1c93cc5c01731fce1577cd5049161ab60031f752969f3d310820c8a6e44",
+      "join_status": "unlinked_secondary_snapshot_not_accepted_panel_features"
+    },
+    {
+      "file": "years2023_2024_data_section1_112_v20250918.parquet",
+      "rows": 57144,
+      "indicators": 3,
+      "year_counts_match_source": true,
+      "sha256": "931f61e4c59aa21aab293e094612ba951ed67694217c1a4f3dcfad2462680583",
+      "join_status": "unlinked_secondary_snapshot_not_accepted_panel_features"
+    },
+    {
+      "file": "years2023_2024_data_section2_112_v20250918.parquet",
+      "rows": 1285073,
+      "indicators": 12,
+      "year_counts_match_source": true,
+      "sha256": "5c86ba9723f08aa1d34dd705ef72c9f8f87bd7fa1557d5f782b1f658d6da0041",
+      "join_status": "unlinked_secondary_snapshot_not_accepted_panel_features"
+    },
+    {
+      "file": "years2023_2024_data_section37_112_v20250918.parquet",
+      "rows": 93632,
+      "indicators": 5,
+      "year_counts_match_source": true,
+      "sha256": "c587daa4c03f23df6aaad5c0266330a2cffbcfef40bfb112b3933874a72b0cba",
+      "join_status": "unlinked_secondary_snapshot_not_accepted_panel_features"
+    },
+    {
+      "file": "years2023_2024_data_section39_112_v20250918.parquet",
+      "rows": 213819,
+      "indicators": 5,
+      "year_counts_match_source": true,
+      "sha256": "403a8bb292ef077c23024959c2d377f873b56085f2b97ac7ff648f17adb792c6",
+      "join_status": "unlinked_secondary_snapshot_not_accepted_panel_features"
+    },
+    {
+      "file": "years2023_2024_data_section60_112_v20250918.parquet",
+      "rows": 16531,
+      "indicators": 5,
+      "year_counts_match_source": true,
+      "sha256": "0020dac679a4622202ede0049f8d9404788bef5f3fd15b7201568f316ffd289c",
+      "join_status": "unlinked_secondary_snapshot_not_accepted_panel_features"
+    },
+    {
+      "file": "years2023_2024_data_section6_112_v20250918.parquet",
+      "rows": 127696,
+      "indicators": 6,
+      "year_counts_match_source": true,
+      "sha256": "22698750f1b396c226635107644c2af170ec3eabdf7316716fb2d15c3fce55d9",
+      "join_status": "unlinked_secondary_snapshot_not_accepted_panel_features"
+    },
+    {
+      "file": "years2023_2024_data_section7_112_v20250918.parquet",
+      "rows": 1237495,
+      "indicators": 17,
+      "year_counts_match_source": true,
+      "sha256": "aeeae275d54a89eed2d1b770ed8677a73336d2b486d7d70fe928162532be2d9e",
+      "join_status": "unlinked_secondary_snapshot_not_accepted_panel_features"
+    },
+    {
+      "file": "years2023_2024_data_section9_112_v20250918.parquet",
+      "rows": 182802,
+      "indicators": 4,
+      "year_counts_match_source": true,
+      "sha256": "b3106f9bfe95467b343071054b6d8a908e91ac54026d119578676a6fb29a2457",
+      "join_status": "unlinked_secondary_snapshot_not_accepted_panel_features"
+    }
+  ],
+  "spotcheck_cells": 8,
+  "comparison_counts": {
+    "MATCH": 8
+  },
+  "primary_pilot_sha256": "385fc297ad2b968c2dfd22c6b50c1abf4e3a190145e3e771f636811f1be7fb31",
+  "spotcheck_sha256": "8a7b0590535cf02412280eaf50efc88bdb88cbafc347163dd2e45429f1347f17",
+  "no_geographical_join": true,
+  "no_general_primary_secondary_code_transform": true,
+  "no_global_source_validation_claim": true,
+  "caveats": [
+    "Only two explicit indicator-code pairs, two municipalities, annual January–December totals, 2023/2024.",
+    "Secondary union-schema dimensions not present in corresponding primary requests retain literal CD; not interpreted as values or imputed.",
+    "Matching local codes does not independently certify historical boundary equivalence.",
+    "Counts of rows are not counts of numeric municipality-level observations: preserve periods, dimensions, levels and source missing markers."
+  ]
+}

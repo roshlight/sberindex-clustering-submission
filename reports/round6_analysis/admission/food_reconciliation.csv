@@ -1,0 +1,3 @@
+year,municipal_rows,municipal_sum_thousand_rubles,regional_total_thousand_rubles,regional_minus_municipal_thousand_rubles,residual_percent_of_region,residual_cause,allocated_to_municipalities
+2023,39,209114166.7,209777336.0,663169.3,0.3161300990112678,unknown,False
+2024,39,240535927.3,241314345.1,778417.8,0.3225741924614659,unknown,False

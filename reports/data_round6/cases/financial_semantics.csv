@@ -1,0 +1,9 @@
+kind,meaning,annual_investment_substitute
+budget_limit_year_end,Лимиты бюджетных обязательств на конец года,False
+annual_cash_execution,Кассовое исполнение заказчика по объекту и КБК за календарный год,False
+contract_financing_schedule,График финансирования контракта по годам в действующей версии ЕИС,False
+contract_initial_price / contract_revised_price,"Стоимость всего контракта, а не расходы конкретного года",False
+cumulative_paid_customer,"Накопленная оплата заказчика на дату, возможна смена заказчика",False
+cumulative_work_performed,Выполнение по контракту накопительным итогом на указанную дату,False
+advance_receivable_stock,Остаток авансовой дебиторской задолженности на дату,False
+refund_of_overpayment,"Возврат ранее перечисленных денег, не новые капитальные вложения",False

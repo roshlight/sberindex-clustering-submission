@@ -1,0 +1,12 @@
+claim,status,evidence,finding,remaining_requirement
+cash_2022_and_2023_documented,accepted_documentary,airport_comparison.csv;source_availability.csv,Two annual sums from federal auditor cells; units independently checked in collection.,Retrospective context only; statistical allocation remains unproven.
+code_queue_double_count_quantified,accepted_scoped,geography_code_groups.csv;geography_queue_summary.csv,Each code/year counted once against the original SME code inventory.,"Not unique firms, accepted assignments or a regional population estimate."
+worker_sample_measurement_and_document_date_differ,accepted_scoped,worker_temporal_eligibility.csv,2025 measurement and 2026 document date remain separate; 237-day lag in this sample.,Nonrepresentative sample; no inference about all FNS publication lags.
+cash_is_municipal_investment,unsupported,airport_comparison.csv;airport_changes.csv,Cash2022 exceeds municipal investment; two series have opposite2022to2023 changes.,"Reconcile statistical respondent, place, recognition period and accounting scope."
+airport_contributed_to_spike,unknown,airport_comparison.csv;source_availability.csv,"Annual cash is documented, but contribution is not identified.","Need project-to-municipal statistical reconciliation, not event coincidence."
+airport_cash_2024_zero,unsupported,airport_comparison.csv,"Official source cells are blank, ratio remains null.",Need actual2024 cash report.
+other_projects_or_statistical_scope_explain_spike,unknown,source_availability.csv,"Alternative projects, respondent changes and recognition timing remain unresolved.",Obtain annual project amounts and statistical coverage; no residual allocation.
+queue_gives_extra_municipal_coverage,unsupported,geography_queue_summary.csv,"Nonduplicated code-group rows measure review workload, not accepted assignments.",Need dated company addresses and effective transitions.
+single_candidate_parent_proves_location,unsupported,geography_code_groups.csv,One candidate parent can conceal multiple or excluded predecessors.,Resolve all predecessors and address history before adoption.
+workers_xml_improves_2023_2024_features,unsupported,worker_temporal_eligibility.csv,All900 sampled observations refer to2025 with documents dated2026.,Obtain target-year data and publication/revision lineage.
+asset_syntax_issue_is_firm_join_error,unsupported,sme_asset_readiness.csv,Asset rows and companies are different populations; exact build is unknown.,Trace exact author-code run and per-record geography.

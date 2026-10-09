@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "method": "Fresh output directory; offline audit; SHA256 equality for all machine files",
+  "machine_output_count": 21,
+  "manifest_equal": true,
+  "canonical_manifest_sha256": "5f22c48a2c5a26528396e4d00c52379f3a29bc8dbd2bfce5b740a48af982e34d",
+  "script_sha256": "6ad6c8d3df61f0c47ac40929f0877d81829621996a6812fe17fcc1661214ec51",
+  "pytest": "4 passed",
+  "ruff": "PASS",
+  "network_requests_in_replay": 0
+}

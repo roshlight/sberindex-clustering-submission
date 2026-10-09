@@ -1,0 +1,82 @@
+[
+  {
+    "path": "archive_sample_summary.csv",
+    "sha256": "e6e58fd49b29cc999d820429a8ba22afee29e8f8ecf4b9d57f185e57badcef8c",
+    "bytes": 1758
+  },
+  {
+    "path": "downloaded_sources.csv",
+    "sha256": "9be5e26a6fe648464460034caa4d634d241ff2a2d0c12da6fc9cb501f022039b",
+    "bytes": 7090
+  },
+  {
+    "path": "evidence_ledger.csv",
+    "sha256": "01c9ba210181dd39a119242d3cbe4509aaf11197f7a03a8f41ca7fc24703d5a9",
+    "bytes": 2567
+  },
+  {
+    "path": "generator_code_evidence.csv",
+    "sha256": "d408c6af2c0007840278e0ff732073e4461570147204882a697141cfeb5bc3d3",
+    "bytes": 1471
+  },
+  {
+    "path": "historical_archive_catalog.csv",
+    "sha256": "d6c470ae8fc47c1447509d4bce001f2d9c7298addc789607873b61e030529d74",
+    "bytes": 3585
+  },
+  {
+    "path": "municipal_pdf_text.json",
+    "sha256": "a5401e68755bc7be25e2ec630396f68edfff993874e0a90cb2cff1caef1517aa",
+    "bytes": 27543
+  },
+  {
+    "path": "municipal_stock_candidates_2024.csv",
+    "sha256": "4e996fcfdb023e9207fc63c2924a96b6053af3e81f533424c8f55654cb94f257",
+    "bytes": 5156
+  },
+  {
+    "path": "official_stock_counts.csv",
+    "sha256": "b7367214062a701cf55c1c640b0a73d466510103e39fe654c2931792e630ba73",
+    "bytes": 37255
+  },
+  {
+    "path": "passport_text_evidence.json",
+    "sha256": "bc1f2e3e1791d868861501d427003c3d1ad135ad048074dbc4cda399baf5f165",
+    "bytes": 17533
+  },
+  {
+    "path": "prior_source_reference.json",
+    "sha256": "e030f3de3afa093a2590dfcf5d8a3d47bcd46438baf25d619c4d99f5d50b332b",
+    "bytes": 145
+  },
+  {
+    "path": "QA.json",
+    "sha256": "208ebfe0e6bf055df4a1abb80e65b3e11a72b5e153ef1b32df6bd33c2981ff38",
+    "bytes": 15325
+  },
+  {
+    "path": "raw_inventory.csv",
+    "sha256": "13be788d6e5aca460469ed177e7b537c6bd66122afcff65f97c6059446a019ec",
+    "bytes": 15097
+  },
+  {
+    "path": "README.md",
+    "sha256": "8aeb1fb5870f64ca76dcaac16bd2e78bf23a9e5cbb48ff28b73014828591d682",
+    "bytes": 11261
+  },
+  {
+    "path": "retrieval_attempts.csv",
+    "sha256": "0d991adcb019c76d973e69ab9ad2054ab31d2c49a2d13f75ea35b6e6827302b3",
+    "bytes": 6870
+  },
+  {
+    "path": "schema_field_evidence.csv",
+    "sha256": "ef0c1f59668fb8b19431e297e3496e89993e960ed8d82cefc6075657c3351bba",
+    "bytes": 1861
+  },
+  {
+    "path": "xml_sample_audit.csv",
+    "sha256": "9db82cda396387df2f0d5acdd327b4473131887cfa464272f8f3be65041c7187",
+    "bytes": 948
+  }
+]

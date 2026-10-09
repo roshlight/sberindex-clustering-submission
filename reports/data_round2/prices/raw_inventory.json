@@ -1,0 +1,385 @@
+{
+  "root": "workspace",
+  "total_files": 74,
+  "total_bytes": 112294963,
+  "excluded": [
+    "rus.traineddata",
+    "ocr_model_manifest.json",
+    "historical_city_codes_2012.csv",
+    "probe-*",
+    "monthly-probe-*",
+    "intermediate-*"
+  ],
+  "files": [
+    {
+      "path": "work/data-round2/prices/665-02.png",
+      "bytes": 118474,
+      "sha256": "09e2b9769010014fd52760ec5257c9a012d4139d5f3308c21cdcfb94c8274901"
+    },
+    {
+      "path": "work/data-round2/prices/665-02.txt",
+      "bytes": 287,
+      "sha256": "8c799cfe87d26d93e5babb69718053b55710638c7cb8519de47ec35b56490f7c"
+    },
+    {
+      "path": "work/data-round2/prices/665-13.png",
+      "bytes": 439106,
+      "sha256": "bb76d5f34b1870acffe8e4c19d0e32ff8531376410894be9da9111121caf09c1"
+    },
+    {
+      "path": "work/data-round2/prices/665-13.txt",
+      "bytes": 1123,
+      "sha256": "cece17acee6c343df89df59b3f58ac7f18c2b277c07c0e141ae3acf9e085d225"
+    },
+    {
+      "path": "work/data-round2/prices/665-14.png",
+      "bytes": 408722,
+      "sha256": "c18b3f0efff6c018b9528190ab7c83a7894c8024c5f3eb910a4df50e570f042e"
+    },
+    {
+      "path": "work/data-round2/prices/665-14.txt",
+      "bytes": 999,
+      "sha256": "fd571dc5e08ad0a0c4f5f38f1fbc058f195d86f7497b00d6fe88e4d736846a75"
+    },
+    {
+      "path": "work/data-round2/prices/665-15.png",
+      "bytes": 543983,
+      "sha256": "8226a17d87373a31e64a31d637519aa56bbd1ee045f5d93e5366ceaf9472ec9a"
+    },
+    {
+      "path": "work/data-round2/prices/665-15.txt",
+      "bytes": 1451,
+      "sha256": "516dac327a3e9bad8dc55ee82f20d2cf1ce1c2afe69e60b3764c90ada5af1607"
+    },
+    {
+      "path": "work/data-round2/prices/665-16.png",
+      "bytes": 478789,
+      "sha256": "23aff376b0a158866c4aa5d58f83cf301ba5a3945aad88159b1f1354ea8ffa23"
+    },
+    {
+      "path": "work/data-round2/prices/665-16.txt",
+      "bytes": 1187,
+      "sha256": "b919714b54a96e66591c9807847368b16d0dd4a0ebab2952dd8985894b51aa09"
+    },
+    {
+      "path": "work/data-round2/prices/665-17.png",
+      "bytes": 507015,
+      "sha256": "f0deadb3833cee6c42d294409712ec9b24ac0ccf0380d703790e2f806fdb7fec"
+    },
+    {
+      "path": "work/data-round2/prices/665-17.txt",
+      "bytes": 1293,
+      "sha256": "3bc42e458fdf66bd012d8623c9e86ca7bf987bb29ab9709a57c5a3e10a695620"
+    },
+    {
+      "path": "work/data-round2/prices/665-18.png",
+      "bytes": 473341,
+      "sha256": "8144a0a9a8c3202bd7929055864ab4ad05ddb5ef3ef5773d5999a3cdb08525bf"
+    },
+    {
+      "path": "work/data-round2/prices/665-18.txt",
+      "bytes": 1186,
+      "sha256": "682c2b31d9c13035a54880278ef82b5465a9ce6ceec43ce9c066d6d183cfed0f"
+    },
+    {
+      "path": "work/data-round2/prices/665-19.png",
+      "bytes": 511252,
+      "sha256": "a7a8ba9cdd2f2df311cae6644a4e40630914791675115425ae1d1922f57dc607"
+    },
+    {
+      "path": "work/data-round2/prices/665-19.txt",
+      "bytes": 1299,
+      "sha256": "992bb17dcda5d7e0a2075ef9ffb5c1f095d7a5ec6dfb9c1572dfe048066f11bb"
+    },
+    {
+      "path": "work/data-round2/prices/665-20.png",
+      "bytes": 425671,
+      "sha256": "59962f8a1624243107fbad5943eb3b7411731975c18cbcede3747e05e38648c5"
+    },
+    {
+      "path": "work/data-round2/prices/665-20.txt",
+      "bytes": 1037,
+      "sha256": "1d412ea449abd9a446e3293114c0c0c5fc82a0b309303d0e07b1195f0af11984"
+    },
+    {
+      "path": "work/data-round2/prices/665-21.png",
+      "bytes": 452122,
+      "sha256": "4b5cc67d6640e9f4a32e3f944b93ba68542abe98fb46514300a6d8b2d996ac6a"
+    },
+    {
+      "path": "work/data-round2/prices/665-21.txt",
+      "bytes": 1114,
+      "sha256": "c0af760f5f668cbff87462261c5b8fc7a5ee767c7afb34616ba740614da7ebd7"
+    },
+    {
+      "path": "work/data-round2/prices/665-22.png",
+      "bytes": 257940,
+      "sha256": "6980e667cab8481a1de8f9cda86ad93a64fde927efee3c61d27ac99cd3a908e8"
+    },
+    {
+      "path": "work/data-round2/prices/665-22.txt",
+      "bytes": 575,
+      "sha256": "eabc8b356fb0d169e709e7578eb199dd5afb99cd45777a1ff57711fdb1a76d36"
+    },
+    {
+      "path": "work/data-round2/prices/975-01.png",
+      "bytes": 166605,
+      "sha256": "f4377bae575ff7527c9bb6156e33f187708515161b18556e0d7fb53ee6faf6d7"
+    },
+    {
+      "path": "work/data-round2/prices/975-01.txt",
+      "bytes": 2389,
+      "sha256": "d04a726af120602cc134f17e8d1c8dff1a356d72674f957dbbd7ae23ca9be114"
+    },
+    {
+      "path": "work/data-round2/prices/975-02.png",
+      "bytes": 114052,
+      "sha256": "f3101cfba276209bf8cce9770c2d2ca9fefd94f38f90bb2779f3216d42e9e092"
+    },
+    {
+      "path": "work/data-round2/prices/975-02.txt",
+      "bytes": 1559,
+      "sha256": "7141ace1ba5da245202c817f2511c169d7e2b7e15c92963788629f0282886063"
+    },
+    {
+      "path": "work/data-round2/prices/975-60.png",
+      "bytes": 69599,
+      "sha256": "9945b72e22d8a51fba0f82eaaccf0440f4686842f9e8d024894fdecb2b1d5673"
+    },
+    {
+      "path": "work/data-round2/prices/975-60.txt",
+      "bytes": 1167,
+      "sha256": "e5b8daa848b89622302eda7cec4a47e581c8f07ffefa3fc1e23ddd329422eb9c"
+    },
+    {
+      "path": "work/data-round2/prices/975-61.png",
+      "bytes": 67083,
+      "sha256": "51444b3d1acbaf86c8b6a7439dccbc1eff3360c6c2d197806662620bbaaeb0de"
+    },
+    {
+      "path": "work/data-round2/prices/975-61.txt",
+      "bytes": 1021,
+      "sha256": "6f89ded6e25ead3afad8d3fc994ff1556a80fab47bd3ef239744506cedf90294"
+    },
+    {
+      "path": "work/data-round2/prices/975-62.png",
+      "bytes": 85455,
+      "sha256": "ffd63c6d189365787792647c715982b8bd6512080a7b8227767705715e736ca6"
+    },
+    {
+      "path": "work/data-round2/prices/975-62.txt",
+      "bytes": 1503,
+      "sha256": "643bedd1a72eb27cb45a8b24020b09f57bcaff267a989653bcab8be2fa9af7e7"
+    },
+    {
+      "path": "work/data-round2/prices/975-63.png",
+      "bytes": 74646,
+      "sha256": "845258325dacc08d0af8c900041030d055a9091989fb3e9a269a74bcbdad0b9b"
+    },
+    {
+      "path": "work/data-round2/prices/975-63.txt",
+      "bytes": 1205,
+      "sha256": "180b6eeedbbab261ca5b76d865615c70fc6ebc0be97490184443a83488ec1941"
+    },
+    {
+      "path": "work/data-round2/prices/975-64.png",
+      "bytes": 82689,
+      "sha256": "e73b1daa51a1054a61fb335c1c90583ec57f31b8e5e0a9dd08ff80099de77c39"
+    },
+    {
+      "path": "work/data-round2/prices/975-64.txt",
+      "bytes": 1367,
+      "sha256": "ab5cbda0452a52425f7820818b63868a694791f74b7c3d65d6f4edd27c3e4230"
+    },
+    {
+      "path": "work/data-round2/prices/975-65.png",
+      "bytes": 76203,
+      "sha256": "41b1d68a413aa45133d8357a563e75b1c2034d1b99ebdf36d7fb24cf44be915b"
+    },
+    {
+      "path": "work/data-round2/prices/975-65.txt",
+      "bytes": 1152,
+      "sha256": "285bb2aeafb262dc5b7b8f63126cc0e44cd67bffe935f669138fa6b4991b1876"
+    },
+    {
+      "path": "work/data-round2/prices/975-66.png",
+      "bytes": 81436,
+      "sha256": "5be77c110f738bbb978034a60b9a1f84cc9f7718e65a942c40fef60744514731"
+    },
+    {
+      "path": "work/data-round2/prices/975-66.txt",
+      "bytes": 1321,
+      "sha256": "362f4d6e1cb2d5ef00b8bab9484fe3802f5c0f9daffd7dfe27657498f35b1895"
+    },
+    {
+      "path": "work/data-round2/prices/975-67.png",
+      "bytes": 71796,
+      "sha256": "9a7736d186d350a2cc8fd5c66dc291b2eec9448f46050bd62b3da9a6634f33a4"
+    },
+    {
+      "path": "work/data-round2/prices/975-67.txt",
+      "bytes": 1096,
+      "sha256": "d2d0489a64f851ebfdc1c5e35f82580d7e3fe618ed6dfeea6d4a9f752689ffd9"
+    },
+    {
+      "path": "work/data-round2/prices/975-68.png",
+      "bytes": 76209,
+      "sha256": "b00678a44cb8b1ff7ef21f76522b72967a396503e8af8e4a5060a31691d60b09"
+    },
+    {
+      "path": "work/data-round2/prices/975-68.txt",
+      "bytes": 1179,
+      "sha256": "8630ba8eaf6082b52302a0ca7ca9d6a349954267ed0d987415722b31b407e522"
+    },
+    {
+      "path": "work/data-round2/prices/975-69.png",
+      "bytes": 26762,
+      "sha256": "f1167af3009b2f6b226157e11d655ddc1267a20bd6602d17c2a731a67c38423d"
+    },
+    {
+      "path": "work/data-round2/prices/975-69.txt",
+      "bytes": 309,
+      "sha256": "da963a91c931a4230e1fb7bd94088d433f4bde6e93a35cab6c9b4aad0bf3abc1"
+    },
+    {
+      "path": "work/data-round2/prices/city_prices_download_manifest.json",
+      "bytes": 895,
+      "sha256": "17a3fe73359c329cffa0ed10b5e75fbe6535a659437e8cfa51bb2ea05fbf80af"
+    },
+    {
+      "path": "work/data-round2/prices/download_manifest.json",
+      "bytes": 1598,
+      "sha256": "0fa59b3d8defa4320fc474348d635e574da6aa9ec2d0451641a2dee51c672ed3"
+    },
+    {
+      "path": "work/data-round2/prices/isg_2012-2025.xlsx",
+      "bytes": 44377,
+      "sha256": "a984448695e121553c7aff23f40a6c4492c513dca9aec8ee8d7343cb96384bb6"
+    },
+    {
+      "path": "work/data-round2/prices/meta_ipc_prikaz_440.pdf",
+      "bytes": 822546,
+      "sha256": "6eb559a94b0c999c2af8d89c40f8a0c13ac24402ca3fd538611fc3dda5dcdbed"
+    },
+    {
+      "path": "work/data-round2/prices/meta_ipc_prikaz_440.txt",
+      "bytes": 91516,
+      "sha256": "d7c820b83e8e202717fcffeaaaf8049c6e9ee7ea672f663465514487a60e4543"
+    },
+    {
+      "path": "work/data-round2/prices/official_oktmo_2024_tver.pdf",
+      "bytes": 5612359,
+      "sha256": "37bc6f792f6e32f4db3e23bc3cf7fde833eb5d3886ae1a20c7c5b75545c89a0d"
+    },
+    {
+      "path": "work/data-round2/prices/official_oktmo_2024_tver.txt",
+      "bytes": 546025,
+      "sha256": "e689986be51cbcda3ae05788bbbce5f7fd820ca4641b14ec3e454e4f5fd7444d"
+    },
+    {
+      "path": "work/data-round2/prices/oktmo_method_download.json",
+      "bytes": 256,
+      "sha256": "906801c2be2cb00e3a19443ded86ad6d81662fa83231fb0e111ecba0a72bd80b"
+    },
+    {
+      "path": "work/data-round2/prices/order665-page1.png",
+      "bytes": 1019846,
+      "sha256": "c723d951ae464b8b09422a19b7bf8c03015019a9d27be0a50077a77e4a58848c"
+    },
+    {
+      "path": "work/data-round2/prices/order665-page14.png",
+      "bytes": 425142,
+      "sha256": "64797c30b15ce90273fdd451929c0318d5e112d35b26c1a400f345d281cc0f58"
+    },
+    {
+      "path": "work/data-round2/prices/price_page_current.html",
+      "bytes": 878933,
+      "sha256": "a31e91dcd552cd5e28790096508b4537682e325585447bca14ca28f65ca80c0f"
+    },
+    {
+      "path": "work/data-round2/prices/price_page_download.json",
+      "bytes": 192,
+      "sha256": "57639ce3d840b559bef08a738a42cce2c1b5499f5f2fa75ca52ace451809fed9"
+    },
+    {
+      "path": "work/data-round2/prices/Prikaz_657_19122024.pdf",
+      "bytes": 3165290,
+      "sha256": "b5b76e2b21cdcc351546f793dc2c303b6d8663f3a94605aad0067d0cc1e72f86"
+    },
+    {
+      "path": "work/data-round2/prices/Prikaz_657_19122024.txt",
+      "bytes": 125893,
+      "sha256": "168b6f355bc5bd91bc89cc651f5e2121dc66c0e33b1c6d378940d2a3525bf605"
+    },
+    {
+      "path": "work/data-round2/prices/Prikaz_665_19122023.pdf",
+      "bytes": 5849665,
+      "sha256": "6ff151b7aebc62be4a734d39c5adaa8b916b42c0659312f41afdb58e84d662b2"
+    },
+    {
+      "path": "work/data-round2/prices/Prikaz_665_19122023.txt",
+      "bytes": 472,
+      "sha256": "b6480745f0b749c61e506e49a3e76dccb6e4e977d01125219510bc25214fac41"
+    },
+    {
+      "path": "work/data-round2/prices/Prikaz_975_23122022.pdf",
+      "bytes": 2385850,
+      "sha256": "48d6a6aa2296fa81309a81b7a466221e076364e24dd3f464e7c2f26d3f1626c3"
+    },
+    {
+      "path": "work/data-round2/prices/Prikaz_975_23122022.txt",
+      "bytes": 1438,
+      "sha256": "69b04319e9b720ef2fdf5bab355700d51b24797d79e982bacbcf4e438eed06c4"
+    },
+    {
+      "path": "work/data-round2/prices/registry/data-20230208T0902-structure-20260210T1102.csv",
+      "bytes": 21419968,
+      "sha256": "db2033073f7b6c0171083063237a915f41f9e1f23be7aecf1027008391c79ebe"
+    },
+    {
+      "path": "work/data-round2/prices/registry/data-20230208T0902-structure-20260210T1102.csv.download.json",
+      "bytes": 403,
+      "sha256": "aba536c1825566e06aa4da4711087441870126e3fcf71142b9aef5d4d6165817"
+    },
+    {
+      "path": "work/data-round2/prices/registry/data-20240125T1401-structure-20260210T1102.csv",
+      "bytes": 21580725,
+      "sha256": "62b579d803e50def8668dc704ffecb5ee4e6e12bb1ffd5f848cafd32dfdd926c"
+    },
+    {
+      "path": "work/data-round2/prices/registry/data-20240125T1401-structure-20260210T1102.csv.download.json",
+      "bytes": 518,
+      "sha256": "d0bbf7df7227e5f6d882b35b57ef388f3619469460bc03e73f1e4901829808c3"
+    },
+    {
+      "path": "work/data-round2/prices/repo_inputs/data/derived/enrichment/municipal_crosswalk_2023-01-01.csv",
+      "bytes": 845554,
+      "sha256": "ee3de32865f707060ef2239f58f9f991d1c3f6ce52192019c005ba1b64954ae0"
+    },
+    {
+      "path": "work/data-round2/prices/repo_inputs/data/derived/enrichment/municipal_crosswalk_2024-01-01.csv",
+      "bytes": 845122,
+      "sha256": "dc1603aacda2303a6ef836272d379323f527b32fd6bf0cffb55c279e0d22db3e"
+    },
+    {
+      "path": "work/data-round2/prices/repo_inputs/reports/enrichment_v3/prices/city_cost_of_living_2023_2024.csv",
+      "bytes": 222101,
+      "sha256": "8e0dc1cb2ccfc3c46965ddbc6b89f26a63bef8253bf785a983de7eaa2281c802"
+    },
+    {
+      "path": "work/data-round2/prices/repo_inputs/reports/initial_study/assignments.parquet",
+      "bytes": 1978134,
+      "sha256": "54f6c1f3c92a878a990c620e9fdb544ab6187f9ac0baea4bc5070d964e0ae6bc"
+    },
+    {
+      "path": "work/data-round2/prices/sred_potreb_cen_2023.xlsx",
+      "bytes": 19433885,
+      "sha256": "6fb4297765a110923566f9518aec77f6c56ae76f0f8a3b9e5d721ba3572359ed"
+    },
+    {
+      "path": "work/data-round2/prices/sred_potreb_cen_2024.xlsx",
+      "bytes": 19360491,
+      "sha256": "b35330ad824fa4cfb85ba92718084772b8c113cb4ee7258f4ff5147e2f995ef3"
+    }
+  ]
+}

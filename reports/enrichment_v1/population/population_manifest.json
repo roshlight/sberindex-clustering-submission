@@ -1,0 +1,41 @@
+{
+  "status": "complete_unlinked",
+  "operation": "read_only_source_extraction_no_crosswalk",
+  "n_rows": 41475,
+  "n_quality_flag_rows": 2354,
+  "reference_dates": [
+    "2023-01-01",
+    "2024-01-01"
+  ],
+  "processor_sha256": {
+    "prepare_population.py": "714b40c0090841b1ed8a5a71d9293298210429103d18af03289710ec93556015",
+    "population.py": "548b2a10b0d096765b42d707246028828108c3ee034e982e5af2f18b279c7e48"
+  },
+  "sources": [
+    {
+      "source_url": "https://rosstat.gov.ru/storage/mediabank/BUL_MO_2023.xlsx",
+      "source_filename": "BUL_MO_2023.xlsx",
+      "source_sha256": "9c2ce2e38712e33e357b25fe0a18241cd02eb1505f67be9753079806dd94adda",
+      "source_bytes": 1318101,
+      "retrieved_at": "2026-09-14",
+      "reference_date": "2023-01-01",
+      "published_at": null
+    },
+    {
+      "source_url": "https://rosstat.gov.ru/storage/mediabank/BUL_MO_2024.xlsx",
+      "source_filename": "BUL_MO_2024.xlsx",
+      "source_sha256": "c831e1b408a6a21e061074f0b3a5a04c2e3bb4f8eabae6c72edff55185e921bd",
+      "source_bytes": 1599578,
+      "retrieved_at": "2026-09-14",
+      "reference_date": "2024-01-01",
+      "published_at": null
+    }
+  ],
+  "output_hashes": {
+    "population_qa_rows.csv": "caa68cdbb4c40330466df256e0bebc1fea4f3a51f9a8787a92761b3b688c850d",
+    "population_region_coverage.csv": "1dcaeccb119f26baa4a856befca127dc740983bb65a38c3a4a29df39eb3bd70d",
+    "population_region_headers.csv": "8b63336833ba9b890383c650c64ece61ceda8ecfe147f01738f88034ac68aa94",
+    "population_source_audit.json": "63c2aa0ebf8f6aeac2fed8b4f9d12478052d6a51762423988a40d4cbe1f5e9c7",
+    "population_unlinked.parquet": "95f5c668eb172ccbdc34b0850abc68c3a508c71bbac336da4871af5cd00467ca"
+  }
+}

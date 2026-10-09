@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "archive": "data-round6-sme.zip",
+  "archive_sha256": "ae202256ebf7add5e6c13b4be28c4a44720461799ed5eead436664e43897266d",
+  "archive_bytes": 7938137,
+  "verified_files": 60,
+  "uncompressed_bytes": 30604071,
+  "allowlist_sha256": "40f01f2a1a01801610090e2474e4e883b39de2956b4b0253e3471c01df43ab42",
+  "packager_sha256": "a9d5443b7d2817046bdf57a167a9ff839eaec18e95d84b07c96b4c6032827fbc",
+  "immutable_helper_sha256": "3f6e2a4eab351a7a40674d2b3ed9d060f15d248f911eaf37b0755ddfa286bb26",
+  "credential_scan_policy": "unchanged_regex_and_DHT_parser_with_exact_path_bound_exception",
+  "audited_exceptions_applied": 0,
+  "credential_scan_exceptions": []
+}

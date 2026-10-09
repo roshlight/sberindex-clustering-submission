@@ -1,0 +1,357 @@
+{
+  "created_at_utc": "2026-09-15T09:51:47.119139+00:00",
+  "files": [
+    {
+      "path": "geography/raw/gost_card_633_2023.html",
+      "bytes": 76308,
+      "sha256": "093310890a8a1c77e302e0366a6591a8954dbd9501e30dcc874407172bd63923"
+    },
+    {
+      "path": "geography/raw/gost_card_634_2023.html",
+      "bytes": 76308,
+      "sha256": "36043e3e6b9ade698d26d4cbaaba8e2f4d55e5a4a2943961f61c8c4b3a175538"
+    },
+    {
+      "path": "geography/raw/gost_card_637_2023.html",
+      "bytes": 76309,
+      "sha256": "e8cf38da5dc3f953a2a0705f9a6e08185d538b9d31eee85e533e49cb7a7d3049"
+    },
+    {
+      "path": "geography/raw/gost_card_648_2023.html",
+      "bytes": 76307,
+      "sha256": "8d2246913363a74665749b0a6207a3d83c61ecacf3a322dd9fc147adb4d8f354"
+    },
+    {
+      "path": "geography/raw/karelia_changes_2023.pdf",
+      "bytes": 252993,
+      "sha256": "3b3abf72de012c8f02385edc39640392174f75ec5f8866cc157c250a8ddbfbae"
+    },
+    {
+      "path": "geography/raw/karelia_laws_2023_04.pdf",
+      "bytes": 35233767,
+      "sha256": "faf59249598840711d16d991e2fdfa66bd2f5272abb064c53502839e6735f289"
+    },
+    {
+      "path": "geography/raw/oktmo_change_610_2023_1.docx",
+      "bytes": 19650,
+      "sha256": "ac3a2812832449e9e3b09bd51a3592b9666d110f844df0fff4edc716a9876fc4"
+    },
+    {
+      "path": "geography/raw/oktmo_change_615_2023_1.docx",
+      "bytes": 15890,
+      "sha256": "4053c176732655e6bf70c8c2e1476e16d9e1a8e102a70f2d8b3ff7d4e28dece0"
+    },
+    {
+      "path": "geography/raw/oktmo_change_617_2023_1.docx",
+      "bytes": 20605,
+      "sha256": "5c4f6aa0059d48c8f6785b0967e7100cd71c5aa51d1fcb89bfbff96db0027e72"
+    },
+    {
+      "path": "geography/raw/oktmo_change_623_2023_1.docx",
+      "bytes": 15603,
+      "sha256": "9ea4129e61517d11b720edc7b9f17166737ec01e74cc845bc652ead7be423145"
+    },
+    {
+      "path": "geography/raw/oktmo_change_629_2023_1.docx",
+      "bytes": 15844,
+      "sha256": "433e022339d719158002f2948afba4b7c003633cdef887869fdcb005365e2b2a"
+    },
+    {
+      "path": "geography/raw/oktmo_change_633_2023_1.docx",
+      "bytes": 20907,
+      "sha256": "d67407cd724bf91fe74b5096bcd708e8a794016775076fdddc9ed71a452440d3"
+    },
+    {
+      "path": "geography/raw/oktmo_change_634_2023_1.docx",
+      "bytes": 18749,
+      "sha256": "1e95a81db27290cd01b4dc3f76de347fe532768633aa47a2f16ae04be9036443"
+    },
+    {
+      "path": "geography/raw/oktmo_change_635_2023_1.docx",
+      "bytes": 29746,
+      "sha256": "a59e7a92b7e0336d6ed435da89847dc4d6a4adebb6ceb368a522829d168373d8"
+    },
+    {
+      "path": "geography/raw/oktmo_change_637_2023_1.docx",
+      "bytes": 39476,
+      "sha256": "a686916c8bdc05213cffe59f17314ce0e706427a0656a166f939012fb0b4896f"
+    },
+    {
+      "path": "geography/raw/oktmo_change_639_2023_1.docx",
+      "bytes": 93721,
+      "sha256": "783ef9d98e1c0ca56b8b091199e7c4d957d9861a7c18691730f28e5998acf414"
+    },
+    {
+      "path": "geography/raw/oktmo_change_640_2023_1.docx",
+      "bytes": 18221,
+      "sha256": "6fe23af62a775ee2c5981f0ba0470b6a6ba630486d9175569a5200542f6af85e"
+    },
+    {
+      "path": "geography/raw/oktmo_change_641_2023_1.docx",
+      "bytes": 15872,
+      "sha256": "fe9cea7ee6d6ff2b800237dcf2940c7c46d9428d4185393e50d3dde1d8df0952"
+    },
+    {
+      "path": "geography/raw/oktmo_change_643_2023_1.docx",
+      "bytes": 18967,
+      "sha256": "17a54e8d3a94cce1f22e54cb9d450bacc87ce3f49519f61500d3559abdac74f7"
+    },
+    {
+      "path": "geography/raw/oktmo_change_645_2023_1.docx",
+      "bytes": 29710,
+      "sha256": "416a84988a0e914d232fcd7b2152e28d4199dae8f4606a18197e61f7a7d3ac87"
+    },
+    {
+      "path": "geography/raw/oktmo_change_647_2023_1.docx",
+      "bytes": 21301,
+      "sha256": "9cb24e2e363f4cd4a5d520c2223f829289240ea87658285dffcc4ff24c843741"
+    },
+    {
+      "path": "geography/raw/oktmo_change_648_2023_1.docx",
+      "bytes": 16806,
+      "sha256": "5cb1bef0df75c3ed7a1d40bd52f37dc74e07bdf70f1bf4897c84f49c7043187b"
+    },
+    {
+      "path": "geography/raw/oktmo_change_650_2023_1.docx",
+      "bytes": 16295,
+      "sha256": "d65de124d76b6065cf03055307d3f3173b8c982bd684d7404eee6ae8e4fd0230"
+    },
+    {
+      "path": "geography/raw/oktmo_change_651_2023_1.docx",
+      "bytes": 28638,
+      "sha256": "d5b0d28e3d0288e0bfe55cb64614e4bc690487da91723915ebca5c895671d89d"
+    },
+    {
+      "path": "geography/raw/oktmo_change_658_2023_1.docx",
+      "bytes": 17942,
+      "sha256": "0f811e1a038c62e12d7e83f5c8a1484dce2e728f7f6054569de62f57949b1156"
+    },
+    {
+      "path": "geography/raw/oktmo_change_659_2023_1.docx",
+      "bytes": 77332,
+      "sha256": "1a59e5ff83ed7dae9aa352f5a4a4e744c5389246e5f478965d2b3a06bc3c728c"
+    },
+    {
+      "path": "geography/raw/oktmo_change_660_2023_1.docx",
+      "bytes": 24767,
+      "sha256": "a029576afe57d36803cb07c62e2db6dcb3baf214b5279e63d852000b207ce7b3"
+    },
+    {
+      "path": "geography/raw/oktmo_change_671_2023_1.docx",
+      "bytes": 61633,
+      "sha256": "c4ac0bd24258e00722f4fd7013bbb10d1400fbc70ef5086d2e89de5e54658dad"
+    },
+    {
+      "path": "geography/raw/rosstat_classification.html",
+      "bytes": 1225878,
+      "sha256": "4c30c8e6dd97983ed33a3220ade9154f5fb92d8d466af235bf76ce35b28c575c"
+    },
+    {
+      "path": "geography/raw/reused/data-20230112T1301-structure-20260210T1102.csv",
+      "bytes": 21427247,
+      "sha256": "7648c4065bb42a80080029253064c5843577d5c3ea9110fa97d9e32eb19c3f73"
+    },
+    {
+      "path": "geography/raw/reused/data-20231219T1512-structure-20260210T1102.csv",
+      "bytes": 21582558,
+      "sha256": "8be058baf8d8ec32bda5431fa6ed5ccdcf0effa0c62869a03576755cbcf956d9"
+    },
+    {
+      "path": "geography/raw/reused/data-20240125T1401-structure-20260210T1102.csv",
+      "bytes": 21580725,
+      "sha256": "62b579d803e50def8668dc704ffecb5ee4e6e12bb1ffd5f848cafd32dfdd926c"
+    },
+    {
+      "path": "geography/raw/reused/gost_change_598_2023.html",
+      "bytes": 76429,
+      "sha256": "cbef4677f2222f26ce9ea0d7092486e5169aa41d62ef2528f8cd5cd9b366c25b"
+    },
+    {
+      "path": "geography/raw/reused/gost_change_594_2022.html",
+      "bytes": 76307,
+      "sha256": "2086dff17aa89d0886737d93afb775a43630dfc34a14ba72678ef3ae99f5850c"
+    },
+    {
+      "path": "geography/raw/reused/fns_19514000_web_tool_text.txt",
+      "bytes": 972,
+      "sha256": "b36ad8d5ff00681ab9d11d6166e02868a7679b5666dc9ab80755e566482b4b95"
+    },
+    {
+      "path": "geography/raw/reused/gost_change_600_2023.html",
+      "bytes": 76430,
+      "sha256": "893b13dcc1df5f8a34d6a6de2674844e82ea291ec054006e993894ef7161f38a"
+    },
+    {
+      "path": "geography/raw/reused/gost_change_593_2022.html",
+      "bytes": 76307,
+      "sha256": "b71b96fffbe7b3d5f5d47b08ab300fb6ed02c64e0dcb43d90ec2921458679152"
+    },
+    {
+      "path": "geography/inputs/calendar_code_adjudication.csv",
+      "bytes": 5187,
+      "sha256": "3b932ab68ace042cbdbad56988baa842641b2d63fecd53c9973e35cd24fc7eff"
+    },
+    {
+      "path": "geography/inputs/primary_78_code_type_changes.csv",
+      "bytes": 50347,
+      "sha256": "e839fcc89afaa0f3b3ef8599cf1f14efd5ac96f53d34f50583ddb3c70591f791"
+    },
+    {
+      "path": "geography/inputs/registry_vintage_audit.csv",
+      "bytes": 1899,
+      "sha256": "f46537b892ad4f61c5a6d3015b2425705790e698b6b1d2d5bcb305098a304432"
+    },
+    {
+      "path": "geography/inputs/round2_geography_reviewed_laws.json",
+      "bytes": 6837,
+      "sha256": "1e57317aea17cb2ab25f53533e6163e34b199c6a2656934ccd7abcc393efcd5d"
+    },
+    {
+      "path": "geography/inputs/sber_yearly_spatial_attributes.csv",
+      "bytes": 1426929,
+      "sha256": "85986eb1091df29fe9aa9347a4bce1b974dac30386198daacbb8f976491362ce"
+    },
+    {
+      "path": "geography/text/karelia_changes_2023.txt",
+      "bytes": 1859,
+      "sha256": "f171d4cf5f18d827db3806fc97a415596eb5a9f178e80c9ef7c433ff09d2ef29"
+    },
+    {
+      "path": "geography/text/karelia_laws_2023_04_pages.json",
+      "bytes": 1260098,
+      "sha256": "811ba35cc22c206e146c9eef6e520c08ebf376b232ec20290ce0c54a00c639b5"
+    },
+    {
+      "path": "geography/text/oktmo_change_610_2023_1.txt",
+      "bytes": 5555,
+      "sha256": "5c2e67ae14bb66e4e8a2b59b150cb8302170a7c1acde3378c91d5c0d0d34ae31"
+    },
+    {
+      "path": "geography/text/oktmo_change_615_2023_1.txt",
+      "bytes": 1551,
+      "sha256": "3605957bb226537399c28a54b757498c27c76a690f7b19f80230cfadba8d7f11"
+    },
+    {
+      "path": "geography/text/oktmo_change_617_2023_1.txt",
+      "bytes": 7763,
+      "sha256": "8555c8a4f144be86126ab48d96851b041021d1e75d3ea273a62bf1ae27fdb8d7"
+    },
+    {
+      "path": "geography/text/oktmo_change_623_2023_1.txt",
+      "bytes": 1101,
+      "sha256": "7383ec2259194428d59524b91523eccae4668b35824586440b809ea8aa71337b"
+    },
+    {
+      "path": "geography/text/oktmo_change_629_2023_1.txt",
+      "bytes": 1355,
+      "sha256": "da0ae6464be1e39090d7ebc808c76b4a9bafdedc36a50089ed6fda687897347b"
+    },
+    {
+      "path": "geography/text/oktmo_change_633_2023_1.txt",
+      "bytes": 7091,
+      "sha256": "92a1a8d23d8c8ab6bfe520e043c2c9f83cc246ac8e486c756ca0cd8f00d3fb13"
+    },
+    {
+      "path": "geography/text/oktmo_change_634_2023_1.txt",
+      "bytes": 4557,
+      "sha256": "ca08ac5fd87f8fbb91f55d5e3e6a204afe124f2fba4ffc29b68ad0045bead78c"
+    },
+    {
+      "path": "geography/text/oktmo_change_635_2023_1.txt",
+      "bytes": 17905,
+      "sha256": "460eb19307009627ef2ad3d65c5be8f56073aa599499c79574031b943aca2c6a"
+    },
+    {
+      "path": "geography/text/oktmo_change_637_2023_1.txt",
+      "bytes": 28591,
+      "sha256": "67cc0ff83ab50d2d8bda2127fb16dd5515c1827028d585f9f67517ed5a605624"
+    },
+    {
+      "path": "geography/text/oktmo_change_639_2023_1.txt",
+      "bytes": 91119,
+      "sha256": "2abe40fd59978449a02ce85ef253b70f09b990a6ac356f5716879c747315e194"
+    },
+    {
+      "path": "geography/text/oktmo_change_640_2023_1.txt",
+      "bytes": 2867,
+      "sha256": "af4b89026770fee82c749b46c2dd40c2cbadc6965c4d0e876b49a826d99e67df"
+    },
+    {
+      "path": "geography/text/oktmo_change_641_2023_1.txt",
+      "bytes": 589,
+      "sha256": "f52cad4a80d0c1af5edaba29160f013030c84716b6bd44fe7c699b10b99446a0"
+    },
+    {
+      "path": "geography/text/oktmo_change_643_2023_1.txt",
+      "bytes": 4173,
+      "sha256": "539b41b6d6656457598ff007fbf45511ed985f2d35f57a1d3b0fe66f4f334999"
+    },
+    {
+      "path": "geography/text/oktmo_change_645_2023_1.txt",
+      "bytes": 15957,
+      "sha256": "65c80e56a3c2c091cb0bc6f1cb3f12ddad38c34afc6ac48eaf85eaa44ef7a7b0"
+    },
+    {
+      "path": "geography/text/oktmo_change_647_2023_1.txt",
+      "bytes": 6417,
+      "sha256": "4086c905fd90935d60df360286697f4d4449119f57c1613e61ecb4a1c8d0a11b"
+    },
+    {
+      "path": "geography/text/oktmo_change_648_2023_1.txt",
+      "bytes": 1357,
+      "sha256": "85bd883b352751ed92f10cd0b622200257b329ce37c2726e3be4aeabbcdbdc88"
+    },
+    {
+      "path": "geography/text/oktmo_change_650_2023_1.txt",
+      "bytes": 785,
+      "sha256": "bd948394f857811a8ee6a8c9efe4704cef96166e4de6fabcf522daa2d1b4a12f"
+    },
+    {
+      "path": "geography/text/oktmo_change_651_2023_1.txt",
+      "bytes": 15225,
+      "sha256": "e01b5dbb2d6e8a8c748b571f298f9d5bf3efdec839b6ef2bb6c12623ee4d788b"
+    },
+    {
+      "path": "geography/text/oktmo_change_658_2023_1.txt",
+      "bytes": 2289,
+      "sha256": "a3ff9176efe58fefe1196bbd6b70596f0f28411353ede2ab914bb56d2076f65c"
+    },
+    {
+      "path": "geography/text/oktmo_change_659_2023_1.txt",
+      "bytes": 71663,
+      "sha256": "83763488b9f70ab4678593ee389194eec27c9119a3f9dd96b7a5d773d3b490b7"
+    },
+    {
+      "path": "geography/text/oktmo_change_660_2023_1.txt",
+      "bytes": 10487,
+      "sha256": "d7b37c10cf37a85a1387d352a665826139f29cdbc316949da669c8414b453bd3"
+    },
+    {
+      "path": "geography/text/oktmo_change_671_2023_1.txt",
+      "bytes": 52426,
+      "sha256": "b27394bb199157c6c3351e13c9e662d63fad1b478f6aeec46f755aa80c151a85"
+    },
+    {
+      "path": "geography/retrievals.jsonl",
+      "bytes": 25767,
+      "sha256": "159ba12de7a1ea0c80fd564de479dadecfc44663c66b3f000b09e65a743d44b0"
+    },
+    {
+      "path": "geography/code/prepare_round2_geography.py",
+      "bytes": 21271,
+      "sha256": "9fa6eba1007fe3aa8f9f0bab244f71b3d7873ba92c9cc7ffd90eb064afb2e52b"
+    },
+    {
+      "path": "geography/code/verify_round2_geography.py",
+      "bytes": 3961,
+      "sha256": "75dde6a2a664836d15cd679cfaa217ec47e502ab64877fc460d6b580da943912"
+    },
+    {
+      "path": "geography/code/round2_geography_reviewed_laws.json",
+      "bytes": 6837,
+      "sha256": "1e57317aea17cb2ab25f53533e6163e34b199c6a2656934ccd7abcc393efcd5d"
+    }
+  ],
+  "source_allowlist_sha256": "ba1e26524dbf7cfef1c36c0bc9fd6aac5002dfeae37357b3336e2b16623044d5",
+  "packager_sha256": "5bbdd46528947d3ee96db825f6f337e3cd0e7391411b13fb3312833a4ebb5c6f"
+}

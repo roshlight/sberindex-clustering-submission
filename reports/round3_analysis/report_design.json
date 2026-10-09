@@ -1,0 +1,32 @@
+{
+  "audience": "technical",
+  "delivery": "portable HTML",
+  "adoption_passed": false,
+  "spine": "No reliable primary increment; negative control limits secondary signal",
+  "primary": "profile CLR",
+  "secondary": "log nominal spending",
+  "sections": [
+    "title",
+    "summary",
+    "definitions",
+    "coverage_text",
+    "measurement",
+    "main_text",
+    "robustness",
+    "seed_text",
+    "decomposition_text",
+    "secondary_text",
+    "slices_text",
+    "case_text",
+    "documents_text",
+    "methods",
+    "decision"
+  ],
+  "source_data_not_changed": true,
+  "omitted": {
+    "causal_effects": "design cannot identify",
+    "new_clusters": "out of scope",
+    "forecast_metrics": "annual contemporaneous retrospective design"
+  },
+  "standalone_figures": "PNG/SVG with intervals; native HTML uses bars + CI tables"
+}

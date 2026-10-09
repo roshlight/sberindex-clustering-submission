@@ -1,0 +1,54 @@
+{
+  "status": "PASS_WITH_DISCOVERY_LIMITATIONS",
+  "verified_manifest_output_hashes": 157,
+  "runs": [
+    {
+      "run_id": "data-round5-20260916-01",
+      "manifest_sha256": "a2fa276b8fbe06f6726ae7c2719c51b34a33c4fa4b6ddb3670300c08183f4a71",
+      "status": "complete",
+      "started_at": "2026-09-16T18:46:20.778934+00:00",
+      "finished_at": "2026-09-16T18:58:01.677794+00:00",
+      "engines": [
+        "google cse",
+        "brave"
+      ],
+      "search": {
+        "planned_requests": 15,
+        "requests": 2,
+        "cached_records": 0,
+        "deferred": 13,
+        "rate_limit_responses": 2,
+        "failed": 0,
+        "partial": 2,
+        "result_rows": 20,
+        "unique_urls": 29
+      },
+      "cards": 13,
+      "model_reviews": {
+        "planned": 14,
+        "cards": 13,
+        "failed": 1,
+        "deferred": 0,
+        "critic_status": "complete"
+      },
+      "usage": {
+        "completed_calls": 14,
+        "http_attempts": 15,
+        "reported_cost_usd": 0.61886695784775,
+        "prompt_tokens": 304543,
+        "completion_tokens": 102900,
+        "calls_with_unknown_cost_or_failure": 0
+      },
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "document_status": {
+        "downloaded": 15,
+        "body_too_large": 4,
+        "fetch_network_error": 22
+      }
+    }
+  ],
+  "cards_are_numeric_evidence": false,
+  "critic_succeeded": true,
+  "automated_search_result_rows": 20,
+  "reported_cost_usd": 0.61886695784775
+}

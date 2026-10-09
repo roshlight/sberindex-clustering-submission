@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-09-15T12:16:30.603292+00:00",
+  "script": "scripts/round2_sector_analysis.py",
+  "script_sha256": "c3867aca271673e2f6aff0abb61202e41ac938dd6d0940966df8a010d922c697",
+  "command": "uv run --frozen python scripts/round2_sector_analysis.py --repo . --out <new-dir>",
+  "optional_raw_source_dir_provided": true,
+  "runtime": {
+    "python": "3.12.10",
+    "pandas": "3.0.5",
+    "numpy": "2.5.3",
+    "duckdb": "1.5.5"
+  },
+  "input_hashes": {
+    "reports/data_round2/sector/bulk/annual_candidate_sector.parquet": "1e31fad3974f14692681af13854290565c8ff88bd08b93862bbd20ac86ca7af0",
+    "reports/data_round2/sector/activity_options.csv": "78050484b889d36a839b222bd8d4ce06a9488a5099e204eacbe0157b7813a393",
+    "reports/enriched_analysis/core_v2/annual_panel.csv": "0e44e34b94c51aeb429615ec9a0e8127def140a6f414afa75e255e00cb4f8190",
+    "reports/data_round2/sector/FINAL_QA.json": "1123e821bb547ec0257dc343b311764dfff5eb7ec6051c0382d936274b79cc3b",
+    "reports/data_round2/sector/methodology_source_inventory.json": "93fb96e27640f11ae6f263c0adce797a8a93ca890fff199b085311a8cc84bf50",
+    "reports/data_round2/sector/raw_source_inventory.json": "31fa741b3dfb4b7ef292a550c4d8455def335d5e85fb9f10282fa02540f3fd69",
+    "uv.lock": "0a6a3b3051ad89b3aebc2a673966f0d67c4601453f9c386e924de7065bbca6f4"
+  },
+  "inputs_unchanged": true,
+  "input_core_columns_loaded": [
+    "territory_id",
+    "year",
+    "official_oktmo_8",
+    "region_code",
+    "region_name",
+    "municipal_district_name",
+    "municipal_district_type",
+    "workers",
+    "calendar_review",
+    "code_type_changed",
+    "core_eligible",
+    "conservative_eligible",
+    "geography_status"
+  ],
+  "output_hashes": {
+    "coverage.csv": "40b82570f6c8cf867a754fb2fd35da1f49773ccd96616eab1eaa8986eb57c256",
+    "example_sector_pairs.csv": "7d6b57ba6cfea64f5027639f2571d63dfbe4ded3f83f2e23210aba68102f5f5b",
+    "examples.csv": "f3242cc40f93c96ee6a43d97957bbeb80c42f0345eb6e7d70f0b1024c7121234",
+    "exceeds_total.csv": "e6831dc5fb140d997fbdff547ce971ef4501decef1a6ef88236e7c626c599625",
+    "feature_dictionary.json": "6601cab1c67f6e139d28ccf3073666251be7e60d92c8237d38aa31933426ca44",
+    "feature_panel.csv": "b8d11bd3ae22d73beb29b8c558782bbcff484502a6d7c453066cb56be4f63d48",
+    "observed_sum_exceeds_total.csv": "28cc917b8f5dadb02371919326fde13d06b259f89890be87dbe78f2773ee3b7f",
+    "QA.json": "7bfc0d82e2796154157bb576dd9d7e2842ed3468e7530adddc703af3ecc325f8",
+    "raw_example_trace_check.csv": "9a47fa607c15badd6d5721e8d8b49b53bd587ce15bcdc675aaab36a2b2e00559",
+    "README.md": "65d66c17a6480bf0833a967b8090e7d81eb5861efdd0fca79667dbce374397cf",
+    "sample_coverage.csv": "ad54971236e986b098f7c24984839b4218d2b1e24a221b9973bbb537a873e78a",
+    "section_dictionary.csv": "73fdb376b3e1079dc03ce05aa0e4f43cb8ae625f53d910bb7ef4393e68d6fc17",
+    "source_label_dictionary.csv": "028ca230e86e2787d8a87f0dbfa82bcd5fc471e4727c68cd5d92549a1c56c543",
+    "worker_shares.parquet": "09fdf2dcdbc532e24500a174cae5972e91608a18e29ca01b80a9578c1764cb65"
+  },
+  "post_run_validation_file": "validation.json (not part of numerical output hashes)"
+}

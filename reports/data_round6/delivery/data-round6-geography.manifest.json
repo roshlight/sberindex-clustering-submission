@@ -1,0 +1,218 @@
+{
+  "created_at_utc": "2026-09-16T20:37:34.165706+00:00",
+  "files": [
+    {
+      "path": "raw6/geography/crosswalk_files/data-20231220T1312-structure-20231110T1511.csv",
+      "bytes": 1036323,
+      "sha256": "6851d10453f55c3fa572331f463440cc069048dc3a7ee3f6db49406206765e57"
+    },
+    {
+      "path": "raw6/geography/crosswalk_files/data-20240101T0001-structure-20231110T1511.csv",
+      "bytes": 1916214,
+      "sha256": "3f28fd4f6ccc90b4bfee5c86f0b29c98202b1898acbced485955f152695b0ccf"
+    },
+    {
+      "path": "raw6/geography/crosswalk_files/data-20241102T1211-structure-20231110T1511.csv",
+      "bytes": 1948892,
+      "sha256": "78cf93f34dbedac060e50d480f25d4abed15877c22247c0d516b0eb92813de91"
+    },
+    {
+      "path": "raw6/geography/crosswalk_files/data-20250108T1301-structure-20231110T1511.csv",
+      "bytes": 2867452,
+      "sha256": "168eb9cdda33ce2236f987f22a5ce17c5ddb15163b4084734eb348cc6346965f"
+    },
+    {
+      "path": "raw6/geography/crosswalk_files/data-20260601T1106-structure-20231110T1511.csv",
+      "bytes": 7649590,
+      "sha256": "ef421e472e08fb90b0690057eb1293a000c784950996b1cb5b183abec386f4a5"
+    },
+    {
+      "path": "raw6/geography/crosswalk_files/data-20260901T1609-structure-20231110T1511.csv",
+      "bytes": 7655500,
+      "sha256": "304fdf7713a7353d7ada1f5342930b342423117a55a0ca01d9289ecf254a4a88"
+    },
+    {
+      "path": "raw6/geography/crosswalk_files/meta.csv",
+      "bytes": 5159,
+      "sha256": "652c93863f7b3f9212d029825be02a0f17184da1f13d2135d7c7506295301a1a"
+    },
+    {
+      "path": "raw6/geography/crosswalk_files/retrievals.json",
+      "bytes": 5335,
+      "sha256": "ab9b34272e0b2c2e63cbb0ead0449aa7efa509d54aeaa6f94f3ebbc389f91323"
+    },
+    {
+      "path": "raw6/geography/crosswalk_files/structure-20231110T1511.csv",
+      "bytes": 283,
+      "sha256": "9aed99b647e488813d54c6d5befc0f9d1c6f4bf7d843248554b4b7e35525f790"
+    },
+    {
+      "path": "raw6/geography/crosswalk_passport/retrievals.json",
+      "bytes": 560,
+      "sha256": "2b8ce1dfd51192eb04770b4afa9f75f0454849ab5b51fb9f01876c409256a3bf"
+    },
+    {
+      "path": "raw6/geography/crosswalk_passport/rosstat_codingtable.html",
+      "bytes": 831066,
+      "sha256": "0a74d7b2e5ffe0dc1a9abefbeeb003cc43fc8f2e2350e06d2305ee0d7e2c09bb"
+    },
+    {
+      "path": "raw6/geography/local_initial/retrievals.json",
+      "bytes": 1359,
+      "sha256": "785e8229627663a38ae403d2f84f9fcb0c60ecb1bda64a03d930ad562f34486e"
+    },
+    {
+      "path": "raw6/geography/prior-geography/reused/data-20230208T0902-structure-20260210T1102.csv",
+      "bytes": 21419968,
+      "sha256": "db2033073f7b6c0171083063237a915f41f9e1f23be7aecf1027008391c79ebe"
+    },
+    {
+      "path": "raw6/geography/prior-geography/reused/data-20240125T1401-structure-20260210T1102.csv",
+      "bytes": 21580725,
+      "sha256": "62b579d803e50def8668dc704ffecb5ee4e6e12bb1ffd5f848cafd32dfdd926c"
+    },
+    {
+      "path": "raw6/geography/priority_sources/485_22_OKTMO.doc",
+      "bytes": 205312,
+      "sha256": "8a00501c260cba11a64ee5d6aaf5f6aace31eec6314f298900320866f8d2ca5c"
+    },
+    {
+      "path": "raw6/geography/priority_sources/500_22_OKTMO.doc",
+      "bytes": 73728,
+      "sha256": "8f5503dfba57cf1b757536fe99a7c7b23221a0f1fa59a0d8d2102d6a8776043d"
+    },
+    {
+      "path": "raw6/geography/priority_sources/542_22_OKTMO.doc",
+      "bytes": 39424,
+      "sha256": "b344cff0c8f3a234c58f741b492eb222782eaafad92b416ff12bcf6f4a32389c"
+    },
+    {
+      "path": "raw6/geography/priority_sources/547_22_OKTMO.doc",
+      "bytes": 36352,
+      "sha256": "842606b1af823132cc0978b4904974456d0efd3399261baf80ce0d1d56f73e46"
+    },
+    {
+      "path": "raw6/geography/priority_sources/584_22_OKTMO.doc",
+      "bytes": 203776,
+      "sha256": "fb6cd411e016b6d54c9befae4e0e1392c1c1ab7660611677468826ea6c2b427e"
+    },
+    {
+      "path": "raw6/geography/priority_sources/589_22_OKTMO.doc",
+      "bytes": 84992,
+      "sha256": "d4d0bccb6535143db4def00380b08dbdb83ad552f6bc81f186584b0ef19d11f3"
+    },
+    {
+      "path": "raw6/geography/priority_sources/649_23_OKTMO.doc",
+      "bytes": 29184,
+      "sha256": "0039fa5cd8c6ce8e4f43d22ae7ad11f48be6d00c9947d3ce2b04eba1f5673a82"
+    },
+    {
+      "path": "raw6/geography/priority_sources/689_24-OKTMO.doc",
+      "bytes": 29184,
+      "sha256": "fd9e30037d5edfd6980289dc0636f5d1eaf73a23afb75739e1a694be11757198"
+    },
+    {
+      "path": "raw6/geography/priority_sources/749_24_OKTMO.doc",
+      "bytes": 51200,
+      "sha256": "74db699730da230f92859d319e0e66b8f9c42b404f02028522d49c8d403ac6a9"
+    },
+    {
+      "path": "raw6/geography/priority_sources/778_24_OKTMO.doc",
+      "bytes": 1192448,
+      "sha256": "643c061f174d110bf66327fba1e4aa310b674aeeb7eecf73c0d63e46dbbf31ad"
+    },
+    {
+      "path": "raw6/geography/priority_sources/803_25_OKTMO.doc",
+      "bytes": 58880,
+      "sha256": "307f3bd8acb00a1864d54e858c0d718cac1e6ac48d8b4121dc51287033d46a74"
+    },
+    {
+      "path": "raw6/geography/priority_sources/805_25_OKTMO.doc",
+      "bytes": 31232,
+      "sha256": "434e7c4f3964921fff70c716e035f60657f54e394cf82bb95fbe10afd27df0a6"
+    },
+    {
+      "path": "raw6/geography/priority_sources/865_25_OKTMO.doc",
+      "bytes": 128512,
+      "sha256": "9e53cb5ebb50259039dd9797027e8d723704290fd82c3a687f539bbceeb79d71"
+    },
+    {
+      "path": "raw6/geography/priority_sources/fias_home.html",
+      "bytes": 54105,
+      "sha256": "4473c2c1740702ced3fe70de7373b8cdb8a6309fddb8e6567bbe86fbe037c97e"
+    },
+    {
+      "path": "raw6/geography/priority_sources/fias_passport.html",
+      "bytes": 72271,
+      "sha256": "3113553154286e777e02a3c5931656bc45b76a707f773d27601eb954f203ba59"
+    },
+    {
+      "path": "raw6/geography/priority_sources/fias_structure_20210312.zip",
+      "bytes": 25522,
+      "sha256": "5c844b6a751c6482d1fa97a5da856a92a30b6201a53ffdb7bd7abbcf2e18f05b"
+    },
+    {
+      "path": "raw6/geography/priority_sources/gar_schemas.zip",
+      "bytes": 25617,
+      "sha256": "5380f365584f6e0e400ff14da0dad9fcc963f4bbc065f8b42650c706f9622a90"
+    },
+    {
+      "path": "raw6/geography/priority_sources/oktmo_introduction_891.docx",
+      "bytes": 27908,
+      "sha256": "62663a8ab0a31e683833c37527e6e523245916391a5360ff190bbce4e112d206"
+    },
+    {
+      "path": "raw6/geography/priority_sources/retrievals.json",
+      "bytes": 10483,
+      "sha256": "0379fe44ce4fa78b3df6392dbf88405d9531a35f08e66946a0e9228f9c72cfcf"
+    },
+    {
+      "path": "raw6/geography/remote_initial/fias_download_catalog.json",
+      "bytes": 32995,
+      "sha256": "d23f1d2dfe4b59b188e941bc0fa0fbd7401b0238caf13fc5df491b8fe77cbb45"
+    },
+    {
+      "path": "raw6/geography/remote_initial/retrievals.json",
+      "bytes": 1537,
+      "sha256": "19737a618f0f51d8fd53fe45d2a5497d80651f191f1de155d24304f3ec5e7d27"
+    },
+    {
+      "path": "raw6/geography/remote_initial/rosstat_classification.html",
+      "bytes": 1231354,
+      "sha256": "180c678048476c5a08c2c56c586711b20cbf47edeb8c80a74d28832609fb1ab6"
+    },
+    {
+      "path": "raw6/geography/supplement/643_23 ОКТМО.docx",
+      "bytes": 18967,
+      "sha256": "17a54e8d3a94cce1f22e54cb9d450bacc87ce3f49519f61500d3559abdac74f7"
+    },
+    {
+      "path": "raw6/geography/supplement/fias_frontend.html",
+      "bytes": 27249,
+      "sha256": "c95bdf82b0c6752a2c3e6361d5cf0d9960979cf64b4536266137c0cf0bf322a1"
+    },
+    {
+      "path": "raw6/geography/supplement/perm_20240101.pdf",
+      "bytes": 154449,
+      "sha256": "8a42ca1cdedb5fb31170f6c1f646806383dcedcf08a685b11d3b14b8ba829b2b"
+    },
+    {
+      "path": "raw6/geography/supplement/retrievals.json",
+      "bytes": 2684,
+      "sha256": "0e679c2035541722395cad66a3176fc2b3f72b72e0ebf9a2d81a28b597453d99"
+    },
+    {
+      "path": "raw6/geography/supplement/rosstat_opendata.html",
+      "bytes": 2270006,
+      "sha256": "127c162e93f8a71e709e525de4c07a669051913c8f5e9c18651a23e71b2a402c"
+    }
+  ],
+  "source_allowlist_sha256": "c3c32880ded5a1c1c3b6997f412b3c3d7beb6fc39309b09243f4e72c8f8e0fcd",
+  "packager_sha256": "a9d5443b7d2817046bdf57a167a9ff839eaec18e95d84b07c96b4c6032827fbc",
+  "immutable_helper_sha256": "3f6e2a4eab351a7a40674d2b3ed9d060f15d248f911eaf37b0755ddfa286bb26",
+  "credential_scan": {
+    "policy": "unchanged_regex_and_DHT_parser_with_exact_path_bound_exception",
+    "pattern_sha256": "eac28383fcd054026c92c738a7c0f5857d15499d2c90964c0f0524eda43f0a5b",
+    "exceptions_applied": []
+  }
+}

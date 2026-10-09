@@ -1,0 +1,114 @@
+[
+  {
+    "filename": "komi_code_crosswalk_2024.html",
+    "url": "https://adm.govuktyl.ru/mezhrajonnaya-inspektsiya-fns-3-po-respublike-komi/9248-s-01-01-2024-izmenyatsya-kody-oktmo-otdelnykh-gorodskikh-okrugov-i-naimenovanij-munitsipalnykh-obrazovanij-respubliki-komi",
+    "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'adm.govuktyl.ru'. (_ssl.c:1010)>"
+  },
+  {
+    "filename": "karelia_laws_2023_04.pdf",
+    "url": "https://gov10.ru/upload/iblock/5e1/a9gjmu97jdz673z9qvliyzv1yag1porh/-4-1_212.pdf",
+    "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  {
+    "filename": "gost_card_634_2023.html",
+    "url": "https://protect.gost.ru/classificators/changesdetails/8f6f00b2-35da-45ab-8180-6e0a968240bb",
+    "reason": "TimeoutError: The read operation timed out"
+  },
+  {
+    "filename": "gost_card_648_2023.html",
+    "url": "https://protect.gost.ru/classificators/changesdetails/a7673bcc-a800-4a4f-86e1-cad8ad0555c4",
+    "reason": "TimeoutError: The read operation timed out"
+  },
+  {
+    "filename": "gost_card_637_2023.html",
+    "url": "https://protect.gost.ru/classificators/changesdetails/64cb3986-aabd-440d-af28-c92d30cea801",
+    "reason": "TimeoutError: The read operation timed out"
+  },
+  {
+    "filename": "gost_card_633_2023.html",
+    "url": "https://protect.gost.ru/classificators/changesdetails/6e900fea-f9b6-4676-b422-f34fab1e6c2b",
+    "reason": "TimeoutError: The read operation timed out"
+  },
+  {
+    "filename": "karelia_laws_2023_04.pdf",
+    "url": "https://gov10.ru/upload/iblock/5e1/a9gjmu97jdz673z9qvliyzv1yag1porh/-4-1_212.pdf",
+    "reason": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  {
+    "filename": "karelia_laws_2023_04.pdf",
+    "url": "https://gov10.ru/upload/iblock/5e1/a9gjmu97jdz673z9qvliyzv1yag1porh/-4-1_212.pdf",
+    "reason": "ValueError: Response exceeds 30 MB"
+  },
+  {
+    "filename": "gost_card_633_2023_pages.json",
+    "status": 200,
+    "sha256": "06cc809c4ac30f503a92d24b5d4d41655f27211c19fb7aca30c96ca21e91f4b1",
+    "reason": "viewer_metadata_or_authorization_placeholder_not_amendment_text"
+  },
+  {
+    "filename": "gost_card_634_2023_pages.json",
+    "status": 200,
+    "sha256": "4482590f52b5db5c8242c0260e98a73ad117a221bdcd58225efafa077b1d2e79",
+    "reason": "viewer_metadata_or_authorization_placeholder_not_amendment_text"
+  },
+  {
+    "filename": "gost_card_637_2023_pages.json",
+    "status": 200,
+    "sha256": "f1b38dfd5fe9f6dcca5a4c401ff5f02e911a7cda6aba4bd4e4b546d95e45d71e",
+    "reason": "viewer_metadata_or_authorization_placeholder_not_amendment_text"
+  },
+  {
+    "filename": "gost_card_648_2023_pages.json",
+    "status": 200,
+    "sha256": "2f6727a2da7318b914532614a989cfc8df629e9ba0924c2b3f273598eb951bb4",
+    "reason": "viewer_metadata_or_authorization_placeholder_not_amendment_text"
+  },
+  {
+    "filename": "gost_card_633_2023_page1.jpg",
+    "status": 200,
+    "sha256": "e3a0159f7880cfaaa86820693af818b40db4b4230b641e1585cdfd26449e7057",
+    "reason": "viewer_metadata_or_authorization_placeholder_not_amendment_text"
+  },
+  {
+    "filename": "gost_card_633_2023_page2.jpg",
+    "status": 200,
+    "sha256": "e3a0159f7880cfaaa86820693af818b40db4b4230b641e1585cdfd26449e7057",
+    "reason": "viewer_metadata_or_authorization_placeholder_not_amendment_text"
+  },
+  {
+    "filename": "gost_card_634_2023_page1.jpg",
+    "status": 200,
+    "sha256": "e3a0159f7880cfaaa86820693af818b40db4b4230b641e1585cdfd26449e7057",
+    "reason": "viewer_metadata_or_authorization_placeholder_not_amendment_text"
+  },
+  {
+    "filename": "gost_card_634_2023_page2.jpg",
+    "status": 200,
+    "sha256": "e3a0159f7880cfaaa86820693af818b40db4b4230b641e1585cdfd26449e7057",
+    "reason": "viewer_metadata_or_authorization_placeholder_not_amendment_text"
+  },
+  {
+    "filename": "gost_card_637_2023_page1.jpg",
+    "status": 200,
+    "sha256": "e3a0159f7880cfaaa86820693af818b40db4b4230b641e1585cdfd26449e7057",
+    "reason": "viewer_metadata_or_authorization_placeholder_not_amendment_text"
+  },
+  {
+    "filename": "gost_card_637_2023_page2.jpg",
+    "status": 200,
+    "sha256": "e3a0159f7880cfaaa86820693af818b40db4b4230b641e1585cdfd26449e7057",
+    "reason": "viewer_metadata_or_authorization_placeholder_not_amendment_text"
+  },
+  {
+    "filename": "gost_card_648_2023_page1.jpg",
+    "status": 200,
+    "sha256": "e3a0159f7880cfaaa86820693af818b40db4b4230b641e1585cdfd26449e7057",
+    "reason": "viewer_metadata_or_authorization_placeholder_not_amendment_text"
+  },
+  {
+    "filename": "gost_card_648_2023_page2.jpg",
+    "status": 200,
+    "sha256": "e3a0159f7880cfaaa86820693af818b40db4b4230b641e1585cdfd26449e7057",
+    "reason": "viewer_metadata_or_authorization_placeholder_not_amendment_text"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "source_cell_count": 3836682,
+  "numeric_count": 3332759,
+  "source_status_counts": {
+    "source_marker": 503923,
+    "observed_zero": 1059,
+    "observed": 3331700
+  },
+  "primary_context_cells": 2933362,
+  "primary_context_numeric": 2571434,
+  "source_grain": "year/month/source city code/product code; end-of-period RUB per labelled unit",
+  "no_imputation": true,
+  "not_official_cpi": true,
+  "nominal_grid_cells": 3837240,
+  "absent_product_column_cells": 558,
+  "blank_cells": 0,
+  "source_code_review_cells": 570,
+  "temporal_review_source_cells": 20520
+}

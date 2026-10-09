@@ -1,0 +1,28 @@
+{
+  "status": "PASS_WITH_CONDITIONS",
+  "selected_prior_cases": 6,
+  "case_years": 12,
+  "nominal_indicator_cells": 36,
+  "observed_cells": 34,
+  "unavailable_cells": 2,
+  "nominal_pairs": 18,
+  "growth_pairs_computed": 17,
+  "growth_pairs_missing": 1,
+  "exact_source_cells_reconciled": 34,
+  "document_records_status_preserved": 53,
+  "quarantined_records": 2,
+  "undated_institution_records": 4,
+  "document_comparability_checks": 10,
+  "sme_name_joins": 0,
+  "boundary_equivalence_claims": 0,
+  "models_fit": 0,
+  "new_searches": 0,
+  "source_replacements": 0,
+  "self_test_guards": 8,
+  "limitations": [
+    "Nominal retrospective organization activity, without small business; no deflation.",
+    "Six old residual extremes are not an independent test or causal explanation.",
+    "Same codes/definitions do not establish immutable borders or respondent populations.",
+    "Document evidence does not replace frozen values or upgrade quarantined candidates."
+  ]
+}

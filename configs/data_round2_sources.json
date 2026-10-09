@@ -1,0 +1,82 @@
+[
+  {
+    "source_id": "r2_seed_0",
+    "need_id_if_known": "r2_commuting",
+    "title": "Росстат: ВПН-2020, том 10",
+    "url": "https://rosstat.gov.ru/vpn/2020/Tom10_Rabochaya_sila",
+    "download_urls": [],
+    "source_type": "official_landing_page",
+    "priority": "P1",
+    "notes": "Candidate for discovery; not accepted numerical data."
+  },
+  {
+    "source_id": "r2_seed_1",
+    "need_id_if_known": "r2_commuting",
+    "title": "Амурстат: итоги переписи",
+    "url": "https://28.rosstat.gov.ru/folder/64793",
+    "download_urls": [],
+    "source_type": "official_landing_page",
+    "priority": "P1",
+    "notes": "Candidate for discovery; not accepted numerical data."
+  },
+  {
+    "source_id": "r2_seed_2",
+    "need_id_if_known": "r2_commuting",
+    "title": "Якутия: итоги переписи",
+    "url": "https://14.rosstat.gov.ru/folder/179476",
+    "download_urls": [],
+    "source_type": "official_landing_page",
+    "priority": "P1",
+    "notes": "Candidate for discovery; not accepted numerical data."
+  },
+  {
+    "source_id": "r2_seed_3",
+    "need_id_if_known": "r2_commuting",
+    "title": "Мосстат: итоги переписи",
+    "url": "https://77.rosstat.gov.ru/folder/210976",
+    "download_urls": [],
+    "source_type": "official_landing_page",
+    "priority": "P1",
+    "notes": "Candidate for discovery; not accepted numerical data."
+  },
+  {
+    "source_id": "r2_seed_4",
+    "need_id_if_known": "r2_commuting",
+    "title": "Астрахань: итоги переписи",
+    "url": "https://30.rosstat.gov.ru/vpn-2020",
+    "download_urls": [],
+    "source_type": "official_landing_page",
+    "priority": "P1",
+    "notes": "Candidate for discovery; not accepted numerical data."
+  },
+  {
+    "source_id": "r2_seed_5",
+    "need_id_if_known": "r2_city_prices",
+    "title": "Росстат: цены",
+    "url": "https://rosstat.gov.ru/statistics/price",
+    "download_urls": [],
+    "source_type": "official_landing_page",
+    "priority": "P1",
+    "notes": "Candidate for discovery; not accepted numerical data."
+  },
+  {
+    "source_id": "r2_seed_6",
+    "need_id_if_known": "r2_boundaries",
+    "title": "Росстат: классификации",
+    "url": "https://rosstat.gov.ru/classification",
+    "download_urls": [],
+    "source_type": "official_landing_page",
+    "priority": "P1",
+    "notes": "Candidate for discovery; not accepted numerical data."
+  },
+  {
+    "source_id": "r2_seed_7",
+    "need_id_if_known": "r2_sector",
+    "title": "БД ПМО: первичные формы",
+    "url": "https://rosstat.gov.ru/storage/mediabank/MUNST.htm",
+    "download_urls": [],
+    "source_type": "official_landing_page",
+    "priority": "P1",
+    "notes": "Candidate for discovery; not accepted numerical data."
+  }
+]

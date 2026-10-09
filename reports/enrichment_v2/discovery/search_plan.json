@@ -1,0 +1,185 @@
+[
+  {
+    "need_id": "territory_crosswalk",
+    "query": "site:rosstat.gov.ru ОКТМО 2024 муниципальные округа классификатор файл скачать",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "territory_crosswalk",
+    "query": "site:rosstat.gov.ru \"7708234640-oktmo\" \"2023\"",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "territory_crosswalk",
+    "query": "site:rosstat.gov.ru \"7708234640-oktmo\" \"2024\"",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "territory_crosswalk",
+    "query": "site:rosstat.gov.ru ОКТМО KOD1 муниципальные округа 5 раздел",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "territory_crosswalk",
+    "query": "site:rosstat.gov.ru БДПМО изменения кодов муниципальных округов 2023 2024",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "territory_crosswalk",
+    "query": "site:sberindex.ru муниципальные границы изменения 2023 2024 справочник",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "municipal_population",
+    "query": "site:rosstat.gov.ru БДПМО 8112027 численность населения на 1 января 2023 2024",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "municipal_population",
+    "query": "site:rosstat.gov.ru БДПМО пакетная выгрузка ОКТМО CSV муниципальные образования",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "municipal_population",
+    "query": "site:rosstat.gov.ru DBInet.cgi p_oktmo данные население муниципальные",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "municipal_population",
+    "query": "site:rosstat.gov.ru ТЕРСОН-МО ОКТМО таблица соответствия 2024",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "municipal_population",
+    "query": "site:rosstat.gov.ru численность населения муниципальных образований преобразования сопоставимых границах 2024",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "market_access_2024",
+    "query": "site:sberindex.ru \"доступность\" \"рынков\" муниципальных",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "market_access_2024",
+    "query": "site:sberindex.ru \"market_access\"",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "market_access_2024",
+    "query": "site:sberbank.com \"market_access.parquet\"",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "market_access_2024",
+    "query": "СберИндекс потенциальная доступность внешнего рынка муниципальные 2024 пропуски",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "territory_crosswalk",
+    "query": "site:rosstat.gov.ru \"7708234640-oktmo\" \"Дата актуальности\" ОКТМО",
+    "purpose": "Найти официальную страницу открытых данных ОКТМО с реквизитом даты актуальности, чтобы зафиксировать версии на 01.01.2023 и 01.01.2024.",
+    "origin": "model_suggestion"
+  },
+  {
+    "need_id": "territory_crosswalk",
+    "query": "site:rosstat.gov.ru \"ОК 033-2013\" \"ОКТМО\" \"2024\"",
+    "purpose": "Найти официальную редакцию классификатора ОК 033-2013 на 2024 год и описание изменений для территориального классификатора.",
+    "origin": "model_suggestion"
+  },
+  {
+    "need_id": "territory_crosswalk",
+    "query": "site:rosstat.gov.ru \"Общероссийский классификатор территорий муниципальных образований\" \"муниципальный округ\" \"изменение\"",
+    "purpose": "Найти официальные материалы об изменениях муниципальных округов между срезами 2023 и 2024 годов.",
+    "origin": "model_suggestion"
+  },
+  {
+    "need_id": "territory_crosswalk",
+    "query": "site:rosstat.gov.ru \"KOD1\" \"KOD2\" ОКТМО структура",
+    "purpose": "Получить официальное описание полей структуры классификатора, чтобы не смешивать уровни муниципального района, округа и поселения.",
+    "origin": "model_suggestion"
+  },
+  {
+    "need_id": "territory_crosswalk",
+    "query": "site:rosstat.gov.ru \"ОКТМО\" \"вступает в силу\" \"2024\" \"муниципальный округ\"",
+    "purpose": "Найти официальные сообщения о вводе или преобразовании муниципальных округов в 2024 году с датами действия кодов.",
+    "origin": "model_suggestion"
+  },
+  {
+    "need_id": "territory_crosswalk",
+    "query": "site:rosstat.gov.ru \"Дата введения\" \"ОКТМО\" \"муниципальный округ\" \"2023\"",
+    "purpose": "Проверить исторические интервалы действия кодов и открытые концы периодов в опубликованном файле ОКТМО.",
+    "origin": "model_suggestion"
+  },
+  {
+    "need_id": "municipal_population",
+    "query": "site:rosstat.gov.ru \"8112027\" \"городское население\" \"муниципальное образование\"",
+    "purpose": "Найти паспорт или описание показателя БДПМО 8112027, чтобы подтвердить состав данных и наличие городского населения.",
+    "origin": "model_suggestion"
+  },
+  {
+    "need_id": "municipal_population",
+    "query": "site:rosstat.gov.ru \"База данных показателей муниципальных образований\" \"на 1 января 2024\" \"численность населения\"",
+    "purpose": "Найти официальный бюллетень или таблицу БДПМО с датированной оценкой населения по муниципальным образованиям на 01.01.2024.",
+    "origin": "model_suggestion"
+  },
+  {
+    "need_id": "municipal_population",
+    "query": "site:rosstat.gov.ru \"Оценка численности постоянного населения\" \"муниципальных образований\" 2024",
+    "purpose": "Найти таблицу постоянного населения по муниципальным образованиям с точной датой и методологическим определением.",
+    "origin": "model_suggestion"
+  },
+  {
+    "need_id": "municipal_population",
+    "query": "site:rosstat.gov.ru \"ТЕРСОН-МО\" \"ОКТМО\" соответствие",
+    "purpose": "Найти официальный справочник или описание соответствия ТЕРСОН-МО и ОКТМО для корректного связывания файлов населения.",
+    "origin": "model_suggestion"
+  },
+  {
+    "need_id": "municipal_population",
+    "query": "site:rosstat.gov.ru \"численность населения муниципальных образований\" \"городское население\" \"2023\"",
+    "purpose": "Найти таблицу на 2023 год с раздельным указанием всего и городского населения по муниципальным образованиям.",
+    "origin": "model_suggestion"
+  },
+  {
+    "need_id": "municipal_population",
+    "query": "site:rosstat.gov.ru \"паспорт показателя\" \"Численность населения\" \"База данных показателей муниципальных образований\"",
+    "purpose": "Найти методологию показателя, единицы измерения и правила учёта постоянного населения в БДПМО.",
+    "origin": "model_suggestion"
+  },
+  {
+    "need_id": "market_access_2024",
+    "query": "site:sberindex.ru \"market_access\" \"2024\"",
+    "purpose": "Найти официальную страницу или файл данных с годовым срезом доступности рынков за 2024 год и описанием охвата.",
+    "origin": "model_suggestion"
+  },
+  {
+    "need_id": "market_access_2024",
+    "query": "site:sberindex.ru \"market_access\" \"ОКТМО\"",
+    "purpose": "Проверить, публикуется ли market_access с кодом территории или ОКТМО для корректного сопоставления с муниципальной панелью.",
+    "origin": "model_suggestion"
+  },
+  {
+    "need_id": "market_access_2024",
+    "query": "site:sberindex.ru \"потенциальная доступность рынков\" \"2024\" \"муниципальных\"",
+    "purpose": "Найти официальное описание определения индекса, единиц измерения и методологии построения за 2024 год.",
+    "origin": "model_suggestion"
+  },
+  {
+    "need_id": "market_access_2024",
+    "query": "site:sberindex.ru \"market_access\" \"методология\"",
+    "purpose": "Найти методологические материалы о шкале, источнике населения и дорожных расстояний, чтобы интерпретировать ограничения.",
+    "origin": "model_suggestion"
+  },
+  {
+    "need_id": "market_access_2024",
+    "query": "site:sberindex.ru \"market_access\" \"323\" \"324\"",
+    "purpose": "Проверить, упоминаются ли пропущенные идентификаторы в официальных таблицах или примечаниях об отсутствии данных.",
+    "origin": "model_suggestion"
+  },
+  {
+    "need_id": "market_access_2024",
+    "query": "site:sberindex.ru \"скачать данные\" \"СберИндекс\" \"муниципальные образования\" \"рынок\"",
+    "purpose": "Найти каталог загрузки данных СберИндекса по муниципалитетам и рынкам, где может быть датированный файл 2024 года.",
+    "origin": "model_suggestion"
+  }
+]

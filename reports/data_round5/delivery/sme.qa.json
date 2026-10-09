@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "archive": "data-round5-sme.zip",
+  "archive_sha256": "dc211797c4d385a4122ebd61752c8e5501359026647a781163a629ea13080777",
+  "archive_bytes": 14566643,
+  "verified_files": 147,
+  "uncompressed_bytes": 29249713,
+  "allowlist_sha256": "e4a793f319927c54283c2039af14fbebee209a8e5039722c45c37420b2bf1263",
+  "packager_sha256": "233f9ce509bb7466b86d4a807d485189a1616a563c161027ff53056ea3a8ef1d",
+  "credential_scan_policy": "block_all_matches_except_one_exact_audited_pdf_jpeg_dht",
+  "audited_exceptions_applied": 0,
+  "credential_scan_exceptions": []
+}

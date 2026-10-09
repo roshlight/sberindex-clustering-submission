@@ -1,0 +1,76 @@
+{
+  "status": "ready_with_conditions",
+  "created_at": "2026-09-14T20:34:02.248433+00:00",
+  "operation": "exact_cohort_left_one_to_one_2024_context_no_imputation",
+  "expected_count": 2016,
+  "snapshot_date": "2024-01-01",
+  "measurement_year": 2024,
+  "conditions": [
+    "Annual 2024 contextual indicator only; no broadcast to 2023 or monthly observations.",
+    "Snapshot and measurement dates do not establish historical publication availability.",
+    "Missing market_access values remain null; not zero and not inferred from neighbours.",
+    "This table adds context; it does not change baseline features or establish causality."
+  ],
+  "counts": {
+    "assignment_rows": 193536,
+    "cohort_ids": 2016,
+    "crosswalk_source_rows": 2594,
+    "crosswalk_matched_ids": 2016,
+    "crosswalk_outside_cohort_ids": 578,
+    "market_access_source_rows": 2571,
+    "market_access_matched_ids": 2004,
+    "market_access_outside_cohort_ids": 567,
+    "market_access_observed_ids": 2004,
+    "market_access_missing_ids": 12,
+    "market_access_absent_source_rows": 12,
+    "market_access_matched_null_values": 0,
+    "output_rows": 2016
+  },
+  "coverage": {
+    "crosswalk_fraction": 1.0,
+    "market_access_observed_fraction": 0.9940476190476191
+  },
+  "qa": {
+    "cohort_identity_preserved": true,
+    "duplicate_right_keys": 0,
+    "null_join_keys": 0,
+    "crosswalk_snapshot_validated": true,
+    "left_join_cardinality": "one_to_one",
+    "imputed_values": 0
+  },
+  "sources": {
+    "assignments": {
+      "path": "/home/vpnadmin/services/sberindex-enrichment/data/raw/assignments.parquet",
+      "sha256": "54f6c1f3c92a878a990c620e9fdb544ab6187f9ac0baea4bc5070d964e0ae6bc",
+      "bytes": 1978134
+    },
+    "crosswalk": {
+      "path": "/home/vpnadmin/services/sberindex-enrichment/data/derived/crosswalk-server-01/municipal_crosswalk_2024-01-01.csv",
+      "sha256": "0fceb092f491855e4b6863cbc9ded804728e4e1772fc5586efd6e7595aa9ebc3",
+      "bytes": 842527
+    },
+    "market_access": {
+      "path": "/home/vpnadmin/services/sberindex-enrichment/data/raw/market_access.parquet",
+      "sha256": "434258afe322b7e6e6610b2552d129ae47094613de72dae3d13f6965a28d1dc1",
+      "bytes": 25163
+    }
+  },
+  "source_field_mapping": {
+    "region_name": "region",
+    "oktmo": "oktmo",
+    "municipal_district_type": "type",
+    "snapshot_date": "snapshot_date"
+  },
+  "processor_sha256": "6a9c0c6803f42ecb8c1709a4ed8112116a7ad20a9adca807a9b09984b7ca7034",
+  "environment": {
+    "python": "3.12.3",
+    "duckdb": "1.5.5",
+    "pandas": "3.0.5",
+    "pyproject_sha256": "d95464c7f6e9088275251368e145f01cb3a563651db6ae9d2b409f35c1b29c4d",
+    "uv_lock_sha256": "b07d548b44a8a636ea0d8ace4d1f0babdbdbfd87c87c7a97e91a5742bbfab612"
+  },
+  "output_sha256": {
+    "market_access_missing_ids.csv": "3f171b6c5080dade9e926099ecb091f775bde842c7cb440234c04c7ef78f446e",
+    "municipal_context_2024.parquet": "1a33be3593d0f6f3fb2e2ff53f687786294bedeb9ecb30a84bcc6eed4f92d1b4"
+  }
+}

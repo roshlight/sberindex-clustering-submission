@@ -1,0 +1,38 @@
+{
+  "status": "PASS_for_extraction_and_lineage_WARN_for_intended_municipal_workers_use",
+  "tests": "6 passed: official domains, body limit, cache hash/request, FNS timing/date, marker preservation",
+  "ruff": "check and format --check PASS on owned collector and tests",
+  "replay_exact_bytes": {
+    "vologda_small_organizations_unlinked.csv": true,
+    "rosstat_regional_workers_context.csv": true,
+    "fns_historical_aggregates.csv": true,
+    "QA.json": true,
+    "source_inventory.json": true
+  },
+  "duplicate_source_keys": 0,
+  "joined_municipalities": 0,
+  "municipal_organization_count_statuses": {
+    "observed": 769
+  },
+  "municipal_profitable_count_statuses": {
+    "observed": 711,
+    "unresolved_source_marker": 58
+  },
+  "municipal_loss_count_statuses": {
+    "observed": 536,
+    "unresolved_source_marker": 233
+  },
+  "municipal_rows_by_year": {
+    "2023": 387,
+    "2024": 382
+  },
+  "all_captured_body_hashes_match": true,
+  "captured_body_files": 33,
+  "access_status_counts": {
+    "downloaded": 33,
+    "headers_only_size_assessment": 2
+  },
+  "all_source_markers_remain_missing": true,
+  "observations2023_2024_not_assumed_available_then": true,
+  "economic_or_causal_models_run": false
+}

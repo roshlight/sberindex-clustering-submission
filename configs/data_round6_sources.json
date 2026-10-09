@@ -1,0 +1,42 @@
+[
+  {
+    "source_id": "r6_seed_0",
+    "need_id_if_known": "r6_geography",
+    "title": "Росстат: классификаторы и перекодировочные таблицы",
+    "url": "https://rosstat.gov.ru/classification",
+    "download_urls": [],
+    "source_type": "official_primary_source",
+    "priority": "P0",
+    "notes": "Navigation entry; new derived evidence requires source and date audit"
+  },
+  {
+    "source_id": "r6_seed_1",
+    "need_id_if_known": "r6_economy",
+    "title": "Саратовстат: розничная торговля и муниципальные продовольственные продажи",
+    "url": "https://64.rosstat.gov.ru/roznica",
+    "download_urls": [],
+    "source_type": "official_primary_source",
+    "priority": "P0",
+    "notes": "Navigation entry; new derived evidence requires source and date audit"
+  },
+  {
+    "source_id": "r6_seed_2",
+    "need_id_if_known": "r6_economy",
+    "title": "Ставропольстат: муниципальные показатели",
+    "url": "https://26.rosstat.gov.ru/main_indicators",
+    "download_urls": [],
+    "source_type": "official_primary_source",
+    "priority": "P0",
+    "notes": "Navigation entry; new derived evidence requires source and date audit"
+  },
+  {
+    "source_id": "r6_seed_3",
+    "need_id_if_known": "r6_sme",
+    "title": "ФНС: правила реестра МСП",
+    "url": "https://rmsp.nalog.ru/",
+    "download_urls": [],
+    "source_type": "official_primary_source",
+    "priority": "P0",
+    "notes": "Navigation entry; new derived evidence requires source and date audit"
+  }
+]

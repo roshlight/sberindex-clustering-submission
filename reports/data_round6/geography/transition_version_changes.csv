@@ -1,0 +1,6 @@
+older_version,newer_version,added_declared_rows,removed_declared_rows,release_dates_are_not_effective_dates
+20231220,20240101,10811,80,True
+20240101,20241102,473,0,True
+20241102,20250108,12697,0,True
+20250108,20260601,41628,0,True
+20260601,20260901,274,202,True

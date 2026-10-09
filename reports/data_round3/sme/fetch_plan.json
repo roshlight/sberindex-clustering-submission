@@ -1,0 +1,224 @@
+[
+  {
+    "source_id": "fns-register-passport",
+    "url": "https://www.nalog.gov.ru/opendata/7707329152-rsmp/",
+    "extension": "html",
+    "purpose": "historic_releases_and_employee_reference_year"
+  },
+  {
+    "source_id": "fns-schema-2023",
+    "url": "https://file.nalog.ru/opendata/7707329152-rsmp/structure-10062023.xsd",
+    "extension": "xsd",
+    "purpose": "historical_schema_join_keys"
+  },
+  {
+    "source_id": "fns-schema-2022",
+    "url": "https://file.nalog.ru/opendata/7707329152-rsmp/structure-10032022.xsd",
+    "extension": "xsd",
+    "purpose": "early2023_schema_join_keys"
+  },
+  {
+    "source_id": "fns-license",
+    "url": "https://www.nalog.gov.ru/files/tipovye_usloviya_od.pdf",
+    "extension": "pdf",
+    "purpose": "open_data_reuse_terms"
+  },
+  {
+    "source_id": "fns-archive-20240710-size",
+    "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10072024-structure-10062023.zip",
+    "method": "HEAD",
+    "purpose": "size_only_employee2023_reference"
+  },
+  {
+    "source_id": "fns-archive-20250710-size",
+    "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10072025-structure-10062025.zip",
+    "method": "HEAD",
+    "purpose": "size_only_employee2024_reference"
+  },
+  {
+    "source_id": "fns-statistics-20240710",
+    "url": "https://rmsp.nalog.ru/statistics-proc.json",
+    "method": "POST",
+    "data": {
+      "statDate": "10.07.2024"
+    },
+    "extension": "json",
+    "purpose": "historical_regional_aggregate_workers2023_not_municipal"
+  },
+  {
+    "source_id": "fns-statistics-20250710",
+    "url": "https://rmsp.nalog.ru/statistics-proc.json",
+    "method": "POST",
+    "data": {
+      "statDate": "10.07.2025"
+    },
+    "extension": "json",
+    "purpose": "historical_regional_aggregate_workers2024_not_municipal"
+  },
+  {
+    "source_id": "khabarovsk-municipal-page",
+    "url": "https://27.rosstat.gov.ru/folder/20717",
+    "extension": "html",
+    "purpose": "municipal_sme_worker_share_source_navigation"
+  },
+  {
+    "source_id": "vologda-finance-page",
+    "url": "https://35.rosstat.gov.ru/folder/135085",
+    "extension": "html",
+    "purpose": "municipal_small_enterprise_2024_sources"
+  },
+  {
+    "source_id": "rosstat-sme-regional-page",
+    "url": "https://rosstat.gov.ru/statistics/instituteconomics",
+    "extension": "html",
+    "purpose": "sector_employee_scope_regional_source_navigation"
+  },
+  {
+    "source_id": "ivanovo-municipal-page",
+    "url": "https://37.rosstat.gov.ru/main_indicators",
+    "extension": "html",
+    "purpose": "municipal_sme_historical_source_navigation"
+  },
+  {
+    "source_id": "sakhalin-municipal-page",
+    "url": "https://65.rosstat.gov.ru/main_indicators",
+    "extension": "html",
+    "purpose": "municipal_sme_historical_source_navigation"
+  },
+  {
+    "source_id": "magadan-municipal-page",
+    "url": "https://27.rosstat.gov.ru/folder/23590",
+    "extension": "html",
+    "purpose": "municipal_sme_historical_source_navigation"
+  },
+  {
+    "source_id": "khabarovsk-municipal-page-table-1",
+    "url": "https://27.rosstat.gov.ru/storage/mediabank/Число субъектов малого и среднего предпр-ва на 10 тыс человек.doc",
+    "extension": "doc",
+    "purpose": " DOC Число субъектов малого и среднего предпринимательства в расчете на 10 тыс. человек населения 37.5 Кб, 02.02.2023"
+  },
+  {
+    "source_id": "khabarovsk-municipal-page-table-2",
+    "url": "https://27.rosstat.gov.ru/storage/mediabank/Доля среднеспис числ раб-ков малых и ср предпр-й.doc",
+    "extension": "doc",
+    "purpose": " DOC Доля среднесписочной численности работников (без внешних совместителей) малых и средних предприятий в среднесписочной численности работников (без внешних совместителей) всех предприятий и организаций 37.5 Кб, 02.02.2023"
+  },
+  {
+    "source_id": "rosstat-sme-regional-page-table-1",
+    "url": "https://rosstat.gov.ru/storage/mediabank/Chislen_malcmik_2025.xlsx",
+    "extension": "xlsx",
+    "purpose": " XLSX Средняя численность работников малых предприятий (включая микропредприятия) по видам экономической деятельности и субъектам Российской Федерации (с 2011 г.) 63.78 Кб, 27.03.2026"
+  },
+  {
+    "source_id": "rosstat-sme-regional-page-table-2",
+    "url": "https://rosstat.gov.ru/storage/mediabank/Chislen_mal_06-2026.xlsx",
+    "extension": "xlsx",
+    "purpose": " XLSX Средняя численность работников малых предприятий (без микропредприятий) по видам экономической деятельности и субъектам Российской Федерации (с 2011 г.) 64.38 Кб, 09.09.2026"
+  },
+  {
+    "source_id": "vologda-finance-page-table-2",
+    "url": "https://35.rosstat.gov.ru/storage/mediabank/Группировка организаций(5).xlsx",
+    "extension": "xlsx",
+    "purpose": " XLSX Группировка малых предприятий, получивших прибыль или убыток, в разрезе муниципальных образований Вологодской области по видам экономической деятельности в 2024 году 51.58 Кб, 15.10.2025"
+  },
+  {
+    "source_id": "vologda-finance-page-table-4",
+    "url": "https://35.rosstat.gov.ru/storage/mediabank/Группировка организаций(3).xlsx",
+    "extension": "xlsx",
+    "purpose": " XLSX Группировка малых предприятий, получивших прибыль или убыток, в разрезе муниципальных образований Вологодской области по видам экономической деятельности в 2023 году 50.38 Кб, 16.10.2024"
+  },
+  {
+    "source_id": "prikubansky-municipal-2024",
+    "url": "https://26.rosstat.gov.ru/storage/mediabank/Прикубанский%20МР.pdf",
+    "extension": "pdf",
+    "purpose": "verify_actual_reference_year_in2024_report_sme_footnote"
+  },
+  {
+    "source_id": "ivanovo-municipal-page-table-1",
+    "url": "https://37.rosstat.gov.ru/storage/mediabank/m_sr_predp_2024.pdf",
+    "extension": "pdf",
+    "purpose": " PDF Число субъектов малого и среднего предпринимательства за 2020 год 132.17 Кб, 01.04.2025"
+  },
+  {
+    "source_id": "ivanovo-municipal-page-table-2",
+    "url": "https://37.rosstat.gov.ru/storage/mediabank/srednespis_mp_sr_2024.pdf",
+    "extension": "pdf",
+    "purpose": " PDF Доля среднесписочной численности работников (без внешних совместителей) малых и средних предприятий в среднесписочной численности работников (без внешних совместителей) всех предприятий и организаций 131.47 Кб, 01.04.2025"
+  },
+  {
+    "source_id": "ivanovo-municipal-page-table-3",
+    "url": "https://37.rosstat.gov.ru/storage/mediabank/m_sr_predp_2023.pdf",
+    "extension": "pdf",
+    "purpose": " PDF Число субъектов малого и среднего предпринимательства 132.26 Кб, 01.04.2024"
+  },
+  {
+    "source_id": "ivanovo-municipal-page-table-4",
+    "url": "https://37.rosstat.gov.ru/storage/mediabank/srednespis_mp_sr_2023.pdf",
+    "extension": "pdf",
+    "purpose": " PDF Доля среднесписочной численности работников малых и средних предприятий в среднесписочной численности работников всех предприятий 131.57 Кб, 01.04.2024"
+  },
+  {
+    "source_id": "sakhalin-municipal-page-table-1",
+    "url": "https://65.rosstat.gov.ru/storage/mediabank/1.Число субъектов малого  и среднего предпринимательства.htm",
+    "extension": "htm",
+    "purpose": " HTM 1. Число субъектов малого и среднего предпринимательства 28.67 Кб, 21.03.2024"
+  },
+  {
+    "source_id": "magadan-municipal-page-table-1",
+    "url": "https://27.rosstat.gov.ru/storage/mediabank/1(16).docx",
+    "extension": "docx",
+    "purpose": " DOCX Число субъектов малого и среднего предпринимательства в расчете на 10 тыс. человек населения 13.9 Кб, 26.03.2025"
+  },
+  {
+    "source_id": "magadan-municipal-page-table-2",
+    "url": "https://27.rosstat.gov.ru/storage/mediabank/2(9).docx",
+    "extension": "docx",
+    "purpose": " DOCX Доля среднесписочной численности работников (без внешних совместителей) малых и средних предприятий в среднесписочной численности работников (без внешних совместителей) всех предприятий и организаций 13.89 Кб, 26.03.2025"
+  },
+  {
+    "source_id": "rosstat-transport-confidentiality",
+    "url": "https://67.rosstat.gov.ru/storage/mediabank/Типовые%20вопросы-ответы.pdf",
+    "extension": "pdf",
+    "purpose": "official_scope_specific_confidentiality_rules_not_universal_imputation"
+  },
+  {
+    "source_id": "rosstat-mp2020-methodology",
+    "url": "https://78.rosstat.gov.ru/Small_business_FAQ",
+    "extension": "html",
+    "purpose": "sme_census_scope_place_of_activity_confidentiality"
+  },
+  {
+    "source_id": "fns-statistics-20230710",
+    "url": "https://rmsp.nalog.ru/statistics-proc.json",
+    "method": "POST",
+    "data": {
+      "statDate": "10.07.2023"
+    },
+    "extension": "json",
+    "purpose": "historical_entity_count2023snapshot_workers2022_not_municipal"
+  },
+  {
+    "source_id": "fns-schema-2025",
+    "url": "https://file.nalog.ru/opendata/7707329152-rsmp/structure-10062025.xsd",
+    "extension": "xsd",
+    "purpose": "schema_for20250710_snapshot_workers2024"
+  },
+  {
+    "source_id": "fns-statistics-interface",
+    "url": "https://rmsp.nalog.ru/statistics.html",
+    "extension": "html",
+    "purpose": "worker_scope_and_snapshot_selector_definition_only"
+  },
+  {
+    "source_id": "fns-statistics-javascript",
+    "url": "https://rmsp.nalog.ru/js/statistics.js?ver=1.5.9",
+    "extension": "js",
+    "purpose": "published_public_POST_endpoint_and_geography_levels"
+  },
+  {
+    "source_id": "rosstat-municipal-catalog",
+    "url": "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+    "extension": "htm",
+    "purpose": "8423005_source_scope_excludes_small_not_all_SME"
+  }
+]

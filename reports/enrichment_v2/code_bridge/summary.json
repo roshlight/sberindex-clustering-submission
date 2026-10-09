@@ -1,0 +1,42 @@
+{
+  "status": "code_bridge_ready_with_explicit_temporal_and_source_option_conditions",
+  "primary_territories": 2016,
+  "reference_links": 4032,
+  "unique_fetch_targets": 2094,
+  "official_code_present_links": 4032,
+  "sber_annual_code_present_links": 4032,
+  "independently_confirmed_legal_effectivity_links": 0,
+  "independently_confirmed_boundary_equivalence_links": 0,
+  "temporal_review_links": 6,
+  "temporal_review_ids": [
+    223,
+    913,
+    1051,
+    1068,
+    1431,
+    1438
+  ],
+  "previous_unmatched": 389,
+  "exactly_recovered_in_both_neighboring_vintages": 389,
+  "remaining_missing_official_2024_codes": 0,
+  "recovered_with_older_sber_code_in_problematic_file": 377,
+  "old_code_replacements_applied": 0,
+  "class_389_counts": {
+    "2024_code_already_present_in_sber_2023": 311,
+    "code_changed_between_sber_2023_2024": 78
+  },
+  "type_389_counts": {
+    "муниципальный округ": 361,
+    "городской округ": 28
+  },
+  "primary_code_or_type_changes": 78,
+  "all_territories_code_or_type_changes": 86,
+  "primary_change_type_counts": {
+    "муниципальный район -> муниципальный округ": 65,
+    "городской округ -> муниципальный округ": 13
+  },
+  "population_fetched_by_this_script": false,
+  "population_joined_by_this_script": false,
+  "name_joins_used": false,
+  "DateUtv_DateVved_used_to_assign_population_year": false
+}

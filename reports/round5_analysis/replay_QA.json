@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "scope": "Saved-source replay in existing locked environment",
+  "clean_environment_created": false,
+  "network_requested": false,
+  "llm_calls_requested": false,
+  "numeric_atol": 1e-09,
+  "numeric_rtol": 1e-09,
+  "raw_tree_metadata_unchanged": true,
+  "canonical_machine_files_and_code_unchanged": true,
+  "manual_documents_regenerated": false,
+  "raw_hash_verification": "Context stage verifies its manifest-declared raw inputs",
+  "independent_validation": "PASS on fresh root, including independent Ridge refits",
+  "report_generation_replayed": false,
+  "visual_review_repeated": false,
+  "comparisons": [
+    {
+      "branch": "audit",
+      "method": "byte_exact",
+      "files": 22
+    },
+    {
+      "branch": "models",
+      "method": "numeric_1e-9_and_exact_structure",
+      "tables_max_abs": {
+        "cv_comparisons.csv": 0.0,
+        "cv_metrics.csv": 0.0,
+        "model_panel.csv": 0.0,
+        "oof_predictions.parquet": 0.0,
+        "prior_invariance_checks.csv": 0.0,
+        "slice_losses.csv": 0.0
+      },
+      "files": 8,
+      "excluded_byte_equality": [
+        "manifest.json",
+        "protocol_lock.json"
+      ],
+      "exclusion_reason": "Run timestamps; output byte hashes may differ across runtimes",
+      "protocol_code_input_hashes_equal": true
+    },
+    {
+      "branch": "readout",
+      "method": "numeric_1e-9_and_exact_QA",
+      "files": 4,
+      "tables_max_abs": {
+        "excluded_regions_sensitivity.csv": 0.0,
+        "primary_all_samples.csv": 0.0,
+        "state_update_contributions.csv": 0.0
+      },
+      "excluded_byte_equality": [
+        "manifest.json"
+      ],
+      "exclusion_reason": "Hashes refer to fresh model files, checked against those files"
+    },
+    {
+      "branch": "recovered",
+      "method": "byte_exact",
+      "files": 5
+    },
+    {
+      "branch": "context",
+      "method": "byte_exact",
+      "files": 13
+    }
+  ],
+  "stages": [
+    {
+      "stage": "audit",
+      "returncode": 0
+    },
+    {
+      "stage": "models",
+      "returncode": 0
+    },
+    {
+      "stage": "readout",
+      "returncode": 0
+    },
+    {
+      "stage": "recovered",
+      "returncode": 0
+    },
+    {
+      "stage": "context",
+      "returncode": 0
+    },
+    {
+      "stage": "independent",
+      "returncode": 0
+    }
+  ],
+  "independent_QA_sha256": "3e1b90ff4644f070da66ad75967097dc6162d63d3a6a36d6a45b3715f1387e4c",
+  "code_sha256": "ffe36d1eda13e3f3703cfed6e50410c39c3bbc3a061ab2b2e6b0af3a1bf7b558",
+  "source_manifests_sha256": {
+    "audit": "2607e9ae0eeb296fe4a93968d616c23806fce46add6742ff0711fd41bfc09185",
+    "models": "398d169440c340c22a5abfffa398f262e1de2754579ec8e383ea99a322b5703e",
+    "readout": "b95d770e54e0b6706aef56b7a84d4d989bd4689313c98230a744f3b61c064c89",
+    "recovered": "5f3b936094ce52475401623e8ed0df5c11e810f34b35c5065ae23fce73391eea",
+    "context": "611c1b6499560dd9951d5f8309b9e99ea11feef50945f28d4aba46c145b044e2"
+  },
+  "script_sha256": {
+    "round5_data_audit.py": "3e1cd7d3b2051943fdd5af1c6bd33678971d7dd392bba4c8e0c2568f0cc885f1",
+    "round5_model_analysis.py": "6477bc96e94a95e1df128f053d858ec4ab0dba753a2cbb40fbd9d2404583e554",
+    "round5_model_readout.py": "8670bf22ee169b4e9e1f4ffcfb6193c5faaca980e20a60c97732e024936b210d",
+    "round5_recovered_profiles.py": "2abdf0178acfc54ed3e01d98dc20117fa1abc052b6f36c3684a40ceaa2030b22",
+    "round5_context_analysis.py": "126a2d7f475bc2ff967383468fdfa689cdc0c222e885c84578cfa3c823fc5960",
+    "verify_round5_analysis.py": "0a18437bfbf3fb25be4cc37448d293d6d780c3ebbc640a6097a27aca3b81be94"
+  }
+}

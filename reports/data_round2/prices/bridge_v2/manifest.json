@@ -1,0 +1,195 @@
+{
+  "generated_utc": "2026-09-15T10:04:50.695227+00:00",
+  "script_sha256": "70bec499889a14586e8739011d06d0f800bebd4f6ab24533605c58f455543756",
+  "inputs": [
+    {
+      "path": "..\\reports\\enrichment_v3\\prices\\city_cost_of_living_2023_2024.csv",
+      "sha256": "8e0dc1cb2ccfc3c46965ddbc6b89f26a63bef8253bf785a983de7eaa2281c802",
+      "bytes": 222101
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\isg_2012-2025.xlsx",
+      "sha256": "a984448695e121553c7aff23f40a6c4492c513dca9aec8ee8d7343cb96384bb6",
+      "bytes": 44377
+    },
+    {
+      "path": "..\\reports\\initial_study\\assignments.parquet",
+      "sha256": "54f6c1f3c92a878a990c620e9fdb544ab6187f9ac0baea4bc5070d964e0ae6bc",
+      "bytes": 1978134
+    },
+    {
+      "path": "..\\data\\derived\\enrichment\\municipal_crosswalk_2023-01-01.csv",
+      "sha256": "ee3de32865f707060ef2239f58f9f991d1c3f6ce52192019c005ba1b64954ae0",
+      "bytes": 845554
+    },
+    {
+      "path": "..\\data\\derived\\enrichment\\municipal_crosswalk_2024-01-01.csv",
+      "sha256": "dc1603aacda2303a6ef836272d379323f527b32fd6bf0cffb55c279e0d22db3e",
+      "bytes": 845122
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\registry\\data-20230208T0902-structure-20260210T1102.csv",
+      "sha256": "db2033073f7b6c0171083063237a915f41f9e1f23be7aecf1027008391c79ebe",
+      "bytes": 21419968
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\registry\\data-20230208T0902-structure-20260210T1102.csv.download.json",
+      "sha256": "aba536c1825566e06aa4da4711087441870126e3fcf71142b9aef5d4d6165817",
+      "bytes": 403
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\registry\\data-20240125T1401-structure-20260210T1102.csv",
+      "sha256": "62b579d803e50def8668dc704ffecb5ee4e6e12bb1ffd5f848cafd32dfdd926c",
+      "bytes": 21580725
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\registry\\data-20240125T1401-structure-20260210T1102.csv.download.json",
+      "sha256": "d0bbf7df7227e5f6d882b35b57ef388f3619469460bc03e73f1e4901829808c3",
+      "bytes": 518
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\Prikaz_975_23122022.pdf",
+      "sha256": "48d6a6aa2296fa81309a81b7a466221e076364e24dd3f464e7c2f26d3f1626c3",
+      "bytes": 2385850
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\975-60.txt",
+      "sha256": "e5b8daa848b89622302eda7cec4a47e581c8f07ffefa3fc1e23ddd329422eb9c",
+      "bytes": 1167
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\975-61.txt",
+      "sha256": "6f89ded6e25ead3afad8d3fc994ff1556a80fab47bd3ef239744506cedf90294",
+      "bytes": 1021
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\975-62.txt",
+      "sha256": "643bedd1a72eb27cb45a8b24020b09f57bcaff267a989653bcab8be2fa9af7e7",
+      "bytes": 1503
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\975-63.txt",
+      "sha256": "180b6eeedbbab261ca5b76d865615c70fc6ebc0be97490184443a83488ec1941",
+      "bytes": 1205
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\975-64.txt",
+      "sha256": "ab5cbda0452a52425f7820818b63868a694791f74b7c3d65d6f4edd27c3e4230",
+      "bytes": 1367
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\975-65.txt",
+      "sha256": "285bb2aeafb262dc5b7b8f63126cc0e44cd67bffe935f669138fa6b4991b1876",
+      "bytes": 1152
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\975-66.txt",
+      "sha256": "362f4d6e1cb2d5ef00b8bab9484fe3802f5c0f9daffd7dfe27657498f35b1895",
+      "bytes": 1321
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\975-67.txt",
+      "sha256": "d2d0489a64f851ebfdc1c5e35f82580d7e3fe618ed6dfeea6d4a9f752689ffd9",
+      "bytes": 1096
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\975-68.txt",
+      "sha256": "8630ba8eaf6082b52302a0ca7ca9d6a349954267ed0d987415722b31b407e522",
+      "bytes": 1179
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\975-69.txt",
+      "sha256": "da963a91c931a4230e1fb7bd94088d433f4bde6e93a35cab6c9b4aad0bf3abc1",
+      "bytes": 309
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\Prikaz_665_19122023.pdf",
+      "sha256": "6ff151b7aebc62be4a734d39c5adaa8b916b42c0659312f41afdb58e84d662b2",
+      "bytes": 5849665
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\665-13.txt",
+      "sha256": "cece17acee6c343df89df59b3f58ac7f18c2b277c07c0e141ae3acf9e085d225",
+      "bytes": 1123
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\665-14.txt",
+      "sha256": "fd571dc5e08ad0a0c4f5f38f1fbc058f195d86f7497b00d6fe88e4d736846a75",
+      "bytes": 999
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\665-15.txt",
+      "sha256": "516dac327a3e9bad8dc55ee82f20d2cf1ce1c2afe69e60b3764c90ada5af1607",
+      "bytes": 1451
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\665-16.txt",
+      "sha256": "b919714b54a96e66591c9807847368b16d0dd4a0ebab2952dd8985894b51aa09",
+      "bytes": 1187
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\665-17.txt",
+      "sha256": "3bc42e458fdf66bd012d8623c9e86ca7bf987bb29ab9709a57c5a3e10a695620",
+      "bytes": 1293
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\665-18.txt",
+      "sha256": "682c2b31d9c13035a54880278ef82b5465a9ce6ceec43ce9c066d6d183cfed0f",
+      "bytes": 1186
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\665-19.txt",
+      "sha256": "992bb17dcda5d7e0a2075ef9ffb5c1f095d7a5ec6dfb9c1572dfe048066f11bb",
+      "bytes": 1299
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\665-20.txt",
+      "sha256": "1d412ea449abd9a446e3293114c0c0c5fc82a0b309303d0e07b1195f0af11984",
+      "bytes": 1037
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\665-21.txt",
+      "sha256": "c0af760f5f668cbff87462261c5b8fc7a5ee767c7afb34616ba740614da7ebd7",
+      "bytes": 1114
+    },
+    {
+      "path": "..\\..\\..\\work\\data-round2\\prices\\665-22.txt",
+      "sha256": "eabc8b356fb0d169e709e7578eb199dd5afb99cd45777a1ff57711fdb1a76d36",
+      "bytes": 575
+    }
+  ],
+  "outputs": [
+    {
+      "path": "bridge_approved_evidence.csv",
+      "sha256": "8692f19bdbfab7de53fa794280ad1c1a6a83f937935d07547a24f9b86b1899c4",
+      "bytes": 771564
+    },
+    {
+      "path": "bridge_candidates.csv",
+      "sha256": "772d8c5264f821a0e45cbc48af1739e6338e9e44008348edcfff3eb25c1d8874",
+      "bytes": 811260
+    },
+    {
+      "path": "city_context_observations.csv",
+      "sha256": "6b1a28cc942c7d382f2cc51f7f5e5bf3612fe62617cb5b333b3ac1bcc3d4ab55",
+      "bytes": 606936
+    },
+    {
+      "path": "official_base_cities.csv",
+      "sha256": "52422ccb7a98f1e538ec9c5526bb5b6d8092ced681e1aa7dfab8f96251eee7b3",
+      "bytes": 202939
+    },
+    {
+      "path": "primary_cohort_city_context.csv",
+      "sha256": "0432bf9e7fccb2ce064347a80873cc079f314764962e87a3bf6b5e3e3954d50b",
+      "bytes": 204584
+    },
+    {
+      "path": "summary.json",
+      "sha256": "dd6ebd0c260c21b6ffeddee0b6e6e2384c509855aa39e3aab7b9245926f80a6c",
+      "bytes": 1030
+    }
+  ],
+  "no_network": true,
+  "no_numeric_imputation": true
+}

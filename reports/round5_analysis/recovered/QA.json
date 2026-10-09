@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "recovered_rows": 64,
+  "paired_municipalities": 32,
+  "all_values_positive": true,
+  "grain": "municipality-year-indicator, frozen core only",
+  "weight": "equal municipality weight; medians are not population weighted",
+  "rank": "ascending average rank / nonmissing regional core count including recovered",
+  "comparison": "recovered vs previously observed in the same region and indicator",
+  "limitations": [
+    "Observation recovery is selected by source form and municipality type, not random",
+    "Nominal activity intensity is not resident income or full business activity",
+    "Two-year ratios are not inflation-adjusted or proven constant-boundary growth",
+    "No new cluster assignment or causal effect is inferred"
+  ]
+}

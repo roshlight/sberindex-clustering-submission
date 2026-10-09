@@ -1,0 +1,304 @@
+{
+  "script": "collect_round3_geography.py",
+  "script_sha256": "e7796415d2c3d6f359e575a3d0b59ee195303f6b03b12c2ab1ecbb1abdf9627b",
+  "source_files": [
+    {
+      "path": "raw/karelia_2837_publication.html",
+      "source_url": "http://publication.pravo.gov.ru/Document/View/1000202304280003",
+      "sha256": "847af36d261019169cf0e63f40e73f53c9e3e6caee98a0fff3445794b570bcfa",
+      "bytes": 21638,
+      "retrieved_at": "",
+      "kind": "official_publication",
+      "origin": "new_download"
+    },
+    {
+      "path": "raw/karelia_2838_publication.html",
+      "source_url": "http://publication.pravo.gov.ru/Document/View/1000202304280002",
+      "sha256": "acb5df60ea94be49dd8a467598a4327500a2ab33214b98399e5e789fd3b43b06",
+      "bytes": 21836,
+      "retrieved_at": "",
+      "kind": "official_publication",
+      "origin": "new_download"
+    },
+    {
+      "path": "raw/karelia_2839_publication.html",
+      "source_url": "http://publication.pravo.gov.ru/Document/View/1000202304280004",
+      "sha256": "fcc9da141ce9078d77371ec08cefe4f39a5db97602e848b31c7e60962ebbdea5",
+      "bytes": 21818,
+      "retrieved_at": "",
+      "kind": "official_publication",
+      "origin": "new_download"
+    },
+    {
+      "path": "raw/karelia_2837.pdf",
+      "source_url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=1000202304280003",
+      "sha256": "0a19b0275220097bed1020a0a54fba3a249ed9a01f321769521d13705756d2cb",
+      "bytes": 294841,
+      "retrieved_at": "2026-09-16T16:19:52.954813+00:00",
+      "kind": "official_publication",
+      "origin": "new_download"
+    },
+    {
+      "path": "raw/karelia_2838.pdf",
+      "source_url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=1000202304280002",
+      "sha256": "5962e091795b85c021600cbc9fc7e2357dcd7671e6ab8dacd1d958598a2d6ada",
+      "bytes": 277391,
+      "retrieved_at": "2026-09-16T16:19:52.956214+00:00",
+      "kind": "official_publication",
+      "origin": "new_download"
+    },
+    {
+      "path": "raw/karelia_2839.pdf",
+      "source_url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=1000202304280004",
+      "sha256": "f9eaff0f27b2b5522d4bd381de05f688d8e7e0888428053a67aca99278bd4522",
+      "bytes": 299876,
+      "retrieved_at": "2026-09-16T16:19:52.956730+00:00",
+      "kind": "official_publication",
+      "origin": "new_download"
+    },
+    {
+      "path": "raw/pravo_search.html",
+      "source_url": "http://publication.pravo.gov.ru/search",
+      "sha256": "c488be75324308db3c8c2439563d523d03b10be883129d2e4fff8a1b9f7c1103",
+      "bytes": 1862449,
+      "retrieved_at": "2026-09-16T16:19:53.344052+00:00",
+      "kind": "discovery_search",
+      "origin": "new_download"
+    },
+    {
+      "path": "raw/vologda_5115_publication.html",
+      "source_url": "http://publication.pravo.gov.ru/Document/View/3500202205060001",
+      "sha256": "90a442f9d88d8d8d2ddd2d9d507ae23aaba956d901a4f1c07bf2f5f8ada07990",
+      "bytes": 22486,
+      "retrieved_at": "2026-09-16T16:25:41.124234+00:00",
+      "kind": "official_publication",
+      "origin": "new_download"
+    },
+    {
+      "path": "raw/vologda_5115.pdf",
+      "source_url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=3500202205060001",
+      "sha256": "30813bdcfed5b8ba4dbf49ae46653042a97f34ee0df777b9bb1e92b1758fc545",
+      "bytes": 853845,
+      "retrieved_at": "2026-09-16T16:25:41.124801+00:00",
+      "kind": "official_publication",
+      "origin": "new_download"
+    },
+    {
+      "path": "raw/karelia_2841_publication.html",
+      "source_url": "http://publication.pravo.gov.ru/Document/View/1000202305020006",
+      "sha256": "dd3bb214b7eeaed2a43a417dfdf7d703196cf92df0e13946aa59174f1beca499",
+      "bytes": 20765,
+      "retrieved_at": "2026-09-16T16:25:41.125548+00:00",
+      "kind": "official_publication",
+      "origin": "new_download"
+    },
+    {
+      "path": "raw/karelia_2841.pdf",
+      "source_url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=1000202305020006",
+      "sha256": "4ff3c0769ff29b01b8000110a62ff0959e1fafdb6d56550171569d7a52c7e12f",
+      "bytes": 7027492,
+      "retrieved_at": "2026-09-16T16:25:41.126180+00:00",
+      "kind": "official_publication",
+      "origin": "new_download"
+    },
+    {
+      "path": "raw/vologda_5115_search.html",
+      "source_url": "http://publication.pravo.gov.ru/search?Number=5115-%D0%9E%D0%97&NumberSearchType=0&DocumentDateSearchType=1&DocumentDate=28.04.2022",
+      "sha256": "a74a0413b4c464c04610f690d7e2f8a96e134cbdca323a12fd5eb5833843053c",
+      "bytes": 1866463,
+      "retrieved_at": "2026-09-16T16:21:08.117358+00:00",
+      "kind": "discovery_search",
+      "origin": "new_download"
+    },
+    {
+      "path": "raw/karelia_2841_search.html",
+      "source_url": "http://publication.pravo.gov.ru/search?Number=2841-%D0%97%D0%A0%D0%9A&NumberSearchType=0&DocumentDateSearchType=1&DocumentDate=28.04.2023",
+      "sha256": "43a3d03d06c6d91234e6b4e822f707b5b73196f102d265b4583212c3be8bc47a",
+      "bytes": 1866082,
+      "retrieved_at": "2026-09-16T16:21:08.118041+00:00",
+      "kind": "discovery_search",
+      "origin": "new_download"
+    },
+    {
+      "path": "raw/reused/karelia_laws_2023_04.pdf",
+      "source_url": "https://gov10.ru/upload/iblock/5e1/a9gjmu97jdz673z9qvliyzv1yag1porh/-4-1_212.pdf",
+      "sha256": "faf59249598840711d16d991e2fdfa66bd2f5272abb064c53502839e6735f289",
+      "bytes": 35233767,
+      "retrieved_at": "2026-09-15T09:31:05.336954+00:00",
+      "kind": "reused_primary",
+      "origin": "unchanged_copy",
+      "original_workspace_path": "work/data-round2/geography/raw/karelia_laws_2023_04.pdf"
+    },
+    {
+      "path": "raw/reused/oktmo_change_634_2023_1.docx",
+      "source_url": "https://rosstat.gov.ru/storage/mediabank/634_23%20%D0%9E%D0%9A%D0%A2%D0%9C%D0%9E.docx",
+      "sha256": "1e95a81db27290cd01b4dc3f76de347fe532768633aa47a2f16ae04be9036443",
+      "bytes": 18749,
+      "retrieved_at": "2026-09-15T09:23:50.903536+00:00",
+      "kind": "reused_primary",
+      "origin": "unchanged_copy",
+      "original_workspace_path": "work/data-round2/geography/raw/oktmo_change_634_2023_1.docx"
+    },
+    {
+      "path": "raw/reused/gost_change_586_2022.html",
+      "source_url": "https://protect.gost.ru/classificators/changesdetails/9f7198d7-2161-4bce-96af-e20a11a94ba0",
+      "sha256": "d97b826b52996a7988a96cc4b72529bdf5c8b12fa07618574bfeba6f41703f51",
+      "bytes": 75924,
+      "retrieved_at": "2026-09-14T21:31:14.084617+00:00",
+      "kind": "reused_primary",
+      "origin": "unchanged_copy",
+      "original_workspace_path": "work/oktmo-history-20260915/raw/gost_change_586_2022.html"
+    },
+    {
+      "path": "raw/reused/data-20230112T1301-structure-20260210T1102.csv",
+      "source_url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20230112T1301-structure-20260210T1102.csv",
+      "sha256": "7648c4065bb42a80080029253064c5843577d5c3ea9110fa97d9e32eb19c3f73",
+      "bytes": 21427247,
+      "retrieved_at": "",
+      "kind": "reused_primary",
+      "origin": "unchanged_copy",
+      "original_workspace_path": "work/data-round2/geography/raw/reused/data-20230112T1301-structure-20260210T1102.csv"
+    },
+    {
+      "path": "raw/reused/data-20240125T1401-structure-20260210T1102.csv",
+      "source_url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20240125T1401-structure-20260210T1102.csv",
+      "sha256": "62b579d803e50def8668dc704ffecb5ee4e6e12bb1ffd5f848cafd32dfdd926c",
+      "bytes": 21580725,
+      "retrieved_at": "",
+      "kind": "reused_primary",
+      "origin": "unchanged_copy",
+      "original_workspace_path": "work/data-round2/geography/raw/reused/data-20240125T1401-structure-20260210T1102.csv"
+    },
+    {
+      "path": "raw/reused/gost_change_598_2023.html",
+      "source_url": "https://protect.gost.ru/classificators/changesdetails/cb34ba18-8543-4d72-9a95-40c55c3cbcd9",
+      "sha256": "cbef4677f2222f26ce9ea0d7092486e5169aa41d62ef2528f8cd5cd9b366c25b",
+      "bytes": 76429,
+      "retrieved_at": "",
+      "kind": "reused_primary",
+      "origin": "unchanged_copy",
+      "original_workspace_path": "work/data-round2/geography/raw/reused/gost_change_598_2023.html"
+    },
+    {
+      "path": "raw/reused/gost_change_594_2022.html",
+      "source_url": "https://protect.gost.ru/classificators/changesdetails/85cf7d7a-cca0-4389-ae8b-ed264f54b608",
+      "sha256": "2086dff17aa89d0886737d93afb775a43630dfc34a14ba72678ef3ae99f5850c",
+      "bytes": 76307,
+      "retrieved_at": "",
+      "kind": "reused_primary",
+      "origin": "unchanged_copy",
+      "original_workspace_path": "work/data-round2/geography/raw/reused/gost_change_594_2022.html"
+    },
+    {
+      "path": "raw/reused/gost_change_600_2023.html",
+      "source_url": "https://protect.gost.ru/classificators/changesdetails/3c1e0930-031a-4ef5-9217-ab13213e5d12",
+      "sha256": "893b13dcc1df5f8a34d6a6de2674844e82ea291ec054006e993894ef7161f38a",
+      "bytes": 76430,
+      "retrieved_at": "",
+      "kind": "reused_primary",
+      "origin": "unchanged_copy",
+      "original_workspace_path": "work/data-round2/geography/raw/reused/gost_change_600_2023.html"
+    },
+    {
+      "path": "raw/reused/gost_change_593_2022.html",
+      "source_url": "https://protect.gost.ru/classificators/changesdetails/28c5d432-50bf-49c4-a508-7c54d524ecb9",
+      "sha256": "b71b96fffbe7b3d5f5d47b08ab300fb6ed02c64e0dcb43d90ec2921458679152",
+      "bytes": 76307,
+      "retrieved_at": "",
+      "kind": "reused_primary",
+      "origin": "unchanged_copy",
+      "original_workspace_path": "work/data-round2/geography/raw/reused/gost_change_593_2022.html"
+    },
+    {
+      "path": "raw/reused/fns_19514000_web_tool_text.txt",
+      "source_url": "https://www.nalog.gov.ru/rn35/taxation/submission_statements/rekvizit/12986966/",
+      "sha256": "b36ad8d5ff00681ab9d11d6166e02868a7679b5666dc9ab80755e566482b4b95",
+      "bytes": 972,
+      "retrieved_at": "",
+      "kind": "reused_primary",
+      "origin": "unchanged_copy",
+      "original_workspace_path": "work/data-round2/geography/raw/reused/fns_19514000_web_tool_text.txt"
+    }
+  ],
+  "package_inputs": [
+    {
+      "path": "inputs/calendar_priority_6.csv",
+      "sha256": "8721dd6de89197bd5598407785e81bc132501de1d9a9fca0ed618cca6719d77b"
+    },
+    {
+      "path": "inputs/reviewed_evidence.json",
+      "sha256": "9466175df7bbd33a90531bf6a9167792451134063960e932eddc4f8a98d17987"
+    },
+    {
+      "path": "inputs/sources.json",
+      "sha256": "e8ce02d10e5ca69d8052c044f9d04ca9c2e5419ca6bcbdba0e476d451d00de0d"
+    }
+  ],
+  "search_logs": [
+    {
+      "path": "search_log.json",
+      "sha256": "fbbc4d1a27ebb6c00476f8237794556b5f108b6785c03d03c43d3a65aa5ed98a"
+    },
+    {
+      "path": "search_log_additional.json",
+      "sha256": "a3d0b069d7e6654f9a3f3aa435eebbcf3f0ab66c51a3d379c145a1af30d0785b"
+    },
+    {
+      "path": "search_log_date_check.json",
+      "sha256": "34e58a1c772e3a9cb97c5393e6ad94ea2191b9de905f39dcd672ec75228b326c"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "calendar_flags_6_carried_forward.csv",
+      "sha256": "c3762fbacf6bd48ba71c59c076ed6bade8b7ba9b3fd36d3ea5956db4210f625a",
+      "bytes": 6512
+    },
+    {
+      "path": "evidence_index.csv",
+      "sha256": "e31e2c0769dbc905997fad558da758a801a3e76bad01d693329b349b98b6cc97",
+      "bytes": 11544
+    },
+    {
+      "path": "law_collection_extracts.json",
+      "sha256": "fd94dd0646d15618f3dfebc658a2c7e910304d452d343b88375c96d8e850484d",
+      "bytes": 127768
+    },
+    {
+      "path": "official_laws.csv",
+      "sha256": "f02342e50fe006152e5341dd7865900b79e8932d545725668c885a74b955518b",
+      "bytes": 2566
+    },
+    {
+      "path": "QA.json",
+      "sha256": "9ede3aa64968efc466a797718bec63bbc145f42db4efd07cd2a9700e9c5a9624",
+      "bytes": 1738
+    },
+    {
+      "path": "registry_settlement_rows_262.csv",
+      "sha256": "abc52b71b81d39f49af71f40ff2d0b4e2dc1e08addc6284308ed0d7d625fbbeb",
+      "bytes": 61665
+    },
+    {
+      "path": "settlement_inventory_reconciliation.csv",
+      "sha256": "d50a68414fca71cfecd3ccf1ebd4670913023f948b9f0efced33e1d7fda7f6f2",
+      "bytes": 689
+    },
+    {
+      "path": "settlement_recoding_131.csv",
+      "sha256": "e0a0d3b672e44fa7419f889ce29e7d06ad9730d2ed0db6ad9959cc9bccfb985a",
+      "bytes": 43649
+    },
+    {
+      "path": "source_catalog.csv",
+      "sha256": "094e57805a2ff0e8d57ce2708dce82909c06907ae4a1bc8938edd5346f8769a9",
+      "bytes": 6235
+    },
+    {
+      "path": "veliky_ustyug_temporal_review.csv",
+      "sha256": "02fc98daa8e261dc0b1365ff8a8b524c91d597f93d720bfbcb00493d073829d1",
+      "bytes": 1505
+    }
+  ],
+  "unchanged_prior_outputs": true
+}

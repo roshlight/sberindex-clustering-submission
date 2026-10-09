@@ -1,0 +1,7 @@
+need_id,status,scope,remaining_requirement
+r2_sector,candidate_panel_ready,2016 municipalities;4032 municipality-years;162210 expected cells;111384 numeric,Respect limited organizational coverage and disclosure; apply historical geography restrictions before comparison
+r2_city_prices,conditional_city_context_ready,215 primary municipalities in 2023;214 in 2024,Resolve 3 temporal city-year candidates and January 2023 Vyshny Volochyok source-code conflict; do not generalize city to entire municipality
+r2_monthly_prices,source_and_partial_context_ready,3836682 published source cells;2933362 linked cells;2571434 linked numeric values including 838 literal zeros,Verify zero meaning and comparable goods; build justified goods-to-Sber-category mapping and weights before deflation
+r2_boundaries,code_history_ready_boundaries_unresolved,78 changed municipalities;156 exact code-year records;3 full laws reviewed,Establish legal publication and boundary equivalence; do not automatically remove prior exclusion masks
+r2_census_labor,source_only_historical,15 files;4 individually verified labor-status rows;0 accepted 2023/2024 joins,Validate 2021 boundaries and response coverage before joining to later panel
+r2_commuting,regional_context_only,2021 census work-location and trip-frequency tables,Municipal origin-destination matrix not recovered; outside-settlement work is not necessarily outside-municipality work

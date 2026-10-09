@@ -1,0 +1,151 @@
+{
+  "status": "PASS",
+  "report_directory": "reports/data_round4/economy",
+  "files": [
+    {
+      "path": "annual_candidate_panel.csv",
+      "bytes": 14120967,
+      "sha256": "e556ae527f6109c34632e316d7931dd36436d97c975ff3d636cf1b7180e078d9"
+    },
+    {
+      "path": "annual_candidate_panel.parquet",
+      "bytes": 322773,
+      "sha256": "74efdad1037e78e3829ece5bca8d78b66f58da4dda03fe0f086e239d15bc37ca"
+    },
+    {
+      "path": "blocked_target_codes.csv",
+      "bytes": 25,
+      "sha256": "42044ccaf2c30bb710de1d605fdc74221952357870f563e01af911166ad1f46b"
+    },
+    {
+      "path": "collection_status.json",
+      "bytes": 19596,
+      "sha256": "73dfb177c80b67616db541d57ee8950a1c02fe4d530f3f7df2d54f6757bd9158"
+    },
+    {
+      "path": "coverage_delta.csv",
+      "bytes": 295,
+      "sha256": "efa9dc7a74f254989abefcdac4e50c8e115ec0145bc4357cdad50e126527e2c5"
+    },
+    {
+      "path": "delta_all_cells.csv",
+      "bytes": 2633033,
+      "sha256": "0f7a2ee744697f6a458704b5bafca5ab8b7a7792d9cf77b7ec2d0e0ab1049f1d"
+    },
+    {
+      "path": "delta_changed_cells.csv",
+      "bytes": 181154,
+      "sha256": "d885ffd5baeee2484ffa6a6e9905db55bd313f67874065f669c9d2b7f99d3a48"
+    },
+    {
+      "path": "form_inventory.json",
+      "bytes": 966209,
+      "sha256": "40194b188a8802debfbd2c9081d6c2608c05b4235b326d3958a259bcaf0c551e"
+    },
+    {
+      "path": "independent_QA.json",
+      "bytes": 1926,
+      "sha256": "119273cd6050ab87db2ad55781b52181714b4cab1e06588e08c1bd0e409bdf71"
+    },
+    {
+      "path": "independent_review.md",
+      "bytes": 10812,
+      "sha256": "25b3dd38793474f3c4847656bd4ca68a2a94465abf60c665ccda8bc91cc8a479"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 16710,
+      "sha256": "ee8017a05f87bd8e05c9897ce6f0db63fb000781989e088c0044384a851a0c93"
+    },
+    {
+      "path": "offline_replay_QA.json",
+      "bytes": 3447,
+      "sha256": "51bd29a9bf60ee908c9814909985b4e1e273df7b1d96cd7b62fbf0df322c0cdd"
+    },
+    {
+      "path": "QA.json",
+      "bytes": 611,
+      "sha256": "8106e5d30274142746dd141068c24bf2e3d4bdbad7ca098bd53f4f5ebf0e5590"
+    },
+    {
+      "path": "raw_allowlist.json",
+      "bytes": 25123,
+      "sha256": "cc0569904dd239b59ce63471d5cc187c7f786b7f980b560611be93d24ec66329"
+    },
+    {
+      "path": "README.md",
+      "bytes": 18241,
+      "sha256": "6d1be91933e6e65aefbf155c4e2edfc27e45f7e2b27440581dc4b84779457be2"
+    },
+    {
+      "path": "recovered_source_cells.csv",
+      "bytes": 968006,
+      "sha256": "aed149cba9bdb46028fd06ef64d47cd40ac958bb4e0f41ef4a51f32bda2f9489"
+    },
+    {
+      "path": "refusals_remaining.csv",
+      "bytes": 2356,
+      "sha256": "277ebaa7865508d2e8d9eca26355bdfa839c2f19d48743ba7d5747967a73a3c5"
+    },
+    {
+      "path": "regional_coverage_delta.csv",
+      "bytes": 30586,
+      "sha256": "419b3819633998b7464cb627f186156d3c12f67b6569e1a57dc0e82ab21595af"
+    },
+    {
+      "path": "revision_conflicts.csv",
+      "bytes": 237,
+      "sha256": "a9664e396a62ec9681b30e93b71a47db1f5decd25a23c882c7aa74f7d75f0aa0"
+    },
+    {
+      "path": "revision_scope_QA.json",
+      "bytes": 658,
+      "sha256": "4ccf89b0ecc9c81fd147cfc036548ddaaa4e89135dda14ff38746711ea7450bd"
+    },
+    {
+      "path": "search_notes.json",
+      "bytes": 1629,
+      "sha256": "08d7d6218efedd39b1c2f820663d28d86fb69005ef92ad2e8b28d360ace21897"
+    },
+    {
+      "path": "source_inventory.csv",
+      "bytes": 48716,
+      "sha256": "b1a9ae89351ca99685b7edd580a6207cf5c6089808f66060f29e710ba6e07866"
+    },
+    {
+      "path": "source_only_outside_year_link.csv",
+      "bytes": 27312,
+      "sha256": "461e38c639acdb44cf0e6e29bd93ae5d8ee143dc13b8f199aa8b0bfe62fa9a31"
+    },
+    {
+      "path": "supplementary_QA.json",
+      "bytes": 1584,
+      "sha256": "05d2ac61517f504a6874b4fc0d9d33b9cde592a5c00772d5f49a1d4b320aa387"
+    },
+    {
+      "path": "targeted_cells_still_missing.csv",
+      "bytes": 121640,
+      "sha256": "f98ed3dc758bf326092442863f7091cd23f9263c2e28b5f6802461db54cb99fb"
+    },
+    {
+      "path": "targeted_job_coverage.csv",
+      "bytes": 1172,
+      "sha256": "35faf44002e4c54272973bb40e942d6b742198cc0832eb2745a30c80fc56bd13"
+    }
+  ],
+  "code_files": {
+    "enrichment/src/sber_enrichment/round4_economy.py": "e0b64f5f7bfc02c9bf77f58adb4fc6cd8ad8ae705674957bb68e4565f0c3d1c1",
+    "enrichment/tests/test_round4_economy.py": "39b8cf3610d6d638868f14619352a52160af8c594232605c4c1b566ea756c41d",
+    "enrichment/scripts/verify_round4_economy.py": "01ce1fe9beb88aa8c364f3cce8625509a88a437859a022e877447a8c3f0d24e6"
+  },
+  "raw_allowlist_sha256": "cc0569904dd239b59ce63471d5cc187c7f786b7f980b560611be93d24ec66329",
+  "raw_files": 100,
+  "raw_bytes": 1957408,
+  "raw_files_sha256_verified": true,
+  "original_collector_output_hashes_unchanged": true,
+  "independent_source_cell_verification": "PASS",
+  "offline_exact_byte_replay": "PASS",
+  "tests_passed": 17,
+  "ruff_check_format": "PASS",
+  "editorial_pass": "Embedded humanizer pass; numbers, identifiers, references, caveats unchanged."
+}

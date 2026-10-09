@@ -1,0 +1,81 @@
+region_code,region_name,center_city,center_territory_id,center_oktmo,municipality_name,reference_id,printed_pages,pdf_page_indices,verification,temporal_scope,review_date
+1,Республика Адыгея,Майкоп,1,79-701-000-000,городской округ город Майкоп,rosstat_cities_2024,162-163,162;163,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+2,Республика Башкортостан,Уфа,21,80-701-000-000,городской округ город Уфа,rosstat_cities_2024,236-237,236;237,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+3,Республика Бурятия,Улан-Удэ,84,81-701-000-000,городской округ город Улан-Удэ,rosstat_cities_2024,382-383,382;383,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+4,Республика Алтай,Горно-Алтайск,10,84-701-000-000,городской округ город Горно-Алтайск,rosstat_cities_2024,334-335,334;335,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+5,Республика Дагестан,Махачкала,107,82-701-000-000,городской округ город Махачкала,rosstat_cities_2024,202-203,202;203,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+6,Республика Ингушетия,Магас,158,26-701-000-000,городской округ город Магас,rosstat_cities_2024,202-203,202;203,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+7,Кабардино-Балкарская Республика,Нальчик,167,83-701-000-000,городской округ Нальчик,rosstat_cities_2024,202-203,202;203,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+8,Республика Калмыкия,Элиста,180,85-701-000-000,городской округ город Элиста,rosstat_cities_2024,162-163,162;163,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+9,Карачаево-Черкесская Республика,Черкесск,194,91-701-000-000,городской округ Черкесский,rosstat_cities_2024,202-203,202;203,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+10,Республика Карелия,Петрозаводск,206,86-701-000-000,городской округ Петрозаводский,rosstat_cities_2024,108-109,108;109,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+11,Республика Коми,Сыктывкар,224,87-701-000-000,городской округ Сыктывкар,rosstat_cities_2024,108-109,108;109,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+12,Республика Марий Эл,Йошкар-Ола,269,88-701-000-000,городской округ город Йошкар-Ола,rosstat_cities_2024,236-237,236;237,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+13,Республика Мордовия,Саранск,286,89-701-000-000,городской округ Саранск,rosstat_cities_2024,236-237,236;237,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+14,Республика Саха (Якутия),Якутск,309,98-701-000-000,городской округ город Якутск,rosstat_cities_2024,382-383,382;383,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+15,Республика Северная Осетия — Алания,Владикавказ,345,90-701-000-000,городской округ город Владикавказ,rosstat_cities_2024,202-203,202;203,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+16,Республика Татарстан,Казань,354,92-701-000-000,городской округ город Казань,rosstat_cities_2024,236-237,236;237,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+17,Республика Тыва,Кызыл,399,93-701-000-000,городской округ город Кызыл,rosstat_cities_2024,334-335,334;335,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+18,Удмуртская Республика,Ижевск,418,94-701-000-000,городской округ город Ижевск,rosstat_cities_2024,236-237,236;237,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+19,Республика Хакасия,Абакан,448,95-701-000-000,городской округ город Абакан,rosstat_cities_2024,334-335,334;335,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+20,Чеченская Республика,Грозный,461,96-701-000-000,городской округ город Грозный,rosstat_cities_2024,202-203,202;203,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+21,Чувашская Республика,Чебоксары,478,97-701-000-000,городской округ город Чебоксары,rosstat_cities_2024,236-237,236;237,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+22,Алтайский край,Барнаул,504,01-701-000-000,городской округ город Барнаул,rosstat_cities_2024,334-335,334;335,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+23,Краснодарский край,Краснодар,622,03-701-000-000,городской округ город Краснодар,rosstat_cities_2024,162-163,162;163,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+24,Красноярский край,Красноярск,666,04-701-000-000,городской округ город Красноярск,rosstat_cities_2024,334-335,334;335,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+25,Приморский край,Владивосток,775,05-701-000-000,городской округ Владивостокский,rosstat_cities_2024,382-383,382;383,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+26,Ставропольский край,Ставрополь,809,07-701-000-000,городской округ город Ставрополь,rosstat_cities_2024,202-203,202;203,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+27,Хабаровский край,Хабаровск,842,08-701-000-000,городской округ город Хабаровск,rosstat_cities_2024,382-383,382;383,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+28,Амурская область,Благовещенск,861,10-701-000-000,городской округ город Благовещенск,rosstat_cities_2024,382-383,382;383,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+29,Архангельская область,Архангельск,890,11-701-000-000,городской округ город Архангельск,rosstat_cities_2024,108-109,108;109,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+30,Астраханская область,Астрахань,918,12-701-000-000,городской округ город Астрахань,rosstat_cities_2024,162-163,162;163,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+31,Белгородская область,Белгород,931,14-701-000-000,городской округ город Белгород,rosstat_cities_2024,16-17,16;17,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+32,Брянская область,Брянск,953,15-701-000-000,городской округ город Брянск,rosstat_cities_2024,16-17,16;17,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+33,Владимирская область,Владимир,986,17-701-000-000,городской округ город Владимир,rosstat_cities_2024,16-17,16;17,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+34,Волгоградская область,Волгоград,1007,18-701-000-000,городской округ город-герой Волгоград,rosstat_cities_2024,162-163,162;163,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+35,Вологодская область,Вологда,1045,19-701-000-000,городской округ город Вологда,rosstat_cities_2024,108-109,108;109,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+36,Воронежская область,Воронеж,1073,20-701-000-000,городской округ город Воронеж,rosstat_cities_2024,16-17,16;17,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+37,Ивановская область,Иваново,1107,24-701-000-000,городской округ Иваново,rosstat_cities_2024,16-17,16;17,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+38,Иркутская область,Иркутск,1134,25-701-000-000,городской округ город Иркутск,rosstat_cities_2024,334-335,334;335,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+39,Калининградская область,Калининград,1176,27-701-000-000,городской округ город Калининград,rosstat_cities_2024,108-109,108;109,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+40,Калужская область,Калуга,1198,29-701-000-000,городской округ город Калуга,rosstat_cities_2024,16-17,16;17,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+41,Камчатский край,Петропавловск-Камчатский,608,30-701-000-000,городской округ Петропавловск-Камчатский,rosstat_cities_2024,382-383,382;383,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+42,Кемеровская область,Кемерово,1224,32-701-000-000,городской округ Кемеровский,rosstat_cities_2024,334-335,334;335,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+43,Кировская область,Киров,1258,33-701-000-000,городской округ город Киров,rosstat_cities_2024,236-237,236;237,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+44,Костромская область,Кострома,1303,34-701-000-000,городской округ город Кострома,rosstat_cities_2024,16-17,16;17,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+45,Курганская область,Курган,1333,37-701-000-000,городской округ город Курган,rosstat_cities_2024,300-301,300;301,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+46,Курская область,Курск,1359,38-701-000-000,городской округ город Курск,rosstat_cities_2024,16-17,16;17,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+48,Липецкая область,Липецк,1410,42-701-000-000,городской округ город Липецк,rosstat_cities_2024,16-17,16;17,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+49,Магаданская область,Магадан,1430,44-701-000-000,городской округ город Магадан,rosstat_cities_2024,382-383,382;383,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+51,Мурманская область,Мурманск,1506,47-701-000-000,городской округ город Мурманск,rosstat_cities_2024,108-109,108;109,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+52,Нижегородская область,Нижний Новгород,1523,22-701-000-000,городской округ город Нижний Новгород,rosstat_cities_2024,236-237,236;237,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+53,Новгородская область,Великий Новгород,1575,49-701-000-000,городской округ Великий Новгород,rosstat_cities_2024,108-109,108;109,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+54,Новосибирская область,Новосибирск,1597,50-701-000-000,городской округ город Новосибирск,rosstat_cities_2024,334-335,334;335,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+55,Омская область,Омск,1632,52-701-000-000,городской округ город Омск,rosstat_cities_2024,334-335,334;335,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+56,Оренбургская область,Оренбург,1665,53-701-000-000,городской округ город Оренбург,rosstat_cities_2024,236-237,236;237,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+57,Орловская область,Орёл,1707,54-701-000-000,городской округ город Орёл,rosstat_cities_2024,16-17,16;17,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+58,Пензенская область,Пенза,1734,56-701-000-000,городской округ город Пенза,rosstat_cities_2024,236-237,236;237,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+59,Пермский край,Пермь,727,57-701-000-000,городской округ Пермский,rosstat_cities_2024,236-237,236;237,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+60,Псковская область,Псков,1764,58-701-000-000,городской округ город Псков,rosstat_cities_2024,108-109,108;109,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+61,Ростовская область,Ростов-на-Дону,1790,60-701-000-000,городской округ город Ростов-на-Дону,rosstat_cities_2024,162-163,162;163,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+62,Рязанская область,Рязань,1845,61-701-000-000,городской округ город Рязань,rosstat_cities_2024,16-17,16;17,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+63,Самарская область,Самара,1874,36-701-000-000,городской округ Самара,rosstat_cities_2024,236-237,236;237,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+64,Саратовская область,Саратов,2887,63-701-000-000,городской округ город Саратов,rosstat_cities_2024,236-237,236;237,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+65,Сахалинская область,Южно-Сахалинск,1953,64-701-000-000,городской округ город Южно-Сахалинск,rosstat_cities_2024,382-383,382;383,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+66,Свердловская область,Екатеринбург,1971,65-701-000-000,городской округ город Екатеринбург,rosstat_cities_2024,300-301,300;301,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+67,Смоленская область,Смоленск,2044,66-701-000-000,городской округ город Смоленск,rosstat_cities_2024,16-17,16;17,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+68,Тамбовская область,Тамбов,3009,68-701-000-000,городской округ город Тамбов,rosstat_cities_2024,16-17,16;17,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+69,Тверская область,Тверь,2101,28-701-000-000,городской округ город Тверь,rosstat_cities_2024,16-17,16;17,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+70,Томская область,Томск,2144,69-701-000-000,городской округ город Томск,rosstat_cities_2024,334-335,334;335,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+71,Тульская область,Тула,2164,70-701-000-000,городской округ город Тула,rosstat_cities_2024,16-17,16;17,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+72,Тюменская область,Тюмень,2190,71-701-000-000,городской округ город Тюмень,rosstat_cities_2024,300-301,300;301,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+73,Ульяновская область,Ульяновск,2251,73-701-000-000,городской округ город Ульяновск,rosstat_cities_2024,236-237,236;237,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+74,Челябинская область,Челябинск,2275,75-701-000-000,городской округ Челябинский,rosstat_cities_2024,300-301,300;301,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+75,Забайкальский край,Чита,573,76-701-000-000,городской округ город Чита,rosstat_cities_2024,382-383,382;383,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+76,Ярославская область,Ярославль,2318,78-701-000-000,городской округ город Ярославль,rosstat_cities_2024,16-17,16;17,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+79,Еврейская автономная область,Биробиджан,2338,99-701-000-000,городской округ город Биробиджан,rosstat_cities_2024,382-383,382;383,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+83,Ненецкий автономный округ,Нарьян-Мар,916,11-851-000-000,городской округ город Нарьян-Мар,rosstat_cities_2024,108-109,108;109,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+86,Ханты-Мансийский автономный округ — Югра,Ханты-Мансийск,2216,71-871-000-000,городской округ город Ханты-Мансийск,rosstat_cities_2024,300-301,300;301,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+87,Чукотский автономный округ,Анадырь,2344,77-701-000-000,городской округ Анадырь,rosstat_cities_2024,382-383,382;383,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+89,Ямало-Ненецкий автономный округ,Салехард,2238,71-951-000-000,городской округ город Салехард,rosstat_cities_2024,300-301,300;301,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02
+91,Республика Крым,Симферополь,244,35-701-000-000,городской округ Симферополь,rosstat_cities_2024,162-163,162;163,reviewed_city_and_urban_okrug,2024_edition_reporting_2023_end_year,2026-10-02

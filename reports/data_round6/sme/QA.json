@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "raw_files_verified": 59,
+  "author_package_members_verified": 12,
+  "selected_worker_xml_byte_exact_offline_replay": true,
+  "selected_worker_xml_crc32_verified": true,
+  "selected_worker_document_count_verified": true,
+  "full_xsd_validation": "NOT RUN",
+  "full_archive_hash_verified": false,
+  "representative_sample": false,
+  "source_code_executed": false,
+  "historical_2023_2024_workers_xml_records": 0,
+  "historical_municipal_join_approved": false,
+  "model_adoption": false,
+  "tochno_v20260605_exact_build_link_proven": false,
+  "decision": "ready with conditions: source lineage and schema audit only"
+}

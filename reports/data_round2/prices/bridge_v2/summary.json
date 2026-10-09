@@ -1,0 +1,25 @@
+{
+  "scope": "city_context_only; no municipality price estimate, no inflation or category deflator",
+  "cohort_municipalities": 2016,
+  "city_year_source_rows": 592,
+  "source_numeric_city_years": 561,
+  "official_city_list_counts": {
+    "2023": 282,
+    "2024": 279
+  },
+  "approved_city_year_links_all_municipalities": 548,
+  "approved_numeric_city_years_primary": 429,
+  "cohort_numeric_context_by_year": {
+    "2023": 215,
+    "2024": 214
+  },
+  "unresolved_reasons": {
+    "not_in_corresponding_year_official_city_list": 31,
+    "federal_city_no_broadcast_to_intracity_municipalities": 6,
+    "no_unique_exact_city_region_type_and_parent_hierarchy": 4,
+    "role_specific_date_evidence_required_no_parent_overlay": 3
+  },
+  "multiple_observed_cities_per_municipality_year": 0,
+  "methodology": "ISZh yearly national weights; missing goods may use region/federal district/Russia prices (Order440 pp12-13)",
+  "available_at": "Latest downloaded source vintage; not a historical point-in-time release"
+}

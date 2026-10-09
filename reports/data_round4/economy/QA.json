@@ -1,0 +1,25 @@
+{
+  "rows": 12096,
+  "municipalities": 2016,
+  "old_numeric": 10829,
+  "new_numeric": 11608,
+  "numeric_gain": 779,
+  "numeric_revision_conflicts": 0,
+  "recovered_source_rows": 805,
+  "recovered_source_numeric": 779,
+  "statuses": {
+    "parsed": 19,
+    "response_review": 3
+  },
+  "recovered_source_value_statuses": {
+    "observed": 779,
+    "unresolved_source_marker": 26
+  },
+  "old_files_unchanged": true,
+  "exact_year_code_join": true,
+  "missing_imputed": 0,
+  "boundary_equivalence_proven": 0,
+  "frozen_models_or_masks_changed": false,
+  "requests": 0,
+  "cache_hits": 41
+}

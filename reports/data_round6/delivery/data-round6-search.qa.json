@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "archive": "data-round6-search.zip",
+  "archive_sha256": "dc254c3aedc1c9706aae05e8f333589738baecb899250839b58782a99bd543a9",
+  "archive_bytes": 13057197,
+  "verified_files": 121,
+  "uncompressed_bytes": 17283124,
+  "allowlist_sha256": "d6d7bdb8df80c786f0c327bf5167d04c0fb84cdd27bc53e7fd172401ae1fbd66",
+  "packager_sha256": "a9d5443b7d2817046bdf57a167a9ff839eaec18e95d84b07c96b4c6032827fbc",
+  "immutable_helper_sha256": "3f6e2a4eab351a7a40674d2b3ed9d060f15d248f911eaf37b0755ddfa286bb26",
+  "credential_scan_policy": "unchanged_regex_and_DHT_parser_with_exact_path_bound_exception",
+  "audited_exceptions_applied": 0,
+  "credential_scan_exceptions": []
+}

@@ -1,0 +1,103 @@
+{
+  "status": "ready_with_conditions",
+  "panel_rows": 8064,
+  "annual_rows": 4032,
+  "coverage": [
+    {
+      "reference_date": "2023-01-01",
+      "population_type": "11",
+      "expected_municipalities": 2016,
+      "source_rows_returned": 1981,
+      "source_values_observed": 1979,
+      "analysis_values_available": 1979,
+      "temporal_review_links": 0,
+      "calendar_review_cleared_links": 6,
+      "status_counts": {
+        "observed_conditional_geography": 1979,
+        "not_returned": 35,
+        "missing_or_unresolved_source_marker": 2
+      }
+    },
+    {
+      "reference_date": "2023-01-01",
+      "population_type": "12",
+      "expected_municipalities": 2016,
+      "source_rows_returned": 1533,
+      "source_values_observed": 1463,
+      "analysis_values_available": 1463,
+      "temporal_review_links": 0,
+      "calendar_review_cleared_links": 6,
+      "status_counts": {
+        "observed_conditional_geography": 1463,
+        "not_returned": 483,
+        "missing_or_unresolved_source_marker": 70
+      }
+    },
+    {
+      "reference_date": "2024-01-01",
+      "population_type": "11",
+      "expected_municipalities": 2016,
+      "source_rows_returned": 2013,
+      "source_values_observed": 2013,
+      "analysis_values_available": 2013,
+      "temporal_review_links": 0,
+      "calendar_review_cleared_links": 0,
+      "status_counts": {
+        "observed_conditional_geography": 2013,
+        "not_returned": 3
+      }
+    },
+    {
+      "reference_date": "2024-01-01",
+      "population_type": "12",
+      "expected_municipalities": 2016,
+      "source_rows_returned": 1566,
+      "source_values_observed": 1485,
+      "analysis_values_available": 1485,
+      "temporal_review_links": 0,
+      "calendar_review_cleared_links": 0,
+      "status_counts": {
+        "observed_conditional_geography": 1485,
+        "not_returned": 450,
+        "missing_or_unresolved_source_marker": 81
+      }
+    }
+  ],
+  "imputed_values": 0,
+  "conditions": [
+    "Exact regional source code and annual Sber reference link; no fuzzy names.",
+    "Source values are retained. analysis_value is null for ineligible or temporal-review links.",
+    "Missing urban population is not inferred to be zero; ratios require both observed components.",
+    "Retrieval in 2026 does not establish historical publication availability or legal boundary equivalence.",
+    "Optional documentary calendar decisions clear only the exact code/date conflict; initial warnings and independent boundary caveats remain in the long panel."
+  ],
+  "inputs": {
+    "population": {
+      "path": "./enrichment/data/population-bulk-20260915-v3/population_source.csv",
+      "sha256": "e0675fc634937cb8e856ea1891709152303ba69c3fe3a80bb6876884d2ade895"
+    },
+    "reference_links": {
+      "path": "./enrichment/data/population-bulk-20260915-v3/target_reference_links.csv",
+      "sha256": "c743e3023d979717d7c96cf50c62e20ea68ef6381aa128b2c496602d4ff0e682"
+    },
+    "target_status": {
+      "path": "./enrichment/data/population-bulk-20260915-v3/target_status.csv",
+      "sha256": "d2df39176482eec7d88c92376231c657754af10364b51bcd6d7eaf282209c13f"
+    },
+    "cohort": {
+      "path": "./data/raw/assignments.parquet",
+      "sha256": "54f6c1f3c92a878a990c620e9fdb544ab6187f9ac0baea4bc5070d964e0ae6bc"
+    },
+    "date_decisions": {
+      "path": "./enrichment/data/code_bridge_adjudication/calendar_code_adjudication.csv",
+      "sha256": "3b932ab68ace042cbdbad56988baa842641b2d63fecd53c9973e35cd24fc7eff"
+    }
+  },
+  "processor_sha256": "aa22f38891e785282ef7777413ab91e78801bd687afcfc7e7211897c17107f6e",
+  "output_hashes": {
+    "municipal_population.csv": "cc874551a206b7eb11dc17ba0b93db4fe9173b23654410aab93a60ebc3036229",
+    "municipal_population_wide.csv": "3c625230fefe007abebcb025b72257e413e6465fc2224da38b3991353131f8fb",
+    "municipal_population.parquet": "10b5c7611a407654c754a9d962548af9ec5d532b10b701ebdeba281fa3b2d183",
+    "municipal_population_wide.parquet": "c3c6116f3711ec6eba95ea64d056e1c6190053cd796e808a5d9cb9551a979cbf"
+  }
+}

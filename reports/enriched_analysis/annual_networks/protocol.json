@@ -1,0 +1,191 @@
+{
+  "experiment": "annual_mean_smoothing_exploratory_v1",
+  "status": "prospective_for_this_new_sensitivity_only; 2023/2024 already inspected",
+  "years": [
+    2023,
+    2024
+  ],
+  "n_cohort": 2016,
+  "profile_aggregation": "mean of twelve normalized five-category monthly profiles",
+  "month_field_convention": "YYYY-12 denotes the annual window, not a December profile",
+  "primary": [
+    "hellinger",
+    20,
+    1.0,
+    13
+  ],
+  "alternative_keys": [
+    [
+      "hellinger",
+      10,
+      0.75,
+      13
+    ],
+    [
+      "hellinger",
+      10,
+      1.0,
+      13
+    ],
+    [
+      "hellinger",
+      10,
+      1.25,
+      13
+    ],
+    [
+      "hellinger",
+      20,
+      0.75,
+      13
+    ],
+    [
+      "hellinger",
+      20,
+      1.0,
+      29
+    ],
+    [
+      "hellinger",
+      20,
+      1.0,
+      47
+    ],
+    [
+      "hellinger",
+      20,
+      1.25,
+      13
+    ],
+    [
+      "hellinger",
+      30,
+      0.75,
+      13
+    ],
+    [
+      "hellinger",
+      30,
+      1.0,
+      13
+    ],
+    [
+      "hellinger",
+      30,
+      1.25,
+      13
+    ],
+    [
+      "cosine",
+      10,
+      0.75,
+      13
+    ],
+    [
+      "cosine",
+      10,
+      1.0,
+      13
+    ],
+    [
+      "cosine",
+      10,
+      1.25,
+      13
+    ],
+    [
+      "cosine",
+      20,
+      0.75,
+      13
+    ],
+    [
+      "cosine",
+      20,
+      1.0,
+      13
+    ],
+    [
+      "cosine",
+      20,
+      1.0,
+      29
+    ],
+    [
+      "cosine",
+      20,
+      1.0,
+      47
+    ],
+    [
+      "cosine",
+      20,
+      1.25,
+      13
+    ],
+    [
+      "cosine",
+      30,
+      0.75,
+      13
+    ],
+    [
+      "cosine",
+      30,
+      1.0,
+      13
+    ],
+    [
+      "cosine",
+      30,
+      1.25,
+      13
+    ]
+  ],
+  "leiden_fits": 44,
+  "kmeans_fits": 2,
+  "kmeans": {
+    "n_clusters": 8,
+    "n_init": 20,
+    "seed": 13,
+    "features": "sqrt annual mean p"
+  },
+  "peer_jaccard_threshold": 0.8,
+  "support_fraction_threshold": 0.8,
+  "paired_switch_rule": "same alternative must support both endpoints and reproduce primary Hungarian-aligned switch status; fraction>=0.8",
+  "geometry_inputs": "consumption only; no economic, population or spatial attributes",
+  "comparators": "original December2023 to December2024 partitions on identical 2016 IDs",
+  "limitations": "no new holdout; smoothing changes the question; do not promote a failed monthly typology to confirmed annual economic classes",
+  "input_hashes": {
+    "assignments": {
+      "path": "reports/initial_study/assignments.parquet",
+      "sha256": "54f6c1f3c92a878a990c620e9fdb544ab6187f9ac0baea4bc5070d964e0ae6bc"
+    },
+    "variant_keys": {
+      "path": "reports/initial_study/variant_keys.json",
+      "sha256": "45333a270922cd020373f16c19c46e17f6123c6fa759ffff0c4bdf189955f8d9"
+    },
+    "december_comparator": {
+      "path": "reports/initial_study/temporal_summary.csv",
+      "sha256": "1ffef679794f366d6a740ae0329325d0c485354968d702eadf8eca8a3973c38e"
+    },
+    "monthly_support": {
+      "path": "reports/initial_study/membership_agreement.parquet",
+      "sha256": "d49776bdb14fb41a608e362a7ddf988a4f4feb13b095538b8107b0e082e0726f"
+    },
+    "networks_code": {
+      "path": "src/municipal_profiles/networks.py",
+      "sha256": "fb49c8c522a17dff4d778b3b49a2c439815bda7a491c8f2721fbe6b966e8a47d"
+    },
+    "dynamics_code": {
+      "path": "src/municipal_profiles/dynamics.py",
+      "sha256": "17fa3fc62607df37caa088fe48458f84d2c992ed9604f1fc3ea0631f2b5f7eb9"
+    },
+    "uv_lock": {
+      "path": "uv.lock",
+      "sha256": "0a6a3b3051ad89b3aebc2a673966f0d67c4601453f9c386e924de7065bbca6f4"
+    }
+  },
+  "script_sha256": "1acd1f497b57830879d8f207b22907b24d488f5df075287aa166ea654ebc33f6",
+  "prepared_at": "2026-09-14T23:35:45.148151+00:00"
+}

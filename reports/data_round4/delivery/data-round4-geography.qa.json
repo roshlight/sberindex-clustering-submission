@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "archive": "data-round4-geography.zip",
+  "archive_sha256": "c0d4f5dfa26e23c31bd344fdf0d5b74158ed654e9f8727bac0acab7d3ee1b355",
+  "archive_bytes": 65744124,
+  "verified_files": 34,
+  "uncompressed_bytes": 89029173,
+  "allowlist_sha256": "a422bdd18b56de6b657f62e215d60395d8729fbbcc4f8f8fee7b2b7d27159008",
+  "packager_sha256": "233f9ce509bb7466b86d4a807d485189a1616a563c161027ff53056ea3a8ef1d",
+  "credential_scan_policy": "block_all_matches_except_one_exact_audited_pdf_jpeg_dht",
+  "audited_exceptions_applied": 1,
+  "credential_scan_exceptions": [
+    {
+      "archive_path": "work/data-round4/geography/raw/pit_planning_materials.pdf",
+      "exception_id": "pit-planning-jpeg-dht-20260916",
+      "file_bytes": 1055501,
+      "file_sha256": "f95741def9af964fbbb1b505cf52cba5b13eb74b197ede960abeabac25d50ea1",
+      "offset": 596649,
+      "length": 41,
+      "match_sha256": "2bd445e4a1c907caa85db7ba09b0aed51556373edb48b41d5e431b38f24416cd",
+      "jpeg_offset": 596100,
+      "jpeg_bytes": 21478,
+      "jpeg_sha256": "c01ee8d56dbd4b76dee8481c41bb2c009d8aae8c1eaa3004129977f875e47cf5",
+      "pdf_object_number": 128,
+      "pdf_filter": "/DCTDecode",
+      "pdf_subtype": "/Image",
+      "dht": {
+        "segment_offset": 596342,
+        "segment_end_exclusive": 596762,
+        "declared_length": 418,
+        "table_offset": 596583,
+        "table_class": 1,
+        "table_id": 1,
+        "symbol_count": 162,
+        "symbols_offset": 596600,
+        "symbols_end_exclusive": 596762
+      },
+      "review": "reports/data_round4/delivery/scanner_false_positive_review.json",
+      "reason": "JPEG DHT AC-table symbol bytes; not a credential"
+    }
+  ]
+}

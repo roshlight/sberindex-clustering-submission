@@ -1,0 +1,336 @@
+{
+  "status": "implemented_and_run_with_documented_data_gaps",
+  "created_at_utc": "2026-09-14T20:58:21.652473+00:00",
+  "baseline_commit": "fc1c81e16d5c40388934b5415cd8ab0f711b207d",
+  "scope": "Isolated source discovery and deterministic numerical enrichment for Case 1; no changes to baseline experiment.",
+  "server": {
+    "ssh_alias": "timeweb-server",
+    "service_directory": "/home/vpnadmin/services/sberindex-enrichment"
+  },
+  "report": "reports/enrichment_v1/REPORT.md",
+  "qa": "reports/enrichment_v1/QA.md",
+  "reproduction": "enrichment/README.md",
+  "independent_external_reproduction": "not_run",
+  "final_checks": {
+    "baseline_hashes": {
+      "status": "PASS",
+      "files": 62
+    },
+    "exported_output_hashes": {
+      "status": "PASS",
+      "files": 19,
+      "paths": [
+        "crosswalk/municipal_crosswalk_versions.csv",
+        "crosswalk/municipal_crosswalk_2023-01-01.csv",
+        "crosswalk/municipal_crosswalk_2024-01-01.csv",
+        "core_context/market_access_missing_ids.csv",
+        "core_context/municipal_context_2024.parquet",
+        "population/population_qa_rows.csv",
+        "population/population_region_coverage.csv",
+        "population/population_unlinked.parquet",
+        "bdpmo_pilot/population_source_oktmo.csv",
+        "bdpmo_pilot/population_source_oktmo.parquet",
+        "population_bridge/population_linked_pilot.csv",
+        "population_bridge/population_linked_pilot.parquet",
+        "population_bridge/primary_population_candidate_targets.json",
+        "population_bridge/primary_unmatched_2024.csv",
+        "discovery/run_summaries.json",
+        "discovery/search_requests.csv",
+        "discovery/model_evidence_index.json",
+        "discovery/model_usage.csv",
+        "discovery/source_inventory.csv"
+      ]
+    },
+    "local_markdown_links": {
+      "status": "PASS",
+      "links": 44
+    },
+    "known_secret_formats": {
+      "status": "PASS",
+      "files_scanned": 66,
+      "scope": "OpenRouter v1 key and Telegram bot token patterns only"
+    }
+  },
+  "server_only_omissions": {
+    "named_numeric_working_files": [
+      "population/population_region_headers.csv",
+      "population/population_source_audit.json"
+    ],
+    "categories": [
+      "Full fetched source bodies",
+      "Parsed full source text and literal quotes",
+      "Model prompts and responses",
+      "Raw HTTP caches and per-attempt ledgers",
+      "Public certificate bundles and host-to-bundle map",
+      "Original source archives and tables"
+    ],
+    "reason": "This is a reviewed subset export. Server-run manifests retain hashes of their full original outputs; omitted files have not been deleted from the server."
+  },
+  "files": {
+    "configs/data_needs.json": {
+      "sha256": "39898d47aecf36c83031765ea80efb9c1ed5dd51eefaad0f735a40faaa1b2e1c",
+      "bytes": 37770
+    },
+    "configs/source_catalog.json": {
+      "sha256": "7e6c1d416ae84f60972aff2fa9c26c8fc01c1afd6b9249b5e3e210fbc7e6f34a",
+      "bytes": 21803
+    },
+    "docs/core_context.md": {
+      "sha256": "bfaa2295ded7f3d10e27fd9b4a978e55c42d59c6f8adba6a203668dc99aa0c21",
+      "bytes": 9015
+    },
+    "docs/data_enrichment_plan.md": {
+      "sha256": "221a7752a03d72ed85b1cc25dc6da8361acf251125f3d0228a9bdd0a6ce5f886",
+      "bytes": 22310
+    },
+    "docs/enrichment_connectors.md": {
+      "sha256": "5b7bf509b59c5f4489ee94752f070b19e9f660d3edbd426784635ab2f387872a",
+      "bytes": 42607
+    },
+    "docs/enrichment_evidence_review.md": {
+      "sha256": "ebb407aed6d3bf5a94b729a1cbbecf7657a5a1d2ee689a41c4d7b5fa0ba7e87d",
+      "bytes": 22579
+    },
+    "docs/population_join_followup.md": {
+      "sha256": "34db43d0c37f1ad1a755e34627953d2b7fdcc94048f8b75cef42a4c8820d952a",
+      "bytes": 15927
+    },
+    "docs/population_source_audit.md": {
+      "sha256": "5a2afe72d77405332d0e12d408594a17c23f2cb5d915ca1f86ff04fa14c2208f",
+      "bytes": 16404
+    },
+    "docs/search_limits.md": {
+      "sha256": "912599bbe426acc259f6a119dd45bc12a23ed4768d8cc30535fa1a7dca91d8ff",
+      "bytes": 2218
+    },
+    "docs/source_catalog.md": {
+      "sha256": "7aac0987a9bd1f0379f49c518cd402ce1cc3cd56460a64836d610f824a023a82",
+      "bytes": 20693
+    },
+    "enrichment/.env.example": {
+      "sha256": "b2a9676da583f7348ea62a773e2b084239c0cd15d5f01f5d193a4ee25820b333",
+      "bytes": 227
+    },
+    "enrichment/.gitignore": {
+      "sha256": "bbec2a5f078cf9473848278e6b8b00ccc19764ba7a7e96ac747d4275a4ba4874",
+      "bytes": 98
+    },
+    "enrichment/pyproject.toml": {
+      "sha256": "d95464c7f6e9088275251368e145f01cb3a563651db6ae9d2b409f35c1b29c4d",
+      "bytes": 887
+    },
+    "enrichment/README.md": {
+      "sha256": "5f41eb53bd28bf60e46213766110d4261566330f5110863ed0e41ec656aa17b6",
+      "bytes": 10596
+    },
+    "enrichment/scripts/prepare_bdpmo_population.py": {
+      "sha256": "04a5d590b0a0e33e8a82b96b8a077d406037d824963f9ed26ba88cc14b428b57",
+      "bytes": 5511
+    },
+    "enrichment/scripts/prepare_core_context.py": {
+      "sha256": "6a9c0c6803f42ecb8c1709a4ed8112116a7ad20a9adca807a9b09984b7ca7034",
+      "bytes": 9350
+    },
+    "enrichment/scripts/prepare_population.py": {
+      "sha256": "714b40c0090841b1ed8a5a71d9293298210429103d18af03289710ec93556015",
+      "bytes": 4647
+    },
+    "enrichment/scripts/prepare_population_code_bridge.py": {
+      "sha256": "ed0a18ad2f359beaadf49a0c84546a126452faf7b040bb07878b824f016e3e14",
+      "bytes": 7759
+    },
+    "enrichment/src/sber_enrichment/__init__.py": {
+      "sha256": "84648979f5857e04324549ec85008a2135525ad7b71be0f3199c37b9b8ed5789",
+      "bytes": 74
+    },
+    "enrichment/src/sber_enrichment/bdpmo.py": {
+      "sha256": "f1d17c873c6fdbb66c41eaff74dbb901e2beeb659881bb34df5e0ca8c6fc471b",
+      "bytes": 12945
+    },
+    "enrichment/src/sber_enrichment/clients.py": {
+      "sha256": "8d83d003ea8d2f00e475151f068822b4e6233fb5fa7cb67c4de6e5a32f9bf7d0",
+      "bytes": 31510
+    },
+    "enrichment/src/sber_enrichment/evidence.py": {
+      "sha256": "98d9fe314245fc626d10cb57749e91c55858f385abf39fe946eeb6916450110d",
+      "bytes": 6893
+    },
+    "enrichment/src/sber_enrichment/office_text.py": {
+      "sha256": "e446000fc82de5f42ceedae3988c396e6849e6c8344f380d6d1fda48c8499751",
+      "bytes": 12427
+    },
+    "enrichment/src/sber_enrichment/pipeline.py": {
+      "sha256": "7fbb8bc8e0945acfaf8976976ee91b97b27e8a08d2da1f2746c7c920edd83e6a",
+      "bytes": 33172
+    },
+    "enrichment/src/sber_enrichment/population.py": {
+      "sha256": "548b2a10b0d096765b42d707246028828108c3ee034e982e5af2f18b279c7e48",
+      "bytes": 11788
+    },
+    "enrichment/src/sber_enrichment/search_guard.py": {
+      "sha256": "d1657fca6158de9771482b96f5dc4ea96445e8d51dea88c4fc1c52c578c5dd94",
+      "bytes": 5411
+    },
+    "enrichment/tests/test_bdpmo.py": {
+      "sha256": "b42a5162dc8b2b873a2b4755f40d440c40c85307c4fdd45fcc41f76b57683934",
+      "bytes": 10669
+    },
+    "enrichment/tests/test_clients.py": {
+      "sha256": "062d8f69b789a917479676106e9351296d196ebfae5df1679142bce31ba26c34",
+      "bytes": 29067
+    },
+    "enrichment/tests/test_core_context.py": {
+      "sha256": "58a6256f06f4385e7c78f0be41e049e6bcd64dfb9d4667663c7aeb5bf94bd9bd",
+      "bytes": 5230
+    },
+    "enrichment/tests/test_evidence.py": {
+      "sha256": "762db5b519c9e9518e7e79a563de1c429c313c3ff5edd0f1b8a3e78e45b098d4",
+      "bytes": 2212
+    },
+    "enrichment/tests/test_office_text.py": {
+      "sha256": "289ed10f58ca3a471689a96751fa47b5688237e308309a3b38897f7f98c5a742",
+      "bytes": 5329
+    },
+    "enrichment/tests/test_pipeline.py": {
+      "sha256": "f79540124e59c2aa3928e1ffb12eeb63bb7d9f6a324c21732852b7feb5310e6c",
+      "bytes": 5364
+    },
+    "enrichment/tests/test_population.py": {
+      "sha256": "a04cf44f309021427a44069a6aa44614163827e5e72209b302585d2fb8e9a0e8",
+      "bytes": 7502
+    },
+    "enrichment/tests/test_search_guard.py": {
+      "sha256": "0047fca7f09f4e643ca63eacbfac2a265f046a203b052c0324e39c6ffb7f6d70",
+      "bytes": 7617
+    },
+    "enrichment/uv.lock": {
+      "sha256": "b07d548b44a8a636ea0d8ace4d1f0babdbdbfd87c87c7a97e91a5742bbfab612",
+      "bytes": 43886
+    },
+    "reports/enrichment_v1/bdpmo_pilot/bdpmo_manifest.json": {
+      "sha256": "259b3590b07d65473cc41dd7a8bf72ab57188c364925f86d12c404f537056206",
+      "bytes": 1302
+    },
+    "reports/enrichment_v1/bdpmo_pilot/population_source_oktmo.csv": {
+      "sha256": "ebf9effd506658ac388d39ac856c210895ac353c8cdca4804bd3bb4dc3f363b8",
+      "bytes": 10384
+    },
+    "reports/enrichment_v1/bdpmo_pilot/population_source_oktmo.parquet": {
+      "sha256": "3e691e28d7b3c280e8cf2f6a14c0998e257680e55dcc071b454700937f453887",
+      "bytes": 7327
+    },
+    "reports/enrichment_v1/core_context/core_context_manifest.json": {
+      "sha256": "592a552e24299279db643f17d8e5887e6e11d4b459a508f411e93829948fbd4e",
+      "bytes": 2966
+    },
+    "reports/enrichment_v1/core_context/market_access_missing_ids.csv": {
+      "sha256": "3f171b6c5080dade9e926099ecb091f775bde842c7cb440234c04c7ef78f446e",
+      "bytes": 1396
+    },
+    "reports/enrichment_v1/core_context/municipal_context_2024.parquet": {
+      "sha256": "1a33be3593d0f6f3fb2e2ff53f687786294bedeb9ecb30a84bcc6eed4f92d1b4",
+      "bytes": 16232
+    },
+    "reports/enrichment_v1/crosswalk/municipal_crosswalk_2023-01-01.csv": {
+      "sha256": "7dd3bde61dd1b29f517bc1ec8d68ce0fdad7b5ee38bf464520ece56c6dd54d6d",
+      "bytes": 842957
+    },
+    "reports/enrichment_v1/crosswalk/municipal_crosswalk_2024-01-01.csv": {
+      "sha256": "0fceb092f491855e4b6863cbc9ded804728e4e1772fc5586efd6e7595aa9ebc3",
+      "bytes": 842527
+    },
+    "reports/enrichment_v1/crosswalk/municipal_crosswalk_audit.json": {
+      "sha256": "e28b315cc182a336906c6133802fe2423134df9417f61803364ab43f719949fd",
+      "bytes": 6052
+    },
+    "reports/enrichment_v1/crosswalk/municipal_crosswalk_versions.csv": {
+      "sha256": "421750a85e3fed92c7b1a1c89636cfc53e2d89c4b0c86faf5b39207871013528",
+      "bytes": 932647
+    },
+    "reports/enrichment_v1/DATA_ATTRIBUTION.md": {
+      "sha256": "7a357770af805ce9402604de8c19111b242cf52ebfc92578ae6fa26fcc1e9c75",
+      "bytes": 3165
+    },
+    "reports/enrichment_v1/discovery/export_manifest.json": {
+      "sha256": "c43c288a6acbf4ad57495338b0f5167e535252b77ad0844cc2a784d253b0141a",
+      "bytes": 888
+    },
+    "reports/enrichment_v1/discovery/model_evidence_index.json": {
+      "sha256": "9f759a0f9354b78bb3785483294b9efb6e4640d803a3b8c10db294b69ff97d56",
+      "bytes": 17973
+    },
+    "reports/enrichment_v1/discovery/model_usage.csv": {
+      "sha256": "c24abc4e82b9977a2953f50881e22508a867b4e5a4c0c7c4d2e28920e3044f27",
+      "bytes": 6094
+    },
+    "reports/enrichment_v1/discovery/reconciliation.json": {
+      "sha256": "86fd086b8a61f5a234bd39c1fcfb741835c9646d843c48004c65d2a58bd7db8d",
+      "bytes": 6408
+    },
+    "reports/enrichment_v1/discovery/run_summaries.json": {
+      "sha256": "2dd904c043daa3a22e6871beaaa9c31a9d3888ff9325754ec69f4cdd93e4f4a3",
+      "bytes": 17129
+    },
+    "reports/enrichment_v1/discovery/search_requests.csv": {
+      "sha256": "ca701ceeb8e8f753ed38fc83e019b508f2203d4108ceefda733ed7cf57de7fc3",
+      "bytes": 26029
+    },
+    "reports/enrichment_v1/discovery/source_inventory.csv": {
+      "sha256": "1256fe1eb86c00c4787eafa556f996b91563350f7bbfbbd543f7192dabcb7594",
+      "bytes": 55527
+    },
+    "reports/enrichment_v1/population/population_manifest.json": {
+      "sha256": "fd114e18dd12bbe48d211d973998733f48f52da7b5218fa446bd94bb94141333",
+      "bytes": 1705
+    },
+    "reports/enrichment_v1/population/population_qa_rows.csv": {
+      "sha256": "caa68cdbb4c40330466df256e0bebc1fea4f3a51f9a8787a92761b3b688c850d",
+      "bytes": 1627127
+    },
+    "reports/enrichment_v1/population/population_region_coverage.csv": {
+      "sha256": "1dcaeccb119f26baa4a856befca127dc740983bb65a38c3a4a29df39eb3bd70d",
+      "bytes": 10627
+    },
+    "reports/enrichment_v1/population/population_unlinked.parquet": {
+      "sha256": "95f5c668eb172ccbdc34b0850abc68c3a508c71bbac336da4871af5cd00467ca",
+      "bytes": 1204210
+    },
+    "reports/enrichment_v1/population_bridge/manifest.json": {
+      "sha256": "c816a41f71f64a7a06b33281745e716eae5495d95d27b04b48c344a54593e8d6",
+      "bytes": 2160
+    },
+    "reports/enrichment_v1/population_bridge/population_linked_pilot.csv": {
+      "sha256": "701a2282aaeea25d4439b8dac04ea7e78cc7cc96055b8ad61b0dd1ca36a4cb32",
+      "bytes": 11343
+    },
+    "reports/enrichment_v1/population_bridge/population_linked_pilot.parquet": {
+      "sha256": "8b36cb31315413ba0b01da0853557b029e52bd214dde73802f9fc70938838cc5",
+      "bytes": 8949
+    },
+    "reports/enrichment_v1/population_bridge/primary_population_candidate_targets.json": {
+      "sha256": "79e9541142d95bd60f1e92acf3dd10ff11ff3cb439599549da3efdbecdc5c4ea",
+      "bytes": 446686
+    },
+    "reports/enrichment_v1/population_bridge/primary_unmatched_2024.csv": {
+      "sha256": "c6e6b74d7206ec27877aa72bea72b43c8672e1e71dc681a2294f6346863e6557",
+      "bytes": 45728
+    },
+    "reports/enrichment_v1/QA.md": {
+      "sha256": "621a535aaaa0c31f0959b9ea48c6c96cb14ad513b95b9db7d13e3ce0aeda84d3",
+      "bytes": 5409
+    },
+    "reports/enrichment_v1/REPORT.md": {
+      "sha256": "5fd0f171e908346ab18cf78e2ab983628fa7f87caf71a5e4ade87633ad84ff9d",
+      "bytes": 17360
+    },
+    "scripts/prepare_municipal_crosswalk.py": {
+      "sha256": "fd2aa7c5ef8f7933b65ac1e237fa5e336e867aac9564446cfaaf58eb066a91a8",
+      "bytes": 17080
+    },
+    "tests/test_prepare_municipal_crosswalk.py": {
+      "sha256": "93e56384551423d6b326b11860379d4c0189af1641c1aa099a8279b8cf6cfa53",
+      "bytes": 4499
+    }
+  },
+  "self_hash": "Omitted to avoid self-reference; use the Git commit for manifest integrity."
+}

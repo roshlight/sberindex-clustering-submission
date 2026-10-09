@@ -1,0 +1,39 @@
+{
+  "script_sha256": "be316cb6ef6be5d107c7fceedb415be75ada0c12ddd77e8830ccfdd98c32bd8b",
+  "plan_sha256": "8cebc01e85b4234865bb1915b239e64ee1406423055f6251a06f4c10503128b7",
+  "recipe_sha256": "79ade989571130c802247957689845e8edb99ece36e1379742bd66ae5413d57e",
+  "files": [
+    {
+      "path": "source_inventory.json",
+      "sha256": "26d9ac64764b4392048cfaac72d8e98d41f46d704af9ab98b7d12d77aeb7831e"
+    },
+    {
+      "path": "summary.json",
+      "sha256": "51b96b995e0ff424260ffff33fc19b5dfc7365058072650556b58701e1642418"
+    },
+    {
+      "path": "evidence_ledger.csv",
+      "sha256": "61d21c92b693bd99b3e4a1d800b36ff06e0dd951f25575ddf11e4a2266ce6c90"
+    },
+    {
+      "path": "rounding_comparison.csv",
+      "sha256": "10e7316d329545bb060c36d260ef0442e115b82f36f91ef711ed827fe9b78dbc"
+    },
+    {
+      "path": "publication_version_comparison.csv",
+      "sha256": "40e892a5f66e2aa179f9f190770c8b1bdc55743399fc25f1ae890d72459f1193"
+    },
+    {
+      "path": "case_review_status.csv",
+      "sha256": "3a6c5df36a2da9798265b4e492eb116f4590ea076e5a0051f430592afcb3f3be"
+    },
+    {
+      "path": "raw_allowlist.json",
+      "sha256": "c9376378f1b25c19c3ccf688fb5a5d519b8c8bbf9b3644b7f785781f80ceafe0"
+    },
+    {
+      "path": "QA.json",
+      "sha256": "8ed6a4823a71a3c24ddb89ea661c23ba79b2e258541a65765f9d534c39d99c89"
+    }
+  ]
+}

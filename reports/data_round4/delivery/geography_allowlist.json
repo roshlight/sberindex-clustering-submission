@@ -1,0 +1,172 @@
+[
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/inputs/downloads_initial.json",
+    "archive_path": "work/data-round4/geography/inputs/downloads_initial.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/inputs/downloads_planning.json",
+    "archive_path": "work/data-round4/geography/inputs/downloads_planning.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/inputs/missing_requests.json",
+    "archive_path": "work/data-round4/geography/inputs/missing_requests.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/inputs/reviewed_evidence.json",
+    "archive_path": "work/data-round4/geography/inputs/reviewed_evidence.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/inputs/search_log.json",
+    "archive_path": "work/data-round4/geography/inputs/search_log.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/inputs/source_ledger.json",
+    "archive_path": "work/data-round4/geography/inputs/source_ledger.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/raw/pit_charter2019.pdf",
+    "archive_path": "work/data-round4/geography/raw/pit_charter2019.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/raw/pit_charter2019.txt",
+    "archive_path": "work/data-round4/geography/raw/pit_charter2019.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/raw/pit_functional_map.pdf",
+    "archive_path": "work/data-round4/geography/raw/pit_functional_map.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/raw/pit_functional_map.txt",
+    "archive_path": "work/data-round4/geography/raw/pit_functional_map.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/raw/pit_planning.html",
+    "archive_path": "work/data-round4/geography/raw/pit_planning.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/raw/pit_planning_materials.pdf",
+    "archive_path": "work/data-round4/geography/raw/pit_planning_materials.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/raw/pit_planning_materials.txt",
+    "archive_path": "work/data-round4/geography/raw/pit_planning_materials.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/raw/rosreestr_boundary_explanation_2024.pdf",
+    "archive_path": "work/data-round4/geography/raw/rosreestr_boundary_explanation_2024.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/raw/rosreestr_explanation_page1.txt",
+    "archive_path": "work/data-round4/geography/raw/rosreestr_explanation_page1.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/raw/rosreestr_explanation_page2.txt",
+    "archive_path": "work/data-round4/geography/raw/rosreestr_explanation_page2.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/raw/rosreestr_explanation_page3.txt",
+    "archive_path": "work/data-round4/geography/raw/rosreestr_explanation_page3.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/raw/rosreestr_explanation_page4.txt",
+    "archive_path": "work/data-round4/geography/raw/rosreestr_explanation_page4.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/raw/rosreestr_explanation_page5.txt",
+    "archive_path": "work/data-round4/geography/raw/rosreestr_explanation_page5.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/raw/sber_metadata_fresh.pdf",
+    "archive_path": "work/data-round4/geography/raw/sber_metadata_fresh.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/raw/sber_metadata_page1.txt",
+    "archive_path": "work/data-round4/geography/raw/sber_metadata_page1.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/raw/sber_metadata_page2.txt",
+    "archive_path": "work/data-round4/geography/raw/sber_metadata_page2.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/raw/sber_metadata_page3.txt",
+    "archive_path": "work/data-round4/geography/raw/sber_metadata_page3.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/raw/vedlozero_rosreestr2024.html",
+    "archive_path": "work/data-round4/geography/raw/vedlozero_rosreestr2024.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/render/pit_charter_page1.png",
+    "archive_path": "work/data-round4/geography/render/pit_charter_page1.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/render/pit_map.png",
+    "archive_path": "work/data-round4/geography/render/pit_map.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/render/pit_planning_page1.png",
+    "archive_path": "work/data-round4/geography/render/pit_planning_page1.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/reused/karelia_2837.pdf",
+    "archive_path": "work/data-round4/geography/reused/karelia_2837.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/reused/karelia_2838.pdf",
+    "archive_path": "work/data-round4/geography/reused/karelia_2838.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/reused/karelia_2839.pdf",
+    "archive_path": "work/data-round4/geography/reused/karelia_2839.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/reused/karelia_2841.pdf",
+    "archive_path": "work/data-round4/geography/reused/karelia_2841.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/reused/t_dict_municipal_districts.xlsx",
+    "archive_path": "work/data-round4/geography/reused/t_dict_municipal_districts.xlsx"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/reused/t_dict_municipal_districts_poly.gpkg",
+    "archive_path": "work/data-round4/geography/reused/t_dict_municipal_districts_poly.gpkg"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/geography/reused/vologda_5115.pdf",
+    "archive_path": "work/data-round4/geography/reused/vologda_5115.pdf"
+  }
+]

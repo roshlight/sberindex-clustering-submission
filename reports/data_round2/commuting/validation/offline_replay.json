@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "byte_identical": {
+    "source_inventory.csv": true,
+    "sheet_inventory.csv": true,
+    "six_case_text_locators.csv": true,
+    "source_cells.parquet": true,
+    "source_text/census_04.txt": true,
+    "source_text/census_10.txt": true,
+    "source_text/census_13.txt": true
+  }
+}

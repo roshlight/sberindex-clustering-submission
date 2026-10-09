@@ -1,0 +1,126 @@
+run_id,need_id,query,page,origin,status,result_rows,unresponsive_engines
+smoke-20260914-01,spending_methodology,site:sberindex.ru муниципальные потребительские расходы средние знаменатель методология жители категории,1,analyst_plan,complete,0,[]
+smoke-20260914-01,spending_methodology,site:sber.ru СберИндекс Data Sense средние расходы категории методика расчета,1,analyst_plan,complete,0,[]
+research-20260914-01,metric_specification,"""Data Sense"" ""2026"" ""первый кейс"" ""метрики""",2,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,measurement_quality,"site:sberindex.ru ""муниципальных"" ""расходы"" ""конфиденциальность""",2,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,measurement_quality,"site:sberindex.ru ""расходы"" ""пересмотр""",2,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,territory_crosswalk,site:sberindex.ru dataset-borders-and-changes-of-municipalities territory_id ОКТМО 2024,2,analyst_plan,complete,0,[]
+research-20260914-01,municipal_population,"site:rosstat.gov.ru ""БД ПМО"" ""постоянного населения"" ""городского"" ""методологические""",2,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,municipal_population,"site:rosstat.gov.ru ""Численность населения Российской Федерации по муниципальным образованиям на 1 января 2023 года""",1,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,municipal_wages_employment,"site:rosstat.gov.ru ""БД ПМО"" ""заработная плата"" ""без субъектов малого предпринимательства""",1,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,metric_specification,site:sberindex.ru Data Sense Average Isolability Average Unifiability Modularity Quality,1,analyst_plan,complete,0,[]
+research-20260914-01,territory_crosswalk,"site:rosstat.gov.ru ""ОКТМО"" ""2023"" ""изменения"" ""дата введения""",2,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,metric_specification,S_Dbw Halkidi Vazirgiannis density union clusters standard deviation formula,1,analyst_plan,complete,0,[]
+research-20260914-01,municipal_population,"site:rosstat.gov.ru ""Численность населения Российской Федерации по муниципальным образованиям на 1 января 2023 года""",2,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,municipal_population,site:rosstat.gov.ru численность населения муниципальных образований 1 января 2023 2024 ОКТМО,2,analyst_plan,complete,17,[]
+research-20260914-01,spending_methodology,"site:sberindex.ru ""потребительские расходы"" ""границах""",2,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,municipal_population,"site:rosstat.gov.ru ""Численность населения Российской Федерации по муниципальным образованиям на 1 января 2024 года""",2,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,municipal_wages_employment,"site:rosstat.gov.ru ""2024"" ""П-4"" ""обособленные подразделения"" ""месту""",1,model_suggestion,complete,0,"[[""google cse"", ""too many requests""]]"
+research-20260914-01,spending_methodology,"site:sberindex.ru ""потребительские расходы"" ""границах""",1,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,spending_methodology,"site:sberindex.ru ""расходы"" ""место жительства""",1,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,municipal_wages_employment,"site:rosstat.gov.ru ""2024"" ""П-4"" ""обособленные подразделения"" ""месту""",2,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,spending_methodology,site:sberindex.ru муниципальные потребительские расходы средние знаменатель методология жители категории,1,analyst_plan,complete,0,[]
+research-20260914-01,spending_methodology,site:sber.ru СберИндекс Data Sense средние расходы категории методика расчета,1,analyst_plan,complete,0,[]
+research-20260914-01,measurement_quality,SberIndex municipal spending data revisions sampling coverage missing observations methodology,2,analyst_plan,complete,0,[]
+research-20260914-01,spending_methodology,SberIndex municipal cashless consumer spending estimator denominator category methodology resident,2,analyst_plan,complete,0,[]
+research-20260914-01,territory_crosswalk,SberIndex municipality dictionary permanent boundaries historical OKTMO crosswalk 2023 2024,1,analyst_plan,complete,0,[]
+research-20260914-01,measurement_quality,"""Data Sense"" ""потребительские расходы"" ""пропуски""",2,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,metric_specification,"""Data Sense"" ""2026"" ""первый кейс"" ""метрики""",1,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,measurement_quality,site:sberindex.ru потребительские расходы методология покрытие доверительный интервал,1,analyst_plan,complete,0,[]
+research-20260914-01,measurement_quality,"""Data Sense"" ""consumption.parquet"" исправления обновления",1,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,municipal_population,site:rosstat.gov.ru БД ПМО городское сельское население 2024 муниципальные образования,2,analyst_plan,complete,0,"[[""google cse"", ""too many requests""]]"
+research-20260914-01,spending_methodology,"""СберИндекс"" ""расходы"" методология ""нулевые""",1,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,territory_crosswalk,site:rosstat.gov.ru ОКТМО изменения муниципальные образования 2023 2024,1,analyst_plan,complete,20,[]
+research-20260914-01,territory_crosswalk,site:sberbank.ru metadata_municipal_dict_sberindex_2 year_from year_to,2,analyst_plan,complete,0,[]
+research-20260914-01,spending_methodology,site:sberindex.ru муниципальные потребительские расходы средние знаменатель методология жители категории,2,analyst_plan,complete,0,[]
+research-20260914-01,territory_crosswalk,site:sberbank.ru metadata_municipal_dict_sberindex_2 year_from year_to,1,analyst_plan,complete,0,[]
+research-20260914-01,municipal_population,site:rosstat.gov.ru БД ПМО городское сельское население 2024 муниципальные образования,1,analyst_plan,complete,20,[]
+research-20260914-01,spending_methodology,"""СберИндекс"" ""расходы"" методология ""нулевые""",2,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,municipal_population,Rosstat municipal population urban rural January 1 2023 2024 OKTMO,1,analyst_plan,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,territory_crosswalk,"""metadata_municipal_dict_sberindex_2"" ""year_to""",2,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,municipal_wages_employment,Rosstat municipal indicators average wages employment 2023 2024 methodology coverage,1,analyst_plan,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,spending_methodology,"""СберИндекс"" ""Маркетплейсы"" ""Все категории"" методология",1,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,spending_methodology,site:sber.ru СберИндекс Data Sense средние расходы категории методика расчета,2,analyst_plan,complete,0,[]
+research-20260914-01,municipal_population,Rosstat municipal population urban rural January 1 2023 2024 OKTMO,2,analyst_plan,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,measurement_quality,site:sberindex.ru муниципальные расходы качество данных пропуски выборка пересмотр,2,analyst_plan,complete,0,[]
+research-20260914-01,measurement_quality,SberIndex municipal spending data revisions sampling coverage missing observations methodology,1,analyst_plan,complete,0,[]
+research-20260914-01,spending_methodology,SberIndex municipal cashless consumer spending estimator denominator category methodology resident,1,analyst_plan,complete,0,[]
+research-20260914-01,territory_crosswalk,"site:sberindex.ru ""territory_id"" ""ОКТМО"" ""2025""",2,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,metric_specification,"""Data Sense"" ""S_Dbw"" ""формула""",1,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,spending_methodology,"""Data Sense"" ""consumption.parquet"" методология",2,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,metric_specification,"""Data Sense"" ""AVI"" ""AVU""",1,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,spending_methodology,"site:sberindex.ru ""расходы"" ""место жительства""",2,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,territory_crosswalk,"""СберИндекс"" ""справочник"" ""административный центр""",1,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,measurement_quality,"site:sberindex.ru ""муниципальных"" ""расходы"" ""конфиденциальность""",1,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,territory_crosswalk,SberIndex municipality dictionary permanent boundaries historical OKTMO crosswalk 2023 2024,2,analyst_plan,complete,0,[]
+research-20260914-01,metric_specification,Average Isolability Average Unifiability attributed networks equations Shalileh Antonov Tsyplakova,2,analyst_plan,complete,0,[]
+research-20260914-01,territory_crosswalk,"""metadata_municipal_dict_sberindex_2"" ""year_to""",1,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,metric_specification,Average Isolability Average Unifiability attributed networks equations Shalileh Antonov Tsyplakova,1,analyst_plan,complete,0,[]
+research-20260914-01,municipal_population,"site:rosstat.gov.ru ""Численность населения Российской Федерации по муниципальным образованиям на 1 января 2024 года""",1,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,municipal_population,site:rosstat.gov.ru численность населения муниципальных образований 1 января 2023 2024 ОКТМО,1,analyst_plan,complete,20,[]
+research-20260914-01,municipal_wages_employment,site:rosstat.gov.ru БД ПМО среднемесячная заработная плата работников организаций 2023 2024 ОКТМО,1,analyst_plan,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,measurement_quality,"""Data Sense"" ""consumption.parquet"" исправления обновления",2,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,metric_specification,S_Dbw Halkidi Vazirgiannis density union clusters standard deviation formula,2,analyst_plan,complete,0,[]
+research-20260914-01,spending_methodology,"""Data Sense"" ""consumption.parquet"" методология",1,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,territory_crosswalk,"site:rosstat.gov.ru ""ОКТМО"" ""2023"" ""изменения"" ""дата введения""",1,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,measurement_quality,"""СберИндекс"" ""муниципальные"" ""минимальное число""",1,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,metric_specification,"""Data Sense"" ""AVI"" ""AVU""",2,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,metric_specification,"""Data Sense"" ""MQ"" ""метрики""",2,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,municipal_wages_employment,"site:rosstat.gov.ru ""заработная плата"" ""муниципальных"" ""идентификатор""",2,model_suggestion,complete,0,"[[""google cse"", ""too many requests""]]"
+research-20260914-01,territory_crosswalk,site:sberindex.ru dataset-borders-and-changes-of-municipalities territory_id ОКТМО 2024,1,analyst_plan,complete,1,[]
+research-20260914-01,measurement_quality,"site:sberindex.ru ""расходы"" ""пересмотр""",1,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,territory_crosswalk,"site:rosstat.gov.ru ""ОКТМО"" ""2024"" ""перекодировочная""",1,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,territory_crosswalk,"site:rosstat.gov.ru ""ОКТМО"" ""2024"" ""перекодировочная""",2,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,municipal_wages_employment,Rosstat municipal indicators average wages employment 2023 2024 methodology coverage,2,analyst_plan,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,municipal_wages_employment,site:rosstat.gov.ru БД ПМО среднемесячная заработная плата работников организаций 2023 2024 ОКТМО,2,analyst_plan,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,metric_specification,site:sber.ru sberindex конкурс 2026 S_Dbw AVI AVU MQ формула,2,analyst_plan,complete,0,[]
+research-20260914-01,municipal_wages_employment,"site:rosstat.gov.ru ""БД ПМО"" ""заработная плата"" ""без субъектов малого предпринимательства""",2,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,measurement_quality,site:sberindex.ru потребительские расходы методология покрытие доверительный интервал,2,analyst_plan,complete,0,[]
+research-20260914-01,measurement_quality,"""СберИндекс"" ""муниципальные"" ""минимальное число""",2,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,territory_crosswalk,"""СберИндекс"" ""справочник"" ""административный центр""",2,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,municipal_wages_employment,site:rosstat.gov.ru муниципальные образования среднесписочная численность работников 2024 методология,2,analyst_plan,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,spending_methodology,"site:sberindex.ru ""расходы"" ""муниципальных"" ""на одного""",1,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,municipal_population,"site:rosstat.gov.ru ""БД ПМО"" ""постоянного населения"" ""городского"" ""методологические""",1,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,measurement_quality,site:sberindex.ru муниципальные расходы качество данных пропуски выборка пересмотр,1,analyst_plan,complete,0,[]
+research-20260914-01,measurement_quality,"""Data Sense"" ""потребительские расходы"" ""пропуски""",1,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,territory_crosswalk,"site:sberindex.ru ""territory_id"" ""ОКТМО"" ""2025""",1,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,municipal_wages_employment,site:rosstat.gov.ru муниципальные образования среднесписочная численность работников 2024 методология,1,analyst_plan,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,metric_specification,"""Data Sense"" ""S_Dbw"" ""формула""",2,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,metric_specification,"""Data Sense"" ""MQ"" ""метрики""",1,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,territory_crosswalk,site:rosstat.gov.ru ОКТМО изменения муниципальные образования 2023 2024,2,analyst_plan,complete,20,[]
+research-20260914-01,metric_specification,site:sber.ru sberindex конкурс 2026 S_Dbw AVI AVU MQ формула,1,analyst_plan,complete,0,[]
+research-20260914-01,municipal_wages_employment,"site:rosstat.gov.ru ""заработная плата"" ""муниципальных"" ""идентификатор""",1,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,spending_methodology,"site:sberindex.ru ""расходы"" ""муниципальных"" ""на одного""",2,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,spending_methodology,"""СберИндекс"" ""Маркетплейсы"" ""Все категории"" методология",2,model_suggestion,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+research-20260914-01,metric_specification,site:sberindex.ru Data Sense Average Isolability Average Unifiability Modularity Quality,2,analyst_plan,complete,0,[]
+recovery-20260914-01,municipal_wages_employment,site:rosstat.gov.ru муниципальные образования среднесписочная численность работников 2024 методология,1,retry_of_research-20260914-01,deferred,0,[]
+recovery-20260914-01,municipal_population,site:rosstat.gov.ru БД ПМО городское сельское население 2024 муниципальные образования,1,retry_of_research-20260914-01,deferred,0,[]
+recovery-20260914-01,metric_specification,"""Data Sense"" ""S_Dbw"" ""формула""",1,retry_of_research-20260914-01,deferred,0,[]
+recovery-20260914-01,municipal_wages_employment,"site:rosstat.gov.ru ""БД ПМО"" ""заработная плата"" ""без субъектов малого предпринимательства""",1,retry_of_research-20260914-01,deferred,0,[]
+recovery-20260914-01,measurement_quality,"site:sberindex.ru ""расходы"" ""пересмотр""",1,retry_of_research-20260914-01,deferred,0,[]
+recovery-20260914-01,metric_specification,"""Data Sense"" ""2026"" ""первый кейс"" ""метрики""",1,retry_of_research-20260914-01,deferred,0,[]
+recovery-20260914-01,spending_methodology,"""СберИндекс"" ""расходы"" методология ""нулевые""",1,retry_of_research-20260914-01,complete,9,[]
+recovery-20260914-01,metric_specification,"""Data Sense"" ""AVI"" ""AVU""",1,retry_of_research-20260914-01,deferred,0,[]
+recovery-20260914-01,municipal_wages_employment,"site:rosstat.gov.ru ""2024"" ""П-4"" ""обособленные подразделения"" ""месту""",1,retry_of_research-20260914-01,deferred,0,[]
+recovery-20260914-01,municipal_wages_employment,Rosstat municipal indicators average wages employment 2023 2024 methodology coverage,1,retry_of_research-20260914-01,deferred,0,[]
+recovery-20260914-01,municipal_population,"site:rosstat.gov.ru ""Численность населения Российской Федерации по муниципальным образованиям на 1 января 2024 года""",1,retry_of_research-20260914-01,deferred,0,[]
+recovery-20260914-01,spending_methodology,"site:sberindex.ru ""расходы"" ""муниципальных"" ""на одного""",1,retry_of_research-20260914-01,complete,0,"[[""google cse"", ""Suspended: too many requests""]]"
+recovery-20260914-01,spending_methodology,"""СберИндекс"" ""Маркетплейсы"" ""Все категории"" методология",1,retry_of_research-20260914-01,complete,6,[]
+recovery-20260914-01,metric_specification,"""Data Sense"" ""MQ"" ""метрики""",1,retry_of_research-20260914-01,deferred,0,[]
+recovery-20260914-01,measurement_quality,"""Data Sense"" ""потребительские расходы"" ""пропуски""",1,retry_of_research-20260914-01,deferred,0,[]
+recovery-20260914-01,spending_methodology,"site:sberindex.ru ""расходы"" ""место жительства""",1,retry_of_research-20260914-01,complete,0,"[[""google cse"", ""too many requests""]]"
+recovery-20260914-01,territory_crosswalk,"site:sberindex.ru ""territory_id"" ""ОКТМО"" ""2025""",1,retry_of_research-20260914-01,deferred,0,[]
+recovery-20260914-01,municipal_wages_employment,"site:rosstat.gov.ru ""заработная плата"" ""муниципальных"" ""идентификатор""",1,retry_of_research-20260914-01,deferred,0,[]
+recovery-20260914-01,territory_crosswalk,"""СберИндекс"" ""справочник"" ""административный центр""",1,retry_of_research-20260914-01,deferred,0,[]
+recovery-20260914-01,municipal_population,Rosstat municipal population urban rural January 1 2023 2024 OKTMO,1,retry_of_research-20260914-01,deferred,0,[]
+recovery-20260914-01,measurement_quality,"site:sberindex.ru ""муниципальных"" ""расходы"" ""конфиденциальность""",1,retry_of_research-20260914-01,deferred,0,[]
+recovery-20260914-01,municipal_population,"site:rosstat.gov.ru ""Численность населения Российской Федерации по муниципальным образованиям на 1 января 2023 года""",1,retry_of_research-20260914-01,deferred,0,[]
+recovery-20260914-01,territory_crosswalk,"""metadata_municipal_dict_sberindex_2"" ""year_to""",1,retry_of_research-20260914-01,deferred,0,[]
+recovery-20260914-01,municipal_population,"site:rosstat.gov.ru ""БД ПМО"" ""постоянного населения"" ""городского"" ""методологические""",1,retry_of_research-20260914-01,deferred,0,[]
+recovery-20260914-01,territory_crosswalk,"site:rosstat.gov.ru ""ОКТМО"" ""2024"" ""перекодировочная""",1,retry_of_research-20260914-01,deferred,0,[]
+recovery-20260914-01,territory_crosswalk,"site:rosstat.gov.ru ""ОКТМО"" ""2023"" ""изменения"" ""дата введения""",1,retry_of_research-20260914-01,deferred,0,[]
+recovery-20260914-01,measurement_quality,"""СберИндекс"" ""муниципальные"" ""минимальное число""",1,retry_of_research-20260914-01,deferred,0,[]
+recovery-20260914-01,measurement_quality,"""Data Sense"" ""consumption.parquet"" исправления обновления",1,retry_of_research-20260914-01,deferred,0,[]
+recovery-20260914-01,spending_methodology,"site:sberindex.ru ""потребительские расходы"" ""границах""",1,retry_of_research-20260914-01,complete,0,[]
+recovery-20260914-01,municipal_wages_employment,site:rosstat.gov.ru БД ПМО среднемесячная заработная плата работников организаций 2023 2024 ОКТМО,1,retry_of_research-20260914-01,deferred,0,[]
+recovery-20260914-01,spending_methodology,"""Data Sense"" ""consumption.parquet"" методология",1,retry_of_research-20260914-01,complete,0,[]

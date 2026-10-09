@@ -1,0 +1,30 @@
+[
+  {
+    "path": "docs/bdmo_met2024.docx",
+    "url": "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx",
+    "sha256": "73bb0909bbc4a0b4ff1d19c0a5113b0bb59934cbbfb739544641ea2e5a7eadb3",
+    "bytes": 162482,
+    "capture_kind": "copied_previous_verified_source",
+    "original_path": "work/enrichment-sources/bdmo_met2024.docx",
+    "new_network_request": false
+  },
+  {
+    "path": "docs/bdmo_met2024.full-main-text.txt",
+    "url": "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx",
+    "sha256": "3479d0257fad5c903d28d4fd9ea12f2e44c9841d987b474a069a1d2e8832eeee",
+    "bytes": 296227,
+    "capture_kind": "previous_docx_text_derivative",
+    "original_path": "work/enrichment-sources/bdmo_met2024.full-main-text.txt",
+    "new_network_request": false
+  },
+  {
+    "path": "docs/rosstat-labour-faq.html",
+    "url": "https://35.rosstat.gov.ru/folder/120693",
+    "sha256": "aefb145aa86eed69e011497f02963e029231d0c24222df75d16a8fb86dbae4da",
+    "bytes": 859693,
+    "capture_kind": "raw_html_native_curl",
+    "http_status_observed": 200,
+    "retrieved_file_mtime_utc": "2026-09-15T09:28:33.233364+00:00",
+    "command": "curl --location --max-time 45 --fail-with-body --output <file> https://35.rosstat.gov.ru/folder/120693"
+  }
+]

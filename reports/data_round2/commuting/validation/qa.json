@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "numeric_source_cells_reconciled": 263406,
+  "independent_reader": "Python standard library ZIP+XML, no openpyxl",
+  "verified_pilot_rows": 4,
+  "pilot_additivity_checks": 12,
+  "primary_panel_joins_accepted": 0,
+  "source_manifest_sha256": "efa9ba2a23f152b14f6328f3be638d6bb99cc30e8cf6b99a02fe0fb82cc03e5c",
+  "verifier_sha256": "7a0bee5cd240f0321ad3d15f6d52d55837a3d36c9b0b90bb4620a353cfc29739",
+  "not_accepted": [
+    "Красноярский край substring is not Красноярский район Астраханской области",
+    "No municipality-level commuting shares recovered for all six cases",
+    "2021 labor status cannot be relabelled as 2023/2024 employment"
+  ],
+  "outputs": {
+    "four_case_labor_status_2021.csv": "217cd58216bf411e7343d2ae32abd867189b1936d5d61aee215293b8e7011391"
+  }
+}

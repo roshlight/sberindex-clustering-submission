@@ -1,0 +1,507 @@
+{
+  "created_at_utc": "2026-09-16T17:53:13.019515+00:00",
+  "files": [
+    {
+      "path": "work/data-round4/economy/cache/06eae35e1b07ecfa8d30331d84783b2a42e92d80bc63586e807d57fc6daec934.json",
+      "bytes": 1546,
+      "sha256": "8cb54eb1779b52ce1292794fd045f364b602cea6b2a2f2ab3a488ab29639a641"
+    },
+    {
+      "path": "work/data-round4/economy/cache/06eae35e1b07ecfa8d30331d84783b2a42e92d80bc63586e807d57fc6daec934.raw",
+      "bytes": 5157,
+      "sha256": "fa41a3523903518c04bd682ad60d9123cfc6e04afe8a60259a79e01bdbc23a65"
+    },
+    {
+      "path": "work/data-round4/economy/cache/07095b0b612e2c61a9b2bef676d164b0952df200b06aef09c40eb20e17b7dcd7.json",
+      "bytes": 1241,
+      "sha256": "1e531ae78ff70fead814d23d6e45d740abf116a0075faf908a6e3b8bcba7d2a2"
+    },
+    {
+      "path": "work/data-round4/economy/cache/07095b0b612e2c61a9b2bef676d164b0952df200b06aef09c40eb20e17b7dcd7.raw",
+      "bytes": 606,
+      "sha256": "ff28dd0ffdc288b8c429b52e1142385d59792a650728714e79f5412e08056a06"
+    },
+    {
+      "path": "work/data-round4/economy/cache/07e65ff550aef52c53e5c19ec37ae4ee30f62042c2cc1b7e8a4e6834c1fee7b7.json",
+      "bytes": 1084,
+      "sha256": "775a67b1e5e0ef4fa3d17b2800546dbacc20ada754802731003837f5971c77aa"
+    },
+    {
+      "path": "work/data-round4/economy/cache/07e65ff550aef52c53e5c19ec37ae4ee30f62042c2cc1b7e8a4e6834c1fee7b7.raw",
+      "bytes": 2902,
+      "sha256": "2937cd3bf498c8afe715b1bb162a1843318a353594e09aff9a209bbe850c997c"
+    },
+    {
+      "path": "work/data-round4/economy/cache/0937a794194a0c293df23593347dd881ce684fef12a70ac99ad835754e3b226c.json",
+      "bytes": 535,
+      "sha256": "f7c13214dc09054e803e95e65716e800b34ccd3595cc8bdc437d150096d051a5"
+    },
+    {
+      "path": "work/data-round4/economy/cache/0937a794194a0c293df23593347dd881ce684fef12a70ac99ad835754e3b226c.raw",
+      "bytes": 53178,
+      "sha256": "9d0946d713f90b8f2850ccee3e2d429fd51f5d7e206ae80eabb13e6663482bf7"
+    },
+    {
+      "path": "work/data-round4/economy/cache/0996eaba38e3c40acc2b8926042b6abd637b44f954c64f9fdeafc22fb42c1e12.json",
+      "bytes": 535,
+      "sha256": "da5d142750618d7447d2ef4b3759c7aa64f96409b50e77d5911bf017a9cf6ef1"
+    },
+    {
+      "path": "work/data-round4/economy/cache/0996eaba38e3c40acc2b8926042b6abd637b44f954c64f9fdeafc22fb42c1e12.raw",
+      "bytes": 72911,
+      "sha256": "a7c967dddaa88e185f8fb2366e2626f6089b22d69e5e2c1b91d5d63b8297f163"
+    },
+    {
+      "path": "work/data-round4/economy/cache/09ba5f1082e78dae3df53f158854f7c54bcb19dc9a267d8a10f0c590beeadfe0.json",
+      "bytes": 535,
+      "sha256": "ccaaea6e14872b3026a1b6dc0ccb071f03f5fb0ec0e37722ff9c4ca1b4691bb8"
+    },
+    {
+      "path": "work/data-round4/economy/cache/09ba5f1082e78dae3df53f158854f7c54bcb19dc9a267d8a10f0c590beeadfe0.raw",
+      "bytes": 47355,
+      "sha256": "70137150d873aeb618fa9c83b84fba1211ecd599a408c7931760576e9d8c0fc4"
+    },
+    {
+      "path": "work/data-round4/economy/cache/0e1d4da7515fbde3687e3fcae559b7cfc15aaa9a1b9173639f035e8b8267bdfd.json",
+      "bytes": 535,
+      "sha256": "f2f1f93a705466207bd3fa572751260eeb4cd673dc40710d1284e59aac991b54"
+    },
+    {
+      "path": "work/data-round4/economy/cache/0e1d4da7515fbde3687e3fcae559b7cfc15aaa9a1b9173639f035e8b8267bdfd.raw",
+      "bytes": 49543,
+      "sha256": "336b4c9fb090d775316ce2646c7a49ed2eed41ea28d5d35bca8a2615f3a24b91"
+    },
+    {
+      "path": "work/data-round4/economy/cache/13f583e51bf32d9babf6bb0592f8d52ce4ed0a4c2f760a22a6878181099d03a4.json",
+      "bytes": 535,
+      "sha256": "4e73ece67bb55fe383a2fdcf5e545c29a98f19acc8d64ff5e579377fd861662c"
+    },
+    {
+      "path": "work/data-round4/economy/cache/13f583e51bf32d9babf6bb0592f8d52ce4ed0a4c2f760a22a6878181099d03a4.raw",
+      "bytes": 68487,
+      "sha256": "86b2d8978ae961792d6bebffbf4fe833b2b2f8f7e1fff02c6deea4630b05592c"
+    },
+    {
+      "path": "work/data-round4/economy/cache/16e70ea5d60b464cd92f448ca552dc6c7fde0ee7020841f52ca122790b361751.json",
+      "bytes": 535,
+      "sha256": "effee6c7f6e28303b8be12a0b50441a9ba32e4f276e8151924377bd7601794aa"
+    },
+    {
+      "path": "work/data-round4/economy/cache/16e70ea5d60b464cd92f448ca552dc6c7fde0ee7020841f52ca122790b361751.raw",
+      "bytes": 62503,
+      "sha256": "2362e7057f6dcdeaa1e6e4887c56f6c1db2fde4102672778faf0f4be9f582527"
+    },
+    {
+      "path": "work/data-round4/economy/cache/18a620ec27c6f51b7bb1f5e0a42dc280b2e46655499dd957653f2441ef122b5f.json",
+      "bytes": 535,
+      "sha256": "b99b8c93a9c916b875311ae162712e5fd38528643bf4becf558c67a4d275e2d1"
+    },
+    {
+      "path": "work/data-round4/economy/cache/18a620ec27c6f51b7bb1f5e0a42dc280b2e46655499dd957653f2441ef122b5f.raw",
+      "bytes": 52598,
+      "sha256": "7c47dfd1b202c3e41dd847b8b4cbdfaa237efd8be41cfb246c2e650ff3b4cfdd"
+    },
+    {
+      "path": "work/data-round4/economy/cache/1a01017b7780e65f7f0288a3f9a56810b18ce4ee7d69ac60013168ff2a9ab5f6.json",
+      "bytes": 1642,
+      "sha256": "5cc22b670e10f65c177d4ad8488bb292a54dc49b37f344308d5af741eac0c259"
+    },
+    {
+      "path": "work/data-round4/economy/cache/1a01017b7780e65f7f0288a3f9a56810b18ce4ee7d69ac60013168ff2a9ab5f6.raw",
+      "bytes": 6308,
+      "sha256": "0fc1f72ddcccdef50191cd93ad35bffc616850c7f3f85934daf2b1164e786fb2"
+    },
+    {
+      "path": "work/data-round4/economy/cache/22b693bc7ee77319fe0a55a56fed24ac609e1d60ac7b6ff83135307712cd32f0.json",
+      "bytes": 535,
+      "sha256": "584e87b10960fa33c97bf70fcfba7e7cdc3346836e6f9508b9610c4c124cf7d6"
+    },
+    {
+      "path": "work/data-round4/economy/cache/22b693bc7ee77319fe0a55a56fed24ac609e1d60ac7b6ff83135307712cd32f0.raw",
+      "bytes": 51441,
+      "sha256": "9da6c458058ca94206e9cce9e6d337a52e2b0426247aa49229a1dba303781ae7"
+    },
+    {
+      "path": "work/data-round4/economy/cache/25f2a3d39f1427f49bf01c8fd4c7f43751119f7c4647187c0be8a138f6920ee3.json",
+      "bytes": 1276,
+      "sha256": "69723a311922d8a87a6dab2379bfe0507a745cb4a29d45a46788d2ac81a8d1ed"
+    },
+    {
+      "path": "work/data-round4/economy/cache/25f2a3d39f1427f49bf01c8fd4c7f43751119f7c4647187c0be8a138f6920ee3.raw",
+      "bytes": 7222,
+      "sha256": "bb34cbdf70385e8beda5d2d80f25f8119696e8d71e04b6a7378bdcc7706edefb"
+    },
+    {
+      "path": "work/data-round4/economy/cache/395714dc4669420eadfbdb10d070c1bdb1dd2ac3a4285f915c4a464d2e4a8f6d.json",
+      "bytes": 1431,
+      "sha256": "805d24e6367f7fda531f8789a0ccc5493fd4315f06b59f902ae0b6f31fd3bcc9"
+    },
+    {
+      "path": "work/data-round4/economy/cache/395714dc4669420eadfbdb10d070c1bdb1dd2ac3a4285f915c4a464d2e4a8f6d.raw",
+      "bytes": 3055,
+      "sha256": "2c83a1809be94465068abf734a914dd141dbd5fe0b8c65c1b06cf5782f9ffdd1"
+    },
+    {
+      "path": "work/data-round4/economy/cache/3f1777f01020de372d75d67524c0825bf9234c566b477455312d6b4887fdcda5.json",
+      "bytes": 1428,
+      "sha256": "0a79a64bf2570d4996ae93b6925e1fffa7e26723bdeb12fb70b7346ef7e24d7c"
+    },
+    {
+      "path": "work/data-round4/economy/cache/3f1777f01020de372d75d67524c0825bf9234c566b477455312d6b4887fdcda5.raw",
+      "bytes": 3055,
+      "sha256": "2c83a1809be94465068abf734a914dd141dbd5fe0b8c65c1b06cf5782f9ffdd1"
+    },
+    {
+      "path": "work/data-round4/economy/cache/41626db33983e2fd811c1a20f989d56ab0bbfe3ed76fa7b0326ccf4e2aaca34b.json",
+      "bytes": 1336,
+      "sha256": "b1f676c43d9fd8093d39e4f9c2b6a683c3d947463aeecd56d9fc5a19f397a349"
+    },
+    {
+      "path": "work/data-round4/economy/cache/41626db33983e2fd811c1a20f989d56ab0bbfe3ed76fa7b0326ccf4e2aaca34b.raw",
+      "bytes": 7758,
+      "sha256": "47a26a3f09dbd19618532fb33e6c186246734bad6547e0b8e69d8da1563a3525"
+    },
+    {
+      "path": "work/data-round4/economy/cache/4346979eab98d2401f3b65d2ac4bac5d07d9e257742fe77ceff66113814104ae.json",
+      "bytes": 1571,
+      "sha256": "fed06ac80f1cbad3fb0269480032c36d2f4e2fd122005a3505dccdde84c75a82"
+    },
+    {
+      "path": "work/data-round4/economy/cache/4346979eab98d2401f3b65d2ac4bac5d07d9e257742fe77ceff66113814104ae.raw",
+      "bytes": 10688,
+      "sha256": "e352f34cec7d5fc6a197a008d445e6de5c6747a0808162db5e5deda20079a5a2"
+    },
+    {
+      "path": "work/data-round4/economy/cache/4383da8e2ed0502b7c88156d3378bb9df9c88a5060de756d9dee516eb94bc1ec.json",
+      "bytes": 535,
+      "sha256": "c78cf6a637124f3de6523d384b26f409e87fecf9acbe29f14dbed051fb9fcdc0"
+    },
+    {
+      "path": "work/data-round4/economy/cache/4383da8e2ed0502b7c88156d3378bb9df9c88a5060de756d9dee516eb94bc1ec.raw",
+      "bytes": 52970,
+      "sha256": "dcdeafcef2c5067b2f74527a9ccb90c3cbbfcf396da78105a06a856eef1df4c5"
+    },
+    {
+      "path": "work/data-round4/economy/cache/487960f64de3acb6119b4d97215df2c0dd4cffef00c994ca9f8abdca2f4c2ec3.json",
+      "bytes": 535,
+      "sha256": "ed65559b3fb41ed828cf77936f7bb519ac5f7113d47e565237d0ef3fed514f5e"
+    },
+    {
+      "path": "work/data-round4/economy/cache/487960f64de3acb6119b4d97215df2c0dd4cffef00c994ca9f8abdca2f4c2ec3.raw",
+      "bytes": 55447,
+      "sha256": "9c5a5ed8775247bc5429028659e5508d3bcace001ce1f15cc17910feb5777c23"
+    },
+    {
+      "path": "work/data-round4/economy/cache/53a9208177bf04aef2cabb85fd1c71a7f1086703c75f3aa107d5f943ee3540d3.json",
+      "bytes": 1453,
+      "sha256": "8346e3b891af1fc78b4dcb642949775d47be67a795cea5b059a5abd8c80ba190"
+    },
+    {
+      "path": "work/data-round4/economy/cache/53a9208177bf04aef2cabb85fd1c71a7f1086703c75f3aa107d5f943ee3540d3.raw",
+      "bytes": 7979,
+      "sha256": "e71336f1f6d19e9019c4dba66e05001552f85d05cf048acd3aa0eee6ecbaa080"
+    },
+    {
+      "path": "work/data-round4/economy/cache/5b38526b6162541635d491612f16782b2e64c8bcdf77c61a54b092f31eee1d84.json",
+      "bytes": 1609,
+      "sha256": "b65f8f1b3809c34005a657952f348841053279e29a4067f8d209cc5e71253ca4"
+    },
+    {
+      "path": "work/data-round4/economy/cache/5b38526b6162541635d491612f16782b2e64c8bcdf77c61a54b092f31eee1d84.raw",
+      "bytes": 6184,
+      "sha256": "c03f52369834843ae7c75ebef654c6a7d25f8a47bd3442c78ad89a96626329af"
+    },
+    {
+      "path": "work/data-round4/economy/cache/61c9a797ce971a2747071a9451fdda9912a93d01ac7577f81996038edb833b94.json",
+      "bytes": 1032,
+      "sha256": "f00e16ee4757cecef68b6947ceb81b018797471feb69c2517c19d1811988dbdd"
+    },
+    {
+      "path": "work/data-round4/economy/cache/61c9a797ce971a2747071a9451fdda9912a93d01ac7577f81996038edb833b94.raw",
+      "bytes": 2708,
+      "sha256": "be456a3672fb1a2482c7cd062196daa952a88a84c53604e410a4280c5dff5d71"
+    },
+    {
+      "path": "work/data-round4/economy/cache/64bb8534335dfad291cf15c97f9314248bf22dd79e219e88fdd85475ab95e4da.json",
+      "bytes": 1629,
+      "sha256": "f3523afc4bdb0d4a8ae03e80e99cdca2289af619b0e91eb0a9f7d544e0c07cdb"
+    },
+    {
+      "path": "work/data-round4/economy/cache/64bb8534335dfad291cf15c97f9314248bf22dd79e219e88fdd85475ab95e4da.raw",
+      "bytes": 6077,
+      "sha256": "cea7b0f9a3beb517a831d3a40d378349df39f9e455a52f0c5eca5b905900eecb"
+    },
+    {
+      "path": "work/data-round4/economy/cache/70455f50de02e6a4cc33f950a540e1730ca4b70bbf634f72f2abb005f1459f3e.json",
+      "bytes": 1454,
+      "sha256": "4bdebeeb33d592250fabdf23319a373b498c58bc79e486c3a7cf46cc6690cff4"
+    },
+    {
+      "path": "work/data-round4/economy/cache/70455f50de02e6a4cc33f950a540e1730ca4b70bbf634f72f2abb005f1459f3e.raw",
+      "bytes": 10248,
+      "sha256": "8360a9debcdeda505145bd7f1cfe870464c1f0e75e0728b5847fcd6fab90fedf"
+    },
+    {
+      "path": "work/data-round4/economy/cache/706c53ea1e59df6d39f4107d0ecac8bbe127732af72793f4943ed5f45a69c507.json",
+      "bytes": 535,
+      "sha256": "e6cdd2094ce1189a8ce29966d9bad4d5c15fd61d19f0df30fdbeb763bbbc5b26"
+    },
+    {
+      "path": "work/data-round4/economy/cache/706c53ea1e59df6d39f4107d0ecac8bbe127732af72793f4943ed5f45a69c507.raw",
+      "bytes": 70081,
+      "sha256": "afc4a2fdc62780a9cb0ba131ab74bf2b7b71b0d8d109016acb010146bf6e64e5"
+    },
+    {
+      "path": "work/data-round4/economy/cache/7231e3186ec82ea6dc1659b941cebe13dba361a138796ecfada7d1b58a231d77.json",
+      "bytes": 1600,
+      "sha256": "0c64ae77bb7fcfdea2b7934dc20b37eb6b5d3f9765901f00f0fbbf6b1794d1c4"
+    },
+    {
+      "path": "work/data-round4/economy/cache/7231e3186ec82ea6dc1659b941cebe13dba361a138796ecfada7d1b58a231d77.raw",
+      "bytes": 5948,
+      "sha256": "4f4818957a66aee9f2c5d6fca063578548b488c87b7ee69ee272c72d1115773f"
+    },
+    {
+      "path": "work/data-round4/economy/cache/814255b58ec5789463a829223dfb4690d752155e94be28ef4386ee3669909833.json",
+      "bytes": 535,
+      "sha256": "793ffe587d0539b3a954919c119f72fd1f9d50b9ed03054a88a18157ef810cda"
+    },
+    {
+      "path": "work/data-round4/economy/cache/814255b58ec5789463a829223dfb4690d752155e94be28ef4386ee3669909833.raw",
+      "bytes": 50863,
+      "sha256": "340ea522fde5ac80d99d11a53580e2e46011b68d0218961e2b30ffed83c34ff4"
+    },
+    {
+      "path": "work/data-round4/economy/cache/85d6dcb807982f21926327f29070bcf0fc51ae1042ebe943d315c646c5ca133a.json",
+      "bytes": 1036,
+      "sha256": "1dd66f85c600f7eff931afaf6a3bc831dce368b7c00a74c0058381dfb04497f9"
+    },
+    {
+      "path": "work/data-round4/economy/cache/85d6dcb807982f21926327f29070bcf0fc51ae1042ebe943d315c646c5ca133a.raw",
+      "bytes": 3098,
+      "sha256": "5ebbd4af1bbcec1ba686d8f94e608247a19bc58f659f38ae90ba94cfd5185972"
+    },
+    {
+      "path": "work/data-round4/economy/cache/865c97d9f3800a436ef1d31612aa2dd103acefabe6db5719faa98b5afabe29bb.json",
+      "bytes": 1449,
+      "sha256": "bcfdc248921fa9dfebc43fca2fbd2ee76416b32024805783a477f24889a40acd"
+    },
+    {
+      "path": "work/data-round4/economy/cache/865c97d9f3800a436ef1d31612aa2dd103acefabe6db5719faa98b5afabe29bb.raw",
+      "bytes": 9928,
+      "sha256": "a62ed5918d7ea5265dbcb2f25aaf22e1ef98f6ad7ab3c0f751efc80906c8c8b3"
+    },
+    {
+      "path": "work/data-round4/economy/cache/8c8202e4956fe06548a919c8165fef753d3803f9ff71bd5de627bc1c695a8dca.json",
+      "bytes": 1176,
+      "sha256": "c75d2df1dbe5981f4646660019716336cd37aded6c69a47d051800141f52fab7"
+    },
+    {
+      "path": "work/data-round4/economy/cache/8c8202e4956fe06548a919c8165fef753d3803f9ff71bd5de627bc1c695a8dca.raw",
+      "bytes": 1910,
+      "sha256": "0b5036a13eede0a06ed627af5f25b9a4360ba172282a7d10a9eecd66e2adbcaf"
+    },
+    {
+      "path": "work/data-round4/economy/cache/a17ee9f05f9fa9a544ae92ababbdcc7172e45c34446632684eb3b9e46bb7c7ee.json",
+      "bytes": 535,
+      "sha256": "ba9744d274e7283711657a6189635422cbb2b76724549f67f774bc07b6148c1c"
+    },
+    {
+      "path": "work/data-round4/economy/cache/a17ee9f05f9fa9a544ae92ababbdcc7172e45c34446632684eb3b9e46bb7c7ee.raw",
+      "bytes": 46793,
+      "sha256": "65fa05366773c5f58ca6395d47905220e6160deeac9925c2fade6fa53af4cdf7"
+    },
+    {
+      "path": "work/data-round4/economy/cache/a516f7c1df1f2741166aa6684a8b197d0a0295b2ac773d6245c2b3cf6bdd1440.json",
+      "bytes": 1233,
+      "sha256": "1ce3166e2eacb7a121f03dd7e51add229bb98c373310445bd265d086fbf05bf8"
+    },
+    {
+      "path": "work/data-round4/economy/cache/a516f7c1df1f2741166aa6684a8b197d0a0295b2ac773d6245c2b3cf6bdd1440.raw",
+      "bytes": 6617,
+      "sha256": "3b72bd38a3b6520a66c33a3f1fac9fb9c4936299e69723ff0ae6041bac9150ff"
+    },
+    {
+      "path": "work/data-round4/economy/cache/a52d7bd1d16ce1ec5b3d30c7d6a3520da4c1f8b4653b394580475264b1af756d.json",
+      "bytes": 1490,
+      "sha256": "703fa8c541919bb61307bcbabc3af9baff65ed2ee24136984f4d2a6a409e6dd5"
+    },
+    {
+      "path": "work/data-round4/economy/cache/a52d7bd1d16ce1ec5b3d30c7d6a3520da4c1f8b4653b394580475264b1af756d.raw",
+      "bytes": 11639,
+      "sha256": "7b363060b409daabe7bef43eea4a0672e84649d7c90a622399941bc7f0b90125"
+    },
+    {
+      "path": "work/data-round4/economy/cache/a59271db682979ea51fc900840e9faea63943638591ea6558bb6009ff705ab96.json",
+      "bytes": 1634,
+      "sha256": "987afadf9780a7bc46ed6e14267bdaddd52492274ba10c92f9af450912bb801b"
+    },
+    {
+      "path": "work/data-round4/economy/cache/a59271db682979ea51fc900840e9faea63943638591ea6558bb6009ff705ab96.raw",
+      "bytes": 1607,
+      "sha256": "f959fc2bea3236411bcd80bcafa639e8c0fbb9d2e523ac8f413dddbc8b334466"
+    },
+    {
+      "path": "work/data-round4/economy/cache/a65668dbda66affb7e1c3e1bfa51616d1954e1df09983fc9152277266a2748a0.json",
+      "bytes": 535,
+      "sha256": "82000498e9f0a9d6bf5ce46c651220ba93dd1b46031db64825d0e564f18deb1b"
+    },
+    {
+      "path": "work/data-round4/economy/cache/a65668dbda66affb7e1c3e1bfa51616d1954e1df09983fc9152277266a2748a0.raw",
+      "bytes": 68286,
+      "sha256": "667a15a021a4548d2062296fbdd7572bc54fcca71256475ce360acb28439ba6f"
+    },
+    {
+      "path": "work/data-round4/economy/cache/a70be7c3ff88ba7b27a9e8ba3df6d4e761a8a8127a60a0ebbb5982822a733391.json",
+      "bytes": 535,
+      "sha256": "48172f90f03258403e28113b72832aa565eb9cab1d4edd4ef40dc618a7ede00c"
+    },
+    {
+      "path": "work/data-round4/economy/cache/a70be7c3ff88ba7b27a9e8ba3df6d4e761a8a8127a60a0ebbb5982822a733391.raw",
+      "bytes": 46663,
+      "sha256": "ef68257f9f513eb8e72bb9d2256dfba7debcf9039024a9dc82e322565017d80c"
+    },
+    {
+      "path": "work/data-round4/economy/cache/aa999350a6b724501c2988376e09165c0d6a4a50c922e626a88110d175d77286.json",
+      "bytes": 1212,
+      "sha256": "47dc70ba512bf0a6e34537949bed3a243a55dfb6f4ebb4c79617fd12bcde2280"
+    },
+    {
+      "path": "work/data-round4/economy/cache/aa999350a6b724501c2988376e09165c0d6a4a50c922e626a88110d175d77286.raw",
+      "bytes": 580,
+      "sha256": "ff8bab52dfd96708b8c12228efd8fadc0821e8685a5a6a556cf07e35211637b4"
+    },
+    {
+      "path": "work/data-round4/economy/cache/b147e14f1b035e1003377a56be0af9144fdc176bb541489c44d285065e20f38b.json",
+      "bytes": 1428,
+      "sha256": "71826a40eaa2fd0c57cf589a7760b99043f0387754c9d29e7e5e70f7d30a9000"
+    },
+    {
+      "path": "work/data-round4/economy/cache/b147e14f1b035e1003377a56be0af9144fdc176bb541489c44d285065e20f38b.raw",
+      "bytes": 3227,
+      "sha256": "789d3c4ab356b3bd2e4706f8e0158bdaba553bff75b938305689b8650a7145b7"
+    },
+    {
+      "path": "work/data-round4/economy/cache/c3fea38cdb8e19258313572060c0e87d1dff7893477414d4e55d2c3ac3f51d41.json",
+      "bytes": 535,
+      "sha256": "451a40d5a36d5895b8dde31efce28cf9e74c94b4f7bb00803eb557b20b5620c7"
+    },
+    {
+      "path": "work/data-round4/economy/cache/c3fea38cdb8e19258313572060c0e87d1dff7893477414d4e55d2c3ac3f51d41.raw",
+      "bytes": 55154,
+      "sha256": "b7cb1f286d4ccc797fc03b8d09c8343e57373101c266bb64a64399cf5f64b227"
+    },
+    {
+      "path": "work/data-round4/economy/cache/c994269303eeb7f1b91bfede8c977f4f1171c267013bce7996562fdc7380ebcb.json",
+      "bytes": 1469,
+      "sha256": "013296b0f097881efa92253bdea254b95d441f952370ead2f6fdb1fb15fd0046"
+    },
+    {
+      "path": "work/data-round4/economy/cache/c994269303eeb7f1b91bfede8c977f4f1171c267013bce7996562fdc7380ebcb.raw",
+      "bytes": 6256,
+      "sha256": "c2516eb530757cae77be79f769b1c1d536737889f53ced8803a34e3df5f63244"
+    },
+    {
+      "path": "work/data-round4/economy/cache/d30de815daf2f5b3dc28d76d0639866176275d201e70a386b601ad5748af984b.json",
+      "bytes": 1167,
+      "sha256": "40636b697dc91e7e50ff22d334b2691e91301d56ee59d9dd71463756963fa102"
+    },
+    {
+      "path": "work/data-round4/economy/cache/d30de815daf2f5b3dc28d76d0639866176275d201e70a386b601ad5748af984b.raw",
+      "bytes": 514,
+      "sha256": "59dab7bb7317c6dfafc07fdb9f2eb2f1af7f90b74a5f7054154c506774a366bf"
+    },
+    {
+      "path": "work/data-round4/economy/cache/de4cf9f273de2f3d0869a1b8de92640933e28c018102d8025be61c538558d4ed.json",
+      "bytes": 1297,
+      "sha256": "e92b1ad1536caebd7158eb570079d89734d6c652a54b946881e58d1d7d3db5f5"
+    },
+    {
+      "path": "work/data-round4/economy/cache/de4cf9f273de2f3d0869a1b8de92640933e28c018102d8025be61c538558d4ed.raw",
+      "bytes": 7676,
+      "sha256": "1b8d0a9ce2fd70edc334908c534b908215957ffba63c93d448f2f7a9b62bf5ca"
+    },
+    {
+      "path": "work/data-round4/economy/cache/e2b408bf9d8365a5adb2f30635583919c4824f5e52681570b7a913619dab7b3a.json",
+      "bytes": 535,
+      "sha256": "eed9b5c12b4faaf4adfd0f89271c946a6917234213b6decf0b3349d56180eb12"
+    },
+    {
+      "path": "work/data-round4/economy/cache/e2b408bf9d8365a5adb2f30635583919c4824f5e52681570b7a913619dab7b3a.raw",
+      "bytes": 46225,
+      "sha256": "ef2f71732c54532ffab7fbe7ff589b852a60bec655e173e3a9cbba55eb111aef"
+    },
+    {
+      "path": "work/data-round4/economy/cache/f50ad0462110fe3c9968c7c0fa82142cd9f7521a80cea01524d6cb17078e5ce0.json",
+      "bytes": 1555,
+      "sha256": "8abef7ce4daaf3a799831dfd229c5f895e54642749455c3498ce47ab1f928ab3"
+    },
+    {
+      "path": "work/data-round4/economy/cache/f50ad0462110fe3c9968c7c0fa82142cd9f7521a80cea01524d6cb17078e5ce0.raw",
+      "bytes": 5394,
+      "sha256": "d5cc0974b64228c32c7203dfb60211de8b0ed40e73471f8b2da340195f6365f8"
+    },
+    {
+      "path": "work/data-round4/economy/cache/f5301e33c396f49645524caacfcbeb6d917a8fc0b24ff5c1f81d41cb6b6de5c1.json",
+      "bytes": 1471,
+      "sha256": "f521bf8f15d3f0877b2bcf5ee8d223437c286e0fab81dfeece2842056ddd1c0e"
+    },
+    {
+      "path": "work/data-round4/economy/cache/f5301e33c396f49645524caacfcbeb6d917a8fc0b24ff5c1f81d41cb6b6de5c1.raw",
+      "bytes": 6893,
+      "sha256": "b48a2332fa4916c9e5703c9ce5a4271d688dee408fd6f304c71aed391b4e464f"
+    },
+    {
+      "path": "work/data-round4/economy/cache/f62665027c8e6e0303fc141ba0cc0ec62ed1586dc486b103966cc35a6018a7ba.json",
+      "bytes": 1483,
+      "sha256": "4688adafd14a910452878916bb8b7c512b8d37249b8871cf57dcdb32efdbbcbe"
+    },
+    {
+      "path": "work/data-round4/economy/cache/f62665027c8e6e0303fc141ba0cc0ec62ed1586dc486b103966cc35a6018a7ba.raw",
+      "bytes": 10929,
+      "sha256": "8e77e5bf0f9c8e3877c8f0ddd5c9fcf283eb51d21be1341fc032f888f25b4f1e"
+    },
+    {
+      "path": "work/data-round4/economy/cache/f8ff1e3c59727c04f88cd61acdad94ab8c5a4fd86131b12bebd9496e39057a93.json",
+      "bytes": 535,
+      "sha256": "08f36e21dae27bacc161ef736de8748e820f9e8bde568d792cd1a65021e5b21a"
+    },
+    {
+      "path": "work/data-round4/economy/cache/f8ff1e3c59727c04f88cd61acdad94ab8c5a4fd86131b12bebd9496e39057a93.raw",
+      "bytes": 47871,
+      "sha256": "bb372016bf6ad74d9d30d52e599f911f2a2ef7ca309f329ea6d32695615621ed"
+    },
+    {
+      "path": "work/data-round4/economy/cache/fb87dd1f76c791d5658fbd1c93d97f10661f8babee7ccdd0e8738e89c1f5ef25.json",
+      "bytes": 535,
+      "sha256": "d6d9b3561827f9c08023b025bd2d13bc18580d5f3e9be084b4efb5e64144c089"
+    },
+    {
+      "path": "work/data-round4/economy/cache/fb87dd1f76c791d5658fbd1c93d97f10661f8babee7ccdd0e8738e89c1f5ef25.raw",
+      "bytes": 47765,
+      "sha256": "760c5904fca5f23b968e2a2009380466106bea6a9d43547287ba4c70c5d10425"
+    },
+    {
+      "path": "work/data-round4/economy/probe_sources.py",
+      "bytes": 3050,
+      "sha256": "e1fab72649c057353c0edc8ff4c1977f980802053adc9b3309b070ee739366ce"
+    },
+    {
+      "path": "work/data-round4/economy/probe_inventory.json",
+      "bytes": 524899,
+      "sha256": "de326f2da3f875b4f0092efb2793f69e4bdf7907971e0d052fd5b8945bf521da"
+    },
+    {
+      "path": "work/data-round4/economy/finalize_round4_audit.py",
+      "bytes": 8083,
+      "sha256": "fc013b89a1c66829c4bd56c9d52e7744537f5f7833fbfd7a1b374391a838e404"
+    },
+    {
+      "path": "work/data-round4/economy/methodology/bdmo_met2024.docx",
+      "bytes": 162482,
+      "sha256": "73bb0909bbc4a0b4ff1d19c0a5113b0bb59934cbbfb739544641ea2e5a7eadb3"
+    }
+  ],
+  "source_allowlist_sha256": "428728d7d9253cbc5b92d85196f2fe386ed2791aaf609d89d290c1467d54352e",
+  "packager_sha256": "5bbdd46528947d3ee96db825f6f337e3cd0e7391411b13fb3312833a4ebb5c6f"
+}

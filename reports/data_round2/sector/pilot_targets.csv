@@ -1,0 +1,13 @@
+territory_id,year,source_region_url,source_oktmo,official_oktmo_8,code_reference_date,source_oktmo_name,temporal_review_required
+318,2023,https://rosstat.gov.ru/dbscripts/munst/munst98/,98615000,98615000,2023-01-01,Верхнеколымский муниципальный район,False
+318,2024,https://rosstat.gov.ru/dbscripts/munst/munst98/,98615000,98615000,2024-01-01,Верхнеколымский муниципальный район,False
+331,2023,https://rosstat.gov.ru/dbscripts/munst/munst98/,98637000,98637000,2023-01-01,Нижнеколымский муниципальный район,False
+331,2024,https://rosstat.gov.ru/dbscripts/munst/munst98/,98637000,98637000,2024-01-01,Нижнеколымский муниципальный район,False
+883,2023,https://rosstat.gov.ru/dbscripts/munst/munst10/,10642000,10642000,2023-01-01,Свободненский муниципальный район,False
+883,2024,https://rosstat.gov.ru/dbscripts/munst/munst10/,10642000,10642000,2024-01-01,Свободненский муниципальный район,False
+925,2023,https://rosstat.gov.ru/dbscripts/munst/munst12/,12630000,12630000,2023-01-01,Красноярский муниципальный район,False
+925,2024,https://rosstat.gov.ru/dbscripts/munst/munst12/,12630000,12630000,2024-01-01,Красноярский муниципальный район,False
+1180,2023,https://rosstat.gov.ru/dbscripts/munst/munst27/,27725000,27725000,2023-01-01,Светловский,False
+1180,2024,https://rosstat.gov.ru/dbscripts/munst/munst27/,27725000,27725000,2024-01-01,Светловский,False
+2527,2023,https://rosstat.gov.ru/dbscripts/munst/munst45/,45366000,45366000,2023-01-01,Куркино,False
+2527,2024,https://rosstat.gov.ru/dbscripts/munst/munst45/,45366000,45366000,2024-01-01,Куркино,False

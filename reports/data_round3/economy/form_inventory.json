@@ -1,0 +1,3453 @@
+[
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst01/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst01/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "88e5b004bc69b49a0adea06d1b9548f2f9897c0b474d93538dbc2ab44535a5d4",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst01/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:24:44.908244+00:00",
+    "raw_sha256": "ad6ffbff1dababb6d6da650709fa665e46749131ced4a21fb92590568e80a788",
+    "bytes": 90497,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst01/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst01/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "563c30dc3b8cd56ed5d935bdeb91798fb940bb2f7856d6e961e1c29827c8c9f8",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst01/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:24:50.988515+00:00",
+    "raw_sha256": "d9a941ff532fdf0c8b7c6dcba067c47184ab79c2fce3a41d14b1a7409a09fdc2",
+    "bytes": 53673,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst01/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst01/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "d91363ce4d108f2b7d029fc0902dbfaf60d1836a6909fb51360665fe9cede51a",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst01/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:24:53.909114+00:00",
+    "raw_sha256": "761ac26be09d18fb5b29e5819fb24b2d8e1d6dc8b591460af8f916bac32b21c1",
+    "bytes": 51990,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst04/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst04/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "0a119a0f3a2690dbed74e7d53e343edf18bff346cbd86d392e543049dd715728",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst04/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:25:01.479596+00:00",
+    "raw_sha256": "805bb5fa369e2e5b25d70b6cd514cd72b45cced87011f9da1c4cfadaca1a11ad",
+    "bytes": 82097,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst04/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst04/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "592eb34ada76b1f4b1b1e692a9388738ea80386d845948e9f871393144f47d52",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst04/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:25:06.129123+00:00",
+    "raw_sha256": "f360a2a2cb5a794d8a08c909eb73c2dab4a493ce40c5953009043c2e729b064d",
+    "bytes": 54784,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst04/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst04/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "5e0aba18487b60924079c791eb042309c64491f35d456f7efafc532ea09ae6f5",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst04/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:25:10.305706+00:00",
+    "raw_sha256": "d38d1b1b8bc6f89aba7170f26f55d194750288be4410ebc67cb9336c804c5c26",
+    "bytes": 53211,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst05/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst05/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "d601df7b54014db62933947f39c38fea27dd574756233d91ebf16fb9d25a426c",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst05/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:25:16.315650+00:00",
+    "raw_sha256": "95536b24a4a1e333025bf0695aab4fd4b00a2157de97c100b5d6fc68705b0391",
+    "bytes": 62362,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst05/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst05/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "8ca9c2382fd10bfb221b17f5339e243a14ed630f7156244fc58270cd625243b0",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst05/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:25:20.183200+00:00",
+    "raw_sha256": "a5eb825faa5f6642694c9d56841d6126a03c1d9e86f43b6f2fff9002c74249b6",
+    "bytes": 50128,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst05/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst05/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "fb87dd1f76c791d5658fbd1c93d97f10661f8babee7ccdd0e8738e89c1f5ef25",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst05/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:25:23.429651+00:00",
+    "raw_sha256": "760c5904fca5f23b968e2a2009380466106bea6a9d43547287ba4c70c5d10425",
+    "bytes": 47765,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst07/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst07/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "5b80bb6e747af7ab54cec75d03ebbbda4d7fb3f0bc14306db2d681cc00c021a8",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst07/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:25:28.616765+00:00",
+    "raw_sha256": "8bde40dff8b9ac0c2e372283a26168909d6a56c34cbaffc140ba6faf23c06586",
+    "bytes": 78696,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst07/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst07/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "814255b58ec5789463a829223dfb4690d752155e94be28ef4386ee3669909833",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst07/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:25:32.046552+00:00",
+    "raw_sha256": "340ea522fde5ac80d99d11a53580e2e46011b68d0218961e2b30ffed83c34ff4",
+    "bytes": 50863,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst07/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst07/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "0e1d4da7515fbde3687e3fcae559b7cfc15aaa9a1b9173639f035e8b8267bdfd",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst07/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:25:35.115489+00:00",
+    "raw_sha256": "336b4c9fb090d775316ce2646c7a49ed2eed41ea28d5d35bca8a2615f3a24b91",
+    "bytes": 49543,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst08/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst08/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "1623f263c87da89e9d9b4fd037846a698ecb9bdedbff88f32ce38cd31d41dfb4",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst08/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:25:39.697239+00:00",
+    "raw_sha256": "a113e3a3b9179d5a6f42a4bc75ad0a54c77d11dbde1197c4be88a5080cb56599",
+    "bytes": 56638,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst08/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst08/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "2fcd4e56d295c08943140b7a0807aa9477db842f81d23144a72616400d9e5484",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst08/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:25:42.757901+00:00",
+    "raw_sha256": "b0932d2662a17be45acaab106688d95014c76f37033e67bb997c221323ca3a0d",
+    "bytes": 46653,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst08/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst08/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "daaaf7ea271f9b80d8ef0b014b8250760b5c63b315c679ed458a564416cc76f4",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst08/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:25:45.548232+00:00",
+    "raw_sha256": "c5fa127b1514e129d6900e06bcebda4b9ba3e25b8640f793d34d0ec0abd0e8c7",
+    "bytes": 44580,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst10/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst10/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "65071b26e695e417edf1ea97b49eacc3e7fa38c6b6d3260073aa54070e428548",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst10/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:25:49.975020+00:00",
+    "raw_sha256": "87f784a6f68e7600589f6f4e3ea4711c1ce6f9b48e8b8ecfdf656a9f9333246b",
+    "bytes": 71293,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst10/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst10/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "60a9ca26240cc3f277d9bc19644efbfc008ea594652c48df820d13d190cb6942",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst10/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:25:51.200252+00:00",
+    "raw_sha256": "f9eb48a3837a198b8853be44bb0a5033af4c3484c316187dc2dae434e53f6f3e",
+    "bytes": 48670,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst10/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst10/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "5a5a4f265bb901874eaa35f03c9c64a1c20100ac22ee25f16d70e927d0d09f30",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst10/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:25:54.360187+00:00",
+    "raw_sha256": "9de49a4d0af8e33ac6fff0691064b8a3ba00534b2d2346f15b839ab19d864ad2",
+    "bytes": 46362,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst11/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst11/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "19ac2c1b723dd9ed731d9af2667433aa142caab3b5ba5e89fd308130ad66c503",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst11/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:25:58.634778+00:00",
+    "raw_sha256": "fff84806dfe80d356f2b6540371d1a31ae88bc701dd8ee268a225499c2174fd4",
+    "bytes": 62299,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst11/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst11/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "e21103ef3e1a4dbd730ffbc123e253a79049e0a2af7eed412f4fe9d04bf960c8",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst11/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:26:02.197642+00:00",
+    "raw_sha256": "99e929db3dc463bd69fdb523b4ee2423d9b7b6e92ee49355f2faa3ed5ca19860",
+    "bytes": 48981,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst11/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst11/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "15388861a338ee556c78ad5aa44f3ffc8edc82bb2c3424bbf5dd687d3f1ec18b",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst11/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:26:05.275953+00:00",
+    "raw_sha256": "9db783884185153ba817d2bba575f519c525eb57e9adc26d76219912bd0e307d",
+    "bytes": 47442,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst12/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst12/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "7e91c3a6d8d9c8fda2a8aff08981133f4529605779d1626060b3ed657ce5f747",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst12/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:26:08.761251+00:00",
+    "raw_sha256": "20138a9f14279f549f8ed0755fb931d04fc78fa8927392645d49ccee76d54ba3",
+    "bytes": 57759,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst12/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst12/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "11ca863aaaa49b10833c3d25b35011097c1c467a7f69d3498c95d8634ec9c1d2",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst12/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:26:11.415795+00:00",
+    "raw_sha256": "f64827dc18016b8a7ef5c56f8fe4693f010e554db427906065f8753257f7511c",
+    "bytes": 45567,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst12/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst12/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "1917836af6e82ae1dcfb5ccde6acdd225eece3a5da6375e2bfbc68ff4e1fd56a",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst12/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:26:13.925850+00:00",
+    "raw_sha256": "542e26e54cd583a25a1d88e81065df4e089d783efb9121575030dcd489cd1994",
+    "bytes": 44463,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst17/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst17/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "58a45e9f188e849e4dc99f53d72f7f5207bb717087219ecf4f3ca671bed38869",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst17/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:26:17.836573+00:00",
+    "raw_sha256": "4bd3e0c79645fdeb868873156f9b7045ffdf2af13154f498894b28b842df1b28",
+    "bytes": 57193,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst17/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst17/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "92cd1a7d6f964a1c02b3ebb77db9613fc506605993e52e7022e15f8407130469",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst17/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:26:20.917085+00:00",
+    "raw_sha256": "f7f0a5def05124fca3acb54529ad4277df53109f543d47039137f2b9432f4ce0",
+    "bytes": 47588,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst17/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst17/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "70c7bff94a8ee803cbc466259a4645d9167b5b96cb733fab84d8d1ac911e8b8e",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst17/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:26:23.757249+00:00",
+    "raw_sha256": "354ad21b25e413126f550e33f8cc437fed93e4f4f901d7133797af4cd264b715",
+    "bytes": 46212,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst18/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst18/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "63968d04542e10aecaf77824bed02e8eb3daa5043fb05814773d3fb229db96c8",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst18/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:26:28.452923+00:00",
+    "raw_sha256": "35052b4fd6c4facd199d8503c66e833fac0cec740a9e987827f972df9f7c7ed5",
+    "bytes": 71915,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst18/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst18/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "23dce722b7ab5df55ffb06def807d058e9181e60c7e4cdb7f3be2004bbc3aa36",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst18/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:26:32.062692+00:00",
+    "raw_sha256": "f4b2a72633a8b9684f6e30d9c41bd28ef2e21069f8405c4f17d974d65b0e5d69",
+    "bytes": 46308,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst18/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst18/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "6e9b79319acfb0dc479e5dec0545614a1dbf283577a0397a30157a063f451069",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst18/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:26:34.742714+00:00",
+    "raw_sha256": "ba0db4710145b90e491ab4da595792026e6f4d91db1e8669cd48f01f1d2c613d",
+    "bytes": 44590,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst19/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst19/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "4cd7115e408487e3676adb89c74bc0ff7628c6e633c763985cb3b1d9d4bce3ba",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst19/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:26:38.990396+00:00",
+    "raw_sha256": "99f52d527326a84832a335d20281d57804120a71db0c5ab79794456fb5be4042",
+    "bytes": 73952,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst19/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst19/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "0b7293d08b7a7bdd917faf75aa2964220bd4c98a556bf405542f65017fed32f7",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst19/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:26:44.227433+00:00",
+    "raw_sha256": "33b58901d599799130395d6d9cc955bf7d355ca2ee2a8531747939936f584164",
+    "bytes": 50463,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst19/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst19/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "eb058deecada71d49267d6b380a08e2971c5fced1f9ac97ae939d77f4a847137",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst19/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:26:47.674944+00:00",
+    "raw_sha256": "facf41a48ac530ef4eb2f18c000828f7d8d7416bf268a184e7925b3f60ed95e6",
+    "bytes": 49023,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst22/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst22/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "b88c2008c4dcea98455f2fb3c26345d32433ea8e7158cd744a037e6129b58f92",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst22/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:26:52.098383+00:00",
+    "raw_sha256": "3123402742821c12574401d3d95411c87b649ad4eadd7bb2a788873cf3b01c64",
+    "bytes": 90386,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst22/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst22/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "cdf3136b88c20059387f4864f5dd91712b97313123b4dbe65c3274547af1c2e7",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst22/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:26:56.363521+00:00",
+    "raw_sha256": "dab4dc71ef27e64bcf8a10342ea8a2257e66713bb456b4334eb889e1353d0134",
+    "bytes": 53499,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst22/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst22/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "9609ac4463ec5b79cde664eebb8d78a576752c34bd652914670bc2f78ece307e",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst22/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:26:59.478303+00:00",
+    "raw_sha256": "ce93eb97aac94ec8a0d128b079486c9b0d26eed0a8e0b603a624ffd7eb1d2cee",
+    "bytes": 52920,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst24/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst24/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "45578173be6728b104ac7b155b229edd376771ed8d8c729798d0edcf2618b794",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst24/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:27:04.001982+00:00",
+    "raw_sha256": "7d3f8ef7ad368cc3e902f2683ad420394d4e6f13d0b82dbed50a67e3fc423d4e",
+    "bytes": 53824,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst24/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst24/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "508169722e8870e79dc23e182e6c423a3906d776828b58ba2f93d82e7b301b6f",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst24/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:27:07.140716+00:00",
+    "raw_sha256": "e3e2b0a2b5e4c7229e808c2112c935017566dc349b18bc2240006966489a743d",
+    "bytes": 45863,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst24/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst24/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "ee2dac09d2d2d259bf67ef4a9501c9f9748020d3cd9fe87f71010af4ef5a3487",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst24/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:27:09.584552+00:00",
+    "raw_sha256": "bc9f025ad509405551ae93ab214be42061e1bd76397fbadbc353869af2fc392b",
+    "bytes": 44546,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst25/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst25/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "e961e47c668b265cfc686e6058855e2bfe5b789d272b89398628319a8e36a9ac",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst25/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:27:13.710408+00:00",
+    "raw_sha256": "b5db5ce7bc21b01ad23049cfac3ed10a85c7262d0a3792e59e49af90c4b8c12e",
+    "bytes": 82502,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst25/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst25/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "f65df517ffc021431cb20e22145fc1b05c6b33779f411f24f5ff6e57341b0b94",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst25/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:27:18.070078+00:00",
+    "raw_sha256": "52e752aa0f766509d2404fc108129613c6d30a0833501e91d0f6fae38a1c8387",
+    "bytes": 50141,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst25/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst25/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "0bb394aa7a35d9b732120b2925aae65538921aac6880c70f2b8977b3d3e8806a",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst25/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:27:21.370020+00:00",
+    "raw_sha256": "b5fe5982d338fc14fd1d3d3830076403290bda3dcc309e0c3517177614c80ba2",
+    "bytes": 48845,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst27/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst27/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "8c8de6d8b1e4766a5c04a7a611242e6417b00d08e1d2ac36a50c41bbda582d0f",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst27/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:27:26.419076+00:00",
+    "raw_sha256": "df736410aaf5b9831cac4f86fbb9e8da9844b835626d434b803252cd81dae223",
+    "bytes": 50028,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst27/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst27/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "12c8e8bce4214d29bcba1267ecbbdd47a31fa58d02853059f7b9c04fb1df0c4e",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst27/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:27:29.054528+00:00",
+    "raw_sha256": "6a013e6c660461068fdc4f7eb869f8e52ff6f57420458212575cc502c3830ece",
+    "bytes": 44633,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst27/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst27/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "f2811880e21a6dc8035ad3f0df01fe74d82157b26d0f0de162bc434bde49dd36",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst27/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:27:31.601247+00:00",
+    "raw_sha256": "92a2e443509e54cf12e47f6d3eb6d927f022bc2521833c88697e31f451b60f33",
+    "bytes": 43849,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst28/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst28/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "13f583e51bf32d9babf6bb0592f8d52ce4ed0a4c2f760a22a6878181099d03a4",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst28/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:27:36.000049+00:00",
+    "raw_sha256": "86b2d8978ae961792d6bebffbf4fe833b2b2f8f7e1fff02c6deea4630b05592c",
+    "bytes": 68487,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst28/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst28/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "0937a794194a0c293df23593347dd881ce684fef12a70ac99ad835754e3b226c",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst28/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:27:39.711009+00:00",
+    "raw_sha256": "9d0946d713f90b8f2850ccee3e2d429fd51f5d7e206ae80eabb13e6663482bf7",
+    "bytes": 53178,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst28/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst28/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "22b693bc7ee77319fe0a55a56fed24ac609e1d60ac7b6ff83135307712cd32f0",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst28/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:27:42.927976+00:00",
+    "raw_sha256": "9da6c458058ca94206e9cce9e6d337a52e2b0426247aa49229a1dba303781ae7",
+    "bytes": 51441,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst29/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst29/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "866264dc3728bccc91d03138b8d84d394a1bfec032304c593449b1d64a4dc032",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst29/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:27:48.162010+00:00",
+    "raw_sha256": "8b61f944b96d610e41b68e924ab85311f3e1d7f6d59e140ef04f10f22914dde5",
+    "bytes": 66062,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst29/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst29/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "3fdf81c023c3f0e8ed8ae0e29693743128e0e75e7d70cf9024ed691785348172",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst29/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:27:51.532984+00:00",
+    "raw_sha256": "48085b70802c0f5c4dc3155af5699995463b3752339d5e676efd25e266607b4b",
+    "bytes": 50093,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst29/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst29/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "ec6a91c8e9b2bbc89e5eeb8c520275110061211a9055516d36b5dc7b7c684899",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst29/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:27:54.845589+00:00",
+    "raw_sha256": "03fa370b900bdb2b3ae430080203582295d4bd7da4fb92070fc1e5f4a145966a",
+    "bytes": 48830,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst30/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst30/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "364f11f539d022c983dc6a9f6d928bfe416fa53678555c165dca8e7c6972261d",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst30/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:27:59.769842+00:00",
+    "raw_sha256": "fcb8ac4e3480fbf84aa39d118f4ecae900a981eb5fdb55e195011880d37b6f04",
+    "bytes": 52973,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst30/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst30/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "b2ff73f4d4c6f5ca406bee5da5fdca03d3a5110c7f178b7c6c52dc9026d4b940",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst30/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:28:01.000228+00:00",
+    "raw_sha256": "756575688aac812396dd34e9fba70e7e53ad70e9b903e9b6185135942232eb16",
+    "bytes": 45941,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst30/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst30/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "ca0162b077191ce4f52485eeab11919d753ed1dd174deac6ebe02e5d747546e5",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst30/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:28:03.677529+00:00",
+    "raw_sha256": "6f3981b39f5eb20fd90926c119d9fa25758b0e4ccb7a9c4b73381ff8f8d88fd4",
+    "bytes": 43231,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst32/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst32/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "f3a5ce8f60eca7bc2883e36566223e80e5715704ecacd09fbf53c6e893eab0e9",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst32/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:28:07.590240+00:00",
+    "raw_sha256": "644a56886ab08ce1171743da08916218b7a26643354fb14decaff41c243dc05c",
+    "bytes": 53293,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst32/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst32/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "249d72ed6b01b99b12e126a992dc04a934fce85ad694ba64d555a45ebfa482f2",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst32/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:28:11.135989+00:00",
+    "raw_sha256": "6ec18f531c19a397518c9a3605c397939a254503b82148a0f4623520dff6069e",
+    "bytes": 49515,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst32/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst32/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "cb960fbe50437c95750bb8d5c53a78d539edb4fb64ed42810ac695ecd9187c0a",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst32/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:28:12.356069+00:00",
+    "raw_sha256": "b613a536d6a74d79bc2c2468e9d3cc9466d9c48c720ba0677cae4875affdc0c3",
+    "bytes": 48618,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst33/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst33/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "10c4749347020d069079303247e664eede3fbedd39be79136a75abb5347ca340",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst33/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:28:17.615138+00:00",
+    "raw_sha256": "9fbcf917b4c9d7d40e674b7d66f336a11ab449b81c7efcc00c2016e0eae696a9",
+    "bytes": 77548,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst33/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst33/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "374feb7ce1fd1706c720b1d154d44d373c283a974a73e0897fa2a1bc29a5d260",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst33/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:28:22.312679+00:00",
+    "raw_sha256": "0606d1c0bc8c685e740977bc14d5d2e7cee7ed5393d8c6e727afbdababbbce16",
+    "bytes": 51457,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst33/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst33/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "417403d21c5b35ae3470cbe0d705fa58d616cff940844d42562815f2e6830991",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst33/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:28:25.850389+00:00",
+    "raw_sha256": "354c1b8407ceeeeeec54cb6beacc8016552be02373b3ec6da2bdbb48b77a2e26",
+    "bytes": 50210,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst34/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst34/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "6885cf38557c413d71f49aaa7aeefd9060b6b40464f4314e4675c362a8f44c5b",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst34/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:28:30.973569+00:00",
+    "raw_sha256": "826637d59cb1925573c9d4aa2ad0ead6f11a08d51642ee634a95b609cba47f4d",
+    "bytes": 61254,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst34/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst34/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "c6de5d4128b3e30eb264fce019a9f4ec8e307d2550baa0b447e71b26542abae9",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst34/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:28:34.725741+00:00",
+    "raw_sha256": "254690f935b688edac37ceec36bbfd2f21639bed2014414cc979a24e5f65cc0b",
+    "bytes": 49801,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst34/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst34/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "113128478c6f86ca7d413de3804556d93f227a76af5b7768e015f1e2858c324c",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst34/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:28:38.041898+00:00",
+    "raw_sha256": "0f935050c820c59e65dc4551ba7c4b4a0cc97f43d29c2301ab110d97952c43a1",
+    "bytes": 48270,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst36/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst36/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "a65668dbda66affb7e1c3e1bfa51616d1954e1df09983fc9152277266a2748a0",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst36/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:28:42.896228+00:00",
+    "raw_sha256": "667a15a021a4548d2062296fbdd7572bc54fcca71256475ce360acb28439ba6f",
+    "bytes": 68286,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst36/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst36/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "f8ff1e3c59727c04f88cd61acdad94ab8c5a4fd86131b12bebd9496e39057a93",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst36/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:28:46.737961+00:00",
+    "raw_sha256": "bb372016bf6ad74d9d30d52e599f911f2a2ef7ca309f329ea6d32695615621ed",
+    "bytes": 47871,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst36/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst36/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "a70be7c3ff88ba7b27a9e8ba3df6d4e761a8a8127a60a0ebbb5982822a733391",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst36/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:28:49.598021+00:00",
+    "raw_sha256": "ef68257f9f513eb8e72bb9d2256dfba7debcf9039024a9dc82e322565017d80c",
+    "bytes": 46663,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst37/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst37/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "ddf21b95ddff76ceaf5fdf2cbc9893cc9c89b26c1600da1c4ca2453d7ac3252f",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst37/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:28:55.051900+00:00",
+    "raw_sha256": "d3b52bd898061bab21b832bff7b06734a0d01e8699bcb3ea27752e62fdd4440f",
+    "bytes": 78255,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst37/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst37/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "f79e888ed62d3fc68f28469b21bf913a3b55fd1fb5f62182092e1d4f29b28deb",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst37/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:28:56.284834+00:00",
+    "raw_sha256": "39047554c35525b5d5a0f2acf945bf3a65f32fc85161861a4f24589915105950",
+    "bytes": 49732,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst37/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst37/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "f1419901dfe59feb008ce449430b80cd439668dbadf17b4bd699efb6a06314e6",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst37/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:28:59.804333+00:00",
+    "raw_sha256": "c7ff9f8ff60be216a71df9c5fe2a314ade1bca49c197fa165e32fd7c5e4acb4e",
+    "bytes": 48658,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst40/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst40/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "49e3044ba8deeb02167ea1828a844d0b6e7ec6ad61bab28141508a7d1a2600c5",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst40/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:29:04.258930+00:00",
+    "raw_sha256": "5e464ba0ea4cd93bc57111fc9fb7f3c177dde0fcf3413edec01ab78f9c55dd68",
+    "bytes": 53668,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst40/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst40/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "e98adefeb4c6d5b08e47f507f6caba7f5d1bec0ef3e63311495ddd6c62bec8c7",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst40/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:29:06.666053+00:00",
+    "raw_sha256": "75aab660ab5f555f7e7a2fad54d5528b15554d2800a484ad34d99a73d1c4ff34",
+    "bytes": 50888,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst40/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst40/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "c46a6f71d07fc4cae826ba85d959263fb465b1a9c3fabf8ab3b802acfab2d2f4",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst40/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:29:09.070003+00:00",
+    "raw_sha256": "10129727926e6bc3f6a9380bcd3c9e71340ff5e9ac4a4e247fa02b9a4270dfcf",
+    "bytes": 48797,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst41/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst41/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "7668bec5ad9ad8290ad2e398626a65e089ff79ad7aad6bbc4ab209ad94bd6b8c",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst41/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:29:11.984549+00:00",
+    "raw_sha256": "ad761343bcdad0327329b28b1d7b187d5fce84dd1000d78ca31634597086cde3",
+    "bytes": 61926,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst41/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst41/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "190af225c56579247a87a2f1ba2be9b4ccbb522b496e5165d85de97e1c6b931f",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst41/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:29:14.774809+00:00",
+    "raw_sha256": "8e011517794dc48e3d47a16aea89a4e75f17a2626c7ee6ec30fb47fde9c82ffd",
+    "bytes": 45904,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst41/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst41/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "cc532251b36a6dace2e27be10171d4fc866e3ac15732e8e87b58f314f9efac74",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst41/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:29:17.353630+00:00",
+    "raw_sha256": "766fbd580379d26bd3838a66cb2a0e9794c99c7fd535722b2460eb456a546094",
+    "bytes": 44661,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst42/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst42/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "35df5aee3b31b5b8591b3a185ea73ab7492bfcc97539ea0127fb8b4cc26a2874",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst42/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:29:21.717220+00:00",
+    "raw_sha256": "244a640f58759ac5202ba7722dee4bbb73019c1971b9e21477414b1c9fef5457",
+    "bytes": 50072,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst42/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst42/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "e26e912db9eaa6362cd941670db6b7d0bf00f7faa6c427026729b3e1afb8619d",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst42/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:29:22.925706+00:00",
+    "raw_sha256": "72b3095d9090fce989ae24710efd956105e61cdc0ce98577743cb0391ada7332",
+    "bytes": 48228,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst42/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst42/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "10c4254e5eb615cb47d1bee48441edad630b9363ccb42430320acbbc604ce4db",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst42/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:29:25.918917+00:00",
+    "raw_sha256": "b48dc9c901500a3525e82f952a4df2c4c05603e058ebffb7372eb7b4fec242dd",
+    "bytes": 46971,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst44/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst44/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "58e8bfe75779a8a996a986d83eabb2f88e781651c01256a81c0b097f2679865a",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst44/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:29:30.909004+00:00",
+    "raw_sha256": "0f9a2eef46cf710af9e051304adaa965f1f212d8490e2539af9541fec5523908",
+    "bytes": 51713,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst44/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst44/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "f40c8b9091cf8dc3004810bc7341647818d6e6271db458a12ed513706fcd5197",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst44/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:29:33.876409+00:00",
+    "raw_sha256": "3c6bce39dbc79059b0949b0446d123a89d09e76aebe1582868749915726a5200",
+    "bytes": 44606,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst44/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst44/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "9df1c9355fac51c30acbd6af646cc7c1c7fc3001058178f3026e4c89d3e6535d",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst44/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:29:36.332984+00:00",
+    "raw_sha256": "4fa5ad64910f0a0f4a0a0a34f4be44eb73dca73ef881645f28bddbe7cb9b0885",
+    "bytes": 43467,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst45/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst45/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "23258186c93c306399e814b976d493505dea9b831fa90a0a98e63ce43c64d5dc",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst45/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:29:40.753306+00:00",
+    "raw_sha256": "62d1776b8803e648abad4c89e2fcc9d53a82c8affa5dc39994d843939c1c29e9",
+    "bytes": 54087,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst45/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst45/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "f52ba73580a1c1e62aca5de67bcd60839a147301d8ec08819faaab61f7010418",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst45/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:29:44.238732+00:00",
+    "raw_sha256": "b7cb225edfe73b2d7ccf55eefd35252ebb1d63a4b35061910ebc5c18a40baf99",
+    "bytes": 51039,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst45/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst45/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "5da68e093f4fc9222720c40bd0fd4c732ffe46104257c57635af293937b61ee9",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst45/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:29:47.710943+00:00",
+    "raw_sha256": "1cb2c840814304295f6c69122d33f23a1f5623471e00b2b847dae9cfa8e3694c",
+    "bytes": 49792,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst46/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "db9f589f7fc9efdb04de857cf8dcf01fd6c4030b4c9dc231fc142d423be7bf7f",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:29:53.224173+00:00",
+    "raw_sha256": "81cdb791e51d9284fedfb855857de8db5b35d1f61502b9ab08a557ca31d4a153",
+    "bytes": 82299,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst46/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "fa013a4bb56ad935dc14a8b7f8a369df6f316c6e9e29a9e1efcdde12f33b5cc5",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:29:59.250563+00:00",
+    "raw_sha256": "e0945ee7f43fb0fedcf31effd324878bfc4d5ad42930a1cc52eba71c50fd4b9b",
+    "bytes": 49530,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst46/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "568cf7b5eb05c45386cadb046a62fa84f0b73cc506f2ac21be4dd2729478a3b8",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:30:02.046866+00:00",
+    "raw_sha256": "42442331a1649c9278edccacaa80c807d63d8c35855330960b04e267208f52b5",
+    "bytes": 49266,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst47/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst47/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "8e9bde53c03b69af6433159afec1d55aa47933ded6630b426511ebd92cd8f0bc",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst47/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:30:06.182586+00:00",
+    "raw_sha256": "2c4ff3e29a929f4e571f5a4d96742a01617f8cc9b0a92579d8f0033cb6cc5b2e",
+    "bytes": 49373,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst47/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst47/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "40e611667f9d39722375b41d4764a28bac30edc36a8d0d4aab9d034517933ace",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst47/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:30:08.671973+00:00",
+    "raw_sha256": "b22a1bd9592be9fec480aee7ed76bb4512c405a8b11812009000c3032bba2b28",
+    "bytes": 45603,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst47/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst47/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "6f7593015538c7855dbbb166518ec0411d90ed168964bfd1f944befa6f83bd81",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst47/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:30:11.087541+00:00",
+    "raw_sha256": "774ff2ded574353ebdeb2cc49677ce9f38639f540d50dd93435b5cc96837eaf7",
+    "bytes": 44042,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst49/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst49/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "7882b5cf486e39edee31aab2c567af941a62fbd2bd0b01bd5e3c1201aa91466f",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst49/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:30:15.418251+00:00",
+    "raw_sha256": "9d6327330d29e5efbb23d2060fa8e62d370b0593c96df33adee0ad75b97137c9",
+    "bytes": 63896,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst49/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst49/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "2a9352f9d244f9c8b16aa1d842e2e03229dadb62fda91ac8fa96fd4232350600",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst49/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:30:19.073625+00:00",
+    "raw_sha256": "9cee1fe997ec9b795b344187a922bb58d55c89328aeaa53eab4b57276ead1f12",
+    "bytes": 49947,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst49/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst49/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "fab547ebbb196d8cf7517d0e545fab207709e099e56adb486a458969d7c62698",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst49/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:30:22.355030+00:00",
+    "raw_sha256": "786b766acc26278c39689cf2245c0bd863fa08d4de828d17867f3c9cbf304745",
+    "bytes": 48849,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst50/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst50/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "fa1de24c280d6db87e50257bae64a0ba398ae48b71c34ab220d27738a88170bd",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst50/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:30:27.434665+00:00",
+    "raw_sha256": "f9e97e0dadb891ea960c3fd42ee00ee670892eb2a0f9f5c482b098b4a6ba8015",
+    "bytes": 81763,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst50/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst50/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "ebb1675f9c118c03ca1be1e0ff5f05afeefc523603330aa5c08bdbe64cecc478",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst50/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:30:31.236210+00:00",
+    "raw_sha256": "f1a1a905741977e235f48f1d5ed1e5454186ce5caa1438826538f71e2d0245fd",
+    "bytes": 49678,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst50/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst50/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "6047a553dd91d39d7d1cc15e8cbf0cc458c357cfc335ec6151dfc1404fc47f57",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst50/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:30:34.513645+00:00",
+    "raw_sha256": "3d413de958b37001a2589eb64789aec98ff9bfe4033357daa860c4f3f97cef2a",
+    "bytes": 47985,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst52/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst52/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "224777a6ba1e72139cc79634fc77ed8608518ffc2080b526970b9c77a57c1011",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst52/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:30:39.697643+00:00",
+    "raw_sha256": "aea1336bc52dbeae3c6355b701717b3c812770d0f62744e2ef74e527212d8d3b",
+    "bytes": 60085,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst52/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst52/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "6a5fb1764cff3d956fab236238d0cb59be68218d01dbfe9b89f0e358662d703e",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst52/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:30:40.918401+00:00",
+    "raw_sha256": "cfdf504f54b913279060630b99f6a6a29252bab2e13bcdb5e6303691cac3728f",
+    "bytes": 47835,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst52/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst52/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "4427d4f2bbe4b10c78dc23670747ca48d16ea2170f21ed0dadf28869c9f7dd93",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst52/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:30:43.382852+00:00",
+    "raw_sha256": "ad68bc8ec0a75b5ca38a9655102ed3fb1c8abb8b6a3ffb8921c0301240324eb8",
+    "bytes": 46480,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst53/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst53/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "dd344f21a52b8bd36c39f70899ce78f3b76e205c4d146d5a9f18db8090dd03f8",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst53/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:30:47.715915+00:00",
+    "raw_sha256": "512ce39cbcb9b81b7b4cb2020bc1b3705a1ac6d9a6fda13099c82eb3e02bc5ee",
+    "bytes": 80320,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst53/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst53/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "83c9caeb88be133353efc42385fa805f0cf73b6f150d53cf41e90944014b1ff1",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst53/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:30:48.943107+00:00",
+    "raw_sha256": "0ab78844da25643298ad7c7f5e79eb1471fcd9348c6a77eae962d23f7bbae357",
+    "bytes": 47982,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst53/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst53/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "7c719cd5180812628b174c4a078de08e0f1937c644132a1f8604dbcc63bba51b",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst53/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:30:52.103081+00:00",
+    "raw_sha256": "ffc14d8ab7c1c3981a14215974e26d8833c28bc5f7085984d10395c44ee428cd",
+    "bytes": 47035,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst54/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst54/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "7db3e87e38a17bd302f3081ed41e867476993681dcb5e601bf8e455eeb2e4642",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst54/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:30:57.361600+00:00",
+    "raw_sha256": "7002517d741f0ea50318246625aa7f4a833658e62bf36a23aea9ae94090999e6",
+    "bytes": 64700,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst54/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst54/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "09b130b2bd50f65f18ca42e714364ec9f0b9d3819edaa4a268a431dc44cae2d5",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst54/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:31:00.943129+00:00",
+    "raw_sha256": "2173b5e857c53a5dcaf0987ca0f02adecfba61ea33f5a589b528129a12025192",
+    "bytes": 46533,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst54/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst54/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "9b7de72aacfc1385dee18145c6635d06e245c61dea3f8787ee24a211b0fa321c",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst54/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:31:03.781346+00:00",
+    "raw_sha256": "545412c9ddcdc263e9ee1b5922f9f17b2f263eff8e80b4c8a302bf4d965fe6ce",
+    "bytes": 45700,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst56/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst56/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "d2d525433705d60b92f85a19a32a8cb8bc3e894bb1acd0a28f2e094b1d4b1527",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst56/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:31:08.891108+00:00",
+    "raw_sha256": "38b7ef95527397a019fb4ebc3aaee47f389ccc41c9f8dba315c832af9805f6bc",
+    "bytes": 74059,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst56/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst56/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "1137116d18f27238dd71798112dc7db56ff0f3f0839aba91f948c42e02c24d91",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst56/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:31:12.149863+00:00",
+    "raw_sha256": "889624b8f7ee801ad026df2fc50206b74ff31c4ec512b977bfc8b44e42e002de",
+    "bytes": 46588,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst56/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst56/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "30d78e91578ccd424b309daefa711a9b8f6d41f64b4393e410262c02fb327983",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst56/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:31:14.977275+00:00",
+    "raw_sha256": "babb5d4a91414b34562d4780e3574975fae4ac0fdd3012a20a7c5b955d1892f0",
+    "bytes": 46021,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst57/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst57/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "b3d3e683efbe309731f5c78c4e93e0543116f9e9acee6ff13ab2180e334d639e",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst57/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:31:19.545675+00:00",
+    "raw_sha256": "1d455a27e994c3d8df65db8504a8e658cd8c06312434a81c46ec9f507a601a99",
+    "bytes": 71350,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst57/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst57/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "50f32f6e620934e78c77d2e524b53eef637939c273c31b025502fe16de586ba6",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst57/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:31:24.793360+00:00",
+    "raw_sha256": "3a565e33c6af052972d61f9a2b255fa9470253bedcb221dd0940811969bf1fa8",
+    "bytes": 52032,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst58/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst58/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "ac7707ba571ee7080d66d2aa03c6b5943f9b09d1971fb4717743f3c83027e152",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst58/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:31:30.734085+00:00",
+    "raw_sha256": "6036e2fd932758ba5d73286846de4621d00e611fba94c578e84648525a44dcda",
+    "bytes": 50768,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst58/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst58/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "012fa65e64782eaea56d6a0b01c548777033d4396bb618c566332485fa273641",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst58/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:31:33.843823+00:00",
+    "raw_sha256": "fee9b5272cf9af226ac392b330e7ddef0e4cf62294320bbfbbfe0f113a9a220f",
+    "bytes": 48481,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst58/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst58/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "c12c42313927410e56380a4478b76482cf37a38b16fd1e7742fb9ee1f4269dd3",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst58/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:31:37.013408+00:00",
+    "raw_sha256": "101e5ed895a96d72abdb63ee14770707bf5374b2b84a6c1558e4a694c2b53934",
+    "bytes": 47374,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst61/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst61/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "2f74f7b5ea3b8dbb35ab33939d807c7af6e1c5d9f3336fd1c29699274e417227",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst61/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:31:41.710634+00:00",
+    "raw_sha256": "25192231cc969a0af1246080ddf9da1d422bf455625755967c1a6eb2b84ec691",
+    "bytes": 48001,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst61/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst61/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "cda5874b4fa63bc80da29681f3462e0c96760f4031414940fbcb7f45a063a179",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst61/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:31:44.698666+00:00",
+    "raw_sha256": "457c3ec9cff23baa2ba7327662056ac1b602a19a92b563a000ac0e25a06da687",
+    "bytes": 46777,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst63/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst63/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "9623c76cf956efecc7ea11cde3a8101ae04ff3b3b85cc38cdc6971526d6a37a4",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst63/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:31:49.853469+00:00",
+    "raw_sha256": "a988a39202d64c7cd7ea556f24344446555b92f8159802ae4e83201ef71ee52b",
+    "bytes": 75482,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst63/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst63/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "24ba5999d0941d4d574ebb2227d0da62204d7434747059ec4edefe66019200aa",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst63/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:31:53.885770+00:00",
+    "raw_sha256": "60bad1525d32419f099b2bf9e99a54a2f20a936a936dd7213291ca87646dc05e",
+    "bytes": 49392,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst63/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst63/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "09ba5f1082e78dae3df53f158854f7c54bcb19dc9a267d8a10f0c590beeadfe0",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst63/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:31:57.112326+00:00",
+    "raw_sha256": "70137150d873aeb618fa9c83b84fba1211ecd599a408c7931760576e9d8c0fc4",
+    "bytes": 47355,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst64/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst64/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "dd67f34bb31c928e0edfa30721bf98972ff971d2cc4ce3da9a736b3b649faca4",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst64/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:32:01.794284+00:00",
+    "raw_sha256": "7f7d2c4e5f47a03a5f19a89c83f5d58c85cd050176721cff0257f19869855375",
+    "bytes": 50435,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst64/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst64/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "04ab191b8ba0140413074050e52b0d98b245bad996a0aa7a95c19f9a21a39dae",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst64/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:32:03.008310+00:00",
+    "raw_sha256": "a6e2a25e7aa9613bc5d309018559f2835b92f0d9365bfc1143d725d31feae857",
+    "bytes": 45091,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst64/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst64/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "46b590c0b5b0507b57a6ebcf1010001c6fe7479c002100147b4683bf74b1af6d",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst64/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:32:04.209775+00:00",
+    "raw_sha256": "ded2aa95883c48b588276c490634de70157203631bab5b0b30b1d9374c883112",
+    "bytes": 44356,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst65/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst65/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "581ba4fa733bd6bbd52fb584408a80c0eb5da1c53ab7169e1c6a305b9bdd0698",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst65/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:32:07.014345+00:00",
+    "raw_sha256": "463628bf9c34f473d79d06b2db0f3338893bafdba5a1e63ba429194f71750134",
+    "bytes": 56778,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst65/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst65/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "27efce77a4bdbc3587705ce205249866a26e00f5e605d6cb689f105cef98e72f",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst65/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:32:09.836655+00:00",
+    "raw_sha256": "63a1be1f52bc792de932be8bdda1b9c6715ee4dda8b8c43e33c63901b45a73fd",
+    "bytes": 51509,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst65/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst65/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "0f37897c51fcfd8caf305312e4c1ce54141a3468141e23ad6c85becf392aea7b",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst65/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:32:12.533146+00:00",
+    "raw_sha256": "63b7c84d3086ca60da2e50a88022d6cdf73f36e0d4d8bd03843cefba0d57ee60",
+    "bytes": 51098,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst66/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst66/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "7431070e4680e68a4a27c6e108ba3b4c4bb1c51002a48e63d923922ce8df8130",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst66/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:32:16.664849+00:00",
+    "raw_sha256": "ac639e7fb3564bdeccc445b944f9101f6f5eae53a8ac8d28e6920987dccae49a",
+    "bytes": 52988,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst66/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst66/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "4bc758ef961a910e8e24a527a749e973959d4e74748e523521e4ca6d247934ac",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst66/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:32:20.401566+00:00",
+    "raw_sha256": "8d7dd8619139073c1424221745c32cc2ecd15c3d5a45456208ec904d12835c8a",
+    "bytes": 50003,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst66/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst66/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "e77ed0e43dd90bd86a05a8fe88056671b1330d6489ff0d0953e26f6c04e9d5fb",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst66/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:32:23.873976+00:00",
+    "raw_sha256": "0280a89f6b085fa679864e5d2296e604aa6bcdfdb77489377f986899d20b0b10",
+    "bytes": 48745,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst68/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst68/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "968a1ae2d7789907017acd7e2b0022b2ceb8fbc6f65ae16816b5edbe47bf0c79",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst68/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:32:28.822671+00:00",
+    "raw_sha256": "b0b613e4139e357c5f628f7e2701f24205c1b23668eed13bfb0b7a5e750f48e0",
+    "bytes": 63230,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst68/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst68/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "6ed4b9774a1880bcc7859da86bdb1371461e7c3051d1687d8ba26e99218b554b",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst68/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:32:32.855097+00:00",
+    "raw_sha256": "8a1e3a7b3b256bee37fe083bae3c00f77149832fd3bd9398fc3fd58d6b7a5a4b",
+    "bytes": 50003,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst68/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst68/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "1d7bab12f793baabbb12ac96230bdef091c36650d01b9e823418b2d5dd309401",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst68/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:32:36.184253+00:00",
+    "raw_sha256": "6e1c1d3637fbb63627c9cd369a70737458e20896a005e8f5a82323add17e2984",
+    "bytes": 48479,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst69/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst69/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "5661b2ce5f7dba7bd85575de8d41bdc5dcc0e6f3d71f180e00cc3bb136fb901e",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst69/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:32:41.285543+00:00",
+    "raw_sha256": "349db5ca95fa002102a1aa56468ce63080daa3bcea38e6c25c02666840776f53",
+    "bytes": 53007,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst69/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst69/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "2b4f817d2238f23c8b0036d7a24f53d37cca05fa4ede79bbe8b4ac972e73d7e1",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst69/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:32:44.916450+00:00",
+    "raw_sha256": "5bcab68edf68d5c13d66df4b067bc496c70303534a53b579374151baa8ccce7b",
+    "bytes": 46258,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst69/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst69/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "d16ca1a4fe960608d81cd8adff79d621487c172fc0d57c977a02f726a0fede22",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst69/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:32:47.574992+00:00",
+    "raw_sha256": "88561b00410fc5459674c2bad3adcfaf9d06ed15541b1176fd3a18c96b21c5f2",
+    "bytes": 44448,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst70/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst70/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "e2b408bf9d8365a5adb2f30635583919c4824f5e52681570b7a913619dab7b3a",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst70/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:32:53.450547+00:00",
+    "raw_sha256": "ef2f71732c54532ffab7fbe7ff589b852a60bec655e173e3a9cbba55eb111aef",
+    "bytes": 46225,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst70/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst70/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "c5814476ad0a98332fc830160b3b1a149c59a940ece2c008419c82ba852954b8",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst70/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:32:54.663527+00:00",
+    "raw_sha256": "659c4b58993bed2e9fb95ed5a518ac71f915796eeceb87d3060037877ac616d9",
+    "bytes": 45464,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst71/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst71/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "88c1840e284fbc3134a190708226c4c68ccd65762b987463b6d66a141cf6a872",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst71/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:32:57.789721+00:00",
+    "raw_sha256": "0e7d9e623863f4fd93b27a68ed0e9683a685e62a7e1a479449d0f7e39586c6df",
+    "bytes": 76461,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst71/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst71/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "40aee81200c71ffa19240c5fb1e9aa32f76a57f2bafe5a8f7ebe1d310db3cf14",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst71/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:33:03.474382+00:00",
+    "raw_sha256": "7481448f3bb3105bc2a780ba8eafc65293e0bd9fcf7201bb46e4919d72caab8e",
+    "bytes": 50145,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst71/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst71/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "173fa9fdc68bf53f714d7e109d7abb442d6a3a2b059a9737a7d76ae753ca040e",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst71/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:33:06.208064+00:00",
+    "raw_sha256": "b647c1a6ed3ea7df7042900312513f5c598249cb23f3cfc3a897a3aee85fa812",
+    "bytes": 49175,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst73/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst73/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "a72ba85207a6eb43fcc7dc774ce5059df02aff695fd791195c308a8278aef7f5",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst73/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:33:09.940528+00:00",
+    "raw_sha256": "0576d83ee78d091be75bf94411529914e90afb49210373a8c314dd9272168221",
+    "bytes": 56519,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst73/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst73/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "e54ad7b067649f8c019f381d591128b36549eb2e70d5085c568cc07bea5d207f",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst73/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:33:12.977493+00:00",
+    "raw_sha256": "b5e931774497abf9128054b5219913c222455b3e272be46fba9ad76b7f871767",
+    "bytes": 47115,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst73/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst73/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "4a1ee69c65d626ace141e62baf0a31dd364f638a1f3bcd0ceb51648bb9c11c7e",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst73/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:33:15.962267+00:00",
+    "raw_sha256": "a1e75479e257a806dd53372d137c0501cc885ebcf9853e71409876f18bdbd912",
+    "bytes": 45834,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst75/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst75/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "41d7aca2ac092e6609c4c4dca72388266b37c80033b3a708156b127f781b6c7a",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst75/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:33:20.555894+00:00",
+    "raw_sha256": "b8c77f7bf7e79a329cf9c0b158c718949ec6077e7e70de2b762515d3f2f74eb9",
+    "bytes": 64280,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst75/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst75/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "8fa407ec0388305e0ba82e80bccd362a2b7de396d7747a6ab9bcbf8dd26a7f38",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst75/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:33:24.200364+00:00",
+    "raw_sha256": "07441feaf6bbbb977a3942ae09e026e407e7fbc509de06d028f9b1fc2c2c133d",
+    "bytes": 50006,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst75/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst75/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "94c4d969f3e7b714450ed4f6532f9bc97eaaa14121d7f345849cbf4fb5ff729b",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst75/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:33:27.239303+00:00",
+    "raw_sha256": "19babef921e2ccbc1d276279441e20b4be95ff951fbce96f477e465fff33d831",
+    "bytes": 48914,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst76/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst76/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "32bf0156c26e65b0a4c98a48e883d69d8dbe7a3ffe5604376f6fc3c8874eb9d6",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst76/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:33:32.083589+00:00",
+    "raw_sha256": "f06076cebc1fb54cd77d74bd6bd1b35008d07f5b92485ea2d2845c25ee8d93aa",
+    "bytes": 62143,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst76/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst76/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "1383327414b4501df2dbd50e9c5d5250ae5cf2d617fff9219fde79c26e467ba8",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst76/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:33:36.124951+00:00",
+    "raw_sha256": "d8f8277c2fb750a68744238d2c1897033e0db841ca81282a1943dc8af4481dd7",
+    "bytes": 51334,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst76/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst76/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "fd5ca16d1559f71beaac432102f91dfa93cfac859a2d1de1f99bcb6090390b10",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst76/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:33:39.993323+00:00",
+    "raw_sha256": "be6718195070e50b9611a5b2ea388391d704d1aa71a2eeac91c6e9aed4a537e7",
+    "bytes": 49492,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst77/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst77/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "c6d0fa85b8582128dd2fb44ae82b0fad5f91bb3384a32e6d6f0f8ae15a9e3a0e",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst77/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:33:44.953575+00:00",
+    "raw_sha256": "fa4a10abd7c8971a9d619e6fce2b76d6eb6d760fe57773e1adec058de61f6324",
+    "bytes": 49567,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst77/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst77/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "ca9e3259d9489112780cb45798a0f0782f57c875994fd260c1b2b60adb22991b",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst77/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:33:47.522443+00:00",
+    "raw_sha256": "e1b11d37fb2eda0fa679f46f31aeeef3a80a38b8464c72add5654bb5f0326225",
+    "bytes": 44339,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst77/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst77/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "edfcdf904078fe33a0b2f80f1b99c936e2e3949a8f01a403a07aa2fdf4d58b89",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst77/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:33:49.978394+00:00",
+    "raw_sha256": "2ea0af6031a2293d4dd61c51fd687cd3dbf6d9030b3edeb5874a4be6768cd56d",
+    "bytes": 42890,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst78/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst78/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "2936e1c405ae86454d23d944af7adfb4b4af58de4b8b5c14cb53019c0ef0736d",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst78/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:33:55.565226+00:00",
+    "raw_sha256": "20a3ab189f63fd27b08553928681d60919ff4cf81e9f93978ed27dcffaf7f9a9",
+    "bytes": 48877,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst78/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst78/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "5f7be941194a49b330811f486ef956b2b43446f3dad9d13d6f39cc47cffb6bc1",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst78/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:33:58.567790+00:00",
+    "raw_sha256": "2eae460d6e2c92eed07155e6347947f13c4de469901d0c626f57f794e2d5bf5e",
+    "bytes": 47499,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst79/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "069b54348adbf103e30589fde9529ced0afbfa90a03385af9d28a3546a0d7994",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:34:03.122938+00:00",
+    "raw_sha256": "e27b7f9069404de1cbc03e8b14431019bfefa91df724dd4a23e28c2002799824",
+    "bytes": 51737,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst79/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "02c5289792c00ed68de962455f16d245e0474ecd85a923c70d45efc615906d8d",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:34:05.895603+00:00",
+    "raw_sha256": "d4235a15c1e4219feb769072d959daf90d0ce9ffeda7881818f3e37251de65b8",
+    "bytes": 44772,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst79/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "a61738a5b765adf8d533f8e91bce641fb6e96fbdac9eef2215852bef75c018f2",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:34:08.412815+00:00",
+    "raw_sha256": "d25cca1d277394bde6a5075fa2fa39d0e164b932e5f28ff83f830178dc9226af",
+    "bytes": 43530,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst80/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst80/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "e5954b97f4da7fb91ccf67311c66f963e914045e5fc142952b6faff0841d7b6b",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst80/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:34:13.018351+00:00",
+    "raw_sha256": "4f95a1ded3355aa2bf5107f41602e6697c04a6063c6a5758c7f03ab0d4ab11a7",
+    "bytes": 109936,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst80/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst80/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "2e7768c50c67c4db25abb7e1aafdcc2545fd450b1baf78c1f6c096f6a687665a",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst80/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:34:17.375578+00:00",
+    "raw_sha256": "94ac32592679b9f37bca2c890c8344902aa237baba44f56665715578f67c3752",
+    "bytes": 51200,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst80/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst80/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "636a70c7868fdc643a101529d0cef7a6642fc596baaeac925973b109ee32a983",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst80/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:34:20.926584+00:00",
+    "raw_sha256": "f9367af2dfdad511f80222dbbaff7e518e9e89565dfcfbe0c4ff7ba1acebc07d",
+    "bytes": 50043,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst83/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst83/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "6a148d670391f34e4327c4d58fcedc358b87c022e02925157b7db682c8f2b52d",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst83/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:34:26.053822+00:00",
+    "raw_sha256": "2d711712f4058a4a9847b6b1af12edb36b3ff2eb73f2e65cfa1fcce2b7af7217",
+    "bytes": 52863,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst83/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst83/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "1ca74f39d22c7b88db530892aec057cb18d8de51bb98d1baf4b3a2a201c278a5",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst83/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:34:28.626796+00:00",
+    "raw_sha256": "0eb20e39c617e3d69a55a14f233629e16bc321666c1630830fd7fb56aabc4489",
+    "bytes": 44499,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst83/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst83/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "55a9e3bab7acda8a24874087fd1679fe80bdc18da30fb4154c2eeb7660039751",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst83/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:34:31.113008+00:00",
+    "raw_sha256": "979e8b07a22254bcac52cd6d2e05d467ae37ee7e4d27c4efe142c6f18adfae15",
+    "bytes": 43335,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst84/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst84/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "bc9333c61b153203887145bce700292d3159f18f653db21b32119e7c42803fd1",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst84/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:34:35.558804+00:00",
+    "raw_sha256": "ca1cc41d777603643e6128ead955af9a3ed21b5c041d9c34c380a67584c7aa64",
+    "bytes": 51830,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst84/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst84/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "22eb1c1b5d6cedf7ab65d3f7661271c5a17f2f3e3cf32096e60cb892888b6208",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst84/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:34:36.768268+00:00",
+    "raw_sha256": "eef20fcc6ddad7424b057bfa2f1c6ccb732d95cff6b9c51e3bac39fcf674f337",
+    "bytes": 44750,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst85/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst85/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "08b54dec9fd082c0b9b57cbbb0d3cd5f90a6f82eb77762f60c10fb7cfcc39ff7",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst85/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:34:43.310145+00:00",
+    "raw_sha256": "e5569d1cb8f5a956413c95ec27c6948252d57718a66c77cea87f9818a10b1677",
+    "bytes": 44505,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst85/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst85/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "108713ca6a04d2975cc742a911849722a2c072de093e1b669c5d9dbe6bcc09d3",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst85/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:34:45.798826+00:00",
+    "raw_sha256": "1835ba3d49555139107a3ed4276de8f8156fdf4d8844acc042e280a45e87c2c5",
+    "bytes": 43449,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst86/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst86/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "9d089b2484bdd42fb41a08942d8eee1153528f8cbcb47d92f1c384a665cac4df",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst86/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:34:49.858695+00:00",
+    "raw_sha256": "c6ecf63850e3af4026ed1ae04364afd9c2585ecfa92172bbac4a7cfa14a3eacf",
+    "bytes": 54219,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst86/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst86/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "7f02f7cf52bb33275fa63d52f3f69cfe42067fd41717ad3bcb2440cfa4b0797b",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst86/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:34:52.943075+00:00",
+    "raw_sha256": "44637e2a6019461f3790a87c83ae4349508fb660fd9c1ed3c3b8a9dce7f93776",
+    "bytes": 46208,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst86/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst86/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "297c82307a1bcae84200e15a4e1dd9b907852c4ff5c3b8c0c0f480b364f0a83a",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst86/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:34:55.854745+00:00",
+    "raw_sha256": "3ac84eb9ddbff2b876f6dad3cbadb695e58540cc00a6a78b5bf5277a824de8bd",
+    "bytes": 45957,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst87/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst87/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "e254a90dd4017eff425f84cd12eb471dd3e66e2bc57128bd447e043dc359b71a",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst87/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:35:01.048344+00:00",
+    "raw_sha256": "b966e114c497eed392fe61f90ae2e180305e9f67c727b354be53048d293bc8e1",
+    "bytes": 58172,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst87/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst87/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "b5271299650948f1e41a4c32604cb8088665e33a323b7f0ad02267bf8b66e306",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst87/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:35:04.498235+00:00",
+    "raw_sha256": "172d2dc9d98a948392738a74abce423cf46c0bf3982813b4b994a074f3ad6e45",
+    "bytes": 46378,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst87/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst87/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "0c5a751b6e540eee5a6a8dc2303485af4e2c62e80bc76288a2aacf0362bcea54",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst87/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:35:07.302957+00:00",
+    "raw_sha256": "df843fa0bbed06bf4d6b54fb9c49ab40dac4083702d762e8aaff76a5d45564c2",
+    "bytes": 44763,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst88/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst88/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "98fb44b3dee9470627056d891023d4238923f922060a883f47da9f9e2ebc6bc7",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst88/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:35:12.233004+00:00",
+    "raw_sha256": "550c266e5e7f0bee930f1776ba9d28f760ef065dd178818c545952ea55b68e32",
+    "bytes": 55259,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst88/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst88/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "78ebdb4af6fdfa8cbf112f91c7058b617c1297f896423ab038344480d6a8978d",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst88/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:35:15.203149+00:00",
+    "raw_sha256": "65e14212c34e7f9e935261c8be8895d8955824e68d161e36d80d214a6fce6840",
+    "bytes": 45818,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst88/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst88/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "3fff91b64e457e20711f921a0fbf37ad980264c4cc85ad24bf817f47efaed2dc",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst88/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:35:17.841776+00:00",
+    "raw_sha256": "35771cc1b83d158a99761fb9425632eff694460218ec83cf82a36de9f976da93",
+    "bytes": 44647,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst89/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst89/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "6f82668ac33e8ecc9c0738852ce1e7d65de749710270d402dd8a351476f9a877",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst89/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:35:23.807220+00:00",
+    "raw_sha256": "9bf9a38bc54a8b94cd3779fb3718a66587fbe26263ef7e8dc7930e9bff52c813",
+    "bytes": 45875,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst89/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst89/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "10d863cdeb271f7b9bd5f30381dfb3c520bb06e67ce77283533feb804c616ba6",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst89/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:35:26.514147+00:00",
+    "raw_sha256": "544ca8734ef7ca072b60868f19745a1f55ce692fdd09b3f236d5c31b654274e3",
+    "bytes": 45403,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst90/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst90/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "4383da8e2ed0502b7c88156d3378bb9df9c88a5060de756d9dee516eb94bc1ec",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst90/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:35:30.973249+00:00",
+    "raw_sha256": "dcdeafcef2c5067b2f74527a9ccb90c3cbbfcf396da78105a06a856eef1df4c5",
+    "bytes": 52970,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst90/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst90/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "cea35311478b17e6b8fd954c850f66f62f0cf63e664094dc14a85f85acf53b76",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst90/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:35:33.598618+00:00",
+    "raw_sha256": "0332a90ed796f7f1ebc59885a19a9c61b0a43f72fd51d6ad43505d904306a0ed",
+    "bytes": 44277,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst90/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst90/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "27375408265723f41b6ba31f8125335c765e1fa717edd62d01ded19673ca49c3",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst90/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:35:36.106233+00:00",
+    "raw_sha256": "b504bb5de531e1584ed9ecd748d64a7201c8c388d59466f6c15ec4c7ba3d3184",
+    "bytes": 43082,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst91/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst91/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "140e62292bb5f23c5d8f21f3c6ddc724a2bbaaeca324929490affe2ef8119ac5",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst91/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:35:40.862265+00:00",
+    "raw_sha256": "18d12d24df877cf2ccd3f6b2b121c71c4c0e2f39b5790869493987569a49a71c",
+    "bytes": 50948,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst91/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst91/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "ded763a5d06450901494259ec59aaf0dea6978788b8c775f007279ebcc35a1f2",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst91/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:35:43.613822+00:00",
+    "raw_sha256": "80097b5f9475f03adb69cd7b118fa75b5801e99f03875cc6913a38c47d9eb499",
+    "bytes": 43797,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst91/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst91/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "0650c2acd29b76afeeb9697de02f6c3f035a4d9a098fb0e507f4e2e2f69341ae",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst91/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:35:45.984209+00:00",
+    "raw_sha256": "dd0a8e5119f023285b3e9afa0fe45f93694d33dcca3aa6d6a2bfebecd3b9eae8",
+    "bytes": 42729,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst92/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst92/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "42c0c62d2370a38c8149b694da9d45c8be6d2ecab61c127cc2f762689d477558",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst92/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:35:50.208995+00:00",
+    "raw_sha256": "bfb4e498823527a3c5b6d9e6df1c4b237965741ff6eccc1bf75862248d42f1b1",
+    "bytes": 101536,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst92/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst92/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "bbca0028202b2a4b72f9343d8c97442a5174077ce875bca5865ac12b6c1826f7",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst92/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:35:54.680697+00:00",
+    "raw_sha256": "b78833aa3f9ec67017fe0553e2cb13d33d0d7a151f276c5786c7f30d2d171700",
+    "bytes": 49842,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst92/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst92/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "a8b7088d572f119505a80b1fcfc4b379744d618a20f7385d998c84e848c927d5",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst92/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:35:57.886316+00:00",
+    "raw_sha256": "993675577effdb65c8039f3e9fe31141fa6a052f62c6a3cb72a35c196742ffb7",
+    "bytes": 48373,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst93/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst93/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "1d873e282f3c4d504d27e70b9b21a7e4010a60d43f5226a8f774c45a9aa77c30",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst93/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:36:03.154205+00:00",
+    "raw_sha256": "c5c9df01f127ef7758d2e91a4e60dbfd53a7247d33ce34a005d946f8856010ac",
+    "bytes": 56001,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst93/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst93/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "6c860af66b396f14c732f3430772aacbe31120c8f9cb04e7238b318968daca4b",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst93/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:36:06.126169+00:00",
+    "raw_sha256": "17707a603247248e989c8f087cd6d8c1399199474d221efac5174efa0da704e9",
+    "bytes": 45325,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst93/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst93/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "d60f2660ac4219748811b6fa63696ef9489fe6c37a2729e3f940f88a5bc6c595",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst93/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:36:08.734131+00:00",
+    "raw_sha256": "395302f8722168f26075e6a4dba1fe7c763505821c47bb8dc39686dcf8900979",
+    "bytes": 44290,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst94/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst94/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "0100ae715fd75742405bff5bcac4e4a7d7c1d0e571f7c231b18840e3cbf80d74",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst94/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:36:13.611731+00:00",
+    "raw_sha256": "ab0b5ae5c0566f25a2886eb5b166c44afd59c57e5ca1db723339c427ef47b345",
+    "bytes": 64864,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst94/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst94/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "191ee424678b5b0348656dc6a08aade10a3700c4e3c269279ee7e7113c6775f7",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst94/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:36:17.580486+00:00",
+    "raw_sha256": "cbfcbc1b8c37b76f7dcb9126ec3aadd5aefadb0a735d376fe875068aeea471cf",
+    "bytes": 51654,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst94/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst94/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "fa1135093c07d0c16b68d48ab46ba2f3d95a5026d1d6a99d99ce08a84f88e753",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst94/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:36:20.923530+00:00",
+    "raw_sha256": "2d878900d822ce6adf8a02712088768467d5b9417bc3973782b7e56b453a7e3d",
+    "bytes": 50675,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst95/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst95/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "304ae75e26d4b0d851033788647e359eac1b5c92d82e416a9150705ef2e15b57",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst95/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:36:26.420748+00:00",
+    "raw_sha256": "8cf69289a25bbcdca484ce6f8953928403c510ad3e4fe29ea9c518b8dc666abf",
+    "bytes": 53135,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst95/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst95/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "24f33bcb09853098527eb50e72c0f817dae02faef77a446ffe7a175a2b959ed5",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst95/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:36:29.091986+00:00",
+    "raw_sha256": "4bdf9b5eac59e76d5ffd1b2e540be1d43df895a4d7fa5150b0cba3b966b3ac88",
+    "bytes": 44452,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst95/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst95/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "4c6a3dfed8eb3f394333524a1efdaa04e505fba2afded58de34a6b3da96e923c",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst95/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:36:31.619156+00:00",
+    "raw_sha256": "849480f0705cdf9ea842bbdd01c1464c7d5c3f622213116c6aa48b5b53641aab",
+    "bytes": 43443,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst97/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst97/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "ba507a61458241f8477d9c8dac5bdec131b17ea051cc3864ca888c78ef30a64c",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst97/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:36:36.198200+00:00",
+    "raw_sha256": "4973837ab12d03e90cf024e4d7b8845c63765f854e2ab63f7045fea479ada6d1",
+    "bytes": 63206,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst97/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst97/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "cefdd5cce21c2b6a7e2141382a4a613e32eb8170f8e9b58e78b32fc1cc1c8993",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst97/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:36:39.895790+00:00",
+    "raw_sha256": "36b491d6866992f7f9a23c30879fddf4006095e48738dd65a97022cefc812dbe",
+    "bytes": 49370,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst97/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst97/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "04922b6b713d5160b11f2eaf56477b4303087948e9756f04b67e75cd55b80bb9",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst97/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:36:42.993974+00:00",
+    "raw_sha256": "acc32136cd8162fca36ee420aad2fc3b2f7d2635d08b46c934fa5d2151a7e8f1",
+    "bytes": 47810,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst98/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst98/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "6f2a466d77006921958b3e19faee2555f0715776c912c6db8df7819b8532048e",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst98/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:36:48.033947+00:00",
+    "raw_sha256": "354c490e7f0d50d1178303f92a1fe399ce9576dc267d2648079fba32b75c9abd",
+    "bytes": 79023,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst98/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst98/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "8d487280af81beceb70cdf22335b5d62c3647fabec2b0e65396e96d1e299daaf",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst98/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:36:51.652339+00:00",
+    "raw_sha256": "5d16da9df281589a6a608a1f5ce39e4df8957f0e4d9772ac370835c9cbbdf911",
+    "bytes": 47959,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst98/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst98/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "b408fbe21ce3bf7a2e393b2600d4580e413b13e2fceec6d85944292e581605e4",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst98/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:36:54.653802+00:00",
+    "raw_sha256": "c4852d3843f9b2a3ed993923cbadbdc3e187d81c7a50347fe7fb6d3d842b7ac7",
+    "bytes": 46705,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst99/",
+    "indicator_id": "8109001",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst99/DBInet.cgi",
+    "payload": {
+      "pl": "8109001"
+    },
+    "request_key": "24acc896c6bc2ef5a68f26bfc55a7221cfbf9611de8271f639e3fb0b75b26dba",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst99/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:36:58.504837+00:00",
+    "raw_sha256": "8ecc9496030ec585817f844f710e4afff07d31da1fb6eacd6a1f0100ef48f82b",
+    "bytes": 48872,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst99/",
+    "indicator_id": "8401011",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst99/DBInet.cgi",
+    "payload": {
+      "pl": "8401011"
+    },
+    "request_key": "a13aa436bea27a002a1f8117fb13f5486d864f1b8e2d7fcb99ce13fb2290b787",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst99/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:37:00.928374+00:00",
+    "raw_sha256": "cca6c8da5dc0387a90a48f024f9ccb71247d127662f82f85325c9f949c8b838a",
+    "bytes": 43861,
+    "redirects": []
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst99/",
+    "indicator_id": "8401003",
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst99/DBInet.cgi",
+    "payload": {
+      "pl": "8401003"
+    },
+    "request_key": "66b993f159b509f072a1e1e1549a7c2f843ce1d1d5830e0ac05536183c09bafb",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst99/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-16T16:37:03.497119+00:00",
+    "raw_sha256": "5d86347cbb06672b282865be3e70d5270778d426885f2ccab64c7055f56adebc",
+    "bytes": 42540,
+    "redirects": []
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "status": "ACCEPTED_CAPTION",
+  "rows": 76,
+  "observed": 52,
+  "network_requests_this_invocation": 0,
+  "geographic_equivalence_confirmed": null,
+  "scope": "Only these indicator/form/CSV hashes, exact code, and complete caption"
+}

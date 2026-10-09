@@ -1,0 +1,47 @@
+{
+  "script_sha256": "626dac94c2aa809e8984d47299597adb3f1adac720682b7fd312ed93342fbf02",
+  "inputs": [
+    {
+      "path": "reports/enriched_analysis/core_v2/annual_panel.csv",
+      "sha256": "0e44e34b94c51aeb429615ec9a0e8127def140a6f414afa75e255e00cb4f8190"
+    },
+    {
+      "path": "reports/enriched_analysis/core_v2/oof_predictions.parquet",
+      "sha256": "db69abc68e4b5d2eef100cac1518b1f86f3a8e8dcf7c21034c4baa7de96bcf8e"
+    },
+    {
+      "path": "reports/enriched_analysis/prices/municipal_price_growth.csv",
+      "sha256": "51df9eae66c4ddce838dfeb84058d8c12fba1b9c2838866aea958815a990e54f"
+    },
+    {
+      "path": "data/raw/consumption.parquet",
+      "sha256": "9833ddaaee7b2a182ed4cceeed16469031700ea87d508bd976150c6770ef8a61"
+    },
+    {
+      "path": "reports/enrichment_v3/economy/annual_candidates/annual_candidate_panel.csv",
+      "sha256": "c1d0bbeaaf742e14417d7d7d168764c060bb6c01199481a850a7eea3b6359bd4"
+    },
+    {
+      "path": "reports/enrichment_v2/population/municipal_population.csv",
+      "sha256": "cc874551a206b7eb11dc17ba0b93db4fe9173b23654410aab93a60ebc3036229"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "qa.json",
+      "sha256": "2aeb94cab084171c7897e62217e0f28131bab6e2a21f85848c87b73378f66d12"
+    },
+    {
+      "path": "selected_consumption_source_rows.csv",
+      "sha256": "f18283497cef2c3fa6d8ccd49bbedd689de948ccaa0a72a80334c0f122995324"
+    },
+    {
+      "path": "six_oof_examples_2024.csv",
+      "sha256": "229228616861a4818438ade314c7eddf61c2a9675fb853f62c9ea0cbfe8b160d"
+    },
+    {
+      "path": "source_cell_checks.csv",
+      "sha256": "17e0ba0b9cfa4574b3bd967befd9bf0221973846ca9c17a37446359ab437e312"
+    }
+  ]
+}

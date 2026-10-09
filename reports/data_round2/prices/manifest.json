@@ -1,0 +1,176 @@
+{
+  "scope": "replayable_with_constraints; no fitting or historical publication reconstruction",
+  "code_and_environment": [
+    {
+      "path": "enrichment/scripts/prepare_round2_prices.py",
+      "sha256": "70bec499889a14586e8739011d06d0f800bebd4f6ab24533605c58f455543756"
+    },
+    {
+      "path": "enrichment/scripts/extract_round2_prices.py",
+      "sha256": "21111a2071b4468e0df6c4a407eacb3ebb9c49028007665ae3222bc45ed30a81"
+    },
+    {
+      "path": "enrichment/scripts/verify_round2_prices.py",
+      "sha256": "b7a679b241e3efcb3772668eff761f1fd7b8b01567d4d817f9b3e5a419b5f4be"
+    },
+    {
+      "path": "enrichment/scripts/summarize_round2_prices.py",
+      "sha256": "a9d6b66b4857c9c11d468e81d5fbc8503cd511960ba96936db0eda9563b6ceb4"
+    },
+    {
+      "path": "enrichment/tests/test_round2_prices.py",
+      "sha256": "034863fec8bf32dc5019c82e7ec43aa63dd6c405daf42d004fb14634543f9618"
+    },
+    {
+      "path": "enrichment/uv.lock",
+      "sha256": "b07d548b44a8a636ea0d8ace4d1f0babdbdbfd87c87c7a97e91a5742bbfab612"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "analysis_constraints.json",
+      "sha256": "f9b7bcd2a0f0b3effae4ee097be15ae5cc578207f3483b60d3dde6cb71fda2e9",
+      "bytes": 831
+    },
+    {
+      "path": "bridge_v2/bridge_approved_evidence.csv",
+      "sha256": "8692f19bdbfab7de53fa794280ad1c1a6a83f937935d07547a24f9b86b1899c4",
+      "bytes": 771564
+    },
+    {
+      "path": "bridge_v2/bridge_candidates.csv",
+      "sha256": "772d8c5264f821a0e45cbc48af1739e6338e9e44008348edcfff3eb25c1d8874",
+      "bytes": 811260
+    },
+    {
+      "path": "bridge_v2/city_context_observations.csv",
+      "sha256": "6b1a28cc942c7d382f2cc51f7f5e5bf3612fe62617cb5b333b3ac1bcc3d4ab55",
+      "bytes": 606936
+    },
+    {
+      "path": "bridge_v2/manifest.json",
+      "sha256": "700e16bc2129dc2918e6965b10720e771351dfac1ea14256477d4a1bddb1235b",
+      "bytes": 7414
+    },
+    {
+      "path": "bridge_v2/official_base_cities.csv",
+      "sha256": "52422ccb7a98f1e538ec9c5526bb5b6d8092ced681e1aa7dfab8f96251eee7b3",
+      "bytes": 202939
+    },
+    {
+      "path": "bridge_v2/primary_cohort_city_context.csv",
+      "sha256": "0432bf9e7fccb2ce064347a80873cc079f314764962e87a3bf6b5e3e3954d50b",
+      "bytes": 204584
+    },
+    {
+      "path": "bridge_v2/summary.json",
+      "sha256": "dd6ebd0c260c21b6ffeddee0b6e6e2384c509855aa39e3aab7b9245926f80a6c",
+      "bytes": 1030
+    },
+    {
+      "path": "DATA_DICTIONARY.md",
+      "sha256": "50133a89921f668bec4e49d11d85b59e7b630b8eb902f0f7d4a2b20001eb541c",
+      "bytes": 9211
+    },
+    {
+      "path": "inventory.json",
+      "sha256": "60a2de2ed6d012e6513d506520b042780b67dce5d66fc85bef6a4a67d4e6c950",
+      "bytes": 1378
+    },
+    {
+      "path": "monthly_v3/city_monthly_dimensions.csv",
+      "sha256": "49e5d4b72e399b82b73ad791570d05c4878889f27d3cde3e62c334f7bfa26212",
+      "bytes": 1257390
+    },
+    {
+      "path": "monthly_v3/city_monthly_price_cells.parquet",
+      "sha256": "62ec7a852b8c6b6aa8c95ee46ebd4d9c9a973d084d293a00deea864fecc5009f",
+      "bytes": 26248634
+    },
+    {
+      "path": "monthly_v3/city_year_coverage.csv",
+      "sha256": "7d0aaa3d4644c9ba108d9dbbcf55ed88c67b264ada66540f0ae44ea1acea772e",
+      "bytes": 16918
+    },
+    {
+      "path": "monthly_v3/manifest.json",
+      "sha256": "2c6176c5328c52710e86023f0d88ef30e9ca19b1f1636a3d36aa58a2413efdea",
+      "bytes": 3547
+    },
+    {
+      "path": "monthly_v3/monthly_extraction_qa.csv",
+      "sha256": "f2e697561baa15e2a2a09f396ec399d6ff9dc611e31214b20718eb233c7a2b72",
+      "bytes": 715
+    },
+    {
+      "path": "monthly_v3/primary_city_price_context.parquet",
+      "sha256": "4bfa779047e06197b1fe803410748e58866b9d1ef4e0327e10475384da463507",
+      "bytes": 20134609
+    },
+    {
+      "path": "monthly_v3/product_dictionary.csv",
+      "sha256": "42036069ddbc9d3db9b0662b128cd88b2336a2f386fbc33ba8514e5f93565998",
+      "bytes": 1234469
+    },
+    {
+      "path": "monthly_v3/product_primary_coverage.csv",
+      "sha256": "ed8ccacfc4fda4996fb4f2e53334d3bbb292ede8f114f56f28fed65b5d390394",
+      "bytes": 34097
+    },
+    {
+      "path": "monthly_v3/source_footnotes.json",
+      "sha256": "d2c50966d63be251f9f25909dc3c149c2d51e80f847fb75651dbca144e3020a8",
+      "bytes": 8775
+    },
+    {
+      "path": "monthly_v3/source_workbooks.csv",
+      "sha256": "ef1b37d7bb0fa0015fc0ece278fd39b46baa0e558f17f2e9662f5b6c01b5e278",
+      "bytes": 538
+    },
+    {
+      "path": "monthly_v3/summary.json",
+      "sha256": "c374b391b9efab70d77c392d839504b95c0f4fc1695530651a1ebaa1108d38d9",
+      "bytes": 586
+    },
+    {
+      "path": "monthly_v3/yearly_source_coverage.csv",
+      "sha256": "c278d1ae0035f7821d153d2270e334a6597f2150a3c06d5e23cfa8d9ebe313b9",
+      "bytes": 291
+    },
+    {
+      "path": "primary_numeric_qa.csv",
+      "sha256": "0bbd3599ebbbedee00ebf5bd9aff63eda0895cb19c88bbae3b2f28be29434303",
+      "bytes": 110
+    },
+    {
+      "path": "QA.md",
+      "sha256": "dea39290f919994c05cbdf08491617b27bdd9f83313e73a73fd9870d94cd019a",
+      "bytes": 7015
+    },
+    {
+      "path": "raw_inventory.json",
+      "sha256": "2bb14323fc0793d1a004ee1f02bcbefbc30697c1930bff34d2fca9ebd2a6c914",
+      "bytes": 13940
+    },
+    {
+      "path": "README.md",
+      "sha256": "9cbed16749138a227ad367ccfb260db7d62ad0fd6880cb0b4e964d20042f1f19",
+      "bytes": 16688
+    },
+    {
+      "path": "REPRODUCE.md",
+      "sha256": "12590f55eed8842f9a5e3e0e941c914b96dbbf0f72b3af07beba6ae695c5957a",
+      "bytes": 5833
+    },
+    {
+      "path": "source_cell_verification_v3.json",
+      "sha256": "54c003b86e282dbe74139ab2f1129c503f007421b6123e5009cdabd5dd72bc0a",
+      "bytes": 4339
+    },
+    {
+      "path": "source_zero_review.csv",
+      "sha256": "5023d711200d7e1e7e3c552a82d35189962d76785c54a69c2d3f1b48ab89029b",
+      "bytes": 3830
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "status": "complete",
+  "created_at": "2026-09-14T19:20:31.625496+00:00",
+  "operation": "combine_saved_partitions_and_recompute_temporal_tables_without_fitting",
+  "sources": [
+    {
+      "run_id": "development-20260914-v1",
+      "phase": "development",
+      "year": "2023",
+      "manifest_sha256": "aaf3d5ca9d36417a4aad6e0319a4353247f5f3c7a1aac563383de335a252d9d8",
+      "consumed_hashes": {
+        "assignments.csv": "6fb156f71c6636ca1fd9707662ae3154e3e9958d7f32293cde307dec04ea733a",
+        "membership_agreement.csv": "dd481a7c8b757b5ceed49de7094ed17b2f1ff7600735a516f45476121080cd40",
+        "cluster_profiles.csv": "caea2694e04b232f9d0180a6084aeed05a1a32807791b57b58aeb8ac24e26855",
+        "metrics.csv": "e0b32b025a15239105689899f3732d75ec59b0d730b3f424f5074b043e047f5c",
+        "robustness.csv": "8f5960a32ce7614b4f7f48750cc6fbfb418c6a8febaabf329b5cb712817cceeb",
+        "null_metrics.csv": "a11222c998961c9ac1e6dcbaec28717af18fa728b1060e098b1dab699673458e",
+        "variant_evidence.npz": "d9ae74481bdacc6e7e4153290b42f2ffa30a90db8fcb86cb7eab0b43f09f1a11",
+        "variant_keys.json": "8293752b92f0c84146847d07ff70444c55111ddcf48b1f60dbefa676c96fcb5b"
+      }
+    },
+    {
+      "run_id": "evaluation-20260914-v1",
+      "phase": "evaluation",
+      "year": "2024",
+      "manifest_sha256": "aadddc9878c6b1cf4d7fa609015b33b809b4af47ed78db90b5102c93300fd4c4",
+      "consumed_hashes": {
+        "assignments.csv": "6325e6f0a0fe0c65a9592e309fd74e93340f3e57f07612688d64b29dc02fb4fc",
+        "membership_agreement.csv": "7d5373354bb6901a456ced4cac2a818b0e95063e36fd1c5d4dc9d47788b638f4",
+        "cluster_profiles.csv": "f1e9dd9284db2449750aa612ed548e4696a3543b20885bad719af8264a00adba",
+        "metrics.csv": "41c641102917e930269ce149912153c761aa32b6cfe85efd5566d2c869c37660",
+        "robustness.csv": "3febe50046df73b5736927344c0a16355178f416a364f44a8bff421d55902d01",
+        "null_metrics.csv": "e891eaae17b879aa25cc52ef1e5b0ef95e03c83ad152383d8a6da725886cc926",
+        "variant_evidence.npz": "2a7dd4d28018da443467af5aef588cd30297affb8da2fbf2bf559444cf891881",
+        "variant_keys.json": "8293752b92f0c84146847d07ff70444c55111ddcf48b1f60dbefa676c96fcb5b"
+      }
+    }
+  ],
+  "config_sha256": "389bc00bd641d9e803aea1b5aef00dc6e46e207cd90335dbd744eb133ec6d44d",
+  "data_sha256": "9833ddaaee7b2a182ed4cceeed16469031700ea87d508bd976150c6770ef8a61",
+  "code_sha256": "d92bfb42e557b98127585b0567bd33dfabba8b6627e9ca75cfe66637319b0bb4",
+  "processor_hashes": {
+    "build_research_report.py": "2a5a49598c7a62c371cecc816c75f3f6b671990d0d2d50e3289fbf631a363139",
+    "dynamics.py": "17fa3fc62607df37caa088fe48458f84d2c992ed9604f1fc3ea0631f2b5f7eb9",
+    "networks.py": "fb49c8c522a17dff4d778b3b49a2c439815bda7a491c8f2721fbe6b966e8a47d"
+  },
+  "table_rows": {
+    "temporal_summary": 140,
+    "flows": 7175,
+    "cluster_profiles": 966,
+    "monthly_support": 24,
+    "method_metrics": 8,
+    "robustness_summary": 12,
+    "robustness": 896,
+    "null_metrics": 200,
+    "assignments": 193536,
+    "membership_agreement": 48384,
+    "transitions": 282240
+  },
+  "output_hashes": {
+    "assignments.parquet": "54f6c1f3c92a878a990c620e9fdb544ab6187f9ac0baea4bc5070d964e0ae6bc",
+    "cluster_profiles.csv": "9c79460382ff234a02baf255304be21cc9d83e8b67024a0417bea6f0f346a13e",
+    "flows.csv": "15f88c122930517d218a4743643925c56cde72bc9df6bbad26d2576e937600c3",
+    "membership_agreement.parquet": "d49776bdb14fb41a608e362a7ddf988a4f4feb13b095538b8107b0e082e0726f",
+    "method_metrics.csv": "21ace228c4b252efe4e29b3474f1fafd869c7d2ffee787cb932fd060e3f150ad",
+    "monthly_support.csv": "c943139fcde2285b81659331186224cb927c10d2e0df030f2f0de9b92de0bc2a",
+    "null_metrics.csv": "9d4e5bc16d95d546771934968e2fe94009979b6aa8229beb722e48654f8a5252",
+    "robustness.csv": "dfa6f9e0a9e41c233461128b15dc683daf33a97eed5217619858eb8c915dbfa0",
+    "robustness_summary.csv": "7ebd09a6117e3b4543229d5b42d427759b84af8fc0a84759b187e08324ca2fd4",
+    "summary.json": "94a61cf8d0ede101642b2d3f05cbb3adc223177e43f345a354f8cb40908143cd",
+    "temporal_summary.csv": "1ffef679794f366d6a740ae0329325d0c485354968d702eadf8eca8a3973c38e",
+    "transitions.parquet": "179fecaa89fa56960b407abce749c517b89d631338b8964f9fe6b0d2ab4f6e30",
+    "variant_evidence.npz": "55428a67fc0504af95e96da3c8a4ddbfffd61a6493dd13a484a27543c0579b2a",
+    "variant_keys.json": "45333a270922cd020373f16c19c46e17f6123c6fa759ffff0c4bdf189955f8d9"
+  },
+  "delivery_metadata_note": "Absolute local source paths removed before sharing. Source run IDs and hashes retained; numerical outputs unchanged. Current builder emits portable source metadata."
+}

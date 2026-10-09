@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "clean_environment_created": false,
+  "network_requests": 0,
+  "models_trained": false,
+  "scope": "Saved-source replay in the declared existing environment",
+  "stages": [
+    {
+      "stage": "economy_collect",
+      "returncode": 0
+    },
+    {
+      "stage": "economy_independent",
+      "returncode": 0
+    },
+    {
+      "stage": "geography",
+      "returncode": 0
+    },
+    {
+      "stage": "cases",
+      "returncode": 0
+    },
+    {
+      "stage": "sme_extract",
+      "returncode": 0
+    },
+    {
+      "stage": "sme_audit",
+      "returncode": 0
+    },
+    {
+      "stage": "sme_independent",
+      "returncode": 0
+    },
+    {
+      "stage": "search",
+      "returncode": 0
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+sample,year,denominator,old_all3,new_all3,common_all3,newly_complete,affected_rows,gained_numeric_cells,gained_features,all8_sector_and_all3_new
+whole,2023,2016,1559,1771,1559,212,222,389,383,119
+whole,2024,2016,1603,1814,1603,211,223,390,387,116
+core,2023,1975,1556,1768,1556,212,218,383,383,119
+core,2024,1998,1603,1814,1603,211,222,387,387,116
+conservative,2023,1897,1505,1703,1505,198,204,353,353,118
+conservative,2024,1930,1552,1749,1552,197,208,357,357,115

@@ -1,0 +1,20 @@
+{
+  "status": "PASS_WITH_CONDITIONS",
+  "sources_attempted": 15,
+  "sources_downloaded": 10,
+  "source_and_text_hashes_verified": 20,
+  "evidence_rows": 19,
+  "raw_to_text_replays_verified": 10,
+  "visual_receipts_verified": 3,
+  "accepted_municipal_numeric_cells": 0,
+  "causal_attributions": 0,
+  "models_fit": 0,
+  "previous_sources_changed": 0,
+  "new_yearbook_transcriptions": 0,
+  "network_requests_in_replay": 0,
+  "annual_finance_rows": 6,
+  "annual_finance_observed_rows": 4,
+  "annual_cash2024_status": "blank_not_zero",
+  "spreadsheet_auxiliary_replays_verified": 2,
+  "immutable_helper_script": "enrichment/scripts/collect_round5_cases.py"
+}

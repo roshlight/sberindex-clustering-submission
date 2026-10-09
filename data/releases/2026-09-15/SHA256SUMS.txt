@@ -1,0 +1,2 @@
+dcae60a64c9dac4aa5e4930e352f049034a2ca7c98e93bbfb6ce9cf14af51f78  server-data-snapshots.zip
+ffef5a042a026421e536dbcc6dbc0daf08dce30a3145b8a8b75416e9c454b575  local-data-supplement.zip

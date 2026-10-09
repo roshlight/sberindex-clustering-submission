@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "archive": "data-round6-economy.zip",
+  "archive_sha256": "8448100206ab9286887fef5f4d9b80644b8ce13a1cc2c6e0c3596212da9196b5",
+  "archive_bytes": 24007644,
+  "verified_files": 156,
+  "uncompressed_bytes": 36556103,
+  "allowlist_sha256": "6c65bae2a7a822e6fcd9c5264204cd6e793f440636cbd3d299349cb5af5b3ef6",
+  "packager_sha256": "a9d5443b7d2817046bdf57a167a9ff839eaec18e95d84b07c96b4c6032827fbc",
+  "immutable_helper_sha256": "3f6e2a4eab351a7a40674d2b3ed9d060f15d248f911eaf37b0755ddfa286bb26",
+  "credential_scan_policy": "unchanged_regex_and_DHT_parser_with_exact_path_bound_exception",
+  "audited_exceptions_applied": 0,
+  "credential_scan_exceptions": []
+}

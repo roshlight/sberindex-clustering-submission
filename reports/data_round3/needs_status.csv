@@ -1,0 +1,6 @@
+need_id,status,scope,remaining_requirement
+r3_economy,candidate_panel_ready_with_conditions,10829 numeric of12096 cells;2016 municipalities;2023 and2024,Apply existing historical geography restrictions;resolve rejected regional forms and missing values before enlarging model cohort
+r3_sme,partial_context_no_national_worker_join,769 municipal organization-count rows unlinked;297 FNS aggregates;664 regional worker rows,Validate historical municipality keys and organizational coverage;municipal small-business workers2023/2024 still unavailable
+r3_cases,document_context_ready_with_conditions,19 downloaded sources;53 evidence rows;3 selected municipalities,Resolve wage discrepancy and suspect source table;do not treat institution snapshots or residual-selected cases as causal evidence
+r3_geography,legal_dates_and_settlement_recoding_ready,5 full laws;131 exact settlement recoding pairs,Boundary equivalence remains unproven;retain78 exclusion and6 calendar flags;Veliky Ustyug2023 city temporal review retained
+r3_search,completed_with_recorded_failures,12 server queries;78 unique URLs;9 downloaded source bodies;2 oversize archives skipped,Model cards require primary-source review;one model attempt has unknown cost

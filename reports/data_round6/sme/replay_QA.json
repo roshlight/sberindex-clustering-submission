@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "method": "second offline audit into fresh output; byte comparison of all manifest files plus manifest",
+  "files": [
+    {
+      "path": "asset_code_syntax.csv",
+      "bytes": 641,
+      "sha256": "fd4d75108909e0d42862e43d1e7faaab6ddb5ed6bf344565bcd20b108edf45c6",
+      "matches_manifest": true,
+      "byte_exact_replay": true
+    },
+    {
+      "path": "asset_schema_audit.csv",
+      "bytes": 1245,
+      "sha256": "cdaa5337d82a2c6c116ce1b3f2de3525e2e6a4a9d1f81a621132af65d637986b",
+      "matches_manifest": true,
+      "byte_exact_replay": true
+    },
+    {
+      "path": "author_source_lineage.csv",
+      "bytes": 8080,
+      "sha256": "dd4a25a93933121b81bcb8759c967b760db8e54369db5b049779746d36acf872",
+      "matches_manifest": true,
+      "byte_exact_replay": true
+    },
+    {
+      "path": "code_evidence.csv",
+      "bytes": 2560,
+      "sha256": "83bc861e231b2a4a77299aa77859368fb4c2ce45b535932271e778a3cb3e31b0",
+      "matches_manifest": true,
+      "byte_exact_replay": true
+    },
+    {
+      "path": "federal_city_source_rows.csv",
+      "bytes": 5493,
+      "sha256": "4f7dc4213f7891ea50afad5ec9ac4561deab7e2f4fd5523ccac641715172e7ba",
+      "matches_manifest": true,
+      "byte_exact_replay": true
+    },
+    {
+      "path": "geocoder_address_contracts.csv",
+      "bytes": 611,
+      "sha256": "cbcfe048d19694f7ef1fa3909e5a7603be98ad1ad5f80c4d0b5822756bfad627",
+      "matches_manifest": true,
+      "byte_exact_replay": true
+    },
+    {
+      "path": "QA.json",
+      "bytes": 658,
+      "sha256": "eee6ab49acbd7e6a70fb643a4ee3f1b46681940a4a7ee8ea65594917f5b95ced",
+      "matches_manifest": true,
+      "byte_exact_replay": true
+    },
+    {
+      "path": "raw_inventory.csv",
+      "bytes": 6283,
+      "sha256": "24b1399618dce63c84e5c91f10728d9e4204fe19100e0d78ec717fa5c82161e7",
+      "matches_manifest": true,
+      "byte_exact_replay": true
+    },
+    {
+      "path": "retrieval_attempts.csv",
+      "bytes": 4686,
+      "sha256": "d21c472a7ebd4dbfb67614268eec33eeff8c0d579f1c8f0891639c73d57af8bb",
+      "matches_manifest": true,
+      "byte_exact_replay": true
+    },
+    {
+      "path": "worker_dates.csv",
+      "bytes": 218,
+      "sha256": "cfe406daa8c92072c5556b22363fcfd80b193e6f70d53c60c5eef17472dc6067",
+      "matches_manifest": true,
+      "byte_exact_replay": true
+    },
+    {
+      "path": "worker_sample_summary.csv",
+      "bytes": 788,
+      "sha256": "1fe08d23c04df1242de5557fffdf81c871855b693373b4f5cc86691f84a8e0e1",
+      "matches_manifest": true,
+      "byte_exact_replay": true
+    }
+  ],
+  "manifest_byte_exact": true,
+  "network_used_for_replay": false,
+  "tests_passed": 18,
+  "ruff_check": "PASS",
+  "ruff_format_check": "PASS",
+  "clean_independent_environment": "NOT RUN"
+}

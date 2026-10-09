@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "reviewer": "independent peer agent /root/round4_data_audit",
+  "scope": "Bounded source check: six CSV versions and official DOCX643; no production parser imported; candidate graph not independently rederived",
+  "method": "csv.reader with UTF8/CP1251 detection and ASCII/NBSP grouping removal; DOCX ZIP/XML table cells",
+  "checks": {
+    "june_2026": [
+      81292,
+      80565,
+      692,
+      35
+    ],
+    "september_2026": [
+      81364,
+      80565,
+      764,
+      35
+    ],
+    "december_2023": [
+      15750,
+      15561,
+      109,
+      80
+    ],
+    "january_2024": [
+      26481,
+      26337,
+      144,
+      0
+    ],
+    "november_2024": [
+      26954,
+      26762,
+      192,
+      0
+    ],
+    "january_2025": [
+      39664,
+      39352,
+      277,
+      35
+    ]
+  },
+  "check_column_order": [
+    "rows",
+    "complete_pairs",
+    "missing_destination",
+    "nonstandard_destination"
+  ],
+  "docx_643_unique_pairs": 119,
+  "docx_pairs_equal_all_five_csv_versions_from_20240101": true,
+  "amendment_643_absent_in_20231220": true,
+  "historical_join_approved": false
+}

@@ -1,0 +1,16 @@
+asset,code_state,rows,denominator_rows
+cities.csv,empty,0,1117
+cities.csv,exact_8_or_11_digits,1018,1117
+cities.csv,other_digit_length,99,1117
+cities.csv,scientific_notation,0,1117
+cities.csv,other_syntax,0,1117
+cities_additional.csv,empty,1,12
+cities_additional.csv,exact_8_or_11_digits,11,12
+cities_additional.csv,other_digit_length,0,12
+cities_additional.csv,scientific_notation,0,12
+cities_additional.csv,other_syntax,0,12
+settlements.csv,empty,0,155921
+settlements.csv,exact_8_or_11_digits,148295,155921
+settlements.csv,other_digit_length,7229,155921
+settlements.csv,scientific_notation,396,155921
+settlements.csv,other_syntax,1,155921

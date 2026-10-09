@@ -1,0 +1,14 @@
+{
+  "status": "PASS_WITH_INTERPRETATION_LIMITS",
+  "candidate_rows": 144,
+  "association_rows": 40,
+  "cluster_checks": 4,
+  "frozen_profiles_matched": true,
+  "models_trained": 0,
+  "new_clusters": 0,
+  "accepted_historical_joins": 0,
+  "old_panel_changed": false,
+  "same_municipalities_in_both_years": true,
+  "confidence_scope": "Conditional paired-ID resampling; no spatial-dependence or multiplicity correction",
+  "cluster_null": "Conditional exchangeability, four-test BH; no spatial or cluster-stability validation"
+}

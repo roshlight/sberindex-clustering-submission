@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "report_sha256": "cb94a1f01ee4ee33e88b80d11bda04d884b20eafa88469c0b3119bbd30de2b55",
+  "artifact_sha256": "e597178f19cb5ffb8f908e85d1c96150b968471a604a24940b32d8c534dfa4f7",
+  "model_refits": 0,
+  "review_scope": "Final prose, numerical claims, units, denominators, source limitations and presentation receipt",
+  "sources": {
+    "reports/round5_analysis/QA.md": "9900120947091bc20599ba1d636a80fc655712a12fd77515471ced2e434a2627",
+    "reports/round5_analysis/REPRODUCE.md": "d2811de93765e473dc7bcfccd7e919864e901fd4737ba710cc9a891aa9b32ff7",
+    "reports/round5_analysis/audit/joint_coverage.csv": "fc43fb60aee3bcfebdfcb3514e88e5a191777fc74675fd72a16bfbebd1db0f62",
+    "reports/round5_analysis/context/README.md": "0f0a63416f3b86e6c588b197dde2768942eb0638a0ca43cc8288f91d4096c809",
+    "reports/round5_analysis/context/annual_population.csv": "b04e277bb3c87db85f9eb2abc854fcc7bac00619695017c1220ec0f1643ced7f",
+    "reports/round5_analysis/context/budget_revision.csv": "0185ddde50d00cb50341f766d0413ed7a0223b0ab2ab1e39f7c226107dccc1bc",
+    "reports/round5_analysis/context/coverage_interpretation.csv": "753a996c23a903ce5a698ae1e89ed2f9e1c8cdaa75ba681c7cdaf161f515c7b7",
+    "reports/round5_analysis/context/fns_population_contrast.csv": "3b9c899d5f1b5e68b8a4bd7bbc36ec25329858bc265d7bad1b36c8b1bfe815d0",
+    "reports/round5_analysis/headline_metrics.csv": "fd234a67c8895429826c8523518f7f5a446b7cc4b9a9e16304cdab1ed963924f",
+    "reports/round5_analysis/independent_QA.json": "a7a976e02c3f9c947b0574bef9aff9fd30a5f7b1f222db03229054998bdf01e3",
+    "reports/round5_analysis/independent_review.md": "1aa20d162266a6a2a99e3a0268a1ca0c4ea96db057ddadb4bc84c0b11dcee53b",
+    "reports/round5_analysis/models/cv_comparisons.csv": "267cf632462e49a5a7ffd021fc661aa92d3132de79a2434d65020519ea553c7c",
+    "reports/round5_analysis/models/cv_metrics.csv": "2d71f56635c33f57ddf7997bcb4399856e77090c694f2cb00b1f1411a2600aae",
+    "reports/round5_analysis/portable_delivery.json": "5be63d976eec80e1ccf121d42f011d2eaaae8cab480adb3d8ee1c9ffa644bc9c",
+    "reports/round5_analysis/readout/QA.json": "2596e3de38c6bc6b136399cdba689940fdacddbc092fb750de0833ff1614f175",
+    "reports/round5_analysis/readout/state_update_contributions.csv": "9de82a2a863281af066cb9f8a974e0595504d96baef9066d154fa153e75ad0af",
+    "reports/round5_analysis/recovered/regional_selection_summary.csv": "06055a119fd91b714fc6f3457dabd7846d98854eef81846ac26de1faaf214249",
+    "reports/round5_analysis/replay_QA.json": "68e8529ce98c0e797288584a17e1fa427f7e45e7ee861663d9663ad8c0fc6a5b",
+    "reports/round5_analysis/report_claims_QA.json": "7a5ca89a3e84888c83bea4b0ec8d333d72ff8bd6ce119b3f1143816ffe3f3ea9"
+  },
+  "checks": [
+    {
+      "name": "numbers_and_tables",
+      "status": "PASS",
+      "evidence": "98 independent claims checks, 15 datasets, 11 Markdown tables; current source hashes verified"
+    },
+    {
+      "name": "semantic_context_review",
+      "status": "PASS",
+      "evidence": "Independent read-only review confirmed source year versus classifier file label, population on date versus annual states, known-region denominator exclusions, missing IP workers and negative values in both years"
+    },
+    {
+      "name": "model_interpretation",
+      "status": "PASS",
+      "evidence": "Primary entire-block, state-update and common-flags comparisons are distinct; all four primary CIs include zero; no causal or clustering improvement claim"
+    },
+    {
+      "name": "secondary_table_caption",
+      "status": "PASS",
+      "evidence": "Explicit caption in Markdown and HTML distinguishes primary secondary-target results from common-flags prose"
+    },
+    {
+      "name": "reproduction_limits",
+      "status": "PASS",
+      "evidence": "Saved-source replay PASS; clean independent environment NOT RUN; raw retrieval, Python patch and HTML prerequisites disclosed"
+    },
+    {
+      "name": "portable_presentation",
+      "status": "PASS",
+      "evidence": "Native final HTML verifier passed 30 blocks, 4 charts, 11 tables, source menu and 1440/390 px; recorded CSS width patch only"
+    },
+    {
+      "name": "final_editorial_pass",
+      "status": "PASS",
+      "evidence": "Minimal Russian prose edits preserve every numerical claim, citation and uncertainty; manual source and model reviews accepted"
+    }
+  ]
+}

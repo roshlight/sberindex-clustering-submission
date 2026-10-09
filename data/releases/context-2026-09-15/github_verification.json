@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "verified_at_utc": "2026-09-14T23:22:37.843883+00:00",
+  "release_id": 388767118,
+  "release_url": "https://github.com/sberindex-hackathon-2026/municipal-economic-profiles/releases/tag/context-data-2026-09-15",
+  "draft_at_verification": false,
+  "tag": "context-data-2026-09-15",
+  "tag_commit": "3bf54140c0cafac6f06f03152091f26f4054f27a",
+  "github_assets": [
+    {
+      "asset": "server-discovery-snapshots.zip",
+      "status": "PASS",
+      "sha256": "1cc3c4e96a0dc7a4f4049207933ff9b033d873acd6327c2f6fc41c09e4f9274f",
+      "bytes": 547260826,
+      "asset_id": 564433264,
+      "github_digest": "sha256:1cc3c4e96a0dc7a4f4049207933ff9b033d873acd6327c2f6fc41c09e4f9274f"
+    },
+    {
+      "asset": "server-economy-snapshots.zip",
+      "status": "PASS",
+      "sha256": "83cc1b420e22fccc9e51af4f3b5441ea58202b767f49cce46a81ff3454993f7f",
+      "bytes": 14253487,
+      "asset_id": 564424164,
+      "github_digest": "sha256:83cc1b420e22fccc9e51af4f3b5441ea58202b767f49cce46a81ff3454993f7f"
+    },
+    {
+      "asset": "local-context-snapshots.zip",
+      "status": "PASS",
+      "sha256": "2b865d884e4f765fc1694054603ae1c1815879d7870efc219330236511bd47d6",
+      "bytes": 38083321,
+      "asset_id": 564424170,
+      "github_digest": "sha256:2b865d884e4f765fc1694054603ae1c1815879d7870efc219330236511bd47d6"
+    },
+    {
+      "asset": "archives_manifest.json",
+      "status": "PASS",
+      "sha256": "f421788738c6dab1f7480bc3aac12f52afe35fa0d8240434f7b2a3dc4014055e",
+      "bytes": 1512,
+      "asset_id": 564424168,
+      "github_digest": "sha256:f421788738c6dab1f7480bc3aac12f52afe35fa0d8240434f7b2a3dc4014055e"
+    },
+    {
+      "asset": "SHA256SUMS.txt",
+      "status": "PASS",
+      "sha256": "06942996f23acf81fd9a986aa7970eb0cf6c5806c5a46d86dd39ef51e0883432",
+      "bytes": 286,
+      "asset_id": 564424166,
+      "github_digest": "sha256:06942996f23acf81fd9a986aa7970eb0cf6c5806c5a46d86dd39ef51e0883432"
+    }
+  ],
+  "local_archive_checks": "PASS",
+  "numeric_qa": "reports/enrichment_v3/QA.md"
+}

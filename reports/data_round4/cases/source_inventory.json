@@ -1,0 +1,112 @@
+[
+  {
+    "source_id": "yakutia_publications",
+    "url": "https://14.rosstat.gov.ru/folder/39429",
+    "suffix": ".html",
+    "role": "official publication catalogue and dated version links",
+    "retrieved_at_utc": "2026-09-16T17:24:20.427747+00:00",
+    "attempts": 1,
+    "http_status": 200,
+    "final_url": "https://14.rosstat.gov.ru/folder/39429",
+    "redirects": [
+      {
+        "url": "https://14.rosstat.gov.ru/folder/39429",
+        "status": 200
+      }
+    ],
+    "content_type": "text/html; charset=UTF-8",
+    "last_modified": "",
+    "status": "downloaded",
+    "raw_file": "yakutia_publications.html",
+    "bytes": 771085,
+    "sha256": "74c5ce5b3a18349feab000d6f2e79c61cdb24aa7d6cd786e133271054d554014"
+  },
+  {
+    "source_id": "yakutia_yearbook2025",
+    "url": "https://14.rosstat.gov.ru/storage/mediabank/Ежегодник%202025.pdf",
+    "suffix": ".pdf",
+    "role": "municipal retrospective investments, shipments and methodology; publication year2025",
+    "retrieved_at_utc": "2026-09-16T17:24:23.524945+00:00",
+    "attempts": 1,
+    "http_status": 200,
+    "final_url": "https://14.rosstat.gov.ru/storage/mediabank/%D0%95%D0%B6%D0%B5%D0%B3%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%202025.pdf",
+    "redirects": [
+      {
+        "url": "https://14.rosstat.gov.ru/storage/mediabank/%D0%95%D0%B6%D0%B5%D0%B3%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%202025.pdf",
+        "status": 200
+      }
+    ],
+    "content_type": "application/pdf",
+    "last_modified": "Thu, 22 Jan 2026 05:27:55 GMT",
+    "status": "downloaded",
+    "raw_file": "yakutia_yearbook2025.pdf",
+    "bytes": 32482139,
+    "sha256": "437cad9a5e0313b09ce47d443fdc983ac2f1fabba57d9a0ffa1dcb59e7f9df0b"
+  },
+  {
+    "source_id": "yakutia_yearbook2023",
+    "url": "https://14.rosstat.gov.ru/storage/mediabank/Ежегодник_от%2023.10.2023_05_896604.pdf",
+    "suffix": ".pdf",
+    "role": "earlier municipal time-series version through2022",
+    "retrieved_at_utc": "2026-09-16T17:24:27.377892+00:00",
+    "attempts": 1,
+    "http_status": 200,
+    "final_url": "https://14.rosstat.gov.ru/storage/mediabank/%D0%95%D0%B6%D0%B5%D0%B3%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA_%D0%BE%D1%82%2023.10.2023_05_896604.pdf",
+    "redirects": [
+      {
+        "url": "https://14.rosstat.gov.ru/storage/mediabank/%D0%95%D0%B6%D0%B5%D0%B3%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA_%D0%BE%D1%82%2023.10.2023_05_896604.pdf",
+        "status": 200
+      }
+    ],
+    "content_type": "application/pdf",
+    "last_modified": "Fri, 01 Mar 2024 01:11:51 GMT",
+    "status": "downloaded",
+    "raw_file": "yakutia_yearbook2023.pdf",
+    "bytes": 3973873,
+    "sha256": "ba3ce2ff23b1d3b454d95f8e83a1f61fff899714fb2018a3ca4fb1f4f84f56db"
+  },
+  {
+    "source_id": "yakutia_yearbook2024",
+    "url": "https://14.rosstat.gov.ru/storage/mediabank/Статистический%20ежегодник%20Республики%20Саха%20(Якутия).PDF",
+    "suffix": ".pdf",
+    "role": "2024 publication through2023; actual official catalogue link",
+    "retrieved_at_utc": "2026-09-16T17:27:11.233814+00:00",
+    "attempts": 1,
+    "http_status": 200,
+    "final_url": "https://14.rosstat.gov.ru/storage/mediabank/%D0%A1%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B5%D0%B6%D0%B5%D0%B3%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%20%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B8%20%D0%A1%D0%B0%D1%85%D0%B0%20(%D0%AF%D0%BA%D1%83%D1%82%D0%B8%D1%8F).PDF",
+    "redirects": [
+      {
+        "url": "https://14.rosstat.gov.ru/storage/mediabank/%D0%A1%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B5%D0%B6%D0%B5%D0%B3%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%20%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B8%20%D0%A1%D0%B0%D1%85%D0%B0%20(%D0%AF%D0%BA%D1%83%D1%82%D0%B8%D1%8F).PDF",
+        "status": 200
+      }
+    ],
+    "content_type": "application/pdf",
+    "last_modified": "Thu, 19 Dec 2024 05:08:10 GMT",
+    "status": "downloaded",
+    "raw_file": "yakutia_yearbook2024.pdf",
+    "bytes": 28862644,
+    "sha256": "478b76e74d76ad8d48dc809d9879601ddcf4207b19c60f137b2893791a6b57a0"
+  },
+  {
+    "source_id": "yakutia_yearbook2025_current",
+    "url": "https://14.rosstat.gov.ru/storage/mediabank/Ежегодник%202025_merged_removed_organized.pdf",
+    "suffix": ".pdf",
+    "role": "current catalogue version of2025 yearbook, compare to indexed URL; not independent measurement",
+    "retrieved_at_utc": "2026-09-16T17:27:15.416668+00:00",
+    "attempts": 1,
+    "http_status": 200,
+    "final_url": "https://14.rosstat.gov.ru/storage/mediabank/%D0%95%D0%B6%D0%B5%D0%B3%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%202025_merged_removed_organized.pdf",
+    "redirects": [
+      {
+        "url": "https://14.rosstat.gov.ru/storage/mediabank/%D0%95%D0%B6%D0%B5%D0%B3%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%202025_merged_removed_organized.pdf",
+        "status": 200
+      }
+    ],
+    "content_type": "application/pdf",
+    "last_modified": "Tue, 03 Mar 2026 08:13:02 GMT",
+    "status": "downloaded",
+    "raw_file": "yakutia_yearbook2025_current.pdf",
+    "bytes": 33045179,
+    "sha256": "b8398deec6653dfe2fb454d164c44d7d27485ffa12395b31931f73330ac7d8e2"
+  }
+]

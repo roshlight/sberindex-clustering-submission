@@ -1,0 +1,95 @@
+{
+  "script_sha256": "21111a2071b4468e0df6c4a407eacb3ebb9c49028007665ae3222bc45ed30a81",
+  "bridge_manifest_sha256": "700e16bc2129dc2918e6965b10720e771351dfac1ea14256477d4a1bddb1235b",
+  "inputs": [
+    {
+      "path": "..\\reports\\data_round2\\prices\\bridge_v2\\official_base_cities.csv",
+      "sha256": "52422ccb7a98f1e538ec9c5526bb5b6d8092ced681e1aa7dfab8f96251eee7b3"
+    },
+    {
+      "path": "..\\reports\\data_round2\\prices\\bridge_v2\\bridge_approved_evidence.csv",
+      "sha256": "8692f19bdbfab7de53fa794280ad1c1a6a83f937935d07547a24f9b86b1899c4"
+    },
+    {
+      "path": "..\\reports\\data_round2\\prices\\bridge_v2\\bridge_candidates.csv",
+      "sha256": "772d8c5264f821a0e45cbc48af1739e6338e9e44008348edcfff3eb25c1d8874"
+    },
+    {
+      "path": "..\\data\\derived\\enrichment\\municipal_crosswalk_2024-01-01.csv",
+      "sha256": "dc1603aacda2303a6ef836272d379323f527b32fd6bf0cffb55c279e0d22db3e"
+    }
+  ],
+  "source_workbooks": [
+    {
+      "year": 2023,
+      "filename": "sred_potreb_cen_2023.xlsx",
+      "sha256": "6fb4297765a110923566f9518aec77f6c56ae76f0f8a3b9e5d721ba3572359ed",
+      "url": "https://rosstat.gov.ru/storage/mediabank/sred_potreb_cen_2023.xlsx",
+      "unit_header": "на конец периода, рублей за единицу измерения"
+    },
+    {
+      "year": 2024,
+      "filename": "sred_potreb_cen_2024.xlsx",
+      "sha256": "b35330ad824fa4cfb85ba92718084772b8c113cb4ee7258f4ff5147e2f995ef3",
+      "url": "https://rosstat.gov.ru/storage/mediabank/sred_potreb_cen_2024.xlsx",
+      "unit_header": "на конец периода, рублей за единицу измерения"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "city_monthly_dimensions.csv",
+      "sha256": "49e5d4b72e399b82b73ad791570d05c4878889f27d3cde3e62c334f7bfa26212",
+      "bytes": 1257390
+    },
+    {
+      "path": "city_monthly_price_cells.parquet",
+      "sha256": "62ec7a852b8c6b6aa8c95ee46ebd4d9c9a973d084d293a00deea864fecc5009f",
+      "bytes": 26248634
+    },
+    {
+      "path": "city_year_coverage.csv",
+      "sha256": "7d0aaa3d4644c9ba108d9dbbcf55ed88c67b264ada66540f0ae44ea1acea772e",
+      "bytes": 16918
+    },
+    {
+      "path": "monthly_extraction_qa.csv",
+      "sha256": "f2e697561baa15e2a2a09f396ec399d6ff9dc611e31214b20718eb233c7a2b72",
+      "bytes": 715
+    },
+    {
+      "path": "primary_city_price_context.parquet",
+      "sha256": "4bfa779047e06197b1fe803410748e58866b9d1ef4e0327e10475384da463507",
+      "bytes": 20134609
+    },
+    {
+      "path": "product_dictionary.csv",
+      "sha256": "42036069ddbc9d3db9b0662b128cd88b2336a2f386fbc33ba8514e5f93565998",
+      "bytes": 1234469
+    },
+    {
+      "path": "product_primary_coverage.csv",
+      "sha256": "ed8ccacfc4fda4996fb4f2e53334d3bbb292ede8f114f56f28fed65b5d390394",
+      "bytes": 34097
+    },
+    {
+      "path": "source_footnotes.json",
+      "sha256": "d2c50966d63be251f9f25909dc3c149c2d51e80f847fb75651dbca144e3020a8",
+      "bytes": 8775
+    },
+    {
+      "path": "source_workbooks.csv",
+      "sha256": "ef1b37d7bb0fa0015fc0ece278fd39b46baa0e558f17f2e9662f5b6c01b5e278",
+      "bytes": 538
+    },
+    {
+      "path": "summary.json",
+      "sha256": "c374b391b9efab70d77c392d839504b95c0f4fc1695530651a1ebaa1108d38d9",
+      "bytes": 586
+    },
+    {
+      "path": "yearly_source_coverage.csv",
+      "sha256": "c278d1ae0035f7821d153d2270e334a6597f2150a3c06d5e23cfa8d9ebe313b9",
+      "bytes": 291
+    }
+  ]
+}

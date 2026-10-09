@@ -1,0 +1,26 @@
+{
+  "status": "exploratory_after_2024_results",
+  "method": "leiden_hellinger",
+  "months": ["2024-06", "2024-12"],
+  "samples": ["all", "no_attribute_change"],
+  "permutations": 999,
+  "seed": 190527,
+  "alpha": 0.05,
+  "minimum_id_coverage": 0.95,
+  "minimum_pair_coverage": 0.95,
+  "expected_cohort_size": 2016,
+  "road_type": "highway",
+  "distance_thresholds_km": [100, 250, 500, 1000, 2000, 4000, 8000, 16000, 32000],
+  "road_statistic": "mean_km_among_available_unordered_same_group_pairs_equal_pair_weight",
+  "market_statistic": "between_group_sum_of_squares_divided_by_total_sum_of_squares_raw_index",
+  "null": "shuffle_cluster_labels_within_regions_of_each_complete_source_sample",
+  "multiplicity": "Holm_across_H1_H2_and_two_months_separately_for_each_sample",
+  "selection_note": "June and December fixed before this calculation; existing December results already known. No claim of preregistration or fresh holdout.",
+  "source_dates": {"road": "2024-12-31", "market_access": "2024", "crosswalk": "2024-01-01"},
+  "inputs": {
+    "data/raw/connection.parquet": "20cbd5213d3ac1d0a867f097b485431811614b283d7366eb5cba9f65dc80493d",
+    "reports/enrichment_v1/core_context/municipal_context_2024.parquet": "1a33be3593d0f6f3fb2e2ff53f687786294bedeb9ecb30a84bcc6eed4f92d1b4",
+    "reports/initial_study/assignments.parquet": "54f6c1f3c92a878a990c620e9fdb544ab6187f9ac0baea4bc5070d964e0ae6bc",
+    "data/derived/reviews/spatial_transitions_v1/territory_crosswalk.csv": "14adad093b9c946aad5f9b7b27ca891fc52a5395ab9c796c34a1cabf6e173587"
+  }
+}

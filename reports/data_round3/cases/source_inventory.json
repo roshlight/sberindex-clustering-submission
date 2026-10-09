@@ -1,0 +1,470 @@
+[
+  {
+    "source_id": "kurkino_adm_2024",
+    "url": "https://kurkino-vmo.ru/netcat_files/51/57/h_e19f2aa0a7a6ffa54a0378ebfa920276",
+    "territory_id": 2527,
+    "suffix": ".pdf",
+    "retrieved_at_utc": "2026-09-16T16:22:35.424535+00:00",
+    "attempts": 1,
+    "status": 200,
+    "final_url": "https://kurkino-vmo.ru/netcat_files/51/57/h_e19f2aa0a7a6ffa54a0378ebfa920276",
+    "redirect_chain": [
+      {
+        "url": "https://kurkino-vmo.ru/netcat_files/51/57/h_e19f2aa0a7a6ffa54a0378ebfa920276",
+        "status": 200
+      }
+    ],
+    "content_type": "application/pdf",
+    "bytes": 632277,
+    "sha256": "03a0e28b852b3a9f211e4298f95d25094638c2ea551e4e2d196329aa2ffb1dbf",
+    "raw_file": "kurkino_adm_2024.pdf",
+    "download_status": "downloaded",
+    "extraction_format": "pdf",
+    "extraction_sha256": "00bce12ed87cd67c85be3e12c7e0a3ff09feaca50c296dda21658b0e06c0869f"
+  },
+  {
+    "source_id": "kurkino_decisions_2024",
+    "url": "https://kurkino-vmo.ru/sovet-deputatov/zasedaniya-soveta-deputatov-1/resheniya-soveta-deputatov/reshenia-2024/",
+    "territory_id": 2527,
+    "suffix": ".html",
+    "retrieved_at_utc": "2026-09-16T16:21:12.910672+00:00",
+    "attempts": 1,
+    "status": 200,
+    "final_url": "https://kurkino-vmo.ru/sovet-deputatov/zasedaniya-soveta-deputatov-1/resheniya-soveta-deputatov/reshenia-2024/",
+    "redirect_chain": [
+      {
+        "url": "https://kurkino-vmo.ru/sovet-deputatov/zasedaniya-soveta-deputatov-1/resheniya-soveta-deputatov/reshenia-2024/",
+        "status": 200
+      }
+    ],
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 72441,
+    "sha256": "fc2045ffa303f5dee783226a86b32b2d1684aac781b1b3482a9d1d6adc40504b",
+    "raw_file": "kurkino_decisions_2024.html",
+    "download_status": "downloaded",
+    "extraction_format": "html",
+    "extraction_sha256": "bb8cfd23a60104aa56a8650e2658d2a1a42c5b9f94e6700ce1a56843af573081"
+  },
+  {
+    "source_id": "kurkino_head_2024",
+    "url": "https://kurkino-vmo.ru/netcat_files/21/21/h_050e277c3d1edfa79bd07e71c0ee47e3",
+    "territory_id": 2527,
+    "suffix": ".pdf",
+    "retrieved_at_utc": "2026-09-16T16:21:08.514411+00:00",
+    "attempts": 1,
+    "status": 200,
+    "final_url": "https://kurkino-vmo.ru/netcat_files/21/21/h_050e277c3d1edfa79bd07e71c0ee47e3",
+    "redirect_chain": [
+      {
+        "url": "https://kurkino-vmo.ru/netcat_files/21/21/h_050e277c3d1edfa79bd07e71c0ee47e3",
+        "status": 200
+      }
+    ],
+    "content_type": "application/pdf",
+    "bytes": 254479,
+    "sha256": "c4cec7e061dd22d48b70251579b923f3af9539b7555e49ccbf570aca4516e6ed",
+    "raw_file": "kurkino_head_2024.pdf",
+    "download_status": "downloaded",
+    "extraction_format": "pdf",
+    "extraction_sha256": "6e618fe292c949bca4710c0dd92a20bdf66e2f42ffbfae3dee6cbaff08779405"
+  },
+  {
+    "source_id": "kurkino_home",
+    "url": "https://kurkino-vmo.ru/",
+    "territory_id": 2527,
+    "retrieved_at_utc": "2026-09-16T16:20:17.223604+00:00",
+    "attempts": 1,
+    "status": 200,
+    "final_url": "https://kurkino-vmo.ru/",
+    "redirect_chain": [
+      {
+        "url": "https://kurkino-vmo.ru/",
+        "status": 200
+      }
+    ],
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 74350,
+    "sha256": "251f6126e8ac6238da56a6dd1bc19fec0938890f77c65ffad543c5b20a8297d9",
+    "raw_file": "kurkino_home.html",
+    "download_status": "downloaded",
+    "extraction_format": "html",
+    "extraction_sha256": "ada17cd60f91b9f26661ce46ba3d47ef47d74cdacaca7301c3c84101709451ef"
+  },
+  {
+    "source_id": "kurkino_org_reports",
+    "url": "https://kurkino-vmo.ru/otchety-rukovoditeley-organizatsiy-i-uchrezhdeniy/",
+    "territory_id": 2527,
+    "suffix": ".html",
+    "retrieved_at_utc": "2026-09-16T16:21:11.146269+00:00",
+    "attempts": 1,
+    "status": 200,
+    "final_url": "https://kurkino-vmo.ru/otchety-rukovoditeley-organizatsiy-i-uchrezhdeniy/",
+    "redirect_chain": [
+      {
+        "url": "https://kurkino-vmo.ru/otchety-rukovoditeley-organizatsiy-i-uchrezhdeniy/",
+        "status": 200
+      }
+    ],
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 61226,
+    "sha256": "1a32ec4d59275b627c8b7e6cf8455213e99172bd0b0284184905d9a7a5635e66",
+    "raw_file": "kurkino_org_reports.html",
+    "download_status": "downloaded",
+    "extraction_format": "html",
+    "extraction_sha256": "96c9a5d6e0a5dd021b0431ba34180cafd6ac311eea38fb48085d039361e7f66b"
+  },
+  {
+    "source_id": "kurkino_reports",
+    "url": "https://kurkino-vmo.ru/glava-munitsipalnogo-okruga/reports/",
+    "territory_id": 2527,
+    "retrieved_at_utc": "2026-09-16T16:19:12.677294+00:00",
+    "attempts": 1,
+    "status": 200,
+    "final_url": "https://kurkino-vmo.ru/glava-munitsipalnogo-okruga/reports/",
+    "redirect_chain": [
+      {
+        "url": "https://kurkino-vmo.ru/glava-munitsipalnogo-okruga/reports/",
+        "status": 200
+      }
+    ],
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 53678,
+    "sha256": "8dc22b31e348966e021ec7188e8d6741a550da152d885c784b21fd2cf9040656",
+    "raw_file": "kurkino_reports.html",
+    "download_status": "downloaded",
+    "extraction_format": "html",
+    "extraction_sha256": "4f4eda93431ee7794f18490698f8efe418ded81d3f3b1ad32b7a528314e7b1d8"
+  },
+  {
+    "source_id": "kurkino_uprava_2024",
+    "url": "https://kurkino-vmo.ru/netcat_files/51/57/h_58e37c6ebb4e9276f8aafb89855350c7",
+    "territory_id": 2527,
+    "suffix": ".pdf",
+    "retrieved_at_utc": "2026-09-16T16:22:32.371716+00:00",
+    "attempts": 1,
+    "status": 200,
+    "final_url": "https://kurkino-vmo.ru/netcat_files/51/57/h_58e37c6ebb4e9276f8aafb89855350c7",
+    "redirect_chain": [
+      {
+        "url": "https://kurkino-vmo.ru/netcat_files/51/57/h_58e37c6ebb4e9276f8aafb89855350c7",
+        "status": 200
+      }
+    ],
+    "content_type": "application/pdf",
+    "bytes": 9596077,
+    "sha256": "1929a0996b9d64ca64550e49003f1d4db5443715207a1485e14b69471a3b7201",
+    "raw_file": "kurkino_uprava_2024.pdf",
+    "download_status": "downloaded",
+    "extraction_format": "pdf",
+    "extraction_sha256": "48c8e68ec324178aff0bef0cd975b3ea815e502ce51b76f525be4e07755eaa60"
+  },
+  {
+    "source_id": "kurkino_zhilishnik_2024",
+    "url": "https://kurkino-vmo.ru/netcat_files/51/57/h_3b376e6b3ae3561d6d1b808d4faf461d",
+    "territory_id": 2527,
+    "suffix": ".pdf",
+    "retrieved_at_utc": "2026-09-16T16:22:38.163609+00:00",
+    "attempts": 1,
+    "status": 200,
+    "final_url": "https://kurkino-vmo.ru/netcat_files/51/57/h_3b376e6b3ae3561d6d1b808d4faf461d",
+    "redirect_chain": [
+      {
+        "url": "https://kurkino-vmo.ru/netcat_files/51/57/h_3b376e6b3ae3561d6d1b808d4faf461d",
+        "status": 200
+      }
+    ],
+    "content_type": "application/pdf",
+    "bytes": 523334,
+    "sha256": "57f2f9e3e46134d1ed56bd3bff65f1a3adae1d13b18a68fadce71702451dd174",
+    "raw_file": "kurkino_zhilishnik_2024.pdf",
+    "download_status": "downloaded",
+    "extraction_format": "pdf",
+    "extraction_sha256": "592e124252faa2e16a55bd11f924dda5de21abe60ccb93bc76088b00bad466af"
+  },
+  {
+    "source_id": "svetl_2023_report",
+    "url": "https://xn--b1agmh1ai8d.xn--p1ai/wp-content/uploads/2024/04/34-reshenie-ob-otchete-glavy-za-2023-g.pdf",
+    "territory_id": 1180,
+    "retrieved_at_utc": "2026-09-16T16:18:37.764312+00:00",
+    "attempts": 1,
+    "status": 200,
+    "final_url": "https://xn--b1agmh1ai8d.xn--p1ai/wp-content/uploads/2024/04/34-reshenie-ob-otchete-glavy-za-2023-g.pdf",
+    "redirect_chain": [
+      {
+        "url": "https://xn--b1agmh1ai8d.xn--p1ai/wp-content/uploads/2024/04/34-reshenie-ob-otchete-glavy-za-2023-g.pdf",
+        "status": 200
+      }
+    ],
+    "content_type": "application/pdf",
+    "bytes": 658823,
+    "sha256": "ecec1db5ef1208e661d930b181ac8b14a9683d171900b551d1e201642bed0bab",
+    "raw_file": "svetl_2023_report.pdf",
+    "download_status": "downloaded",
+    "extraction_format": "pdf",
+    "extraction_sha256": "a90490a246f08c41fecee7e8d520d4c7f414eb752a8019febd220cace71d005c"
+  },
+  {
+    "source_id": "svetl_2024_report",
+    "url": "https://xn--b1agmh1ai8d.xn--p1ai/wp-content/uploads/2025/06/otchet-administraczii-mo-sgo-za-2024-g.-chernova-szhatyj.pdf",
+    "territory_id": 1180,
+    "retrieved_at_utc": "2026-09-16T16:18:41.922477+00:00",
+    "attempts": 1,
+    "status": 200,
+    "final_url": "https://xn--b1agmh1ai8d.xn--p1ai/wp-content/uploads/2025/06/otchet-administraczii-mo-sgo-za-2024-g.-chernova-szhatyj.pdf",
+    "redirect_chain": [
+      {
+        "url": "https://xn--b1agmh1ai8d.xn--p1ai/wp-content/uploads/2025/06/otchet-administraczii-mo-sgo-za-2024-g.-chernova-szhatyj.pdf",
+        "status": 200
+      }
+    ],
+    "content_type": "application/pdf",
+    "bytes": 1026407,
+    "sha256": "d82357219c9b7fb86c58b8b05c41b5939721b092a4190147bccd093c8687305f",
+    "raw_file": "svetl_2024_report.pdf",
+    "download_status": "downloaded",
+    "extraction_format": "pdf",
+    "extraction_sha256": "e5e4b4bf5250a3d4adb00448344b7acb9bf12178c831d45f4e0e1b7e17c089d9"
+  },
+  {
+    "source_id": "svetl_budget_2026",
+    "url": "https://xn--b1agmh1ai8d.xn--p1ai/wp-content/uploads/2025/11/byudzhet-dlya-grazhdan-2026-2028-gg-rasshirennaya-versiya-szhatyj.pdf",
+    "territory_id": 1180,
+    "retrieved_at_utc": "2026-09-16T16:18:45.483441+00:00",
+    "attempts": 1,
+    "status": 200,
+    "final_url": "https://xn--b1agmh1ai8d.xn--p1ai/wp-content/uploads/2025/11/byudzhet-dlya-grazhdan-2026-2028-gg-rasshirennaya-versiya-szhatyj.pdf",
+    "redirect_chain": [
+      {
+        "url": "https://xn--b1agmh1ai8d.xn--p1ai/wp-content/uploads/2025/11/byudzhet-dlya-grazhdan-2026-2028-gg-rasshirennaya-versiya-szhatyj.pdf",
+        "status": 200
+      }
+    ],
+    "content_type": "application/pdf",
+    "bytes": 4869932,
+    "sha256": "2d7ffbf61ab3ef04d0c6ec294050b250a0dff11f85c6942eeb35def362288657",
+    "raw_file": "svetl_budget_2026.pdf",
+    "download_status": "downloaded",
+    "extraction_format": "pdf",
+    "extraction_sha256": "4acc6a76db0a1fc639fb7fa9e974c7baaefaf5746b591d425e0c0347f7b14b85"
+  },
+  {
+    "source_id": "svetl_workers_2024",
+    "url": "https://39.rosstat.gov.ru/storage/mediabank/03_01%20%D0%A1%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D1%87%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%202024.pdf",
+    "territory_id": 1180,
+    "suffix": ".pdf",
+    "retrieved_at_utc": "2026-09-16T16:21:14.697159+00:00",
+    "attempts": 1,
+    "status": 404,
+    "final_url": "https://39.rosstat.gov.ru/storage/mediabank/03_01%20%D0%A1%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D1%87%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%202024.pdf",
+    "redirect_chain": [
+      {
+        "url": "https://39.rosstat.gov.ru/storage/mediabank/03_01%20%D0%A1%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D1%87%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%202024.pdf",
+        "status": 404
+      }
+    ],
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 668057,
+    "sha256": "25d4b40daa6ad5dd541cb1f9983ecfc4d3e5df7b7f4a3d39769e092cbe9118d9",
+    "raw_file": "svetl_workers_2024.pdf",
+    "download_status": "http_error"
+  },
+  {
+    "source_id": "svetl_workers_2025_vintage",
+    "url": "https://39.rosstat.gov.ru/storage/mediabank/03_01%20%D0%A1%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D1%87%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%202025.pdf",
+    "territory_id": 1180,
+    "suffix": ".pdf",
+    "retrieved_at_utc": "2026-09-16T16:22:40.300013+00:00",
+    "attempts": 1,
+    "status": 200,
+    "final_url": "https://39.rosstat.gov.ru/storage/mediabank/03_01%20%D0%A1%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D1%87%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%202025.pdf",
+    "redirect_chain": [
+      {
+        "url": "https://39.rosstat.gov.ru/storage/mediabank/03_01%20%D0%A1%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D1%87%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%202025.pdf",
+        "status": 200
+      }
+    ],
+    "content_type": "application/pdf",
+    "bytes": 98286,
+    "sha256": "24dc8b9d4d1357c7e12cae4ae96e8db072b6f1ff99c7355cce0c0aece142ae3e",
+    "raw_file": "svetl_workers_2025_vintage.pdf",
+    "download_status": "downloaded",
+    "extraction_format": "pdf",
+    "extraction_sha256": "7d5e7314aa19e1689ae54035e47079419bf6a21c5e87bc0deb48c4ce9f4cc1df"
+  },
+  {
+    "source_id": "svob_annual2024",
+    "url": "https://28.rosstat.gov.ru/storage/2025/05-30/1sEgRJAS/AO_2025.pdf",
+    "territory_id": 883,
+    "retrieved_at_utc": "2026-09-16T16:19:01.999293+00:00",
+    "attempts": 1,
+    "status": 200,
+    "final_url": "https://28.rosstat.gov.ru/storage/2025/05-30/1sEgRJAS/AO_2025.pdf",
+    "redirect_chain": [
+      {
+        "url": "https://28.rosstat.gov.ru/storage/2025/05-30/1sEgRJAS/AO_2025.pdf",
+        "status": 200
+      }
+    ],
+    "content_type": "application/pdf",
+    "bytes": 3700767,
+    "sha256": "da2f9180f2cef11d09c5ec93a6e623e1a0a9e417a3e50641bc364aa0b2d8abee",
+    "raw_file": "svob_annual2024.pdf",
+    "download_status": "downloaded",
+    "extraction_format": "pdf",
+    "extraction_sha256": "2a077e1bec8e678dc5f52a8eee7519507165b2c6c85ebf3427aad72f87b04a0a"
+  },
+  {
+    "source_id": "svob_bulletin",
+    "url": "https://www.svobregionadm.ru/page/svobregionadm/",
+    "territory_id": 883,
+    "suffix": ".html",
+    "retrieved_at_utc": "2026-09-16T16:21:21.324100+00:00",
+    "attempts": 1,
+    "status": 200,
+    "final_url": "https://www.svobregionadm.ru/page/svobregionadm/",
+    "redirect_chain": [
+      {
+        "url": "https://www.svobregionadm.ru/page/svobregionadm/",
+        "status": 200
+      }
+    ],
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 129720,
+    "sha256": "dceca9b737ad97e23ab1a22dae6825b4e4104a79ba28b3abc96ee25fd6ed1082",
+    "raw_file": "svob_bulletin.html",
+    "download_status": "downloaded",
+    "extraction_format": "html",
+    "extraction_sha256": "eebe3d0b699dc8c23ed5641e01c8e770f063c717ef9fd8b7edb8db74a867c8ec"
+  },
+  {
+    "source_id": "svob_council",
+    "url": "https://www.svobregionadm.ru/page/sovet/",
+    "territory_id": 883,
+    "retrieved_at_utc": "2026-09-16T16:23:47.691612+00:00",
+    "attempts": 1,
+    "status": 200,
+    "final_url": "https://www.svobregionadm.ru/page/sovet/",
+    "redirect_chain": [
+      {
+        "url": "https://www.svobregionadm.ru/page/sovet/",
+        "status": 200
+      }
+    ],
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 79696,
+    "sha256": "d0327411618c7fedb54465ba7115e841ec53bbe750cd1e79beadae47c44852fd",
+    "raw_file": "svob_council.html",
+    "download_status": "downloaded",
+    "extraction_format": "html",
+    "extraction_sha256": "d8361de5894a54661597185a202f330e27ca1f2042fdc1356dedfe667f257b95"
+  },
+  {
+    "source_id": "svob_dec2023",
+    "url": "https://28.rosstat.gov.ru/storage/mediabank/1.5%282%29.pdf",
+    "territory_id": 883,
+    "retrieved_at_utc": "2026-09-16T16:18:49.035644+00:00",
+    "attempts": 1,
+    "status": 200,
+    "final_url": "https://28.rosstat.gov.ru/storage/mediabank/1.5%282%29.pdf",
+    "redirect_chain": [
+      {
+        "url": "https://28.rosstat.gov.ru/storage/mediabank/1.5%282%29.pdf",
+        "status": 200
+      }
+    ],
+    "content_type": "application/pdf",
+    "bytes": 2095805,
+    "sha256": "6a967ea6b173ae2d661ddcea2d74cb1f6daa2a9bb0a7f78b7cfc6154e873a67b",
+    "raw_file": "svob_dec2023.pdf",
+    "download_status": "downloaded",
+    "extraction_format": "pdf",
+    "extraction_sha256": "a8c5371dd172d4ec312931e1da5e78c7b7221e6e3f042eca5b015c2fe9581620"
+  },
+  {
+    "source_id": "svob_dec2024",
+    "url": "https://28.rosstat.gov.ru/storage/mediabank/1.5%283%29.pdf",
+    "territory_id": 883,
+    "retrieved_at_utc": "2026-09-16T16:18:56.574199+00:00",
+    "attempts": 1,
+    "status": 200,
+    "final_url": "https://28.rosstat.gov.ru/storage/mediabank/1.5%283%29.pdf",
+    "redirect_chain": [
+      {
+        "url": "https://28.rosstat.gov.ru/storage/mediabank/1.5%283%29.pdf",
+        "status": 200
+      }
+    ],
+    "content_type": "application/pdf",
+    "bytes": 1723177,
+    "sha256": "2afacd6ca32198d69a473106d10424f0d1f1be29d09681cfb1b8fc8fb9f30560",
+    "raw_file": "svob_dec2024.pdf",
+    "download_status": "downloaded",
+    "extraction_format": "pdf",
+    "extraction_sha256": "624b0008d24d5a9a10ede1cb9dc4fe39f0fd9c3753126401c6ed34fccb717180"
+  },
+  {
+    "source_id": "svob_economy_program2024",
+    "url": "https://www.svobregionadm.ru/gallery/npa/svobregionadm/Постановление администрации Свободненского района № 636 от 15.11.2024.pdf",
+    "territory_id": 883,
+    "retrieved_at_utc": "2026-09-16T16:25:18.195224+00:00",
+    "attempts": 1,
+    "status": 200,
+    "final_url": "https://www.svobregionadm.ru/gallery/npa/svobregionadm/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8%20%D0%A1%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%BD%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D0%B0%20%E2%84%96%20636%20%D0%BE%D1%82%2015.11.2024.pdf",
+    "redirect_chain": [
+      {
+        "url": "https://www.svobregionadm.ru/gallery/npa/svobregionadm/%D0%9F%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8%20%D0%A1%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%BD%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D0%B0%20%E2%84%96%20636%20%D0%BE%D1%82%2015.11.2024.pdf",
+        "status": 200
+      }
+    ],
+    "content_type": "application/pdf",
+    "bytes": 143482,
+    "sha256": "bf3000e08f91241a63706d9187718780129fc033721b729b1a8980145aae0c9a",
+    "raw_file": "svob_economy_program2024.pdf",
+    "download_status": "downloaded",
+    "extraction_format": "pdf",
+    "extraction_sha256": "6c28bed002defe220a7f2b5aa5f388dbe982a26fb5afd75185f1a0daf22888b8"
+  },
+  {
+    "source_id": "svob_home",
+    "url": "https://svobregion.amurobl.ru/",
+    "territory_id": 883,
+    "retrieved_at_utc": "2026-09-16T16:19:15.425270+00:00",
+    "attempts": 1,
+    "download_status": "request_error",
+    "error": "ConnectTimeout: _ssl.c:993: The handshake operation timed out"
+  },
+  {
+    "source_id": "svob_legacy",
+    "url": "https://www.svobregion.ru/",
+    "territory_id": 883,
+    "suffix": ".ru",
+    "retrieved_at_utc": "2026-09-16T16:21:19.069036+00:00",
+    "attempts": 1,
+    "download_status": "request_error",
+    "error": "ValueError: Unapproved redirect hostname: bestrukazino-2026.com"
+  },
+  {
+    "source_id": "svob_strategy2035",
+    "url": "https://www.svobregionadm.ru/gallery/npa/sovet/Решение № 130 от 24.12.2025.rar",
+    "territory_id": 883,
+    "discovery_parent": "svob_council",
+    "source_label": "Р Е Ш Е Н И Е от 24.12.2025 № 130 «Об утверждении Стратегии социально-экономического развития муниципального образования Свободненский район Амурской области на период до 2035 года» (Дата публикации 24.12.2025)",
+    "retrieved_at_utc": "2026-09-16T16:24:59.565077+00:00",
+    "attempts": 1,
+    "status": 200,
+    "final_url": "https://www.svobregionadm.ru/gallery/npa/sovet/%D0%A0%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%E2%84%96%20130%20%D0%BE%D1%82%2024.12.2025.rar",
+    "redirect_chain": [
+      {
+        "url": "https://www.svobregionadm.ru/gallery/npa/sovet/%D0%A0%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%E2%84%96%20130%20%D0%BE%D1%82%2024.12.2025.rar",
+        "status": 200
+      }
+    ],
+    "content_type": "application/vnd.rar",
+    "bytes": 365060,
+    "sha256": "4a6f8d63d0de997d72ead18436309f53016d4d333acf36ffcbb2e58257979f3b",
+    "raw_file": "svob_strategy2035.rar",
+    "download_status": "downloaded",
+    "extraction_format": "unparsed_binary",
+    "extraction_sha256": "4e857ddbc42f7a4ac88f1ef8f998eb6db50602675ad966dc042e74d4c04570a5"
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "status": "complete",
+  "completed_at": "2026-09-15T12:05:23.337619+00:00",
+  "inputs": {
+    "reports/enriched_analysis/core_v2/annual_panel.csv": "0e44e34b94c51aeb429615ec9a0e8127def140a6f414afa75e255e00cb4f8190",
+    "reports/data_round2/sector/bulk/annual_candidate_sector.parquet": "1e31fad3974f14692681af13854290565c8ff88bd08b93862bbd20ac86ca7af0",
+    "configs/round2_analysis_v1.json": "784fce8a4e44ab8dbfbffc222e09e8bb628c976f7655b531b0d0587c02f3ca47",
+    "src/municipal_profiles/enriched_analysis.py": "095722e93f9c8b8c6a34813879c933e3fb2fbc1d3dc4f1e51b169f4fa9c88102",
+    "uv.lock": "0a6a3b3051ad89b3aebc2a673966f0d67c4601453f9c386e924de7065bbca6f4"
+  },
+  "code_sha256": "deb994922f4d0840e8f3c0d9413c669618c8862877e4aa737878a0a7f6cc61f4",
+  "skipped_samples": [],
+  "rows": {
+    "2023": {
+      "core": 1975,
+      "stable": 1897
+    },
+    "2024": {
+      "core": 1998,
+      "stable": 1930
+    }
+  },
+  "models": {
+    "economic": [
+      "log_population",
+      "log_wage",
+      "log_worker_concentration"
+    ],
+    "economic_missingness": [
+      "log_population",
+      "log_wage",
+      "log_worker_concentration",
+      "missing_A",
+      "missing_B",
+      "missing_C",
+      "missing_D",
+      "missing_H",
+      "missing_O",
+      "missing_P",
+      "missing_Q"
+    ],
+    "economic_sectors": [
+      "log_population",
+      "log_wage",
+      "log_worker_concentration",
+      "missing_A",
+      "missing_B",
+      "missing_C",
+      "missing_D",
+      "missing_H",
+      "missing_O",
+      "missing_P",
+      "missing_Q",
+      "sector_A_share",
+      "sector_B_share",
+      "sector_C_share",
+      "sector_D_share",
+      "sector_H_share",
+      "sector_O_share",
+      "sector_P_share",
+      "sector_Q_share"
+    ]
+  },
+  "outputs": {
+    "cv_comparisons.csv": "252c5e6bd097ebc87f1d12cbb738208d1d44c3933b67908ff9a708ea997385c7",
+    "cv_metrics.csv": "70a3dcca9b7f9d6c1e691d427baf2be7e86cbe5ad34b6d485849d3344a6aee94",
+    "model_panel.csv": "fd302a8da31bf16305d1664dd2e34708dda5042f18521858db6b902e3ada2f7b",
+    "oof_predictions.parquet": "a5a9059911b5bdc530d643db9e22b09643cd4df8dc7949547461d01452a18f17",
+    "partial_correlations.csv": "e32175347f3df58cf5cfa1d06f1b6f0e7b36bf6bed34d840756f085b5b0cab77",
+    "preprocessing.json": "a1308d7aa331e9ecf938dbfaf0c53542e174d77fe6c91579082c38a055733def",
+    "selected_sector_features.csv": "14a89221e2ad2eaa089d272171b4c19214b898a8c102dd273618cce92944145e",
+    "slice_losses.csv": "cd1119d3a0e79e3cbbef606912bbdb84d4605421147e88001f4bfa0a352c1f77"
+  }
+}

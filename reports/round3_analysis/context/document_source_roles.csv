@@ -1,0 +1,23 @@
+﻿source_id,territory_id,download_status,role,url
+kurkino_adm_2024,2527,downloaded,Отчёт администрации 2024;8 штатных муниципальных служащих 31.12.2024,https://kurkino-vmo.ru/netcat_files/51/57/h_e19f2aa0a7a6ffa54a0378ebfa920276
+kurkino_decisions_2024,2527,downloaded,Официальные решения 2024; поиск ретроспективных приложений,https://kurkino-vmo.ru/sovet-deputatov/zasedaniya-soveta-deputatov-1/resheniya-soveta-deputatov/reshenia-2024/
+kurkino_head_2024,2527,downloaded,Отчёт главыМО только 17.09–31.12.2024; не экономический годовой итог,https://kurkino-vmo.ru/netcat_files/21/21/h_050e277c3d1edfa79bd07e71c0ee47e3
+kurkino_home,2527,downloaded,"Официальная главная страница; навигация, числовых записей нет",https://kurkino-vmo.ru/
+kurkino_org_reports,2527,downloaded,Официальный каталог отчётов организаций; первичные ссылки,https://kurkino-vmo.ru/otchety-rukovoditeley-organizatsiy-i-uchrezhdeniy/
+kurkino_reports,2527,downloaded,Официальный каталог отчётов главыМО; ссылка на неполный период 2024,https://kurkino-vmo.ru/glava-munitsipalnogo-okruga/reports/
+kurkino_uprava_2024,2527,downloaded,"30 слайдов управы 2024; фото, текстовый слой иOCR сохранены; числовых записей нет",https://kurkino-vmo.ru/netcat_files/51/57/h_58e37c6ebb4e9276f8aafb89855350c7
+kurkino_zhilishnik_2024,2527,downloaded,"ГБУ Жилищник 2024;336 сотрудников и 3 составляющих, точная дата среза не указана",https://kurkino-vmo.ru/netcat_files/51/57/h_3b376e6b3ae3561d6d1b808d4faf461d
+svetl_2023_report,1180,downloaded,"Годовой отчёт 2023; работники, зарплата, МСП, отгрузка; количественные записи",https://xn--b1agmh1ai8d.xn--p1ai/wp-content/uploads/2024/04/34-reshenie-ob-otchete-glavy-za-2023-g.pdf
+svetl_2024_report,1180,downloaded,"Годовой отчёт 2024; работники, зарплата, организации, отгрузка; конфликт зарплаты сохранён",https://xn--b1agmh1ai8d.xn--p1ai/wp-content/uploads/2025/06/otchet-administraczii-mo-sgo-za-2024-g.-chernova-szhatyj.pdf
+svetl_budget_2026,1180,downloaded,"Бюджет для граждан 2026–2028; содержит ретроспективу 2023/2024, дополнительный архив, в 53 записи не включён",https://xn--b1agmh1ai8d.xn--p1ai/wp-content/uploads/2025/11/byudzhet-dlya-grazhdan-2026-2028-gg-rasshirennaya-versiya-szhatyj.pdf
+svetl_workers_2024,1180,http_error,"Исторический URL статистической таблицы; HTTP 404, чисел не извлекали",https://39.rosstat.gov.ru/storage/mediabank/03_01%20%D0%A1%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D1%87%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%202024.pdf
+svetl_workers_2025_vintage,1180,downloaded,"Таблица Калининградстата, обновление 12.03.2026; подтверждение 5396/6455",https://39.rosstat.gov.ru/storage/mediabank/03_01%20%D0%A1%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D1%87%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%202025.pdf
+svob_annual2024,883,downloaded,Амурская область в цифрах 2025; две записи стр 14 только quarantine,https://28.rosstat.gov.ru/storage/2025/05-30/1sEgRJAS/AO_2025.pdf
+svob_bulletin,883,downloaded,Официальный бюллетень администрации; каталог первичных ссылок,https://www.svobregionadm.ru/page/svobregionadm/
+svob_council,883,downloaded,Официальный Совет; источник ссылки на архив стратегии,https://www.svobregionadm.ru/page/sovet/
+svob_dec2023,883,downloaded,"Амурстат; декабрь 2023, крупные/средние организации, отдельный период",https://28.rosstat.gov.ru/storage/mediabank/1.5%282%29.pdf
+svob_dec2024,883,downloaded,"Амурстат; декабрь 2024, крупные/средние организации, отдельный период",https://28.rosstat.gov.ru/storage/mediabank/1.5%283%29.pdf
+svob_economy_program2024,883,downloaded,"Муниципальная программа 15.11.2024№636; скан без текстового слоя, сохранён без числового извлечения",https://www.svobregionadm.ru/gallery/npa/svobregionadm/Постановление администрации Свободненского района № 636 от 15.11.2024.pdf
+svob_home,883,request_error,"Официальный текущий сайт; тайм-аут TLS, без повторов",https://svobregion.amurobl.ru/
+svob_legacy,883,request_error,"Предыдущий официальный сайт; ошибка соединения, без повторов",https://www.svobregion.ru/
+svob_strategy2035,883,downloaded,"Архив решения 24.12.2025№130; ретроспектива 2023,14 отраслевых зарплат,МСП; точныеDOCXячейки",https://www.svobregionadm.ru/gallery/npa/sovet/Решение № 130 от 24.12.2025.rar

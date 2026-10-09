@@ -1,0 +1,70 @@
+{
+  "script_sha256": "bdd29e9e00572667bd352b07477e169841d4abe642073dfae42b6bdc25de7e8b",
+  "helper_sha256": "fab88f68f48f702d8ebd61c1b0f36a53bba69e704a5b7af0eeac43c6d8d7b869",
+  "lock_sha256": "0a6a3b3051ad89b3aebc2a673966f0d67c4601453f9c386e924de7065bbca6f4",
+  "input_files": {
+    "frozen_panel": {
+      "repo_path": "reports/enriched_analysis/core_v2/annual_panel.csv",
+      "sha256": "0e44e34b94c51aeb429615ec9a0e8127def140a6f414afa75e255e00cb4f8190"
+    },
+    "old_candidate": {
+      "repo_path": "reports/data_round3/economy/annual_candidate_panel.csv",
+      "sha256": "6660b05f061eb699fdb23c29e41fc2435ae56ffcb291cd519f6ff24f93f71e37"
+    },
+    "new_candidate": {
+      "repo_path": "reports/data_round4/economy/annual_candidate_panel.csv",
+      "sha256": "e556ae527f6109c34632e316d7931dd36436d97c975ff3d636cf1b7180e078d9"
+    },
+    "new_parquet": {
+      "repo_path": "reports/data_round4/economy/annual_candidate_panel.parquet",
+      "sha256": "74efdad1037e78e3829ece5bca8d78b66f58da4dda03fe0f086e239d15bc37ca"
+    },
+    "prior_features": {
+      "repo_path": "reports/round3_analysis/audit/annual_features.csv",
+      "sha256": "3ce5ec4410384d5729551a1bd5739ec041574b74f0268c15eb1e652640cae149"
+    },
+    "sector": {
+      "repo_path": "reports/round2_analysis/sector/feature_panel.csv",
+      "sha256": "b8d11bd3ae22d73beb29b8c558782bbcff484502a6d7c453066cb56be4f63d48"
+    },
+    "recovered_source": {
+      "repo_path": "reports/data_round4/economy/recovered_source_cells.csv",
+      "sha256": "aed149cba9bdb46028fd06ef64d47cd40ac958bb4e0f41ef4a51f32bda2f9489"
+    },
+    "source_only": {
+      "repo_path": "reports/data_round4/economy/source_only_outside_year_link.csv",
+      "sha256": "461e38c639acdb44cf0e6e29bd93ae5d8ee143dc13b8f199aa8b0bfe62fa9a31"
+    },
+    "collector_delta": {
+      "repo_path": "reports/data_round4/economy/delta_all_cells.csv",
+      "sha256": "0f7a2ee744697f6a458704b5bafca5ab8b7a7792d9cf77b7ec2d0e0ab1049f1d"
+    },
+    "independent_collection_qa": {
+      "repo_path": "reports/data_round4/economy/independent_QA.json",
+      "sha256": "119273cd6050ab87db2ad55781b52181714b4cab1e06588e08c1bd0e409bdf71"
+    }
+  },
+  "output_hashes": {
+    "affected_municipality_years.csv": "0cc0553e966f0a30ad12c475f8e22e83d221eeca76572528cceeaf94f7ab26da",
+    "annual_features.csv": "c751e01832cf47eca2daa2b5274ec899b5895b5eb900f14a10c299de5787cbf2",
+    "annual_features.parquet": "be167531b19d3f7badf5a1af637e069b413a66777ec4d45163097406cec8d226",
+    "availability_transitions.csv": "4ad0adf1b1ab2227a2b3f5520ea0ff26c8b702fbebcb2e9f39bc30e507dc1861",
+    "cell_comparison.csv": "ece2332301846ee338b9fdf73f8a1941ad52ec8457b241564e0e7a6f0fcb37bf",
+    "coverage_by_overall.csv": "985491b5b99f9343a3b504215d6e7d7c0abdb24358d18dad8e60700c31b92255",
+    "coverage_by_population.csv": "dbc3a34a617376ba7a72aecf2e49493b642fdbe9162ca24db5eba1991fcf4427",
+    "coverage_by_region.csv": "d2a83e215b761487d22a0daba312c6406d5630b4e6f888b0408ea002cd134d07",
+    "coverage_by_restrictions.csv": "032761461ea3b04bfe05db86d7760151be69e4ec60d8e92c147174fe8472289d",
+    "coverage_by_type.csv": "83300a54d502b6f98f1606a501678e9a3d630b58d85fa6fdb4d2244ff1f8834e",
+    "feature_dictionary.json": "5cb78fd141730b34710865e0f0cd670f1b37ec998b3077b82bb3c4cb5780eeff",
+    "gain_by_overall.csv": "c6f7081afaea41c6b71724c0e52974915a023e29a954f9eb99e4fb706d9f02b9",
+    "gain_by_population.csv": "d10677362fd363f941002c0769e9eafd0d8e727f4421f513ca64906c4de1930c",
+    "gain_by_region.csv": "e0bf8433b34879c5a2bd2b442a3ce095ffeaa089d9dd81e54dec715c1d51e1b9",
+    "gain_by_restrictions.csv": "b16541a0b43ddc404f12ba7f3003057caf90d18d06d48ea038e5f165682cbd44",
+    "gain_by_type.csv": "1bef6cff0251a0dd32a52ab04febbc2a134ec38a9d3302c0f9cfaa942647e445",
+    "joint_coverage.csv": "4130b6c43109906a1bddbf90ba71ff2f5cf6c56153fd51beb0bac09599fd600a",
+    "new_numeric_cells.csv": "c3312cd36edcaa92b7b67920b0747f3a5f61b538579fb253f9ca6d573a69852d",
+    "QA.json": "cbde011ddb10eb4f2d5d625d510cad60082e437e1dafd466efc3883d0b135dc1",
+    "remaining_missing_cells.csv": "15a96069c687f0ff2e4e6fd27f73dddb3c369f40d833b2f676f04a788bb75272",
+    "sample_membership.csv": "9ad439c585a420194f8e977a5d4a70e087cdb6287cb19a8fd17b775c85e320a8"
+  }
+}

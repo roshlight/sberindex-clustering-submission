@@ -1,0 +1,5 @@
+year,prefix,region_code,region_name,core_n,recovered_n,old_observed_n,new_observed_n,remaining_missing_n,recovered_median_rubles_per_person,previously_observed_median_rubles_per_person,median_ratio,recovered_median_population,previously_observed_median_population
+2023,shipments,59,Пермский край,42,21,21,42,0,783573.9706211321,372664.785501262,2.102624130603503,38404.0,13692.0
+2023,retail,25,Приморский край,33,11,17,28,5,54769.91281989488,26836.120356810017,2.0409027866800535,42271.0,21421.0
+2024,shipments,59,Пермский край,42,21,21,42,0,901912.7002231082,397114.4013134755,2.2711659341489185,37780.0,13486.0
+2024,retail,25,Приморский край,33,11,18,29,4,71263.06997317752,32665.462381082263,2.1816029769242915,42502.0,21070.5

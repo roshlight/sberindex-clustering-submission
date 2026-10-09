@@ -1,0 +1,639 @@
+{
+  "scope": "Local source supplement for enrichment_v2; no source bytes were rewritten",
+  "path_base": "Original workspace root; archive entry names preserve workspace-relative paths",
+  "entries": [
+    {
+      "archive_path": "outputs/municipal-economic-profiles/data/derived/enrichment/municipal_crosswalk_2023-01-01.csv",
+      "bytes": 845554,
+      "sha256": "ee3de32865f707060ef2239f58f9f991d1c3f6ce52192019c005ba1b64954ae0",
+      "purpose": "Exact bridge input; line endings and original bytes preserved"
+    },
+    {
+      "archive_path": "outputs/municipal-economic-profiles/data/derived/enrichment/municipal_crosswalk_2024-01-01.csv",
+      "bytes": 845122,
+      "sha256": "dc1603aacda2303a6ef836272d379323f527b32fd6bf0cffb55c279e0d22db3e",
+      "purpose": "Exact bridge input; line endings and original bytes preserved"
+    },
+    {
+      "archive_path": "outputs/municipal-economic-profiles/data/derived/enrichment/municipal_crosswalk_versions.csv",
+      "bytes": 935749,
+      "sha256": "70825d5ae255c02026a44365d093ac102c3b737632d8b3d6beef1f00c3ace536",
+      "purpose": "Exact bridge input; line endings and original bytes preserved"
+    },
+    {
+      "archive_path": "outputs/municipal-economic-profiles/reports/enrichment_v1/core_context/market_access_missing_ids.csv",
+      "bytes": 1396,
+      "sha256": "3f171b6c5080dade9e926099ecb091f775bde842c7cb440234c04c7ef78f446e",
+      "purpose": "Exact market-access audit input; original bytes preserved"
+    },
+    {
+      "archive_path": "outputs/municipal-economic-profiles/reports/enrichment_v1/population_bridge/primary_unmatched_2024.csv",
+      "bytes": 45728,
+      "sha256": "c6e6b74d7206ec27877aa72bea72b43c8672e1e71dc681a2294f6346863e6557",
+      "purpose": "Exact bridge input; line endings and original bytes preserved"
+    },
+    {
+      "archive_path": "outputs/municipal-economic-profiles/reports/initial_study/assignments.parquet",
+      "bytes": 1978134,
+      "sha256": "54f6c1f3c92a878a990c620e9fdb544ab6187f9ac0baea4bc5070d964e0ae6bc",
+      "purpose": "Exact market-access audit input; original bytes preserved"
+    },
+    {
+      "archive_path": "work/market-access-followup-20260915/audit_followup.py",
+      "bytes": 10383,
+      "sha256": "df1510d251cb33e77c957a97bdcb64dd58ff8caf515a8244dfeb7220261ee1d3",
+      "purpose": "Original market-access audit script, unchanged"
+    },
+    {
+      "archive_path": "work/market-access-followup-20260915/sources/connection.parquet",
+      "bytes": 21904682,
+      "sha256": "20cbd5213d3ac1d0a867f097b485431811614b283d7366eb5cba9f65dc80493d",
+      "purpose": "Market-access and official Sber boundary source snapshots"
+    },
+    {
+      "archive_path": "work/market-access-followup-20260915/sources/crosswalk/t_dict_municipal_districts.xlsx",
+      "bytes": 322024,
+      "sha256": "4150658c3298fbc87ed79838f503f3a5b9a28da33257ff803c7d9231ddb775d6",
+      "purpose": "Market-access and official Sber boundary source snapshots"
+    },
+    {
+      "archive_path": "work/market-access-followup-20260915/sources/crosswalk/t_dict_municipal_districts_poly.gpkg",
+      "bytes": 74334208,
+      "sha256": "e62027630d48e4a13f9b6d173dd074d7358706743fe859ca3b7fa30fefa9813a",
+      "purpose": "Market-access and official Sber boundary source snapshots"
+    },
+    {
+      "archive_path": "work/market-access-followup-20260915/sources/crosswalk_shortlink_head.json",
+      "bytes": 399,
+      "sha256": "99efa0e3ce8b64ca131a432431c5d64ba4df99b1758d41a7401a5131262e76bf",
+      "purpose": "Market-access and official Sber boundary source snapshots"
+    },
+    {
+      "archive_path": "work/market-access-followup-20260915/sources/hackathon_metadata.pdf",
+      "bytes": 538791,
+      "sha256": "030269e726f969250b911a1fcb72131a4b61c3952aad10c8470ce9c0736c472f",
+      "purpose": "Market-access and official Sber boundary source snapshots"
+    },
+    {
+      "archive_path": "work/market-access-followup-20260915/sources/hackathon_metadata.txt",
+      "bytes": 11861,
+      "sha256": "b08edec7198dc0b7d05a4bc55cd8957cb94e6b64b6e1bdb08c79b153e1c75f3d",
+      "purpose": "Market-access and official Sber boundary source snapshots"
+    },
+    {
+      "archive_path": "work/market-access-followup-20260915/sources/hackathonlicence.zip",
+      "bytes": 19603203,
+      "sha256": "a9f932ff4096a7df797d1547987937f34d3995ac445b4748177114488d12b010",
+      "purpose": "Market-access and official Sber boundary source snapshots"
+    },
+    {
+      "archive_path": "work/market-access-followup-20260915/sources/hackathonlicence.zip.retrieval.json",
+      "bytes": 539,
+      "sha256": "d4e8e41e9c433539564ec4f91c2c8242ed8c0079d312fe028d707723675ad829",
+      "purpose": "Market-access and official Sber boundary source snapshots"
+    },
+    {
+      "archive_path": "work/market-access-followup-20260915/sources/market_access.parquet",
+      "bytes": 25163,
+      "sha256": "434258afe322b7e6e6610b2552d129ae47094613de72dae3d13f6965a28d1dc1",
+      "purpose": "Market-access and official Sber boundary source snapshots"
+    },
+    {
+      "archive_path": "work/market-access-followup-20260915/sources/metadata_municipal_dict_sberindex_2.pdf",
+      "bytes": 333567,
+      "sha256": "05707427a64061552d1f23f74f578a99fdabeff69f0c8a0fc99d924210fee0b3",
+      "purpose": "Market-access and official Sber boundary source snapshots"
+    },
+    {
+      "archive_path": "work/market-access-followup-20260915/sources/metadata_municipal_dict_sberindex_2.pdf.retrieval.json",
+      "bytes": 629,
+      "sha256": "798af2b051d4cac121a88a9e228fb5d8a8ed10ea574727d2337eaf63b02255ee",
+      "purpose": "Market-access and official Sber boundary source snapshots"
+    },
+    {
+      "archive_path": "work/market-access-followup-20260915/sources/metadata_municipal_dict_sberindex_2.txt",
+      "bytes": 9212,
+      "sha256": "9b0600118d41860908f8cb67ed09e1f99a7c1aba66715ddc7771ba44657db566",
+      "purpose": "Market-access and official Sber boundary source snapshots"
+    },
+    {
+      "archive_path": "work/market-access-followup-20260915/sources/sber_crosswalk_browser_capture.txt",
+      "bytes": 6490,
+      "sha256": "3919b1eb8e26bcfa83a39bfcbf9959a50f4434f4d23f9c0469c19b12c3cba33c",
+      "purpose": "Market-access and official Sber boundary source snapshots"
+    },
+    {
+      "archive_path": "work/market-access-followup-20260915/sources/sber_crosswalk_landing.html",
+      "bytes": 2616,
+      "sha256": "7a06f301a68d773607b36dce0507f98cdeadf7a15a2e93cb14b665fbdce3ef2e",
+      "purpose": "Market-access and official Sber boundary source snapshots"
+    },
+    {
+      "archive_path": "work/market-access-followup-20260915/sources/sber_crosswalk_landing.html.retrieval.json",
+      "bytes": 475,
+      "sha256": "ef7219da59a351c0cf5d6197f709a346b6a8f829954cfa898e2f77702883ef40",
+      "purpose": "Market-access and official Sber boundary source snapshots"
+    },
+    {
+      "archive_path": "work/market-access-followup-20260915/sources/sber_crosswalk_rendered.json",
+      "bytes": 6217,
+      "sha256": "99b381a4316fb13bb800833cf3df90ddad1bf2b2a97c4367b23dd520b2923b24",
+      "purpose": "Market-access and official Sber boundary source snapshots"
+    },
+    {
+      "archive_path": "work/market-access-followup-20260915/sources/sber_market_browser_capture.txt",
+      "bytes": 9738,
+      "sha256": "ce741b34afe970e15ca5c64dd0e419b496b6c3cdc352b7a2ab90e6f5871bbfb8",
+      "purpose": "Market-access and official Sber boundary source snapshots"
+    },
+    {
+      "archive_path": "work/market-access-followup-20260915/sources/sber_market_landing.html",
+      "bytes": 2616,
+      "sha256": "7a06f301a68d773607b36dce0507f98cdeadf7a15a2e93cb14b665fbdce3ef2e",
+      "purpose": "Market-access and official Sber boundary source snapshots"
+    },
+    {
+      "archive_path": "work/market-access-followup-20260915/sources/sber_market_landing.html.retrieval.json",
+      "bytes": 507,
+      "sha256": "6388807894be74ee87352060ecf68508005ebf6765c4071d7dab4b7fc6e53191",
+      "purpose": "Market-access and official Sber boundary source snapshots"
+    },
+    {
+      "archive_path": "work/market-access-followup-20260915/sources/sber_market_rendered.json",
+      "bytes": 9163,
+      "sha256": "87132abbfa89f5543488d77584e39ad38361337ed285c8cbafee5f7a3f04fd06",
+      "purpose": "Market-access and official Sber boundary source snapshots"
+    },
+    {
+      "archive_path": "work/market-access-followup-20260915/sources/sber_methodology_habr.html",
+      "bytes": 224053,
+      "sha256": "be17929e7843c704e05ab39372021e85ba9cc51f92239ede33b2959bd91da41d",
+      "purpose": "Market-access and official Sber boundary source snapshots"
+    },
+    {
+      "archive_path": "work/market-access-followup-20260915/sources/sber_methodology_habr.html.retrieval.json",
+      "bytes": 412,
+      "sha256": "cbcdc37589b6862a30fb525be34618add60273c363aadb20b3efd80caa73534e",
+      "purpose": "Market-access and official Sber boundary source snapshots"
+    },
+    {
+      "archive_path": "work/market-access-followup-20260915/sources/t_dict_municipal.rar",
+      "bytes": 26925727,
+      "sha256": "319ed22684b77716641bc15b61f7325adc44e9fc47e9be2973d88412d27d21f5",
+      "purpose": "Market-access and official Sber boundary source snapshots"
+    },
+    {
+      "archive_path": "work/market-access-followup-20260915/sources/t_dict_municipal.rar.retrieval.json",
+      "bytes": 525,
+      "sha256": "a11819d97f83e3d2b3d54904a8c263f34bc230380679b15a16b5f4b4723b1be8",
+      "purpose": "Market-access and official Sber boundary source snapshots"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/586_22_OKTMO.DOC",
+      "bytes": 312832,
+      "sha256": "172daeeeffae1ffa0ab8f0dfe4e7b06ad83f555f18b9c4ea8301c9213050d139",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/586_22_OKTMO.DOC.download.json",
+      "bytes": 324,
+      "sha256": "6d5c82ddc33ab186aa7267b53a0633767875fe95c1a89794d1f5797fd3fcc69a",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/586_22_OKTMO.DOC.heuristic-utf16.txt",
+      "bytes": 459,
+      "sha256": "78b5124a82326a78d37f481e158581257586b51f68cfa5dd14194cedf0e6f577",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/590_22_OKTMO.doc",
+      "bytes": 35328,
+      "sha256": "143481abfa3e0d63bfe81db06bb09354c0d1ba6225b69ed2922ea46b380f7e27",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/590_22_OKTMO.doc.download.json",
+      "bytes": 323,
+      "sha256": "c48cc431a5256f1e33ed8009d0ae254371fac38f50bf6ce1c8636de8efd491af",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/590_22_OKTMO.doc.heuristic-utf16.txt",
+      "bytes": 499,
+      "sha256": "ecb3db84efbfc943722b4e59fdff40defe3a8092c15d05cda30b21f52b856e58",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/593_22_OKTMO.doc",
+      "bytes": 73728,
+      "sha256": "bccc4304d999a90d43f5d4043dc54d487b99e97dd4f6187c383c8da72755ee9c",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/593_22_OKTMO.doc.download.json",
+      "bytes": 323,
+      "sha256": "49de72531774a546911ddd8e1ca0ea4c6a531c399cc8103d5235c42eba717b5b",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/593_22_OKTMO.doc.heuristic-utf16.txt",
+      "bytes": 362,
+      "sha256": "21934fc05b4fb2770f586574ecb5a440128df78248324670d681c9bf93fca77a",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/594_22_OKTMO.doc",
+      "bytes": 186880,
+      "sha256": "5f20c2260432136a71418af505a00ccbc44dc2d4d70e6bc4ed0264121091651d",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/594_22_OKTMO.doc.download.json",
+      "bytes": 324,
+      "sha256": "d9a7fc7ce826b494760c0ccd451bd50a73909a4c3ed31cf709304972b88a628e",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/594_22_OKTMO.doc.heuristic-utf16.txt",
+      "bytes": 367,
+      "sha256": "d9489d2b645f27eaf61a2b93ded8497e0d29e3c1281ecc064e84b4fe76379c9f",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/598_23_OKTMO.doc",
+      "bytes": 48128,
+      "sha256": "2e4e2a731bf4bb0f344b8f0e14974d8e67c6a80e86d21ce68ba658fde95d3856",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/598_23_OKTMO.doc.download.json",
+      "bytes": 323,
+      "sha256": "4c70ebb7a7bc29871652ab230a42f00207ed2cd54802b0c30803138e1af6a42e",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/598_23_OKTMO.doc.heuristic-utf16.txt",
+      "bytes": 457,
+      "sha256": "3abdf87c72c0daf7b9ccd1a4ca717415c19736d9792ad80129ae62d555967d46",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/600_23_OKTMO.doc",
+      "bytes": 183296,
+      "sha256": "85e91e800d250d3d986ef52a69c83c6b973a17eadb7e9808571cdc7e5b64954d",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/600_23_OKTMO.doc.download.json",
+      "bytes": 324,
+      "sha256": "6555fbf9c9e1df31f7f302fc2967c48d7a96a07f12364ee91631ab39a3c5f727",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/600_23_OKTMO.doc.heuristic-utf16.txt",
+      "bytes": 639,
+      "sha256": "d8b70b221f7348d62f9a5c55c3c0da8e3efe3feb2cfce626998810c333a7ca39",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/data-20230112T1301-structure-20260210T1102.csv",
+      "bytes": 21427247,
+      "sha256": "7648c4065bb42a80080029253064c5843577d5c3ea9110fa97d9e32eb19c3f73",
+      "purpose": "Exact bridge input; line endings and original bytes preserved"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/data-20230112T1301-structure-20260210T1102.csv.download.json",
+      "bytes": 518,
+      "sha256": "6a4410611ec2fb4c2f7c19275447f578c6541b3d711eb1b4a19ee7fc871815f9",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/data-20230208T0902-structure-20260210T1102.csv",
+      "bytes": 21419968,
+      "sha256": "db2033073f7b6c0171083063237a915f41f9e1f23be7aecf1027008391c79ebe",
+      "purpose": "Exact bridge input; line endings and original bytes preserved"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/data-20230208T0902-structure-20260210T1102.csv.download.json",
+      "bytes": 403,
+      "sha256": "aba536c1825566e06aa4da4711087441870126e3fcf71142b9aef5d4d6165817",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/data-20231219T1512-structure-20260210T1102.csv",
+      "bytes": 21582558,
+      "sha256": "8be058baf8d8ec32bda5431fa6ed5ccdcf0effa0c62869a03576755cbcf956d9",
+      "purpose": "Exact bridge input; line endings and original bytes preserved"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/data-20231219T1512-structure-20260210T1102.csv.download.json",
+      "bytes": 518,
+      "sha256": "f8b41fa7fb007aab0650aef40076aa1b7ee98da5df1322e242feea925e078e4e",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/data-20240101-structure-20150128.csv.download.json",
+      "bytes": 234,
+      "sha256": "8ea1197a3f09f50a82f57efdbfcc3ec89ad71b78893e1f0b9b59038f732976ee",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/data-20240101T1101-structure-20260210T1102.csv",
+      "bytes": 22617530,
+      "sha256": "def4fe436545f6ef7e349607c4c8256a331146fe9b977e12618443ed59ddbff3",
+      "purpose": "Exact bridge input; line endings and original bytes preserved"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/data-20240101T1101-structure-20260210T1102.csv.download.json",
+      "bytes": 518,
+      "sha256": "be68c4948cb57a722f4027d0d28a3a60494e8e7a2660c84330e715ccac66cf39",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/data-20240125T1401-structure-20260210T1102.csv",
+      "bytes": 21580725,
+      "sha256": "62b579d803e50def8668dc704ffecb5ee4e6e12bb1ffd5f848cafd32dfdd926c",
+      "purpose": "Exact bridge input; line endings and original bytes preserved"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/data-20240125T1401-structure-20260210T1102.csv.download.json",
+      "bytes": 518,
+      "sha256": "d0bbf7df7227e5f6d882b35b57ef388f3619469460bc03e73f1e4901829808c3",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/data-20241227T1412-structure-20260210T1102.csv",
+      "bytes": 21337303,
+      "sha256": "513bd287a1f1b42b9190f04afcfb8239bd31e0e699bb890f67dc49341285c13b",
+      "purpose": "Exact bridge input; line endings and original bytes preserved"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/data-20241227T1412-structure-20260210T1102.csv.download.json",
+      "bytes": 518,
+      "sha256": "10d04d2236dae902d866fb50b0848622f900f15896b2c3d7b4c792b60b3550d4",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/fns_19514000_web_tool_text.txt",
+      "bytes": 972,
+      "sha256": "b36ad8d5ff00681ab9d11d6166e02868a7679b5666dc9ab80755e566482b4b95",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/fns_oktmo2023.xlsx.download.json",
+      "bytes": 174,
+      "sha256": "06d495f8a29a7d030e9005471363712ba1da3fed121789c7552bcbcf2a760841",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/fns_reorg2023.xls.download.json",
+      "bytes": 173,
+      "sha256": "c1e5127ba19eaff7a2a8751b99661aada4b7acc09e052c4fad5889d2c77d3c1d",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/gost_change_586_2022.html",
+      "bytes": 75924,
+      "sha256": "d97b826b52996a7988a96cc4b72529bdf5c8b12fa07618574bfeba6f41703f51",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/gost_change_586_2022.html.download.json",
+      "bytes": 261,
+      "sha256": "6576f81734acc315c05a5d1e6bb2bbe0fd447f78621ede0b2d569c6ce7859ebc",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/gost_change_586_2022.html.server-download.json",
+      "bytes": 347,
+      "sha256": "ecbd5a7aa1b6a89b82c4e49afa3a2f3bf26b6851a0ea6aa8328541ecafae1178",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/gost_change_593_2022.html",
+      "bytes": 76307,
+      "sha256": "b71b96fffbe7b3d5f5d47b08ab300fb6ed02c64e0dcb43d90ec2921458679152",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/gost_change_593_2022.html.download.json",
+      "bytes": 261,
+      "sha256": "c78bdb3f52e196d8667e754b0f12cc0bb6aa5c6e6d99541a28f1891d2abd7f7d",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/gost_change_593_2022.html.server-download.json",
+      "bytes": 347,
+      "sha256": "a74ecbb0b09f82fd4b7f745964a0bff7de6beea057093ce08f81dc1734635849",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/gost_change_594_2022.html",
+      "bytes": 76307,
+      "sha256": "2086dff17aa89d0886737d93afb775a43630dfc34a14ba72678ef3ae99f5850c",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/gost_change_594_2022.html.download.json",
+      "bytes": 261,
+      "sha256": "b759efc0ecdce6d8dc144c1180c81a775f80970d695dd2ba3d9995e1c146f05b",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/gost_change_594_2022.html.server-download.json",
+      "bytes": 347,
+      "sha256": "c2363c68b7660eb7835e8ce380c3e1a78b2e5c9e869754cfd5a55811087bebab",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/gost_change_598_2023.html",
+      "bytes": 76429,
+      "sha256": "cbef4677f2222f26ce9ea0d7092486e5169aa41d62ef2528f8cd5cd9b366c25b",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/gost_change_598_2023.html.download.json",
+      "bytes": 261,
+      "sha256": "6dbd936c33568210814dcdd45a06e2f9d0d0db7b8130f7d98ab2fe03b8f1502b",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/gost_change_598_2023.html.server-download.json",
+      "bytes": 347,
+      "sha256": "e8be1e0cc270c44c1014581c68f5eed9c4a20b6e28ebf419c430f1c83bf21c46",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/gost_change_600_2023.html",
+      "bytes": 76430,
+      "sha256": "893b13dcc1df5f8a34d6a6de2674844e82ea291ec054006e993894ef7161f38a",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/gost_change_600_2023.html.download.json",
+      "bytes": 261,
+      "sha256": "63daef0677eac7b1dbf5c243b6ed0cb1f9b272cdaeb6db02afe3d254c2a74935",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/gost_change_600_2023.html.server-download.json",
+      "bytes": 347,
+      "sha256": "7340ccb7cdee0c85e9eb91e1a2de56a21e3a9f8af85cfb949bd419b5437989dc",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/meta.csv",
+      "bytes": 16084,
+      "sha256": "33f254fb19b1c448f2f718ea0ad60997f0201a4ab8d3ccec8de6166777b3e972",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    },
+    {
+      "archive_path": "work/oktmo-history-20260915/raw/meta.csv.download.json",
+      "bytes": 432,
+      "sha256": "c1785c17cf9f4d531632e79baeede50780e05549065a82e68facfcada7340399",
+      "purpose": "Historical OKTMO sources, calendar evidence and fetch provenance"
+    }
+  ],
+  "excluded": [
+    {
+      "path": "work/oktmo-history-20260915/raw/gost_change_586_page1.jpg",
+      "reason": "Login-required placeholder, not an actual document page"
+    },
+    {
+      "path": "work/oktmo-history-20260915/raw/gost_change_586_pages.json",
+      "reason": "Temporary public document-viewer token; not source evidence"
+    },
+    {
+      "path": "work/oktmo-history-20260915/raw/gost_doc_viewer.js",
+      "reason": "Viewer implementation probe; not a primary source document"
+    }
+  ],
+  "input_manifest_checks": [
+    {
+      "manifest": "outputs/municipal-economic-profiles/reports/enrichment_v2/code_bridge/manifest.json",
+      "input": "crosswalk_2023",
+      "path": "outputs/municipal-economic-profiles/data/derived/enrichment/municipal_crosswalk_2023-01-01.csv",
+      "sha256": "ee3de32865f707060ef2239f58f9f991d1c3f6ce52192019c005ba1b64954ae0",
+      "status": "PASS"
+    },
+    {
+      "manifest": "outputs/municipal-economic-profiles/reports/enrichment_v2/code_bridge/manifest.json",
+      "input": "crosswalk_2024",
+      "path": "outputs/municipal-economic-profiles/data/derived/enrichment/municipal_crosswalk_2024-01-01.csv",
+      "sha256": "dc1603aacda2303a6ef836272d379323f527b32fd6bf0cffb55c279e0d22db3e",
+      "status": "PASS"
+    },
+    {
+      "manifest": "outputs/municipal-economic-profiles/reports/enrichment_v2/code_bridge/manifest.json",
+      "input": "assignments",
+      "path": "outputs/municipal-economic-profiles/reports/initial_study/assignments.parquet",
+      "sha256": "54f6c1f3c92a878a990c620e9fdb544ab6187f9ac0baea4bc5070d964e0ae6bc",
+      "status": "PASS"
+    },
+    {
+      "manifest": "outputs/municipal-economic-profiles/reports/enrichment_v2/code_bridge/manifest.json",
+      "input": "registry_2023-01-12",
+      "path": "work/oktmo-history-20260915/raw/data-20230112T1301-structure-20260210T1102.csv",
+      "sha256": "7648c4065bb42a80080029253064c5843577d5c3ea9110fa97d9e32eb19c3f73",
+      "status": "PASS"
+    },
+    {
+      "manifest": "outputs/municipal-economic-profiles/reports/enrichment_v2/code_bridge/manifest.json",
+      "input": "registry_2023-02-08",
+      "path": "work/oktmo-history-20260915/raw/data-20230208T0902-structure-20260210T1102.csv",
+      "sha256": "db2033073f7b6c0171083063237a915f41f9e1f23be7aecf1027008391c79ebe",
+      "status": "PASS"
+    },
+    {
+      "manifest": "outputs/municipal-economic-profiles/reports/enrichment_v2/code_bridge/manifest.json",
+      "input": "registry_2023-12-19",
+      "path": "work/oktmo-history-20260915/raw/data-20231219T1512-structure-20260210T1102.csv",
+      "sha256": "8be058baf8d8ec32bda5431fa6ed5ccdcf0effa0c62869a03576755cbcf956d9",
+      "status": "PASS"
+    },
+    {
+      "manifest": "outputs/municipal-economic-profiles/reports/enrichment_v2/code_bridge/manifest.json",
+      "input": "registry_2024-01-01",
+      "path": "work/oktmo-history-20260915/raw/data-20240101T1101-structure-20260210T1102.csv",
+      "sha256": "def4fe436545f6ef7e349607c4c8256a331146fe9b977e12618443ed59ddbff3",
+      "status": "PASS"
+    },
+    {
+      "manifest": "outputs/municipal-economic-profiles/reports/enrichment_v2/code_bridge/manifest.json",
+      "input": "registry_2024-01-25",
+      "path": "work/oktmo-history-20260915/raw/data-20240125T1401-structure-20260210T1102.csv",
+      "sha256": "62b579d803e50def8668dc704ffecb5ee4e6e12bb1ffd5f848cafd32dfdd926c",
+      "status": "PASS"
+    },
+    {
+      "manifest": "outputs/municipal-economic-profiles/reports/enrichment_v2/code_bridge/manifest.json",
+      "input": "registry_2024-12-27",
+      "path": "work/oktmo-history-20260915/raw/data-20241227T1412-structure-20260210T1102.csv",
+      "sha256": "513bd287a1f1b42b9190f04afcfb8239bd31e0e699bb890f67dc49341285c13b",
+      "status": "PASS"
+    },
+    {
+      "manifest": "outputs/municipal-economic-profiles/reports/enrichment_v2/code_bridge/manifest.json",
+      "input": "previous_unmatched",
+      "path": "outputs/municipal-economic-profiles/reports/enrichment_v1/population_bridge/primary_unmatched_2024.csv",
+      "sha256": "c6e6b74d7206ec27877aa72bea72b43c8672e1e71dc681a2294f6346863e6557",
+      "status": "PASS"
+    },
+    {
+      "manifest": "outputs/municipal-economic-profiles/reports/enrichment_v2/code_bridge/manifest.json",
+      "input": "sber_versions",
+      "path": "outputs/municipal-economic-profiles/data/derived/enrichment/municipal_crosswalk_versions.csv",
+      "sha256": "70825d5ae255c02026a44365d093ac102c3b737632d8b3d6beef1f00c3ace536",
+      "status": "PASS"
+    },
+    {
+      "manifest": "outputs/municipal-economic-profiles/reports/enrichment_v2/market_access_followup/followup_manifest.json",
+      "input": "outputs\\municipal-economic-profiles\\reports\\enrichment_v1\\core_context\\market_access_missing_ids.csv",
+      "path": "outputs/municipal-economic-profiles/reports/enrichment_v1/core_context/market_access_missing_ids.csv",
+      "sha256": "3f171b6c5080dade9e926099ecb091f775bde842c7cb440234c04c7ef78f446e",
+      "status": "PASS"
+    },
+    {
+      "manifest": "outputs/municipal-economic-profiles/reports/enrichment_v2/market_access_followup/followup_manifest.json",
+      "input": "outputs\\municipal-economic-profiles\\reports\\initial_study\\assignments.parquet",
+      "path": "outputs/municipal-economic-profiles/reports/initial_study/assignments.parquet",
+      "sha256": "54f6c1f3c92a878a990c620e9fdb544ab6187f9ac0baea4bc5070d964e0ae6bc",
+      "status": "PASS"
+    }
+  ],
+  "duplicate_sha256_aliases": {
+    "7a06f301a68d773607b36dce0507f98cdeadf7a15a2e93cb14b665fbdce3ef2e": [
+      "work/market-access-followup-20260915/sources/sber_crosswalk_landing.html",
+      "work/market-access-followup-20260915/sources/sber_market_landing.html"
+    ]
+  },
+  "notes": [
+    "HTTP error responses and incomplete UTF16 previews are provenance/diagnostics, not accepted data.",
+    "Public page text captures are distinct from raw HTML; source labels remain unchanged.",
+    "Reports and processor code stay in Git; exact report inputs are also included for byte-level reproduction."
+  ],
+  "created_at_utc": "2026-09-14T21:49:53.094092+00:00",
+  "archive": {
+    "asset": "local-source-snapshots.zip",
+    "sha256": "a1a1b6c1c9a5ce9817cf199a4420678eb852c902d03bd90721dade1b1e0f173c",
+    "bytes": 134118647,
+    "archived_files": 82,
+    "uncompressed_bytes": 280150629
+  },
+  "internal_catalog": {
+    "path": "ARCHIVE_MANIFEST.json",
+    "bytes": 30709,
+    "sha256": "7a1a9accb38e4157a58547bac9994732223bd8b0c2531fab687a11494d53a299"
+  },
+  "verification": {
+    "safe_paths": "PASS",
+    "crc": "PASS",
+    "all_file_sha256": "PASS",
+    "verified_source_files": 82,
+    "input_manifest_hashes": "PASS",
+    "source_bytes": 280150629,
+    "excluded_private_or_ephemeral_artifacts": 3
+  },
+  "builder_sha256": "5424d97ed4c807308480ed3cf83fc7e45ae3a52e565392401f9684ba0022f8c9"
+}

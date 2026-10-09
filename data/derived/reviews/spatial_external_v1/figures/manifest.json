@@ -1,0 +1,15 @@
+{
+  "processor_sha256": "31049976cce93f58a1aebdaffb684563000b3aa71c7deea72b1d50bf9052f913",
+  "matplotlib": "3.11.2",
+  "source_hashes": {
+    "road_cdf.csv": "976220a203fef07b840c6435afc99e46f7084eef9ab52f536d918eb89f79e210",
+    "group_summary.csv": "d0b327c66364b24af91c22be9aa7984244c9c879718bb16897d0cfaf95dd1017",
+    "spatial_checks.csv": "2f31737f034a97695902af6e0d24ee51ee50fc1d7633b78de7b1846e054df1bb"
+  },
+  "output_hashes": {
+    "road_comparison.png": "4c103d03cf94089530dc7ad29ab893bacbd7bf2ba2233b21860cf543cb3408e6",
+    "road_comparison.svg": "2237888ada8c3865a31c5027244a131341306e6756debe7baa6211ebf28b4d31",
+    "market_comparison.png": "e29e43328a5fac658a9d3596ba0800117cb60dfee2cc9e0ca627a54fd21a7990",
+    "market_comparison.svg": "966fb2e35baeaa6f9a9f05cd4470c56f2780cf97503e472cc68f775432b490ad"
+  }
+}

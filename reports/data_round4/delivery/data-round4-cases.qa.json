@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "archive": "data-round4-cases.zip",
+  "archive_sha256": "70d1601b14875f33e682fdeb1cfdbee2fff2c3130a2c6a90b50154b2263ac884",
+  "archive_bytes": 97780703,
+  "verified_files": 24,
+  "uncompressed_bytes": 104560254,
+  "allowlist_sha256": "99556e68c7706c5c9e5ef5ea5d90ae43c5d7a65b8d4e47531255ee6cb27b030f",
+  "packager_sha256": "5bbdd46528947d3ee96db825f6f337e3cd0e7391411b13fb3312833a4ebb5c6f"
+}

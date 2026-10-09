@@ -1,0 +1,991 @@
+{
+  "packaged_at": "2026-09-14T23:04:57.415607+00:00",
+  "pilot_http_captures": [
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "payload": {
+        "pl": "8401011"
+      },
+      "request_key": "02c5289792c00ed68de962455f16d245e0474ecd85a923c70d45efc615906d8d",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:28:51.757385+00:00",
+      "raw_sha256": "d4235a15c1e4219feb769072d959daf90d0ce9ffeda7881818f3e37251de65b8",
+      "bytes": 44772,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/02c5289792c00ed68de962455f16d245e0474ecd85a923c70d45efc615906d8d.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "payload": {
+        "pl": "8109001"
+      },
+      "request_key": "069b54348adbf103e30589fde9529ced0afbfa90a03385af9d28a3546a0d7994",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:28:54.678932+00:00",
+      "raw_sha256": "e27b7f9069404de1cbc03e8b14431019bfefa91df724dd4a23e28c2002799824",
+      "bytes": 51737,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/069b54348adbf103e30589fde9529ced0afbfa90a03385af9d28a3546a0d7994.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "payload": {
+        "Qry": "Pokazateli:8423005;munr:79605000,79615000,79618000,79622000,79630000,79633000,79640000,79700000,79600000;tippos:10,7;oktmo:79701000;okved2:101,10000,50000,20000,30000,40000,41000,45000,49000,55000,63000,60000,68000,70000,80000,84000,85000,86000,90000,95000;god:2023,2024;period:79;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;okved2_b:1;god_s:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "request_key": "09b9dd6daf4f1dd760043851800ac9773d8fd6a36e2381dfb83f2f8aac6f6ad5",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "application/x-csv; name=Report.csv",
+      "retrieved_at": "2026-09-14T22:30:40.756089+00:00",
+      "raw_sha256": "8ec42259448710e10a45e5c0167a91cc13770833a6df6dfb696244408be53199",
+      "bytes": 1682,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/09b9dd6daf4f1dd760043851800ac9773d8fd6a36e2381dfb83f2f8aac6f6ad5.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "payload": {
+        "Qry": "Pokazateli:8401011;munr:46000000,46600000,46500000,46700000;tippos:10,7,20;oktmo:46704000;okved2:101,10000,49000,50000,20000,30000,40000,41000,45000,55000,63000,68000,70000,80000,84000,85000,86000,90000,95000,47,471,472,473,475,476,477,479,56,561,562;god:2023,2024;period:79;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;okved2_b:1;god_s:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "request_key": "0e2133b7d008e3cd88c52f7b49ed9b0060fc40820ddddc3eb28db2e0b2a06407",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "application/x-csv; name=Report.csv",
+      "retrieved_at": "2026-09-14T22:43:02.801127+00:00",
+      "raw_sha256": "3bcf8e7b5bcea28ea059acf09959503ca32a81ae3456630f76e7cb669edffd3e",
+      "bytes": 696,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/0e2133b7d008e3cd88c52f7b49ed9b0060fc40820ddddc3eb28db2e0b2a06407.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "payload": {
+        "Qry": "Pokazateli:8401011;munr:79605000,79615000,79618000,79622000,79630000,79633000,79640000,79700000,79600000;tippos:10,7;oktmo:79701000;okved2:101,10000,50000,20000,30000,40000,41000,45000,49000,55000,63000,68000,70000,80000,84000,85000,86000,90000,95000,47,471,473,475,477,56;god:2023,2024;period:79;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;okved2_b:1;god_s:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "request_key": "16cb0f50654fe3081d86af7b6f22d5278557d90924e597d1edb13519da708972",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "application/x-csv; name=Report.csv",
+      "retrieved_at": "2026-09-14T22:30:43.678705+00:00",
+      "raw_sha256": "2167f01d7111213604e484a3de46948f680b75611cfe6f2ea5410df4960ddad8",
+      "bytes": 614,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/16cb0f50654fe3081d86af7b6f22d5278557d90924e597d1edb13519da708972.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "payload": {
+        "pl": "8313015"
+      },
+      "request_key": "1934c66c83bf997eca7f5c27c5f6335636b6e5bd700cf91c79c8079ba5ff7dd3",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:28:58.729131+00:00",
+      "raw_sha256": "523cd823871527a47cf8bed82e5d88f12224e13200582b3a7bdb95f1a796632b",
+      "bytes": 39981,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/1934c66c83bf997eca7f5c27c5f6335636b6e5bd700cf91c79c8079ba5ff7dd3.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "payload": {
+        "Qry": "Pokazateli:8109001;munr:79605000,79615000,79618000,79622000,79630000,79633000,79640000,79700000,79000000,79600000;tippos:0,10,7,1,4;oktmo:79701000;okved2:101,10000,1010,1020,1030,10,50000,20000,30000,40000,41000,45000,49000,55000,63000,60000,68000,6832,70000,7200,80000,84000,85000,86000,90000,95000;istinv:8;god:2023,2024;period:17;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;istinv_z:5;period_z:6;okved2_b:1;god_s:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "request_key": "1b1529d9e0d9d2a3e9e3fdd3662e8b9ea8f5b806a7d91a9a0428f9c1326bdf0f",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "application/x-csv; name=Report.csv",
+      "retrieved_at": "2026-09-14T22:30:46.868110+00:00",
+      "raw_sha256": "deb0e64768e9803ba7272b8b1b4da33ad7d5bb69f7beb107f82f8d057cedb3fa",
+      "bytes": 2144,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/1b1529d9e0d9d2a3e9e3fdd3662e8b9ea8f5b806a7d91a9a0428f9c1326bdf0f.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "payload": {
+        "Qry": "Pokazateli:8009001;munr:79605000,79615000,79618000,79622000,79630000,79633000,79640000,79700000;tippos:10,7,1,4;oktmo:79701000;istinv:43;god:2023,2024;period:17;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;istinv_b:1;god_s:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "request_key": "1c3ee72379cb000f4407054332e0189f8f45ff27126bddc0a7b78604341c400d",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "application/x-csv; name=Report.csv",
+      "retrieved_at": "2026-09-14T22:30:48.271356+00:00",
+      "raw_sha256": "997fd854124be319058fca56b1c4c683ddf94810f183d87ac8c19c64502d3e7f",
+      "bytes": 285,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/1c3ee72379cb000f4407054332e0189f8f45ff27126bddc0a7b78604341c400d.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "payload": {
+        "pl": "8423005"
+      },
+      "request_key": "23ab84fd15847fb61b97c5560f7e0ec3de38e1a0cf65872b9511c623883ea6b8",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:38:47.624826+00:00",
+      "raw_sha256": "f0d0420df6406f666e0b61ec170673905b057bf05c1a7576e27939c8bce69527",
+      "bytes": 48502,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/23ab84fd15847fb61b97c5560f7e0ec3de38e1a0cf65872b9511c623883ea6b8.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "payload": {
+        "Qry": "Pokazateli:8009001;munr:46000000,46600000,46500000,46605000,46606000,46608000,46612000,46615000,46616000,46618000,46620000,46621000,46622000,46623000,46628000,46629000,46630000,46631000,46633000,46634000,46638000,46639000,46641000,46642000,46643000,46645000,46646000,46647000,46648000,46649000,46650000,46651000,46652000,46653000,46654000,46656000,46657000,46658000,46659000,46700000;tippos:10,7,1,4,20;oktmo:46704000;istinv:43;god:2023,2024;period:17;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;istinv_b:1;god_s:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "request_key": "2b97986fb4e964188181f2155b3a1309e2890ab9e6af14fa884ae97315aa03f2",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "application/x-csv; name=Report.csv",
+      "retrieved_at": "2026-09-14T22:43:11.402362+00:00",
+      "raw_sha256": "2155b8b6492151db26cc50bc7b3bf6b69f1d71244dde9a99009f2be96f18d9c6",
+      "bytes": 270,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/2b97986fb4e964188181f2155b3a1309e2890ab9e6af14fa884ae97315aa03f2.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "payload": {
+        "Qry": "Pokazateli:8423005;munr:46500000,46600000,46700000;tippos:10,7,20;oktmo:46704000,46705000;okved2:101;god:2023,2024;period:79;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;okved2_z:4;period_z:5;oktmo_b:1;god_s:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "request_key": "30bd3386672555074fdc03e3f3c8fd55ed1278e401db1a5f19194fe3e14c77bf",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "application/x-csv; name=Report.csv",
+      "retrieved_at": "2026-09-14T22:38:50.630587+00:00",
+      "raw_sha256": "4a2f17b395b74ba8473e0d5435f95506a854dd854d03f69e20ceb1eed4a7ceb2",
+      "bytes": 342,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/30bd3386672555074fdc03e3f3c8fd55ed1278e401db1a5f19194fe3e14c77bf.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "payload": {
+        "pl": "8215003"
+      },
+      "request_key": "35cecea75c821d31445eed699d2d67a37d8f5cd6291263ce06b701e253216d10",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:29:46.118953+00:00",
+      "raw_sha256": "d08484fb30cc995096cd440ffb76ac1da6b0647196a45cb29076d7999d9e7d7e",
+      "bytes": 39390,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/35cecea75c821d31445eed699d2d67a37d8f5cd6291263ce06b701e253216d10.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "payload": {
+        "pl": "8009001"
+      },
+      "request_key": "39281d07804126019a5b99b57da9191563fe6388cf0f90e800134b793dd89de6",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:41:32.230124+00:00",
+      "raw_sha256": "28cc692cc9c54c021d35388d92bb505c1ca228a8c3b18f938e2b2ec64eb478ef",
+      "bytes": 69368,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/39281d07804126019a5b99b57da9191563fe6388cf0f90e800134b793dd89de6.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "payload": {
+        "Qry": "Pokazateli:8401003;munr:46000000,46600000,46500000,46605000,46606000,46608000,46615000,46621000,46628000,46629000,46633000,46639000,46641000,46643000,46647000,46648000,46651000,46652000,46654000,46659000,46700000;tippos:10,7,20;oktmo:46704000;okved2:101,20000,30000,47,471,472,473,474,475,476,477,478,479,56,561;god:2023,2024;period:79;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;okved2_b:1;god_s:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "request_key": "4a18ac1314985827fda2a6d11791457d7ed0c4294072e062ab576548e50d985c",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "application/x-csv; name=Report.csv",
+      "retrieved_at": "2026-09-14T22:43:04.534985+00:00",
+      "raw_sha256": "9f4d4d5223745dc800645fbdaf20fa38e1385864c196515aec8ffd049f8f236c",
+      "bytes": 1073,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/4a18ac1314985827fda2a6d11791457d7ed0c4294072e062ab576548e50d985c.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "payload": {
+        "Qry": "Pokazateli:8423007;munr:79605000,79615000,79618000,79622000,79630000,79633000,79640000,79700000,79600000;tippos:10,7;oktmo:79701000;okved2:101,10000,50000,20000,30000,40000,41000,45000,49000,55000,63000,60000,68000,70000,80000,84000,85000,86000,90000,95000;god:2023,2024;period:79;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;okved2_b:1;god_s:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "request_key": "4e5576f51920345428e52beb7ea82efe7aae010f7a2388b403300ff1e4accfc2",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "application/x-csv; name=Report.csv",
+      "retrieved_at": "2026-09-14T22:30:42.170625+00:00",
+      "raw_sha256": "74e43f86b09cd3ebf290b663f37079b79d9e92e6f415873506d77e8fe3d5b765",
+      "bytes": 1857,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/4e5576f51920345428e52beb7ea82efe7aae010f7a2388b403300ff1e4accfc2.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "payload": {
+        "pl": "8019014"
+      },
+      "request_key": "53ef4d714f88e2507c4e15fca056ae86654d946d14e4a12c5f1833b047e25b9c",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:41:26.939749+00:00",
+      "raw_sha256": "50a8d3e858ff7058d95258b654275776941c92e1b9b83a8154cdcce693cfe6fe",
+      "bytes": 40284,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/53ef4d714f88e2507c4e15fca056ae86654d946d14e4a12c5f1833b047e25b9c.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst01/DBInet.cgi",
+      "payload": {
+        "Qry": "Pokazateli:8423005;munr:1512000,1514000,1517000,1522000,1529000,1531000,1533000,1539000,1541000,1543000,1546000,1558000,1560000,1601000,1602000,1603000,1604000,1605000,1606000,1607000,1608000,1609000,1610000,1611000,1612000,1613000,1614000,1615000,1616000,1617000,1618000,1619000,1620000,1621000,1622000,1623000,1624000,1625000,1626000,1627000,1628000,1629000,1630000,1631000,1632000,1633000,1634000,1635000,1636000,1637000,1638000,1640000,1641000,1642000,1643000,1644000,1645000,1646000,1647000,1648000,1649000,1650000,1651000,1652000,1653000,1654000,1655000,1656000,1657000,1658000,1659000,1660000,1700000;tippos:10,7,20;oktmo:1701000,1703000;okved2:101;god:2023,2024;period:79;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;okved2_z:4;period_z:5;oktmo_b:1;god_s:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "request_key": "56192c0872402e0e200820d8f5903499f17a410b9ef4aab86c35243ced2dadd7",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst01/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "application/x-csv; name=Report.csv",
+      "retrieved_at": "2026-09-14T22:38:37.394290+00:00",
+      "raw_sha256": "073d1bd1b14699046870bfe16c0df626d34c7e2458ff82abe35e5d0ae905d87b",
+      "bytes": 354,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/56192c0872402e0e200820d8f5903499f17a410b9ef4aab86c35243ced2dadd7.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "payload": {
+        "pl": "8401003"
+      },
+      "request_key": "568cf7b5eb05c45386cadb046a62fa84f0b73cc506f2ac21be4dd2729478a3b8",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:41:29.194583+00:00",
+      "raw_sha256": "42442331a1649c9278edccacaa80c807d63d8c35855330960b04e267208f52b5",
+      "bytes": 49266,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/568cf7b5eb05c45386cadb046a62fa84f0b73cc506f2ac21be4dd2729478a3b8.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "payload": {
+        "pl": "8009001"
+      },
+      "request_key": "58cba5ac10512b04fef6cc7a3aa8ecae3853495d49eb1e8fd3e183bb0de282fa",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:28:56.046798+00:00",
+      "raw_sha256": "3523813638a7e336113ec1ce0cf4ecf9758d0c045ec9f6abc6175d27c6381718",
+      "bytes": 45023,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/58cba5ac10512b04fef6cc7a3aa8ecae3853495d49eb1e8fd3e183bb0de282fa.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "payload": {
+        "pl": "8155040"
+      },
+      "request_key": "5c70649da116d7f8fa4b1a12f5f2810be509abc4af483fcd0e2083b5c020a758",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:41:25.616119+00:00",
+      "raw_sha256": "1013e6f83f4a8b0f409e084a0de7b220820f96b9e9de3ab20ba456a55126e0cb",
+      "bytes": 39411,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/5c70649da116d7f8fa4b1a12f5f2810be509abc4af483fcd0e2083b5c020a758.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "payload": {
+        "pl": "8423005"
+      },
+      "request_key": "67bb7116c3320d9da898a9ec72eb53b03fb642808b528fc8f5faf2fb5fc5c063",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:28:49.003860+00:00",
+      "raw_sha256": "ba262a94a47875acd24a124136924e93c0d98211c507aef2631291343c19acb2",
+      "bytes": 44265,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/67bb7116c3320d9da898a9ec72eb53b03fb642808b528fc8f5faf2fb5fc5c063.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "payload": {
+        "pl": "8215003"
+      },
+      "request_key": "6e9887f9f2bcf3a3003ba60adff83b22118e323de4f2994b6031603b017525ba",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:41:37.865248+00:00",
+      "raw_sha256": "ee391d61efac053abe079284aaf5190abeb1ecd377e9aed033129c8c2eebe5be",
+      "bytes": 43271,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/6e9887f9f2bcf3a3003ba60adff83b22118e323de4f2994b6031603b017525ba.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "payload": {
+        "Qry": "Pokazateli:8109003;munr:79605000,79615000,79618000,79622000,79630000,79633000,79640000,79700000,79000000;tippos:0,10,7;oktmo:79701000;god:2023,2024;period:17;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_b:1;god_s:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "request_key": "719c86e3a7aca4f0c180a430db211138f6b49adb198bcfc04d1ae293ba49074f",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "application/x-csv; name=Report.csv",
+      "retrieved_at": "2026-09-14T22:30:49.659495+00:00",
+      "raw_sha256": "35902a57e27f328ffa6cd9ff84851bff98ea8dc4007b407150edbb94659de03c",
+      "bytes": 280,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/719c86e3a7aca4f0c180a430db211138f6b49adb198bcfc04d1ae293ba49074f.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "payload": {
+        "pl": "8215002"
+      },
+      "request_key": "7289e32e599dd014be026748ad166a33525c935517df6578b2ea5f79da584cff",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:29:47.450209+00:00",
+      "raw_sha256": "ef4fbb19da031240152bacd20511f04a69d2d1ea9da27fb92f07a20fde427b4c",
+      "bytes": 39419,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/7289e32e599dd014be026748ad166a33525c935517df6578b2ea5f79da584cff.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "payload": {
+        "Qry": "Pokazateli:8019014;munr:79605000,79615000,79618000,79622000,79630000,79633000,79640000,79700000,79000000,79600000;tippos:0,10,7;oktmo:79701000;god:2023,2024;period:17;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_b:1;god_s:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "request_key": "7b032e48f2a43c1c54933047ea634f2834a61f4682af08e1f5b4078209cbcb60",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "application/x-csv; name=Report.csv",
+      "retrieved_at": "2026-09-14T22:53:25.999269+00:00",
+      "raw_sha256": "58974dbf1587cede88eabfefe2cd2fb1ae2546ae9bde1d3f6c14f4808ad13509",
+      "bytes": 285,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/7b032e48f2a43c1c54933047ea634f2834a61f4682af08e1f5b4078209cbcb60.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "payload": {
+        "pl": "8109003"
+      },
+      "request_key": "806f5508bc05959a4951e1619093b0792e6c3c332daffc54099c2f830be729c9",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:28:57.398784+00:00",
+      "raw_sha256": "9fc45b17fecb2a8fcd0ba32c64a0b91b8011792500d622232381f314c05d8c4f",
+      "bytes": 40048,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/806f5508bc05959a4951e1619093b0792e6c3c332daffc54099c2f830be729c9.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "payload": {
+        "pl": "8013001"
+      },
+      "request_key": "920b7270544d2d22023d1fb389a41ef1d8055254c8d9e89c04c9866642a3141c",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:29:43.287354+00:00",
+      "raw_sha256": "8b4f27246d00a96c519249e6b839311aa13e976e79da05fd8af6127039ce4e8c",
+      "bytes": 49265,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/920b7270544d2d22023d1fb389a41ef1d8055254c8d9e89c04c9866642a3141c.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "payload": {
+        "Qry": "Pokazateli:8109001;munr:46000000,46600000,46500000,46605000,46606000,46608000,46612000,46615000,46616000,46618000,46620000,46621000,46622000,46623000,46628000,46629000,46630000,46631000,46633000,46634000,46638000,46639000,46641000,46642000,46643000,46645000,46646000,46647000,46648000,46649000,46650000,46651000,46652000,46653000,46654000,46656000,46657000,46658000,46659000,46700000,46704000,46705000,46709000,46711000,46716000,46718000,46724000,46725000,46730000,46732000,46734000,46736000,46738000,46739000,46740000,46741000,46742000,46743000,46757000,46760000,46762000,46764000,46765000,46767000,46770000,46775000,46780000,46781000,46783000,46789000,46790000,46791000,46793000,46722000,46735000,46746000,46756000,46772000,46787000,46729000,46744000,46747000,46748000,46759000,46766000,46733000,46750000,46776000,46784000,46786000,46715000,46737000,46745000,46749000,46751000,46778000,46758000,46728000,46708000,46710000,46752000,46768000;tippos:10,7,1,4,20;oktmo:46704000;okved2:101,10000,49000,6832,50000,20000,30000,40000,41000,45000,55000,63000,60000,68000,70000,7200,80000,84000,85000,86000,90000,95000,1010,1020,1030,10;istinv:8;god:2023,2024;period:17;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;istinv_z:5;period_z:6;okved2_b:1;god_s:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "request_key": "9458696317a4bcd64bfdb395947d5011f3405c1f4242a72f22b0d8053e0168fe",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "application/x-csv; name=Report.csv",
+      "retrieved_at": "2026-09-14T22:43:09.157049+00:00",
+      "raw_sha256": "5d49694961e5925d7e1fd693770ad3a2d9ca7ebed3caff16832466647b29286e",
+      "bytes": 1746,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/9458696317a4bcd64bfdb395947d5011f3405c1f4242a72f22b0d8053e0168fe.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "payload": {
+        "pl": "8401003"
+      },
+      "request_key": "a61738a5b765adf8d533f8e91bce641fb6e96fbdac9eef2215852bef75c018f2",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:28:53.108255+00:00",
+      "raw_sha256": "d25cca1d277394bde6a5075fa2fa39d0e164b932e5f28ff83f830178dc9226af",
+      "bytes": 43530,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/a61738a5b765adf8d533f8e91bce641fb6e96fbdac9eef2215852bef75c018f2.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "payload": {
+        "Qry": "Pokazateli:8423005;munr:79605000,79615000,79618000,79622000,79630000,79633000,79640000,79700000,79600000;tippos:10,7;oktmo:79701000,79703000;okved2:101;god:2023,2024;period:79;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;okved2_z:4;period_z:5;oktmo_b:1;god_s:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "request_key": "af9a66c1c725a94f212524885e64778eb90c186f42d3e157713ba6096d572aef",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "application/x-csv; name=Report.csv",
+      "retrieved_at": "2026-09-14T22:32:48.422651+00:00",
+      "raw_sha256": "2ace52731acc9553248253c0bcc639586cbdef9b459191f404220e28cb311a77",
+      "bytes": 366,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/af9a66c1c725a94f212524885e64778eb90c186f42d3e157713ba6096d572aef.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "payload": {
+        "pl": "8109003"
+      },
+      "request_key": "b2a400fad2ea34b80cfd3b44ba6653e6ed3c7c7499f29f4faf78b229dcef80be",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:41:33.579113+00:00",
+      "raw_sha256": "b6f1d4cc80ba16a9e70413a5d9e8231a2798179b4595453b79ed69471a91c005",
+      "bytes": 43933,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/b2a400fad2ea34b80cfd3b44ba6653e6ed3c7c7499f29f4faf78b229dcef80be.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "payload": {
+        "Qry": "Pokazateli:8313015;munr:79605000,79615000,79618000,79622000,79630000,79633000,79640000,79700000,79600000;tippos:10,7;oktmo:79701000;god:2023,2024;period:17;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_b:1;god_s:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "request_key": "b305ff13c624a2c745ae0dc8d69a7943f0e11deab2d4442462a62af483b6cf38",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "application/x-csv; name=Report.csv",
+      "retrieved_at": "2026-09-14T22:30:50.979645+00:00",
+      "raw_sha256": "5fad2094b292a432bf6ee471c77dbc7dd55aeaff98678ecef248e40982dbbf51",
+      "bytes": 419,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/b305ff13c624a2c745ae0dc8d69a7943f0e11deab2d4442462a62af483b6cf38.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "payload": {
+        "pl": "8313015"
+      },
+      "request_key": "b5bbc35cc27efe11630bd287d6b1943b6655c2b3c009f4faf7e32a57c36dbbcf",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:41:34.937681+00:00",
+      "raw_sha256": "008e2bed71593ac0294efb9180402a89ca039908bb78d56bc42aced4b7a40823",
+      "bytes": 47847,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/b5bbc35cc27efe11630bd287d6b1943b6655c2b3c009f4faf7e32a57c36dbbcf.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst01/DBInet.cgi",
+      "payload": {
+        "pl": "8423005"
+      },
+      "request_key": "bf7033ae350d07eb332ee4a184af6f074832dfb521d21b1274791b84685ad01d",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst01/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:38:32.986030+00:00",
+      "raw_sha256": "c062d1baec101a94ebe66a85727061ebcbd542c050a496ba10b55f39392cf5ac",
+      "bytes": 52942,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/bf7033ae350d07eb332ee4a184af6f074832dfb521d21b1274791b84685ad01d.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "payload": {
+        "pl": "8423007"
+      },
+      "request_key": "c31a3daed5f82a6004114820cf03c106618322bf0dc280dbc23ebaafe7bb49f2",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:28:50.377258+00:00",
+      "raw_sha256": "50336c95afa6e55674f1f520fd266b252d895d933b00ebb198ea1f1af9e080b0",
+      "bytes": 44268,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/c31a3daed5f82a6004114820cf03c106618322bf0dc280dbc23ebaafe7bb49f2.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst01/DBInet.cgi",
+      "payload": {
+        "pl": "8423007"
+      },
+      "request_key": "d17908b7a09ce60b7c317d01e74684dbd7a700b2d46289a5523df4464c5c1a9b",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst01/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:38:40.270561+00:00",
+      "raw_sha256": "ebc0865de44dc378ebd7be3eefe06a07d73de2a55b7d1f5624f0527b97cac74c",
+      "bytes": 52944,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/d17908b7a09ce60b7c317d01e74684dbd7a700b2d46289a5523df4464c5c1a9b.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "payload": {
+        "Qry": "Pokazateli:8109003;munr:46000000,46600000,46700000;tippos:10,7;oktmo:46704000;god:2023,2024;period:17;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_b:1;god_s:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "request_key": "d4e35fccbf158d24bade7f7b283ffe7193d20580e799404fa825f612970fd957",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "application/x-csv; name=Report.csv",
+      "retrieved_at": "2026-09-14T22:43:12.795539+00:00",
+      "raw_sha256": "d9ffc96b53f9f1943202969493719c266f3386cc7cac6f2bf2144868637d4a50",
+      "bytes": 273,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/d4e35fccbf158d24bade7f7b283ffe7193d20580e799404fa825f612970fd957.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "payload": {
+        "pl": "8109001"
+      },
+      "request_key": "db9f589f7fc9efdb04de857cf8dcf01fd6c4030b4c9dc231fc142d423be7bf7f",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:41:30.817331+00:00",
+      "raw_sha256": "81cdb791e51d9284fedfb855857de8db5b35d1f61502b9ab08a557ca31d4a153",
+      "bytes": 82299,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/db9f589f7fc9efdb04de857cf8dcf01fd6c4030b4c9dc231fc142d423be7bf7f.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "payload": {
+        "Qry": "Pokazateli:8423007;munr:46500000,46600000,46700000;tippos:10,7,20;oktmo:46704000,46705000;okved2:101;god:2023,2024;period:79;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;okved2_z:4;period_z:5;oktmo_b:1;god_s:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "request_key": "de5bfb10953ddea3af1c1f30b9a86793f13e260269d93d429b748443cc6c43be",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "application/x-csv; name=Report.csv",
+      "retrieved_at": "2026-09-14T22:38:56.468386+00:00",
+      "raw_sha256": "c878e07da21e7609b21dd2731c04c59cfdd2cc3eaf90b9d2b2a540176ef477e6",
+      "bytes": 355,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/de5bfb10953ddea3af1c1f30b9a86793f13e260269d93d429b748443cc6c43be.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst01/DBInet.cgi",
+      "payload": {
+        "Qry": "Pokazateli:8423007;munr:1512000,1514000,1517000,1522000,1529000,1531000,1533000,1539000,1541000,1543000,1546000,1558000,1560000,1601000,1602000,1603000,1604000,1605000,1606000,1607000,1608000,1609000,1610000,1611000,1612000,1613000,1614000,1615000,1616000,1617000,1618000,1619000,1620000,1621000,1622000,1623000,1624000,1625000,1626000,1627000,1628000,1629000,1630000,1631000,1632000,1633000,1634000,1635000,1636000,1637000,1638000,1640000,1641000,1642000,1643000,1644000,1645000,1646000,1647000,1648000,1649000,1650000,1651000,1652000,1653000,1654000,1655000,1656000,1657000,1658000,1659000,1660000,1700000;tippos:10,7,20;oktmo:1701000,1703000;okved2:101;god:2023,2024;period:79;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;okved2_z:4;period_z:5;oktmo_b:1;god_s:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "request_key": "e4f6edbdb50e5f47f4d96f864b8004493a9cfb2fd602f4c0847ec877538e7fe9",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst01/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "application/x-csv; name=Report.csv",
+      "retrieved_at": "2026-09-14T22:38:44.498113+00:00",
+      "raw_sha256": "54bccf6ab93ff183e3781f1245560e55100106c43ec46864d13a1c1395060939",
+      "bytes": 364,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/e4f6edbdb50e5f47f4d96f864b8004493a9cfb2fd602f4c0847ec877538e7fe9.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "payload": {
+        "Qry": "Pokazateli:8401003;munr:79605000,79615000,79618000,79622000,79630000,79633000,79640000,79700000,79600000;tippos:10,7;oktmo:79701000;okved2:101,30000,47,471,472,473,474,475,476,477,479;god:2023,2024;period:79;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;okved2_b:1;god_s:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "request_key": "e77654f0f9fa9e6f18b3b3cfa5affaddf985f3f0bc0dcefd1906809a8f652933",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "application/x-csv; name=Report.csv",
+      "retrieved_at": "2026-09-14T22:30:45.130500+00:00",
+      "raw_sha256": "ed18a01b5ad2986b0ab476e7a08ae93d69b4396a54bb5239a2c4575f083b06f1",
+      "bytes": 1008,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/e77654f0f9fa9e6f18b3b3cfa5affaddf985f3f0bc0dcefd1906809a8f652933.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "payload": {
+        "pl": "8013001"
+      },
+      "request_key": "eae55f297a3251430bcfc611ce8e1fa6c8bdd3cdc71ffa70da74ca1e3ea66b39",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:41:36.520391+00:00",
+      "raw_sha256": "29344663abc5b972334e72167d2cd45b3c1a0eace2b827e0e8828b5db61a90f6",
+      "bytes": 75730,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/eae55f297a3251430bcfc611ce8e1fa6c8bdd3cdc71ffa70da74ca1e3ea66b39.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "payload": {
+        "pl": "8013002"
+      },
+      "request_key": "f34d1184e85350e49be9fdbd8c733ed92a4a0931f671135f0841735c746e2e2b",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:29:44.769152+00:00",
+      "raw_sha256": "f66c5f6b3023e80365149862148c29c6ae85401c509ce6e02c6cc47eb907c948",
+      "bytes": 50765,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/f34d1184e85350e49be9fdbd8c733ed92a4a0931f671135f0841735c746e2e2b.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "payload": {
+        "pl": "8423007"
+      },
+      "request_key": "f65fb841a1153d93bbb32e3d72108ffd7253a8302532348dfe8a1958d81da64d",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:38:53.518136+00:00",
+      "raw_sha256": "02085ea1faa4da4b5a5f32f8b44b02240bc9e59519e2886abc3af3d9bd1d1da5",
+      "bytes": 48504,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/f65fb841a1153d93bbb32e3d72108ffd7253a8302532348dfe8a1958d81da64d.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "payload": {
+        "Qry": "Pokazateli:8313015;munr:46000000,46600000,46500000,46605000,46606000,46615000,46628000,46629000,46641000,46647000,46648000,46651000,46652000,46659000,46700000,46704000,46705000,46709000,46711000,46716000,46718000,46725000,46730000,46732000,46734000,46738000,46739000,46740000,46741000,46742000,46743000,46757000,46760000,46762000,46764000,46765000,46767000,46780000,46781000,46783000,46790000,46791000,46722000,46735000,46746000,46756000,46772000,46787000,46729000,46744000,46747000,46748000,46759000,46766000,46733000,46750000,46776000,46784000,46786000,46715000,46737000,46745000,46749000,46751000,46778000;tippos:10,7,20;oktmo:46704000;god:2023,2024;period:17;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_b:1;god_s:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "request_key": "f767691c2d846ffe21d8f3f89453a768d342a7e01254655b443d32fea6b9f8f6",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "application/x-csv; name=Report.csv",
+      "retrieved_at": "2026-09-14T22:43:15.165480+00:00",
+      "raw_sha256": "e5db0dc2e54eef8da9bb7a9b6666c51fe0b0fb41f2d6c4c31da615e29f71f6f2",
+      "bytes": 406,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/f767691c2d846ffe21d8f3f89453a768d342a7e01254655b443d32fea6b9f8f6.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "payload": {
+        "Qry": "Pokazateli:8423007;munr:79605000,79615000,79618000,79622000,79630000,79633000,79640000,79700000,79600000;tippos:10,7;oktmo:79701000,79703000;okved2:101;god:2023,2024;period:79;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;okved2_z:4;period_z:5;oktmo_b:1;god_s:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "request_key": "f9aac40d6246c3d3ee822caac32733b9af501c524008eaeedaa0914e77d0fe81",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "application/x-csv; name=Report.csv",
+      "retrieved_at": "2026-09-14T22:38:59.288832+00:00",
+      "raw_sha256": "0fab23ffcc47a9ec0c567efc0bf0e7715da453b1c1f210f2d6b40724d6d1b3a2",
+      "bytes": 379,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/f9aac40d6246c3d3ee822caac32733b9af501c524008eaeedaa0914e77d0fe81.raw"
+    },
+    {
+      "method": "POST",
+      "url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "payload": {
+        "pl": "8401011"
+      },
+      "request_key": "fa013a4bb56ad935dc14a8b7f8a369df6f316c6e9e29a9e1efcdde12f33b5cc5",
+      "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "status_code": 200,
+      "content_type": "text/html",
+      "retrieved_at": "2026-09-14T22:41:27.687691+00:00",
+      "raw_sha256": "e0945ee7f43fb0fedcf31effd324878bfc4d5ad42930a1cc52eba71c50fd4b9b",
+      "bytes": 49530,
+      "redirects": [],
+      "local_raw_path": "work/enrichment-v3/economy/cache/fa013a4bb56ad935dc14a8b7f8a369df6f316c6e9e29a9e1efcdde12f33b5cc5.raw"
+    }
+  ],
+  "auxiliary_downloads_and_HEAD_checks": [
+    {
+      "url": "https://www.nalog.gov.ru/opendata/7707329152-rsmp/",
+      "method": "GET",
+      "retrieved_at": "2026-09-14T22:42:48.947578+00:00",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": null,
+      "location": null,
+      "file": "fns-rsmp-page.html",
+      "bytes": 142269,
+      "sha256": "0ca594bbafd882093fd7a7a3cee6257ff67d6b5ed75603cc538691adc6ee05b5"
+    },
+    {
+      "url": "https://file.nalog.ru/opendata/7707329152-rsmp/structure-10062023.xsd",
+      "method": "GET",
+      "retrieved_at": "2026-09-14T22:42:51.011446+00:00",
+      "status_code": 200,
+      "content_type": "application/xml",
+      "content_length": "38186",
+      "location": null,
+      "file": "fns-rsmp-structure-20230610.xsd",
+      "bytes": 38186,
+      "sha256": "c16ab6c99a09965f69dc7f25bd1aefdade714030f59ca074d83ba9ce07699df6"
+    },
+    {
+      "url": "https://file.nalog.ru/opendata/7707329152-rsmp/structure-10032022.xsd",
+      "method": "GET",
+      "retrieved_at": "2026-09-14T22:42:53.109295+00:00",
+      "status_code": 200,
+      "content_type": "application/xml",
+      "content_length": "39049",
+      "location": null,
+      "file": "fns-rsmp-structure-20220310.xsd",
+      "bytes": 39049,
+      "sha256": "0757fe6e3385e970ad2a5d5b900791dd5ac46e5515e883aac8fcff666f9f0b01"
+    },
+    {
+      "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10012024-structure-10062023.zip",
+      "method": "HEAD",
+      "retrieved_at": "2026-09-14T22:42:55.211297+00:00",
+      "status_code": 200,
+      "content_type": "application/octet-stream",
+      "content_length": "2146321032",
+      "location": null
+    },
+    {
+      "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10012023-structure-10032022.zip",
+      "method": "HEAD",
+      "retrieved_at": "2026-09-14T22:42:57.289246+00:00",
+      "status_code": 200,
+      "content_type": "application/octet-stream",
+      "content_length": "2077530661",
+      "location": null
+    },
+    {
+      "url": "https://minfin.gov.ru/common/upload/library/2024/06/main/Monitoring_MB_i_MBO_2023.pdf",
+      "method": "GET",
+      "retrieved_at": "2026-09-14T22:42:59.443698+00:00",
+      "status_code": 404,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": null,
+      "location": null,
+      "file": "minfin-monitoring-2023.404.html",
+      "bytes": 1894,
+      "sha256": "aa891d41b35ce9b7314747f8c4e89250efc40919492d9e93ed05eac903a7559e",
+      "artifact_status": "HTTP404 HTML response, not a downloaded budget report"
+    }
+  ],
+  "official_methodology": {
+    "source_url": "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-14T20:17:48.980860+00:00",
+    "bytes": 162482,
+    "sha256": "73bb0909bbc4a0b4ff1d19c0a5113b0bb59934cbbfb739544641ea2e5a7eadb3"
+  },
+  "official_catalog": {
+    "url": "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+    "sha256": "9f245a8e1a1cfad4565cfa6ad2980b4f4b8f8f6e61ac8beddd01d6fc92ca2501",
+    "bytes": 565790,
+    "retrieved_at": null,
+    "retrieval_time_note": "Inherited probe records HTTP200 and saved bytes, no retrieval timestamp; no date inferred from filesystem mtime"
+  },
+  "mass_capture_inventory": "source_capture_inventory.json",
+  "mass_raw_location": "server work/enrichment-v3/economy/cache",
+  "local_raw_location": "workspace work/enrichment-v3/economy",
+  "archive_normalization": "No changes to response bytes or historical manifests in this component"
+}

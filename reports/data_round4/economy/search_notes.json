@@ -1,0 +1,22 @@
+{
+  "purpose": "Targeted official-source discovery for previously refused round-three monetary indicators; numerical acceptance uses saved regional forms and exports.",
+  "queries": [
+    "site:69.rosstat.gov.ru БДПМО инвестиции 2024 Тверская муниципальные образования",
+    "site:63.rosstat.gov.ru БДПМО 2024 Самарская оборот розничной торговли отгружено"
+  ],
+  "official_context_pages": [
+    {"url": "https://69.rosstat.gov.ru/list_of_municipalities", "role": "Historical municipal-code publications; not an automatic geographic-equivalence join."},
+    {"url": "https://69.rosstat.gov.ru/faq", "role": "Context on municipal investments; not a universal explanation of suppression."},
+    {"url": "https://63.rosstat.gov.ru/trade", "role": "Regional trade source navigation; no numerical value substituted for the exact municipal export."},
+    {"url": "https://63.rosstat.gov.ru/organizations", "role": "Regional organization statistics navigation; no current snapshot substituted for 2023/2024."}
+  ],
+  "methodology": {
+    "url": "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx",
+    "raw_path": "methodology/bdmo_met2024.docx",
+    "sha256": "73bb0909bbc4a0b4ff1d19c0a5113b0bb59934cbbfb739544641ea2e5a7eadb3",
+    "capture_origin": "Exact-byte copy of previously captured official methodology; not a new HTTP fetch.",
+    "license_status": "Specific open-data license not established; preserve official attribution."
+  },
+  "numeric_source_inventory": "source_inventory.csv",
+  "no_model_or_paid_api_calls": true
+}

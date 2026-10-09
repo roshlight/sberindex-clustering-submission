@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "checks": {
+    "raw_recipe_and_reference_hashes_verified": true,
+    "unique_evidence_keys": true,
+    "all_prior_comparisons_within_rounding_interval": true,
+    "all_reviewed_versions_same_displayed_values": true,
+    "all_records_context_only": true
+  },
+  "evidence_cells": 34,
+  "unique_territory_years": 10,
+  "prior_bdpmo_comparisons": 10,
+  "publication_version_comparisons": 24,
+  "independent_new_measurements": 0,
+  "accepted_model_joins": 0,
+  "reviewed_pdf_versions": 4,
+  "distinct_yearbook_editions": 3,
+  "raw_allowlist_files": 24,
+  "raw_allowlist_bytes": 104560254,
+  "prior_source_lineage": {
+    "parent_repo_path": "reports/data_round3/economy/annual_candidate_panel.csv",
+    "parent_sha256": "6660b05f061eb699fdb23c29e41fc2435ae56ffcb291cd519f6ff24f93f71e37",
+    "selection": "territory_id in (318,331) and indicator_id=8109001; exactly four rows; all columns unmodified",
+    "reference_sha256": "a9db6165feda768b752a3f2443f8f815d1daad47db77f7760be1bc670dbb2170"
+  },
+  "scope": "Hash/cardinality/arithmetic validation of a manual page review, not independent measurement or causal validation."
+}

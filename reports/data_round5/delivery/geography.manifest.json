@@ -1,0 +1,88 @@
+{
+  "created_at_utc": "2026-09-16T19:07:25.552450+00:00",
+  "files": [
+    {
+      "path": "work/data-round5/geography/catalog.retrieval.json",
+      "bytes": 373,
+      "sha256": "c4000aa7716c7af0ba9959d9b558fc6d8d1425f1622f668f23ecd640049a7f92"
+    },
+    {
+      "path": "work/data-round5/geography/downloads/catalog.html",
+      "bytes": 845247,
+      "sha256": "d58ef4869752181c14b9b3e254c30d8f7ba5b7c4f887137c75359b676a86d71e"
+    },
+    {
+      "path": "work/data-round5/geography/downloads/registry_2026-06-01.csv",
+      "bytes": 20132958,
+      "sha256": "033edd2e23a5a4e11e804a3904b658b4903034df728f81e260e5deff8d024439"
+    },
+    {
+      "path": "work/data-round5/geography/downloads/registry_2026-07-01.csv",
+      "bytes": 20127306,
+      "sha256": "0eaf779ffbb5a3098bc5e8130f9dfb5cc9d59c3d4bf26877c5cfaf1621fdd572"
+    },
+    {
+      "path": "work/data-round5/geography/downloads/retrievals.json",
+      "bytes": 1770,
+      "sha256": "aa469e5f7c23e11e71325e196be0338973b471960cbc30afe2e92a7337bd2de9"
+    },
+    {
+      "path": "work/data-round5/geography/registry_2026-06-01.retrieval.json",
+      "bytes": 467,
+      "sha256": "5e26e3c0931c3cc185e0a397f95e7f95e2662e69d40f79b19ce25b7e36b9fee6"
+    },
+    {
+      "path": "work/data-round5/geography/registry_2026-07-01.retrieval.json",
+      "bytes": 467,
+      "sha256": "166c837cc3320d9ae879ab79424054450e791ddcef4ba69fa1aeb2bdeb993e24"
+    },
+    {
+      "path": "work/data-round5/geography/reused/data-20230208T0902-structure-20260210T1102.csv",
+      "bytes": 21419968,
+      "sha256": "db2033073f7b6c0171083063237a915f41f9e1f23be7aecf1027008391c79ebe"
+    },
+    {
+      "path": "work/data-round5/geography/reused/data-20230208T0902-structure-20260210T1102.csv.download.json",
+      "bytes": 403,
+      "sha256": "aba536c1825566e06aa4da4711087441870126e3fcf71142b9aef5d4d6165817"
+    },
+    {
+      "path": "work/data-round5/geography/reused/data-20231219T1512-structure-20260210T1102.csv",
+      "bytes": 21582558,
+      "sha256": "8be058baf8d8ec32bda5431fa6ed5ccdcf0effa0c62869a03576755cbcf956d9"
+    },
+    {
+      "path": "work/data-round5/geography/reused/data-20231219T1512-structure-20260210T1102.csv.download.json",
+      "bytes": 518,
+      "sha256": "f8b41fa7fb007aab0650aef40076aa1b7ee98da5df1322e242feea925e078e4e"
+    },
+    {
+      "path": "work/data-round5/geography/reused/data-20240125T1401-structure-20260210T1102.csv",
+      "bytes": 21580725,
+      "sha256": "62b579d803e50def8668dc704ffecb5ee4e6e12bb1ffd5f848cafd32dfdd926c"
+    },
+    {
+      "path": "work/data-round5/geography/reused/data-20240125T1401-structure-20260210T1102.csv.download.json",
+      "bytes": 518,
+      "sha256": "d0bbf7df7227e5f6d882b35b57ef388f3619469460bc03e73f1e4901829808c3"
+    },
+    {
+      "path": "work/data-round5/geography/reused/data-20241227T1412-structure-20260210T1102.csv",
+      "bytes": 21337303,
+      "sha256": "513bd287a1f1b42b9190f04afcfb8239bd31e0e699bb890f67dc49341285c13b"
+    },
+    {
+      "path": "work/data-round5/geography/reused/data-20241227T1412-structure-20260210T1102.csv.download.json",
+      "bytes": 518,
+      "sha256": "10d04d2236dae902d866fb50b0848622f900f15896b2c3d7b4c792b60b3550d4"
+    }
+  ],
+  "source_allowlist_sha256": "2099764008e62e80cbcf8541c33b641b15e4ef7e196caf1fbb448a1a5a38987c",
+  "packager_sha256": "233f9ce509bb7466b86d4a807d485189a1616a563c161027ff53056ea3a8ef1d",
+  "credential_scan": {
+    "policy": "block_all_matches_except_one_exact_audited_pdf_jpeg_dht",
+    "pattern_sha256": "eac28383fcd054026c92c738a7c0f5857d15499d2c90964c0f0524eda43f0a5b",
+    "audited_exception_id": "pit-planning-jpeg-dht-20260916",
+    "exceptions_applied": []
+  }
+}

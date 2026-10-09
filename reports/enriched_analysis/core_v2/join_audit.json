@@ -1,0 +1,30 @@
+[
+  {
+    "source": "accepted_population_v2",
+    "left_rows": 4032,
+    "right_rows": 4032,
+    "result_rows": 4032,
+    "unmatched_left": 0
+  },
+  {
+    "source": "sber_yearly",
+    "left_rows": 4032,
+    "right_rows": 4032,
+    "result_rows": 4032,
+    "unmatched_left": 0
+  },
+  {
+    "source": "economy_annual_candidates",
+    "left_rows": 4032,
+    "right_rows": 4032,
+    "result_rows": 4032,
+    "unmatched_left": 0
+  },
+  {
+    "source": "market_2024_only",
+    "left_rows": 4032,
+    "right_rows": 2016,
+    "result_rows": 4032,
+    "unmatched_left": 2016
+  }
+]

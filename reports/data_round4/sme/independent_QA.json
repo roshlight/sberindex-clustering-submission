@@ -1,0 +1,870 @@
+{
+  "status": "PASS_WITH_RESTRICTIONS",
+  "checks_total": 114,
+  "checks_pass": 114,
+  "checks": [
+    {
+      "check": "input_sha:extracted/2023/entire/data_sme_153_entire_year_2023_v20260605.parquet",
+      "observed": "5b3f2dbcdfdad8a009c620c135b6207dc3a1748a77b4fa57bccc6f12b64e6572",
+      "expected": "5b3f2dbcdfdad8a009c620c135b6207dc3a1748a77b4fa57bccc6f12b64e6572",
+      "pass": true
+    },
+    {
+      "check": "input_sha:extracted/2023/filtered/data_sme_153_filtered_year_2023_v20260605.parquet",
+      "observed": "eda7d55e4c9479dfe7242748e7d86e4c961b67751debb78fc1a29384b1dcc7dd",
+      "expected": "eda7d55e4c9479dfe7242748e7d86e4c961b67751debb78fc1a29384b1dcc7dd",
+      "pass": true
+    },
+    {
+      "check": "input_sha:extracted/2024/entire/data_sme_153_entire_year_2024_v20260605.parquet",
+      "observed": "91ed51745f8eb76dfaeba22e92debad583fc0f6439c69e239001c99dafe2af23",
+      "expected": "91ed51745f8eb76dfaeba22e92debad583fc0f6439c69e239001c99dafe2af23",
+      "pass": true
+    },
+    {
+      "check": "input_sha:extracted/2024/filtered/data_sme_153_filtered_year_2024_v20260605.parquet",
+      "observed": "3eb58461dcea0ebdf8957c9514b8540a875534b459ad111fbf13d9ba86c42b88",
+      "expected": "3eb58461dcea0ebdf8957c9514b8540a875534b459ad111fbf13d9ba86c42b88",
+      "pass": true
+    },
+    {
+      "check": "input_sha:raw/tochno_sme.html",
+      "observed": "697392e7b9e219996525001e0a07525dcbe77fe198f35a38092c3d29b5bc4f89",
+      "expected": "697392e7b9e219996525001e0a07525dcbe77fe198f35a38092c3d29b5bc4f89",
+      "pass": true
+    },
+    {
+      "check": "input_sha:raw/description_sme.pdf",
+      "observed": "78a8afac57ff18f07e7ddb74f9ff76341b8951b85200011b4fd76b5d6ad9492e",
+      "expected": "78a8afac57ff18f07e7ddb74f9ff76341b8951b85200011b4fd76b5d6ad9492e",
+      "pass": true
+    },
+    {
+      "check": "input_sha:raw/sakhalin_sme_share.htm",
+      "observed": "2ca4c78dd971c02d5e98b946bb7c8dd55b1b549bcb6f5a6a06b38de01ecb6339",
+      "expected": "2ca4c78dd971c02d5e98b946bb7c8dd55b1b549bcb6f5a6a06b38de01ecb6339",
+      "pass": true
+    },
+    {
+      "check": "input_sha:retrievals.json",
+      "observed": "0161c81f002776fd59b9f1bd51e8f2218f71916107eb5fbfe20830d36e4a1111",
+      "expected": "0161c81f002776fd59b9f1bd51e8f2218f71916107eb5fbfe20830d36e4a1111",
+      "pass": true
+    },
+    {
+      "check": "input_sha:description_retrieval.json",
+      "observed": "11f033b3925de32b67867f3d6b7e83d36765e4a7a7ce48b6c871dde61faefa32",
+      "expected": "11f033b3925de32b67867f3d6b7e83d36765e4a7a7ce48b6c871dde61faefa32",
+      "pass": true
+    },
+    {
+      "check": "input_sha:sakhalin_retrieval.json",
+      "observed": "76154d6b96d5f207e11e2cb478d19d115cedff7d956bc4c8b3ff9cfd23eb9307",
+      "expected": "76154d6b96d5f207e11e2cb478d19d115cedff7d956bc4c8b3ff9cfd23eb9307",
+      "pass": true
+    },
+    {
+      "check": "output_sha:schema_2023.csv",
+      "observed": "977c29e592a70e7f9957a95fe86f990f40c7039e6b438730d745234bc01ae0b7",
+      "expected": "977c29e592a70e7f9957a95fe86f990f40c7039e6b438730d745234bc01ae0b7",
+      "pass": true
+    },
+    {
+      "check": "output_sha:schema_2024.csv",
+      "observed": "977c29e592a70e7f9957a95fe86f990f40c7039e6b438730d745234bc01ae0b7",
+      "expected": "977c29e592a70e7f9957a95fe86f990f40c7039e6b438730d745234bc01ae0b7",
+      "pass": true
+    },
+    {
+      "check": "output_sha:annual_inventory.csv",
+      "observed": "a1c29281efbd89a7f2860bc094e285b0b93cdcb027e2fde3404b03bca46dd8a3",
+      "expected": "a1c29281efbd89a7f2860bc094e285b0b93cdcb027e2fde3404b03bca46dd8a3",
+      "pass": true
+    },
+    {
+      "check": "output_sha:coverage_by_category.csv",
+      "observed": "a79eb4d31fcdc753559aa81810928e45e3b54984d268c00e9beca1c5bc7e18a4",
+      "expected": "a79eb4d31fcdc753559aa81810928e45e3b54984d268c00e9beca1c5bc7e18a4",
+      "pass": true
+    },
+    {
+      "check": "output_sha:code_lengths.csv",
+      "observed": "4e0d08280ff0b95f987fddb5bc207bf3194f436201724fdb9150016606f205e7",
+      "expected": "4e0d08280ff0b95f987fddb5bc207bf3194f436201724fdb9150016606f205e7",
+      "pass": true
+    },
+    {
+      "check": "output_sha:entity_multiplicity.csv",
+      "observed": "8370818863ca4ef00bd82fed491cf4efb32b1bda62083ace2ea7af206e5117a9",
+      "expected": "8370818863ca4ef00bd82fed491cf4efb32b1bda62083ace2ea7af206e5117a9",
+      "pass": true
+    },
+    {
+      "check": "output_sha:sakhalin_source_text.txt",
+      "observed": "59148baeb9400d5a6e31dd09b911522c58de18b2f93df7e1c1d1a316a8f66c80",
+      "expected": "59148baeb9400d5a6e31dd09b911522c58de18b2f93df7e1c1d1a316a8f66c80",
+      "pass": true
+    },
+    {
+      "check": "output_sha:source_dictionary_pages.json",
+      "observed": "b37f8219104a41fb119304e29217f5e5b1f5795250e88e5fe454037872ffed2c",
+      "expected": "b37f8219104a41fb119304e29217f5e5b1f5795250e88e5fe454037872ffed2c",
+      "pass": true
+    },
+    {
+      "check": "output_sha:QA.json",
+      "observed": "908c694aac57dc1e9aa4d9c090a26cddc3033493e4dead9a77e5ee1d72a725d1",
+      "expected": "908c694aac57dc1e9aa4d9c090a26cddc3033493e4dead9a77e5ee1d72a725d1",
+      "pass": true
+    },
+    {
+      "check": "zip_sha:2023",
+      "observed": "9be7766e1ae1eaab00cf2b05762775a45417c151524a1fc494c39553109db921",
+      "expected": "9be7766e1ae1eaab00cf2b05762775a45417c151524a1fc494c39553109db921",
+      "pass": true
+    },
+    {
+      "check": "zip_member_count:2023",
+      "observed": 2,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "check": "zip_member_sha:extracted/2023/entire/data_sme_153_entire_year_2023_v20260605.parquet",
+      "observed": "5b3f2dbcdfdad8a009c620c135b6207dc3a1748a77b4fa57bccc6f12b64e6572",
+      "expected": "5b3f2dbcdfdad8a009c620c135b6207dc3a1748a77b4fa57bccc6f12b64e6572",
+      "pass": true
+    },
+    {
+      "check": "zip_member_record:extracted/2023/entire/data_sme_153_entire_year_2023_v20260605.parquet",
+      "observed": "5b3f2dbcdfdad8a009c620c135b6207dc3a1748a77b4fa57bccc6f12b64e6572",
+      "expected": "5b3f2dbcdfdad8a009c620c135b6207dc3a1748a77b4fa57bccc6f12b64e6572",
+      "pass": true
+    },
+    {
+      "check": "zip_member_sha:extracted/2023/filtered/data_sme_153_filtered_year_2023_v20260605.parquet",
+      "observed": "eda7d55e4c9479dfe7242748e7d86e4c961b67751debb78fc1a29384b1dcc7dd",
+      "expected": "eda7d55e4c9479dfe7242748e7d86e4c961b67751debb78fc1a29384b1dcc7dd",
+      "pass": true
+    },
+    {
+      "check": "zip_member_record:extracted/2023/filtered/data_sme_153_filtered_year_2023_v20260605.parquet",
+      "observed": "eda7d55e4c9479dfe7242748e7d86e4c961b67751debb78fc1a29384b1dcc7dd",
+      "expected": "eda7d55e4c9479dfe7242748e7d86e4c961b67751debb78fc1a29384b1dcc7dd",
+      "pass": true
+    },
+    {
+      "check": "zip_sha:2024",
+      "observed": "a2cfce2b8908230e95d7fe7eab3d9f2d6f3c60e87cb1f20349842f99f08bd640",
+      "expected": "a2cfce2b8908230e95d7fe7eab3d9f2d6f3c60e87cb1f20349842f99f08bd640",
+      "pass": true
+    },
+    {
+      "check": "zip_member_count:2024",
+      "observed": 2,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "check": "zip_member_sha:extracted/2024/entire/data_sme_153_entire_year_2024_v20260605.parquet",
+      "observed": "91ed51745f8eb76dfaeba22e92debad583fc0f6439c69e239001c99dafe2af23",
+      "expected": "91ed51745f8eb76dfaeba22e92debad583fc0f6439c69e239001c99dafe2af23",
+      "pass": true
+    },
+    {
+      "check": "zip_member_record:extracted/2024/entire/data_sme_153_entire_year_2024_v20260605.parquet",
+      "observed": "91ed51745f8eb76dfaeba22e92debad583fc0f6439c69e239001c99dafe2af23",
+      "expected": "91ed51745f8eb76dfaeba22e92debad583fc0f6439c69e239001c99dafe2af23",
+      "pass": true
+    },
+    {
+      "check": "zip_member_sha:extracted/2024/filtered/data_sme_153_filtered_year_2024_v20260605.parquet",
+      "observed": "3eb58461dcea0ebdf8957c9514b8540a875534b459ad111fbf13d9ba86c42b88",
+      "expected": "3eb58461dcea0ebdf8957c9514b8540a875534b459ad111fbf13d9ba86c42b88",
+      "pass": true
+    },
+    {
+      "check": "zip_member_record:extracted/2024/filtered/data_sme_153_filtered_year_2024_v20260605.parquet",
+      "observed": "3eb58461dcea0ebdf8957c9514b8540a875534b459ad111fbf13d9ba86c42b88",
+      "expected": "3eb58461dcea0ebdf8957c9514b8540a875534b459ad111fbf13d9ba86c42b88",
+      "pass": true
+    },
+    {
+      "check": "annual:2023:source_rows",
+      "observed": 7555943,
+      "expected": 7555943,
+      "pass": true
+    },
+    {
+      "check": "annual:2023:distinct_tax_ids",
+      "observed": 7080270,
+      "expected": 7080270,
+      "pass": true
+    },
+    {
+      "check": "annual:2023:distinct_tax_periods",
+      "observed": 7555316,
+      "expected": 7555316,
+      "pass": true
+    },
+    {
+      "check": "annual:2023:missing_tax_id",
+      "observed": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "annual:2023:missing_code_rows",
+      "observed": 1535,
+      "expected": 1535,
+      "pass": true
+    },
+    {
+      "check": "annual:2023:nonnull_workers_rows",
+      "observed": 2198717,
+      "expected": 2198717,
+      "pass": true
+    },
+    {
+      "check": "annual:2023:valid_nonnegative_workers_rows",
+      "observed": 2198716,
+      "expected": 2198716,
+      "pass": true
+    },
+    {
+      "check": "annual:2023:zero_workers_rows",
+      "observed": 329634,
+      "expected": 329634,
+      "pass": true
+    },
+    {
+      "check": "annual:2023:negative_workers_rows",
+      "observed": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "check": "annual:2023:first_start",
+      "observed": "2016-08-10",
+      "expected": "2016-08-10",
+      "pass": true
+    },
+    {
+      "check": "annual:2023:last_start",
+      "observed": "2023-12-10",
+      "expected": "2023-12-10",
+      "pass": true
+    },
+    {
+      "check": "annual:2023:first_end",
+      "observed": "2023-01-10",
+      "expected": "2023-01-10",
+      "pass": true
+    },
+    {
+      "check": "annual:2023:last_end",
+      "observed": "2026-04-10",
+      "expected": "2026-04-10",
+      "pass": true
+    },
+    {
+      "check": "annual:2023:reversed_periods",
+      "observed": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "annual:2023:malformed_nonnull_code_rows",
+      "observed": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "annual:2023:sql_null_coordinate_rows",
+      "observed": 48949,
+      "expected": 48949,
+      "pass": true
+    },
+    {
+      "check": "annual:2023:nonfinite_coordinate_rows",
+      "observed": 1535,
+      "expected": 1535,
+      "pass": true
+    },
+    {
+      "check": "annual:2023:finite_out_of_range_coordinate_rows",
+      "observed": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "annual:2023:filtered_rows",
+      "observed": 2544328,
+      "expected": 2544328,
+      "pass": true
+    },
+    {
+      "check": "annual:2023:source_rows_minus_distinct_tax_ids",
+      "observed": 475673,
+      "expected": 475673,
+      "pass": true
+    },
+    {
+      "check": "extra:2023:minimum_year",
+      "observed": 2023,
+      "expected": 2023,
+      "pass": true
+    },
+    {
+      "check": "extra:2023:maximum_year",
+      "observed": 2023,
+      "expected": 2023,
+      "pass": true
+    },
+    {
+      "check": "extra:2023:minimum_workers",
+      "observed": -1,
+      "expected": -1,
+      "pass": true
+    },
+    {
+      "check": "extra:2023:sole_trader_nonnull_workers",
+      "observed": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "extra:2023:year_outside_source_interval",
+      "observed": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "entity:2023:tax_ids",
+      "observed": 7080270,
+      "expected": 7080270,
+      "pass": true
+    },
+    {
+      "check": "entity:2023:tax_ids_multiple_rows",
+      "observed": 451529,
+      "expected": 451529,
+      "pass": true
+    },
+    {
+      "check": "entity:2023:tax_ids_multiple_codes",
+      "observed": 121260,
+      "expected": 121260,
+      "pass": true
+    },
+    {
+      "check": "entity:2023:tax_ids_multiple_categories",
+      "observed": 44481,
+      "expected": 44481,
+      "pass": true
+    },
+    {
+      "check": "entity:2023:tax_ids_conflicting_workers",
+      "observed": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "entity:2023:tax_ids_repeated_period_key",
+      "observed": 177,
+      "expected": 177,
+      "pass": true
+    },
+    {
+      "check": "coverage:2023:all_cells",
+      "observed": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "code_lengths:2023",
+      "observed": [
+        [
+          -1,
+          1535
+        ],
+        [
+          8,
+          1599458
+        ],
+        [
+          11,
+          5954950
+        ]
+      ],
+      "expected": [
+        [
+          -1,
+          1535
+        ],
+        [
+          8,
+          1599458
+        ],
+        [
+          11,
+          5954950
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "check": "coordinate_exclusive_partition:2023",
+      "observed": 7555943,
+      "expected": 7555943,
+      "pass": true
+    },
+    {
+      "check": "coordinate_null_nonfinite_overlap:2023",
+      "observed": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "annual:2024:source_rows",
+      "observed": 7884985,
+      "expected": 7884985,
+      "pass": true
+    },
+    {
+      "check": "annual:2024:distinct_tax_ids",
+      "observed": 7366347,
+      "expected": 7366347,
+      "pass": true
+    },
+    {
+      "check": "annual:2024:distinct_tax_periods",
+      "observed": 7884161,
+      "expected": 7884161,
+      "pass": true
+    },
+    {
+      "check": "annual:2024:missing_tax_id",
+      "observed": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "annual:2024:missing_code_rows",
+      "observed": 1379,
+      "expected": 1379,
+      "pass": true
+    },
+    {
+      "check": "annual:2024:nonnull_workers_rows",
+      "observed": 2158871,
+      "expected": 2158871,
+      "pass": true
+    },
+    {
+      "check": "annual:2024:valid_nonnegative_workers_rows",
+      "observed": 2158870,
+      "expected": 2158870,
+      "pass": true
+    },
+    {
+      "check": "annual:2024:zero_workers_rows",
+      "observed": 335438,
+      "expected": 335438,
+      "pass": true
+    },
+    {
+      "check": "annual:2024:negative_workers_rows",
+      "observed": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "check": "annual:2024:first_start",
+      "observed": "2016-08-10",
+      "expected": "2016-08-10",
+      "pass": true
+    },
+    {
+      "check": "annual:2024:last_start",
+      "observed": "2024-12-10",
+      "expected": "2024-12-10",
+      "pass": true
+    },
+    {
+      "check": "annual:2024:first_end",
+      "observed": "2024-01-10",
+      "expected": "2024-01-10",
+      "pass": true
+    },
+    {
+      "check": "annual:2024:last_end",
+      "observed": "2026-04-10",
+      "expected": "2026-04-10",
+      "pass": true
+    },
+    {
+      "check": "annual:2024:reversed_periods",
+      "observed": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "annual:2024:malformed_nonnull_code_rows",
+      "observed": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "annual:2024:sql_null_coordinate_rows",
+      "observed": 64853,
+      "expected": 64853,
+      "pass": true
+    },
+    {
+      "check": "annual:2024:nonfinite_coordinate_rows",
+      "observed": 1379,
+      "expected": 1379,
+      "pass": true
+    },
+    {
+      "check": "annual:2024:finite_out_of_range_coordinate_rows",
+      "observed": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "annual:2024:filtered_rows",
+      "observed": 2457718,
+      "expected": 2457718,
+      "pass": true
+    },
+    {
+      "check": "annual:2024:source_rows_minus_distinct_tax_ids",
+      "observed": 518638,
+      "expected": 518638,
+      "pass": true
+    },
+    {
+      "check": "extra:2024:minimum_year",
+      "observed": 2024,
+      "expected": 2024,
+      "pass": true
+    },
+    {
+      "check": "extra:2024:maximum_year",
+      "observed": 2024,
+      "expected": 2024,
+      "pass": true
+    },
+    {
+      "check": "extra:2024:minimum_workers",
+      "observed": -1,
+      "expected": -1,
+      "pass": true
+    },
+    {
+      "check": "extra:2024:sole_trader_nonnull_workers",
+      "observed": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "extra:2024:year_outside_source_interval",
+      "observed": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "entity:2024:tax_ids",
+      "observed": 7366347,
+      "expected": 7366347,
+      "pass": true
+    },
+    {
+      "check": "entity:2024:tax_ids_multiple_rows",
+      "observed": 490323,
+      "expected": 490323,
+      "pass": true
+    },
+    {
+      "check": "entity:2024:tax_ids_multiple_codes",
+      "observed": 119786,
+      "expected": 119786,
+      "pass": true
+    },
+    {
+      "check": "entity:2024:tax_ids_multiple_categories",
+      "observed": 50481,
+      "expected": 50481,
+      "pass": true
+    },
+    {
+      "check": "entity:2024:tax_ids_conflicting_workers",
+      "observed": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "entity:2024:tax_ids_repeated_period_key",
+      "observed": 180,
+      "expected": 180,
+      "pass": true
+    },
+    {
+      "check": "coverage:2024:all_cells",
+      "observed": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "code_lengths:2024",
+      "observed": [
+        [
+          -1,
+          1379
+        ],
+        [
+          8,
+          1675717
+        ],
+        [
+          11,
+          6207889
+        ]
+      ],
+      "expected": [
+        [
+          -1,
+          1379
+        ],
+        [
+          8,
+          1675717
+        ],
+        [
+          11,
+          6207889
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "check": "coordinate_exclusive_partition:2024",
+      "observed": 7884985,
+      "expected": 7884985,
+      "pass": true
+    },
+    {
+      "check": "coordinate_null_nonfinite_overlap:2024",
+      "observed": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "pdf_pages",
+      "observed": 9,
+      "expected": 9,
+      "pass": true
+    },
+    {
+      "check": "pdf_page3_reversed_labels",
+      "observed": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "pdf_page7_revenue_is_income",
+      "observed": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "pdf_page7_expenditure_is_expense",
+      "observed": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "pdf_page7_workers_annual_average",
+      "observed": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "pdf_page6_coordinates_registered_settlement",
+      "observed": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "pdf_page5_year_can_repeat",
+      "observed": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "landing_geography_june2026",
+      "observed": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "sakhalin_header2015_2020",
+      "observed": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "sakhalin_no2023_2024_cells",
+      "observed": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "claimed_main_panel_joins",
+      "observed": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "claimed_no_annual_workers_sum",
+      "observed": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "historical_attributes_not_ready",
+      "observed": "NOT_READY",
+      "expected": "NOT_READY",
+      "pass": true
+    }
+  ],
+  "counts": {
+    "2023": {
+      "annual": {
+        "source_rows": 7555943,
+        "distinct_tax_ids": 7080270,
+        "missing_tax_id": 0,
+        "missing_code_rows": 1535,
+        "nonnull_workers_rows": 2198717,
+        "valid_nonnegative_workers_rows": 2198716,
+        "zero_workers_rows": 329634,
+        "negative_workers_rows": 1,
+        "minimum_workers": -1,
+        "first_start": "2016-08-10",
+        "last_start": "2023-12-10",
+        "first_end": "2023-01-10",
+        "last_end": "2026-04-10",
+        "reversed_periods": 0,
+        "malformed_nonnull_code_rows": 0,
+        "sql_null_coordinate_rows": 48949,
+        "nonfinite_coordinate_rows": 1535,
+        "finite_out_of_range_coordinate_rows": 0,
+        "minimum_year": 2023,
+        "maximum_year": 2023,
+        "sole_trader_nonnull_workers": 0,
+        "year_outside_source_interval": 0,
+        "filtered_rows": 2544328,
+        "distinct_tax_periods": 7555316,
+        "source_rows_minus_distinct_tax_ids": 475673
+      },
+      "entity_multiplicity": {
+        "tax_ids": 7080270,
+        "tax_ids_multiple_rows": 451529,
+        "tax_ids_multiple_codes": 121260,
+        "tax_ids_multiple_categories": 44481,
+        "tax_ids_conflicting_workers": 0,
+        "tax_ids_repeated_period_key": 177,
+        "rows_above_distinct_inn_period_key": 627
+      },
+      "exclusive_coordinate_classes": {
+        "finite_in_range": 7505459,
+        "float_nan": 1535,
+        "sql_null": 48949
+      }
+    },
+    "2024": {
+      "annual": {
+        "source_rows": 7884985,
+        "distinct_tax_ids": 7366347,
+        "missing_tax_id": 0,
+        "missing_code_rows": 1379,
+        "nonnull_workers_rows": 2158871,
+        "valid_nonnegative_workers_rows": 2158870,
+        "zero_workers_rows": 335438,
+        "negative_workers_rows": 1,
+        "minimum_workers": -1,
+        "first_start": "2016-08-10",
+        "last_start": "2024-12-10",
+        "first_end": "2024-01-10",
+        "last_end": "2026-04-10",
+        "reversed_periods": 0,
+        "malformed_nonnull_code_rows": 0,
+        "sql_null_coordinate_rows": 64853,
+        "nonfinite_coordinate_rows": 1379,
+        "finite_out_of_range_coordinate_rows": 0,
+        "minimum_year": 2024,
+        "maximum_year": 2024,
+        "sole_trader_nonnull_workers": 0,
+        "year_outside_source_interval": 0,
+        "filtered_rows": 2457718,
+        "distinct_tax_periods": 7884161,
+        "source_rows_minus_distinct_tax_ids": 518638
+      },
+      "entity_multiplicity": {
+        "tax_ids": 7366347,
+        "tax_ids_multiple_rows": 490323,
+        "tax_ids_multiple_codes": 119786,
+        "tax_ids_multiple_categories": 50481,
+        "tax_ids_conflicting_workers": 0,
+        "tax_ids_repeated_period_key": 180,
+        "rows_above_distinct_inn_period_key": 824
+      },
+      "exclusive_coordinate_classes": {
+        "finite_in_range": 7818753,
+        "float_nan": 1379,
+        "sql_null": 64853
+      }
+    }
+  },
+  "archive_members_verified": [
+    {
+      "archive": "raw/data_sme_153_year_2023_v20260605_parquet.zip",
+      "member": "entire/data_sme_153_entire_year_2023_v20260605.parquet",
+      "bytes": 302935780,
+      "sha256": "5b3f2dbcdfdad8a009c620c135b6207dc3a1748a77b4fa57bccc6f12b64e6572",
+      "crc_verified_by_complete_read": true
+    },
+    {
+      "archive": "raw/data_sme_153_year_2023_v20260605_parquet.zip",
+      "member": "filtered/data_sme_153_filtered_year_2023_v20260605.parquet",
+      "bytes": 168710661,
+      "sha256": "eda7d55e4c9479dfe7242748e7d86e4c961b67751debb78fc1a29384b1dcc7dd",
+      "crc_verified_by_complete_read": true
+    },
+    {
+      "archive": "raw/data_sme_153_year_2024_v20260605_parquet.zip",
+      "member": "entire/data_sme_153_entire_year_2024_v20260605.parquet",
+      "bytes": 308016001,
+      "sha256": "91ed51745f8eb76dfaeba22e92debad583fc0f6439c69e239001c99dafe2af23",
+      "crc_verified_by_complete_read": true
+    },
+    {
+      "archive": "raw/data_sme_153_year_2024_v20260605_parquet.zip",
+      "member": "filtered/data_sme_153_filtered_year_2024_v20260605.parquet",
+      "bytes": 164693500,
+      "sha256": "3eb58461dcea0ebdf8957c9514b8540a875534b459ad111fbf13d9ba86c42b88",
+      "crc_verified_by_complete_read": true
+    }
+  ],
+  "total_entire_period_records": 15440928,
+  "models_fit": 0,
+  "municipal_joins_performed": 0,
+  "workers_summed": false,
+  "review_scope": "Independent offline record/source audit; historical municipal aggregation NOT_READY.",
+  "manual_visual_review": "See independent_review.md for PDF pages3/5/6/7 visual review.",
+  "production_manifest_sha256": "49b53e887bc0b968484c91b0f8347a550c1bca8a47eb755d0416f4114c053d3c",
+  "verifier_sha256": "fc7e960fd9c417d36b8c81a06a5d8c426f74eb0adb5cea66f3b48b24d767513c",
+  "duckdb_version": "1.5.5"
+}

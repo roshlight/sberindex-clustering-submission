@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "source_files": 428,
+  "embedded_manifests": 5,
+  "written_members": 433,
+  "workspace_relative_raw_root": "work/round6-release-replay-input/raw6",
+  "archives_sha256": {
+    "data-round6-economy.zip": "8448100206ab9286887fef5f4d9b80644b8ce13a1cc2c6e0c3596212da9196b5",
+    "data-round6-sme.zip": "ae202256ebf7add5e6c13b4be28c4a44720461799ed5eead436664e43897266d",
+    "data-round6-cases.zip": "9ca904136db420903278f530adeb5a12e998bcccb89a23b3fecfb6391c54692b",
+    "data-round6-geography.zip": "c5b6e8c8d7279d61d2d01e438af0a19c4bd44498e6322cec22abb4a7455dea57",
+    "data-round6-search.zip": "dc254c3aedc1c9706aae05e8f333589738baecb899250839b58782a99bd543a9"
+  }
+}

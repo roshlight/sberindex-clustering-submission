@@ -1,0 +1,3 @@
+year,filename,sha256,url,unit_header
+2023,sred_potreb_cen_2023.xlsx,6fb4297765a110923566f9518aec77f6c56ae76f0f8a3b9e5d721ba3572359ed,https://rosstat.gov.ru/storage/mediabank/sred_potreb_cen_2023.xlsx,"на конец периода, рублей за единицу измерения"
+2024,sred_potreb_cen_2024.xlsx,b35330ad824fa4cfb85ba92718084772b8c113cb4ee7258f4ff5147e2f995ef3,https://rosstat.gov.ru/storage/mediabank/sred_potreb_cen_2024.xlsx,"на конец периода, рублей за единицу измерения"

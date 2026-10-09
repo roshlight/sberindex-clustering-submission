@@ -1,0 +1,759 @@
+[
+  {
+    "request": {
+      "source_id": "fns-register-passport",
+      "url": "https://www.nalog.gov.ru/opendata/7707329152-rsmp/",
+      "extension": "html",
+      "purpose": "historic_releases_and_employee_reference_year"
+    },
+    "captured_at_utc": "2026-09-16T16:18:47.195644+00:00",
+    "http_status": 200,
+    "final_url": "https://www.nalog.gov.ru/opendata/7707329152-rsmp/",
+    "response_headers": {
+      "content-type": "text/html; charset=utf-8"
+    },
+    "announced_bytes": null,
+    "bytes": 142269,
+    "sha256": "f550bdb16e7bfaae77f3d0cc3dc93e9c02408c899380a32c0d568d4ecc9ffc64",
+    "path": "fns-register-passport.html",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "fns-schema-2023",
+      "url": "https://file.nalog.ru/opendata/7707329152-rsmp/structure-10062023.xsd",
+      "extension": "xsd",
+      "purpose": "historical_schema_join_keys"
+    },
+    "captured_at_utc": "2026-09-16T16:18:50.374879+00:00",
+    "http_status": 200,
+    "final_url": "https://file.nalog.ru/opendata/7707329152-rsmp/structure-10062023.xsd",
+    "response_headers": {
+      "content-type": "application/xml",
+      "content-length": "38186",
+      "last-modified": "Thu, 15 Jun 2023 10:03:55 GMT",
+      "etag": "\"5d5ea87cec59f3d61df55c84c9625991\"",
+      "accept-ranges": "bytes"
+    },
+    "announced_bytes": 38186,
+    "bytes": 38186,
+    "sha256": "c16ab6c99a09965f69dc7f25bd1aefdade714030f59ca074d83ba9ce07699df6",
+    "path": "fns-schema-2023.xsd",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "fns-schema-2022",
+      "url": "https://file.nalog.ru/opendata/7707329152-rsmp/structure-10032022.xsd",
+      "extension": "xsd",
+      "purpose": "early2023_schema_join_keys"
+    },
+    "captured_at_utc": "2026-09-16T16:18:55.393601+00:00",
+    "http_status": 200,
+    "final_url": "https://file.nalog.ru/opendata/7707329152-rsmp/structure-10032022.xsd",
+    "response_headers": {
+      "content-type": "application/xml",
+      "content-length": "39049",
+      "last-modified": "Tue, 01 Aug 2023 06:50:12 GMT",
+      "etag": "\"85a3811b19ea81cb1cd90433a7419a09\"",
+      "accept-ranges": "bytes"
+    },
+    "announced_bytes": 39049,
+    "bytes": 39049,
+    "sha256": "0757fe6e3385e970ad2a5d5b900791dd5ac46e5515e883aac8fcff666f9f0b01",
+    "path": "fns-schema-2022.xsd",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "fns-license",
+      "url": "https://www.nalog.gov.ru/files/tipovye_usloviya_od.pdf",
+      "extension": "pdf",
+      "purpose": "open_data_reuse_terms"
+    },
+    "captured_at_utc": "2026-09-16T16:18:58.044511+00:00",
+    "http_status": 200,
+    "final_url": "https://www.nalog.gov.ru/files/tipovye_usloviya_od.pdf",
+    "response_headers": {
+      "content-type": "application/pdf",
+      "content-length": "144536",
+      "accept-ranges": "bytes"
+    },
+    "announced_bytes": 144536,
+    "bytes": 144536,
+    "sha256": "c772365757d41ff06662566b35b64356e482cb910d7e85302e325959ffc40492",
+    "path": "fns-license.pdf",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "fns-archive-20240710-size",
+      "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10072024-structure-10062023.zip",
+      "method": "HEAD",
+      "purpose": "size_only_employee2023_reference"
+    },
+    "captured_at_utc": "2026-09-16T16:19:01.052560+00:00",
+    "http_status": 200,
+    "final_url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10072024-structure-10062023.zip",
+    "response_headers": {
+      "content-type": "application/octet-stream",
+      "content-length": "2092669336",
+      "last-modified": "Fri, 12 Jul 2024 06:20:57 GMT",
+      "etag": "\"01fbc24b05c5696ecff8833a52e8ba17-250\"",
+      "accept-ranges": "bytes"
+    },
+    "announced_bytes": 2092669336,
+    "access_status": "headers_only_size_assessment"
+  },
+  {
+    "request": {
+      "source_id": "fns-archive-20250710-size",
+      "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10072025-structure-10062025.zip",
+      "method": "HEAD",
+      "purpose": "size_only_employee2024_reference"
+    },
+    "captured_at_utc": "2026-09-16T16:19:02.946878+00:00",
+    "http_status": 200,
+    "final_url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10072025-structure-10062025.zip",
+    "response_headers": {
+      "content-type": "application/octet-stream",
+      "content-length": "2125639991",
+      "last-modified": "Tue, 15 Jul 2025 11:43:59 GMT",
+      "etag": "\"ddb38475470fe620551c5ed6d4c889db-254\"",
+      "accept-ranges": "bytes"
+    },
+    "announced_bytes": 2125639991,
+    "access_status": "headers_only_size_assessment"
+  },
+  {
+    "request": {
+      "source_id": "fns-statistics-20240710",
+      "url": "https://rmsp.nalog.ru/statistics-proc.json",
+      "method": "POST",
+      "data": {
+        "statDate": "10.07.2024"
+      },
+      "extension": "json",
+      "purpose": "historical_regional_aggregate_workers2023_not_municipal"
+    },
+    "captured_at_utc": "2026-09-16T16:19:05.859413+00:00",
+    "http_status": 200,
+    "final_url": "https://rmsp.nalog.ru/statistics-proc.json",
+    "response_headers": {
+      "content-type": "application/json;charset=UTF-8"
+    },
+    "announced_bytes": null,
+    "bytes": 176547,
+    "sha256": "e243bc7062af485fcfcc1d717690d34f4bc78c1e889ac24e943ee8a7b086da56",
+    "path": "fns-statistics-20240710.json",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "fns-statistics-20250710",
+      "url": "https://rmsp.nalog.ru/statistics-proc.json",
+      "method": "POST",
+      "data": {
+        "statDate": "10.07.2025"
+      },
+      "extension": "json",
+      "purpose": "historical_regional_aggregate_workers2024_not_municipal"
+    },
+    "captured_at_utc": "2026-09-16T16:19:08.955610+00:00",
+    "http_status": 200,
+    "final_url": "https://rmsp.nalog.ru/statistics-proc.json",
+    "response_headers": {
+      "content-type": "application/json;charset=UTF-8"
+    },
+    "announced_bytes": null,
+    "bytes": 173693,
+    "sha256": "59eedb50ece074219de9f080061430085fc2e806ca5028c6bb57e6142523a892",
+    "path": "fns-statistics-20250710.json",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "khabarovsk-municipal-page",
+      "url": "https://27.rosstat.gov.ru/folder/20717",
+      "extension": "html",
+      "purpose": "municipal_sme_worker_share_source_navigation"
+    },
+    "captured_at_utc": "2026-09-16T16:19:10.909174+00:00",
+    "http_status": 200,
+    "final_url": "https://27.rosstat.gov.ru/folder/20717",
+    "response_headers": {
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "announced_bytes": null,
+    "bytes": 789142,
+    "sha256": "12c58ed5b82d3eaf7fcbe46bcc8986ee48ba9dae5faa5889ddc3520b5400c0a9",
+    "path": "khabarovsk-municipal-page.html",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "vologda-finance-page",
+      "url": "https://35.rosstat.gov.ru/folder/135085",
+      "extension": "html",
+      "purpose": "municipal_small_enterprise_2024_sources"
+    },
+    "captured_at_utc": "2026-09-16T16:19:15.137975+00:00",
+    "http_status": 200,
+    "final_url": "https://35.rosstat.gov.ru/folder/135085",
+    "response_headers": {
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "announced_bytes": null,
+    "bytes": 843260,
+    "sha256": "ea6cfd3ac7be88b85931449bfafc81c4f31c8055d9c10cd4cae9cb8eaeab8e0e",
+    "path": "vologda-finance-page.html",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "rosstat-sme-regional-page",
+      "url": "https://rosstat.gov.ru/statistics/instituteconomics",
+      "extension": "html",
+      "purpose": "sector_employee_scope_regional_source_navigation"
+    },
+    "captured_at_utc": "2026-09-16T16:19:19.512009+00:00",
+    "http_status": 200,
+    "final_url": "https://rosstat.gov.ru/statistics/instituteconomics",
+    "response_headers": {
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "announced_bytes": null,
+    "bytes": 763777,
+    "sha256": "3497962d70991acc0ec35dd4a6566af52cc7ae1ca7eb2ea515cec670986d69d4",
+    "path": "rosstat-sme-regional-page.html",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "ivanovo-municipal-page",
+      "url": "https://37.rosstat.gov.ru/main_indicators",
+      "extension": "html",
+      "purpose": "municipal_sme_historical_source_navigation"
+    },
+    "captured_at_utc": "2026-09-16T16:20:31.916537+00:00",
+    "http_status": 200,
+    "final_url": "https://37.rosstat.gov.ru/main_indicators",
+    "response_headers": {
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "announced_bytes": null,
+    "bytes": 862690,
+    "sha256": "5487f6bb9f67fbb23c0a5ccb584a647a4480259ea1e5a06b803df19284703dcc",
+    "path": "ivanovo-municipal-page.html",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "sakhalin-municipal-page",
+      "url": "https://65.rosstat.gov.ru/main_indicators",
+      "extension": "html",
+      "purpose": "municipal_sme_historical_source_navigation"
+    },
+    "captured_at_utc": "2026-09-16T16:20:36.481990+00:00",
+    "http_status": 200,
+    "final_url": "https://65.rosstat.gov.ru/main_indicators",
+    "response_headers": {
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "announced_bytes": null,
+    "bytes": 759687,
+    "sha256": "3308aee5c8f310f47e2db27ffe4ecf55eac7ec6d9a7120aebd3b25131dc5c01c",
+    "path": "sakhalin-municipal-page.html",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "magadan-municipal-page",
+      "url": "https://27.rosstat.gov.ru/folder/23590",
+      "extension": "html",
+      "purpose": "municipal_sme_historical_source_navigation"
+    },
+    "captured_at_utc": "2026-09-16T16:20:40.548794+00:00",
+    "http_status": 200,
+    "final_url": "https://27.rosstat.gov.ru/folder/23590",
+    "response_headers": {
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "announced_bytes": null,
+    "bytes": 757360,
+    "sha256": "71835a6e9363cec3ef9c7912ba3fb9e86071777e09e772dbcc9085c86205897d",
+    "path": "magadan-municipal-page.html",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "khabarovsk-municipal-page-table-1",
+      "url": "https://27.rosstat.gov.ru/storage/mediabank/Число субъектов малого и среднего предпр-ва на 10 тыс человек.doc",
+      "extension": "doc",
+      "purpose": " DOC Число субъектов малого и среднего предпринимательства в расчете на 10 тыс. человек населения 37.5 Кб, 02.02.2023"
+    },
+    "captured_at_utc": "2026-09-16T16:20:44.349499+00:00",
+    "http_status": 200,
+    "final_url": "https://27.rosstat.gov.ru/storage/mediabank/%D0%A7%D0%B8%D1%81%D0%BB%D0%BE%20%D1%81%D1%83%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BE%D0%B2%20%D0%BC%D0%B0%D0%BB%D0%BE%D0%B3%D0%BE%20%D0%B8%20%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D0%B3%D0%BE%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80-%D0%B2%D0%B0%20%D0%BD%D0%B0%2010%20%D1%82%D1%8B%D1%81%20%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA.doc",
+    "response_headers": {
+      "content-type": "application/msword",
+      "content-length": "38400",
+      "last-modified": "Thu, 02 Feb 2023 01:46:29 GMT",
+      "etag": "\"63db15f5-9600\"",
+      "accept-ranges": "bytes"
+    },
+    "announced_bytes": 38400,
+    "bytes": 38400,
+    "sha256": "c1e1b1e39b3f8123fda68fe5947adbf359739a9729b09f8b09e8c340e90c9535",
+    "path": "khabarovsk-municipal-page-table-1.doc",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "khabarovsk-municipal-page-table-2",
+      "url": "https://27.rosstat.gov.ru/storage/mediabank/Доля среднеспис числ раб-ков малых и ср предпр-й.doc",
+      "extension": "doc",
+      "purpose": " DOC Доля среднесписочной численности работников (без внешних совместителей) малых и средних предприятий в среднесписочной численности работников (без внешних совместителей) всех предприятий и организаций 37.5 Кб, 02.02.2023"
+    },
+    "captured_at_utc": "2026-09-16T16:20:47.041244+00:00",
+    "http_status": 200,
+    "final_url": "https://27.rosstat.gov.ru/storage/mediabank/%D0%94%D0%BE%D0%BB%D1%8F%20%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D1%81%D0%BF%D0%B8%D1%81%20%D1%87%D0%B8%D1%81%D0%BB%20%D1%80%D0%B0%D0%B1-%D0%BA%D0%BE%D0%B2%20%D0%BC%D0%B0%D0%BB%D1%8B%D1%85%20%D0%B8%20%D1%81%D1%80%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80-%D0%B9.doc",
+    "response_headers": {
+      "content-type": "application/msword",
+      "content-length": "38400",
+      "last-modified": "Thu, 02 Feb 2023 01:45:28 GMT",
+      "etag": "\"63db15b8-9600\"",
+      "accept-ranges": "bytes"
+    },
+    "announced_bytes": 38400,
+    "bytes": 38400,
+    "sha256": "334e72a3760e63a97068faad5e1d70490976749320f574b6e05a9c424488cb22",
+    "path": "khabarovsk-municipal-page-table-2.doc",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "rosstat-sme-regional-page-table-1",
+      "url": "https://rosstat.gov.ru/storage/mediabank/Chislen_malcmik_2025.xlsx",
+      "extension": "xlsx",
+      "purpose": " XLSX Средняя численность работников малых предприятий (включая микропредприятия) по видам экономической деятельности и субъектам Российской Федерации (с 2011 г.) 63.78 Кб, 27.03.2026"
+    },
+    "captured_at_utc": "2026-09-16T16:20:49.396252+00:00",
+    "http_status": 200,
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/Chislen_malcmik_2025.xlsx",
+    "response_headers": {
+      "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "content-length": "65307",
+      "last-modified": "Fri, 27 Mar 2026 12:29:54 GMT",
+      "etag": "\"69c67842-ff1b\"",
+      "accept-ranges": "bytes"
+    },
+    "announced_bytes": 65307,
+    "bytes": 65307,
+    "sha256": "b0883ddeb4fe8c743b02f237c41a8d5e14a804884f3955cb0bdb80ed6fd80491",
+    "path": "rosstat-sme-regional-page-table-1.xlsx",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "rosstat-sme-regional-page-table-2",
+      "url": "https://rosstat.gov.ru/storage/mediabank/Chislen_mal_06-2026.xlsx",
+      "extension": "xlsx",
+      "purpose": " XLSX Средняя численность работников малых предприятий (без микропредприятий) по видам экономической деятельности и субъектам Российской Федерации (с 2011 г.) 64.38 Кб, 09.09.2026"
+    },
+    "captured_at_utc": "2026-09-16T16:20:53.172220+00:00",
+    "http_status": 200,
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/Chislen_mal_06-2026.xlsx",
+    "response_headers": {
+      "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "content-length": "65925",
+      "last-modified": "Wed, 09 Sep 2026 13:00:29 GMT",
+      "etag": "\"6aa1586d-10185\"",
+      "accept-ranges": "bytes"
+    },
+    "announced_bytes": 65925,
+    "bytes": 65925,
+    "sha256": "098678dd07658acd00022e03f35a2e33fabfedc800895e838b08e12497c98607",
+    "path": "rosstat-sme-regional-page-table-2.xlsx",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "vologda-finance-page-table-2",
+      "url": "https://35.rosstat.gov.ru/storage/mediabank/Группировка организаций(5).xlsx",
+      "extension": "xlsx",
+      "purpose": " XLSX Группировка малых предприятий, получивших прибыль или убыток, в разрезе муниципальных образований Вологодской области по видам экономической деятельности в 2024 году 51.58 Кб, 15.10.2025"
+    },
+    "captured_at_utc": "2026-09-16T16:22:09.448569+00:00",
+    "http_status": 200,
+    "final_url": "https://35.rosstat.gov.ru/storage/mediabank/%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B9(5).xlsx",
+    "response_headers": {
+      "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "content-length": "52819",
+      "last-modified": "Mon, 27 Oct 2025 06:59:10 GMT",
+      "etag": "\"68ff183e-ce53\"",
+      "accept-ranges": "bytes"
+    },
+    "announced_bytes": 52819,
+    "bytes": 52819,
+    "sha256": "26a3fec350e4b5302c36439d987056d98122ae8946e5c899d6cc8671d225c713",
+    "path": "vologda-finance-page-table-2.xlsx",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "vologda-finance-page-table-4",
+      "url": "https://35.rosstat.gov.ru/storage/mediabank/Группировка организаций(3).xlsx",
+      "extension": "xlsx",
+      "purpose": " XLSX Группировка малых предприятий, получивших прибыль или убыток, в разрезе муниципальных образований Вологодской области по видам экономической деятельности в 2023 году 50.38 Кб, 16.10.2024"
+    },
+    "captured_at_utc": "2026-09-16T16:22:12.398041+00:00",
+    "http_status": 200,
+    "final_url": "https://35.rosstat.gov.ru/storage/mediabank/%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B9(3).xlsx",
+    "response_headers": {
+      "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "content-length": "51584",
+      "last-modified": "Wed, 16 Oct 2024 12:50:03 GMT",
+      "etag": "\"670fb67b-c980\"",
+      "accept-ranges": "bytes"
+    },
+    "announced_bytes": 51584,
+    "bytes": 51584,
+    "sha256": "04f6271a9e29307f98823b85195bb23b4f8b972287f296ea9626a7995ee74a4a",
+    "path": "vologda-finance-page-table-4.xlsx",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "prikubansky-municipal-2024",
+      "url": "https://26.rosstat.gov.ru/storage/mediabank/Прикубанский%20МР.pdf",
+      "extension": "pdf",
+      "purpose": "verify_actual_reference_year_in2024_report_sme_footnote"
+    },
+    "captured_at_utc": "2026-09-16T16:22:13.690301+00:00",
+    "http_status": 200,
+    "final_url": "https://26.rosstat.gov.ru/storage/mediabank/%D0%9F%D1%80%D0%B8%D0%BA%D1%83%D0%B1%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%9C%D0%A0.pdf",
+    "response_headers": {
+      "content-type": "application/pdf",
+      "content-length": "199960",
+      "last-modified": "Wed, 02 Apr 2025 11:18:48 GMT",
+      "etag": "\"67ed1d18-30d18\"",
+      "accept-ranges": "bytes"
+    },
+    "announced_bytes": 199960,
+    "bytes": 199960,
+    "sha256": "6a2d87a51b08119941332a691227838e753b84e611f9ff1c8400e5223cfa21b6",
+    "path": "prikubansky-municipal-2024.pdf",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "ivanovo-municipal-page-table-1",
+      "url": "https://37.rosstat.gov.ru/storage/mediabank/m_sr_predp_2024.pdf",
+      "extension": "pdf",
+      "purpose": " PDF Число субъектов малого и среднего предпринимательства за 2020 год 132.17 Кб, 01.04.2025"
+    },
+    "captured_at_utc": "2026-09-16T16:22:23.406283+00:00",
+    "http_status": 200,
+    "final_url": "https://37.rosstat.gov.ru/storage/mediabank/m_sr_predp_2024.pdf",
+    "response_headers": {
+      "content-type": "application/pdf",
+      "content-length": "135337",
+      "last-modified": "Tue, 01 Apr 2025 08:17:58 GMT",
+      "etag": "\"67eba136-210a9\"",
+      "accept-ranges": "bytes"
+    },
+    "announced_bytes": 135337,
+    "bytes": 135337,
+    "sha256": "7901527bfe1a8ce5b85c8d68705630ce52701e68730a687896b4e113fa99d3ae",
+    "path": "ivanovo-municipal-page-table-1.pdf",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "ivanovo-municipal-page-table-2",
+      "url": "https://37.rosstat.gov.ru/storage/mediabank/srednespis_mp_sr_2024.pdf",
+      "extension": "pdf",
+      "purpose": " PDF Доля среднесписочной численности работников (без внешних совместителей) малых и средних предприятий в среднесписочной численности работников (без внешних совместителей) всех предприятий и организаций 131.47 Кб, 01.04.2025"
+    },
+    "captured_at_utc": "2026-09-16T16:22:26.553511+00:00",
+    "http_status": 200,
+    "final_url": "https://37.rosstat.gov.ru/storage/mediabank/srednespis_mp_sr_2024.pdf",
+    "response_headers": {
+      "content-type": "application/pdf",
+      "content-length": "134629",
+      "last-modified": "Tue, 01 Apr 2025 07:59:20 GMT",
+      "etag": "\"67eb9cd8-20de5\"",
+      "accept-ranges": "bytes"
+    },
+    "announced_bytes": 134629,
+    "bytes": 134629,
+    "sha256": "2e806408abcba78dfb6ca1faf59202f36cac426f7aadf91514167125df47828c",
+    "path": "ivanovo-municipal-page-table-2.pdf",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "ivanovo-municipal-page-table-3",
+      "url": "https://37.rosstat.gov.ru/storage/mediabank/m_sr_predp_2023.pdf",
+      "extension": "pdf",
+      "purpose": " PDF Число субъектов малого и среднего предпринимательства 132.26 Кб, 01.04.2024"
+    },
+    "captured_at_utc": "2026-09-16T16:22:28.358680+00:00",
+    "http_status": 200,
+    "final_url": "https://37.rosstat.gov.ru/storage/mediabank/m_sr_predp_2023.pdf",
+    "response_headers": {
+      "content-type": "application/pdf",
+      "content-length": "135435",
+      "last-modified": "Mon, 01 Apr 2024 14:50:56 GMT",
+      "etag": "\"660ac9d0-2110b\"",
+      "accept-ranges": "bytes"
+    },
+    "announced_bytes": 135435,
+    "bytes": 135435,
+    "sha256": "aabd26389f51b46aee5098748efee11be5a9e3a737458aca49d570d4c9536950",
+    "path": "ivanovo-municipal-page-table-3.pdf",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "ivanovo-municipal-page-table-4",
+      "url": "https://37.rosstat.gov.ru/storage/mediabank/srednespis_mp_sr_2023.pdf",
+      "extension": "pdf",
+      "purpose": " PDF Доля среднесписочной численности работников малых и средних предприятий в среднесписочной численности работников всех предприятий 131.57 Кб, 01.04.2024"
+    },
+    "captured_at_utc": "2026-09-16T16:22:29.911519+00:00",
+    "http_status": 200,
+    "final_url": "https://37.rosstat.gov.ru/storage/mediabank/srednespis_mp_sr_2023.pdf",
+    "response_headers": {
+      "content-type": "application/pdf",
+      "content-length": "134732",
+      "last-modified": "Mon, 01 Apr 2024 14:53:08 GMT",
+      "etag": "\"660aca54-20e4c\"",
+      "accept-ranges": "bytes"
+    },
+    "announced_bytes": 134732,
+    "bytes": 134732,
+    "sha256": "1a7496aa35a1110c312bde3760692f877fedaae71e1b94f815faf220a3ac2946",
+    "path": "ivanovo-municipal-page-table-4.pdf",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "sakhalin-municipal-page-table-1",
+      "url": "https://65.rosstat.gov.ru/storage/mediabank/1.Число субъектов малого  и среднего предпринимательства.htm",
+      "extension": "htm",
+      "purpose": " HTM 1. Число субъектов малого и среднего предпринимательства 28.67 Кб, 21.03.2024"
+    },
+    "captured_at_utc": "2026-09-16T16:22:31.572482+00:00",
+    "http_status": 200,
+    "final_url": "https://65.rosstat.gov.ru/storage/mediabank/1.%D0%A7%D0%B8%D1%81%D0%BB%D0%BE%20%D1%81%D1%83%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BE%D0%B2%20%D0%BC%D0%B0%D0%BB%D0%BE%D0%B3%D0%BE%20%20%D0%B8%20%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D0%B3%D0%BE%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B0.htm",
+    "response_headers": {
+      "content-type": "text/html",
+      "last-modified": "Thu, 20 Mar 2025 23:14:15 GMT",
+      "etag": "W/\"67dca147-72a9\""
+    },
+    "announced_bytes": null,
+    "bytes": 29353,
+    "sha256": "c228515f47f729dc5f7f83d7c9ab9e10bdabc3584f204ad65a51470c3eac2c35",
+    "path": "sakhalin-municipal-page-table-1.htm",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "magadan-municipal-page-table-1",
+      "url": "https://27.rosstat.gov.ru/storage/mediabank/1(16).docx",
+      "extension": "docx",
+      "purpose": " DOCX Число субъектов малого и среднего предпринимательства в расчете на 10 тыс. человек населения 13.9 Кб, 26.03.2025"
+    },
+    "captured_at_utc": "2026-09-16T16:22:33.989169+00:00",
+    "http_status": 200,
+    "final_url": "https://27.rosstat.gov.ru/storage/mediabank/1(16).docx",
+    "response_headers": {
+      "content-type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content-length": "14235",
+      "last-modified": "Thu, 27 Mar 2025 01:08:16 GMT",
+      "etag": "\"67e4a500-379b\"",
+      "accept-ranges": "bytes"
+    },
+    "announced_bytes": 14235,
+    "bytes": 14235,
+    "sha256": "f6d55abb0d09abee82bab98a715d4dea1e0f3b74fdd0173da75b7a89e5417ba0",
+    "path": "magadan-municipal-page-table-1.docx",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "magadan-municipal-page-table-2",
+      "url": "https://27.rosstat.gov.ru/storage/mediabank/2(9).docx",
+      "extension": "docx",
+      "purpose": " DOCX Доля среднесписочной численности работников (без внешних совместителей) малых и средних предприятий в среднесписочной численности работников (без внешних совместителей) всех предприятий и организаций 13.89 Кб, 26.03.2025"
+    },
+    "captured_at_utc": "2026-09-16T16:22:37.097122+00:00",
+    "http_status": 200,
+    "final_url": "https://27.rosstat.gov.ru/storage/mediabank/2(9).docx",
+    "response_headers": {
+      "content-type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content-length": "14228",
+      "last-modified": "Thu, 27 Mar 2025 01:05:30 GMT",
+      "etag": "\"67e4a45a-3794\"",
+      "accept-ranges": "bytes"
+    },
+    "announced_bytes": 14228,
+    "bytes": 14228,
+    "sha256": "e45f037461605685be66abdceb8d41a3e6a3ca737a39d12d0b95788d370b2e86",
+    "path": "magadan-municipal-page-table-2.docx",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "rosstat-transport-confidentiality",
+      "url": "https://67.rosstat.gov.ru/storage/mediabank/Типовые%20вопросы-ответы.pdf",
+      "extension": "pdf",
+      "purpose": "official_scope_specific_confidentiality_rules_not_universal_imputation"
+    },
+    "captured_at_utc": "2026-09-16T16:22:38.456509+00:00",
+    "http_status": 200,
+    "final_url": "https://67.rosstat.gov.ru/storage/mediabank/%D0%A2%D0%B8%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B-%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B.pdf",
+    "response_headers": {
+      "content-type": "application/pdf",
+      "content-length": "735853",
+      "last-modified": "Fri, 17 Nov 2023 05:32:16 GMT",
+      "etag": "\"6556fae0-b3a6d\"",
+      "accept-ranges": "bytes"
+    },
+    "announced_bytes": 735853,
+    "bytes": 735853,
+    "sha256": "266c2574bce792d6c844f699595a0b0c3be50f77e3805a32e40be4b0a5496902",
+    "path": "rosstat-transport-confidentiality.pdf",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "rosstat-mp2020-methodology",
+      "url": "https://78.rosstat.gov.ru/Small_business_FAQ",
+      "extension": "html",
+      "purpose": "sme_census_scope_place_of_activity_confidentiality"
+    },
+    "captured_at_utc": "2026-09-16T16:22:41.766791+00:00",
+    "http_status": 200,
+    "final_url": "https://78.rosstat.gov.ru/Small_business_FAQ",
+    "response_headers": {
+      "content-type": "text/html; charset=UTF-8"
+    },
+    "announced_bytes": null,
+    "bytes": 811141,
+    "sha256": "70dea40eacfba4093988d8a70c5b85cf3f9bed563ec7aa23307eb1a8b0531108",
+    "path": "rosstat-mp2020-methodology.html",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "fns-statistics-20230710",
+      "url": "https://rmsp.nalog.ru/statistics-proc.json",
+      "method": "POST",
+      "data": {
+        "statDate": "10.07.2023"
+      },
+      "extension": "json",
+      "purpose": "historical_entity_count2023snapshot_workers2022_not_municipal"
+    },
+    "captured_at_utc": "2026-09-16T16:24:16.721296+00:00",
+    "http_status": 200,
+    "final_url": "https://rmsp.nalog.ru/statistics-proc.json",
+    "response_headers": {
+      "content-type": "application/json;charset=UTF-8"
+    },
+    "announced_bytes": null,
+    "bytes": 175039,
+    "sha256": "ba53588adbd99ea68214fe9642bf056562073e5f76f322e0a996c424934fd81f",
+    "path": "fns-statistics-20230710.json",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "fns-schema-2025",
+      "url": "https://file.nalog.ru/opendata/7707329152-rsmp/structure-10062025.xsd",
+      "extension": "xsd",
+      "purpose": "schema_for20250710_snapshot_workers2024"
+    },
+    "captured_at_utc": "2026-09-16T16:24:18.612415+00:00",
+    "http_status": 200,
+    "final_url": "https://file.nalog.ru/opendata/7707329152-rsmp/structure-10062025.xsd",
+    "response_headers": {
+      "content-type": "application/xml",
+      "content-length": "33300",
+      "last-modified": "Tue, 17 Jun 2025 07:30:01 GMT",
+      "etag": "\"19cb628097457cb20608c84fc0cb137e\"",
+      "accept-ranges": "bytes"
+    },
+    "announced_bytes": 33300,
+    "bytes": 33300,
+    "sha256": "bd324f628fc760038499400427258888b29727044cd32fd424e1a0c3094cd36c",
+    "path": "fns-schema-2025.xsd",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "fns-statistics-interface",
+      "url": "https://rmsp.nalog.ru/statistics.html",
+      "extension": "html",
+      "purpose": "worker_scope_and_snapshot_selector_definition_only"
+    },
+    "captured_at_utc": "2026-09-16T16:29:05.332536+00:00",
+    "http_status": 200,
+    "final_url": "https://rmsp.nalog.ru/statistics.html",
+    "response_headers": {
+      "content-type": "text/html;charset=utf-8"
+    },
+    "announced_bytes": null,
+    "bytes": 273566,
+    "sha256": "a323ce1e32dc402a38b79892ca7e8905d024813efefcfe210f63d52d62c1b10c",
+    "path": "fns-statistics-interface.html",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "fns-statistics-javascript",
+      "url": "https://rmsp.nalog.ru/js/statistics.js?ver=1.5.9",
+      "extension": "js",
+      "purpose": "published_public_POST_endpoint_and_geography_levels"
+    },
+    "captured_at_utc": "2026-09-16T16:29:07.322310+00:00",
+    "http_status": 200,
+    "final_url": "https://rmsp.nalog.ru/js/statistics.js?ver=1.5.9",
+    "response_headers": {
+      "accept-ranges": "bytes",
+      "etag": "W/\"34430-1786022350000\"",
+      "last-modified": "Thu, 06 Aug 2026 13:19:10 GMT",
+      "content-type": "application/javascript",
+      "content-length": "34430"
+    },
+    "announced_bytes": 34430,
+    "bytes": 34430,
+    "sha256": "04f44e1cc5f2078cabbb91e6fd477baa6b93fdce923f78bbb2726e651c0d010d",
+    "path": "fns-statistics-javascript.js",
+    "access_status": "downloaded"
+  },
+  {
+    "request": {
+      "source_id": "rosstat-municipal-catalog",
+      "url": "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+      "extension": "htm",
+      "purpose": "8423005_source_scope_excludes_small_not_all_SME"
+    },
+    "captured_at_utc": "2026-09-16T16:29:07.797183+00:00",
+    "http_status": 200,
+    "final_url": "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+    "response_headers": {
+      "content-type": "text/html",
+      "last-modified": "Thu, 15 Feb 2024 14:42:42 GMT",
+      "etag": "W/\"65ce22e2-8a21e\""
+    },
+    "announced_bytes": null,
+    "bytes": 565790,
+    "sha256": "9f245a8e1a1cfad4565cfa6ad2980b4f4b8f8f6e61ac8beddd01d6fc92ca2501",
+    "path": "rosstat-municipal-catalog.htm",
+    "access_status": "downloaded"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "model_panel.csv": "f8d7b4e9c7c71b4431100a375f19b58c1e6e591140c4a3ec9f844d80e26fb8f9",
+    "oof_predictions.parquet": "9a63f9c7ac03afb8305fb17b8c148f9bfe38ce76f0b1c545386882d23f26b427",
+    "cv_comparisons.csv": "053c71966e6de941ad8ec47804dee9ee10fad4bc673d3f2e5cb85071252bf01f"
+  },
+  "code_sha256": "ca29d7ec89471d381d630011f07b94daa5798c09d57abe28b93fbff7e21f6b0b",
+  "outputs": {
+    "primary_all_samples.csv": "6e75b1d164223ee17aacb17b60561998dec187d7b254ccb79c1bdd4ceb0cb2d4",
+    "QA.json": "667caf129f71e76c0d2c9b5c1caf8ce610fa5acf01c79f959a9398b5a1d858bb",
+    "state_update_contributions.csv": "06a0e908a81e0a08b214ef75ee37e2093919970fe3a11070649583ebfec72e84"
+  }
+}

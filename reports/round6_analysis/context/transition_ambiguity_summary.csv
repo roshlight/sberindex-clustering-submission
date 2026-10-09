@@ -1,0 +1,3 @@
+edge_class,edges,distinct_old_codes,distinct_new_codes,regions,denominator_all_ambiguous_edges,edge_share_pct,unique_code_counts_not_additive_between_classes
+forward_only,2,1,2,1,98,2.040816326531,True
+reverse_only,96,96,36,11,98,97.959183673469,True

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "scope": "publisher_version_selection_and_collected_source_integrity_only",
+  "source_records": 15,
+  "downloaded_or_reused_sources": 14,
+  "new_content_downloads": 6,
+  "fresh_metadata_matches_previous_sha": true,
+  "case_count": 4,
+  "annual_records": 8,
+  "equal_publisher_geometry_cases": 4,
+  "accepted_independent_historical_boundary_pairs": 0,
+  "polygon_overlap_computed": false,
+  "mask_changes": 0,
+  "gpkg_contents": {
+    "table_name": "t_dict_municipal_districts_poly",
+    "last_change": "2024-10-17T12:11:38.270Z",
+    "srs_id": 4326
+  },
+  "raw_file_count": 34,
+  "raw_bytes": 89029173
+}

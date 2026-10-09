@@ -1,0 +1,10 @@
+{
+  "evidence_rows": 53,
+  "locator_checks_passed": 53,
+  "unique_cases": 3,
+  "source_requests": 22,
+  "downloaded_sources": 19,
+  "raw_files": 155,
+  "raw_bytes": 81897740,
+  "automatic_join_or_model_update": false
+}

@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "scope": "Saved-source replay in existing locked environment",
+  "clean_environment_created": false,
+  "network_requested": false,
+  "llm_calls_requested": false,
+  "models_trained": 0,
+  "new_clusters": 0,
+  "numeric_atol": 1e-09,
+  "numeric_rtol": 1e-09,
+  "raw_tree_metadata_unchanged": true,
+  "canonical_machine_files_and_code_unchanged": true,
+  "all_manifest_declared_inputs_hash_checked": true,
+  "independent_validation": "PASS on fresh root",
+  "report_generation_replayed": false,
+  "visual_review_repeated": false,
+  "comparisons": [
+    {
+      "branch": "admission",
+      "method": "byte_exact",
+      "files": 14
+    },
+    {
+      "branch": "regions",
+      "method": "numeric_1e-9_and_exact_structure",
+      "files": 7,
+      "tables_max_abs": {
+        "associations.csv": 0.0,
+        "cluster_alignment.csv": 0.0,
+        "cluster_profiles.csv": 0.0,
+        "coverage.csv": 0.0,
+        "regional_panel.csv": 0.0,
+        "regional_summary.csv": 0.0
+      },
+      "excluded_byte_equality": [
+        "manifest.json"
+      ],
+      "exclusion_reason": "Fresh output hashes checked; CSV floats allow 1e-9 tolerance"
+    },
+    {
+      "branch": "context",
+      "method": "byte_exact",
+      "files": 13
+    }
+  ],
+  "stages": [
+    {
+      "stage": "admission",
+      "returncode": 0
+    },
+    {
+      "stage": "regions",
+      "returncode": 0
+    },
+    {
+      "stage": "context",
+      "returncode": 0
+    },
+    {
+      "stage": "independent",
+      "returncode": 0
+    }
+  ],
+  "independent_QA_sha256": "9ea5dd9fab45ffb3560fbfee158858f66c7525cd3f1c2dfc433d773621e43bd5",
+  "code_sha256": "5b65aa38f734d68398567c711f2b30246989ce37f9851b61ec9bd8190add8a52",
+  "source_manifests_sha256": {
+    "admission": "35173f4b4c6c933b941993fd8fc9a2aa596f83cc742a8993e9f6b8e120f7455d",
+    "regions": "7d2b80d239e111362962dc1d3a92378de8ec1b7ed5605a96e558371ac050a24d",
+    "context": "9bba0072fb37356e8682a6460aadf7bc879510d8e560725e3d7bbfd2d03a2b81"
+  },
+  "script_sha256": {
+    "analyze_round6_admission.py": "a3241fd49e3e10cb7ef710e3b4c4674e7f4bd6fd5223fb26888e54ef81fd6965",
+    "analyze_round6_regions.py": "9c337c608b7ef8e48c021fc4c9c468807fbd0a6475b8a460431fb62f0eaea5c0",
+    "analyze_round6_context.py": "6273cb3f8139d432cee42819fac036a3e2e9ce8611ee0c578345e0c491d0dc90",
+    "verify_round6_analysis.py": "359b609d18469feccf81445e7195910b85a4266fd0b025b153b2b35739279b8b"
+  }
+}

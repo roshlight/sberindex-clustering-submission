@@ -1,0 +1,9 @@
+claim_id,status,claim,evidence,limit
+investment_lower_kolyma_history,supported,"2023 published investment is more than 40 times every 2020-2022 published amount; 2024 is below 2021 and 2022 in current prices, including rounding bounds.",investment_longer_comparisons.csv,Descriptive retrospective selected case only.
+investment_lower_kolyma_economic_collapse,unsupported,The 2023-2024 fall establishes a collapse of the whole local economy.,investment_paths.csv,Narrow investment scope; cause and respondent stability unknown.
+investment_upper_kolyma_history,supported,Published nominal investment increases in every observed adjacent year 2020-2024.,investment_paths.csv;investment_2023_2024_exact_prior.csv,"Not a real-growth estimate, persistent-trend forecast, or causal result."
+new_independent_investment_measurement,unsupported,Repeated yearbook and BDPMO agreement is an independent economic measurement.,../../data_round4/cases/evidence_ledger.csv,Shared statistical base is possible.
+sme_complements_sector_structure,partially_supported,Registered SME primary-activity composition could add a distinct structural perspective.,sme_entity_eligibility.csv,Requires historical geocoding and explicit annual entity rule.
+sme_worker_share_all_business,unsupported,Available workers identify total municipal SME employment or its economic share.,sme_worker_observation_by_primary_nace2.csv,"Missing IP workers, incomplete legal-entity coverage, registered address not workplace."
+sme_stable_codes_prove_historical_geography,unsupported,A single code within an annual file proves a correct historical municipal join.,sme_entity_eligibility.csv,Geocoding vintage is June 2026; code stability is only internal.
+identical_geometry_implies_constant_legal_boundary,unsupported,Four byte-identical annual publisher geometries justify removing boundary exclusions.,geography_evidence_decisions.csv,No independent paired legal coordinates; retain masks.

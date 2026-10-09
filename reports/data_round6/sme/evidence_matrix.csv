@@ -1,0 +1,10 @@
+claim_id,status,evidence,scope,remaining_requirement
+worker_dates_differ,accepted_scoped,worker_dates.csv,900 selected records data2025 document2026,Historical2023and2024 XML still required
+annual_worker_release_schedule,accepted_documentary,fns_workers_schedule2023.html raw snapshot,FNS statement published2023-03-31,Exact archives and revisions for tochno still required
+author_package_matches_git,accepted_scoped,author_source_lineage.csv,12 selected package members match commit48a92fa1af335e930f5fb040a7d31a1bf30a44cc,Tochno build manifest absent
+fixed_lookup_vintage,accepted_as_author_statement,code_evidence.csv fixed_lookup_vintage,Author README claims2021 geography; per-record effective dates not independently established,Historical address and boundary crosswalk required
+federal_group_codes_in_asset,accepted_scoped,federal_city_source_rows.csv,cities.csv contains45000000/40000000/67000000,Cannot attribute every tochno group-coded record to this source
+asset_codes_join_ready,unsupported,asset_code_syntax.csv,Scientific notation and other lengths retained verbatim,Validate lexical conversion against historical official code provenance
+workers_latest_revision_rule,accepted_scoped,code_evidence.csv workers_latest_document_revision,Read-only author's code; no execution or model use,Archive revision manifest and prediction availability needed
+tochno_route_and_workers_verified,unsupported,geocoder_address_contracts.csv,Two author routes found; exact tochno run not identified,Exact run configuration and input hashes required
+historical_municipal_join,unsupported,QA.json,No accepted historical municipal join,Historical address geography validity and panel scope agreement required

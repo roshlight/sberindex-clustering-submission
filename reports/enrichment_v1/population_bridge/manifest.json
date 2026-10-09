@@ -1,0 +1,43 @@
+{
+  "status": "complete",
+  "primary_count": 2016,
+  "exact_official_section1_matches": 1627,
+  "unmatched_count": 389,
+  "prepared_candidate_targets": 1627,
+  "linked_pilot_cells": 12,
+  "linked_pilot_municipalities": 3,
+  "population_mass_fetch_run": false,
+  "input_hashes": {
+    "registry_csv": {
+      "path": "/home/vpnadmin/services/sberindex-enrichment/data/raw/oktmo-2024.csv",
+      "sha256": "def4fe436545f6ef7e349607c4c8256a331146fe9b977e12618443ed59ddbff3"
+    },
+    "crosswalk_2023": {
+      "path": "/home/vpnadmin/services/sberindex-enrichment/data/derived/crosswalk-server-01/municipal_crosswalk_2023-01-01.csv",
+      "sha256": "7dd3bde61dd1b29f517bc1ec8d68ce0fdad7b5ee38bf464520ece56c6dd54d6d"
+    },
+    "crosswalk_2024": {
+      "path": "/home/vpnadmin/services/sberindex-enrichment/data/derived/crosswalk-server-01/municipal_crosswalk_2024-01-01.csv",
+      "sha256": "0fceb092f491855e4b6863cbc9ded804728e4e1772fc5586efd6e7595aa9ebc3"
+    },
+    "assignments": {
+      "path": "/home/vpnadmin/services/sberindex-enrichment/data/raw/assignments.parquet",
+      "sha256": "54f6c1f3c92a878a990c620e9fdb544ab6187f9ac0baea4bc5070d964e0ae6bc"
+    },
+    "population": {
+      "path": "/home/vpnadmin/services/sberindex-enrichment/enrichment/data/bdpmo-server-pilot-20260914-v1/population_source_oktmo.csv",
+      "sha256": "ebf9effd506658ac388d39ac856c210895ac353c8cdca4804bd3bb4dc3f363b8"
+    },
+    "selector": {
+      "path": "/home/vpnadmin/services/sberindex-enrichment/data/raw/pmo-selector.html",
+      "sha256": "a7e1d9dbb4973f7e8b988be3b7189b3ef9fbc447893a5f406d41fb146ab7c766"
+    }
+  },
+  "processor_sha256": "ed0a18ad2f359beaadf49a0c84546a126452faf7b040bb07878b824f016e3e14",
+  "output_hashes": {
+    "population_linked_pilot.csv": "701a2282aaeea25d4439b8dac04ea7e78cc7cc96055b8ad61b0dd1ca36a4cb32",
+    "population_linked_pilot.parquet": "8b36cb31315413ba0b01da0853557b029e52bd214dde73802f9fc70938838cc5",
+    "primary_population_candidate_targets.json": "79e9541142d95bd60f1e92acf3dd10ff11ff3cb439599549da3efdbecdc5c4ea",
+    "primary_unmatched_2024.csv": "c6e6b74d7206ec27877aa72bea72b43c8672e1e71dc681a2294f6346863e6557"
+  }
+}

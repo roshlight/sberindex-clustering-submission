@@ -1,0 +1,26 @@
+{
+  "inputs": {
+    "extracted/2023/entire/data_sme_153_entire_year_2023_v20260605.parquet": "5b3f2dbcdfdad8a009c620c135b6207dc3a1748a77b4fa57bccc6f12b64e6572",
+    "extracted/2023/filtered/data_sme_153_filtered_year_2023_v20260605.parquet": "eda7d55e4c9479dfe7242748e7d86e4c961b67751debb78fc1a29384b1dcc7dd",
+    "extracted/2024/entire/data_sme_153_entire_year_2024_v20260605.parquet": "91ed51745f8eb76dfaeba22e92debad583fc0f6439c69e239001c99dafe2af23",
+    "extracted/2024/filtered/data_sme_153_filtered_year_2024_v20260605.parquet": "3eb58461dcea0ebdf8957c9514b8540a875534b459ad111fbf13d9ba86c42b88",
+    "raw/tochno_sme.html": "697392e7b9e219996525001e0a07525dcbe77fe198f35a38092c3d29b5bc4f89",
+    "raw/description_sme.pdf": "78a8afac57ff18f07e7ddb74f9ff76341b8951b85200011b4fd76b5d6ad9492e",
+    "raw/sakhalin_sme_share.htm": "2ca4c78dd971c02d5e98b946bb7c8dd55b1b549bcb6f5a6a06b38de01ecb6339",
+    "retrievals.json": "0161c81f002776fd59b9f1bd51e8f2218f71916107eb5fbfe20830d36e4a1111",
+    "description_retrieval.json": "11f033b3925de32b67867f3d6b7e83d36765e4a7a7ce48b6c871dde61faefa32",
+    "sakhalin_retrieval.json": "76154d6b96d5f207e11e2cb478d19d115cedff7d956bc4c8b3ff9cfd23eb9307"
+  },
+  "script_sha256": "819ee81242a8e249e5b6201a1f5161a93fb5b6f42840a196ade789a312009114",
+  "outputs": {
+    "schema_2023.csv": "977c29e592a70e7f9957a95fe86f990f40c7039e6b438730d745234bc01ae0b7",
+    "schema_2024.csv": "977c29e592a70e7f9957a95fe86f990f40c7039e6b438730d745234bc01ae0b7",
+    "annual_inventory.csv": "a1c29281efbd89a7f2860bc094e285b0b93cdcb027e2fde3404b03bca46dd8a3",
+    "coverage_by_category.csv": "a79eb4d31fcdc753559aa81810928e45e3b54984d268c00e9beca1c5bc7e18a4",
+    "code_lengths.csv": "4e0d08280ff0b95f987fddb5bc207bf3194f436201724fdb9150016606f205e7",
+    "entity_multiplicity.csv": "8370818863ca4ef00bd82fed491cf4efb32b1bda62083ace2ea7af206e5117a9",
+    "sakhalin_source_text.txt": "59148baeb9400d5a6e31dd09b911522c58de18b2f93df7e1c1d1a316a8f66c80",
+    "source_dictionary_pages.json": "b37f8219104a41fb119304e29217f5e5b1f5795250e88e5fe454037872ffed2c",
+    "QA.json": "908c694aac57dc1e9aa4d9c090a26cddc3033493e4dead9a77e5ee1d72a725d1"
+  }
+}

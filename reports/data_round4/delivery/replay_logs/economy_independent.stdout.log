@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "network_requests": 0,
+  "production_parser_imported": false,
+  "candidate_rows": 12096,
+  "frozen_municipalities": 2016,
+  "independently_replayed_source_cells": 805,
+  "csv_requests": 19,
+  "html_forms": 16,
+  "source_statuses": {
+    "observed": 779,
+    "unresolved_source_marker": 26
+  },
+  "counts": {
+    "old_numeric": 10829,
+    "new_numeric": 11608,
+    "gain": 779
+  },
+  "old_numeric_changes": 0,
+  "old_and_new_capture_numeric_overlap": 0,
+  "source_revision_stability": "not_estimable_no_numeric_overlap",
+  "exact_annual_links_preserved": true,
+  "outside_year_link_cells": 24,
+  "outside_year_link_numeric": 0,
+  "isolated_ellipsis_cells": 6,
+  "source_999999999_cells": 0,
+  "remaining_refusals_verified": 3,
+  "geography_or_calendar_mask_changes": 0,
+  "collector_sha256": "e0b64f5f7bfc02c9bf77f58adb4fc6cd8ad8ae705674957bb68e4565f0c3d1c1",
+  "verifier_sha256": "01ce1fe9beb88aa8c364f3cce8625509a88a437859a022e877447a8c3f0d24e6",
+  "evidence_hashes": {
+    "annual_candidate_panel.csv": "e556ae527f6109c34632e316d7931dd36436d97c975ff3d636cf1b7180e078d9",
+    "recovered_source_cells.csv": "aed149cba9bdb46028fd06ef64d47cd40ac958bb4e0f41ef4a51f32bda2f9489",
+    "delta_all_cells.csv": "0f7a2ee744697f6a458704b5bafca5ab8b7a7792d9cf77b7ec2d0e0ab1049f1d",
+    "coverage_delta.csv": "efa9dc7a74f254989abefcdac4e50c8e115ec0145bc4357cdad50e126527e2c5",
+    "refusals_remaining.csv": "277ebaa7865508d2e8d9eca26355bdfa839c2f19d48743ba7d5747967a73a3c5",
+    "form_inventory.json": "40194b188a8802debfbd2c9081d6c2608c05b4235b326d3958a259bcaf0c551e"
+  },
+  "limitations": [
+    "No independent legal boundary approval",
+    "Retrieval vintage does not establish original publication date",
+    "Scope excludes small businesses; not whole-economy totals",
+    "Confidential sentinel has synthetic tests only; absent in canonical recovered cells"
+  ]
+}

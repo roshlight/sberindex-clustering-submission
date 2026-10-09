@@ -1,0 +1,42 @@
+[
+  {
+    "engine": "google cse",
+    "results": 0,
+    "unresponsive_engines": [
+      [
+        "google cse",
+        "too many requests"
+      ]
+    ]
+  },
+  {
+    "engine": "duckduckgo",
+    "results": 0,
+    "unresponsive_engines": [
+      [
+        "duckduckgo",
+        "HTTP connection error"
+      ]
+    ]
+  },
+  {
+    "engine": "brave",
+    "results": 0,
+    "unresponsive_engines": [
+      [
+        "brave",
+        "too many requests"
+      ]
+    ]
+  },
+  {
+    "engine": "startpage",
+    "results": 0,
+    "unresponsive_engines": [
+      [
+        "startpage",
+        "CAPTCHA"
+      ]
+    ]
+  }
+]

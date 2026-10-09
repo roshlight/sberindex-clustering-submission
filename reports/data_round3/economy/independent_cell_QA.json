@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "candidate_grid": 12096,
+  "accepted_source_cells_verified": 10851,
+  "numeric_cells": 10829,
+  "numeric_zero_cells": 0,
+  "responses_rehashed": 194,
+  "forms_rehashed": 191,
+  "duplicate_keys": 0,
+  "fabricated_or_imputed_values": 0,
+  "geographic_equivalence_claims": 0,
+  "csv_sha256": "6660b05f061eb699fdb23c29e41fc2435ae56ffcb291cd519f6ff24f93f71e37",
+  "verifier_sha256": "b2d2c1fceb300beb8e12dfdb9e96f2d03e6817573ec1a098925d2fc218388cca"
+}

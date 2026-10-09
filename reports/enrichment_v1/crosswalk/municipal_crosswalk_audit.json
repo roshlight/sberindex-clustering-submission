@@ -1,0 +1,189 @@
+{
+  "source_url": "https://www.sberbank.com/common/files/t_dict_municipal.rar",
+  "metadata_url": "https://www.sberbank.ru/common/img/uploaded/files/pdf/sberindex/metadata_municipal_dict_sberindex_2.pdf",
+  "license": "CC BY-SA 4.0 as stated by SberIndex; attribute SberIndex, Rosstat and OSM.",
+  "metadata_coverage_start": "2018-01-01",
+  "metadata_coverage_through": "2024-01-01",
+  "validity_semantics": "year_from inclusive, year_to exclusive; 9999 open source sentinel",
+  "interpretation_limit": "The 2024 snapshot describes January 1 only. No completeness during or after 2024 is inferred. This coded crosswalk does not establish TERSON-MO equivalence.",
+  "source_files": [
+    {
+      "name": "t_dict_municipal_districts.xlsx",
+      "bytes": 322024,
+      "sha256": "4150658c3298fbc87ed79838f503f3a5b9a28da33257ff803c7d9231ddb775d6"
+    },
+    {
+      "name": "t_dict_municipal_districts_poly.gpkg",
+      "bytes": 74334208,
+      "sha256": "e62027630d48e4a13f9b6d173dd074d7358706743fe859ca3b7fa30fefa9813a"
+    },
+    {
+      "name": "consumption.parquet",
+      "bytes": 2373939,
+      "sha256": "9833ddaaee7b2a182ed4cceeed16469031700ea87d508bd976150c6770ef8a61"
+    },
+    {
+      "name": "t_dict_municipal.rar",
+      "bytes": 26925727,
+      "sha256": "319ed22684b77716641bc15b61f7325adc44e9fc47e9be2973d88412d27d21f5"
+    }
+  ],
+  "rows": 3101,
+  "unique_territory_ids": 2660,
+  "regions": 85,
+  "duplicate_version_keys": 0,
+  "null_counts": {
+    "territory_id": 0,
+    "oktmo": 0,
+    "region_code": 0,
+    "region_name": 0,
+    "municipal_district_name": 0,
+    "municipal_district_name_short": 0,
+    "municipal_district_type": 0,
+    "municipal_district_status": 2973,
+    "municipal_district_center": 262,
+    "municipal_district_center_lat": 268,
+    "municipal_district_center_lon": 268,
+    "shape": 0,
+    "shape_linked_oktmo": 2742,
+    "source_rosstat": 0,
+    "change_id_from": 3058,
+    "change_id_to": 3035,
+    "year_from": 0,
+    "year_to": 0,
+    "oktmo_digits": 0
+  },
+  "version_start_counts": {
+    "2018": 2617,
+    "2019": 32,
+    "2020": 64,
+    "2021": 101,
+    "2022": 68,
+    "2023": 131,
+    "2024": 88
+  },
+  "version_end_counts": {
+    "2019": 37,
+    "2020": 68,
+    "2021": 106,
+    "2022": 68,
+    "2023": 138,
+    "2024": 90,
+    "9999": 2594
+  },
+  "codes_per_territory_counts": {
+    "1": 2226,
+    "2": 431,
+    "3": 3
+  },
+  "snapshots": {
+    "2023": {
+      "date": "2023-01-01",
+      "rows": 2596,
+      "unique_territory_ids": 2596,
+      "unique_oktmo_codes": 2596,
+      "all_consumption": {
+        "requested_ids": 2190,
+        "matched_ids": 2188,
+        "unmatched_ids": [
+          3014,
+          3101
+        ]
+      },
+      "balanced_consumption": {
+        "requested_ids": 2016,
+        "matched_ids": 2016,
+        "unmatched_ids": []
+      },
+      "type_counts": {
+        "муниципальный район": 1424,
+        "городской округ": 597,
+        "муниципальный округ": 308,
+        "внутригородская территория города федерального значения": 267
+      },
+      "primary_type_counts": {
+        "муниципальный район": 1045,
+        "городской округ": 446,
+        "муниципальный округ": 283,
+        "внутригородская территория города федерального значения": 242
+      }
+    },
+    "2024": {
+      "date": "2024-01-01",
+      "rows": 2594,
+      "unique_territory_ids": 2594,
+      "unique_oktmo_codes": 2594,
+      "all_consumption": {
+        "requested_ids": 2190,
+        "matched_ids": 2187,
+        "unmatched_ids": [
+          1471,
+          1487,
+          1847
+        ]
+      },
+      "balanced_consumption": {
+        "requested_ids": 2016,
+        "matched_ids": 2016,
+        "unmatched_ids": []
+      },
+      "type_counts": {
+        "муниципальный район": 1350,
+        "городской округ": 582,
+        "муниципальный округ": 395,
+        "внутригородская территория города федерального значения": 267
+      },
+      "primary_type_counts": {
+        "муниципальный район": 980,
+        "городской округ": 433,
+        "муниципальный округ": 361,
+        "внутригородская территория города федерального значения": 242
+      }
+    }
+  },
+  "geometry": {
+    "rows": 2660,
+    "unique_territory_ids": 2660,
+    "geometry_null_rows": 0,
+    "minimum_geometry_bytes": 254,
+    "territory_ids_equal_crosswalk": true,
+    "validity_equal_territory_lifetime": true,
+    "contents": [
+      {
+        "table_name": "t_dict_municipal_districts_poly",
+        "data_type": "features",
+        "identifier": "t_dict_municipal_districts_poly",
+        "description": "",
+        "last_change": "2024-10-17T12:11:38.270Z",
+        "min_x": -180.0,
+        "min_y": 41.1850968,
+        "max_x": 180.0,
+        "max_y": 82.0586232,
+        "srs_id": 4326
+      }
+    ],
+    "geometry_columns": [
+      {
+        "table_name": "t_dict_municipal_districts_poly",
+        "column_name": "geom",
+        "geometry_type_name": "GEOMETRY",
+        "srs_id": 4326,
+        "z": 0,
+        "m": 0
+      }
+    ],
+    "limitation": "Non-null geometry and key coverage checked; topology not validated."
+  },
+  "join_policy": "Exact territory_id only. No joins, repairs or disambiguation by name.",
+  "primary_2023_to_2024": {
+    "common_ids": 2016,
+    "changed_oktmo": 78,
+    "changed_type": 78,
+    "changed_region_code": 0
+  },
+  "output_hashes": {
+    "municipal_crosswalk_versions.csv": "421750a85e3fed92c7b1a1c89636cfc53e2d89c4b0c86faf5b39207871013528",
+    "municipal_crosswalk_2023-01-01.csv": "7dd3bde61dd1b29f517bc1ec8d68ce0fdad7b5ee38bf464520ece56c6dd54d6d",
+    "municipal_crosswalk_2024-01-01.csv": "0fceb092f491855e4b6863cbc9ded804728e4e1772fc5586efd6e7595aa9ebc3"
+  }
+}

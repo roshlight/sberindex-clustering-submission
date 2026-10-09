@@ -1,0 +1,88 @@
+{
+  "script_sha256": "a2571e820a63644bb5eaf6d2d28e462955ba292c08a8cfb8799c9cf3c0867881",
+  "repo_inputs": {
+    "reports/enrichment_v2/code_bridge/registry_vintage_audit.csv": "f46537b892ad4f61c5a6d3015b2425705790e698b6b1d2d5bcb305098a304432",
+    "reports/data_round4/sme/manifest.json": "49b53e887bc0b968484c91b0f8347a550c1bca8a47eb755d0416f4114c053d3c"
+  },
+  "sme_inputs": {
+    "extracted/2023/entire/data_sme_153_entire_year_2023_v20260605.parquet": "5b3f2dbcdfdad8a009c620c135b6207dc3a1748a77b4fa57bccc6f12b64e6572",
+    "extracted/2024/entire/data_sme_153_entire_year_2024_v20260605.parquet": "91ed51745f8eb76dfaeba22e92debad583fc0f6439c69e239001c99dafe2af23"
+  },
+  "registry_inputs": [
+    {
+      "label": "2023-02-08",
+      "path": "reused/data-20230208T0902-structure-20260210T1102.csv",
+      "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20230208T0902-structure-20260210T1102.csv",
+      "sha256": "db2033073f7b6c0171083063237a915f41f9e1f23be7aecf1027008391c79ebe",
+      "origin": "reused_prior_verified_snapshot",
+      "retrieved_at": "2026-09-14T21:22:02.652035+00:00"
+    },
+    {
+      "label": "2023-12-19",
+      "path": "reused/data-20231219T1512-structure-20260210T1102.csv",
+      "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20231219T1512-structure-20260210T1102.csv",
+      "sha256": "8be058baf8d8ec32bda5431fa6ed5ccdcf0effa0c62869a03576755cbcf956d9",
+      "origin": "reused_prior_verified_snapshot",
+      "retrieved_at": "2026-09-14T21:20:54.379763+00:00"
+    },
+    {
+      "label": "2024-01-25",
+      "path": "reused/data-20240125T1401-structure-20260210T1102.csv",
+      "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20240125T1401-structure-20260210T1102.csv",
+      "sha256": "62b579d803e50def8668dc704ffecb5ee4e6e12bb1ffd5f848cafd32dfdd926c",
+      "origin": "reused_prior_verified_snapshot",
+      "retrieved_at": "2026-09-14T21:20:52.547410+00:00"
+    },
+    {
+      "label": "2024-12-27",
+      "path": "reused/data-20241227T1412-structure-20260210T1102.csv",
+      "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20241227T1412-structure-20260210T1102.csv",
+      "sha256": "513bd287a1f1b42b9190f04afcfb8239bd31e0e699bb890f67dc49341285c13b",
+      "origin": "reused_prior_verified_snapshot",
+      "retrieved_at": "2026-09-14T21:20:06.483983+00:00"
+    },
+    {
+      "label": "2026-06-01",
+      "path": "downloads/registry_2026-06-01.csv",
+      "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20260601T1406-structure-20260210T1102.csv",
+      "sha256": "033edd2e23a5a4e11e804a3904b658b4903034df728f81e260e5deff8d024439",
+      "origin": "new_network_retrieval",
+      "retrieved_at": "2026-09-16T18:49:33.017597+00:00"
+    },
+    {
+      "label": "2026-07-01",
+      "path": "downloads/registry_2026-07-01.csv",
+      "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20260701T0007-structure-20260210T1102.csv",
+      "sha256": "0eaf779ffbb5a3098bc5e8130f9dfb5cc9d59c3d4bf26877c5cfaf1621fdd572",
+      "origin": "new_network_retrieval",
+      "retrieved_at": "2026-09-16T18:49:34.762870+00:00"
+    }
+  ],
+  "raw_inputs": {
+    "catalog.retrieval.json": "c4000aa7716c7af0ba9959d9b558fc6d8d1425f1622f668f23ecd640049a7f92",
+    "downloads/catalog.html": "d58ef4869752181c14b9b3e254c30d8f7ba5b7c4f887137c75359b676a86d71e",
+    "downloads/registry_2026-06-01.csv": "033edd2e23a5a4e11e804a3904b658b4903034df728f81e260e5deff8d024439",
+    "downloads/registry_2026-07-01.csv": "0eaf779ffbb5a3098bc5e8130f9dfb5cc9d59c3d4bf26877c5cfaf1621fdd572",
+    "downloads/retrievals.json": "aa469e5f7c23e11e71325e196be0338973b471960cbc30afe2e92a7337bd2de9",
+    "registry_2026-06-01.retrieval.json": "5e26e3c0931c3cc185e0a397f95e7f95e2662e69d40f79b19ce25b7e36b9fee6",
+    "registry_2026-07-01.retrieval.json": "166c837cc3320d9ae879ab79424054450e791ddcef4ba69fa1aeb2bdeb993e24",
+    "reused/data-20230208T0902-structure-20260210T1102.csv": "db2033073f7b6c0171083063237a915f41f9e1f23be7aecf1027008391c79ebe",
+    "reused/data-20230208T0902-structure-20260210T1102.csv.download.json": "aba536c1825566e06aa4da4711087441870126e3fcf71142b9aef5d4d6165817",
+    "reused/data-20231219T1512-structure-20260210T1102.csv": "8be058baf8d8ec32bda5431fa6ed5ccdcf0effa0c62869a03576755cbcf956d9",
+    "reused/data-20231219T1512-structure-20260210T1102.csv.download.json": "f8b41fa7fb007aab0650aef40076aa1b7ee98da5df1322e242feea925e078e4e",
+    "reused/data-20240125T1401-structure-20260210T1102.csv": "62b579d803e50def8668dc704ffecb5ee4e6e12bb1ffd5f848cafd32dfdd926c",
+    "reused/data-20240125T1401-structure-20260210T1102.csv.download.json": "d0bbf7df7227e5f6d882b35b57ef388f3619469460bc03e73f1e4901829808c3",
+    "reused/data-20241227T1412-structure-20260210T1102.csv": "513bd287a1f1b42b9190f04afcfb8239bd31e0e699bb890f67dc49341285c13b",
+    "reused/data-20241227T1412-structure-20260210T1102.csv.download.json": "10d04d2236dae902d866fb50b0848622f900f15896b2c3d7b4c792b60b3550d4"
+  },
+  "outputs": {
+    "code_kind_summary.csv": "78ed2a923c9c57bd02d7adfe2d6fbdc1e73dcd116c6dc123ed1404aa96d17ac0",
+    "code_presence_summary.csv": "f260d5eba4872a2cbc0d93bd10a56d83ebd83e6c305b3fe0790e44889813099d",
+    "june_july_code_changes.csv": "26f1eade3011a5c26449d6bdd9d4392f6303af508a6da5756e5301d35e8af48e",
+    "QA.json": "63fbbc360afc4cc6aaf5173dc57a201c1e839bace9111f0bf3b5f754a1732a17",
+    "registry_duplicate_codes.csv": "33abb45917c66581d3be3ec3adffe47dc65097e153b62b649b740920a3f8ab13",
+    "registry_versions.csv": "8f5f1147ef7cc36f9e8e2c2dd1a788edd48682fc8e8cb41f5395aef2f14caded",
+    "sme_code_inventory.csv": "10adde98b3b276c0bb792dfa2d3670f91ca4e2e960d74ec2b5aedd0b8d0069a2",
+    "sme_code_presence.parquet": "b86bf7cab49e8634556dbc00b852df8b6c182102989f7d5507280a4a9d83c477"
+  }
+}

@@ -1,0 +1,16 @@
+source_id,geography_label,grain,evidence_locator,reference_date,primary_panel_join_status
+census_01,Республика Саха (Якутия),municipality_by_age_sex_labor_status,Таб. 2 / F1019 / F2907,2021-10-01,unresolved
+census_02,Республика Саха (Якутия),region_by_work_location_employment_status,Таб. 9 / A7,2021-10-01,unresolved
+census_03,Республика Саха (Якутия),region_by_work_location_trip_frequency,таб. 10 / A6,2021-10-01,unresolved
+census_04,Республика Саха (Якутия),methodology,DOCX,2021-10-01,unresolved
+census_05,Амурская область,municipality_by_age_sex_labor_status,Свободненский / A5,2021-10-01,unresolved
+census_06,Астраханская область,region_by_work_location_employment_status,таб. 10.5 / F4,2021-10-01,unresolved
+census_07,Республика Калмыкия,region_by_work_location_trip_frequency,таб. 8 / A5,2021-10-01,unresolved
+census_08,г. Москва,municipality_by_age_sex_labor_status,Куркино / A2,2021-10-01,unresolved
+census_09,г. Москва,region_by_work_location_trip_frequency,г. Москва / A3,2021-10-01,unresolved
+census_10,г. Москва,methodology,DOCX,2021-10-01,unresolved
+census_11,Московская область,municipality_by_age_sex_labor_status,г.о. Балашиха / A2; source link under Московская область,2021-10-01,unresolved
+census_12,Московская область,region_by_work_location_trip_frequency,Московская область / A3,2021-10-01,unresolved
+census_13,Российская Федерация,methodology,PDF,2021-10-01,unresolved
+census_14,Субъекты РФ и федеральные округа,region_by_work_location_employment_status,Таб. 10 / A1,2021-10-01,unresolved
+census_15,Субъекты РФ и федеральные округа,region_by_work_location_trip_frequency,таб. 12 / A1,2021-10-01,unresolved

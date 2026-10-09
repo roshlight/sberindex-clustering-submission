@@ -1,0 +1,10 @@
+archive,member,line_number,text,exact_tochno_build_proven
+generator_source.gz,russian_sme_registry-1.0.0b10/russian_sme_registry/stages/aggregate.py,235,"F.min(data_date_col).alias(""start_date""),",False
+generator_source.gz,russian_sme_registry-1.0.0b10/russian_sme_registry/stages/aggregate.py,236,"F.max(data_date_col).alias(""end_date""),",False
+generator_source.gz,russian_sme_registry-1.0.0b10/russian_sme_registry/stages/aggregate.py,270,".select(""tin"", F.year(""data_date"").alias(""year""), ""employees_count"")",False
+generator_source.gz,russian_sme_registry-1.0.0b10/russian_sme_registry/stages/panelize.py,38,"""year"": F.explode(F.sequence(F.year(""start_date""), F.year(""end_date""))),",False
+generator_source.gz,russian_sme_registry-1.0.0b10/russian_sme_registry/stages/panelize.py,71,"panel = panel.join(empl_data, on=[""tax_number"", ""year""], how=""leftouter"")",False
+generator_source.gz,russian_sme_registry-1.0.0b10/russian_sme_registry/utils/elements.py,6,"""@ДатаСост"": ""data_date"",",False
+generator_source.gz,russian_sme_registry-1.0.0b10/russian_sme_registry/utils/elements.py,31,"""@ДатаСост"": ""data_date"",",False
+generator_source.gz,russian_sme_registry-1.0.0b10/russian_sme_registry/utils/elements.py,36,"""СведССЧР/@КолРаб"": ""employees_count"",",False
+generator_source.gz,russian_sme_registry-1.0.0b10/russian_sme_registry/utils/elements.py,37,"""@ДатаСост"": ""data_date"",",False

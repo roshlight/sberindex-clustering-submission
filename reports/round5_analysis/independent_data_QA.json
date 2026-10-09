@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-09-16T19:32:39.469887+00:00",
+  "checks": [
+    {
+      "check": "independent_source_feature_audit",
+      "status": "PASS"
+    }
+  ],
+  "data_audit": {
+    "old_numeric": 11608,
+    "new_numeric": 11672,
+    "gains": 64,
+    "remaining_missing": 424,
+    "affected_municipality_years": 64,
+    "distinct_municipalities": 32,
+    "gained_log_features": 64,
+    "maximum_feature_error": 5.329070518200751e-15,
+    "joint_coverage_rows": 6,
+    "frozen_core_rows": 3973,
+    "frozen_stable_rows": 3827,
+    "old_candidate_sha256": "e556ae527f6109c34632e316d7931dd36436d97c975ff3d636cf1b7180e078d9",
+    "new_candidate_sha256": "9fbefe186cb3a5dad0d3abc06f9b6bf543e7d48d20dc992af8935ca387919fd1",
+    "audit_manifest_sha256": "e2503d011eca854174b79b80fb6c712ab273b92df058d135850019f859c7573c"
+  }
+}

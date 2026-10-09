@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "docx_pairs": 119,
+  "csv_pairs": 119,
+  "docx_sha256": "17a54e8d3a94cce1f22e54cb9d450bacc87ce3f49519f61500d3559abdac74f7",
+  "independent_primary_document_agreement": true,
+  "proves_historical_enterprise_location": false
+}

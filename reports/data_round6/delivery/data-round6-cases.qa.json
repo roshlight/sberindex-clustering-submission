@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "archive": "data-round6-cases.zip",
+  "archive_sha256": "9ca904136db420903278f530adeb5a12e998bcccb89a23b3fecfb6391c54692b",
+  "archive_bytes": 8709992,
+  "verified_files": 50,
+  "uncompressed_bytes": 12951463,
+  "allowlist_sha256": "89e1ae4e87aa6be95a014192d33c7f8459bada37b59ac43922e0ce57d822e933",
+  "packager_sha256": "a9d5443b7d2817046bdf57a167a9ff839eaec18e95d84b07c96b4c6032827fbc",
+  "immutable_helper_sha256": "3f6e2a4eab351a7a40674d2b3ed9d060f15d248f911eaf37b0755ddfa286bb26",
+  "credential_scan_policy": "unchanged_regex_and_DHT_parser_with_exact_path_bound_exception",
+  "audited_exceptions_applied": 2,
+  "credential_scan_exceptions": [
+    {
+      "archive_path": "raw6/cases/raw/ach_rtm_audit_mirror.pdf",
+      "exception_id": "ach-rtm-2025-pdf-jpeg-dht-20260916",
+      "file_bytes": 597806,
+      "file_sha256": "dd90aa61ad92e695149941bb495cbb88933e8b84f2a947cbac29d23d4ad290ae",
+      "offset": 79451,
+      "length": 45,
+      "match_sha256": "51be0a9642a4cb5bb2c57526b29208cdbc08774fd3c5186aef3a3150db9a42e8",
+      "jpeg_offset": 78915,
+      "jpeg_bytes": 9838,
+      "jpeg_sha256": "a84120f461eae7d378e40bac239aef8939d553eee33c3c1a1316f1b45dc44a37",
+      "pdf_object_number": 4,
+      "pdf_filter": "/DCTDecode",
+      "pdf_subtype": "/Image",
+      "dht": {
+        "segment_offset": 79157,
+        "segment_end_exclusive": 79577,
+        "declared_length": 418,
+        "table_offset": 79398,
+        "table_class": 1,
+        "table_id": 1,
+        "symbol_count": 162,
+        "symbols_offset": 79415,
+        "symbols_end_exclusive": 79577
+      },
+      "review": "reports/data_round6/delivery/scanner_false_positive_review.json",
+      "reason": "JPEG DHT AC-table symbol bytes; not a credential"
+    },
+    {
+      "archive_path": "raw6/cases/raw/ach_rtm_report.pdf",
+      "exception_id": "ach-rtm-2025-pdf-jpeg-dht-20260916",
+      "file_bytes": 597806,
+      "file_sha256": "dd90aa61ad92e695149941bb495cbb88933e8b84f2a947cbac29d23d4ad290ae",
+      "offset": 79451,
+      "length": 45,
+      "match_sha256": "51be0a9642a4cb5bb2c57526b29208cdbc08774fd3c5186aef3a3150db9a42e8",
+      "jpeg_offset": 78915,
+      "jpeg_bytes": 9838,
+      "jpeg_sha256": "a84120f461eae7d378e40bac239aef8939d553eee33c3c1a1316f1b45dc44a37",
+      "pdf_object_number": 4,
+      "pdf_filter": "/DCTDecode",
+      "pdf_subtype": "/Image",
+      "dht": {
+        "segment_offset": 79157,
+        "segment_end_exclusive": 79577,
+        "declared_length": 418,
+        "table_offset": 79398,
+        "table_class": 1,
+        "table_id": 1,
+        "symbol_count": 162,
+        "symbols_offset": 79415,
+        "symbols_end_exclusive": 79577
+      },
+      "review": "reports/data_round6/delivery/scanner_false_positive_review.json",
+      "reason": "JPEG DHT AC-table symbol bytes; not a credential"
+    }
+  ]
+}

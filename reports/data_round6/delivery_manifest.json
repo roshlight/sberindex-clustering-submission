@@ -1,0 +1,666 @@
+{
+  "schema_version": 1,
+  "base_commit": "3ea23bc0a0caed73df9cbf097ad48cfac6f0ba3c",
+  "release_tag": "data-round6-2026-09-16",
+  "readiness": "ready for independent reproduction",
+  "scope": "Saved-source collection audit; no new model fit or accepted historical SME join",
+  "artifacts": [
+    {
+      "path": "configs/data_round6_needs.json",
+      "bytes": 7167,
+      "sha256": "230f3055a3de333ee2e583bd73c621049a23c1b70ba687f07654e3ac34837554"
+    },
+    {
+      "path": "configs/data_round6_sources.json",
+      "bytes": 1679,
+      "sha256": "33130d648f6641b7ecb4bfcd0d97567918eb7e55b576f1a5a88df23ff9b53c4a"
+    },
+    {
+      "path": "enrichment/pyproject.toml",
+      "bytes": 887,
+      "sha256": "d95464c7f6e9088275251368e145f01cb3a563651db6ae9d2b409f35c1b29c4d"
+    },
+    {
+      "path": "enrichment/scripts/audit_round6_geography.py",
+      "bytes": 25212,
+      "sha256": "6ad6c8d3df61f0c47ac40929f0877d81829621996a6812fe17fcc1661214ec51"
+    },
+    {
+      "path": "enrichment/scripts/audit_round6_sme.py",
+      "bytes": 17459,
+      "sha256": "4b9f1be50648e6d45b3fe1052b850e0c94370f719cab59c388c3c0abc77947ee"
+    },
+    {
+      "path": "enrichment/scripts/collect_round5_cases.py",
+      "bytes": 12067,
+      "sha256": "1f72b2684464cfa539f13197a11bd5f2c62fffbb4950cf98675875a0c94f8950"
+    },
+    {
+      "path": "enrichment/scripts/collect_round5_sme.py",
+      "bytes": 6683,
+      "sha256": "9977f9d087cfe685785ab4b3d16d15ac2bbad18fdfaaaece388151bf6bea9c30"
+    },
+    {
+      "path": "enrichment/scripts/collect_round6_cases.py",
+      "bytes": 9074,
+      "sha256": "e53374a0844efa30cd23328b68afb3a5bbb7edfeb3a25ff8731fdaf8ffee85e0"
+    },
+    {
+      "path": "enrichment/scripts/collect_round6_economy.py",
+      "bytes": 4098,
+      "sha256": "7260d72e8d4561706b92a820d35eb0a12bc4e8c9c3f91f5c5d0ce91856c07d05"
+    },
+    {
+      "path": "enrichment/scripts/collect_round6_geography.py",
+      "bytes": 2135,
+      "sha256": "a6b6e7d692d85ced6bc9af987e718255e74a630177eb648585c750f9e05a196e"
+    },
+    {
+      "path": "enrichment/scripts/collect_round6_sme.py",
+      "bytes": 9846,
+      "sha256": "e57e26dccded85f135cf316f371b4a5e840ddbdee069d7ab3ef2ea386c1ff414"
+    },
+    {
+      "path": "enrichment/scripts/convert_round6_economy_doc.ps1",
+      "bytes": 2687,
+      "sha256": "04d0d0cca5f9653db0ea732bfd4cb4083d564e9a3a895831845eac6cf95dd03d"
+    },
+    {
+      "path": "enrichment/scripts/extract_round6_economy.py",
+      "bytes": 3345,
+      "sha256": "bc9ae37fe0d03bdc5aa3755ced1ca59a82bf152bd4d8804550b979e22722a39e"
+    },
+    {
+      "path": "enrichment/scripts/package_round5_delivery.py",
+      "bytes": 18173,
+      "sha256": "3f6e2a4eab351a7a40674d2b3ed9d060f15d248f911eaf37b0755ddfa286bb26"
+    },
+    {
+      "path": "enrichment/scripts/package_round6_delivery.py",
+      "bytes": 5989,
+      "sha256": "a9d5443b7d2817046bdf57a167a9ff839eaec18e95d84b07c96b4c6032827fbc"
+    },
+    {
+      "path": "enrichment/scripts/prepare_round6_economy.py",
+      "bytes": 15501,
+      "sha256": "3d3c20f3ba97534eb73a715a3292722f5a24db3f52371afcbd679f580237aed2"
+    },
+    {
+      "path": "enrichment/scripts/replay_round6.py",
+      "bytes": 7694,
+      "sha256": "3c9bc968aef23d4ad6d900d9e019ebe783fa571d71fbe77733030c7ca877b9d1"
+    },
+    {
+      "path": "enrichment/scripts/sample_round5_sme_archives.py",
+      "bytes": 6300,
+      "sha256": "5f350896b2f4498d6afd4b002dc737223fb6f65bea6028eb39d4d0e84f113798"
+    },
+    {
+      "path": "enrichment/scripts/summarize_round5_search.py",
+      "bytes": 3932,
+      "sha256": "0c5dc95bf17a8753e85e0afb4e1a4e9e63c036dac77fdeb827cf1cbf5d473d8c"
+    },
+    {
+      "path": "enrichment/scripts/verify_round6_delivery.py",
+      "bytes": 14377,
+      "sha256": "fc38b874220c89482d7d2d472cf14fce6f755a82d1b701c560c75cbd6ab55136"
+    },
+    {
+      "path": "enrichment/tests/test_round6_cases.py",
+      "bytes": 2983,
+      "sha256": "16875d8b8f747b9cac086c378355add86307912d7cabd1ea6d9bc0128ee29417"
+    },
+    {
+      "path": "enrichment/tests/test_round6_delivery.py",
+      "bytes": 5414,
+      "sha256": "493e23a7fbf1776a61d06d8d49460666975071301aacdc2cb16008825f6a6542"
+    },
+    {
+      "path": "enrichment/tests/test_round6_delivery_scanner.py",
+      "bytes": 3856,
+      "sha256": "7003034416c23ec5fcdd94e1530fb504dd6c9442174db847a124abf6a6222f1c"
+    },
+    {
+      "path": "enrichment/tests/test_round6_economy.py",
+      "bytes": 1975,
+      "sha256": "80c4ab1de109c3fc1b172a928ea275a0a293260565fe1cadabc536d16550b19c"
+    },
+    {
+      "path": "enrichment/tests/test_round6_geography.py",
+      "bytes": 3219,
+      "sha256": "b1e7c3b480afb0ed6a815a22d43273a7a4d65958072f8d2fd7c62a0c3c9646d5"
+    },
+    {
+      "path": "enrichment/tests/test_round6_replay.py",
+      "bytes": 4403,
+      "sha256": "df5c1b812b6413ea18f84df729b4faa86293cd0b12d0199939fed7a22b113946"
+    },
+    {
+      "path": "enrichment/tests/test_round6_sme.py",
+      "bytes": 3533,
+      "sha256": "b6aac7d3579931669419b9dcfb2669ca0f39646416ef60732c00988e310d799f"
+    },
+    {
+      "path": "enrichment/uv.lock",
+      "bytes": 43886,
+      "sha256": "b07d548b44a8a636ea0d8ace4d1f0babdbdbfd87c87c7a97e91a5742bbfab612"
+    },
+    {
+      "path": "reports/data_round5/geography/registry_versions.csv",
+      "bytes": 2127,
+      "sha256": "8f5f1147ef7cc36f9e8e2c2dd1a788edd48682fc8e8cb41f5395aef2f14caded"
+    },
+    {
+      "path": "reports/data_round5/geography/sme_code_inventory.csv",
+      "bytes": 5897030,
+      "sha256": "10adde98b3b276c0bb792dfa2d3670f91ca4e2e960d74ec2b5aedd0b8d0069a2"
+    },
+    {
+      "path": "reports/data_round6/cases/airport_annual_finance.csv",
+      "bytes": 2545,
+      "sha256": "83c344da375e48a4dcb402a7e77b75a575b48320a99ac275957319dacf50bbf1"
+    },
+    {
+      "path": "reports/data_round6/cases/evidence_ledger.csv",
+      "bytes": 20694,
+      "sha256": "4de9f5b4ec77704b92212ba1f86ecbda038c8f2c2a6c8d11778d35cfa10a2123"
+    },
+    {
+      "path": "reports/data_round6/cases/evidence_recipe.json",
+      "bytes": 36591,
+      "sha256": "a23cb3c79db35d9794e54e721ba64f6812217aafcc9655b08705eed4c6cc733f"
+    },
+    {
+      "path": "reports/data_round6/cases/fetch_plan.json",
+      "bytes": 2746,
+      "sha256": "b8cbb8337044c00e4b6128e028740f8facb769e196d572bffdae2fc0b6c07ccf"
+    },
+    {
+      "path": "reports/data_round6/cases/financial_semantics.csv",
+      "bytes": 1209,
+      "sha256": "5661e3ef5b78c08dbc7be813104fea99fbc62ec03d704e8cb67b395b34bba340"
+    },
+    {
+      "path": "reports/data_round6/cases/followup_requests.csv",
+      "bytes": 1201,
+      "sha256": "e4206e5e0e4559a040e6e64f8cb78627768b8e5d2bd07a31efc3641470d6c9e6"
+    },
+    {
+      "path": "reports/data_round6/cases/hypothesis_status.csv",
+      "bytes": 504,
+      "sha256": "f97fa854f4d5faf097ef006b673ad39e8f09dc326c4a3c47951541a3a2ebd287"
+    },
+    {
+      "path": "reports/data_round6/cases/independent_review.md",
+      "bytes": 1829,
+      "sha256": "48c8d785dafa91c303773680459bd3cbbdf29562c5ec4328b7ed0877a9824a4b"
+    },
+    {
+      "path": "reports/data_round6/cases/manifest.json",
+      "bytes": 1160,
+      "sha256": "3177ec7178d78d5d8e16bb3168138c4e7a3a11257046c9b23cfd042300cc5272"
+    },
+    {
+      "path": "reports/data_round6/cases/QA.json",
+      "bytes": 674,
+      "sha256": "82099a507de73e8af16c59f641d184ecdefc2b1965be73fab23827450fbdac43"
+    },
+    {
+      "path": "reports/data_round6/cases/raw_allowlist.json",
+      "bytes": 8615,
+      "sha256": "b69830246c2de651849b51959ad125b904d0a2dc57065c859d6f9a9beed6cf5d"
+    },
+    {
+      "path": "reports/data_round6/cases/README.md",
+      "bytes": 9418,
+      "sha256": "17924a4f5e5cf4e0fdc51cde836516a51a13414d4c67ac938f83fdc0b613c4a7"
+    },
+    {
+      "path": "reports/data_round6/cases/replay_receipt.json",
+      "bytes": 2865,
+      "sha256": "2dfe748cac23366d9f90da581570c8ecde856b531af62b3c13055b0fae5dad01"
+    },
+    {
+      "path": "reports/data_round6/cases/source_inventory.json",
+      "bytes": 10546,
+      "sha256": "b30905f39d1ac11f1701d1c60cfce669b64d42bd62d0568a76e2fbae5176e7ab"
+    },
+    {
+      "path": "reports/data_round6/cases/source_status.csv",
+      "bytes": 3833,
+      "sha256": "1c55884b75df0aff80815ca4ae08b5c7a67d10dc169ca4db5a438ea86340e700"
+    },
+    {
+      "path": "reports/data_round6/delivery/cases_allowlist.json",
+      "bytes": 13274,
+      "sha256": "89e1ae4e87aa6be95a014192d33c7f8459bada37b59ac43922e0ce57d822e933"
+    },
+    {
+      "path": "reports/data_round6/delivery/data-round6-cases.manifest.json",
+      "bytes": 12009,
+      "sha256": "2bde9f4f6bed0c208242b7d10681bdb0d6e705a2f11f59f1291ec1d44b802d80"
+    },
+    {
+      "path": "reports/data_round6/delivery/data-round6-cases.qa.json",
+      "bytes": 2913,
+      "sha256": "29da8b32ebd7d2ef0a06911d142c8a025fd207462dd7c9f88bb9936014f8fa41"
+    },
+    {
+      "path": "reports/data_round6/delivery/data-round6-economy.manifest.json",
+      "bytes": 28599,
+      "sha256": "83b75e51b8495c525495a74297884d07c0dfeb9f1954c28bc6296bca87940943"
+    },
+    {
+      "path": "reports/data_round6/delivery/data-round6-economy.qa.json",
+      "bytes": 692,
+      "sha256": "c3f68a36bb8862279daea13f41664fb9183fa5614b730e837aeb5b42d3f366bb"
+    },
+    {
+      "path": "reports/data_round6/delivery/data-round6-geography.manifest.json",
+      "bytes": 8635,
+      "sha256": "bbb41b254de46b25b1257f2b631c1f4e9d91c5bde773f852670f9a326fcd2776"
+    },
+    {
+      "path": "reports/data_round6/delivery/data-round6-geography.qa.json",
+      "bytes": 692,
+      "sha256": "bf8cb8852bca034a2c46ab0a28619a38b49308fbde5abfeb24c3234d47a9d3e2"
+    },
+    {
+      "path": "reports/data_round6/delivery/data-round6-search.manifest.json",
+      "bytes": 26163,
+      "sha256": "8b6624338f941af613e12943661a70c920b8f1088721b5b9c1f905f6981b46d3"
+    },
+    {
+      "path": "reports/data_round6/delivery/data-round6-search.qa.json",
+      "bytes": 691,
+      "sha256": "25d41c52607b745698b1a60352f75c5d325beea26d1a75a09f67654f6af0f0b0"
+    },
+    {
+      "path": "reports/data_round6/delivery/data-round6-sme.manifest.json",
+      "bytes": 11634,
+      "sha256": "1d33ca5d1e51485725cdea641fa4cd8a8b5cb24a651b388b2fd28d5bfde13049"
+    },
+    {
+      "path": "reports/data_round6/delivery/data-round6-sme.qa.json",
+      "bytes": 686,
+      "sha256": "ee975555248e41e614bb95a230a8184fffb1676b953108d0707f105be1fc9f82"
+    },
+    {
+      "path": "reports/data_round6/delivery/economy_allowlist.json",
+      "bytes": 40644,
+      "sha256": "6c65bae2a7a822e6fcd9c5264204cd6e793f440636cbd3d299349cb5af5b3ef6"
+    },
+    {
+      "path": "reports/data_round6/delivery/extraction_QA.json",
+      "bytes": 704,
+      "sha256": "2069bd3fd8d8de4e659ebd1efe21d6688fa2cf001819c9e61e87c076512028d2"
+    },
+    {
+      "path": "reports/data_round6/delivery/geography_allowlist.json",
+      "bytes": 12011,
+      "sha256": "c3c32880ded5a1c1c3b6997f412b3c3d7beb6fc39309b09243f4e72c8f8e0fcd"
+    },
+    {
+      "path": "reports/data_round6/delivery/inventory.json",
+      "bytes": 6922,
+      "sha256": "fa1bc985318e68f79d10091f5c356013685186c422c0792b34677d9ae64e2e22"
+    },
+    {
+      "path": "reports/data_round6/delivery/scanner_false_positive_review.json",
+      "bytes": 2182,
+      "sha256": "1623e814feb59e0288563d22d53c4b89584d3c27cb0ac37a118e08cd071333da"
+    },
+    {
+      "path": "reports/data_round6/delivery/scanner_false_positive_review.md",
+      "bytes": 2893,
+      "sha256": "4dfb0d5aa276ba4b4d01539463bd616a34ff222b04ead21d087cf8276f6ffd97"
+    },
+    {
+      "path": "reports/data_round6/delivery/scanner_preflight.json",
+      "bytes": 2516,
+      "sha256": "1b84e59ef3ad5545510eef42d9cfed3141067797cd46ced5c3bcc860f194df85"
+    },
+    {
+      "path": "reports/data_round6/delivery/search_allowlist.json",
+      "bytes": 40524,
+      "sha256": "d6d7bdb8df80c786f0c327bf5167d04c0fb84cdd27bc53e7fd172401ae1fbd66"
+    },
+    {
+      "path": "reports/data_round6/delivery/SHA256SUMS.txt",
+      "bytes": 450,
+      "sha256": "0ff46fdff9e0f67e5509316b91ff2e8d5f5caa05beae10a3a25144b7234d5250"
+    },
+    {
+      "path": "reports/data_round6/delivery/sme_allowlist.json",
+      "bytes": 16264,
+      "sha256": "40f01f2a1a01801610090e2474e4e883b39de2956b4b0253e3471c01df43ab42"
+    },
+    {
+      "path": "reports/data_round6/economy/archive_replay_QA.json",
+      "bytes": 154,
+      "sha256": "1ab87d2af167b83e1f37a67781faf3d4d919b5dcc58cb11ba3037fa3803c9ad9"
+    },
+    {
+      "path": "reports/data_round6/economy/catalog_publication_labels.csv",
+      "bytes": 9009,
+      "sha256": "20d80c2efb645fbb8a594f4a736e23a97d1cca62f7a025c91349d5eedef4b034"
+    },
+    {
+      "path": "reports/data_round6/economy/document_inventory.csv",
+      "bytes": 46908,
+      "sha256": "ca7b2e2c55ebcc16aa173351f74fe9dacf7d6af4393e4000740ca9c5a9b8ef81"
+    },
+    {
+      "path": "reports/data_round6/economy/food_reconciliation.csv",
+      "bytes": 195,
+      "sha256": "4669766cad2ee3769fbe62f8e5956e17bcc83b7e46b818d51c44be8d788844c3"
+    },
+    {
+      "path": "reports/data_round6/economy/independent_QA.json",
+      "bytes": 97370,
+      "sha256": "0522aabb6b6331a8bda9a3b0e82c96d863486ec3509ba7ec407f0fea5ed80a93"
+    },
+    {
+      "path": "reports/data_round6/economy/independent_review.md",
+      "bytes": 8491,
+      "sha256": "1b485a2d0ed71418f4a71409b75cc0c7b0ba2520b7d58cc08f86325735d4009d"
+    },
+    {
+      "path": "reports/data_round6/economy/manifest.json",
+      "bytes": 15615,
+      "sha256": "38c62bd29f34105a8f5805675a195f71fa8027e652343c310f80681b7bcd2788"
+    },
+    {
+      "path": "reports/data_round6/economy/pdf_docx_crosscheck.csv",
+      "bytes": 538,
+      "sha256": "dada65b2854ed137145ed7f45bef1e087cceb148f4b26ff6d7260bd58923349d"
+    },
+    {
+      "path": "reports/data_round6/economy/QA.json",
+      "bytes": 758,
+      "sha256": "9258a7ddd665eb295c6cd4eb84708d7231343e779081023f62d2d9bb982c050e"
+    },
+    {
+      "path": "reports/data_round6/economy/README.md",
+      "bytes": 9837,
+      "sha256": "f89bf44cda0084ebe410d9b0702fda40a04f5d285001d46fe8eb53d916bb72e9"
+    },
+    {
+      "path": "reports/data_round6/economy/regional_context_candidate.csv",
+      "bytes": 173072,
+      "sha256": "8b28b00c77a8a84dc4894595973a6565eed4148a08c60f6a4200d9a47d7b9ea0"
+    },
+    {
+      "path": "reports/data_round6/geography/ambiguous_transition_edges.csv",
+      "bytes": 22637,
+      "sha256": "c1ecfcf2370e06c4594239d866c1a87046f42bf4549a88357f508beff8e4be84"
+    },
+    {
+      "path": "reports/data_round6/geography/candidate_summary.csv",
+      "bytes": 388,
+      "sha256": "65fc86cf9a5754de07106ed33aeff5a92c6ae0b6207f56a1fd388ab043a65d5b"
+    },
+    {
+      "path": "reports/data_round6/geography/candidate_transitions_to_panel.csv",
+      "bytes": 974242,
+      "sha256": "105759408db85e817aa67c72cdddce39b505716b8efc09143ee7530908285108"
+    },
+    {
+      "path": "reports/data_round6/geography/classifier_structural_evidence.json",
+      "bytes": 1833,
+      "sha256": "f3d240c0432bbf7573e3f6640dd3f6ab7ebad949eccfa132046d243af5dcf04d"
+    },
+    {
+      "path": "reports/data_round6/geography/crosswalk_versions.csv",
+      "bytes": 1254,
+      "sha256": "0caa41648253979c94fb8b4f791a26f07c54f9840dfe2b51619423fb86b88e9d"
+    },
+    {
+      "path": "reports/data_round6/geography/downloaded_sources.csv",
+      "bytes": 7366,
+      "sha256": "0f5f4c661478b5365f52d6ecfd13820c2f2ce586f46b6dd165a6887201f0c087"
+    },
+    {
+      "path": "reports/data_round6/geography/evidence_ledger.csv",
+      "bytes": 1602,
+      "sha256": "e2f64dfb105d4185fdc5a8543e60896d9283bbd9d3dab190ef9bff469237747b"
+    },
+    {
+      "path": "reports/data_round6/geography/gar_available_download_catalog.csv",
+      "bytes": 17684,
+      "sha256": "558c3f9c82987d314c9d1442bfd5b10f475d50f5f35785b3ff9b07fd6c1541ae"
+    },
+    {
+      "path": "reports/data_round6/geography/gar_schema_history_fields.csv",
+      "bytes": 12847,
+      "sha256": "29a760e11871bccc135f0540d7aa053dbcdd3da2fbf58fb6ebdeab232658dec1"
+    },
+    {
+      "path": "reports/data_round6/geography/independent_source_review.json",
+      "bytes": 1168,
+      "sha256": "c8993c047e356c6337246a5cc7047eb5111be46b41390ea55b248094bf609cfb"
+    },
+    {
+      "path": "reports/data_round6/geography/manifest.json",
+      "bytes": 7692,
+      "sha256": "5f22c48a2c5a26528396e4d00c52379f3a29bc8dbd2bfce5b740a48af982e34d"
+    },
+    {
+      "path": "reports/data_round6/geography/official_amendment_document_catalog.csv",
+      "bytes": 53456,
+      "sha256": "cf27954bbc014c8177737615d9ed9eb180362d4adc5f24f65224e776df61e935"
+    },
+    {
+      "path": "reports/data_round6/geography/offline_replay_QA.json",
+      "bytes": 445,
+      "sha256": "aad8fad41ff308211fc20e790c30d8bc6b7be1a96e0c46baadcf3446ff3c10a0"
+    },
+    {
+      "path": "reports/data_round6/geography/panel_2016_classifier_control.csv",
+      "bytes": 191710,
+      "sha256": "a53b23d217a3783b6fda20880e9f016a3616952f5ee2e02660bfda019f2dc27a"
+    },
+    {
+      "path": "reports/data_round6/geography/perm_reference_control.json",
+      "bytes": 216,
+      "sha256": "20f956e937d81fe985be70b5de884b6a6ab16a7c5d17858b2ad3d1efcb40cb6f"
+    },
+    {
+      "path": "reports/data_round6/geography/perm_reference_text.json",
+      "bytes": 4712,
+      "sha256": "c1d51400c7bb90c5979e84d31019482905a6a2febb54e87e8dbca8dee0356b43"
+    },
+    {
+      "path": "reports/data_round6/geography/primorye_643_document_check.json",
+      "bytes": 257,
+      "sha256": "041b30a58301a7630d93af794442358d7870ebf4f7e82093fe91637e729814a5"
+    },
+    {
+      "path": "reports/data_round6/geography/priority_settlement_parent_candidates.csv",
+      "bytes": 2444935,
+      "sha256": "15d7e13e790191b1f798ace76fe8ca2405c167d907fd4f85e2891245e3326de8"
+    },
+    {
+      "path": "reports/data_round6/geography/priority_transition_rows.csv",
+      "bytes": 472319,
+      "sha256": "faad17a0ad711a24ed8a29e84fc8dd85bce70fd69396c4b39f637f3e46421f28"
+    },
+    {
+      "path": "reports/data_round6/geography/QA.json",
+      "bytes": 1100,
+      "sha256": "f623a80a7303a1424d3143237913e363c95efebc6187e9bed3309fa132511e01"
+    },
+    {
+      "path": "reports/data_round6/geography/README.md",
+      "bytes": 10803,
+      "sha256": "38a8888d68eac59535ccb7c281e5852a0f3367316af13a8df0fa78fd1a85a073"
+    },
+    {
+      "path": "reports/data_round6/geography/retrieval_attempts.json",
+      "bytes": 23728,
+      "sha256": "0f6bdccd00ddde61357452d29c48c4d2b4233b4adae4187db0ca1a56b8d9bf26"
+    },
+    {
+      "path": "reports/data_round6/geography/transition_duplicate_rows.csv",
+      "bytes": 122,
+      "sha256": "be7d3007521f998d4c7ea6a32634299fec3006134ed37c6ada80b43e5681b9c3"
+    },
+    {
+      "path": "reports/data_round6/geography/transition_nonlinks.csv",
+      "bytes": 138002,
+      "sha256": "9c47bf4c803f2331ae40335067729b3cd65dcc57ba2f622c6e6cb3c5e9a3c8aa"
+    },
+    {
+      "path": "reports/data_round6/geography/transition_version_changes.csv",
+      "bytes": 268,
+      "sha256": "ddf9d903b768b55391f0849a14f5b2ee29b1bb619facf695564735c6ad28d655"
+    },
+    {
+      "path": "reports/data_round6/offline_replay_QA.json",
+      "bytes": 9161,
+      "sha256": "6efbffa229b194dd5edc095fcf856a8ce953dcd77198825bd1be85049f7ba5df"
+    },
+    {
+      "path": "reports/data_round6/QA.md",
+      "bytes": 6785,
+      "sha256": "bec07719eaa6edb51a1c6d09ba4885de101101335ef3a21e9ac29506c3dab321"
+    },
+    {
+      "path": "reports/data_round6/REPORT.md",
+      "bytes": 16523,
+      "sha256": "cbb803779d8e3811370aa1f7c7d429802d095a085590c3766dd149a525885910"
+    },
+    {
+      "path": "reports/data_round6/REPRODUCE.md",
+      "bytes": 8638,
+      "sha256": "2ea276300e20b94039d1b9dfed310afe93048154783d6fd9f0f9ec5b8b013a52"
+    },
+    {
+      "path": "reports/data_round6/search/README.md",
+      "bytes": 3455,
+      "sha256": "c63d10c6ffaf3205e4d94dea60c13ea5c869a9f17d1ca100d9a4fe24f85b91c4"
+    },
+    {
+      "path": "reports/data_round6/search/server_document_inventory.csv",
+      "bytes": 3874,
+      "sha256": "75193815ee8010238e31761979d85c1ad19bb344b3fad6c6ef86a6322cf5a1d7"
+    },
+    {
+      "path": "reports/data_round6/search/server_summary.json",
+      "bytes": 1475,
+      "sha256": "4eea941aa2b1e6394430b6fffe1d21abfe80b2865a87028f9055e87e4bcd7593"
+    },
+    {
+      "path": "reports/data_round6/sme/asset_code_syntax.csv",
+      "bytes": 641,
+      "sha256": "fd4d75108909e0d42862e43d1e7faaab6ddb5ed6bf344565bcd20b108edf45c6"
+    },
+    {
+      "path": "reports/data_round6/sme/asset_schema_audit.csv",
+      "bytes": 1245,
+      "sha256": "cdaa5337d82a2c6c116ce1b3f2de3525e2e6a4a9d1f81a621132af65d637986b"
+    },
+    {
+      "path": "reports/data_round6/sme/author_source_lineage.csv",
+      "bytes": 8080,
+      "sha256": "dd4a25a93933121b81bcb8759c967b760db8e54369db5b049779746d36acf872"
+    },
+    {
+      "path": "reports/data_round6/sme/code_evidence.csv",
+      "bytes": 2560,
+      "sha256": "83bc861e231b2a4a77299aa77859368fb4c2ce45b535932271e778a3cb3e31b0"
+    },
+    {
+      "path": "reports/data_round6/sme/evidence_matrix.csv",
+      "bytes": 1704,
+      "sha256": "dd7e2d17cdc2feaf8cf02aeb28e8b47463ade18ebbcc29015ad5d83a054a9b1d"
+    },
+    {
+      "path": "reports/data_round6/sme/federal_city_source_rows.csv",
+      "bytes": 5493,
+      "sha256": "4f7dc4213f7891ea50afad5ec9ac4561deab7e2f4fd5523ccac641715172e7ba"
+    },
+    {
+      "path": "reports/data_round6/sme/geocoder_address_contracts.csv",
+      "bytes": 611,
+      "sha256": "cbcfe048d19694f7ef1fa3909e5a7603be98ad1ad5f80c4d0b5822756bfad627"
+    },
+    {
+      "path": "reports/data_round6/sme/manifest.json",
+      "bytes": 2590,
+      "sha256": "575310b7e34b5f922bf22d023c8e9b57f47deb79ce49850ea70238c089aa85a5"
+    },
+    {
+      "path": "reports/data_round6/sme/QA.json",
+      "bytes": 658,
+      "sha256": "eee6ab49acbd7e6a70fb643a4ee3f1b46681940a4a7ee8ea65594917f5b95ced"
+    },
+    {
+      "path": "reports/data_round6/sme/raw_inventory.csv",
+      "bytes": 6283,
+      "sha256": "24b1399618dce63c84e5c91f10728d9e4204fe19100e0d78ec717fa5c82161e7"
+    },
+    {
+      "path": "reports/data_round6/sme/README.md",
+      "bytes": 16108,
+      "sha256": "0e10fff82d3de178fd8eedb17d24f00ec324bc0245c369a9cb2888185a3c8a2a"
+    },
+    {
+      "path": "reports/data_round6/sme/replay_QA.json",
+      "bytes": 2851,
+      "sha256": "6a866ac048d09d588179faa189d2052327bd93f99bc58171629a1d503a30a95e"
+    },
+    {
+      "path": "reports/data_round6/sme/retrieval_attempts.csv",
+      "bytes": 4686,
+      "sha256": "d21c472a7ebd4dbfb67614268eec33eeff8c0d579f1c8f0891639c73d57af8bb"
+    },
+    {
+      "path": "reports/data_round6/sme/worker_dates.csv",
+      "bytes": 218,
+      "sha256": "cfe406daa8c92072c5556b22363fcfd80b193e6f70d53c60c5eef17472dc6067"
+    },
+    {
+      "path": "reports/data_round6/sme/worker_sample_summary.csv",
+      "bytes": 788,
+      "sha256": "1fe08d23c04df1242de5557fffdf81c871855b693373b4f5cc86691f84a8e0e1"
+    },
+    {
+      "path": "reports/enriched_analysis/core_v2/annual_panel.csv",
+      "bytes": 2141067,
+      "sha256": "0e44e34b94c51aeb429615ec9a0e8127def140a6f414afa75e255e00cb4f8190"
+    },
+    {
+      "path": "reports/round5_analysis/audit/annual_features.csv",
+      "bytes": 8244648,
+      "sha256": "6148d10db93a7f346179d743f593ebf3a6d802391a3c80a5185680299d19578e"
+    }
+  ],
+  "raw_releases": [
+    {
+      "path": "data-round6-cases.zip",
+      "bytes": 8709992,
+      "sha256": "9ca904136db420903278f530adeb5a12e998bcccb89a23b3fecfb6391c54692b"
+    },
+    {
+      "path": "data-round6-economy.zip",
+      "bytes": 24007644,
+      "sha256": "8448100206ab9286887fef5f4d9b80644b8ce13a1cc2c6e0c3596212da9196b5"
+    },
+    {
+      "path": "data-round6-geography.zip",
+      "bytes": 7085633,
+      "sha256": "c5b6e8c8d7279d61d2d01e438af0a19c4bd44498e6322cec22abb4a7455dea57"
+    },
+    {
+      "path": "data-round6-search.zip",
+      "bytes": 13057197,
+      "sha256": "dc254c3aedc1c9706aae05e8f333589738baecb899250839b58782a99bd543a9"
+    },
+    {
+      "path": "data-round6-sme.zip",
+      "bytes": 7938137,
+      "sha256": "ae202256ebf7add5e6c13b4be28c4a44720461799ed5eead436664e43897266d"
+    }
+  ]
+}

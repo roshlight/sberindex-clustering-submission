@@ -1,0 +1,7 @@
+year,code_region,source_code_groups,source_rows_once,denominator_all_sme_year_rows,share_all_sme_year_rows_pct,naive_edge_weighted_rows,naive_excess_rows,naive_excess_pct_of_correct_queue,multi_predecessor_code_groups,multi_predecessor_rows_once,multiple_candidate_parent_groups,additional_predecessor_outside_groups,historical_assignments_approved,denominator_is_code_region_population
+2023,Пермский край,760,25774,7555943,0.34110897872,26555,781,3.030185458214,3,218,0,1,0,False
+2023,Приморский край,282,12488,7555943,0.165273877794,12488,0,0,0,0,0,0,0,False
+2024,Пермский край,776,26739,7884985,0.339112883538,27562,823,3.077901193014,3,231,0,1,0,False
+2024,Приморский край,182,9985,7884985,0.126633088078,9985,0,0,0,0,0,0,0,False
+2023,ALL_CANDIDATE_CODE_REGIONS,1042,38262,7555943,0.506382856514,39043,781,2.041189692123,3,218,0,1,0,False
+2024,ALL_CANDIDATE_CODE_REGIONS,958,36724,7884985,0.465745971616,37547,823,2.241041280906,3,231,0,1,0,False

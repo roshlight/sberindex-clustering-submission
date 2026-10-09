@@ -1,0 +1,130 @@
+{
+  "created_at": "2026-09-14T23:04:57.439626+00:00",
+  "files": [
+    {
+      "path": "annual_candidates/annual_candidate_panel.csv",
+      "bytes": 14590562,
+      "sha256": "c1d0bbeaaf742e14417d7d7d168764c060bb6c01199481a850a7eea3b6359bd4"
+    },
+    {
+      "path": "annual_candidates/annual_candidate_panel.parquet",
+      "bytes": 198654,
+      "sha256": "53efd79904ade5728052c7d133b912dfc4279aa036e39bc0c601dab74284b174"
+    },
+    {
+      "path": "annual_candidates/annual_coverage.csv",
+      "bytes": 188,
+      "sha256": "42db80935dc6ec9b844ac69e0de8955fdc9adf5e5dd77c54f54ae4f2ec40296a"
+    },
+    {
+      "path": "annual_candidates/annual_gaps.csv",
+      "bytes": 28375,
+      "sha256": "fd2cbf01227d6488c5d4ac162717717d5429b605005337281eb60eb65a497cfe"
+    },
+    {
+      "path": "annual_candidates/summary.json",
+      "bytes": 1676,
+      "sha256": "de54e3f47a15bed06b2a609e4d10aeae872c9e56c7a98230614cbca175c8e1ba"
+    },
+    {
+      "path": "delivery_integrity.json",
+      "bytes": 1111,
+      "sha256": "3ae89a226b5613769fbbabf8706a1a7ccc99506f05cb2ef6483febbc508c35f5"
+    },
+    {
+      "path": "form_inventory.csv",
+      "bytes": 13043,
+      "sha256": "4bc285c32c0890c1dd10f78e6f247abb00eee221d0bdb714015daf4083a2e225"
+    },
+    {
+      "path": "history/full-v1-manifest.json",
+      "bytes": 2224,
+      "sha256": "962d2307dc16eccb4b52bafa2b5f858f5b1c52c950d00e363c2fb77b5d10f3db"
+    },
+    {
+      "path": "inventory.json",
+      "bytes": 16582,
+      "sha256": "5e4e261bc57fcbd457193395297fac93c3cd439c9b9209891588cc3ab23ce70e"
+    },
+    {
+      "path": "pilot_source_cells.csv",
+      "bytes": 237461,
+      "sha256": "385fc297ad2b968c2dfd22c6b50c1abf4e3a190145e3e771f636811f1be7fb31"
+    },
+    {
+      "path": "pilot_summary.json",
+      "bytes": 761,
+      "sha256": "220f2754607539387adefca84b63fa68ded46bbef527117fee7d773528303d01"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12628,
+      "sha256": "28534ae873c80f37c7db94dde3a1112c70259ac7a7340a36de38c67389791cc5"
+    },
+    {
+      "path": "source/annual_code_reference_links.csv",
+      "bytes": 2255855,
+      "sha256": "9310bdcb227c44cc95e92bfcba69a8298066395fc1767a226fe9902210910a8d"
+    },
+    {
+      "path": "source/economy_source.csv",
+      "bytes": 9682396,
+      "sha256": "62c76b4b71ceac4cdb2237748f5a4caa952481b3b5c13cf2a35ca01da4ec64e4"
+    },
+    {
+      "path": "source/economy_source.parquet",
+      "bytes": 170810,
+      "sha256": "79956db1a8880f0c7f4640d9736148047664747824235454a866d89e58060c36"
+    },
+    {
+      "path": "source/implementation_snapshot/bdpmo.py",
+      "bytes": 17149,
+      "sha256": "a0a6889710a72b0c8ed3beffb8b0c3b46623553fdaef130bf5d529b062798b13"
+    },
+    {
+      "path": "source/implementation_snapshot/economy_bulk.py",
+      "bytes": 18705,
+      "sha256": "37186c9dff1e65aa26dec102ea491cf7659b8f0bb09334a5e6fe79dff135b18b"
+    },
+    {
+      "path": "source/implementation_snapshot/population_bulk.py",
+      "bytes": 22653,
+      "sha256": "d782974b8dda66e36f6136b180297f1e347ffddd96fee7b0311d995644689af2"
+    },
+    {
+      "path": "source/implementation_snapshot/run_economy_bulk.py",
+      "bytes": 959,
+      "sha256": "aa42f7d307920f0b2ed31ddb2c1da4ae3605f186e320af8300f55d1754524964"
+    },
+    {
+      "path": "source/manifest.json",
+      "bytes": 2199,
+      "sha256": "661b0df743c67a5c886debbc193468704b749dcdc69dddecf2e05a298ccecd5e"
+    },
+    {
+      "path": "source/target_status.csv",
+      "bytes": 323840,
+      "sha256": "1eaeaf150956401b84c75c2f5b3c3d61d8d3f361ebe4b4f9dc6ab8826a29d0cf"
+    },
+    {
+      "path": "source_capture_inventory.json",
+      "bytes": 292895,
+      "sha256": "8b70386722934a3b632152bf177749623276c40f6aaca980d20452097494d491"
+    },
+    {
+      "path": "source_cell_qa.json",
+      "bytes": 323,
+      "sha256": "7be715b19d442980b7dcee4c2373387a8955cea9623626b3656838a2b141d926"
+    },
+    {
+      "path": "SOURCE_GUIDE.md",
+      "bytes": 17110,
+      "sha256": "2de73459c73d65a593c2c271ca7062195a588207242fc18398d6b41a5ae24ea0"
+    },
+    {
+      "path": "sources_manifest.json",
+      "bytes": 50889,
+      "sha256": "aa6a8b08d2d265c950a7f88aab3cad552bb961750245cdf3d41c90e39e33ec12"
+    }
+  ]
+}

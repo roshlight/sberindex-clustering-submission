@@ -1,0 +1,16 @@
+[
+  {
+    "year": "2023",
+    "strong_count": 66,
+    "denominator": 24192,
+    "strong_share": 0.002728174603174603,
+    "median_mean_co_membership_jaccard": 0.4554285666060664
+  },
+  {
+    "year": "2024",
+    "strong_count": 0,
+    "denominator": 24192,
+    "strong_share": 0.0,
+    "median_mean_co_membership_jaccard": 0.4114605504055796
+  }
+]

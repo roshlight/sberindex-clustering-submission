@@ -1,0 +1,82 @@
+{
+  "verified_at_utc": "2026-09-14T21:15:19.938693+00:00",
+  "status": "PASS",
+  "scope": "Byte integrity and source archive completeness; not independent model reproduction.",
+  "archive_entry_verification": {
+    "status": "PASS",
+    "server_files": 690,
+    "local_files": 80,
+    "method": "Run scripts/verify_data_release.py against the final local ZIP assets; all entry sizes and SHA256 match."
+  },
+  "independent_agent_completeness_check": {
+    "status": "PASS",
+    "raw_files": 87,
+    "text_files": 86,
+    "model_cards": 42,
+    "inventories": 4,
+    "note": "connector-preflight is a synthetic client test and has no document inventory; all 690 server catalog entries match the ZIP."
+  },
+  "prior_delivery_checks": [
+    {
+      "manifest": "reports/initial_study/delivery_manifest.json",
+      "files": 62,
+      "status": "PASS"
+    },
+    {
+      "manifest": "reports/enrichment_v1/delivery_manifest.json",
+      "files": 66,
+      "status": "PASS"
+    }
+  ],
+  "github_asset_checks": [
+    {
+      "asset": "server-data-snapshots.zip",
+      "asset_id": 564230687,
+      "bytes": 378891889,
+      "sha256": "dcae60a64c9dac4aa5e4930e352f049034a2ca7c98e93bbfb6ce9cf14af51f78",
+      "github_digest": "sha256:dcae60a64c9dac4aa5e4930e352f049034a2ca7c98e93bbfb6ce9cf14af51f78",
+      "state": "uploaded",
+      "status": "PASS"
+    },
+    {
+      "asset": "local-data-supplement.zip",
+      "asset_id": 564238161,
+      "bytes": 27631834,
+      "sha256": "ffef5a042a026421e536dbcc6dbc0daf08dce30a3145b8a8b75416e9c454b575",
+      "github_digest": "sha256:ffef5a042a026421e536dbcc6dbc0daf08dce30a3145b8a8b75416e9c454b575",
+      "state": "uploaded",
+      "status": "PASS"
+    },
+    {
+      "asset": "archives_manifest.json",
+      "asset_id": 564238165,
+      "bytes": 861,
+      "sha256": "8f7f18fdd6c05d95412ec3e30aa6be707d35014fe1b5c139941ddafee6b4bd9d",
+      "github_digest": "sha256:8f7f18fdd6c05d95412ec3e30aa6be707d35014fe1b5c139941ddafee6b4bd9d",
+      "state": "uploaded",
+      "status": "PASS"
+    },
+    {
+      "asset": "SHA256SUMS.txt",
+      "asset_id": 564238162,
+      "bytes": 184,
+      "sha256": "43e95340195259009acd489eb89882edddf31fb67dd1cf03c421bd2be0ca9259",
+      "github_digest": "sha256:43e95340195259009acd489eb89882edddf31fb67dd1cf03c421bd2be0ca9259",
+      "state": "uploaded",
+      "status": "PASS"
+    }
+  ],
+  "github_release_id": 388713857,
+  "release_draft_at_asset_verification": true,
+  "script_quality": {
+    "ruff_check": "PASS",
+    "ruff_format": "PASS",
+    "full_model_rerun": "NOT RUN; no model code changed"
+  },
+  "secret_checks": {
+    "server_existing_openrouter_key": "PASS",
+    "local_existing_telegram_token": "PASS",
+    "known_patterns": "PASS; JPEG DHT binary false positives recognized by segment boundaries"
+  },
+  "independent_clean_reproduction": "NOT RUN"
+}

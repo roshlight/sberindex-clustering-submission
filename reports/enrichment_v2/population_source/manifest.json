@@ -1,0 +1,41 @@
+{
+  "status": "complete_with_gaps",
+  "identity": {
+    "targets_sha256": "a0c243eab9c78e110354bdb43d602ea61201b510d58640b0dbaac5a89f01fd11",
+    "processor_sha256": "d782974b8dda66e36f6136b180297f1e347ffddd96fee7b0311d995644689af2",
+    "bdpmo_sha256": "a0a6889710a72b0c8ed3beffb8b0c3b46623553fdaef130bf5d529b062798b13",
+    "batch_size": 20,
+    "interval": 1.0,
+    "ca_bundle_sha256": "fd9fe86c296f5354cb578551a4f1216fc900624e88dbc8625e4ae506d1e8d624",
+    "cache_only": true
+  },
+  "target_count": 2094,
+  "source_cache": "./enrichment/data/bdpmo-mass-cache-20260915-v1",
+  "started_at": "2026-09-14T21:59:49.706194+00:00",
+  "scope": "Source observations; supplied reference_links are not inferred joins",
+  "python_version": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "implementation_snapshot_hashes": {
+    "bdpmo.py": "a0a6889710a72b0c8ed3beffb8b0c3b46623553fdaef130bf5d529b062798b13",
+    "population_bulk.py": "d782974b8dda66e36f6136b180297f1e347ffddd96fee7b0311d995644689af2",
+    "run_population_bulk.py": "a1fa4b566a9c5943bf9adc46c6d0642d01b2e268be40c78dd19fd736230612be"
+  },
+  "uv_lock_sha256": "b07d548b44a8a636ea0d8ace4d1f0babdbdbfd87c87c7a97e91a5742bbfab612",
+  "processed_target_count": 2094,
+  "status_counts": {
+    "complete": 1504,
+    "partial_source": 588,
+    "attribution_review": 1,
+    "error": 1
+  },
+  "network_request_count": 0,
+  "cache_hit_count": 248,
+  "record_count": 7157,
+  "updated_at": "2026-09-14T21:59:52.321346+00:00",
+  "output_hashes": {
+    "cell_coverage.csv": "20d295e53a797293cdb2b8193b49f6dc90d3724743059465f515fa309df9465d",
+    "population_source.csv": "e0675fc634937cb8e856ea1891709152303ba69c3fe3a80bb6876884d2ade895",
+    "population_source.parquet": "6ea648703ef3109b6bc63cc3facc8bc224621bdc2b924bde703aeeae3ec4cd1e",
+    "target_reference_links.csv": "c743e3023d979717d7c96cf50c62e20ea68ef6381aa128b2c496602d4ff0e682",
+    "target_status.csv": "d2df39176482eec7d88c92376231c657754af10364b51bcd6d7eaf282209c13f"
+  }
+}

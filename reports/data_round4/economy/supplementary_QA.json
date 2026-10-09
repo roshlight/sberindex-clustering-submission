@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "http_captures": 48,
+  "capture_roles": {
+    "accepted_export": 19,
+    "accepted_form": 19,
+    "diagnostic_probe": 7,
+    "refused_export": 3
+  },
+  "all_request_keys_and_raw_sha256_verified": true,
+  "targeted_missing_cells": 291,
+  "targeted_missing_reasons": {
+    "ValueError: Small-business exclusion not evidenced in this source header": 132,
+    "ValueError: Unverified source monetary unit": 78,
+    "cell_not_returned_for_exact_requested_code_year": 72,
+    "source_code_absent_from_current_form": 7,
+    "explicit_unresolved_source_marker": 2
+  },
+  "source_only_outside_year_link": 24,
+  "code_dependencies": {
+    "enrichment/src/sber_enrichment/round4_economy.py": "e0b64f5f7bfc02c9bf77f58adb4fc6cd8ad8ae705674957bb68e4565f0c3d1c1",
+    "enrichment/tests/test_round4_economy.py": "39b8cf3610d6d638868f14619352a52160af8c594232605c4c1b566ea756c41d",
+    "enrichment/src/sber_enrichment/round3_economy.py": "203032c7b551490939744bbe0590801b977a639cf6b394103a6f9986be6d25e3",
+    "enrichment/src/sber_enrichment/economy_bulk.py": "37186c9dff1e65aa26dec102ea491cf7659b8f0bb09334a5e6fe79dff135b18b",
+    "enrichment/src/sber_enrichment/bdpmo.py": "a0a6889710a72b0c8ed3beffb8b0c3b46623553fdaef130bf5d529b062798b13",
+    "enrichment/pyproject.toml": "d95464c7f6e9088275251368e145f01cb3a563651db6ae9d2b409f35c1b29c4d",
+    "enrichment/uv.lock": "b07d548b44a8a636ea0d8ace4d1f0babdbdbfd87c87c7a97e91a5742bbfab612"
+  },
+  "preserved_candidate_grid": true,
+  "no_confidentiality_cause_assigned_to_unexplained_markers": true
+}

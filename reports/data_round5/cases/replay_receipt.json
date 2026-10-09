@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "runs": 2,
+  "compared_files": 7,
+  "all_output_bytes_identical": true,
+  "clean_independent_environment": "NOT RUN",
+  "network_in_replay": false,
+  "outputs": {
+    "evidence_ledger.csv": "73d90248fcf4a9770616b04c1e41306fd6b9d024062a3d2bb99fa5fe39dff16a",
+    "followup_requests.csv": "3735e18c917bb2607f2593d8208bcb4a9e112f3e8d98d360896f1e237f147e77",
+    "hypothesis_status.csv": "7c0fda6d46b07747328d99e006a5e854e4dbe1c0aee97c39301ace21c4888a71",
+    "manifest.json": "fd94ca5e087628d7ee64908041835afd22e7ee164310aebe24070505bef6115d",
+    "QA.json": "481660315778e4c8e8385a00372a31731ae6121b96a7f2eba5987cf7e0daaa6a",
+    "source_inventory.json": "7aa89af09537561424e44f8d5e152a341938353f137bcf4113164dc3583ae10b",
+    "source_status.csv": "329543540cd467dd3686fb0d337745f891b54b1cf1291c5a8992e0fb58f7341a"
+  }
+}

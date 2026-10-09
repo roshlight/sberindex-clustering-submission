@@ -1,0 +1,8 @@
+mask,ids_eligible_both_years
+mask_core_expanded,1963
+mask_core_strict,1891
+mask_core_urban_expanded,1426
+mask_core_urban_strict,1375
+mask_core_area_same_label_year_expanded,1930
+mask_core_roads_same_label_year_expanded,1697
+mask_area_stability_sensitivity,1855

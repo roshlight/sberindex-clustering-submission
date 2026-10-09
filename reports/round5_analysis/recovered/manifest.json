@@ -1,0 +1,11 @@
+{
+  "input": "audit/annual_features.csv",
+  "input_sha256": "6148d10db93a7f346179d743f593ebf3a6d802391a3c80a5185680299d19578e",
+  "code_sha256": "2abdf0178acfc54ed3e01d98dc20117fa1abc052b6f36c3684a40ceaa2030b22",
+  "outputs": {
+    "QA.json": "d071f27a99b983fe0db39bd7609f8c6b8314ce770263430d5981f1f277b85b44",
+    "recovered_municipality_profiles.csv": "92599c9fa12838bae5c629f4773796a329a4e1501e18e2a08ab4d3a35be0ff59",
+    "recovered_two_year_pairs.csv": "1890fa2e7f25d3110fb23fdd292b35e3d2ecd915e3cd556915ee5007ef1500d0",
+    "regional_selection_summary.csv": "06055a119fd91b714fc6f3457dabd7846d98854eef81846ac26de1faaf214249"
+  }
+}

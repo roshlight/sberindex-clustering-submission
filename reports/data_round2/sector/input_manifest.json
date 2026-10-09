@@ -1,0 +1,14 @@
+{
+  "frozen_links_sha256": "c1d0bbeaaf742e14417d7d7d168764c060bb6c01199481a850a7eea3b6359bd4",
+  "capture_inventory_sha256": "8b70386722934a3b632152bf177749623276c40f6aaca980d20452097494d491",
+  "archive_sha256": null,
+  "all_form_bytes_available_in_output_cache": true,
+  "planned_jobs": 142,
+  "deferred_targets": 2,
+  "reference_links": 4032,
+  "regions": 70,
+  "scripts": {
+    "run_round2_sector_bulk.py": "a2c29677e45c4016c000c0a0f2d09f31c7b53bb3c864947b13592ec4e94c9212",
+    "run_round2_sector.py": "f3554ce298ab184ac84d00f2643b1b1446366b8899d097ab6f282f7f67e84580"
+  }
+}

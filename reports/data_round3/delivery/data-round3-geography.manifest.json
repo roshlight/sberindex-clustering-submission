@@ -1,0 +1,187 @@
+{
+  "created_at_utc": "2026-09-16T16:44:34.828882+00:00",
+  "files": [
+    {
+      "path": "work/data-round3/geography/inputs/calendar_priority_6.csv",
+      "bytes": 6423,
+      "sha256": "8721dd6de89197bd5598407785e81bc132501de1d9a9fca0ed618cca6719d77b"
+    },
+    {
+      "path": "work/data-round3/geography/inputs/reviewed_evidence.json",
+      "bytes": 16942,
+      "sha256": "9466175df7bbd33a90531bf6a9167792451134063960e932eddc4f8a98d17987"
+    },
+    {
+      "path": "work/data-round3/geography/inputs/sources.json",
+      "bytes": 9667,
+      "sha256": "e8ce02d10e5ca69d8052c044f9d04ca9c2e5419ca6bcbdba0e476d451d00de0d"
+    },
+    {
+      "path": "work/data-round3/geography/raw/karelia_2837.pdf",
+      "bytes": 294841,
+      "sha256": "0a19b0275220097bed1020a0a54fba3a249ed9a01f321769521d13705756d2cb"
+    },
+    {
+      "path": "work/data-round3/geography/raw/karelia_2837_publication.html",
+      "bytes": 21638,
+      "sha256": "847af36d261019169cf0e63f40e73f53c9e3e6caee98a0fff3445794b570bcfa"
+    },
+    {
+      "path": "work/data-round3/geography/raw/karelia_2838.pdf",
+      "bytes": 277391,
+      "sha256": "5962e091795b85c021600cbc9fc7e2357dcd7671e6ab8dacd1d958598a2d6ada"
+    },
+    {
+      "path": "work/data-round3/geography/raw/karelia_2838_publication.html",
+      "bytes": 21836,
+      "sha256": "acb5df60ea94be49dd8a467598a4327500a2ab33214b98399e5e789fd3b43b06"
+    },
+    {
+      "path": "work/data-round3/geography/raw/karelia_2839.pdf",
+      "bytes": 299876,
+      "sha256": "f9eaff0f27b2b5522d4bd381de05f688d8e7e0888428053a67aca99278bd4522"
+    },
+    {
+      "path": "work/data-round3/geography/raw/karelia_2839_publication.html",
+      "bytes": 21818,
+      "sha256": "fcc9da141ce9078d77371ec08cefe4f39a5db97602e848b31c7e60962ebbdea5"
+    },
+    {
+      "path": "work/data-round3/geography/raw/karelia_2841.pdf",
+      "bytes": 7027492,
+      "sha256": "4ff3c0769ff29b01b8000110a62ff0959e1fafdb6d56550171569d7a52c7e12f"
+    },
+    {
+      "path": "work/data-round3/geography/raw/karelia_2841_publication.html",
+      "bytes": 20765,
+      "sha256": "dd3bb214b7eeaed2a43a417dfdf7d703196cf92df0e13946aa59174f1beca499"
+    },
+    {
+      "path": "work/data-round3/geography/raw/karelia_2841_search.html",
+      "bytes": 1866082,
+      "sha256": "43a3d03d06c6d91234e6b4e822f707b5b73196f102d265b4583212c3be8bc47a"
+    },
+    {
+      "path": "work/data-round3/geography/raw/pravo_search.html",
+      "bytes": 1862449,
+      "sha256": "c488be75324308db3c8c2439563d523d03b10be883129d2e4fff8a1b9f7c1103"
+    },
+    {
+      "path": "work/data-round3/geography/raw/reused/data-20230112T1301-structure-20260210T1102.csv",
+      "bytes": 21427247,
+      "sha256": "7648c4065bb42a80080029253064c5843577d5c3ea9110fa97d9e32eb19c3f73"
+    },
+    {
+      "path": "work/data-round3/geography/raw/reused/data-20240125T1401-structure-20260210T1102.csv",
+      "bytes": 21580725,
+      "sha256": "62b579d803e50def8668dc704ffecb5ee4e6e12bb1ffd5f848cafd32dfdd926c"
+    },
+    {
+      "path": "work/data-round3/geography/raw/reused/fns_19514000_web_tool_text.txt",
+      "bytes": 972,
+      "sha256": "b36ad8d5ff00681ab9d11d6166e02868a7679b5666dc9ab80755e566482b4b95"
+    },
+    {
+      "path": "work/data-round3/geography/raw/reused/gost_change_586_2022.html",
+      "bytes": 75924,
+      "sha256": "d97b826b52996a7988a96cc4b72529bdf5c8b12fa07618574bfeba6f41703f51"
+    },
+    {
+      "path": "work/data-round3/geography/raw/reused/gost_change_593_2022.html",
+      "bytes": 76307,
+      "sha256": "b71b96fffbe7b3d5f5d47b08ab300fb6ed02c64e0dcb43d90ec2921458679152"
+    },
+    {
+      "path": "work/data-round3/geography/raw/reused/gost_change_594_2022.html",
+      "bytes": 76307,
+      "sha256": "2086dff17aa89d0886737d93afb775a43630dfc34a14ba72678ef3ae99f5850c"
+    },
+    {
+      "path": "work/data-round3/geography/raw/reused/gost_change_598_2023.html",
+      "bytes": 76429,
+      "sha256": "cbef4677f2222f26ce9ea0d7092486e5169aa41d62ef2528f8cd5cd9b366c25b"
+    },
+    {
+      "path": "work/data-round3/geography/raw/reused/gost_change_600_2023.html",
+      "bytes": 76430,
+      "sha256": "893b13dcc1df5f8a34d6a6de2674844e82ea291ec054006e993894ef7161f38a"
+    },
+    {
+      "path": "work/data-round3/geography/raw/reused/karelia_laws_2023_04.pdf",
+      "bytes": 35233767,
+      "sha256": "faf59249598840711d16d991e2fdfa66bd2f5272abb064c53502839e6735f289"
+    },
+    {
+      "path": "work/data-round3/geography/raw/reused/oktmo_change_634_2023_1.docx",
+      "bytes": 18749,
+      "sha256": "1e95a81db27290cd01b4dc3f76de347fe532768633aa47a2f16ae04be9036443"
+    },
+    {
+      "path": "work/data-round3/geography/raw/vologda_5115.pdf",
+      "bytes": 853845,
+      "sha256": "30813bdcfed5b8ba4dbf49ae46653042a97f34ee0df777b9bb1e92b1758fc545"
+    },
+    {
+      "path": "work/data-round3/geography/raw/vologda_5115_publication.html",
+      "bytes": 22486,
+      "sha256": "90a442f9d88d8d8d2ddd2d9d507ae23aaba956d901a4f1c07bf2f5f8ada07990"
+    },
+    {
+      "path": "work/data-round3/geography/raw/vologda_5115_search.html",
+      "bytes": 1866463,
+      "sha256": "a74a0413b4c464c04610f690d7e2f8a96e134cbdca323a12fd5eb5833843053c"
+    },
+    {
+      "path": "work/data-round3/geography/retrievals.json",
+      "bytes": 672,
+      "sha256": "554cff3d2bd4c19ca8acbbead2d9272b9675592a4fadee28ac00cc2b0a4acc81"
+    },
+    {
+      "path": "work/data-round3/geography/retrievals_additional.json",
+      "bytes": 1763,
+      "sha256": "b20de43548ab9bde8810062ec0ea64a47addb82825656302f040dba9642109c5"
+    },
+    {
+      "path": "work/data-round3/geography/retrievals_pdf.json",
+      "bytes": 1546,
+      "sha256": "d53824cf16be8ed75e709e7bc081e6ca1da261a323fab6caadbbb3515bf8ff04"
+    },
+    {
+      "path": "work/data-round3/geography/retrievals_search.json",
+      "bytes": 776,
+      "sha256": "8b40d1990eb19e2b9424a9e305240f745f48bb1177fdb2b9a0d65b5b3fc8a151"
+    },
+    {
+      "path": "work/data-round3/geography/search_log.json",
+      "bytes": 131986,
+      "sha256": "fbbc4d1a27ebb6c00476f8237794556b5f108b6785c03d03c43d3a65aa5ed98a"
+    },
+    {
+      "path": "work/data-round3/geography/search_log_additional.json",
+      "bytes": 66424,
+      "sha256": "a3d0b069d7e6654f9a3f3aa435eebbcf3f0ab66c51a3d379c145a1af30d0785b"
+    },
+    {
+      "path": "work/data-round3/geography/search_log_date_check.json",
+      "bytes": 45005,
+      "sha256": "34e58a1c772e3a9cb97c5393e6ad94ea2191b9de905f39dcd672ec75228b326c"
+    },
+    {
+      "path": "work/data-round3/geography/server_retrievals.json",
+      "bytes": 675,
+      "sha256": "e333743ce55d8b463b362e795009c247ada0594c479de3c3a908802e79e1eae5"
+    },
+    {
+      "path": "work/data-round3/geography/server_retrievals_pdf.json",
+      "bytes": 1546,
+      "sha256": "d53824cf16be8ed75e709e7bc081e6ca1da261a323fab6caadbbb3515bf8ff04"
+    },
+    {
+      "path": "work/data-round3/geography/text/ocr_pages.json",
+      "bytes": 108793,
+      "sha256": "27b3859e32a36c5e8a8eb29fbf9f4e9d83b1c475db5017481afc8aee950c59e9"
+    }
+  ],
+  "source_allowlist_sha256": "81dc8ab46bb6bac50b55980b6c1d09ac0d1ec4788f419eb62dc8f60d84bffaae",
+  "packager_sha256": "5bbdd46528947d3ee96db825f6f337e3cd0e7391411b13fb3312833a4ebb5c6f"
+}

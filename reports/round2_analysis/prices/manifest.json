@@ -1,0 +1,180 @@
+{
+  "status": "complete",
+  "canonical": "canonical",
+  "script": "scripts/round2_price_analysis.py",
+  "script_sha256": "0cbe02b7abe10668f71b3b8493338fe22ad8dc94ce8939741b5986ca4d3d0afa",
+  "scope": "descriptive_city_context_conditional_geography_not_CPI_or_causal",
+  "history_excluded": "workspace/work/round2-analysis-price-history",
+  "outputs": [
+    {
+      "path": "canonical/annual_context_panel.csv",
+      "sha256": "e9568f60f3ff89b2140e76c5a9f1b15bc73a27c179ca15e1e2bd8b6a7783dc1d",
+      "bytes": 2605546
+    },
+    {
+      "path": "canonical/city_pair_eligibility.csv",
+      "sha256": "80e6c1f17b26319913eaa45c98a87e59026b9043528a3fcf452087d12bb7e0b8",
+      "bytes": 135669
+    },
+    {
+      "path": "canonical/city_pair_exclusion_counts.csv",
+      "sha256": "70c1ad2602ceb30f259ef569a7c2bf4933709eb58589a434998c6e029d88a7d0",
+      "bytes": 176
+    },
+    {
+      "path": "canonical/city_product_pairs.parquet",
+      "sha256": "1f3f668d7f13595f0f21c4016f9d5a5704b0f53114254a7c77c1b0b2e70686a2",
+      "bytes": 3841579
+    },
+    {
+      "path": "canonical/city_ratio_cases.csv",
+      "sha256": "f78bd1494b95bce5b13e03746af9e53caedc915d7df5ce0750d639c917f1d056",
+      "bytes": 2712
+    },
+    {
+      "path": "canonical/city_ratio_sensitivities.csv",
+      "sha256": "cf442e7dcb0af8ce32161e8898a9ec4e5a885aeeea50eedb45b201734b14c250",
+      "bytes": 181569
+    },
+    {
+      "path": "canonical/common_basket_city_ratios.csv",
+      "sha256": "281dff486c8f5a577d61a7d208668e4532e3d13d86d9ccd949d61f7963c452f1",
+      "bytes": 4280
+    },
+    {
+      "path": "canonical/common_basket_products.csv",
+      "sha256": "b12e9a2b933b091ec0eaf7f7ef273836f54b262ac26f87be02cfa1d1c422cf53",
+      "bytes": 25948
+    },
+    {
+      "path": "canonical/coverage.csv",
+      "sha256": "999ee89aa94dd7d3bc0e6aaf4bfd0d7875acc8451cd969ceeb400bf538ab3ffe",
+      "bytes": 276
+    },
+    {
+      "path": "canonical/iszh_associations.csv",
+      "sha256": "cefa46ff03fc9ec7615c73b983557b4ce825575c19fc5623346cc69f4ac1059c",
+      "bytes": 5760
+    },
+    {
+      "path": "canonical/iszh_levels.csv",
+      "sha256": "e1d7fbc41ca6c66f7435135f931590f57dfb18939fddd0fbbaf0098fa203493b",
+      "bytes": 144
+    },
+    {
+      "path": "canonical/iszh_residual_evidence.csv",
+      "sha256": "9ac4df76d6dad737bf8f29ce05e6cc06b69494501bf7efcbbd72f25206261d51",
+      "bytes": 153549
+    },
+    {
+      "path": "canonical/iszh_selection_and_associations.png",
+      "sha256": "ef263280d711f1077e9e282dcf510dba82937b09a884e0df40e0a01258a4e339",
+      "bytes": 79745
+    },
+    {
+      "path": "canonical/manifest.json",
+      "sha256": "4c601f5461804078c6be0819869098f359a05480f3ba7a5e234625cf0fea61f9",
+      "bytes": 4837
+    },
+    {
+      "path": "canonical/matched_city_coverage.csv",
+      "sha256": "c47ea69d25885460cb259889d632b09c4d94b6b1e86f10826d4b261697e531fb",
+      "bytes": 3719
+    },
+    {
+      "path": "canonical/matched_month_coverage.csv",
+      "sha256": "5e9ef61684ba33c19dd155108cc1040297a702157662da1d7cca1a40867d8e7d",
+      "bytes": 270
+    },
+    {
+      "path": "canonical/matched_price_ratios.png",
+      "sha256": "0774676de42552c6868dcf3348cda40e444e61e3a04b0fe532836b7277c2d144",
+      "bytes": 36880
+    },
+    {
+      "path": "canonical/monthly_input_coverage.csv",
+      "sha256": "e496afda0da33d939a87d218ecb5c1e2d033e7457371459457d35bc85418b17c",
+      "bytes": 131
+    },
+    {
+      "path": "canonical/pair_completeness.csv",
+      "sha256": "413b640ba1fdc7ae603548228d779c92a268e6ed990681ecd63f3993fa62699e",
+      "bytes": 62
+    },
+    {
+      "path": "canonical/paired_iszh.csv",
+      "sha256": "e83da93d9f4dd0f225cce0dd7d1507427303d3ae5d62933bdcfd99e7c841fd74",
+      "bytes": 46207
+    },
+    {
+      "path": "canonical/paired_iszh_summary.json",
+      "sha256": "4590d1158b13c5279914804dd81c963e652fdd14932a5cfe56efc5061b800e51",
+      "bytes": 196
+    },
+    {
+      "path": "canonical/primary_city_price_ratios.csv",
+      "sha256": "8735ba0cad004a863a5f60e7ef32ced7f04be348dbfa2435e07b0b57498bd1f2",
+      "bytes": 47753
+    },
+    {
+      "path": "canonical/product_ratio_summary.csv",
+      "sha256": "c29dc07a2e9285e18c45aa9373dd7c1430f10e7f4a83a0e793aa3dbcb462f748",
+      "bytes": 76511
+    },
+    {
+      "path": "canonical/protocol.json",
+      "sha256": "6ab63d6ca5c29603454698fe0cd6ace4e263cc0a5396020ae253238e1f4690ca",
+      "bytes": 1701
+    },
+    {
+      "path": "canonical/qa.json",
+      "sha256": "3f5885544641b3687e9b614a1959f59c96accca78195438df3522d0cdc4718cd",
+      "bytes": 668
+    },
+    {
+      "path": "canonical/ratio_threshold_sensitivity.csv",
+      "sha256": "c3444d47deea1b88af19cbd8bd16a8ce7ef7fd44567d5981a64e0bafcb29924a",
+      "bytes": 1103
+    },
+    {
+      "path": "canonical/selection_categories.csv",
+      "sha256": "84d321e9f2d0b028ab295fb8d5153169b26a09fd572a78e8ecdebf814a2cf2e1",
+      "bytes": 18474
+    },
+    {
+      "path": "canonical/selection_numeric.csv",
+      "sha256": "bcfb67c0e3558d3464146ecdbef5659e4559c03307eca3e25430c37591c66acb",
+      "bytes": 6090
+    },
+    {
+      "path": "canonical/selection_smd.csv",
+      "sha256": "a2338d6657204f076128f0f3f1573043457cab436453c2644ce48008a30dddfa",
+      "bytes": 912
+    },
+    {
+      "path": "canonical/source_cell_examples.csv",
+      "sha256": "639e8552b319a3d522e46f435c4eb343765078c3228cf71132d773c739850785",
+      "bytes": 17535
+    },
+    {
+      "path": "canonical/summary.json",
+      "sha256": "90f2e3d8756394e79f0262541f9f9a3e86c71d266ecd894d3466459a2184f11f",
+      "bytes": 560
+    },
+    {
+      "path": "independent_arithmetic_qa.json",
+      "sha256": "95d8f1c482b63fad7f6a092f78e4431d2f3f0476c5bfd11f6fc2bb3d5f3860cf",
+      "bytes": 280
+    },
+    {
+      "path": "README.md",
+      "sha256": "4db2a578b767ccc5bae893d01a008cba609633ff5ed789abf4f7567e6fb4158c",
+      "bytes": 17108
+    },
+    {
+      "path": "REPRODUCE.md",
+      "sha256": "5e3ef1b756bf4073e9dccfb4ed4d980a868a4bbbd6d8de270f93a266b04242f5",
+      "bytes": 6803
+    }
+  ]
+}

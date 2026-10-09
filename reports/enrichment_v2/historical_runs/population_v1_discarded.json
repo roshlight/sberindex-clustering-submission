@@ -1,0 +1,6 @@
+{
+  "status": "discarded_due_parser_defects",
+  "snapshot_available": false,
+  "manifest_sha256": "c995c965676b89c463645f2290465a3c93060820be297244f5f29ab8f0255756",
+  "reason": "Interior blank year attribution, unchecked singleton caption and fallback checkpoint issues found by independent review. New v2 reparses raw responses. No retrospective source snapshot fabricated."
+}

@@ -1,0 +1,812 @@
+[
+  {
+    "source_id": "0237526ed01c677ab17b",
+    "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10112024-structure-10062023.zip",
+    "title": "data-10112024-structure-10062023.zip",
+    "need_ids": [
+      "r3_sme"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "other",
+    "discovered_from": [
+      "de4ec303458e8d66af31"
+    ],
+    "fetched_at": "2026-09-16T16:22:00.140847+00:00",
+    "final_url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10112024-structure-10062023.zip",
+    "status": 200,
+    "content_type": "application/octet-stream",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": null,
+    "error": "body_too_large"
+  },
+  {
+    "source_id": "035a9c7712852b98295a",
+    "url": "https://59.rosstat.gov.ru/storage/mediabank/3JjkfmeX/%D0%A2%D0%B8%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B-%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B.pdf",
+    "title": "Типовые вопросы-ответы.pdf",
+    "need_ids": [
+      "r3_sme"
+    ],
+    "engines": [
+      "google cse"
+    ],
+    "queries": [
+      "site:rosstat.gov.ru доля работников малого среднего предпринимательства муниципальные 2024"
+    ],
+    "seed": false,
+    "authority_hint": "official",
+    "fetched_at": "2026-09-16T16:21:20.615801+00:00",
+    "final_url": "https://59.rosstat.gov.ru/storage/mediabank/3JjkfmeX/%D0%A2%D0%B8%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B-%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B.pdf",
+    "status": 200,
+    "content_type": "application/pdf",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "c4614001bcf376f6be68700d889cbc313a5de6f5a745ceebae27c9f5c61a2605",
+    "error": null,
+    "raw_file": "raw/035a9c7712852b98295a.bin",
+    "raw_bytes": 628302,
+    "kind": "pdf",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/035a9c7712852b98295a.txt",
+    "text_sha256": "8f7b285d940585ec8144ef473bf0bd0fa7d25b5a0014c30ba3ffcedf82078619",
+    "text_chars": 100000
+  },
+  {
+    "source_id": "0543ed77252acf36f4e1",
+    "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-03102019-structure-08012016.zip",
+    "title": "data-03102019-structure-08012016.zip",
+    "need_ids": [
+      "r3_sme"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "other",
+    "discovered_from": [
+      "de4ec303458e8d66af31"
+    ],
+    "fetched_at": "2026-09-16T16:21:28.485357+00:00",
+    "final_url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-03102019-structure-08012016.zip",
+    "status": 200,
+    "content_type": "application/octet-stream",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": null,
+    "error": "body_too_large"
+  },
+  {
+    "source_id": "07f3231c7c2adcc5b69d",
+    "url": "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx",
+    "title": "БД ПМО: методология",
+    "need_ids": [
+      "r3_economy"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": true,
+    "authority_hint": "official",
+    "fetched_at": "2026-09-16T16:21:19.175724+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "73bb0909bbc4a0b4ff1d19c0a5113b0bb59934cbbfb739544641ea2e5a7eadb3",
+    "error": null,
+    "raw_file": "raw/07f3231c7c2adcc5b69d.bin",
+    "raw_bytes": 162482,
+    "kind": "docx_main_text",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/07f3231c7c2adcc5b69d.txt",
+    "text_sha256": "fa36d76d2aecc8813cd652746f2db9643d2eb142f11b743398d3b12f19c1a215",
+    "text_chars": 100000
+  },
+  {
+    "source_id": "08887cc57ce12eaec63f",
+    "url": "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+    "title": "Каталог БД ПМО",
+    "need_ids": [
+      "r3_economy"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": true,
+    "authority_hint": "official",
+    "fetched_at": "2026-09-16T16:21:18.887306+00:00",
+    "final_url": "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "9f245a8e1a1cfad4565cfa6ad2980b4f4b8f8f6e61ac8beddd01d6fc92ca2501",
+    "error": null,
+    "raw_file": "raw/08887cc57ce12eaec63f.bin",
+    "raw_bytes": 565790,
+    "kind": "html",
+    "links": [],
+    "truncated": false,
+    "text_file": "text/08887cc57ce12eaec63f.txt",
+    "text_sha256": "07b3c67b2f110150f8bf01ad0cab0b259881d66c9f654317f89f1d37a73f5c45",
+    "text_chars": 45604
+  },
+  {
+    "source_id": "118951845b1111671ec5",
+    "url": "https://rosstat.gov.ru/storage/mediabank/sev-zapad_fo_2025.pdf",
+    "title": "социально-экономическое положение северо-западного ...",
+    "need_ids": [
+      "r3_sme"
+    ],
+    "engines": [
+      "google cse"
+    ],
+    "queries": [
+      "site:rosstat.gov.ru доля работников малого среднего предпринимательства муниципальные 2024"
+    ],
+    "seed": false,
+    "authority_hint": "official",
+    "fetched_at": "2026-09-16T16:21:21.725850+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/sev-zapad_fo_2025.pdf",
+    "status": 200,
+    "content_type": "application/pdf",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "d3daf32ef2e94aeeb77bd78980032b7671af5a9599d46ac61b5decac7e73e789",
+    "error": null,
+    "raw_file": "raw/118951845b1111671ec5.bin",
+    "raw_bytes": 702643,
+    "kind": "pdf",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/118951845b1111671ec5.txt",
+    "text_sha256": "ca057fbfc14b30ffe1bdefccaca776d47fa2ec4c6be03c511206bdc9371805b9",
+    "text_chars": 100000
+  },
+  {
+    "source_id": "1a7c47f4d4dab8729cf6",
+    "url": "https://kurkino-vmo.ru/glava-munitsipalnogo-okruga/reports/",
+    "title": "Куркино: отчеты главы",
+    "need_ids": [
+      "r3_cases"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": true,
+    "authority_hint": "other",
+    "fetched_at": "2026-09-16T16:21:19.727932+00:00",
+    "final_url": "https://kurkino-vmo.ru/glava-munitsipalnogo-okruga/reports/",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "8dc22b31e348966e021ec7188e8d6741a550da152d885c784b21fd2cf9040656",
+    "error": null,
+    "raw_file": "raw/1a7c47f4d4dab8729cf6.bin",
+    "raw_bytes": 53678,
+    "kind": "html",
+    "links": [],
+    "truncated": false,
+    "text_file": "text/1a7c47f4d4dab8729cf6.txt",
+    "text_sha256": "2645f6570fadf9fac0bbf6a0ad4ce09966739ec24697855c0f08e378b1bc6669",
+    "text_chars": 1549
+  },
+  {
+    "source_id": "298c75a6603117fbe8e5",
+    "url": "https://www.rosstat.gov.ru/storage/mediabank/Stroit_kompleks_2025.pdf",
+    "title": "СТРОИТЕЛЬНЫЙ КОМПЛЕКС РОССИЙСКОЙ ФЕДЕРАЦИИ в ...",
+    "need_ids": [
+      "r3_sme"
+    ],
+    "engines": [
+      "google cse"
+    ],
+    "queries": [
+      "site:rosstat.gov.ru доля работников малого среднего предпринимательства муниципальные 2024"
+    ],
+    "seed": false,
+    "authority_hint": "official",
+    "fetched_at": "2026-09-16T16:21:24.831545+00:00",
+    "final_url": "https://www.rosstat.gov.ru/storage/mediabank/Stroit_kompleks_2025.pdf",
+    "status": 200,
+    "content_type": "application/pdf",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "b4e64ad7b4d01ad9787e511118285a6afbe457ca94dee2264fd18dbf9eb903b5",
+    "error": null,
+    "raw_file": "raw/298c75a6603117fbe8e5.bin",
+    "raw_bytes": 1172517,
+    "kind": "pdf",
+    "links": [],
+    "truncated": false,
+    "text_file": "text/298c75a6603117fbe8e5.txt",
+    "text_sha256": "70468691b8bcd0d149e1ff736d778b0ae3937fc778ef88468590cfa3c049ef36",
+    "text_chars": 57250
+  },
+  {
+    "source_id": "a385685575997b35de44",
+    "url": "https://www.nalog.gov.ru/files/tipovye_usloviya_od.pdf",
+    "title": "Типовые условия использования общедоступной информации, размещаемой в информационно-телекоммуникационной сети \"Интернет\" в форме открытых данных",
+    "need_ids": [
+      "r3_sme"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "de4ec303458e8d66af31"
+    ],
+    "fetched_at": "2026-09-16T16:21:27.943189+00:00",
+    "final_url": "https://www.nalog.gov.ru/files/tipovye_usloviya_od.pdf",
+    "status": 200,
+    "content_type": "application/pdf",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "c772365757d41ff06662566b35b64356e482cb910d7e85302e325959ffc40492",
+    "error": null,
+    "raw_file": "raw/a385685575997b35de44.bin",
+    "raw_bytes": 144536,
+    "kind": "pdf",
+    "links": [],
+    "truncated": false,
+    "text_file": "text/a385685575997b35de44.txt",
+    "text_sha256": "72b6ef5e164dabdbeadf259eb650a890bb78e2af6b8c3ff5e87bddef2fb8b1dc",
+    "text_chars": 6882
+  },
+  {
+    "source_id": "ade08c6a463998fb08de",
+    "url": "https://rmsp.nalog.ru/statistics.html",
+    "title": "ФНС: статистика реестра МСП",
+    "need_ids": [
+      "r3_sme"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": true,
+    "authority_hint": "other",
+    "fetched_at": "2026-09-16T16:21:20.325072+00:00",
+    "final_url": "https://rmsp.nalog.ru/statistics.html",
+    "status": 200,
+    "content_type": "text/html;charset=utf-8",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "a323ce1e32dc402a38b79892ca7e8905d024813efefcfe210f63d52d62c1b10c",
+    "error": null,
+    "raw_file": "raw/ade08c6a463998fb08de.bin",
+    "raw_bytes": 273566,
+    "kind": "html",
+    "links": [],
+    "truncated": false,
+    "text_file": "text/ade08c6a463998fb08de.txt",
+    "text_sha256": "db69a2b7d7b686cc8866f47c34c7f878122d52f432150693f3cd71df237971eb",
+    "text_chars": 3326
+  },
+  {
+    "source_id": "de4ec303458e8d66af31",
+    "url": "https://www.nalog.gov.ru/opendata/7707329152-rsmp/",
+    "title": "ФНС: открытые данные МСП",
+    "need_ids": [
+      "r3_sme"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": true,
+    "authority_hint": "official",
+    "fetched_at": "2026-09-16T16:21:19.574241+00:00",
+    "final_url": "https://www.nalog.gov.ru/opendata/7707329152-rsmp/",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "6ea9786cb819e7fa9cc9148265959c4e1ff39ec444166b3bb9be194aefab83b8",
+    "error": null,
+    "raw_file": "raw/de4ec303458e8d66af31.bin",
+    "raw_bytes": 142269,
+    "kind": "html",
+    "links": [
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/VO_RRMSPSV_2_213_04_04_06.zip",
+        "label": "Описание формата предоставления сведений"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10092026-structure-12052026.zip",
+        "label": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10092026-structure-12052026.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10082026-structure-12052026.zip",
+        "label": "data-10082026-structure-12052026.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10072026-structure-12052026.zip",
+        "label": "data-10072026-structure-12052026.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10062026-structure-12052026.zip",
+        "label": "data-10062026-structure-12052026.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10052026-structure-10062025.zip",
+        "label": "data-10052026-structure-10062025.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10042026-structure-10062025.zip",
+        "label": "data-10042026-structure-10062025.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10032026-structure-10062025.zip",
+        "label": "data-10032026-structure-10062025.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10022026-structure-10062025.zip",
+        "label": "data-10022026-structure-10062025.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10012026-structure-10062025.zip",
+        "label": "data-10012026-structure-10062025.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10122025-structure-10062025.zip",
+        "label": "data-10122025-structure-10062025.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10112025-structure-10062025.zip",
+        "label": "data-10112025-structure-10062025.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10102025-structure-10062025.zip",
+        "label": "data-10102025-structure-10062025.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10092025-structure-10062025.zip",
+        "label": "data-10092025-structure-10062025.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10082025-structure-10062025.zip",
+        "label": "data-10082025-structure-10062025.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10072025-structure-10062025.zip",
+        "label": "data-10072025-structure-10062025.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10062025-structure-10062025.zip",
+        "label": "data-10062025-structure-10062025.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10052025-structure-10062023.zip",
+        "label": "data-10052025-structure-10062023.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10042025-structure-10062023.zip",
+        "label": "data-10042025-structure-10062023.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10032025-structure-10062023.zip",
+        "label": "data-10032025-structure-10062023.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10022025-structure-10062023.zip",
+        "label": "data-10022025-structure-10062023.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10012025-structure-10062023.zip",
+        "label": "data-10012025-structure-10062023.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10122024-structure-10062023.zip",
+        "label": "data-10122024-structure-10062023.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10112024-structure-10062023.zip",
+        "label": "data-10112024-structure-10062023.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10102024-structure-10062023.zip",
+        "label": "data-10102024-structure-10062023.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10092024-structure-10062023.zip",
+        "label": "data-10092024-structure-10062023.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10082024-structure-10062023.zip",
+        "label": "data-10082024-structure-10062023.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10072024-structure-10062023.zip",
+        "label": "data-10072024-structure-10062023.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10062024-structure-10062023.zip",
+        "label": "data-10062024-structure-10062023.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10052024-structure-10062023.zip",
+        "label": "data-10052024-structure-10062023.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10042024-structure-10062023.zip",
+        "label": "data-10042024-structure-10062023.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10032024-structure-10062023.zip",
+        "label": "data-10032024-structure-10062023.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10022024-structure-10062023.zip",
+        "label": "data-10022024-structure-10062023.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10012024-structure-10062023.zip",
+        "label": "data-10012024-structure-10062023.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10122023-structure-10062023.zip",
+        "label": "data-10122023-structure-10062023.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10112023-structure-10062023.zip",
+        "label": "data-10112023-structure-10062023.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10102023-structure-10062023.zip",
+        "label": "data-10102023-structure-10062023.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10092023-structure-10062023.zip",
+        "label": "data-10092023-structure-10062023.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10082023-structure-10062023.zip",
+        "label": "data-10082023-structure-10062023.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10072023-structure-10062023.zip",
+        "label": "data-10072023-structure-10062023.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10062023-structure-10062023.zip",
+        "label": "data-10062023-structure-10062023.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10052023-structure-10032022.zip",
+        "label": "data-10052023-structure-10032022.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10042023-structure-10032022.zip",
+        "label": "data-10042023-structure-10032022.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10032023-structure-10032022.zip",
+        "label": "data-10032023-structure-10032022.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10022023-structure-10032022.zip",
+        "label": "data-10022023-structure-10032022.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10012023-structure-10032022.zip",
+        "label": "data-10012023-structure-10032022.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10122022-structure-10032022.zip",
+        "label": "data-10122022-structure-10032022.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10112022-structure-10032022.zip",
+        "label": "data-10112022-structure-10032022.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10102022-structure-10032022.zip",
+        "label": "data-10102022-structure-10032022.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10092022-structure-10032022.zip",
+        "label": "data-10092022-structure-10032022.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10082022-structure-10032022.zip",
+        "label": "data-10082022-structure-10032022.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10072022-structure-10032022.zip",
+        "label": "data-10072022-structure-10032022.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10062022-structure-10032022.zip",
+        "label": "data-10062022-structure-10032022.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10052022-structure-10032022.zip",
+        "label": "data-10052022-structure-10032022.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10042022-structure-10032022.zip",
+        "label": "data-10042022-structure-10032022.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10032022-structure-10032022.zip",
+        "label": "data-10032022-structure-10032022.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10022022-structure-10082021.zip",
+        "label": "data-10022022-structure-10082021.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10012022-structure-10082021.zip",
+        "label": "data-10012022-structure-10082021.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10122021-structure-10082021.zip",
+        "label": "data-10122021-structure-10082021.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10112021-structure-10082021.zip",
+        "label": "data-10112021-structure-10082021.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10102021-structure-10082021.zip",
+        "label": "data-10102021-structure-10082021.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10092021-structure-10082021.zip",
+        "label": "data-10092021-structure-10082021.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10082021-structure-10082021.zip",
+        "label": "data-10082021-structure-10082021.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10072021-structure-15052020.zip",
+        "label": "data-10072021-structure-15052020.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-14062021-structure-15052020.zip",
+        "label": "data-14062021-structure-15052020.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10052021-structure-15052020.zip",
+        "label": "data-10052021-structure-15052020.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10042021-structure-15052020.zip",
+        "label": "data-10042021-structure-15052020.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10032021-structure-15052020.zip",
+        "label": "data-10032021-structure-15052020.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10022021-structure-15052020.zip",
+        "label": "data-10022021-structure-15052020.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10012021-structure-15052020.zip",
+        "label": "data-10012021-structure-15052020.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-12102020-structure-15052020.zip",
+        "label": "data-12102020-structure-15052020.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-11102020-structure-15052020.zip",
+        "label": "data-11102020-structure-15052020.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10102020-structure-15052020.zip",
+        "label": "data-10102020-structure-15052020.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-09102020-structure-15052020.zip",
+        "label": "data-09102020-structure-15052020.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-08102020-structure-15052020.zip",
+        "label": "data-08102020-structure-15052020.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-07102020-structure-15052020.zip",
+        "label": "data-07102020-structure-15052020.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-06102020-structure-15052020.zip",
+        "label": "data-06102020-structure-15052020.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-05102020-structure-10102019.zip",
+        "label": "data-05102020-structure-10102019.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-04102020-structure-10102019.zip",
+        "label": "data-04102020-structure-10102019.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-03102020-structure-10102019.zip",
+        "label": "data-03102020-structure-10102019.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-02102020-structure-10102019.zip",
+        "label": "data-02102020-structure-10102019.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-01102020-structure-10102019.zip",
+        "label": "data-01102020-structure-10102019.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-12102019-structure-10102019.zip",
+        "label": "data-12102019-structure-10102019.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-11102019-structure-10102019.zip",
+        "label": "data-11102019-structure-10102019.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10102019-structure-10102019.zip",
+        "label": "data-10102019-structure-10102019.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-09102019-structure-08012016.zip",
+        "label": "data-09102019-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-08102019-structure-08012016.zip",
+        "label": "data-08102019-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-07102019-structure-08012016.zip",
+        "label": "data-07102019-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-06102019-structure-08012016.zip",
+        "label": "data-06102019-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-05102019-structure-08012016.zip",
+        "label": "data-05102019-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-04102019-structure-08012016.zip",
+        "label": "data-04102019-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-03102019-structure-08012016.zip",
+        "label": "data-03102019-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-02102019-structure-08012016.zip",
+        "label": "data-02102019-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-01102019-structure-08012016.zip",
+        "label": "data-01102019-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-12102018-structure-08012016.zip",
+        "label": "data-12102018-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-11102018-structure-08012016.zip",
+        "label": "data-11102018-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10102018-structure-08012016.zip",
+        "label": "data-10102018-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-09102018-structure-08012016.zip",
+        "label": "data-09102018-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-08102018-structure-08012016.zip",
+        "label": "data-08102018-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-07102018-structure-08012016.zip",
+        "label": "data-07102018-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-06102018-structure-08012016.zip",
+        "label": "data-06102018-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-05102018-structure-08012016.zip",
+        "label": "data-05102018-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-04102018-structure-08012016.zip",
+        "label": "data-04102018-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-03102018-structure-08012016.zip",
+        "label": "data-03102018-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-02102018-structure-08012016.zip",
+        "label": "data-02102018-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-01102018-structure-08012016.zip",
+        "label": "data-01102018-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-12102017-structure-08012016.zip",
+        "label": "data-12102017-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-11102017-structure-08012016.zip",
+        "label": "data-11102017-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10102017-structure-08012016.zip",
+        "label": "data-10102017-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-09102017-structure-08012016.zip",
+        "label": "data-09102017-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-08102017-structure-08012016.zip",
+        "label": "data-08102017-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-07102017-structure-08012016.zip",
+        "label": "data-07102017-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-06102017-structure-08012016.zip",
+        "label": "data-06102017-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-05102017-structure-08012016.zip",
+        "label": "data-05102017-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-04102017-structure-08012016.zip",
+        "label": "data-04102017-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-03102017-structure-08012016.zip",
+        "label": "data-03102017-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-02102017-structure-08012016.zip",
+        "label": "data-02102017-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-01102017-structure-08012016.zip",
+        "label": "data-01102017-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-12102016-structure-08012016.zip",
+        "label": "data-12102016-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-11102016-structure-08012016.zip",
+        "label": "data-11102016-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10102016-structure-08012016.zip",
+        "label": "data-10102016-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-09102016-structure-08012016.zip",
+        "label": "data-09102016-structure-08012016.zip"
+      },
+      {
+        "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-08102016-structure-08012016.zip",
+        "label": "data-08102016-structure-08012016.zip"
+      },
+      {
+        "url": "https://www.nalog.gov.ru/files/tipovye_usloviya_od.pdf",
+        "label": "Типовые условия использования общедоступной информации, размещаемой в информационно-телекоммуникационной сети \"Интернет\" в форме открытых данных"
+      }
+    ],
+    "truncated": false,
+    "text_file": "text/de4ec303458e8d66af31.txt",
+    "text_sha256": "1d2819ebe712bd6e8ff5b41da78f41b572a7247b726d98fc2345f66553e5be1b",
+    "text_chars": 11077
+  }
+]

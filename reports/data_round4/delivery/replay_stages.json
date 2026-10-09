@@ -1,0 +1,34 @@
+[
+  {
+    "stage": "economy_collect",
+    "returncode": 0
+  },
+  {
+    "stage": "economy_independent",
+    "returncode": 0
+  },
+  {
+    "stage": "geography",
+    "returncode": 0
+  },
+  {
+    "stage": "cases",
+    "returncode": 0
+  },
+  {
+    "stage": "sme_extract",
+    "returncode": 0
+  },
+  {
+    "stage": "sme_audit",
+    "returncode": 0
+  },
+  {
+    "stage": "sme_independent",
+    "returncode": 0
+  },
+  {
+    "stage": "search",
+    "returncode": 0
+  }
+]

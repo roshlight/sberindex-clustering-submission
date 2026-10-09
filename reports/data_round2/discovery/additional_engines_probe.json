@@ -1,0 +1,22 @@
+[
+  {
+    "engine": "duckduckgo",
+    "results": 0,
+    "unresponsive_engines": [
+      [
+        "duckduckgo",
+        "CAPTCHA"
+      ]
+    ]
+  },
+  {
+    "engine": "brave",
+    "results": 0,
+    "unresponsive_engines": [
+      [
+        "brave",
+        "too many requests"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "selection_pool": 1998,
+  "examples": 6,
+  "selection_ids_in_order": [
+    331,
+    318,
+    2527,
+    925,
+    1180,
+    883
+  ],
+  "rule": "Three largest positive and three smallest negative residuals; territory_id ascending tie-break.",
+  "source_cells_checked_against_archived_raw_csv": 18,
+  "all_source_values_equal": true,
+  "raw_csv_exact_source_hash_checks": 18,
+  "archived_source_normalization_checks": 0,
+  "source_consumption_rows_retained": 864,
+  "monthly_profile_median_not_annual_panel_mean": true,
+  "core_manifest_output_hashes_verified": [
+    "annual_panel.csv",
+    "oof_predictions.parquet"
+  ],
+  "no_refitting_no_network_no_model_calls": true,
+  "interpretation": "Examples selected after outcome inspection; exploratory residual descriptions only."
+}

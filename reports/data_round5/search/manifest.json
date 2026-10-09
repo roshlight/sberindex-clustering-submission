@@ -1,0 +1,7 @@
+{
+  "script_sha256": "0c5dc95bf17a8753e85e0afb4e1a4e9e63c036dac77fdeb827cf1cbf5d473d8c",
+  "outputs": {
+    "server_summary.json": "a09de3d7b3e7aaf256da177a2a2175119cf06d0989295694ff6351a034000a5f",
+    "server_document_inventory.csv": "6fd91d3ee2804b88037ca277bb798c900eb4b376fded31d6bd2a606058c90c42"
+  }
+}

@@ -1,0 +1,4 @@
+asset,source_rows,exact_syntax_rows,syntax_review_rows,syntax_review_pct,scientific_notation_rows,other_digit_length_rows,empty_rows,other_syntax_rows,exact_syntax_proves_historical_validity,rows_are_distinct_companies
+cities.csv,1117,1018,99,8.863025962399,0,99,0,0,False,False
+cities_additional.csv,12,11,1,8.333333333333,0,0,1,0,False,False
+settlements.csv,155921,148295,7626,4.89093835981,396,7229,0,1,False,False

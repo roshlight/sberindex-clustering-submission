@@ -1,0 +1,15 @@
+{
+  "analysis_status": "descriptive_conditional_city_context_not_causal",
+  "cohort": 2016,
+  "iszh_city_years": 429,
+  "primary_ratio_cities": 207,
+  "median_city_price_ratio": 1.0691796065701589,
+  "common_basket_median_ratio": 1.0700023706882367,
+  "common_basket_same_city_original_median": 1.0724095608695965,
+  "matched_positive_month_pairs": 1238346,
+  "city_product_pairs_any": 103242,
+  "city_product_pairs_12": 102759,
+  "common_basket_products": 377,
+  "common_basket_complete_cities": 90,
+  "ratio_lt_half_or_gt_double_12month": 290
+}

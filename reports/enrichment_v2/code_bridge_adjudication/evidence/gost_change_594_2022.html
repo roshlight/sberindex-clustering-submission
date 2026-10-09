@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Изменение 594/2022 ОКТМО — Карточка изменения — Росстандарт</title>
+    <meta name="DESCRIPTION" Content=" - ">
+    <meta name="KEYWORDS" content=" - " />
+
+
+    <!-- Tailwind CSS — локальная сборка -->
+    <link rel="stylesheet" href="/css/tailwind.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Дополнительные стили проекта -->
+    <link rel="stylesheet" href="/css/custom.css">
+
+</head>
+<body class="bg-white font-sans text-gray-800 min-h-screen flex flex-col">
+
+<!-- ===== ГОСПОЛОСА ===== -->
+
+<div class="bg-white border-b border-rst-border">
+    <div class="max-w-7xl mx-auto px-3 sm:px-4 py-2 flex items-center justify-between">
+
+        <!-- Левая часть: Прижата к левому краю -->
+        <span class="text-xs text-gray-500">
+            Официальный портал Росстандарта
+        </span>
+
+        <!-- Правая часть: Прижата к правому краю и сделана более заметной -->
+
+
+        <!--
+        <a
+                href="https://oldprotect.gost.ru/"
+
+                class="inline-flex
+items-center gap-1.5
+px-3 py-1.5
+text-xs font-bold
+
+bg-rst-gold/20
+text-rst-blue-dark
+border border-rst-gold/50
+
+rounded-full
+
+hover:bg-rst-gold
+hover:text-rst-blue-dark
+
+transition-all
+duration-200 shadow-sm
+hover:shadow-md
+hover:-translate-y-0.5
+
+focus:outline-none
+focus:ring-2
+focus:ring-rst-gold
+focus:ring-offset-1">
+
+
+            <!- Иконка "часы" - фиксированные цвета ->
+
+            <svg
+                    class="w-3.5 h-3.5 shrink-0 stroke-current"
+
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24">
+
+                <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2.5"
+
+                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+
+            </svg>
+
+
+            <span
+                    class="whitespace-nowrap">Старая версия</span>
+
+
+            <!- Иконка "внешняя ссылка" - фиксированные цвета ->
+
+            <svg
+                    class="w-3 h-3 opacity-80 shrink-0 stroke-current"
+
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24">
+
+                <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2.5"
+
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+
+            </svg>
+
+        </a>
+        -->
+
+
+
+
+    </div>
+</div>
+
+
+<!-- ===== HEADER ===== -->
+<header class="relative z-40 bg-gradient-to-r from-rst-blue-dark via-rst-blue to-rst-blue-light shadow-lg">
+    <div class="max-w-7xl mx-auto px-3 sm:px-4">
+
+        <!-- Верхняя часть хедера: лого + кнопки + бургер -->
+        <div class="flex items-center justify-between py-3 sm:py-4">
+
+            <!-- Логотип -->
+            <a href="/" class="flex items-center gap-2 sm:gap-4 group min-w-0">
+                <img src="https://www.rst.gov.ru/navigationRST/images/header/gerb.png"
+                     alt="Логотип Росстандарта"
+                     class="w-8 h-10 sm:w-10 sm:h-12 shrink-0 object-contain">
+                <div class="text-white min-w-0">
+                    <div class="text-base sm:text-xl font-bold tracking-wide font-serif truncate">
+                        Росстандарт
+                    </div>
+                    <div class="text-[10px] sm:text-xs text-blue-200 leading-tight
+                                max-w-[200px] sm:max-w-xs hidden xs:block">
+                        Федеральное агентство по техническому регулированию и метрологии
+                    </div>
+                </div>
+            </a>
+
+            <div class="flex items-center gap-2 sm:gap-3">
+                <!-- Десктопные кнопки (скрыты на мобильных) -->
+                <div class="hidden md:flex items-center gap-3">
+
+<div class="flex items-center gap-3">
+        <a href="/classificators/details/3894e5d8-b082-4cca-be7c-709deadb5a1e"
+        class="px-5 py-2 text-sm text-white border border-white/30 rounded
+              hover:bg-white/10 hover:border-white/60 transition font-medium flex items-center gap-2">
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+    </svg>
+    К карточке документа
+</a>
+</div>
+                </div>
+
+                <!-- ===== КНОПКА БУРГЕР-МЕНЮ (только мобильные) ===== -->
+                <button type="button" id="mobileMenuOpen"
+                        class="md:hidden p-2 text-white hover:bg-white/10
+                               rounded-lg transition"
+                        aria-label="Открыть меню">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                              stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- ===== ДЕСКТОПНАЯ НАВИГАЦИЯ (скрыта на мобильных) ===== -->
+        <nav class="border-t border-white/20 hidden md:block">
+            <div class="flex items-center gap-0 scrollbar-hide">
+
+                <a href="/"
+                   class="px-5 py-3 text-sm text-blue-100 hover:text-white
+                          hover:bg-white/10 transition whitespace-nowrap font-medium">
+                    Главная
+                </a>
+
+                <!-- Стандарты (с выпадающим подменю) -->
+                <div class="relative group" id="navStandards">
+                    <button type="button"
+                            class="px-5 py-3 text-sm text-blue-100 hover:text-white
+                                   hover:bg-white/10 transition whitespace-nowrap
+                                   flex items-center gap-1.5 cursor-pointer"
+                            onclick="toggleDropdown('dropdownStandards')">
+                        Стандарты
+                        <svg class="w-3.5 h-3.5 transition-transform duration-200
+                                    group-hover:rotate-180"
+                             id="arrowStandards"
+                             fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                  stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+
+                    <!-- Выпадающее подменю (1-й уровень) -->
+                    <div id="dropdownStandards"
+                         class="hidden absolute left-0 top-full z-50
+                                bg-white border border-rst-border rounded-b-lg
+                                shadow-xl min-w-[320px]
+                                animate-fadeIn">
+                        <div class="py-1">
+
+                            <!-- ===== ПУНКТ С ПОДМЕНЮ 2-ГО УРОВНЯ: ГОСТ ===== -->
+                            <div class="relative group/submenu" id="navGost">
+                                <button type="button"
+                                        class="flex items-center justify-between w-full
+                                               gap-3 px-4 py-3
+                                               text-sm text-gray-700 hover:bg-rst-blue
+                                               hover:text-white transition group/item"
+                                        onclick="toggleSubmenu('submenuGost', event)">
+                                    <span class="flex items-center gap-3">
+                                        <span class="w-8 h-8 bg-rst-blue/10 rounded-lg
+                                                     flex items-center justify-center shrink-0
+                                                     group-hover/item:bg-white/20 transition">
+                                            <svg class="w-4 h-4 text-rst-blue group-hover/item:text-white transition"
+                                                 fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                      stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"/>
+                                            </svg>
+                                        </span>
+                                        <div class="text-left">
+                                            <div class="font-semibold">ГОСТ, ГОСТ Р, ПНСТ</div>
+                                            <div class="text-xs text-gray-400 group-hover/item:text-blue-200 transition">
+                                                Опубликование ГОСТ, ГОСТ Р, ПНСТ
+                                            </div>
+                                        </div>
+                                    </span>
+                                    <!-- Стрелка для подменю -->
+                                    <svg class="w-4 h-4 text-gray-400 group-hover/item:text-white/70
+                                                transition-transform duration-200 shrink-0"
+                                         id="arrowGost"
+                                         fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                              stroke-width="2" d="M9 5l7 7-7 7"/>
+                                    </svg>
+                                </button>
+
+                                <!-- Подменю 2-го уровня: ГОСТ -->
+                                <div id="submenuGost"
+                                     class="hidden absolute left-full top-0 z-50
+                                            bg-white border border-rst-border rounded-lg
+                                            shadow-xl min-w-[280px]
+                                            animate-fadeInSubmenu">
+                                    <div class="py-1">
+                                        <a href="/gost/"
+                                           class="flex items-center gap-3 px-4 py-3
+                                                  text-sm text-gray-700 hover:bg-rst-blue
+                                                  hover:text-white transition group/subitem">
+                                            <span class="w-7 h-7 bg-rst-blue/10 rounded
+                                                         flex items-center justify-center shrink-0
+                                                         group-hover/subitem:bg-white/20 transition">
+                                                <svg class="w-3.5 h-3.5 text-rst-blue group-hover/subitem:text-white transition"
+                                                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                          stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                                                </svg>
+                                            </span>
+                                            <div>
+                                                <div class="font-medium">Документы</div>
+                                                <div class="text-xs text-gray-400 group-hover/subitem:text-blue-200">
+                                                    Опубликование документов ГОСТ, ГОСТ Р, ПНСТ
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="/gost/changes"
+                                           class="flex items-center gap-3 px-4 py-3
+                                                  text-sm text-gray-700 hover:bg-rst-blue
+                                                  hover:text-white transition group/subitem">
+                                            <span class="w-7 h-7 bg-rst-blue/10 rounded
+                                                         flex items-center justify-center shrink-0
+                                                         group-hover/subitem:bg-white/20 transition">
+                                                <svg class="w-3.5 h-3.5 text-rst-blue group-hover/subitem:text-white transition"
+                                                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                          stroke-width="2" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"/>
+                                                </svg>
+                                            </span>
+                                            <div>
+                                                <div class="font-medium">Изменения и корректировки</div>
+                                                <div class="text-xs text-gray-400 group-hover/subitem:text-blue-200">
+                                                    Опубликование изменений и корректировок ГОСТ, ГОСТ Р, ПНСТ
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ===== ПУНКТ С ПОДМЕНЮ 2-ГО УРОВНЯ: Своды правил ===== -->
+                            <div class="relative group/submenu" id="navSp">
+                                <button type="button"
+                                        class="flex items-center justify-between w-full
+                                               gap-3 px-4 py-3
+                                               text-sm text-gray-700 hover:bg-rst-blue
+                                               hover:text-white transition group/item"
+                                        onclick="toggleSubmenu('submenuSp', event)">
+                                    <span class="flex items-center gap-3">
+                                        <span class="w-8 h-8 bg-rst-blue/10 rounded-lg
+                                                     flex items-center justify-center shrink-0
+                                                     group-hover/item:bg-white/20 transition">
+                                            <svg class="w-4 h-4 text-rst-blue group-hover/item:text-white transition"
+                                                 fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                      stroke-width="2"
+                                                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                                            </svg>
+                                        </span>
+                                        <div class="text-left">
+                                            <div class="font-semibold">Своды правил</div>
+                                            <div class="text-xs text-gray-400 group-hover/item:text-blue-200 transition">
+                                                Опубликование сводов правил
+                                            </div>
+                                        </div>
+                                    </span>
+                                    <svg class="w-4 h-4 text-gray-400 group-hover/item:text-white/70
+                                                transition-transform duration-200 shrink-0"
+                                         id="arrowSp"
+                                         fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                              stroke-width="2" d="M9 5l7 7-7 7"/>
+                                    </svg>
+                                </button>
+
+                                <!-- Подменю 2-го уровня: Своды правил -->
+                                <div id="submenuSp"
+                                     class="hidden absolute left-full top-0 z-50
+                                            bg-white border border-rst-border rounded-lg
+                                            shadow-xl min-w-[260px]
+                                            animate-fadeInSubmenu">
+                                    <div class="py-1">
+                                        <a href="/sp/"
+                                           class="flex items-center gap-3 px-4 py-3
+                                                  text-sm text-gray-700 hover:bg-rst-blue
+                                                  hover:text-white transition group/subitem">
+                                            <span class="w-7 h-7 bg-rst-blue/10 rounded
+                                                         flex items-center justify-center shrink-0
+                                                         group-hover/subitem:bg-white/20 transition">
+                                                <svg class="w-3.5 h-3.5 text-rst-blue group-hover/subitem:text-white transition"
+                                                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                          stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                                                </svg>
+                                            </span>
+                                            <div>
+                                                <div class="font-medium">Документы</div>
+                                                <div class="text-xs text-gray-400 group-hover/subitem:text-blue-200">
+                                                    Опубликование документов сводов правил
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="/sp/changes"
+                                           class="flex items-center gap-3 px-4 py-3
+                                                  text-sm text-gray-700 hover:bg-rst-blue
+                                                  hover:text-white transition group/subitem">
+                                            <span class="w-7 h-7 bg-rst-blue/10 rounded
+                                                         flex items-center justify-center shrink-0
+                                                         group-hover/subitem:bg-white/20 transition">
+                                                <svg class="w-3.5 h-3.5 text-rst-blue group-hover/subitem:text-white transition"
+                                                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                          stroke-width="2" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"/>
+                                                </svg>
+                                            </span>
+                                            <div>
+                                                <div class="font-medium">Изменения и корректировки</div>
+                                                <div class="text-xs text-gray-400 group-hover/subitem:text-blue-200">
+                                                    Изменения и корректировки
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ===== ПУНКТ С ПОДМЕНЮ 2-ГО УРОВНЯ: Своды правил ===== -->
+                            <div class="relative group/submenu" id="navRST">
+                                <button type="button"
+                                        class="flex items-center justify-between w-full
+                                               gap-3 px-4 py-3
+                                               text-sm text-gray-700 hover:bg-rst-blue
+                                               hover:text-white transition group/item"
+                                        onclick="toggleSubmenu('submenuRst', event)">
+                                    <span class="flex items-center gap-3">
+                                        <span class="w-8 h-8 bg-rst-blue/10 rounded-lg
+                                                     flex items-center justify-center shrink-0
+                                                     group-hover/item:bg-white/20 transition">
+                                            <svg class="w-4 h-4 text-rst-blue group-hover/item:text-white transition"
+                                                 fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                      stroke-width="2"
+                                                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                                            </svg>
+                                        </span>
+                                        <div class="text-left">
+                                            <div class="font-semibold">ПР,Р,ПМГ,РМГ</div>
+                                            <div class="text-xs text-gray-400 group-hover/item:text-blue-200 transition">
+                                                Правила по стандартизации
+                                            </div>
+                                        </div>
+                                    </span>
+                                    <svg class="w-4 h-4 text-gray-400 group-hover/item:text-white/70
+                                                transition-transform duration-200 shrink-0"
+                                         id="arrowSp"
+                                         fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                              stroke-width="2" d="M9 5l7 7-7 7"/>
+                                    </svg>
+                                </button>
+
+                                <!-- Подменю 2-го уровня: Своды правил -->
+                                <div id="submenuRst"
+                                     class="hidden absolute left-full top-0 z-50
+                                            bg-white border border-rst-border rounded-lg
+                                            shadow-xl min-w-[260px]
+                                            animate-fadeInSubmenu">
+                                    <div class="py-1">
+                                        <a href="/rst/"
+                                           class="flex items-center gap-3 px-4 py-3
+                                                  text-sm text-gray-700 hover:bg-rst-blue
+                                                  hover:text-white transition group/subitem">
+                                            <span class="w-7 h-7 bg-rst-blue/10 rounded
+                                                         flex items-center justify-center shrink-0
+                                                         group-hover/subitem:bg-white/20 transition">
+                                                <svg class="w-3.5 h-3.5 text-rst-blue group-hover/subitem:text-white transition"
+                                                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                          stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                                                </svg>
+                                            </span>
+                                            <div>
+                                                <div class="font-medium">Документы</div>
+                                                <div class="text-xs text-gray-400 group-hover/subitem:text-blue-200">
+                                                    Опубликование документов правил по стандартизации
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="/rst/changes"
+                                           class="flex items-center gap-3 px-4 py-3
+                                                  text-sm text-gray-700 hover:bg-rst-blue
+                                                  hover:text-white transition group/subitem">
+                                            <span class="w-7 h-7 bg-rst-blue/10 rounded
+                                                         flex items-center justify-center shrink-0
+                                                         group-hover/subitem:bg-white/20 transition">
+                                                <svg class="w-3.5 h-3.5 text-rst-blue group-hover/subitem:text-white transition"
+                                                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                          stroke-width="2" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"/>
+                                                </svg>
+                                            </span>
+                                            <div>
+                                                <div class="font-medium">Изменения и корректировки</div>
+                                                <div class="text-xs text-gray-400 group-hover/subitem:text-blue-200">
+                                                    Опубликование изменений и корректировок правил по стандартизации
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Обычные пункты без подменю -->
+                            <a href="/foundational"
+                               class="flex items-center gap-3 px-4 py-3
+                                      text-sm text-gray-700 hover:bg-rst-blue
+                                      hover:text-white transition group/item">
+                                <span class="w-8 h-8 bg-rst-blue/10 rounded-lg
+                                             flex items-center justify-center shrink-0
+                                             group-hover/item:bg-white/20 transition">
+                                    <svg class="w-4 h-4 text-rst-blue group-hover/item:text-white transition"
+                                         fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                              stroke-width="2"
+                                              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                                    </svg>
+                                </span>
+                                <div>
+                                    <div class="font-semibold">Перечень основополагающих стандартов</div>
+                                    <div class="text-xs text-gray-400 group-hover/item:text-blue-200 transition">
+                                        Национальные стандарты РФ
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Стандарты (с выпадающим подменю) -->
+                <div class="relative group" id="navClassificators">
+                    <button type="button"
+                            class="px-5 py-3 text-sm text-blue-100 hover:text-white
+                                   hover:bg-white/10 transition whitespace-nowrap
+                                   flex items-center gap-1.5 cursor-pointer"
+                            onclick="toggleDropdown('dropdownClassificators')">
+                        Классификаторы
+                        <svg class="w-3.5 h-3.5 transition-transform duration-200
+                                    group-hover:rotate-180"
+                             id="arrowStandards"
+                             fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                  stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+
+                    <!-- Выпадающее подменю (1-й уровень) -->
+                    <div id="dropdownClassificators"
+                         class="hidden absolute left-0 top-full z-50
+                                bg-white border border-rst-border rounded-b-lg
+                                shadow-xl min-w-[320px]
+                                animate-fadeIn">
+                        <div class="py-1">
+
+
+
+                            <!-- Обычные пункты без подменю -->
+                            <a href="/classificators/"
+                               class="flex items-center gap-3 px-4 py-3
+                                      text-sm text-gray-700 hover:bg-rst-blue
+                                      hover:text-white transition group/item">
+                                <span class="w-8 h-8 bg-rst-blue/10 rounded-lg
+                                             flex items-center justify-center shrink-0
+                                             group-hover/item:bg-white/20 transition">
+                                    <svg class="w-4 h-4 text-rst-blue group-hover/item:text-white transition"
+                                         fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                              stroke-width="2"
+                                              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                                    </svg>
+                                </span>
+                                <div>
+                                    <div class="font-semibold">ОК</div>
+                                    <div class="text-xs text-gray-400 group-hover/item:text-blue-200 transition">
+                                        Общероссийские классификаторы
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="/classificators/changes"
+                               class="flex items-center gap-3 px-4 py-3
+                                      text-sm text-gray-700 hover:bg-rst-blue
+                                      hover:text-white transition group/item">
+                                <span class="w-8 h-8 bg-rst-blue/10 rounded-lg
+                                             flex items-center justify-center shrink-0
+                                             group-hover/item:bg-white/20 transition">
+                                    <svg class="w-4 h-4 text-rst-blue group-hover/item:text-white transition"
+                                         fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                              stroke-width="2"
+                                              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                                    </svg>
+                                </span>
+                                <div>
+                                    <div class="font-semibold">Изменения и корректировки</div>
+                                    <div class="text-xs text-gray-400 group-hover/item:text-blue-200 transition">
+                                        Изменения и корректировки к Общероссийским классификаторам
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Стандарты (с выпадающим подменю) -->
+                <div class="relative group" id="navTR">
+                    <button type="button"
+                            class="px-5 py-3 text-sm text-blue-100 hover:text-white
+                                   hover:bg-white/10 transition whitespace-nowrap
+                                   flex items-center gap-1.5 cursor-pointer"
+                            onclick="toggleDropdown('dropdownTR')">
+                        Технические регламенты
+                        <svg class="w-3.5 h-3.5 transition-transform duration-200
+                                    group-hover:rotate-180"
+                             id="arrowStandards"
+                             fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                  stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+
+                    <!-- Выпадающее подменю (1-й уровень) -->
+                    <div id="dropdownTR"
+                         class="hidden absolute left-0 top-full z-50
+                                bg-white border border-rst-border rounded-b-lg
+                                shadow-xl min-w-[320px]
+                                animate-fadeIn">
+                        <div class="py-1">
+
+
+
+                            <!-- Обычные пункты без подменю -->
+                            <a href="/tr/"
+                               class="flex items-center gap-3 px-4 py-3
+                                      text-sm text-gray-700 hover:bg-rst-blue
+                                      hover:text-white transition group/item">
+                                <span class="w-8 h-8 bg-rst-blue/10 rounded-lg
+                                             flex items-center justify-center shrink-0
+                                             group-hover/item:bg-white/20 transition">
+                                    <svg class="w-4 h-4 text-rst-blue group-hover/item:text-white transition"
+                                         fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                              stroke-width="2"
+                                              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                                    </svg>
+                                </span>
+                                <div>
+                                    <div class="font-semibold">ТР</div>
+                                    <div class="text-xs text-gray-400 group-hover/item:text-blue-200 transition">
+                                        Технические регламенты
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="/tr/changes"
+                               class="flex items-center gap-3 px-4 py-3
+                                      text-sm text-gray-700 hover:bg-rst-blue
+                                      hover:text-white transition group/item">
+                                <span class="w-8 h-8 bg-rst-blue/10 rounded-lg
+                                             flex items-center justify-center shrink-0
+                                             group-hover/item:bg-white/20 transition">
+                                    <svg class="w-4 h-4 text-rst-blue group-hover/item:text-white transition"
+                                         fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                              stroke-width="2"
+                                              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                                    </svg>
+                                </span>
+                                <div>
+                                    <div class="font-semibold">Изменения и корректировки</div>
+                                    <div class="text-xs text-gray-400 group-hover/item:text-blue-200 transition">
+                                        Изменения и корректировки к Техническим регламентам
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+        </nav>
+
+    </div>
+<!--
+    <div class="border-t border-white/20 bg-rst-blue-dark/30 backdrop-blur-sm">
+        <div class="max-w-7xl mx-auto px-3 sm:px-4 py-2.5">
+            <p class="text-xs sm:text-sm text-blue-100 text-center leading-relaxed">
+            <span class="inline-flex items-center justify-center gap-2">
+                <svg class="w-4 h-4 shrink-0 text-rst-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+                <span>
+                    Информируем, что старая версия сайта размещена по адресу
+                    <a href="https://oldprotect.gost.ru/"
+                       class="text-rst-gold hover:text-white font-medium underline
+                              decoration-rst-gold/50 hover:decoration-white transition-all duration-200">
+                        oldprotect.gost.ru
+                    </a>
+                    и будет доступна до <span class="font-semibold text-white">30.04.2026</span>
+                </span>
+            </span>
+            </p>
+        </div>
+    </div>
+    -->
+</header>
+
+<!-- ===== МОБИЛЬНОЕ ВЫДВИЖНОЕ МЕНЮ ===== -->
+<div id="mobileMenu" class="fixed inset-0 z-[100] invisible md:hidden">
+    <!-- Затемнённый фон -->
+    <div id="mobileMenuOverlay"
+         class="absolute inset-0 bg-black/50 opacity-0
+            transition-opacity duration-300"></div>
+
+    <!-- Панель меню (справа) -->
+    <div id="mobileMenuPanel"
+         class="absolute right-0 top-0 h-full w-[85%] max-w-sm
+            bg-white shadow-2xl flex flex-col
+            transform translate-x-full
+            transition-transform duration-300">
+
+
+    <!-- Шапка панели -->
+        <div class="bg-gradient-to-r from-rst-blue-dark to-rst-blue
+                    px-4 py-4 flex items-center justify-between shrink-0">
+            <div class="text-white">
+                <div class="font-bold font-serif">Росстандарт</div>
+                <div class="text-[10px] text-blue-200">Портал стандартов</div>
+            </div>
+            <button type="button" id="mobileMenuClose"
+                    class="p-2 text-white hover:bg-white/10 rounded-lg transition"
+                    aria-label="Закрыть меню">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Пункты меню (прокручиваемые) -->
+        <div class="flex-1 overflow-y-auto">
+            <nav class="py-2">
+
+                <a href="/"
+                   class="flex items-center gap-3 px-5 py-3.5 text-gray-700
+                          hover:bg-rst-gray transition text-sm font-medium">
+                    <svg class="w-5 h-5 text-rst-blue shrink-0" fill="none"
+                         stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-4 0a1 1 0 01-1-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 01-1 1"/>
+                    </svg>
+                    Главная
+                </a>
+
+                <!-- Стандарты (аккордрдеон 1-го уровня) -->
+                <div class="border-t border-rst-border/50">
+                    <button type="button"
+                            onclick="toggleMobileAccordion('mobileSubStandards')"
+                            class="flex items-center justify-between w-full px-5 py-3.5
+                                   text-gray-700 hover:bg-rst-gray transition text-sm font-medium">
+                        <span class="flex items-center gap-3">
+                            <svg class="w-5 h-5 text-rst-blue shrink-0" fill="none"
+                                 stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                      stroke-width="2"
+                                      d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                            </svg>
+                            Стандарты
+                        </span>
+                        <svg id="mobileSubStandardsArrow"
+                             class="w-4 h-4 text-gray-400 transition-transform duration-200"
+                             fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                  stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+
+                    <!-- Подменю 1-го уровня: Стандарты -->
+                    <div id="mobileSubStandards" class="hidden bg-rst-gray/50">
+                        <!-- ГОСТ с подменю 2-го уровня -->
+                        <div class="border-b border-rst-border/30">
+                            <button type="button"
+                                    onclick="toggleMobileAccordion('mobileSubGost')"
+                                    class="flex items-center justify-between w-full
+                                           px-5 pl-12 py-3 text-sm text-gray-600
+                                           hover:bg-rst-blue hover:text-white transition">
+                                <span class="font-medium">ГОСТ, ГОСТ Р, ПНСТ</span>
+                                <svg id="mobileSubGostArrow"
+                                     class="w-4 h-4 text-gray-400 transition-transform duration-200"
+                                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                          stroke-width="2" d="M19 9l-7 7-7-7"/>
+                                </svg>
+                            </button>
+                            <!-- Подменю 2-го уровня: ГОСТ -->
+                            <div id="mobileSubGost" class="hidden bg-gray-100 border-t border-rst-border/20">
+                                <a href="/gost/"
+                                   class="block px-5 pl-16 py-2.5 text-sm text-gray-500
+                                          hover:bg-rst-blue hover:text-white transition
+                                          border-b border-rst-border/20">
+                                    📄 Документы
+                                </a>
+                                <a href="/gost/changes"
+                                   class="block px-5 pl-16 py-2.5 text-sm text-gray-500
+                                          hover:bg-rst-blue hover:text-white transition
+                                          border-b border-rst-border/20">
+                                    🏛️ Изменения и поправки
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Своды правил с подменю 2-го уровня -->
+                        <div class="border-b border-rst-border/30">
+                            <button type="button"
+                                    onclick="toggleMobileAccordion('mobileSubSp')"
+                                    class="flex items-center justify-between w-full
+                                           px-5 pl-12 py-3 text-sm text-gray-600
+                                           hover:bg-rst-blue hover:text-white transition">
+                                <span class="font-medium">Своды правил</span>
+                                <svg id="mobileSubSpArrow"
+                                     class="w-4 h-4 text-gray-400 transition-transform duration-200"
+                                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                          stroke-width="2" d="M19 9l-7 7-7-7"/>
+                                </svg>
+                            </button>
+                            <!-- Подменю 2-го уровня: СП -->
+                            <div id="mobileSubSp" class="hidden bg-gray-100 border-t border-rst-border/20">
+                                <a href="/sp/"
+                                   class="block px-5 pl-16 py-2.5 text-sm text-gray-500
+                                          hover:bg-rst-blue hover:text-white transition
+                                          border-b border-rst-border/20">
+                                    📄 Документы
+                                </a>
+                                <a href="/sp/changes"
+                                   class="block px-5 pl-16 py-2.5 text-sm text-gray-500
+                                          hover:bg-rst-blue hover:text-white transition
+                                          border-b border-rst-border/20">
+                                    🏛️ Изменения и поправки
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Своды правил с подменю 2-го уровня -->
+                        <div class="border-b border-rst-border/30">
+                            <button type="button"
+                                    onclick="toggleMobileAccordion('mobileSubSp')"
+                                    class="flex items-center justify-between w-full
+                                           px-5 pl-12 py-3 text-sm text-gray-600
+                                           hover:bg-rst-blue hover:text-white transition">
+                                <span class="font-medium">ПР,Р,ПМГ,РМГ</span>
+                                <svg id="mobileSubSpArrow"
+                                     class="w-4 h-4 text-gray-400 transition-transform duration-200"
+                                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                          stroke-width="2" d="M19 9l-7 7-7-7"/>
+                                </svg>
+                            </button>
+                            <!-- Подменю 2-го уровня: СП -->
+                            <div id="mobileSubSp" class="hidden bg-gray-100 border-t border-rst-border/20">
+                                <a href="/rst/"
+                                   class="block px-5 pl-16 py-2.5 text-sm text-gray-500
+                                          hover:bg-rst-blue hover:text-white transition
+                                          border-b border-rst-border/20">
+                                    📄 Документы
+                                </a>
+                                <a href="/rst/changes"
+                                   class="block px-5 pl-16 py-2.5 text-sm text-gray-500
+                                          hover:bg-rst-blue hover:text-white transition
+                                          border-b border-rst-border/20">
+                                    🏛️ Изменения и корректировки
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Обычные пункты без подменю -->
+
+                        <a href="/foundational"
+                           class="block px-5 pl-12 py-3 text-sm text-gray-600
+                                  hover:bg-rst-blue hover:text-white transition
+                                  font-medium">
+                            Перечень основополагающих стандартов
+                        </a>
+                    </div>
+                </div>
+                <div class="border-t border-rst-border/50">
+                    <button type="button"
+                            onclick="toggleMobileAccordion('mobileSubOK')"
+                            class="flex items-center justify-between w-full px-5 py-3.5
+                                   text-gray-700 hover:bg-rst-gray transition text-sm font-medium">
+                        <span class="flex items-center gap-3">
+                            <svg class="w-5 h-5 text-rst-blue shrink-0" fill="none"
+                                 stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                      stroke-width="2"
+                                      d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                            </svg>
+                            Классификаторы</span>
+                        <svg id="mobileSubOKArrow"
+                             class="w-4 h-4 text-gray-400 transition-transform duration-200"
+                             fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                  stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <!-- Подменю 2-го уровня: СП -->
+                    <div id="mobileSubOK" class="hidden bg-gray-100 border-t border-rst-border/20">
+                        <a href="/classificators/"
+                           class="block px-5 pl-16 py-2.5 text-sm text-gray-500
+                                          hover:bg-rst-blue hover:text-white transition
+                                          border-b border-rst-border/20">
+                            📄 Документы
+                        </a>
+                        <a href="/classificators/changes"
+                           class="block px-5 pl-16 py-2.5 text-sm text-gray-500
+                                          hover:bg-rst-blue hover:text-white transition
+                                          border-b border-rst-border/20">
+                            🏛️ Изменения и поправки
+                        </a>
+                    </div>
+                </div>
+                <div class="border-t border-rst-border/50">
+                    <button type="button"
+                            onclick="toggleMobileAccordion('mobileSubTR')"
+                            class="flex items-center justify-between w-full px-5 py-3.5
+                                   text-gray-700 hover:bg-rst-gray transition text-sm font-medium">
+                        <span class="flex items-center gap-3">
+                            <svg class="w-5 h-5 text-rst-blue shrink-0" fill="none"
+                                 stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                      stroke-width="2"
+                                      d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                            </svg>
+                            Технические регламенты</span>
+                        <svg id="mobileSubTRArrow"
+                             class="w-4 h-4 text-gray-400 transition-transform duration-200"
+                             fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                  stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <!-- Подменю 2-го уровня: СП -->
+                    <div id="mobileSubTR" class="hidden bg-gray-100 border-t border-rst-border/20">
+                        <a href="/tr/"
+                           class="block px-5 pl-16 py-2.5 text-sm text-gray-500
+                                          hover:bg-rst-blue hover:text-white transition
+                                          border-b border-rst-border/20">
+                            📄 Документы
+                        </a>
+                        <a href="/tr/changes"
+                           class="block px-5 pl-16 py-2.5 text-sm text-gray-500
+                                          hover:bg-rst-blue hover:text-white transition
+                                          border-b border-rst-border/20">
+                            🏛️ Изменения и поправки
+                        </a>
+                    </div>
+                </div>
+                <!--<a href="#"
+                   class="flex items-center gap-3 px-5 py-3.5 text-gray-700
+                          hover:bg-rst-gray transition text-sm font-medium
+                          border-t border-rst-border/50">
+                    <svg class="w-5 h-5 text-rst-blue shrink-0" fill="none"
+                         stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                    </svg>
+                    Перечни к тех. регламентам
+                </a>-->
+
+            </nav>
+        </div>
+
+        <!-- Кнопки Войти / Регистрация внизу -->
+        <div class="border-t border-rst-border p-4 space-y-3 shrink-0 bg-rst-gray">
+            <a href="/auth/login"
+               class="block w-full text-center px-5 py-3 text-sm text-rst-blue
+                      border-2 border-rst-blue rounded-lg font-bold
+                      hover:bg-rst-blue hover:text-white transition">
+                Войти
+            </a>
+            <a href="/auth/register"
+               class="block w-full text-center px-5 py-3 text-sm bg-rst-gold
+                      text-rst-blue-dark rounded-lg font-bold
+                      hover:bg-yellow-400 transition">
+                Регистрация
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<!-- ===== CONTENT ===== -->
+<main class="flex-1">
+
+<!-- ══════════════════════════════════════════════════════════════
+     HERO — обозначение, тип изменения
+     ══════════════════════════════════════════════════════════════ -->
+<div class="bg-gradient-to-br from-rst-gray to-white border-b border-rst-border">
+<div class="max-w-7xl mx-auto px-4 py-8">
+
+<nav class="text-xs text-gray-400 mb-4 flex items-center gap-1">
+    <a href="/" class="hover:text-rst-blue transition">Главная</a>
+    <span>/</span>
+    <a href="/classificators" class="hover:text-rst-blue transition">Общероссийские классификаторы</a>
+    <span>/</span>
+        <a href="/classificators/details/3894e5d8-b082-4cca-be7c-709deadb5a1e" class="hover:text-rst-blue transition">
+Родительский документ
+</a>
+    <span>/</span>
+<span class="text-gray-600">
+Изменение 594/2022 ОКТМО
+</span>
+</nav>
+
+<div class="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
+<div class="flex items-start gap-4">
+    <div class="w-16 h-16 bg-amber-500 rounded-lg flex items-center justify-center
+                text-white flex-shrink-0 shadow">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                  d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002
+                     2h11a2 2 0 002-2v-5m-1.414-9.414a2 2
+                     0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
+        </svg>
+    </div>
+<div>
+    <!-- ═══ ЗАГОЛОВОК ═══ -->
+<h1 class="text-2xl md:text-3xl font-bold text-rst-blue-dark font-serif">
+Изменение 594/2022 ОКТМО
+</h1>
+<p class="text-gray-700 mt-2 text-lg leading-snug max-w-3xl">
+Общероссийский классификатор территорий муниципальных образований
+</p>
+</div>
+</div>
+
+    <!-- Бейдж типа изменения -->
+    <div class="flex-shrink-0">
+        <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold
+                 bg-amber-100 text-amber-800 border border-amber-200">
+        <span class="w-2 h-2 bg-amber-500 rounded-full"></span>
+        Изменение
+    </span>
+    </div>
+</div>
+</div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════════
+     ВКЛАДКИ
+     ══════════════════════════════════════════════════════════════ -->
+<div class="max-w-7xl mx-auto px-4 pt-6 pb-8">
+
+    <!-- ─── Навигация по вкладкам ─── -->
+    <div class="border-b border-rst-border mb-6">
+        <nav class="flex gap-0 -mb-px overflow-x-auto">
+            <button data-tab-btn="bibliography" onclick="switchTab('bibliography')"
+                    class="flex items-center gap-2 px-6 py-3 text-sm font-semibold
+                           border-b-2 border-rst-blue text-rst-blue
+                           whitespace-nowrap transition-colors focus:outline-none">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168
+                             5.477 3 6.253v13C4.168 18.477 5.754 18 7.5
+                             18s3.332.477 4.5 1.253m0-13C13.168 5.477
+                             14.754 5 16.5 5c1.747 0 3.332.477 4.5
+                             1.253v13C19.832 18.477 18.247 18 16.5
+                             18c-1.746 0-3.332.477-4.5 1.253"/>
+                </svg>
+                Библиография
+            </button>
+            <button data-tab-btn="viewer" onclick="switchTab('viewer')"
+                    class="flex items-center gap-2 px-6 py-3 text-sm font-semibold
+                           border-b-2 border-transparent text-gray-500
+                           hover:text-gray-700 hover:border-gray-300
+                           whitespace-nowrap transition-colors focus:outline-none">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478
+                             0 8.268 2.943 9.542 7-1.274 4.057-5.064
+                             7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                </svg>
+                Просмотр документа
+            </button>
+        </nav>
+    </div>
+
+    <!-- ╔══════════════════════════════════════════════════════════╗
+         ║  ВКЛАДКА 1 — БИБЛИОГРАФИЯ  (открыта по умолчанию)      ║
+         ╚══════════════════════════════════════════════════════════╝ -->
+<div data-tab-panel="bibliography" class="space-y-6">
+
+    <!-- ── Основные сведения ── -->
+<div class="bg-white border border-rst-border rounded-lg overflow-hidden hover:shadow-lg transition">
+    <div class="bg-rst-blue px-6 py-4">
+        <h3 class="text-white font-bold flex items-center gap-2">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+            Основные сведения
+        </h3>
+    </div>
+<div class="p-6">
+<div class="grid grid-cols-1 md:grid-cols-1 gap-x-8 gap-y-5">
+
+<div>
+    <span class="text-xs text-gray-400 uppercase tracking-wider">Обозначение документа к которому изменение</span>
+    <p class="text-sm mt-0.5 text-gray-300 italic">-</p>
+</div>
+
+<div>
+    <span class="text-xs text-gray-400 uppercase tracking-wider">Обозначение изменения</span>
+<p class="text-sm font-medium mt-0.5">Изменение 594/2022 ОКТМО</p>
+</div>
+
+<div>
+    <span class="text-xs text-gray-400 uppercase tracking-wider">Заглавие на русском языке</span>
+<p class="text-sm font-medium mt-0.5">Общероссийский классификатор территорий муниципальных образований</p>
+</div>
+
+<div>
+    <span class="text-xs text-gray-400 uppercase tracking-wider">a02p2</span>
+<p class="text-sm font-medium mt-0.5">111</p>
+</div>
+
+</div>
+</div>
+</div>
+
+    <!-- ── Даты и регистрация ── -->
+<div class="bg-white border border-rst-border rounded-lg overflow-hidden hover:shadow-lg transition">
+    <div class="bg-rst-blue px-6 py-4">
+        <h3 class="text-white font-bold flex items-center gap-2">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+            </svg>
+            Даты и регистрация
+        </h3>
+    </div>
+<div class="p-6">
+<div class="grid grid-cols-1 md:grid-cols-1 gap-x-8 gap-y-5">
+
+<div>
+    <span class="text-xs text-gray-400 uppercase tracking-wider">Дата принятия</span>
+<p class="text-sm font-medium mt-0.5">27.12.2022</p>
+</div>
+
+<div>
+    <span class="text-xs text-gray-400 uppercase tracking-wider">Дата введения</span>
+<p class="text-sm font-medium mt-0.5">27.12.2022</p>
+</div>
+
+<div>
+    <span class="text-xs text-gray-400 uppercase tracking-wider">Комментарий к дате введения</span>
+<p class="text-sm font-medium mt-0.5">с правом досрочного применения в правоотношениях, возникших с 1 января 2023 г.* дата введения перенесена на 27 января 2023 г. с правом досрочного применения в правоотношениях, возникших с 1 января 2023 г., приказом 46-ст от 25.01.2023</p>
+</div>
+
+<div>
+    <span class="text-xs text-gray-400 uppercase tracking-wider">Дата материала</span>
+<p class="text-sm font-medium mt-0.5">01.01.2023</p>
+</div>
+
+</div>
+</div>
+</div>
+
+    <!-- ── Издательские характеристики ── -->
+<div class="bg-white border border-rst-border rounded-lg overflow-hidden hover:shadow-lg transition">
+    <div class="bg-rst-blue px-6 py-4">
+        <h3 class="text-white font-bold flex items-center gap-2">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168
+                         5.477 3 6.253v13C4.168 18.477 5.754 18 7.5
+                         18s3.332.477 4.5 1.253m0-13C13.168 5.477
+                         14.754 5 16.5 5c1.747 0 3.332.477 4.5
+                         1.253v13C19.832 18.477 18.247 18 16.5
+                         18c-1.746 0-3.332.477-4.5 1.253"/>
+            </svg>
+            Издательские характеристики
+        </h3>
+    </div>
+<div class="p-6">
+<div class="grid grid-cols-1 md:grid-cols-1 gap-x-8 gap-y-5">
+
+<div>
+    <span class="text-xs text-gray-400 uppercase tracking-wider">Номер ИУС</span>
+<p class="text-sm font-medium mt-0.5">№4-2023 - Текст изменения не публикуется</p>
+</div>
+
+<div>
+    <span class="text-xs text-gray-400 uppercase tracking-wider">Количество страниц полного текста</span>
+<p class="text-sm font-medium mt-0.5">53</p>
+</div>
+
+<div>
+    <span class="text-xs text-gray-400 uppercase tracking-wider">Дата подключения полного текста</span>
+<p class="text-sm font-medium mt-0.5">27.01.2023</p>
+</div>
+
+</div>
+</div>
+</div>
+
+</div><!-- /tab bibliography -->
+
+    <!-- ╔══════════════════════════════════════════════════════════╗
+         ║  ВКЛАДКА 2 — ПРОСМОТР ДОКУМЕНТА                        ║
+         ╚══════════════════════════════════════════════════════════╝ -->
+<div data-tab-panel="viewer" class="space-y-6 hidden">
+
+<div class="bg-white border border-rst-border rounded-lg overflow-hidden">
+    <div class="bg-rst-blue px-6 py-4">
+        <h3 class="text-white font-bold flex items-center gap-2">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478
+                         0 8.268 2.943 9.542 7-1.274 4.057-5.064
+                         7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+            </svg>
+            Просмотр документа изменения
+        </h3>
+    </div>
+<div class="w-full bg-gray-100" style="height: 80vh;">
+        <doc-viewer catalog="okamd" mdmid="85cf7d7a-cca0-4389-ae8b-ed264f54b608"></doc-viewer>
+</div>
+</div>
+
+</div><!-- /tab viewer -->
+
+</div><!-- /tabs container -->
+
+<!-- ── JavaScript переключения вкладок ── -->
+<script>
+    function switchTab(name) {
+        document.querySelectorAll('[data-tab-panel]').forEach(function(el) {
+            el.classList.add('hidden');
+        });
+        document.querySelectorAll('[data-tab-btn]').forEach(function(el) {
+            el.classList.remove('border-rst-blue', 'text-rst-blue');
+            el.classList.add('border-transparent', 'text-gray-500');
+        });
+        var panel = document.querySelector('[data-tab-panel="' + name + '"]');
+        if (panel) panel.classList.remove('hidden');
+        var btn = document.querySelector('[data-tab-btn="' + name + '"]');
+        if (btn) {
+            btn.classList.remove('border-transparent', 'text-gray-500');
+            btn.classList.add('border-rst-blue', 'text-rst-blue');
+        }
+    }
+</script>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="bg-rst-blue-dark text-blue-200 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 py-8 sm:py-10">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
+            <div>
+                <h4 class="text-white font-bold mb-3 font-serif">Росстандарт</h4>
+                <p class="text-sm leading-relaxed">
+                    Федеральное агентство по техническому регулированию и метрологии
+                </p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-3">Контакты</h4>
+                <ul class="text-sm space-y-2">
+                    <li>📍 г. Москва, <br> Пресненская Набережная, дом 10, строение 2 (IQ-квартал)</li>
+                    <li>📞 тел.: (495) 547-51-51</li>
+                    <li>✉️ info@rst.gov.ru</li>
+                </ul>
+            </div>
+            <div class="sm:col-span-2 md:col-span-1">
+                <h4 class="text-white font-bold mb-3">Информация</h4>
+                <ul class="text-sm space-y-2">
+
+                    <li><a href="https://www.rst.gov.ru/portal/gost//home/feedback" class="hover:text-white transition">Обратная связь</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="border-t border-white/10 mt-6 sm:mt-8 pt-4 sm:pt-6 text-center text-xs text-blue-300">
+            © 2026 ФГБУ «Институт стандартизации». Все права защищены.
+        </div>
+    </div>
+</footer>
+
+<!-- Кнопка «Наверх» -->
+<button id="scrollTopBtn"
+        class="hide fixed bottom-6 right-6 z-50
+               w-12 h-12 bg-rst-blue text-white rounded-full
+               shadow-lg shadow-rst-blue/30
+               flex items-center justify-center
+               hover:bg-rst-blue-light transition
+               md:bottom-8 md:right-8"
+        aria-label="Наверх">
+    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="2" d="M5 15l7-7 7 7"/>
+    </svg>
+</button>
+
+<script src="/js/app.js"></script>
+<script src="/js/doc-viewer.js"></script>
+<!-- Трекинг действий пользователя -->
+<script src="/js/tracking.js" defer></script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function () {
+            try {
+                w.yaCounter26321097 = new Ya.Metrika({ id: 26321097,
+                    clickmap: true,
+                    trackLinks: true,
+                    accurateTrackBounce: true
+                });
+            } catch (e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/26321097" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</body>
+
+</html>

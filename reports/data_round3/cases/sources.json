@@ -1,0 +1,124 @@
+[
+  {
+    "source_id": "svetl_2023_report",
+    "url": "https://xn--b1agmh1ai8d.xn--p1ai/wp-content/uploads/2024/04/34-reshenie-ob-otchete-glavy-za-2023-g.pdf",
+    "territory_id": 1180
+  },
+  {
+    "source_id": "svetl_2024_report",
+    "url": "https://xn--b1agmh1ai8d.xn--p1ai/wp-content/uploads/2025/06/otchet-administraczii-mo-sgo-za-2024-g.-chernova-szhatyj.pdf",
+    "territory_id": 1180
+  },
+  {
+    "source_id": "svetl_budget_2026",
+    "url": "https://xn--b1agmh1ai8d.xn--p1ai/wp-content/uploads/2025/11/byudzhet-dlya-grazhdan-2026-2028-gg-rasshirennaya-versiya-szhatyj.pdf",
+    "territory_id": 1180
+  },
+  {
+    "source_id": "svob_dec2023",
+    "url": "https://28.rosstat.gov.ru/storage/mediabank/1.5%282%29.pdf",
+    "territory_id": 883
+  },
+  {
+    "source_id": "svob_dec2024",
+    "url": "https://28.rosstat.gov.ru/storage/mediabank/1.5%283%29.pdf",
+    "territory_id": 883
+  },
+  {
+    "source_id": "svob_annual2024",
+    "url": "https://28.rosstat.gov.ru/storage/2025/05-30/1sEgRJAS/AO_2025.pdf",
+    "territory_id": 883
+  },
+  {
+    "source_id": "kurkino_reports",
+    "url": "https://kurkino-vmo.ru/glava-munitsipalnogo-okruga/reports/",
+    "territory_id": 2527
+  },
+  {
+    "source_id": "svob_home",
+    "url": "https://svobregion.amurobl.ru/",
+    "territory_id": 883
+  },
+  {
+    "source_id": "kurkino_home",
+    "url": "https://kurkino-vmo.ru/",
+    "territory_id": 2527
+  },
+  {
+    "source_id": "kurkino_head_2024",
+    "url": "https://kurkino-vmo.ru/netcat_files/21/21/h_050e277c3d1edfa79bd07e71c0ee47e3",
+    "territory_id": 2527,
+    "suffix": ".pdf"
+  },
+  {
+    "source_id": "kurkino_org_reports",
+    "url": "https://kurkino-vmo.ru/otchety-rukovoditeley-organizatsiy-i-uchrezhdeniy/",
+    "territory_id": 2527,
+    "suffix": ".html"
+  },
+  {
+    "source_id": "kurkino_decisions_2024",
+    "url": "https://kurkino-vmo.ru/sovet-deputatov/zasedaniya-soveta-deputatov-1/resheniya-soveta-deputatov/reshenia-2024/",
+    "territory_id": 2527,
+    "suffix": ".html"
+  },
+  {
+    "source_id": "svetl_workers_2024",
+    "url": "https://39.rosstat.gov.ru/storage/mediabank/03_01%20%D0%A1%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D1%87%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%202024.pdf",
+    "territory_id": 1180,
+    "suffix": ".pdf"
+  },
+  {
+    "source_id": "svob_legacy",
+    "url": "https://www.svobregion.ru/",
+    "territory_id": 883,
+    "suffix": ".ru"
+  },
+  {
+    "source_id": "svob_bulletin",
+    "url": "https://www.svobregionadm.ru/page/svobregionadm/",
+    "territory_id": 883,
+    "suffix": ".html"
+  },
+  {
+    "source_id": "kurkino_uprava_2024",
+    "url": "https://kurkino-vmo.ru/netcat_files/51/57/h_58e37c6ebb4e9276f8aafb89855350c7",
+    "territory_id": 2527,
+    "suffix": ".pdf"
+  },
+  {
+    "source_id": "kurkino_adm_2024",
+    "url": "https://kurkino-vmo.ru/netcat_files/51/57/h_e19f2aa0a7a6ffa54a0378ebfa920276",
+    "territory_id": 2527,
+    "suffix": ".pdf"
+  },
+  {
+    "source_id": "kurkino_zhilishnik_2024",
+    "url": "https://kurkino-vmo.ru/netcat_files/51/57/h_3b376e6b3ae3561d6d1b808d4faf461d",
+    "territory_id": 2527,
+    "suffix": ".pdf"
+  },
+  {
+    "source_id": "svetl_workers_2025_vintage",
+    "url": "https://39.rosstat.gov.ru/storage/mediabank/03_01%20%D0%A1%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D1%87%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%202025.pdf",
+    "territory_id": 1180,
+    "suffix": ".pdf"
+  },
+  {
+    "source_id": "svob_council",
+    "url": "https://www.svobregionadm.ru/page/sovet/",
+    "territory_id": 883
+  },
+  {
+    "source_id": "svob_strategy2035",
+    "url": "https://www.svobregionadm.ru/gallery/npa/sovet/Решение № 130 от 24.12.2025.rar",
+    "territory_id": 883,
+    "discovery_parent": "svob_council",
+    "source_label": "Р Е Ш Е Н И Е от 24.12.2025 № 130 «Об утверждении Стратегии социально-экономического развития муниципального образования Свободненский район Амурской области на период до 2035 года» (Дата публикации 24.12.2025)"
+  },
+  {
+    "source_id": "svob_economy_program2024",
+    "url": "https://www.svobregionadm.ru/gallery/npa/svobregionadm/Постановление администрации Свободненского района № 636 от 15.11.2024.pdf",
+    "territory_id": 883
+  }
+]

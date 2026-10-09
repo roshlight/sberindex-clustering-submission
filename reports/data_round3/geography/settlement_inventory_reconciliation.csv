@@ -1,0 +1,4 @@
+﻿territory_id,old_municipality_code,new_municipality_code,old_settlement_count,new_settlement_count,exact_recoding_pairs,unmatched_old,unmatched_new,name_changes,result,law_list_to_registry_code_reconciliation,geometric_boundary_equivalence,sber_polygon_comparison,automatic_mask_change
+208,86604000000,86504000000,59,59,59,0,0,0,exact_registry_inventory_bijection,not_run_law_lists_have_no_OKTMO,unknown,not_run,False
+217,86633000000,86533000000,36,36,36,0,0,0,exact_registry_inventory_bijection,not_run_law_lists_have_no_OKTMO,unknown,not_run,False
+221,86645000000,86545000000,36,36,36,0,0,0,exact_registry_inventory_bijection,not_run_law_lists_have_no_OKTMO,unknown,not_run,False

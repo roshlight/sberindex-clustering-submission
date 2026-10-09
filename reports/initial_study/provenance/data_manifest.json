@@ -1,0 +1,45 @@
+{
+  "manifest_version": 1,
+  "source_retrieval_date": "2026-09-14",
+  "data_license": "CC BY-SA 4.0",
+  "license_scope": "Official historical consumption dataset; see source landing page",
+  "codebook_provenance": "Saved display-name mapping from the official portal metadata",
+  "audit_provenance": "Local read-only source audit; not an organizer certification",
+  "files": [
+    {
+      "file": "consumption.parquet",
+      "bytes": 2373939,
+      "sha256": "9833ddaaee7b2a182ed4cceeed16469031700ea87d508bd976150c6770ef8a61",
+      "source_urls": [
+        "https://sberindex.ru/ru/research/data-sense-opisanie-nabora-dannikh-khakatona-sberindeksa-po-munitsipalnim-dannim",
+        "https://www.sberbank.com/common/img/uploaded/files/pdf/sberindex/hackathonlicence.zip"
+      ]
+    },
+    {
+      "file": "municipality-codebook.csv",
+      "bytes": 169711,
+      "sha256": "2739525c0f6cf706a49b114c5f4391d445ef958c2402f77761296a67eefe76cb",
+      "source_urls": [
+        "https://sberindex.ru/ru/dashboards/potrebitelskie-beznalicnye-rashody-na-urovne-munizipalnyh-obrazovanij"
+      ]
+    },
+    {
+      "file": "dataset_metadata.json",
+      "bytes": 324131,
+      "sha256": "126498bdfee9d41357655a3af2687ec15d6690a0e2f69b2c38160e321743d845",
+      "source_urls": [
+        "https://sberindex.ru/ru/dashboards/potrebitelskie-beznalicnye-rashody-na-urovne-munizipalnyh-obrazovanij"
+      ]
+    },
+    {
+      "file": "source_audit.json",
+      "bytes": 27630,
+      "sha256": "e51e27e2d914bd55fa22b19cd38ed040cb61f1b3c48657ddab10eb387b7ea6ff",
+      "source_urls": [
+        "https://sberindex.ru/ru/research/data-sense-opisanie-nabora-dannikh-khakatona-sberindeksa-po-munitsipalnim-dannim",
+        "https://www.sberbank.com/common/img/uploaded/files/pdf/sberindex/hackathonlicence.zip",
+        "https://sberindex.ru/ru/dashboards/potrebitelskie-beznalicnye-rashody-na-urovne-munizipalnyh-obrazovanij"
+      ]
+    }
+  ]
+}

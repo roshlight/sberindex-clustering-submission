@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "rows": 4032,
+  "municipalities": 2016,
+  "input_economy_rows": 12096,
+  "parsed_source_cells": 10880,
+  "linked_source_cells": 10851,
+  "historical_source_only_rows": 29,
+  "historical_source_only_numeric": 0,
+  "numeric_values": 10829,
+  "source_missing": 1267,
+  "zero_values": 0,
+  "negative_values": 0,
+  "unavailable_statuses": {
+    "not_returned_or_unaccepted": 1245,
+    "unresolved_source_marker": 22
+  },
+  "collection_status_counts": {
+    "parsed": 194,
+    "response_review": 12,
+    "form_unavailable": 7
+  },
+  "frozen_core_rows": 3973,
+  "frozen_conservative_rows": 3827,
+  "frozen_columns_and_order_unchanged": true,
+  "csv_parquet_equal": true,
+  "exact_year_code_agreement": true,
+  "joins_validate_one_to_one": true,
+  "named_contract_tests": {
+    "duplicate_key_rejected": true,
+    "nonpositive_and_missing_stay_null": true,
+    "thousand_ruble_conversion_verified": true
+  },
+  "missing_imputed": 0,
+  "geographic_equivalence_proven": 0,
+  "log_features_are_activity_intensity_not_income": true,
+  "point_in_time_claim": false,
+  "independent_2024_holdout": false
+}

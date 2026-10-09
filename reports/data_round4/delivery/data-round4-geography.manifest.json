@@ -1,0 +1,212 @@
+{
+  "created_at_utc": "2026-09-16T18:00:02.566532+00:00",
+  "files": [
+    {
+      "path": "work/data-round4/geography/inputs/downloads_initial.json",
+      "bytes": 2815,
+      "sha256": "f3b084fe9a465a16d1c28b3c3cc3903c99356c3a26d3c471d173b112c45f1d24"
+    },
+    {
+      "path": "work/data-round4/geography/inputs/downloads_planning.json",
+      "bytes": 1671,
+      "sha256": "13d7bf5989baf8e4601c92728a739bccf7e78d9c64e74802019e0c9504b8a5fb"
+    },
+    {
+      "path": "work/data-round4/geography/inputs/missing_requests.json",
+      "bytes": 5006,
+      "sha256": "d71481143486e7495da1f54b94df0edd0713014656d3d63a1a22813497733cd6"
+    },
+    {
+      "path": "work/data-round4/geography/inputs/reviewed_evidence.json",
+      "bytes": 11404,
+      "sha256": "7a0086f57a6451d9712a1d866c8cc88f1403e9c8135e0d370f94361d3b1e2599"
+    },
+    {
+      "path": "work/data-round4/geography/inputs/search_log.json",
+      "bytes": 1670,
+      "sha256": "83d1d77d5c055802519ed1dc5a5006c59f391447bd1ada747c580f1597c7949d"
+    },
+    {
+      "path": "work/data-round4/geography/inputs/source_ledger.json",
+      "bytes": 9897,
+      "sha256": "2a1dfc47c87dbc8ed27d35434e241ff434bbd4559bf8af17b2e4bd33a581073f"
+    },
+    {
+      "path": "work/data-round4/geography/raw/pit_charter2019.pdf",
+      "bytes": 384718,
+      "sha256": "a7fb87799e69dc54d51a8bad5c87b05996944c5b4e35d59e7611a4e30fd90da3"
+    },
+    {
+      "path": "work/data-round4/geography/raw/pit_charter2019.txt",
+      "bytes": 319536,
+      "sha256": "19176193251e68d7b2b3d9d348c28765e9a0afdf8530e71fde1ad0041298cfe1"
+    },
+    {
+      "path": "work/data-round4/geography/raw/pit_functional_map.pdf",
+      "bytes": 1154961,
+      "sha256": "0f6841dfba4a23a638551d7a16932d7b6f8832635317164c8e8725dca52e63de"
+    },
+    {
+      "path": "work/data-round4/geography/raw/pit_functional_map.txt",
+      "bytes": 461,
+      "sha256": "6e4715bd58425519f9ae571c585baf79bd1dec6240a8f7004536a98d9c112d2e"
+    },
+    {
+      "path": "work/data-round4/geography/raw/pit_planning.html",
+      "bytes": 57716,
+      "sha256": "07114fdf4e70b861e049b86f86e35af17c5351fca87247fbd4a439ac3cf368bb"
+    },
+    {
+      "path": "work/data-round4/geography/raw/pit_planning_materials.pdf",
+      "bytes": 1055501,
+      "sha256": "f95741def9af964fbbb1b505cf52cba5b13eb74b197ede960abeabac25d50ea1"
+    },
+    {
+      "path": "work/data-round4/geography/raw/pit_planning_materials.txt",
+      "bytes": 270281,
+      "sha256": "8093f78a7d10e8213f8b6289fff609fd6bb7b6c49ae2e714ab6c360f9872975b"
+    },
+    {
+      "path": "work/data-round4/geography/raw/rosreestr_boundary_explanation_2024.pdf",
+      "bytes": 313770,
+      "sha256": "25b747b0f02f3414e67a3a9aeefdd80b82c7fb2b0047907821c8aac7fc92ce04"
+    },
+    {
+      "path": "work/data-round4/geography/raw/rosreestr_explanation_page1.txt",
+      "bytes": 4795,
+      "sha256": "04f01c4ec1bb16f479a87fe0025fbce01840da00025815593dc91ae434d4c194"
+    },
+    {
+      "path": "work/data-round4/geography/raw/rosreestr_explanation_page2.txt",
+      "bytes": 5462,
+      "sha256": "bbd5af5eb959be43e74ada9f9c82a0625f290ac02647800d49f828808657dbb1"
+    },
+    {
+      "path": "work/data-round4/geography/raw/rosreestr_explanation_page3.txt",
+      "bytes": 5460,
+      "sha256": "248ede55dedbc679224793e3a9313cf6cd489535c2b725ca7d75c7a2d809afd9"
+    },
+    {
+      "path": "work/data-round4/geography/raw/rosreestr_explanation_page4.txt",
+      "bytes": 4567,
+      "sha256": "8866c42db357282f53d68c6a8c576e4751851026168bab3eb4d4b255f1214026"
+    },
+    {
+      "path": "work/data-round4/geography/raw/rosreestr_explanation_page5.txt",
+      "bytes": 975,
+      "sha256": "bb98ef809337b14dd56db144a923066879ca2ac813bfe1fc8f02afc36d65abf9"
+    },
+    {
+      "path": "work/data-round4/geography/raw/sber_metadata_fresh.pdf",
+      "bytes": 333567,
+      "sha256": "05707427a64061552d1f23f74f578a99fdabeff69f0c8a0fc99d924210fee0b3"
+    },
+    {
+      "path": "work/data-round4/geography/raw/sber_metadata_page1.txt",
+      "bytes": 2553,
+      "sha256": "779597acfc0be591b31018911d11c43faeee62040733ec60c18f7c69dac51b67"
+    },
+    {
+      "path": "work/data-round4/geography/raw/sber_metadata_page2.txt",
+      "bytes": 3903,
+      "sha256": "2db773baa0d2af8837a2a6b2bc98098719c7d180af9910253247244c41fb7323"
+    },
+    {
+      "path": "work/data-round4/geography/raw/sber_metadata_page3.txt",
+      "bytes": 2724,
+      "sha256": "a09a743375cc8636c2aa712f5c6c7d6b0e4fc4bb9d53ca1e58a39b7155734f13"
+    },
+    {
+      "path": "work/data-round4/geography/raw/vedlozero_rosreestr2024.html",
+      "bytes": 51105,
+      "sha256": "18a553ee89dd4681768296d44dff86f0b6bbb043d6388686d6251d1e76020801"
+    },
+    {
+      "path": "work/data-round4/geography/render/pit_charter_page1.png",
+      "bytes": 73400,
+      "sha256": "93bf766741645815018d7e778dcc003136c9111702f04aa249d5587fdb8e06ef"
+    },
+    {
+      "path": "work/data-round4/geography/render/pit_map.png",
+      "bytes": 1494282,
+      "sha256": "0d40944fdfbd74f80bc5c9252da9fbaa70eac2d1e24d919e6fd045581d9cae06"
+    },
+    {
+      "path": "work/data-round4/geography/render/pit_planning_page1.png",
+      "bytes": 47296,
+      "sha256": "e4bf9498d7b640286dbdd49e0e9105f44b1a814a35b62980b9d6782af4e465ce"
+    },
+    {
+      "path": "work/data-round4/geography/reused/karelia_2837.pdf",
+      "bytes": 294841,
+      "sha256": "0a19b0275220097bed1020a0a54fba3a249ed9a01f321769521d13705756d2cb"
+    },
+    {
+      "path": "work/data-round4/geography/reused/karelia_2838.pdf",
+      "bytes": 277391,
+      "sha256": "5962e091795b85c021600cbc9fc7e2357dcd7671e6ab8dacd1d958598a2d6ada"
+    },
+    {
+      "path": "work/data-round4/geography/reused/karelia_2839.pdf",
+      "bytes": 299876,
+      "sha256": "f9eaff0f27b2b5522d4bd381de05f688d8e7e0888428053a67aca99278bd4522"
+    },
+    {
+      "path": "work/data-round4/geography/reused/karelia_2841.pdf",
+      "bytes": 7027492,
+      "sha256": "4ff3c0769ff29b01b8000110a62ff0959e1fafdb6d56550171569d7a52c7e12f"
+    },
+    {
+      "path": "work/data-round4/geography/reused/t_dict_municipal_districts.xlsx",
+      "bytes": 322024,
+      "sha256": "4150658c3298fbc87ed79838f503f3a5b9a28da33257ff803c7d9231ddb775d6"
+    },
+    {
+      "path": "work/data-round4/geography/reused/t_dict_municipal_districts_poly.gpkg",
+      "bytes": 74334208,
+      "sha256": "e62027630d48e4a13f9b6d173dd074d7358706743fe859ca3b7fa30fefa9813a"
+    },
+    {
+      "path": "work/data-round4/geography/reused/vologda_5115.pdf",
+      "bytes": 853845,
+      "sha256": "30813bdcfed5b8ba4dbf49ae46653042a97f34ee0df777b9bb1e92b1758fc545"
+    }
+  ],
+  "source_allowlist_sha256": "a422bdd18b56de6b657f62e215d60395d8729fbbcc4f8f8fee7b2b7d27159008",
+  "packager_sha256": "233f9ce509bb7466b86d4a807d485189a1616a563c161027ff53056ea3a8ef1d",
+  "credential_scan": {
+    "policy": "block_all_matches_except_one_exact_audited_pdf_jpeg_dht",
+    "pattern_sha256": "eac28383fcd054026c92c738a7c0f5857d15499d2c90964c0f0524eda43f0a5b",
+    "audited_exception_id": "pit-planning-jpeg-dht-20260916",
+    "exceptions_applied": [
+      {
+        "archive_path": "work/data-round4/geography/raw/pit_planning_materials.pdf",
+        "exception_id": "pit-planning-jpeg-dht-20260916",
+        "file_bytes": 1055501,
+        "file_sha256": "f95741def9af964fbbb1b505cf52cba5b13eb74b197ede960abeabac25d50ea1",
+        "offset": 596649,
+        "length": 41,
+        "match_sha256": "2bd445e4a1c907caa85db7ba09b0aed51556373edb48b41d5e431b38f24416cd",
+        "jpeg_offset": 596100,
+        "jpeg_bytes": 21478,
+        "jpeg_sha256": "c01ee8d56dbd4b76dee8481c41bb2c009d8aae8c1eaa3004129977f875e47cf5",
+        "pdf_object_number": 128,
+        "pdf_filter": "/DCTDecode",
+        "pdf_subtype": "/Image",
+        "dht": {
+          "segment_offset": 596342,
+          "segment_end_exclusive": 596762,
+          "declared_length": 418,
+          "table_offset": 596583,
+          "table_class": 1,
+          "table_id": 1,
+          "symbol_count": 162,
+          "symbols_offset": 596600,
+          "symbols_end_exclusive": 596762
+        },
+        "review": "reports/data_round4/delivery/scanner_false_positive_review.json",
+        "reason": "JPEG DHT AC-table symbol bytes; not a credential"
+      }
+    ]
+  }
+}

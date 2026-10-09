@@ -1,0 +1,43 @@
+[project]
+name = "sberindex-enrichment"
+version = "0.1.0"
+description = "Source-traceable discovery and enrichment for municipal profile research"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "certifi>=2025.1.31",
+  "fonttools>=4.55,<5",
+  "httpx>=0.28,<1",
+  "jsonschema>=4.23,<5",
+  "beautifulsoup4>=4.13,<5",
+  "pypdf>=6,<7",
+  "pandas>=2.2,<4",
+  "openpyxl>=3.1,<4",
+  "duckdb>=1.2,<2",
+]
+
+[project.scripts]
+sber-enrich = "sber_enrichment.pipeline:main"
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "ruff>=0.12,<1"]
+
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/sber_enrichment"]
+
+[tool.uv]
+link-mode = "copy"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

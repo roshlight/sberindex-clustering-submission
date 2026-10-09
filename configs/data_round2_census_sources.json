@@ -1,0 +1,137 @@
+[
+  {
+    "host": "14.rosstat.gov.ru",
+    "title": " XLSX 2. Население частных домохозяйств по возрастным группам, полу и статусу участия в составе рабочей силы по муниципальным районам и городским округам 547.75 Кб, 30.06.2023",
+    "url": "https://14.rosstat.gov.ru/storage/mediabank/2(114).xlsx",
+    "landing_page": "https://14.rosstat.gov.ru/folder/179476",
+    "source_id": "census_01",
+    "reference_date": "2021-10-01",
+    "join_status": "source_geography_only_not_joined_to_2023_2024"
+  },
+  {
+    "host": "14.rosstat.gov.ru",
+    "title": " XLSX 9. Занятое население частных домохозяйств по территории нахождения работы и статусу занятости 17.68 Кб, 30.06.2023",
+    "url": "https://14.rosstat.gov.ru/storage/mediabank/9(11).xlsx",
+    "landing_page": "https://14.rosstat.gov.ru/folder/179476",
+    "source_id": "census_02",
+    "reference_date": "2021-10-01",
+    "join_status": "source_geography_only_not_joined_to_2023_2024"
+  },
+  {
+    "host": "14.rosstat.gov.ru",
+    "title": " XLSX 10. Периодичность выезда (выхода) на работу занятого населения частных домохозяйств, работающего не по месту постоянного жительства 18.72 Кб, 30.06.2023",
+    "url": "https://14.rosstat.gov.ru/storage/mediabank/10(11).xlsx",
+    "landing_page": "https://14.rosstat.gov.ru/folder/179476",
+    "source_id": "census_03",
+    "reference_date": "2021-10-01",
+    "join_status": "source_geography_only_not_joined_to_2023_2024"
+  },
+  {
+    "host": "14.rosstat.gov.ru",
+    "title": " DOCX Методологические пояснения 50.17 Кб, 30.06.2023",
+    "url": "https://14.rosstat.gov.ru/storage/mediabank/методология(13).docx",
+    "landing_page": "https://14.rosstat.gov.ru/folder/179476",
+    "source_id": "census_04",
+    "reference_date": "2021-10-01",
+    "join_status": "source_geography_only_not_joined_to_2023_2024"
+  },
+  {
+    "host": "28.rosstat.gov.ru",
+    "title": " XLSX Таблица 1 Население по статусу участия в составе рабочей силы 652.87 Кб, 03.07.2023",
+    "url": "https://28.rosstat.gov.ru/storage/mediabank/Таблица 1 Население по статусу участия в составе рабочей силы.xlsx",
+    "landing_page": "https://28.rosstat.gov.ru/folder/64793",
+    "source_id": "census_05",
+    "reference_date": "2021-10-01",
+    "join_status": "source_geography_only_not_joined_to_2023_2024"
+  },
+  {
+    "host": "30.rosstat.gov.ru",
+    "title": " XLSX 10.05 Занятое население частных домохозяйств по территории нахождения работы и статусу занятости 22.22 Кб, 23.01.2023",
+    "url": "https://30.rosstat.gov.ru/storage/mediabank/10.05 Занятое население частных домохозяйств по территории нахождения работы и статусу занятости.xlsx",
+    "landing_page": "https://30.rosstat.gov.ru/vpn-2020",
+    "source_id": "census_06",
+    "reference_date": "2021-10-01",
+    "join_status": "source_geography_only_not_joined_to_2023_2024"
+  },
+  {
+    "host": "30.rosstat.gov.ru",
+    "title": " XLSX Таблица 8. Занятое население частных домохозяйств, работающее за пределами своего населенного пункта, по территории нахождения работы и периодичности выезда на работу.xlsx 12.91 Кб, 23.01.2023",
+    "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 8.  Занятое население частных домохоз, за пределами населенного пункта, по территории работы и частоте выезда на работу.xlsx",
+    "landing_page": "https://30.rosstat.gov.ru/vpn-2020",
+    "source_id": "census_07",
+    "reference_date": "2021-10-01",
+    "join_status": "source_geography_only_not_joined_to_2023_2024"
+  },
+  {
+    "host": "77.rosstat.gov.ru",
+    "title": "Таблица 2. Население частных домохозяйств по возрастным группам, полу и статусу участия в составе рабочей силы по муниципальным образованиям",
+    "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Таблица%202.xlsx",
+    "landing_page": "https://77.rosstat.gov.ru/folder/210976",
+    "source_id": "census_08",
+    "reference_date": "2021-10-01",
+    "join_status": "source_geography_only_not_joined_to_2023_2024"
+  },
+  {
+    "host": "77.rosstat.gov.ru",
+    "title": "Таблица 10. Занятое население частных домохозяйств, работающее за пределами своего населенного пункта, по территории нахождения работы и периодичности выезда на работу",
+    "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Таблица%2010.xlsx",
+    "landing_page": "https://77.rosstat.gov.ru/folder/210976",
+    "source_id": "census_09",
+    "reference_date": "2021-10-01",
+    "join_status": "source_geography_only_not_joined_to_2023_2024"
+  },
+  {
+    "host": "77.rosstat.gov.ru",
+    "title": "Методологические пояснения",
+    "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Методологические%20пояснения.docx",
+    "landing_page": "https://77.rosstat.gov.ru/folder/210976",
+    "source_id": "census_10",
+    "reference_date": "2021-10-01",
+    "join_status": "source_geography_only_not_joined_to_2023_2024"
+  },
+  {
+    "host": "77.rosstat.gov.ru",
+    "title": "Таблица 2. Население частных домохозяйств по возрастным группам, полу и статусу участия в составе рабочей силы по муниципальным образованиям",
+    "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Таблица%202.%20МО.xlsx",
+    "landing_page": "https://77.rosstat.gov.ru/folder/210976",
+    "source_id": "census_11",
+    "reference_date": "2021-10-01",
+    "join_status": "source_geography_only_not_joined_to_2023_2024"
+  },
+  {
+    "host": "77.rosstat.gov.ru",
+    "title": "Таблица 10. Занятое население частных домохозяйств, работающее за пределами своего населенного пункта, по территории нахождения работы и периодичности выезда на работу",
+    "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Таблица%2010.%20МО.xlsx",
+    "landing_page": "https://77.rosstat.gov.ru/folder/210976",
+    "source_id": "census_12",
+    "reference_date": "2021-10-01",
+    "join_status": "source_geography_only_not_joined_to_2023_2024"
+  },
+  {
+    "host": "rosstat.gov.ru",
+    "title": " PDF Методологические пояснения 305.06 Кб, 31.12.2022",
+    "url": "https://rosstat.gov.ru/storage/mediabank/Tom10_met_VPN-2020.pdf",
+    "landing_page": "https://rosstat.gov.ru/vpn/2020/Tom10_Rabochaya_sila",
+    "source_id": "census_13",
+    "reference_date": "2021-10-01",
+    "join_status": "source_geography_only_not_joined_to_2023_2024"
+  },
+  {
+    "host": "rosstat.gov.ru",
+    "title": " XLSX Таблица 10. Занятое население частных домохозяйств по территории нахождения работы и статусу занятости по субъектам Российской Федерации 168.2 Кб, 31.12.2022",
+    "url": "https://rosstat.gov.ru/storage/mediabank/Tom10_tab10_VPN-2020.xlsx",
+    "landing_page": "https://rosstat.gov.ru/vpn/2020/Tom10_Rabochaya_sila",
+    "source_id": "census_14",
+    "reference_date": "2021-10-01",
+    "join_status": "source_geography_only_not_joined_to_2023_2024"
+  },
+  {
+    "host": "rosstat.gov.ru",
+    "title": " XLSX Таблица 12. Занятое население частных домохозяйств, работающее за пределами своего населенного пункта, по территории нахождения работы и периодичности выезда на работу по субъектам Российской Федерации 124.77 Кб, 31.12.2022",
+    "url": "https://rosstat.gov.ru/storage/mediabank/Tom10_tab12_VPN-2020.xlsx",
+    "landing_page": "https://rosstat.gov.ru/vpn/2020/Tom10_Rabochaya_sila",
+    "source_id": "census_15",
+    "reference_date": "2021-10-01",
+    "join_status": "source_geography_only_not_joined_to_2023_2024"
+  }
+]

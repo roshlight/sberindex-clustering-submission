@@ -1,0 +1,9 @@
+year,source_region_scope,source_rows,exact_code_rows,federal_city_group_rows,other_region_group_rows,subregional_code_rows,unmatched_rows,exact_code_share_pct,federal_city_group_share_pct,other_region_group_share_pct,subregional_code_share_pct,unmatched_share_pct,historical_municipal_join_proven_rows,zero_proven_is_a_readiness_status_not_true_coverage
+2023,ALL,7555943,7552326,1486261,45005,6021060,3617,99.9521303959,19.6700927998,0.595623868523,79.6864137276,0.0478696040984,0,True
+2023,federal_city_source_region,1553313,1553313,1486261,0,67052,0,100,95.6832911332,0,4.31670886679,0,0,True
+2023,missing_source_region,4,4,0,0,4,0,100,0,0,100,0,0,True
+2023,other_source_region,6002626,5999009,0,45005,5954004,3617,99.9397430391,0,0.749755190478,99.1899878487,0.0602569608701,0,True
+2024,ALL,7884985,7881846,1549807,59687,6272352,3139,99.9601901589,19.6551673846,0.756970368365,79.5480524059,0.0398098411094,0,True
+2024,federal_city_source_region,1616655,1616655,1549807,0,66848,0,100,95.865042325,0,4.13495767495,0,0,True
+2024,missing_source_region,3,3,0,0,3,0,100,0,0,100,0,0,True
+2024,other_source_region,6268327,6265188,0,59687,6205501,3139,99.9499228423,0,0.952199845349,98.9977229969,0.0500771577488,0,True

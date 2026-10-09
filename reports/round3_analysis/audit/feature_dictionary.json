@@ -1,0 +1,47 @@
+{
+  "key": [
+    "territory_id",
+    "year"
+  ],
+  "row_grain": "frozen municipality-year",
+  "currency": "nominal thousand rubles",
+  "denominator": "frozen population_total at January 1 of observation year",
+  "indicators": {
+    "8109001": {
+      "prefix": "investment",
+      "annual_period": "17",
+      "activity_total": "101",
+      "scope": "organizations excluding small entrepreneurship"
+    },
+    "8401011": {
+      "prefix": "shipments",
+      "annual_period": "79",
+      "activity_total": "101",
+      "scope": "organizations excluding small entrepreneurship"
+    },
+    "8401003": {
+      "prefix": "retail",
+      "annual_period": "79",
+      "activity_total": "101",
+      "scope": "organizations excluding small entrepreneurship"
+    }
+  },
+  "feature_formula": "log(value*1000/population_total), only finite positive operands",
+  "missing_flag": "raw source value absent; not a revised cohort eligibility flag",
+  "feature_missing": "includes absent/nonpositive values and absent/nonpositive population",
+  "patterns": "order: investment, shipments, retail; 1=available, 0=missing",
+  "sector_columns_used_only_for_joint_coverage": [
+    "sector_A_share",
+    "sector_B_share",
+    "sector_C_share",
+    "sector_D_share",
+    "sector_H_share",
+    "sector_O_share",
+    "sector_P_share",
+    "sector_Q_share"
+  ],
+  "unit_conversion": "1000 rubles per source unit",
+  "inflation_adjustment": "none",
+  "boundary_equivalence": "unknown; inherited frozen flags not changed",
+  "publication_vintage": "retrieved 2026-09-16; first publication/revisions unknown"
+}

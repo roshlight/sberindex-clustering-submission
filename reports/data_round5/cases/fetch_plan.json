@@ -1,0 +1,94 @@
+{
+  "sources": [
+    {
+      "id": "iltumen_arctic_review",
+      "url": "https://www.iltumen.ru/news/26313",
+      "role": "primary_parliament_hearing_report"
+    },
+    {
+      "id": "district_home",
+      "url": "https://mr-nizhnekolymskij.sakha.gov.ru/",
+      "role": "official_municipal_entrypoint"
+    },
+    {
+      "id": "mintrans_permit",
+      "url": "https://www.mintrans.gov.ru/press-center/news/10959",
+      "role": "primary_federal_ministry_event"
+    },
+    {
+      "id": "favt_certification",
+      "url": "https://ykt-s.favt.ru/novosti/?id=6553",
+      "role": "primary_regional_aviation_authority_event"
+    },
+    {
+      "id": "rtm_project",
+      "url": "https://rtm.ppp-transport.ru/aeroport-cherskij",
+      "role": "primary_project_customer_card"
+    },
+    {
+      "id": "mintrans_report2023",
+      "url": "https://mintrans.gov.ru/file/506028",
+      "role": "primary_federal_ministry_report"
+    },
+    {
+      "id": "gov_contract_uplift_a",
+      "url": "https://static.government.ru/media/files/S4x1pAhiVCpmUAWAq11lg7JeDe2ar7yl.pdf",
+      "role": "primary_government_budget_plan"
+    },
+    {
+      "id": "gov_contract_uplift_b",
+      "url": "https://static.government.ru/media/files/2Cq0EJAZSVM5PFkXmBAFq1aAYtjKZO8J.pdf",
+      "role": "primary_government_budget_plan"
+    },
+    {
+      "id": "parliament_arctic_review",
+      "url": "https://www.sakhaparliament.ru/politika/v-il-tumene/24979-obsudili-khod-realizatsii-investitsionnoj-programmy-v-arkticheskoj-zone-respubliki",
+      "role": "parliament_newspaper_republication_of_official_hearing"
+    },
+    {
+      "id": "ysia_tlc_permit",
+      "url": "https://ysia.ru/zaversheno-stroitelstvo-torgovo-logisticheskih-tsentrov-v-dvuh-arkticheskih-rajonah-yakutii/",
+      "role": "regional_news_lead_not_original_permit"
+    },
+    {
+      "id": "arctic_tlc",
+      "url": "https://arctic-russia.ru/article/torgovo-logisticheskie-tsentry-v-arktike-opyt-yakutii-po-izmeneniyu-zapolyarnoy-logistiki/",
+      "role": "development_portal_context"
+    },
+    {
+      "id": "operator_home",
+      "url": "http://optorg.ykt.ru/",
+      "role": "operator_candidate_entrypoint"
+    },
+    {
+      "id": "rosstat_arctic2024",
+      "url": "https://14.rosstat.gov.ru/storage/mediabank/День%20Арктики.pdf",
+      "role": "primary_statistics_context"
+    },
+    {
+      "id": "rtm_first_flight",
+      "url": "https://rtm.ppp-transport.ru/news?id=aeroport-cherskiy-prinyal-pervyy-samolet-posle-zav/",
+      "role": "primary_project_customer_event"
+    },
+    {
+      "id": "iltumen_app_js",
+      "url": "https://www.iltumen.ru/js/main.c6a3bb04.js",
+      "role": "technical_asset_public_site"
+    },
+    {
+      "id": "gov_contract_uplift_b_http",
+      "url": "http://static.government.ru/media/files/2Cq0EJAZSVM5PFkXmBAFq1aAYtjKZO8J.pdf",
+      "role": "primary_government_budget_plan_alternate_scheme"
+    },
+    {
+      "id": "iltumen_article_api",
+      "url": "https://www.iltumen.ru/api/Articles/26313",
+      "role": "primary_parliament_public_article_api"
+    },
+    {
+      "id": "gov_contract_uplift_a_http",
+      "url": "http://static.government.ru/media/files/S4x1pAhiVCpmUAWAq11lg7JeDe2ar7yl.pdf",
+      "role": "primary_government_budget_plan_alternate_scheme"
+    }
+  ]
+}

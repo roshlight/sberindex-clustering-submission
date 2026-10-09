@@ -1,0 +1,102 @@
+[
+  {
+    "root": "work",
+    "path": "work/data-round4/sme/description_pages.json",
+    "archive_path": "work/data-round4/sme/description_pages.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/sme/description_retrieval.json",
+    "archive_path": "work/data-round4/sme/description_retrieval.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/sme/discovered_links.json",
+    "archive_path": "work/data-round4/sme/discovered_links.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/sme/implementation/fetch_round4_sakhalin.py",
+    "archive_path": "work/data-round4/sme/implementation/fetch_round4_sakhalin.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/sme/implementation/probe_round4_sme.py",
+    "archive_path": "work/data-round4/sme/implementation/probe_round4_sme.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/sme/probe.json",
+    "archive_path": "work/data-round4/sme/probe.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/sme/raw/data_sme_153_year_2023_v20260605_parquet.zip",
+    "archive_path": "work/data-round4/sme/raw/data_sme_153_year_2023_v20260605_parquet.zip"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/sme/raw/data_sme_153_year_2024_v20260605_parquet.zip",
+    "archive_path": "work/data-round4/sme/raw/data_sme_153_year_2024_v20260605_parquet.zip"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/sme/raw/description_sme.pdf",
+    "archive_path": "work/data-round4/sme/raw/description_sme.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/sme/raw/sakhalin_sme_share.htm",
+    "archive_path": "work/data-round4/sme/raw/sakhalin_sme_share.htm"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/sme/raw/tochno_sme.html",
+    "archive_path": "work/data-round4/sme/raw/tochno_sme.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/sme/retrieval_2023.json",
+    "archive_path": "work/data-round4/sme/retrieval_2023.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/sme/retrieval_2024.json",
+    "archive_path": "work/data-round4/sme/retrieval_2024.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/sme/retrievals.json",
+    "archive_path": "work/data-round4/sme/retrievals.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/sme/review-render/description-3.png",
+    "archive_path": "work/data-round4/sme/review-render/description-3.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/sme/review-render/description-5.png",
+    "archive_path": "work/data-round4/sme/review-render/description-5.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/sme/review-render/description-6.png",
+    "archive_path": "work/data-round4/sme/review-render/description-6.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/sme/review-render/description-7.png",
+    "archive_path": "work/data-round4/sme/review-render/description-7.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/sme/sakhalin_retrieval.json",
+    "archive_path": "work/data-round4/sme/sakhalin_retrieval.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/sme/sakhalin_sme_share.txt",
+    "archive_path": "work/data-round4/sme/sakhalin_sme_share.txt"
+  }
+]

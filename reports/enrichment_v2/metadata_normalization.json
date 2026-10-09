@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "path": "historical_runs/population_v1_manifest.json",
+      "original_sha256": "c995c965676b89c463645f2290465a3c93060820be297244f5f29ab8f0255756",
+      "delivery_sha256": "22069e63bde6f9a45300c7ea4b6982ce8aa50204a25f7f3998b2fb4a43dd37d5",
+      "transformation": "Replace machine-specific service root with relative project root in generated metadata only."
+    },
+    {
+      "path": "historical_runs/population_v2_manifest.json",
+      "original_sha256": "413926834d649c6144f0a830f236f8af2a5f09e8429a1e214cc40db0e38781c4",
+      "delivery_sha256": "1c67dc3f5141312fbf499c6956814b271ecdc64deafb0d11e12db35d0388c677",
+      "transformation": "Replace machine-specific service root with relative project root in generated metadata only."
+    },
+    {
+      "path": "population/manifest.json",
+      "original_sha256": "e9a4750d4667f6c4fcdce409005f309ab04314c43af31b8dfd817751157c7744",
+      "delivery_sha256": "136bc2ef3023572a9936c5737b34e8dec49001150790521eb3107812bbc69b9f",
+      "transformation": "Replace machine-specific service root with relative project root in generated metadata only."
+    },
+    {
+      "path": "population_source/manifest.json",
+      "original_sha256": "b247c59580a7a762c2339a673a3251f08762e3ffc28966d976ff9d431b5f05ee",
+      "delivery_sha256": "6012194fbd9f6f5517715699388cac53e3fd69b5b2f28a5741b39004eb2931fb",
+      "transformation": "Replace machine-specific service root with relative project root in generated metadata only."
+    }
+  ],
+  "numerical_values_changed": false,
+  "source_bodies_changed": false
+}

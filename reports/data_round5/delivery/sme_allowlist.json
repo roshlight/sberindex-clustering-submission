@@ -1,0 +1,737 @@
+[
+  {
+    "root": "work",
+    "path": "data-round5/sme/VO_RRMSPSV_2_213_04_04_06.http.json",
+    "archive_path": "work/data-round5/sme/VO_RRMSPSV_2_213_04_04_06.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/VO_RRMSPSV_2_213_04_04_06.zip",
+    "archive_path": "work/data-round5/sme/VO_RRMSPSV_2_213_04_04_06.zip"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/ajax-forms.http.json",
+    "archive_path": "work/data-round5/sme/ajax-forms.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/ajax-forms.js",
+    "archive_path": "work/data-round5/sme/ajax-forms.js"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2023_01.http.json",
+    "archive_path": "work/data-round5/sme/archive_2023_01.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2023_06.http.json",
+    "archive_path": "work/data-round5/sme/archive_2023_06.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2023_07.http.json",
+    "archive_path": "work/data-round5/sme/archive_2023_07.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2023_12.http.json",
+    "archive_path": "work/data-round5/sme/archive_2023_12.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2023_12/member_inventory.json",
+    "archive_path": "work/data-round5/sme/archive_2023_12/member_inventory.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2023_12/range_2055683440_2055683469.bin",
+    "archive_path": "work/data-round5/sme/archive_2023_12/range_2055683440_2055683469.bin"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2023_12/range_2055683440_2055683469.json",
+    "archive_path": "work/data-round5/sme/archive_2023_12/range_2055683440_2055683469.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2023_12/range_2055683470_2055683539.bin",
+    "archive_path": "work/data-round5/sme/archive_2023_12/range_2055683470_2055683539.bin"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2023_12/range_2055683470_2055683539.json",
+    "archive_path": "work/data-round5/sme/archive_2023_12/range_2055683470_2055683539.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2023_12/range_2055683540_2055762698.bin",
+    "archive_path": "work/data-round5/sme/archive_2023_12/range_2055683540_2055762698.bin"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2023_12/range_2055683540_2055762698.json",
+    "archive_path": "work/data-round5/sme/archive_2023_12/range_2055683540_2055762698.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2023_12/range_2133989325_2135054996.bin",
+    "archive_path": "work/data-round5/sme/archive_2023_12/range_2133989325_2135054996.bin"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2023_12/range_2133989325_2135054996.json",
+    "archive_path": "work/data-round5/sme/archive_2023_12/range_2133989325_2135054996.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2023_12/range_2135054977_2135054996.bin",
+    "archive_path": "work/data-round5/sme/archive_2023_12/range_2135054977_2135054996.bin"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2023_12/range_2135054977_2135054996.json",
+    "archive_path": "work/data-round5/sme/archive_2023_12/range_2135054977_2135054996.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2023_12/range_2135054997_2135055018.bin",
+    "archive_path": "work/data-round5/sme/archive_2023_12/range_2135054997_2135055018.bin"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2023_12/range_2135054997_2135055018.json",
+    "archive_path": "work/data-round5/sme/archive_2023_12/range_2135054997_2135055018.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2023_12/sample.xml",
+    "archive_path": "work/data-round5/sme/archive_2023_12/sample.xml"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_01.http.json",
+    "archive_path": "work/data-round5/sme/archive_2024_01.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_06.http.json",
+    "archive_path": "work/data-round5/sme/archive_2024_06.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_06/member_inventory.json",
+    "archive_path": "work/data-round5/sme/archive_2024_06/member_inventory.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_06/range_2237713424_2238823783.bin",
+    "archive_path": "work/data-round5/sme/archive_2024_06/range_2237713424_2238823783.bin"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_06/range_2237713424_2238823783.json",
+    "archive_path": "work/data-round5/sme/archive_2024_06/range_2237713424_2238823783.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_06/range_2238823764_2238823783.bin",
+    "archive_path": "work/data-round5/sme/archive_2024_06/range_2238823764_2238823783.bin"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_06/range_2238823764_2238823783.json",
+    "archive_path": "work/data-round5/sme/archive_2024_06/range_2238823764_2238823783.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_06/range_2238823784_2238823805.bin",
+    "archive_path": "work/data-round5/sme/archive_2024_06/range_2238823784_2238823805.bin"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_06/range_2238823784_2238823805.json",
+    "archive_path": "work/data-round5/sme/archive_2024_06/range_2238823784_2238823805.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_06/range_987868771_987868800.bin",
+    "archive_path": "work/data-round5/sme/archive_2024_06/range_987868771_987868800.bin"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_06/range_987868771_987868800.json",
+    "archive_path": "work/data-round5/sme/archive_2024_06/range_987868771_987868800.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_06/range_987868801_987868870.bin",
+    "archive_path": "work/data-round5/sme/archive_2024_06/range_987868801_987868870.bin"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_06/range_987868801_987868870.json",
+    "archive_path": "work/data-round5/sme/archive_2024_06/range_987868801_987868870.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_06/range_987868871_987954198.bin",
+    "archive_path": "work/data-round5/sme/archive_2024_06/range_987868871_987954198.bin"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_06/range_987868871_987954198.json",
+    "archive_path": "work/data-round5/sme/archive_2024_06/range_987868871_987954198.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_06/sample.xml",
+    "archive_path": "work/data-round5/sme/archive_2024_06/sample.xml"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_07.http.json",
+    "archive_path": "work/data-round5/sme/archive_2024_07.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_07/member_inventory.json",
+    "archive_path": "work/data-round5/sme/archive_2024_07/member_inventory.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_07/range_1772371096_1772371125.bin",
+    "archive_path": "work/data-round5/sme/archive_2024_07/range_1772371096_1772371125.bin"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_07/range_1772371096_1772371125.json",
+    "archive_path": "work/data-round5/sme/archive_2024_07/range_1772371096_1772371125.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_07/range_1772371126_1772371195.bin",
+    "archive_path": "work/data-round5/sme/archive_2024_07/range_1772371126_1772371195.bin"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_07/range_1772371126_1772371195.json",
+    "archive_path": "work/data-round5/sme/archive_2024_07/range_1772371126_1772371195.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_07/range_1772371196_1772457618.bin",
+    "archive_path": "work/data-round5/sme/archive_2024_07/range_1772371196_1772457618.bin"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_07/range_1772371196_1772457618.json",
+    "archive_path": "work/data-round5/sme/archive_2024_07/range_1772371196_1772457618.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_07/range_2091624466_2092669313.bin",
+    "archive_path": "work/data-round5/sme/archive_2024_07/range_2091624466_2092669313.bin"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_07/range_2091624466_2092669313.json",
+    "archive_path": "work/data-round5/sme/archive_2024_07/range_2091624466_2092669313.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_07/range_2092669294_2092669313.bin",
+    "archive_path": "work/data-round5/sme/archive_2024_07/range_2092669294_2092669313.bin"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_07/range_2092669294_2092669313.json",
+    "archive_path": "work/data-round5/sme/archive_2024_07/range_2092669294_2092669313.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_07/range_2092669314_2092669335.bin",
+    "archive_path": "work/data-round5/sme/archive_2024_07/range_2092669314_2092669335.bin"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_07/range_2092669314_2092669335.json",
+    "archive_path": "work/data-round5/sme/archive_2024_07/range_2092669314_2092669335.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_07/sample.xml",
+    "archive_path": "work/data-round5/sme/archive_2024_07/sample.xml"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_12.http.json",
+    "archive_path": "work/data-round5/sme/archive_2024_12.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_12/member_inventory.json",
+    "archive_path": "work/data-round5/sme/archive_2024_12/member_inventory.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_12/range_2059847244_2059847273.bin",
+    "archive_path": "work/data-round5/sme/archive_2024_12/range_2059847244_2059847273.bin"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_12/range_2059847244_2059847273.json",
+    "archive_path": "work/data-round5/sme/archive_2024_12/range_2059847244_2059847273.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_12/range_2059847274_2059847343.bin",
+    "archive_path": "work/data-round5/sme/archive_2024_12/range_2059847274_2059847343.bin"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_12/range_2059847274_2059847343.json",
+    "archive_path": "work/data-round5/sme/archive_2024_12/range_2059847274_2059847343.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_12/range_2059847344_2059934339.bin",
+    "archive_path": "work/data-round5/sme/archive_2024_12/range_2059847344_2059934339.bin"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_12/range_2059847344_2059934339.json",
+    "archive_path": "work/data-round5/sme/archive_2024_12/range_2059847344_2059934339.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_12/range_2183320335_2184429326.bin",
+    "archive_path": "work/data-round5/sme/archive_2024_12/range_2183320335_2184429326.bin"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_12/range_2183320335_2184429326.json",
+    "archive_path": "work/data-round5/sme/archive_2024_12/range_2183320335_2184429326.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_12/range_2184429307_2184429326.bin",
+    "archive_path": "work/data-round5/sme/archive_2024_12/range_2184429307_2184429326.bin"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_12/range_2184429307_2184429326.json",
+    "archive_path": "work/data-round5/sme/archive_2024_12/range_2184429307_2184429326.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_12/range_2184429327_2184429348.bin",
+    "archive_path": "work/data-round5/sme/archive_2024_12/range_2184429327_2184429348.bin"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_12/range_2184429327_2184429348.json",
+    "archive_path": "work/data-round5/sme/archive_2024_12/range_2184429327_2184429348.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_2024_12/sample.xml",
+    "archive_path": "work/data-round5/sme/archive_2024_12/sample.xml"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_sample_replay.json",
+    "archive_path": "work/data-round5/sme/archive_sample_replay.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/archive_samples.json",
+    "archive_path": "work/data-round5/sme/archive_samples.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/author_article_2024.http.json",
+    "archive_path": "work/data-round5/sme/author_article_2024.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/discovered_links.json",
+    "archive_path": "work/data-round5/sme/discovered_links.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/fns_about.html",
+    "archive_path": "work/data-round5/sme/fns_about.html"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/fns_about.http.json",
+    "archive_path": "work/data-round5/sme/fns_about.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/fns_developers.html",
+    "archive_path": "work/data-round5/sme/fns_developers.html"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/fns_developers.http.json",
+    "archive_path": "work/data-round5/sme/fns_developers.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/fns_passport.html",
+    "archive_path": "work/data-round5/sme/fns_passport.html"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/fns_passport.http.json",
+    "archive_path": "work/data-round5/sme/fns_passport.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/fns_statistics.html",
+    "archive_path": "work/data-round5/sme/fns_statistics.html"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/fns_statistics.http.json",
+    "archive_path": "work/data-round5/sme/fns_statistics.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/fns_workers_passport.html",
+    "archive_path": "work/data-round5/sme/fns_workers_passport.html"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/fns_workers_passport.http.json",
+    "archive_path": "work/data-round5/sme/fns_workers_passport.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/generator_source.gz",
+    "archive_path": "work/data-round5/sme/generator_source.gz"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/generator_source.http.json",
+    "archive_path": "work/data-round5/sme/generator_source.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.ba-hashchange.min.http.json",
+    "archive_path": "work/data-round5/sme/jquery.ba-hashchange.min.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.ba-hashchange.min.js",
+    "archive_path": "work/data-round5/sme/jquery.ba-hashchange.min.js"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.blockUI.http.json",
+    "archive_path": "work/data-round5/sme/jquery.blockUI.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.blockUI.js",
+    "archive_path": "work/data-round5/sme/jquery.blockUI.js"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.cookie.http.json",
+    "archive_path": "work/data-round5/sme/jquery.cookie.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.cookie.js",
+    "archive_path": "work/data-round5/sme/jquery.cookie.js"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.is-input.http.json",
+    "archive_path": "work/data-round5/sme/jquery.is-input.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.is-input.js",
+    "archive_path": "work/data-round5/sme/jquery.is-input.js"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.mask.min.http.json",
+    "archive_path": "work/data-round5/sme/jquery.mask.min.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.mask.min.js",
+    "archive_path": "work/data-round5/sme/jquery.mask.min.js"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.min.http.json",
+    "archive_path": "work/data-round5/sme/jquery.min.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.min.js",
+    "archive_path": "work/data-round5/sme/jquery.min.js"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.simplemodal.min.http.json",
+    "archive_path": "work/data-round5/sme/jquery.simplemodal.min.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.simplemodal.min.js",
+    "archive_path": "work/data-round5/sme/jquery.simplemodal.min.js"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.uni-checkbox.http.json",
+    "archive_path": "work/data-round5/sme/jquery.uni-checkbox.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.uni-checkbox.js",
+    "archive_path": "work/data-round5/sme/jquery.uni-checkbox.js"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.uni-date.http.json",
+    "archive_path": "work/data-round5/sme/jquery.uni-date.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.uni-date.js",
+    "archive_path": "work/data-round5/sme/jquery.uni-date.js"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.uni-fias.http.json",
+    "archive_path": "work/data-round5/sme/jquery.uni-fias.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.uni-fias.js",
+    "archive_path": "work/data-round5/sme/jquery.uni-fias.js"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.uni-kladr2.http.json",
+    "archive_path": "work/data-round5/sme/jquery.uni-kladr2.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.uni-kladr2.js",
+    "archive_path": "work/data-round5/sme/jquery.uni-kladr2.js"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.uni-radio.http.json",
+    "archive_path": "work/data-round5/sme/jquery.uni-radio.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.uni-radio.js",
+    "archive_path": "work/data-round5/sme/jquery.uni-radio.js"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.uni-select.http.json",
+    "archive_path": "work/data-round5/sme/jquery.uni-select.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.uni-select.js",
+    "archive_path": "work/data-round5/sme/jquery.uni-select.js"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.uni-set.http.json",
+    "archive_path": "work/data-round5/sme/jquery.uni-set.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.uni-set.js",
+    "archive_path": "work/data-round5/sme/jquery.uni-set.js"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.uni-text.http.json",
+    "archive_path": "work/data-round5/sme/jquery.uni-text.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.uni-text.js",
+    "archive_path": "work/data-round5/sme/jquery.uni-text.js"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.uni-tree2.http.json",
+    "archive_path": "work/data-round5/sme/jquery.uni-tree2.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/jquery.uni-tree2.js",
+    "archive_path": "work/data-round5/sme/jquery.uni-tree2.js"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/js.cookie.min.http.json",
+    "archive_path": "work/data-round5/sme/js.cookie.min.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/js.cookie.min.js",
+    "archive_path": "work/data-round5/sme/js.cookie.min.js"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/main.http.json",
+    "archive_path": "work/data-round5/sme/main.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/main.js",
+    "archive_path": "work/data-round5/sme/main.js"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/pypi_generator.html",
+    "archive_path": "work/data-round5/sme/pypi_generator.html"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/pypi_generator.http.json",
+    "archive_path": "work/data-round5/sme/pypi_generator.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/retrievals.json",
+    "archive_path": "work/data-round5/sme/retrievals.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/rsmp-commons.http.json",
+    "archive_path": "work/data-round5/sme/rsmp-commons.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/rsmp-commons.js",
+    "archive_path": "work/data-round5/sme/rsmp-commons.js"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/rudnya-page-1.png",
+    "archive_path": "work/data-round5/sme/rudnya-page-1.png"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/rudnya_municipal_2024.http.json",
+    "archive_path": "work/data-round5/sme/rudnya_municipal_2024.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/rudnya_municipal_2024.pdf",
+    "archive_path": "work/data-round5/sme/rudnya_municipal_2024.pdf"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/statistics.http.json",
+    "archive_path": "work/data-round5/sme/statistics.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/statistics.js",
+    "archive_path": "work/data-round5/sme/statistics.js"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/statistics_2023.http.json",
+    "archive_path": "work/data-round5/sme/statistics_2023.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/statistics_2023.xlsx",
+    "archive_path": "work/data-round5/sme/statistics_2023.xlsx"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/statistics_2024.http.json",
+    "archive_path": "work/data-round5/sme/statistics_2024.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/statistics_2024.xlsx",
+    "archive_path": "work/data-round5/sme/statistics_2024.xlsx"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/structure-10032022.http.json",
+    "archive_path": "work/data-round5/sme/structure-10032022.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/structure-10032022.xsd",
+    "archive_path": "work/data-round5/sme/structure-10032022.xsd"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/structure-10062023.http.json",
+    "archive_path": "work/data-round5/sme/structure-10062023.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/structure-10062023.xsd",
+    "archive_path": "work/data-round5/sme/structure-10062023.xsd"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/uni-dialogs.http.json",
+    "archive_path": "work/data-round5/sme/uni-dialogs.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/uni-dialogs.js",
+    "archive_path": "work/data-round5/sme/uni-dialogs.js"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/uni-i18n.http.json",
+    "archive_path": "work/data-round5/sme/uni-i18n.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/uni-i18n.js",
+    "archive_path": "work/data-round5/sme/uni-i18n.js"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/uni-string.http.json",
+    "archive_path": "work/data-round5/sme/uni-string.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/uni-string.js",
+    "archive_path": "work/data-round5/sme/uni-string.js"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/workers_2024_release.http.json",
+    "archive_path": "work/data-round5/sme/workers_2024_release.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/workers_structure.http.json",
+    "archive_path": "work/data-round5/sme/workers_structure.http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/sme/workers_structure.xsd",
+    "archive_path": "work/data-round5/sme/workers_structure.xsd"
+  }
+]

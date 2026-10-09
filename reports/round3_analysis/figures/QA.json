@@ -1,0 +1,42 @@
+{
+  "numeric_checks": "PASS",
+  "visual_review": "PASS: all three final exported PNGs inspected using view_image",
+  "coverage_cells": 6,
+  "primary_comparisons": 12,
+  "negative_control_comparisons": 8,
+  "primary_intervals_include_zero": 12,
+  "same_rich_flags_baseline": true,
+  "seed": 13,
+  "shared_limits_within_each_forest": true,
+  "source_inputs_unchanged": true,
+  "point_in_time_or_causal_claim": false,
+  "ruff_check": "PASS",
+  "ruff_format_check": "PASS",
+  "visual_findings": {
+    "clipped_labels": false,
+    "overlapping_labels": false,
+    "zero_line_readable": true,
+    "shared_forest_scales": true,
+    "non_color_series_distinction": true
+  },
+  "reviewed_pngs": [
+    {
+      "file": "activity_coverage.png",
+      "sha256": "f5febc47decd8421fbc525c6f016bbed9f4f822b160e600a1281a99380bee690",
+      "width": 2224,
+      "height": 994
+    },
+    {
+      "file": "log_total_negative_control.png",
+      "sha256": "3e1cc09184280f881edd22b38e9c087847135a65d09ca765e62330a1b18833ad",
+      "width": 2761,
+      "height": 1299
+    },
+    {
+      "file": "profile_increment.png",
+      "sha256": "54fe6325f734ca05b5c9afb0e2d356d4ffd7314124adccb7356b65fa0bc53788",
+      "width": 2766,
+      "height": 1385
+    }
+  ]
+}

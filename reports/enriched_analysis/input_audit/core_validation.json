@@ -1,0 +1,634 @@
+{
+  "status": "PASS_with_interpretation_conditions",
+  "generated_at_utc": "2026-09-14T23:42:11.804203+00:00",
+  "validated_run": "reports/enriched_analysis/core_v2",
+  "run_manifest_sha256": "29900106977ae290cbec3297590d837c938ea33f25c6d337862ff7adc69a4bf6",
+  "validator_sha256": "a80b9405f75aa7249ddd8bc0ab7d4023c888299d8f6b887bbef29c434c19de25",
+  "checks": {
+    "run_complete": {
+      "status": "PASS",
+      "details": null
+    },
+    "all_output_hashes": {
+      "status": "PASS",
+      "details": {
+        "annual_panel.csv": true,
+        "annual_panel.parquet": true,
+        "correlations.csv": true,
+        "coverage.csv": true,
+        "cv_comparisons.csv": true,
+        "cv_metrics.csv": true,
+        "join_audit.json": true,
+        "oof_predictions.parquet": true,
+        "regression_coefficients.csv": true,
+        "stable_code_changes.csv": true
+      }
+    },
+    "all_input_hashes": {
+      "status": "PASS",
+      "details": {
+        "data/raw/consumption.parquet": true,
+        "reports/enrichment_v2/population/municipal_population_wide.csv": true,
+        "reports/enrichment_v3/economy/annual_candidates/annual_candidate_panel.csv": true,
+        "reports/enrichment_v3/spatial/sber_yearly_spatial_attributes.csv": true,
+        "reports/enrichment_v3/spatial/sber_static_context_2024.csv": true,
+        "reports/enrichment_v2/code_bridge/primary_78_code_type_changes.csv": true
+      }
+    },
+    "code_hash": {
+      "status": "PASS",
+      "details": null
+    },
+    "config_hash": {
+      "status": "PASS",
+      "details": null
+    },
+    "annual_grain": {
+      "status": "PASS",
+      "details": null
+    },
+    "audit_keys": {
+      "status": "PASS",
+      "details": null
+    },
+    "same_id_population_each_year": {
+      "status": "PASS",
+      "details": null
+    },
+    "same_cohort_as_initial_study": {
+      "status": "PASS",
+      "details": null
+    },
+    "raw_unique_keys": {
+      "status": "PASS",
+      "details": null
+    },
+    "complete_raw_cohort": {
+      "status": "PASS",
+      "details": null
+    },
+    "all_six_categories_every_month": {
+      "status": "PASS",
+      "details": null
+    },
+    "twelve_months_each_year": {
+      "status": "PASS",
+      "details": null
+    },
+    "annual_profiles_mean_of_twelve_normalized_months": {
+      "status": "PASS",
+      "details": {
+        "max_abs_error": 0.0
+      }
+    },
+    "annual_total_is_monthly_mean_not_sum": {
+      "status": "PASS",
+      "details": {
+        "max_abs_error": 0.0
+      }
+    },
+    "annual_profile_sum_one": {
+      "status": "PASS",
+      "details": {
+        "max_abs_error": 2.220446049250313e-16
+      }
+    },
+    "independent_source_join_population_total": {
+      "status": "PASS",
+      "details": {
+        "max_abs_error": 0.0
+      }
+    },
+    "independent_source_join_population_urban": {
+      "status": "PASS",
+      "details": {
+        "max_abs_error": 0.0
+      }
+    },
+    "independent_source_join_workers": {
+      "status": "PASS",
+      "details": {
+        "max_abs_error": 0.0
+      }
+    },
+    "independent_source_join_wage": {
+      "status": "PASS",
+      "details": {
+        "max_abs_error": 0.0
+      }
+    },
+    "independent_source_join_market_access": {
+      "status": "PASS",
+      "details": {
+        "max_abs_error": 0.0
+      }
+    },
+    "urban_ratio_and_nulls": {
+      "status": "PASS",
+      "details": {
+        "max_abs_error": 1.1102230246251565e-16
+      }
+    },
+    "exact_spatial_join": {
+      "status": "PASS",
+      "details": null
+    },
+    "core_mask_exact_rows": {
+      "status": "PASS",
+      "details": {
+        "2023": 1975,
+        "2024": 1998
+      }
+    },
+    "conservative_mask_exact_rows": {
+      "status": "PASS",
+      "details": {
+        "2023": 1897,
+        "2024": 1930
+      }
+    },
+    "calendar_flags_preserved_in_economy": {
+      "status": "PASS",
+      "details": {
+        "flagged_annual_rows": 6
+      }
+    },
+    "changed_codes_exact_ids": {
+      "status": "PASS",
+      "details": {
+        "ids": 78
+      }
+    },
+    "market_not_carried_to_2023": {
+      "status": "PASS",
+      "details": null
+    },
+    "log_population": {
+      "status": "PASS",
+      "details": {
+        "max_abs_error": 0.0
+      }
+    },
+    "log_wage": {
+      "status": "PASS",
+      "details": {
+        "max_abs_error": 0.0
+      }
+    },
+    "log_total": {
+      "status": "PASS",
+      "details": {
+        "max_abs_error": 0.0
+      }
+    },
+    "log_market_access": {
+      "status": "PASS",
+      "details": {
+        "max_abs_error": 0.0
+      }
+    },
+    "log_worker_concentration": {
+      "status": "PASS",
+      "details": {
+        "max_abs_error": 0.0
+      }
+    },
+    "csv_parquet_numeric_agreement": {
+      "status": "PASS",
+      "details": {
+        "max_abs_error": 7.275957614183426e-12
+      }
+    },
+    "oof_unique_keys": {
+      "status": "PASS",
+      "details": null
+    },
+    "metric_unique_keys": {
+      "status": "PASS",
+      "details": null
+    },
+    "oof_finite": {
+      "status": "PASS",
+      "details": null
+    },
+    "all_oof_targets_rebuilt": {
+      "status": "PASS",
+      "details": {
+        "max_abs_error": 0.0
+      }
+    },
+    "all_ridge_predictions_refit_independently": {
+      "status": "PASS",
+      "details": {
+        "model_folds": 170,
+        "max_abs_error": 2.4424906541753444e-15,
+        "solver": "centered_normal_equations_alpha1",
+        "scaling": "train_only_population_sd",
+        "dummy_levels": "train_only"
+      }
+    },
+    "all_cv_scores_recalculated": {
+      "status": "PASS",
+      "details": {
+        "metric_rows": 68,
+        "max_abs_error": 1.1102230246251565e-16,
+        "profile_r2": "sum_coordinate_SSE_over_sum_coordinate_SST_not_average_of_coordinate_R2"
+      }
+    },
+    "heldout_regions_disjoint": {
+      "status": "PASS",
+      "details": null
+    },
+    "same_comparison_folds": {
+      "status": "PASS",
+      "details": null
+    },
+    "all_fixed_prediction_region_CIs_recalculated": {
+      "status": "PASS",
+      "details": {
+        "comparison_rows": 40,
+        "repeats": 2000,
+        "seed": 13,
+        "max_abs_error": 4.718447854656915e-16,
+        "refitting_inside_bootstrap": false
+      }
+    },
+    "stable_pairs_exact_keys": {
+      "status": "PASS",
+      "details": {
+        "paired_ids": 1891
+      }
+    },
+    "stable_pair_log_changes": {
+      "status": "PASS",
+      "details": {
+        "max_abs_error": 9.996344030316351e-17
+      }
+    },
+    "all_OLS_coefficients_cluster_SE_and_CI_recalculated": {
+      "status": "PASS",
+      "details": {
+        "coefficient_rows": 15,
+        "max_abs_error": 1.6969203819883205e-12,
+        "covariance": "CR1_with_actual_matrix_rank_and_t_G_minus_1",
+        "independent_solver": "scipy_lstsq_and_pinv_of_X"
+      }
+    },
+    "all_correlations_recalculated": {
+      "status": "PASS",
+      "details": {
+        "rows": 60,
+        "max_abs_error": 1.1102230246251565e-16
+      }
+    },
+    "coverage_table_recalculated": {
+      "status": "PASS",
+      "details": null
+    }
+  },
+  "counts": {
+    "annual_rows": 4032,
+    "municipalities": 2016,
+    "oof_rows": 60690,
+    "cv_metrics": 68,
+    "cv_comparisons": 40,
+    "OLS_rows": 15,
+    "stable_pairs": 1891
+  },
+  "core_cv_metrics": [
+    {
+      "year": 2023,
+      "sample": "core",
+      "regime": "within_region",
+      "model": "context",
+      "target": "log_total",
+      "n": 1975,
+      "regions": 72,
+      "r2_oof": 0.8262034869963708,
+      "mse_oof": 0.0172059715329077
+    },
+    {
+      "year": 2023,
+      "sample": "core",
+      "regime": "within_region",
+      "model": "context",
+      "target": "profile_clr",
+      "n": 1975,
+      "regions": 72,
+      "r2_oof": 0.6189836174535284,
+      "mse_oof": 0.0428345726411248
+    },
+    {
+      "year": 2023,
+      "sample": "core",
+      "regime": "within_region",
+      "model": "economic",
+      "target": "log_total",
+      "n": 1975,
+      "regions": 72,
+      "r2_oof": 0.9197127241428282,
+      "mse_oof": 0.0079484942417939
+    },
+    {
+      "year": 2023,
+      "sample": "core",
+      "regime": "within_region",
+      "model": "economic",
+      "target": "profile_clr",
+      "n": 1975,
+      "regions": 72,
+      "r2_oof": 0.7521446160334015,
+      "mse_oof": 0.0278643647237825
+    },
+    {
+      "year": 2023,
+      "sample": "core",
+      "regime": "heldout_regions",
+      "model": "context",
+      "target": "log_total",
+      "n": 1975,
+      "regions": 72,
+      "r2_oof": 0.5137779774585742,
+      "mse_oof": 0.0481363068449245
+    },
+    {
+      "year": 2023,
+      "sample": "core",
+      "regime": "heldout_regions",
+      "model": "context",
+      "target": "profile_clr",
+      "n": 1975,
+      "regions": 72,
+      "r2_oof": 0.3420791584746278,
+      "mse_oof": 0.0739646885786894
+    },
+    {
+      "year": 2023,
+      "sample": "core",
+      "regime": "heldout_regions",
+      "model": "economic",
+      "target": "log_total",
+      "n": 1975,
+      "regions": 72,
+      "r2_oof": 0.8427241750435053,
+      "mse_oof": 0.015570412318684
+    },
+    {
+      "year": 2023,
+      "sample": "core",
+      "regime": "heldout_regions",
+      "model": "economic",
+      "target": "profile_clr",
+      "n": 1975,
+      "regions": 72,
+      "r2_oof": 0.5359711507302796,
+      "mse_oof": 0.0521669890380556
+    },
+    {
+      "year": 2024,
+      "sample": "core",
+      "regime": "within_region",
+      "model": "context",
+      "target": "log_total",
+      "n": 1998,
+      "regions": 73,
+      "r2_oof": 0.8076878161448662,
+      "mse_oof": 0.0201706267495919
+    },
+    {
+      "year": 2024,
+      "sample": "core",
+      "regime": "within_region",
+      "model": "context",
+      "target": "profile_clr",
+      "n": 1998,
+      "regions": 73,
+      "r2_oof": 0.6161420266533392,
+      "mse_oof": 0.0434140402030572
+    },
+    {
+      "year": 2024,
+      "sample": "core",
+      "regime": "within_region",
+      "model": "economic",
+      "target": "log_total",
+      "n": 1998,
+      "regions": 73,
+      "r2_oof": 0.9073488136197252,
+      "mse_oof": 0.0097177020244914
+    },
+    {
+      "year": 2024,
+      "sample": "core",
+      "regime": "within_region",
+      "model": "economic",
+      "target": "profile_clr",
+      "n": 1998,
+      "regions": 73,
+      "r2_oof": 0.7616097350039968,
+      "mse_oof": 0.0269617547821713
+    },
+    {
+      "year": 2024,
+      "sample": "core",
+      "regime": "heldout_regions",
+      "model": "context",
+      "target": "log_total",
+      "n": 1998,
+      "regions": 73,
+      "r2_oof": 0.5226628721597935,
+      "mse_oof": 0.0500654136746729
+    },
+    {
+      "year": 2024,
+      "sample": "core",
+      "regime": "heldout_regions",
+      "model": "context",
+      "target": "profile_clr",
+      "n": 1998,
+      "regions": 73,
+      "r2_oof": 0.3780126632848827,
+      "mse_oof": 0.070346287212735
+    },
+    {
+      "year": 2024,
+      "sample": "core",
+      "regime": "heldout_regions",
+      "model": "economic",
+      "target": "log_total",
+      "n": 1998,
+      "regions": 73,
+      "r2_oof": 0.828371635532934,
+      "mse_oof": 0.0180012082953406
+    },
+    {
+      "year": 2024,
+      "sample": "core",
+      "regime": "heldout_regions",
+      "model": "economic",
+      "target": "profile_clr",
+      "n": 1998,
+      "regions": 73,
+      "r2_oof": 0.5933497523607437,
+      "mse_oof": 0.0459918288154204
+    }
+  ],
+  "added_feature_comparisons": [
+    {
+      "year": 2023,
+      "sample": "urban",
+      "regime": "within_region",
+      "target": "log_total",
+      "baseline": "economic",
+      "alternative": "economic_urban",
+      "relative_mse_reduction": 0.0192007287003322,
+      "ci_low": -0.008979995596847,
+      "ci_high": 0.0493781766633312,
+      "bootstrap_scope": "fixed_OOF_predictions_paired_region_resampling"
+    },
+    {
+      "year": 2023,
+      "sample": "urban",
+      "regime": "within_region",
+      "target": "profile_clr",
+      "baseline": "economic",
+      "alternative": "economic_urban",
+      "relative_mse_reduction": 0.0180980820398372,
+      "ci_low": 0.0063098148851334,
+      "ci_high": 0.0322543996320888,
+      "bootstrap_scope": "fixed_OOF_predictions_paired_region_resampling"
+    },
+    {
+      "year": 2023,
+      "sample": "urban",
+      "regime": "heldout_regions",
+      "target": "log_total",
+      "baseline": "economic",
+      "alternative": "economic_urban",
+      "relative_mse_reduction": 0.0101088592976735,
+      "ci_low": -0.0396262734266289,
+      "ci_high": 0.0525943297755939,
+      "bootstrap_scope": "fixed_OOF_predictions_paired_region_resampling"
+    },
+    {
+      "year": 2023,
+      "sample": "urban",
+      "regime": "heldout_regions",
+      "target": "profile_clr",
+      "baseline": "economic",
+      "alternative": "economic_urban",
+      "relative_mse_reduction": 0.0016940041254481,
+      "ci_low": -0.0166195116665775,
+      "ci_high": 0.0174470182995881,
+      "bootstrap_scope": "fixed_OOF_predictions_paired_region_resampling"
+    },
+    {
+      "year": 2024,
+      "sample": "urban",
+      "regime": "within_region",
+      "target": "log_total",
+      "baseline": "economic",
+      "alternative": "economic_urban",
+      "relative_mse_reduction": 0.0171514862808082,
+      "ci_low": -0.0050377423000721,
+      "ci_high": 0.0388062113771133,
+      "bootstrap_scope": "fixed_OOF_predictions_paired_region_resampling"
+    },
+    {
+      "year": 2024,
+      "sample": "urban",
+      "regime": "within_region",
+      "target": "profile_clr",
+      "baseline": "economic",
+      "alternative": "economic_urban",
+      "relative_mse_reduction": 0.00959087502512,
+      "ci_low": 0.002279523278504,
+      "ci_high": 0.0172488031433253,
+      "bootstrap_scope": "fixed_OOF_predictions_paired_region_resampling"
+    },
+    {
+      "year": 2024,
+      "sample": "urban",
+      "regime": "heldout_regions",
+      "target": "log_total",
+      "baseline": "economic",
+      "alternative": "economic_urban",
+      "relative_mse_reduction": 0.004720055278571,
+      "ci_low": -0.0511927297590264,
+      "ci_high": 0.0477617606540896,
+      "bootstrap_scope": "fixed_OOF_predictions_paired_region_resampling"
+    },
+    {
+      "year": 2024,
+      "sample": "urban",
+      "regime": "heldout_regions",
+      "target": "profile_clr",
+      "baseline": "economic",
+      "alternative": "economic_urban",
+      "relative_mse_reduction": 0.0127169503400589,
+      "ci_low": 0.0029569274108244,
+      "ci_high": 0.0237289309585506,
+      "bootstrap_scope": "fixed_OOF_predictions_paired_region_resampling"
+    },
+    {
+      "year": 2024,
+      "sample": "market",
+      "regime": "within_region",
+      "target": "log_total",
+      "baseline": "economic",
+      "alternative": "economic_market",
+      "relative_mse_reduction": -0.0019953617664973,
+      "ci_low": -0.006996749387068,
+      "ci_high": 0.0010303501820508,
+      "bootstrap_scope": "fixed_OOF_predictions_paired_region_resampling"
+    },
+    {
+      "year": 2024,
+      "sample": "market",
+      "regime": "within_region",
+      "target": "profile_clr",
+      "baseline": "economic",
+      "alternative": "economic_market",
+      "relative_mse_reduction": 0.0125968645211074,
+      "ci_low": 0.0063054537948283,
+      "ci_high": 0.0188239997792115,
+      "bootstrap_scope": "fixed_OOF_predictions_paired_region_resampling"
+    },
+    {
+      "year": 2024,
+      "sample": "market",
+      "regime": "heldout_regions",
+      "target": "log_total",
+      "baseline": "economic",
+      "alternative": "economic_market",
+      "relative_mse_reduction": -0.005846522289578,
+      "ci_low": -0.0443859279253003,
+      "ci_high": 0.0241512820462623,
+      "bootstrap_scope": "fixed_OOF_predictions_paired_region_resampling"
+    },
+    {
+      "year": 2024,
+      "sample": "market",
+      "regime": "heldout_regions",
+      "target": "profile_clr",
+      "baseline": "economic",
+      "alternative": "economic_market",
+      "relative_mse_reduction": 0.0624706995269499,
+      "ci_low": 0.0142426627802911,
+      "ci_high": 0.1073366488163281,
+      "bootstrap_scope": "fixed_OOF_predictions_paired_region_resampling"
+    }
+  ],
+  "interpretation_conditions": [
+    "within_region baseline is region plus municipal type; heldout_regions baseline is municipal type only",
+    "all cross-validation is municipality/region resampling within observed year, not future time validation",
+    "bootstrap confidence intervals condition on fixed OOF predictions and do not include model refitting uncertainty",
+    "employees divided by January resident population is a workplace concentration proxy, not employment rate",
+    "cohort selected retrospectively from complete 2023-2024 observations",
+    "geographic joins remain conditional on source codes and annual versions; no independent boundary proof",
+    "correlations use pairwise available samples, whereas model comparisons use the same complete sample within each scenario",
+    "no new demography or secondary candidates enter the validated model"
+  ],
+  "new_external_requests": 0,
+  "source_or_pipeline_modifications": 0
+}

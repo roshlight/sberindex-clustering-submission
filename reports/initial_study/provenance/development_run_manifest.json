@@ -1,0 +1,110 @@
+{
+  "run_id": "development-20260914-v1",
+  "phase": "development",
+  "year": "2023",
+  "status": "complete",
+  "started_at": "2026-09-14T19:06:11.022994+00:00",
+  "config_sha256": "389bc00bd641d9e803aea1b5aef00dc6e46e207cd90335dbd744eb133ec6d44d",
+  "data_sha256": "9833ddaaee7b2a182ed4cceeed16469031700ea87d508bd976150c6770ef8a61",
+  "code_sha256": "d92bfb42e557b98127585b0567bd33dfabba8b6627e9ca75cfe66637319b0bb4",
+  "config": {
+    "experiment_id": "consumer-profile-robustness-v1",
+    "description": "Descriptive network stability, not prediction or causal inference",
+    "feature_mode": "five_published_means_normalized_by_their_sum",
+    "development_year": "2023",
+    "evaluation_year": "2024",
+    "primary": {
+      "geometry": "hellinger",
+      "k": 20,
+      "resolution": 1.0,
+      "seed": 13
+    },
+    "geometries": [
+      "hellinger",
+      "cosine"
+    ],
+    "neighbor_counts": [
+      10,
+      20,
+      30
+    ],
+    "resolutions": [
+      0.75,
+      1.0,
+      1.25
+    ],
+    "seeds": [
+      13,
+      29,
+      47
+    ],
+    "baseline_clusters": 8,
+    "anchor_months": [
+      "01",
+      "04",
+      "07",
+      "10"
+    ],
+    "permutation_repeats": 25,
+    "agreement_threshold": 0.8,
+    "co_membership_threshold": 0.8,
+    "graph_symmetrization": "union_max_weight",
+    "minimum_primary_cluster_size": 20,
+    "maximum_primary_cluster_share": 0.5,
+    "notes": "Thresholds are descriptive screening rules, not calibrated probabilities or truth labels. Complete24month cohort is retrospective and is checked against the available monthly panel."
+  },
+  "runtime": {
+    "python": "3.12.10",
+    "platform": "Windows",
+    "threadpool_limit": 1
+  },
+  "dependencies": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "igraph": "1.0.0",
+    "leidenalg": "0.12.0"
+  },
+  "claim": "Retrospective procedural stability; not forecasts or true economic classes",
+  "elapsed_seconds": 73.29699999999139,
+  "finished_at": "2026-09-14T19:07:24.323939+00:00",
+  "table_rows": {
+    "assignments": 96768,
+    "cluster_profiles": 479,
+    "metrics": 48,
+    "robustness": 448,
+    "membership_agreement": 24192,
+    "null_metrics": 100,
+    "neighbor_overlap": 12,
+    "transitions": 88704,
+    "flows": 2080,
+    "temporal_summary": 44
+  },
+  "output_hashes": {
+    "assignments.csv": "6fb156f71c6636ca1fd9707662ae3154e3e9958d7f32293cde307dec04ea733a",
+    "checkpoint_2023-01.csv": "436b54d64fd2d1f815d07d23f8316dff3ef8d8a64dbb4765c370ea8c3ca9afa1",
+    "checkpoint_2023-02.csv": "72b346d59cf91bcc506c5bf21d21962a59e4ee95509777508e70e9a648e020a7",
+    "checkpoint_2023-03.csv": "10ff7a615c82d9fb860b7f59da38626bbe2eebe5ee510d9590e6f96bf3016679",
+    "checkpoint_2023-04.csv": "13839bbd19ae9baa031b4ea4c41f94927acf25a333b05f23140e7dca760ae079",
+    "checkpoint_2023-05.csv": "0aad492e4c7e5a2de8aff2ae8340a5b68dbd98e5c41cfb1cfbdf0d11efb66d0c",
+    "checkpoint_2023-06.csv": "714ea671909c21f9d61f63b03e5359d586c096e9cb8e68014fab155f0c14fa18",
+    "checkpoint_2023-07.csv": "8c8afccfc1a02de06b796c147b966a31f27d4445b20167babbe08aeb6bfe1cfe",
+    "checkpoint_2023-08.csv": "1b2f485b91ddc77508b9d77e505da9d70c312a985f696504af1b98bbbf357f5c",
+    "checkpoint_2023-09.csv": "a04a3a9640982113101a50e52f2e2c64db30230a6b14ae14790231db58ce8f90",
+    "checkpoint_2023-10.csv": "bdddfbd1faff1f88807d435f09dffdc1d81fd12cb65803d874b708fd1d74ab45",
+    "checkpoint_2023-11.csv": "f497d3ef7993fc06462b1090a09fe45776528894c15a75f7d1ac60d24f75f325",
+    "checkpoint_2023-12.csv": "d398e87cedda18b2d2f12adecb88eab662d6b58d8fc53fbfad0d73daf01edf4e",
+    "cluster_profiles.csv": "caea2694e04b232f9d0180a6084aeed05a1a32807791b57b58aeb8ac24e26855",
+    "flows.csv": "7246fb7933a0c40eba77b0206a527ab471e9894661d0682b2f3f635d5bcae236",
+    "membership_agreement.csv": "dd481a7c8b757b5ceed49de7094ed17b2f1ff7600735a516f45476121080cd40",
+    "metrics.csv": "e0b32b025a15239105689899f3732d75ec59b0d730b3f424f5074b043e047f5c",
+    "neighbor_overlap.csv": "4d6ac7dcfdbf37ce8b0a2557215a71e07c8ec6f7aae5eb64630de7c5cae04364",
+    "null_metrics.csv": "a11222c998961c9ac1e6dcbaec28717af18fa728b1060e098b1dab699673458e",
+    "robustness.csv": "8f5960a32ce7614b4f7f48750cc6fbfb418c6a8febaabf329b5cb712817cceeb",
+    "temporal_summary.csv": "ebf6eaf820eccc1608231e07dc18be4a286cc0b5510aa2a78048a3c4a29c915d",
+    "transitions.csv": "a9f25d18b7cb3f88cda856a498e9954394689c85ce9f3fe0521b6a84d4189a3e",
+    "variant_evidence.npz": "d9ae74481bdacc6e7e4153290b42f2ffa30a90db8fcb86cb7eab0b43f09f1a11",
+    "variant_keys.json": "8293752b92f0c84146847d07ff70444c55111ddcf48b1f60dbefa676c96fcb5b"
+  }
+}

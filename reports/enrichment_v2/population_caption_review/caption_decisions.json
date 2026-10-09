@@ -1,0 +1,690 @@
+{
+  "reviewed_at_utc": "2026-09-14T21:57:00.140758+00:00",
+  "status": "ready_with_conditions_no_data_applied",
+  "source_snapshot_counts": {
+    "https://rosstat.gov.ru/dbscripts/munst/munst45/": 144,
+    "https://rosstat.gov.ru/dbscripts/munst/munst28/": 1
+  },
+  "reviewed_cases": 10,
+  "network_requests_to_sources": 0,
+  "input_snapshot_sha256": "1d100c9a43f463ced8ae763b3fa290c3c5d4913d2db6895e192a182f9f7dfaa0",
+  "decisions": [
+    {
+      "source_oktmo": "28714000",
+      "source_region_url": "https://rosstat.gov.ru/dbscripts/munst/munst28/",
+      "reference_dates": [
+        "2023-01-01",
+        "2024-01-01"
+      ],
+      "option_label_exact": "Вышневолоцкий городской округ (до 2020г. город Вышний Волочек, с 2020г. объединены Вышневолоцкий муниципальный район и городской ...",
+      "option_label_occurrences_whole_form": 1,
+      "caption_physical_lines_exact": [
+        "Оценка численности населения на 1 января текущего года, человек, Городские округа Тверской области, Городской округ, городской округ с внутригородским делением, Вышневолоцкий городской округ (до 2020г. город Вышний Волочек, с 2020г. объединены Вышневолоцкий муниципальный район и городской округ г.Вышний Волочек, с 2025 г. преобразован в Вышневолоцкий муниципальный округ), на 1 января"
+      ],
+      "caption_logical_whitespace_normalized": "Оценка численности населения на 1 января текущего года, человек, Городские округа Тверской области, Городской округ, городской округ с внутригородским делением, Вышневолоцкий городской округ (до 2020г. город Вышний Волочек, с 2020г. объединены Вышневолоцкий муниципальный район и городской округ г.Вышний Волочек, с 2025 г. преобразован в Вышневолоцкий муниципальный округ), на 1 января",
+      "period_label_exact": "на 1 января",
+      "source_population_labels": [
+        {
+          "code": "11",
+          "label": "Все население"
+        },
+        {
+          "code": "12",
+          "label": "Городское население"
+        },
+        {
+          "code": "13",
+          "label": "Сельское население"
+        }
+      ],
+      "item_sha256": "47c3ac61c05b31dacb3b6c7aab771d107e4f286437f267b5930446eebe751b2c",
+      "options_raw_sha256": "b3cda3f90b61bf9d0e1a9b6131f5c0daa329ab145c77a5877bf25cec47f711c2",
+      "response_raw_sha256": "07a80b897d00b0791471f8fbe54d059a370a2421c955d955dca8da007099481f",
+      "options_meta_sha256": "04e059c60615ca8f3b314cfac7f730b0cad9e75915bb4f66281a11c66d343063",
+      "response_meta_sha256": "88ea7c09ca21df107bd32513bc94d65f59df381377a6e71482e167bb2b05d26d",
+      "request_key": "b65d54106cf7503beda8332c379fbb4736740791f47453dc13aa61fe4e438514",
+      "request_payload_exact": {
+        "Qry": "Pokazateli:8112027;munr:28602000,28604000,28606000,28608000,28610000,28612000,28614000,28616000,28618000,28620000,28622000,28624000,28626000,28628000,28630000,28632000,28634000,28636000,28638000,28640000,28642000,28643000,28644000,28645000,28646000,28647000,28648000,28649000,28650000,28651000,28652000,28653000,28654000,28655000,28656000,28657000,28700000,28500000;tippos:10,1,4,7,20;oktmo:28714000;mest:11,12;god:2023,2024;period:208;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;god_s:1;mest_b:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "response_url": "https://rosstat.gov.ru/dbscripts/munst/munst28/DBInet.cgi",
+      "retrieved_at": "2026-09-14T21:45:45.004649+00:00",
+      "raw_files": [
+        "work\\population-caption-review-20260915\\raw\\e9a423bf693bf055fae668f0d1976e31acb0eb3ec5069997b9708eee432e9ed0.json",
+        "work\\population-caption-review-20260915\\raw\\b8916b7e3f3cd63803ac2b17e5482788bed1b1001e78fcaf68a48420c5823c91.raw",
+        "work\\population-caption-review-20260915\\raw\\b65d54106cf7503beda8332c379fbb4736740791f47453dc13aa61fe4e438514.raw"
+      ],
+      "pipeline_records_changed": 0,
+      "decision": "approve_exact_captured_caption_alias_only",
+      "approved_full_label_exact": "Вышневолоцкий городской округ (до 2020г. город Вышний Волочек, с 2020г. объединены Вышневолоцкий муниципальный район и городской округ г.Вышний Волочек, с 2025 г. преобразован в Вышневолоцкий муниципальный округ)",
+      "registry_evidence": [
+        {
+          "file": "work\\oktmo-history-20260915\\raw\\data-20230112T1301-structure-20260210T1102.csv",
+          "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20230112T1301-structure-20260210T1102.csv",
+          "sha256": "7648c4065bb42a80080029253064c5843577d5c3ea9110fa97d9e32eb19c3f73",
+          "row_number": 58588,
+          "fields_exact": [
+            "28",
+            "714",
+            "000",
+            "000",
+            "8",
+            "1",
+            "Вышневолоцкий",
+            "г Вышний Волочек",
+            "",
+            "390",
+            "2",
+            "11.02.2020",
+            "01.03.2020"
+          ]
+        },
+        {
+          "file": "work\\oktmo-history-20260915\\raw\\data-20230208T0902-structure-20260210T1102.csv",
+          "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20230208T0902-structure-20260210T1102.csv",
+          "sha256": "db2033073f7b6c0171083063237a915f41f9e1f23be7aecf1027008391c79ebe",
+          "row_number": 58721,
+          "fields_exact": [
+            "28",
+            "714",
+            "000",
+            "000",
+            "8",
+            "1",
+            "Вышневолоцкий",
+            "г Вышний Волочек",
+            "",
+            "390",
+            "2",
+            "11.02.2020",
+            "01.03.2020"
+          ]
+        },
+        {
+          "file": "work\\oktmo-history-20260915\\raw\\data-20231219T1512-structure-20260210T1102.csv",
+          "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20231219T1512-structure-20260210T1102.csv",
+          "sha256": "8be058baf8d8ec32bda5431fa6ed5ccdcf0effa0c62869a03576755cbcf956d9",
+          "row_number": 60272,
+          "fields_exact": [
+            "28",
+            "714",
+            "000",
+            "000",
+            "8",
+            "1",
+            "Вышневолоцкий",
+            "г Вышний Волочек",
+            "",
+            "390",
+            "2",
+            "11.02.2020",
+            "01.03.2020"
+          ]
+        },
+        {
+          "file": "work\\oktmo-history-20260915\\raw\\data-20240125T1401-structure-20260210T1102.csv",
+          "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20240125T1401-structure-20260210T1102.csv",
+          "sha256": "62b579d803e50def8668dc704ffecb5ee4e6e12bb1ffd5f848cafd32dfdd926c",
+          "row_number": 60269,
+          "fields_exact": [
+            "28",
+            "714",
+            "000",
+            "000",
+            "8",
+            "1",
+            "Вышневолоцкий",
+            "г Вышний Волочек",
+            "",
+            "390",
+            "2",
+            "11.02.2020",
+            "01.03.2020"
+          ]
+        }
+      ],
+      "restrictions": [
+        "Only this exact source code, region, request, options and response hashes.",
+        "Only the explicit full caption literal; no prefix, substring or fuzzy matching.",
+        "This display-caption decision does not authorize a 2025 code substitution or legal-boundary equivalence."
+      ]
+    },
+    {
+      "source_oktmo": "45301000",
+      "source_region_url": "https://rosstat.gov.ru/dbscripts/munst/munst45/",
+      "reference_dates": [
+        "2023-01-01",
+        "2024-01-01"
+      ],
+      "option_label_exact": "Богородское",
+      "option_label_occurrences_whole_form": 1,
+      "caption_physical_lines_exact": [
+        "Оценка численности населения на 1 января текущего года (до 2010 года единица измерения тыс. человек), человек, Муниципальные образования города Москвы (столицы Российской Федерации города федерального значения), Внутригородская территория",
+        "(внутригородское муниципальное образование) города федерального значения, Богородское, на 1 января"
+      ],
+      "caption_logical_whitespace_normalized": "Оценка численности населения на 1 января текущего года (до 2010 года единица измерения тыс. человек), человек, Муниципальные образования города Москвы (столицы Российской Федерации города федерального значения), Внутригородская территория (внутригородское муниципальное образование) города федерального значения, Богородское, на 1 января",
+      "period_label_exact": "на 1 января",
+      "source_population_labels": [
+        {
+          "code": "11",
+          "label": "Все население"
+        },
+        {
+          "code": "12",
+          "label": "Городское население"
+        },
+        {
+          "code": "13",
+          "label": "Сельское население"
+        }
+      ],
+      "item_sha256": "46813adbfa1ef1b0ca740dac777f6dd9573364d31873396c415aafafa3f06ff8",
+      "options_raw_sha256": "004f58976699fb6e043b59b696252f459ac49aa5a78f00405851674fb6c0a4dd",
+      "response_raw_sha256": "af02d84110cf8494c28464628fad7f6944638b0a9189150d19a8290801550527",
+      "options_meta_sha256": "cebeba0a22778d3f45e7d83ebb28f0fb7915d60bf9b59a01b3da8af76a362171",
+      "response_meta_sha256": "0ba188afa54b1e831830db3eec81fcc20970d90e448547a3c8a73e356d9555ad",
+      "request_key": "efe6c614aaac24a5bb50c92e4e35452ca051890a5a6a90a1f0811ca509616808",
+      "request_payload_exact": {
+        "Qry": "Pokazateli:8112027;munr:45000000;tippos:3;oktmo:45301000;mest:11,12;god:2023,2024;period:208;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;god_s:1;mest_b:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "response_url": "https://rosstat.gov.ru/dbscripts/munst/munst45/DBInet.cgi",
+      "retrieved_at": "2026-09-14T21:49:00.655106+00:00",
+      "raw_files": [
+        "work\\population-caption-review-20260915\\raw\\5d8bd05eab9fd725ed147293d027e9989c5201631fd61d109f3c2566b95c9e9d.json",
+        "work\\population-caption-review-20260915\\raw\\0207c08d9041b2639a8f3f34bd3774e94cbff1344654e2aab4b858efb355b1a5.raw",
+        "work\\population-caption-review-20260915\\raw\\efe6c614aaac24a5bb50c92e4e35452ca051890a5a6a90a1f0811ca509616808.raw"
+      ],
+      "pipeline_records_changed": 0,
+      "decision": "format_only_caption_continuation_confirmed",
+      "restrictions": [
+        "Keep exact source-code selection and source-label checks after logical-header assembly.",
+        "Coalescing numeric rows or unknown inter-table text is not authorized."
+      ]
+    },
+    {
+      "source_oktmo": "45302000",
+      "source_region_url": "https://rosstat.gov.ru/dbscripts/munst/munst45/",
+      "reference_dates": [
+        "2023-01-01",
+        "2024-01-01"
+      ],
+      "option_label_exact": "Вешняки",
+      "option_label_occurrences_whole_form": 1,
+      "caption_physical_lines_exact": [
+        "Оценка численности населения на 1 января текущего года (до 2010 года единица измерения тыс. человек), человек, Муниципальные образования города Москвы (столицы Российской Федерации города федерального значения), Внутригородская территория",
+        "(внутригородское муниципальное образование) города федерального значения, Вешняки, на 1 января"
+      ],
+      "caption_logical_whitespace_normalized": "Оценка численности населения на 1 января текущего года (до 2010 года единица измерения тыс. человек), человек, Муниципальные образования города Москвы (столицы Российской Федерации города федерального значения), Внутригородская территория (внутригородское муниципальное образование) города федерального значения, Вешняки, на 1 января",
+      "period_label_exact": "на 1 января",
+      "source_population_labels": [
+        {
+          "code": "11",
+          "label": "Все население"
+        },
+        {
+          "code": "12",
+          "label": "Городское население"
+        },
+        {
+          "code": "13",
+          "label": "Сельское население"
+        }
+      ],
+      "item_sha256": "7ef7e0b0cdfcab0441b7a415597d049c45ff2564452cfd35cc756c963700d4f0",
+      "options_raw_sha256": "004f58976699fb6e043b59b696252f459ac49aa5a78f00405851674fb6c0a4dd",
+      "response_raw_sha256": "a642a4075cd97122cfdec51d7dbcd9ea7cd596fa2a74815c02ea35b9fc623a61",
+      "options_meta_sha256": "cebeba0a22778d3f45e7d83ebb28f0fb7915d60bf9b59a01b3da8af76a362171",
+      "response_meta_sha256": "0fc48531d6d793d1203a639905bfa47adb481b5f328f115a2e11264d88a0610c",
+      "request_key": "8f87d7eabae9b3152f04c9c283d8a8dbd4a91f84d47a4ac6413f36ace4d9482e",
+      "request_payload_exact": {
+        "Qry": "Pokazateli:8112027;munr:45000000;tippos:3;oktmo:45302000;mest:11,12;god:2023,2024;period:208;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;god_s:1;mest_b:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "response_url": "https://rosstat.gov.ru/dbscripts/munst/munst45/DBInet.cgi",
+      "retrieved_at": "2026-09-14T21:49:01.948844+00:00",
+      "raw_files": [
+        "work\\population-caption-review-20260915\\raw\\ab1c3b351d04440dd430a2d5af47a742f6b7907c3fe5a2ca3e9352210135c58d.json",
+        "work\\population-caption-review-20260915\\raw\\0207c08d9041b2639a8f3f34bd3774e94cbff1344654e2aab4b858efb355b1a5.raw",
+        "work\\population-caption-review-20260915\\raw\\8f87d7eabae9b3152f04c9c283d8a8dbd4a91f84d47a4ac6413f36ace4d9482e.raw"
+      ],
+      "pipeline_records_changed": 0,
+      "decision": "format_only_caption_continuation_confirmed",
+      "restrictions": [
+        "Keep exact source-code selection and source-label checks after logical-header assembly.",
+        "Coalescing numeric rows or unknown inter-table text is not authorized."
+      ]
+    },
+    {
+      "source_oktmo": "45303000",
+      "source_region_url": "https://rosstat.gov.ru/dbscripts/munst/munst45/",
+      "reference_dates": [
+        "2023-01-01",
+        "2024-01-01"
+      ],
+      "option_label_exact": "Восточное Измайлово",
+      "option_label_occurrences_whole_form": 1,
+      "caption_physical_lines_exact": [
+        "Оценка численности населения на 1 января текущего года (до 2010 года единица измерения тыс. человек), человек, Муниципальные образования города Москвы (столицы Российской Федерации города федерального значения), Внутригородская территория",
+        "(внутригородское муниципальное образование) города федерального значения, Восточное Измайлово, на 1 января"
+      ],
+      "caption_logical_whitespace_normalized": "Оценка численности населения на 1 января текущего года (до 2010 года единица измерения тыс. человек), человек, Муниципальные образования города Москвы (столицы Российской Федерации города федерального значения), Внутригородская территория (внутригородское муниципальное образование) города федерального значения, Восточное Измайлово, на 1 января",
+      "period_label_exact": "на 1 января",
+      "source_population_labels": [
+        {
+          "code": "11",
+          "label": "Все население"
+        },
+        {
+          "code": "12",
+          "label": "Городское население"
+        },
+        {
+          "code": "13",
+          "label": "Сельское население"
+        }
+      ],
+      "item_sha256": "a3e1ea75a3fe64f9f28b23f1a704c2bc52dc020fde45f9cb4a69a34c39496365",
+      "options_raw_sha256": "004f58976699fb6e043b59b696252f459ac49aa5a78f00405851674fb6c0a4dd",
+      "response_raw_sha256": "566da481a52a81a75c5178a0c985362582752d57eab8968e776022ca83581014",
+      "options_meta_sha256": "cebeba0a22778d3f45e7d83ebb28f0fb7915d60bf9b59a01b3da8af76a362171",
+      "response_meta_sha256": "3bdfbd709eb904df562745c73237c8fe9844e76b6e041cfd42cf50ac00a62b4f",
+      "request_key": "3a8ae25ee188832a9dec2ed01c1dc17c453486f572e66495844028fbd04b9288",
+      "request_payload_exact": {
+        "Qry": "Pokazateli:8112027;munr:45000000;tippos:3;oktmo:45303000;mest:11,12;god:2023,2024;period:208;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;god_s:1;mest_b:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "response_url": "https://rosstat.gov.ru/dbscripts/munst/munst45/DBInet.cgi",
+      "retrieved_at": "2026-09-14T21:49:03.223925+00:00",
+      "raw_files": [
+        "work\\population-caption-review-20260915\\raw\\6f3fa086025d927a060e1ac9db265b2667868adb4fbb8cb8cbac4065594148a6.json",
+        "work\\population-caption-review-20260915\\raw\\0207c08d9041b2639a8f3f34bd3774e94cbff1344654e2aab4b858efb355b1a5.raw",
+        "work\\population-caption-review-20260915\\raw\\3a8ae25ee188832a9dec2ed01c1dc17c453486f572e66495844028fbd04b9288.raw"
+      ],
+      "pipeline_records_changed": 0,
+      "decision": "format_only_caption_continuation_confirmed",
+      "restrictions": [
+        "Keep exact source-code selection and source-label checks after logical-header assembly.",
+        "Coalescing numeric rows or unknown inter-table text is not authorized."
+      ]
+    },
+    {
+      "source_oktmo": "45304000",
+      "source_region_url": "https://rosstat.gov.ru/dbscripts/munst/munst45/",
+      "reference_dates": [
+        "2023-01-01",
+        "2024-01-01"
+      ],
+      "option_label_exact": "Восточное",
+      "option_label_occurrences_whole_form": 1,
+      "caption_physical_lines_exact": [
+        "Оценка численности населения на 1 января текущего года (до 2010 года единица измерения тыс. человек), человек, Муниципальные образования города Москвы (столицы Российской Федерации города федерального значения), Внутригородская территория",
+        "(внутригородское муниципальное образование) города федерального значения, Восточное, на 1 января"
+      ],
+      "caption_logical_whitespace_normalized": "Оценка численности населения на 1 января текущего года (до 2010 года единица измерения тыс. человек), человек, Муниципальные образования города Москвы (столицы Российской Федерации города федерального значения), Внутригородская территория (внутригородское муниципальное образование) города федерального значения, Восточное, на 1 января",
+      "period_label_exact": "на 1 января",
+      "source_population_labels": [
+        {
+          "code": "11",
+          "label": "Все население"
+        },
+        {
+          "code": "12",
+          "label": "Городское население"
+        },
+        {
+          "code": "13",
+          "label": "Сельское население"
+        }
+      ],
+      "item_sha256": "4ba7a49018242e51b1294099d61944b9c7a8e65e5e9129bfe7c496a43cb8b09c",
+      "options_raw_sha256": "004f58976699fb6e043b59b696252f459ac49aa5a78f00405851674fb6c0a4dd",
+      "response_raw_sha256": "691f1a0e78200d42a2d0475671714c9364603f3354e5422bf266b2b57d36a2db",
+      "options_meta_sha256": "cebeba0a22778d3f45e7d83ebb28f0fb7915d60bf9b59a01b3da8af76a362171",
+      "response_meta_sha256": "1726bf1630d32477980694e912c7fd64be08341817094e57b28dbada848929f9",
+      "request_key": "7af36d33fa273629e049330d3384094a26ec3ddf1bb9d04ba8069c623c74e645",
+      "request_payload_exact": {
+        "Qry": "Pokazateli:8112027;munr:45000000;tippos:3;oktmo:45304000;mest:11,12;god:2023,2024;period:208;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;god_s:1;mest_b:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "response_url": "https://rosstat.gov.ru/dbscripts/munst/munst45/DBInet.cgi",
+      "retrieved_at": "2026-09-14T21:49:04.499962+00:00",
+      "raw_files": [
+        "work\\population-caption-review-20260915\\raw\\4e028a84151a486064a2fd330526be991961fcdd1a5d74584a46f7708bc79529.json",
+        "work\\population-caption-review-20260915\\raw\\0207c08d9041b2639a8f3f34bd3774e94cbff1344654e2aab4b858efb355b1a5.raw",
+        "work\\population-caption-review-20260915\\raw\\7af36d33fa273629e049330d3384094a26ec3ddf1bb9d04ba8069c623c74e645.raw"
+      ],
+      "pipeline_records_changed": 0,
+      "decision": "format_only_caption_continuation_confirmed",
+      "restrictions": [
+        "Keep exact source-code selection and source-label checks after logical-header assembly.",
+        "Coalescing numeric rows or unknown inter-table text is not authorized."
+      ]
+    },
+    {
+      "source_oktmo": "45305000",
+      "source_region_url": "https://rosstat.gov.ru/dbscripts/munst/munst45/",
+      "reference_dates": [
+        "2023-01-01",
+        "2024-01-01"
+      ],
+      "option_label_exact": "Гольяново",
+      "option_label_occurrences_whole_form": 1,
+      "caption_physical_lines_exact": [
+        "Оценка численности населения на 1 января текущего года (до 2010 года единица измерения тыс. человек), человек, Муниципальные образования города Москвы (столицы Российской Федерации города федерального значения), Внутригородская территория",
+        "(внутригородское муниципальное образование) города федерального значения, Гольяново, на 1 января"
+      ],
+      "caption_logical_whitespace_normalized": "Оценка численности населения на 1 января текущего года (до 2010 года единица измерения тыс. человек), человек, Муниципальные образования города Москвы (столицы Российской Федерации города федерального значения), Внутригородская территория (внутригородское муниципальное образование) города федерального значения, Гольяново, на 1 января",
+      "period_label_exact": "на 1 января",
+      "source_population_labels": [
+        {
+          "code": "11",
+          "label": "Все население"
+        },
+        {
+          "code": "12",
+          "label": "Городское население"
+        },
+        {
+          "code": "13",
+          "label": "Сельское население"
+        }
+      ],
+      "item_sha256": "5f37ae80cd3e34a65802c9d3fd78d9588930788ce4a7f225f7bd2f36214e5b2e",
+      "options_raw_sha256": "004f58976699fb6e043b59b696252f459ac49aa5a78f00405851674fb6c0a4dd",
+      "response_raw_sha256": "36e1a767f9b06bc2a41aaf20b8beaf73d6705a432db7691c52d9e7e05a5f8b2e",
+      "options_meta_sha256": "cebeba0a22778d3f45e7d83ebb28f0fb7915d60bf9b59a01b3da8af76a362171",
+      "response_meta_sha256": "dedde30949ba1584eba52636ea212cca1d794e159a102086bc3106ca4df6424a",
+      "request_key": "1fc6a3786c8ffaf96d5932095935e058f48322be20be3860962fcf353343c003",
+      "request_payload_exact": {
+        "Qry": "Pokazateli:8112027;munr:45000000;tippos:3;oktmo:45305000;mest:11,12;god:2023,2024;period:208;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;god_s:1;mest_b:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "response_url": "https://rosstat.gov.ru/dbscripts/munst/munst45/DBInet.cgi",
+      "retrieved_at": "2026-09-14T21:49:05.777590+00:00",
+      "raw_files": [
+        "work\\population-caption-review-20260915\\raw\\04cd74930f1df2b2b3d5cd9cf556d42154a7d680171b25bf0d33a88e03e789e8.json",
+        "work\\population-caption-review-20260915\\raw\\0207c08d9041b2639a8f3f34bd3774e94cbff1344654e2aab4b858efb355b1a5.raw",
+        "work\\population-caption-review-20260915\\raw\\1fc6a3786c8ffaf96d5932095935e058f48322be20be3860962fcf353343c003.raw"
+      ],
+      "pipeline_records_changed": 0,
+      "decision": "format_only_caption_continuation_confirmed",
+      "restrictions": [
+        "Keep exact source-code selection and source-label checks after logical-header assembly.",
+        "Coalescing numeric rows or unknown inter-table text is not authorized."
+      ]
+    },
+    {
+      "source_oktmo": "45306000",
+      "source_region_url": "https://rosstat.gov.ru/dbscripts/munst/munst45/",
+      "reference_dates": [
+        "2023-01-01",
+        "2024-01-01"
+      ],
+      "option_label_exact": "Ивановское",
+      "option_label_occurrences_whole_form": 1,
+      "caption_physical_lines_exact": [
+        "Оценка численности населения на 1 января текущего года (до 2010 года единица измерения тыс. человек), человек, Муниципальные образования города Москвы (столицы Российской Федерации города федерального значения), Внутригородская территория",
+        "(внутригородское муниципальное образование) города федерального значения, Ивановское, на 1 января"
+      ],
+      "caption_logical_whitespace_normalized": "Оценка численности населения на 1 января текущего года (до 2010 года единица измерения тыс. человек), человек, Муниципальные образования города Москвы (столицы Российской Федерации города федерального значения), Внутригородская территория (внутригородское муниципальное образование) города федерального значения, Ивановское, на 1 января",
+      "period_label_exact": "на 1 января",
+      "source_population_labels": [
+        {
+          "code": "11",
+          "label": "Все население"
+        },
+        {
+          "code": "12",
+          "label": "Городское население"
+        },
+        {
+          "code": "13",
+          "label": "Сельское население"
+        }
+      ],
+      "item_sha256": "d9ebe002136ab591692d9f6e2b25d1631e785cc362285210d08f26c35b364e43",
+      "options_raw_sha256": "004f58976699fb6e043b59b696252f459ac49aa5a78f00405851674fb6c0a4dd",
+      "response_raw_sha256": "518b52c9ec1bcb9bb16c5a5284315cdfac579e11b1536b4feeaeddee9924ea33",
+      "options_meta_sha256": "cebeba0a22778d3f45e7d83ebb28f0fb7915d60bf9b59a01b3da8af76a362171",
+      "response_meta_sha256": "9541f20c9cd218b62caca1e7bd93e66d63ff4f89db3380765daa561b5db15c63",
+      "request_key": "7c0c224840a9a5d92f8d9a19c829fac4f0392973bc92c4bcb3af58ddb98a06b8",
+      "request_payload_exact": {
+        "Qry": "Pokazateli:8112027;munr:45000000;tippos:3;oktmo:45306000;mest:11,12;god:2023,2024;period:208;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;god_s:1;mest_b:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "response_url": "https://rosstat.gov.ru/dbscripts/munst/munst45/DBInet.cgi",
+      "retrieved_at": "2026-09-14T21:49:07.042055+00:00",
+      "raw_files": [
+        "work\\population-caption-review-20260915\\raw\\0abd86dd03d1f612716d4050dcfeebc7fe33510352223a246ba119f1427ded3f.json",
+        "work\\population-caption-review-20260915\\raw\\0207c08d9041b2639a8f3f34bd3774e94cbff1344654e2aab4b858efb355b1a5.raw",
+        "work\\population-caption-review-20260915\\raw\\7c0c224840a9a5d92f8d9a19c829fac4f0392973bc92c4bcb3af58ddb98a06b8.raw"
+      ],
+      "pipeline_records_changed": 0,
+      "decision": "format_only_caption_continuation_confirmed",
+      "restrictions": [
+        "Keep exact source-code selection and source-label checks after logical-header assembly.",
+        "Coalescing numeric rows or unknown inter-table text is not authorized."
+      ]
+    },
+    {
+      "source_oktmo": "45307000",
+      "source_region_url": "https://rosstat.gov.ru/dbscripts/munst/munst45/",
+      "reference_dates": [
+        "2023-01-01",
+        "2024-01-01"
+      ],
+      "option_label_exact": "Измайлово",
+      "option_label_occurrences_whole_form": 1,
+      "caption_physical_lines_exact": [
+        "Оценка численности населения на 1 января текущего года (до 2010 года единица измерения тыс. человек), человек, Муниципальные образования города Москвы (столицы Российской Федерации города федерального значения), Внутригородская территория",
+        "(внутригородское муниципальное образование) города федерального значения, Измайлово, на 1 января"
+      ],
+      "caption_logical_whitespace_normalized": "Оценка численности населения на 1 января текущего года (до 2010 года единица измерения тыс. человек), человек, Муниципальные образования города Москвы (столицы Российской Федерации города федерального значения), Внутригородская территория (внутригородское муниципальное образование) города федерального значения, Измайлово, на 1 января",
+      "period_label_exact": "на 1 января",
+      "source_population_labels": [
+        {
+          "code": "11",
+          "label": "Все население"
+        },
+        {
+          "code": "12",
+          "label": "Городское население"
+        },
+        {
+          "code": "13",
+          "label": "Сельское население"
+        }
+      ],
+      "item_sha256": "6e39281193050e459171aaf245b07c707fb04a9bea15c6f483d63babda7a1c6f",
+      "options_raw_sha256": "004f58976699fb6e043b59b696252f459ac49aa5a78f00405851674fb6c0a4dd",
+      "response_raw_sha256": "f91fd40475f6fd8c892f811f7f4e7ddfa630b076a6157518b9e319a97d887383",
+      "options_meta_sha256": "cebeba0a22778d3f45e7d83ebb28f0fb7915d60bf9b59a01b3da8af76a362171",
+      "response_meta_sha256": "ad06284982aaf31ff741d5c33f051e65579e7c7815032e4cb7f17aae7c624d98",
+      "request_key": "d0ced21be1cfebdb1a79e3cffc890396429102b17fae1ff53d329eed4fc7b2bb",
+      "request_payload_exact": {
+        "Qry": "Pokazateli:8112027;munr:45000000;tippos:3;oktmo:45307000;mest:11,12;god:2023,2024;period:208;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;god_s:1;mest_b:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "response_url": "https://rosstat.gov.ru/dbscripts/munst/munst45/DBInet.cgi",
+      "retrieved_at": "2026-09-14T21:49:08.327715+00:00",
+      "raw_files": [
+        "work\\population-caption-review-20260915\\raw\\51357095a01723461a5e489099c4a0a8d361f0dc9273b0b0bc018cf11694fc76.json",
+        "work\\population-caption-review-20260915\\raw\\0207c08d9041b2639a8f3f34bd3774e94cbff1344654e2aab4b858efb355b1a5.raw",
+        "work\\population-caption-review-20260915\\raw\\d0ced21be1cfebdb1a79e3cffc890396429102b17fae1ff53d329eed4fc7b2bb.raw"
+      ],
+      "pipeline_records_changed": 0,
+      "decision": "format_only_caption_continuation_confirmed",
+      "restrictions": [
+        "Keep exact source-code selection and source-label checks after logical-header assembly.",
+        "Coalescing numeric rows or unknown inter-table text is not authorized."
+      ]
+    },
+    {
+      "source_oktmo": "45308000",
+      "source_region_url": "https://rosstat.gov.ru/dbscripts/munst/munst45/",
+      "reference_dates": [
+        "2023-01-01",
+        "2024-01-01"
+      ],
+      "option_label_exact": "Косино-Ухтомское",
+      "option_label_occurrences_whole_form": 1,
+      "caption_physical_lines_exact": [
+        "Оценка численности населения на 1 января текущего года (до 2010 года единица измерения тыс. человек), человек, Муниципальные образования города Москвы (столицы Российской Федерации города федерального значения), Внутригородская территория",
+        "(внутригородское муниципальное образование) города федерального значения, Косино-Ухтомское, на 1 января"
+      ],
+      "caption_logical_whitespace_normalized": "Оценка численности населения на 1 января текущего года (до 2010 года единица измерения тыс. человек), человек, Муниципальные образования города Москвы (столицы Российской Федерации города федерального значения), Внутригородская территория (внутригородское муниципальное образование) города федерального значения, Косино-Ухтомское, на 1 января",
+      "period_label_exact": "на 1 января",
+      "source_population_labels": [
+        {
+          "code": "11",
+          "label": "Все население"
+        },
+        {
+          "code": "12",
+          "label": "Городское население"
+        },
+        {
+          "code": "13",
+          "label": "Сельское население"
+        }
+      ],
+      "item_sha256": "04589e9c3185bcdf8bb64d7b28d990f7a7974c624a49137dda2c0cb324679a07",
+      "options_raw_sha256": "004f58976699fb6e043b59b696252f459ac49aa5a78f00405851674fb6c0a4dd",
+      "response_raw_sha256": "0188e67194df9cf19c8235fc1f490fa5151aebd5acd4809712812bed5039db2f",
+      "options_meta_sha256": "cebeba0a22778d3f45e7d83ebb28f0fb7915d60bf9b59a01b3da8af76a362171",
+      "response_meta_sha256": "4688bd47431ba022b3bba67758160806b58df9f505b4dddb6b78923427037515",
+      "request_key": "4af1a870673cdd5efb21a041465ea125ff4f86bfb62fa3409391bad5ba80ee2a",
+      "request_payload_exact": {
+        "Qry": "Pokazateli:8112027;munr:45000000;tippos:3;oktmo:45308000;mest:11,12;god:2023,2024;period:208;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;god_s:1;mest_b:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "response_url": "https://rosstat.gov.ru/dbscripts/munst/munst45/DBInet.cgi",
+      "retrieved_at": "2026-09-14T21:49:09.824662+00:00",
+      "raw_files": [
+        "work\\population-caption-review-20260915\\raw\\f0ac2e6de9244244dd7b77508a2f0749e657e531e08cee34c041ff5d7fbe0c0d.json",
+        "work\\population-caption-review-20260915\\raw\\0207c08d9041b2639a8f3f34bd3774e94cbff1344654e2aab4b858efb355b1a5.raw",
+        "work\\population-caption-review-20260915\\raw\\4af1a870673cdd5efb21a041465ea125ff4f86bfb62fa3409391bad5ba80ee2a.raw"
+      ],
+      "pipeline_records_changed": 0,
+      "decision": "format_only_caption_continuation_confirmed",
+      "restrictions": [
+        "Keep exact source-code selection and source-label checks after logical-header assembly.",
+        "Coalescing numeric rows or unknown inter-table text is not authorized."
+      ]
+    },
+    {
+      "source_oktmo": "45309000",
+      "source_region_url": "https://rosstat.gov.ru/dbscripts/munst/munst45/",
+      "reference_dates": [
+        "2023-01-01",
+        "2024-01-01"
+      ],
+      "option_label_exact": "Новогиреево",
+      "option_label_occurrences_whole_form": 1,
+      "caption_physical_lines_exact": [
+        "Оценка численности населения на 1 января текущего года (до 2010 года единица измерения тыс. человек), человек, Муниципальные образования города Москвы (столицы Российской Федерации города федерального значения), Внутригородская территория",
+        "(внутригородское муниципальное образование) города федерального значения, Новогиреево, на 1 января"
+      ],
+      "caption_logical_whitespace_normalized": "Оценка численности населения на 1 января текущего года (до 2010 года единица измерения тыс. человек), человек, Муниципальные образования города Москвы (столицы Российской Федерации города федерального значения), Внутригородская территория (внутригородское муниципальное образование) города федерального значения, Новогиреево, на 1 января",
+      "period_label_exact": "на 1 января",
+      "source_population_labels": [
+        {
+          "code": "11",
+          "label": "Все население"
+        },
+        {
+          "code": "12",
+          "label": "Городское население"
+        },
+        {
+          "code": "13",
+          "label": "Сельское население"
+        }
+      ],
+      "item_sha256": "c7c73ef31f2bd6e305c97a02cab872212bf250481bc7ebaebeff152970852731",
+      "options_raw_sha256": "004f58976699fb6e043b59b696252f459ac49aa5a78f00405851674fb6c0a4dd",
+      "response_raw_sha256": "07b578cc4d5f104dc8c1d972912d691dd72c30503329ab36eaf2ff74094f073d",
+      "options_meta_sha256": "cebeba0a22778d3f45e7d83ebb28f0fb7915d60bf9b59a01b3da8af76a362171",
+      "response_meta_sha256": "f4d5941f6bc7fcb6e3dbf02ebe6700b4b5633dfb237673069c506b709dacc143",
+      "request_key": "647542a7bd0f7ede2ee82336785c985a71459619e03cdd45d89525d9f35c8b66",
+      "request_payload_exact": {
+        "Qry": "Pokazateli:8112027;munr:45000000;tippos:3;oktmo:45309000;mest:11,12;god:2023,2024;period:208;",
+        "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;god_s:1;mest_b:1;",
+        "QryFootNotes": ";",
+        "YearsList": "2023;2024;",
+        "tbl": "1",
+        "Format": "CSV",
+        "YearFrom": "2023",
+        "YearTo": "2024"
+      },
+      "response_url": "https://rosstat.gov.ru/dbscripts/munst/munst45/DBInet.cgi",
+      "retrieved_at": "2026-09-14T21:49:11.089589+00:00",
+      "raw_files": [
+        "work\\population-caption-review-20260915\\raw\\7f36bc2798bb20e887dff996d05de0c8eee984f9889f75013ec123482ba485c4.json",
+        "work\\population-caption-review-20260915\\raw\\0207c08d9041b2639a8f3f34bd3774e94cbff1344654e2aab4b858efb355b1a5.raw",
+        "work\\population-caption-review-20260915\\raw\\647542a7bd0f7ede2ee82336785c985a71459619e03cdd45d89525d9f35c8b66.raw"
+      ],
+      "pipeline_records_changed": 0,
+      "decision": "format_only_caption_continuation_confirmed",
+      "restrictions": [
+        "Keep exact source-code selection and source-label checks after logical-header assembly.",
+        "Coalescing numeric rows or unknown inter-table text is not authorized."
+      ]
+    }
+  ]
+}

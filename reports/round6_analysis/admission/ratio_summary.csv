@@ -1,0 +1,4 @@
+variable,pairs,rounding_compatible,different_beyond_rounding,median_absolute_difference_pp,max_absolute_difference_pp,mean_difference_pp,explanation_identified
+resale_non_own_goods,33,31,2,0.0264914769997407,5.0781666242288175,0.14017492001949636,False
+shipments_economic_activity,33,33,0,0.016047436360475027,0.049434815659839614,-0.004334161181109917,False
+shipments_pure_activity,33,10,23,9.13573241267601,54.29443150240115,-8.57759120232608,False

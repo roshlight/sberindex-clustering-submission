@@ -1,0 +1,216 @@
+[
+  {
+    "territory_id": 2710,
+    "source_oktmo": "28714000",
+    "indicator_id": "8423005",
+    "source_option_caption": "Вышневолоцкий городской округ (до 2020г. город Вышний Волочек, с 2020г. объединены Вышневолоцкий муниципальный район и городской ...",
+    "source_form_sha256": "27a56f6cdfec446618bc2f7490f73b2028377dd3f1f9abbc0809d2b52d0a12d8",
+    "source_csv_sha256": "04301977ffa56d552515e6efe3d5344b78fbd96ce50d3a0947175c8d229c67be",
+    "source_url": "https://rosstat.gov.ru/dbscripts/munst/munst28/DBInet.cgi",
+    "raw_csv_title": "Среднесписочная численность работников организаций (без субъектов малого предпринимательства) с 2017 г., человек, Городские округа Тверской области, Городской округ, городской округ с внутригородским делением, Вышневолоцкий городской округ (до 2020г. город Вышний Волочек, с 2020г. объединены Вышневолоцкий муниципальный район и городской округ г.Вышний Волочек, с 2025 г. преобразован в Вышневолоцкий муниципальный округ), январь-декабрь",
+    "decision": "accept_exact_single_code_and_reviewed_full_caption",
+    "approved_csv_municipality_caption": "Вышневолоцкий городской округ (до 2020г. город Вышний Волочек, с 2020г. объединены Вышневолоцкий муниципальный район и городской округ г.Вышний Волочек, с 2025 г. преобразован в Вышневолоцкий муниципальный округ)",
+    "reference_dates": [
+      "2023-01-01",
+      "2024-01-01"
+    ],
+    "review_basis": "Manually checked newly captured complete CSV titles, single requested code, exact option and indicator/form/CSV hashes. Earlier registry evidence supports the code identity; previous population numerical decision is not transferred.",
+    "prior_registry_evidence": [
+      {
+        "file": "work\\oktmo-history-20260915\\raw\\data-20230112T1301-structure-20260210T1102.csv",
+        "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20230112T1301-structure-20260210T1102.csv",
+        "sha256": "7648c4065bb42a80080029253064c5843577d5c3ea9110fa97d9e32eb19c3f73",
+        "row_number": 58588,
+        "fields_exact": [
+          "28",
+          "714",
+          "000",
+          "000",
+          "8",
+          "1",
+          "Вышневолоцкий",
+          "г Вышний Волочек",
+          "",
+          "390",
+          "2",
+          "11.02.2020",
+          "01.03.2020"
+        ]
+      },
+      {
+        "file": "work\\oktmo-history-20260915\\raw\\data-20230208T0902-structure-20260210T1102.csv",
+        "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20230208T0902-structure-20260210T1102.csv",
+        "sha256": "db2033073f7b6c0171083063237a915f41f9e1f23be7aecf1027008391c79ebe",
+        "row_number": 58721,
+        "fields_exact": [
+          "28",
+          "714",
+          "000",
+          "000",
+          "8",
+          "1",
+          "Вышневолоцкий",
+          "г Вышний Волочек",
+          "",
+          "390",
+          "2",
+          "11.02.2020",
+          "01.03.2020"
+        ]
+      },
+      {
+        "file": "work\\oktmo-history-20260915\\raw\\data-20231219T1512-structure-20260210T1102.csv",
+        "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20231219T1512-structure-20260210T1102.csv",
+        "sha256": "8be058baf8d8ec32bda5431fa6ed5ccdcf0effa0c62869a03576755cbcf956d9",
+        "row_number": 60272,
+        "fields_exact": [
+          "28",
+          "714",
+          "000",
+          "000",
+          "8",
+          "1",
+          "Вышневолоцкий",
+          "г Вышний Волочек",
+          "",
+          "390",
+          "2",
+          "11.02.2020",
+          "01.03.2020"
+        ]
+      },
+      {
+        "file": "work\\oktmo-history-20260915\\raw\\data-20240125T1401-structure-20260210T1102.csv",
+        "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20240125T1401-structure-20260210T1102.csv",
+        "sha256": "62b579d803e50def8668dc704ffecb5ee4e6e12bb1ffd5f848cafd32dfdd926c",
+        "row_number": 60269,
+        "fields_exact": [
+          "28",
+          "714",
+          "000",
+          "000",
+          "8",
+          "1",
+          "Вышневолоцкий",
+          "г Вышний Волочек",
+          "",
+          "390",
+          "2",
+          "11.02.2020",
+          "01.03.2020"
+        ]
+      }
+    ],
+    "prior_evidence_registry_sha256": "dfe6a2383de94152ef03874696db2a12af0f44adc7fe01261fc544f4faa79ac7",
+    "prior_evidence_registry_path": "reports/enrichment_v2/population_caption_review/caption_decisions.json",
+    "geographic_equivalence_confirmed": null,
+    "remaining_caveat": "No independent full-year boundary equivalence or economic interpretation is established. The 2025 remark remains a literal source caption, not a replacement year or code."
+  },
+  {
+    "territory_id": 2710,
+    "source_oktmo": "28714000",
+    "indicator_id": "8423007",
+    "source_option_caption": "Вышневолоцкий городской округ (до 2020г. город Вышний Волочек, с 2020г. объединены Вышневолоцкий муниципальный район и городской ...",
+    "source_form_sha256": "8978a29c3d0a00b2f1831068c1ea659c2a0fbf4c28a95bffc25b1e4b61342b93",
+    "source_csv_sha256": "cff188a668492a357188421835429ca770fcd0fb7669181b03acf61346fca9a0",
+    "source_url": "https://rosstat.gov.ru/dbscripts/munst/munst28/DBInet.cgi",
+    "raw_csv_title": "Среднемесячная заработная плата работников организаций (без субъектов малого предпринимательства) с 2017 г., рубль, Городские округа Тверской области, Городской округ, городской округ с внутригородским делением, Вышневолоцкий городской округ (до 2020г. город Вышний Волочек, с 2020г. объединены Вышневолоцкий муниципальный район и городской округ г.Вышний Волочек, с 2025 г. преобразован в Вышневолоцкий муниципальный округ), январь-декабрь",
+    "decision": "accept_exact_single_code_and_reviewed_full_caption",
+    "approved_csv_municipality_caption": "Вышневолоцкий городской округ (до 2020г. город Вышний Волочек, с 2020г. объединены Вышневолоцкий муниципальный район и городской округ г.Вышний Волочек, с 2025 г. преобразован в Вышневолоцкий муниципальный округ)",
+    "reference_dates": [
+      "2023-01-01",
+      "2024-01-01"
+    ],
+    "review_basis": "Manually checked newly captured complete CSV titles, single requested code, exact option and indicator/form/CSV hashes. Earlier registry evidence supports the code identity; previous population numerical decision is not transferred.",
+    "prior_registry_evidence": [
+      {
+        "file": "work\\oktmo-history-20260915\\raw\\data-20230112T1301-structure-20260210T1102.csv",
+        "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20230112T1301-structure-20260210T1102.csv",
+        "sha256": "7648c4065bb42a80080029253064c5843577d5c3ea9110fa97d9e32eb19c3f73",
+        "row_number": 58588,
+        "fields_exact": [
+          "28",
+          "714",
+          "000",
+          "000",
+          "8",
+          "1",
+          "Вышневолоцкий",
+          "г Вышний Волочек",
+          "",
+          "390",
+          "2",
+          "11.02.2020",
+          "01.03.2020"
+        ]
+      },
+      {
+        "file": "work\\oktmo-history-20260915\\raw\\data-20230208T0902-structure-20260210T1102.csv",
+        "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20230208T0902-structure-20260210T1102.csv",
+        "sha256": "db2033073f7b6c0171083063237a915f41f9e1f23be7aecf1027008391c79ebe",
+        "row_number": 58721,
+        "fields_exact": [
+          "28",
+          "714",
+          "000",
+          "000",
+          "8",
+          "1",
+          "Вышневолоцкий",
+          "г Вышний Волочек",
+          "",
+          "390",
+          "2",
+          "11.02.2020",
+          "01.03.2020"
+        ]
+      },
+      {
+        "file": "work\\oktmo-history-20260915\\raw\\data-20231219T1512-structure-20260210T1102.csv",
+        "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20231219T1512-structure-20260210T1102.csv",
+        "sha256": "8be058baf8d8ec32bda5431fa6ed5ccdcf0effa0c62869a03576755cbcf956d9",
+        "row_number": 60272,
+        "fields_exact": [
+          "28",
+          "714",
+          "000",
+          "000",
+          "8",
+          "1",
+          "Вышневолоцкий",
+          "г Вышний Волочек",
+          "",
+          "390",
+          "2",
+          "11.02.2020",
+          "01.03.2020"
+        ]
+      },
+      {
+        "file": "work\\oktmo-history-20260915\\raw\\data-20240125T1401-structure-20260210T1102.csv",
+        "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20240125T1401-structure-20260210T1102.csv",
+        "sha256": "62b579d803e50def8668dc704ffecb5ee4e6e12bb1ffd5f848cafd32dfdd926c",
+        "row_number": 60269,
+        "fields_exact": [
+          "28",
+          "714",
+          "000",
+          "000",
+          "8",
+          "1",
+          "Вышневолоцкий",
+          "г Вышний Волочек",
+          "",
+          "390",
+          "2",
+          "11.02.2020",
+          "01.03.2020"
+        ]
+      }
+    ],
+    "prior_evidence_registry_sha256": "dfe6a2383de94152ef03874696db2a12af0f44adc7fe01261fc544f4faa79ac7",
+    "prior_evidence_registry_path": "reports/enrichment_v2/population_caption_review/caption_decisions.json",
+    "geographic_equivalence_confirmed": null,
+    "remaining_caveat": "No independent full-year boundary equivalence or economic interpretation is established. The 2025 remark remains a literal source caption, not a replacement year or code."
+  }
+]

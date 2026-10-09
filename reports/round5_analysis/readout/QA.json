@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "adoption_passed": false,
+  "prior_round4_adoption_stable_strict_positive": false,
+  "prior_round4_adoption_stable_nonnegative": false,
+  "stable_operator_clarification_changes_prior_decision": false,
+  "main_four_primary_intervals_include_zero": true,
+  "all_primary_seed13_intervals_include_zero": true,
+  "postfit_contribution_sums_match_state_update": true,
+  "affected_municipalities": 32,
+  "affected_municipality_years": 64,
+  "affected_regions": [
+    25,
+    59
+  ],
+  "affected_slice_ci": "Not calculated: only two region clusters, descriptive losses only",
+  "excluded_regions_recovery_zero_within_1e12": true,
+  "excluded_regions_interpretation": "Refit sensitivity on a different population; zero recovery is an invariance check because no changed inputs remain. Full-core vs excluded metrics are not a paired effect. Primary flags-to-values tests the full existing monetary block on remaining regions.",
+  "negative_controls_and_ablations": "Not rerun: unchanged features and Ridge; existing round4 diagnostics remain prior evidence. Expanded complete sample omitted; no extra composition comparison.",
+  "unaffected_rows": "Predictions may change because other training-fold rows were updated",
+  "slice_analysis": "Descriptive post-fit diagnostic, no subgroup hypothesis test or causal attribution"
+}

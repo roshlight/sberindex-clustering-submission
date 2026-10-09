@@ -1,0 +1,183 @@
+{
+  "status": "PASS",
+  "scope": "Saved-source offline replay in existing locked environment",
+  "clean_environment_created": false,
+  "network_requested": false,
+  "models_trained": false,
+  "started_at": "2026-09-16T20:40:23.969405+00:00",
+  "finished_at": "2026-09-16T20:42:20.151952+00:00",
+  "runtime": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "word_conversion_repeated": false,
+  "manual_evidence_review_repeated": false,
+  "source_trees_unchanged": true,
+  "delivery_seal_checked_before_replay": false,
+  "raw_source_files_checked": {
+    "economy": 144,
+    "sme": 60,
+    "geography": 39,
+    "prior_geography": 2,
+    "cases": 50,
+    "search": 121
+  },
+  "comparisons": [
+    {
+      "branch": "economy",
+      "files": 7,
+      "status": "PASS"
+    },
+    {
+      "branch": "sme",
+      "files": 12,
+      "status": "PASS"
+    },
+    {
+      "branch": "geography",
+      "files": 22,
+      "status": "PASS"
+    },
+    {
+      "branch": "cases",
+      "files": 9,
+      "status": "PASS"
+    },
+    {
+      "branch": "search",
+      "files": 2,
+      "status": "PASS"
+    }
+  ],
+  "machine_files_matched": 52,
+  "machine_hashes": {
+    "economy": {
+      "QA.json": "9258a7ddd665eb295c6cd4eb84708d7231343e779081023f62d2d9bb982c050e",
+      "catalog_publication_labels.csv": "20d80c2efb645fbb8a594f4a736e23a97d1cca62f7a025c91349d5eedef4b034",
+      "document_inventory.csv": "ca7b2e2c55ebcc16aa173351f74fe9dacf7d6af4393e4000740ca9c5a9b8ef81",
+      "food_reconciliation.csv": "4669766cad2ee3769fbe62f8e5956e17bcc83b7e46b818d51c44be8d788844c3",
+      "manifest.json": "38c62bd29f34105a8f5805675a195f71fa8027e652343c310f80681b7bcd2788",
+      "pdf_docx_crosscheck.csv": "dada65b2854ed137145ed7f45bef1e087cceb148f4b26ff6d7260bd58923349d",
+      "regional_context_candidate.csv": "8b28b00c77a8a84dc4894595973a6565eed4148a08c60f6a4200d9a47d7b9ea0"
+    },
+    "sme": {
+      "QA.json": "eee6ab49acbd7e6a70fb643a4ee3f1b46681940a4a7ee8ea65594917f5b95ced",
+      "asset_code_syntax.csv": "fd4d75108909e0d42862e43d1e7faaab6ddb5ed6bf344565bcd20b108edf45c6",
+      "asset_schema_audit.csv": "cdaa5337d82a2c6c116ce1b3f2de3525e2e6a4a9d1f81a621132af65d637986b",
+      "author_source_lineage.csv": "dd4a25a93933121b81bcb8759c967b760db8e54369db5b049779746d36acf872",
+      "code_evidence.csv": "83bc861e231b2a4a77299aa77859368fb4c2ce45b535932271e778a3cb3e31b0",
+      "federal_city_source_rows.csv": "4f7dc4213f7891ea50afad5ec9ac4561deab7e2f4fd5523ccac641715172e7ba",
+      "geocoder_address_contracts.csv": "cbcfe048d19694f7ef1fa3909e5a7603be98ad1ad5f80c4d0b5822756bfad627",
+      "manifest.json": "575310b7e34b5f922bf22d023c8e9b57f47deb79ce49850ea70238c089aa85a5",
+      "raw_inventory.csv": "24b1399618dce63c84e5c91f10728d9e4204fe19100e0d78ec717fa5c82161e7",
+      "retrieval_attempts.csv": "d21c472a7ebd4dbfb67614268eec33eeff8c0d579f1c8f0891639c73d57af8bb",
+      "worker_dates.csv": "cfe406daa8c92072c5556b22363fcfd80b193e6f70d53c60c5eef17472dc6067",
+      "worker_sample_summary.csv": "1fe08d23c04df1242de5557fffdf81c871855b693373b4f5cc86691f84a8e0e1"
+    },
+    "geography": {
+      "QA.json": "f623a80a7303a1424d3143237913e363c95efebc6187e9bed3309fa132511e01",
+      "ambiguous_transition_edges.csv": "c1ecfcf2370e06c4594239d866c1a87046f42bf4549a88357f508beff8e4be84",
+      "candidate_summary.csv": "65fc86cf9a5754de07106ed33aeff5a92c6ae0b6207f56a1fd388ab043a65d5b",
+      "candidate_transitions_to_panel.csv": "105759408db85e817aa67c72cdddce39b505716b8efc09143ee7530908285108",
+      "classifier_structural_evidence.json": "f3d240c0432bbf7573e3f6640dd3f6ab7ebad949eccfa132046d243af5dcf04d",
+      "crosswalk_versions.csv": "0caa41648253979c94fb8b4f791a26f07c54f9840dfe2b51619423fb86b88e9d",
+      "downloaded_sources.csv": "0f5f4c661478b5365f52d6ecfd13820c2f2ce586f46b6dd165a6887201f0c087",
+      "evidence_ledger.csv": "e2f64dfb105d4185fdc5a8543e60896d9283bbd9d3dab190ef9bff469237747b",
+      "gar_available_download_catalog.csv": "558c3f9c82987d314c9d1442bfd5b10f475d50f5f35785b3ff9b07fd6c1541ae",
+      "gar_schema_history_fields.csv": "29a760e11871bccc135f0540d7aa053dbcdd3da2fbf58fb6ebdeab232658dec1",
+      "manifest.json": "5f22c48a2c5a26528396e4d00c52379f3a29bc8dbd2bfce5b740a48af982e34d",
+      "official_amendment_document_catalog.csv": "cf27954bbc014c8177737615d9ed9eb180362d4adc5f24f65224e776df61e935",
+      "panel_2016_classifier_control.csv": "a53b23d217a3783b6fda20880e9f016a3616952f5ee2e02660bfda019f2dc27a",
+      "perm_reference_control.json": "20f956e937d81fe985be70b5de884b6a6ab16a7c5d17858b2ad3d1efcb40cb6f",
+      "perm_reference_text.json": "c1d51400c7bb90c5979e84d31019482905a6a2febb54e87e8dbca8dee0356b43",
+      "primorye_643_document_check.json": "041b30a58301a7630d93af794442358d7870ebf4f7e82093fe91637e729814a5",
+      "priority_settlement_parent_candidates.csv": "15d7e13e790191b1f798ace76fe8ca2405c167d907fd4f85e2891245e3326de8",
+      "priority_transition_rows.csv": "faad17a0ad711a24ed8a29e84fc8dd85bce70fd69396c4b39f637f3e46421f28",
+      "retrieval_attempts.json": "0f6bdccd00ddde61357452d29c48c4d2b4233b4adae4187db0ca1a56b8d9bf26",
+      "transition_duplicate_rows.csv": "be7d3007521f998d4c7ea6a32634299fec3006134ed37c6ada80b43e5681b9c3",
+      "transition_nonlinks.csv": "9c47bf4c803f2331ae40335067729b3cd65dcc57ba2f622c6e6cb3c5e9a3c8aa",
+      "transition_version_changes.csv": "ddf9d903b768b55391f0849a14f5b2ee29b1bb619facf695564735c6ad28d655"
+    },
+    "cases": {
+      "QA.json": "82099a507de73e8af16c59f641d184ecdefc2b1965be73fab23827450fbdac43",
+      "airport_annual_finance.csv": "83c344da375e48a4dcb402a7e77b75a575b48320a99ac275957319dacf50bbf1",
+      "evidence_ledger.csv": "4de9f5b4ec77704b92212ba1f86ecbda038c8f2c2a6c8d11778d35cfa10a2123",
+      "financial_semantics.csv": "5661e3ef5b78c08dbc7be813104fea99fbc62ec03d704e8cb67b395b34bba340",
+      "followup_requests.csv": "e4206e5e0e4559a040e6e64f8cb78627768b8e5d2bd07a31efc3641470d6c9e6",
+      "hypothesis_status.csv": "f97fa854f4d5faf097ef006b673ad39e8f09dc326c4a3c47951541a3a2ebd287",
+      "manifest.json": "3177ec7178d78d5d8e16bb3168138c4e7a3a11257046c9b23cfd042300cc5272",
+      "source_inventory.json": "b30905f39d1ac11f1701d1c60cfce669b64d42bd62d0568a76e2fbae5176e7ab",
+      "source_status.csv": "1c55884b75df0aff80815ca4ae08b5c7a67d10dc169ca4db5a438ea86340e700"
+    },
+    "search": {
+      "server_document_inventory.csv": "75193815ee8010238e31761979d85c1ad19bb344b3fad6c6ef86a6322cf5a1d7",
+      "server_summary.json": "4eea941aa2b1e6394430b6fffe1d21abfe80b2865a87028f9055e87e4bcd7593"
+    }
+  },
+  "code_hashes": {
+    "enrichment/pyproject.toml": "d95464c7f6e9088275251368e145f01cb3a563651db6ae9d2b409f35c1b29c4d",
+    "enrichment/scripts/audit_round6_geography.py": "6ad6c8d3df61f0c47ac40929f0877d81829621996a6812fe17fcc1661214ec51",
+    "enrichment/scripts/audit_round6_sme.py": "4b9f1be50648e6d45b3fe1052b850e0c94370f719cab59c388c3c0abc77947ee",
+    "enrichment/scripts/collect_round5_cases.py": "1f72b2684464cfa539f13197a11bd5f2c62fffbb4950cf98675875a0c94f8950",
+    "enrichment/scripts/collect_round5_sme.py": "9977f9d087cfe685785ab4b3d16d15ac2bbad18fdfaaaece388151bf6bea9c30",
+    "enrichment/scripts/collect_round6_cases.py": "e53374a0844efa30cd23328b68afb3a5bbb7edfeb3a25ff8731fdaf8ffee85e0",
+    "enrichment/scripts/collect_round6_sme.py": "e57e26dccded85f135cf316f371b4a5e840ddbdee069d7ab3ef2ea386c1ff414",
+    "enrichment/scripts/prepare_round6_economy.py": "3d3c20f3ba97534eb73a715a3292722f5a24db3f52371afcbd679f580237aed2",
+    "enrichment/scripts/replay_round6.py": "3c9bc968aef23d4ad6d900d9e019ebe783fa571d71fbe77733030c7ca877b9d1",
+    "enrichment/scripts/sample_round5_sme_archives.py": "5f350896b2f4498d6afd4b002dc737223fb6f65bea6028eb39d4d0e84f113798",
+    "enrichment/scripts/summarize_round5_search.py": "0c5dc95bf17a8753e85e0afb4e1a4e9e63c036dac77fdeb827cf1cbf5d473d8c",
+    "enrichment/scripts/verify_round6_delivery.py": "fc38b874220c89482d7d2d472cf14fce6f755a82d1b701c560c75cbd6ab55136",
+    "enrichment/uv.lock": "b07d548b44a8a636ea0d8ace4d1f0babdbdbfd87c87c7a97e91a5742bbfab612"
+  },
+  "not_regenerated": {
+    "economy": [
+      "README.md",
+      "archive_replay_QA.json",
+      "independent_QA.json",
+      "independent_review.md"
+    ],
+    "sme": [
+      "README.md",
+      "evidence_matrix.csv",
+      "replay_QA.json"
+    ],
+    "geography": [
+      "README.md",
+      "independent_source_review.json",
+      "offline_replay_QA.json"
+    ],
+    "cases": [
+      "README.md",
+      "evidence_recipe.json",
+      "fetch_plan.json",
+      "independent_review.md",
+      "raw_allowlist.json",
+      "replay_receipt.json"
+    ],
+    "search": [
+      "README.md"
+    ]
+  },
+  "stages": [
+    {
+      "stage": "economy",
+      "returncode": 0
+    },
+    {
+      "stage": "sme",
+      "returncode": 0
+    },
+    {
+      "stage": "geography",
+      "returncode": 0
+    },
+    {
+      "stage": "cases",
+      "returncode": 0
+    },
+    {
+      "stage": "search",
+      "returncode": 0
+    }
+  ]
+}

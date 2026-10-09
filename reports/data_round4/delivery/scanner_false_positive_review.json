@@ -1,0 +1,78 @@
+{
+  "status": "PASS_SPECIFIC_FALSE_POSITIVE",
+  "raw_relative_path": "work/data-round4/geography/raw/pit_planning_materials.pdf",
+  "matched_bytes_disclosed": false,
+  "scanner_match_count": 1,
+  "exception": {
+    "exception_id": "pit-planning-jpeg-dht-20260916",
+    "file_bytes": 1055501,
+    "file_sha256": "f95741def9af964fbbb1b505cf52cba5b13eb74b197ede960abeabac25d50ea1",
+    "offset": 596649,
+    "length": 41,
+    "match_sha256": "2bd445e4a1c907caa85db7ba09b0aed51556373edb48b41d5e431b38f24416cd",
+    "jpeg_offset": 596100,
+    "jpeg_bytes": 21478,
+    "jpeg_sha256": "c01ee8d56dbd4b76dee8481c41bb2c009d8aae8c1eaa3004129977f875e47cf5",
+    "pdf_object_number": 128,
+    "pdf_filter": "/DCTDecode",
+    "pdf_subtype": "/Image",
+    "dht": {
+      "segment_offset": 596342,
+      "segment_end_exclusive": 596762,
+      "declared_length": 418,
+      "table_offset": 596583,
+      "table_class": 1,
+      "table_id": 1,
+      "symbol_count": 162,
+      "symbols_offset": 596600,
+      "symbols_end_exclusive": 596762
+    },
+    "review": "reports/data_round4/delivery/scanner_false_positive_review.json",
+    "reason": "JPEG DHT AC-table symbol bytes; not a credential"
+  },
+  "independent_pdf_object_check": {
+    "library": "pypdf",
+    "pdf_object_number": 128,
+    "filter": "/DCTDecode",
+    "subtype": "/Image",
+    "width": 491,
+    "height": 324,
+    "jpeg_stream_bytes": 21478,
+    "jpeg_stream_sha256": "c01ee8d56dbd4b76dee8481c41bb2c009d8aae8c1eaa3004129977f875e47cf5",
+    "stream_equals_raw_slice": true,
+    "starts_soi": true,
+    "ends_eoi": true
+  },
+  "dht_parser_check": {
+    "starts_at_real_jpeg_soi": true,
+    "follows_declared_marker_lengths": true,
+    "parses_all_four_dht_tables": true,
+    "checks_huffman_length_counts_not_oversubscribed": true,
+    "entire_scanner_match_inside_symbol_array": true,
+    "symbol_relative_match_offset": 49,
+    "symbol_relative_match_end_exclusive": 90
+  },
+  "policy": {
+    "full_file_sha_required": true,
+    "full_file_size_required": true,
+    "exact_offset_length_and_match_sha_required": true,
+    "jpeg_stream_sha_and_structural_dht_check_required": true,
+    "all_other_regex_matches_blocked": true,
+    "exception_user_configurable": false,
+    "original_regex_unchanged": true,
+    "old_packager_modified": false,
+    "real_delivery_archive_created": false,
+    "raw_modified": false
+  },
+  "tests": {
+    "passed": 11,
+    "skipped": 0,
+    "real_raw_fixture_included": true,
+    "ruff_check": "PASS",
+    "test_file": "enrichment/tests/test_round4_delivery_scanner.py"
+  },
+  "old_packager_sha256": "5bbdd46528947d3ee96db825f6f337e3cd0e7391411b13fb3312833a4ebb5c6f",
+  "new_packager_sha256": "233f9ce509bb7466b86d4a807d485189a1616a563c161027ff53056ea3a8ef1d",
+  "review_test_sha256": "cbd1369cbb0249ee327cb1d513de1da395a69441d945aef380afe5aba7f23a3f",
+  "regex_pattern_sha256": "eac28383fcd054026c92c738a7c0f5857d15499d2c90964c0f0524eda43f0a5b"
+}

@@ -1,0 +1,70 @@
+{
+  "status": "complete_H3_only",
+  "network_requests": 0,
+  "config": {
+    "analysis_status": "exploratory_after_published_2024_results",
+    "method": "leiden_hellinger",
+    "seed": 1905,
+    "permutations": 9999,
+    "alpha": 0.05,
+    "expected_cohort_size": 2016,
+    "comparison_fields": [
+      "oktmo",
+      "municipal_district_type"
+    ],
+    "windows": {
+      "boundary_2023_2024": {
+        "from_year": "2023",
+        "to_year": "2024",
+        "lag": 1,
+        "pairs_per_territory": 1
+      },
+      "within_2024": {
+        "from_year": "2024",
+        "to_year": "2024",
+        "lag": 1,
+        "pairs_per_territory": 11
+      },
+      "year_over_year": {
+        "from_year": "2023",
+        "to_year": "2024",
+        "lag": 12,
+        "pairs_per_territory": 12
+      }
+    },
+    "inputs": {
+      "reports/initial_study/assignments.parquet": "54f6c1f3c92a878a990c620e9fdb544ab6187f9ac0baea4bc5070d964e0ae6bc",
+      "reports/initial_study/transitions.parquet": "179fecaa89fa56960b407abce749c517b89d631338b8964f9fe6b0d2ab4f6e30",
+      "reports/initial_study/report_manifest.json": "5632672692f1ed44f86a7446c0b09e0625657cf00ea0408834a6b95e8d3f7da3",
+      "reports/enrichment_v1/crosswalk/municipal_crosswalk_versions.csv": "421750a85e3fed92c7b1a1c89636cfc53e2d89c4b0c86faf5b39207871013528",
+      "reports/enrichment_v2/market_access_followup/sber_attribute_changes_78.csv": "937a1768d5532ab5956e1ae6c48fd7623343d8259c0df417eb6bf090dcd56ea2"
+    }
+  },
+  "config_sha256": "4ef1ed60a2f6e3da767afce4e22a8f599652f572a84ad8b55f4c34bf7d2e342f",
+  "script_sha256": "259e88286ca84c0506bfe24ab989a6dc2685435bc2b81d78bcc67b18b0ccbc3d",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "duckdb": "1.5.5"
+  },
+  "run_ids": [
+    "development-20260914-v1",
+    "evaluation-20260914-v1"
+  ],
+  "prior_changed_ids_match": true,
+  "output_hashes": {
+    "territory_crosswalk.csv": "14adad093b9c946aad5f9b7b27ca891fc52a5395ab9c796c34a1cabf6e173587",
+    "spatial_coverage.csv": "58530aed7d8d5ed14aeca2c5cbcaba9252775d001530b19ca50a1389d8731558",
+    "spatial_checks.csv": "2c3e6b963c1fe8a191d85707a6fb5d07420db8ff9564383269ddf04242150248",
+    "municipality_transition_rates.csv": "e93cab4ba59fe7e0d93fdaeb6cadca3f4826f05041a1c78178b75baf9b0aba07",
+    "permutation_draws.csv": "f6985d0fec25003dcd510778f8203e5e956d3bb312fbd3703a7cf356095018d0"
+  },
+  "limits": [
+    "Exploratory, not an untouched 2024 holdout",
+    "No flag means no OKTMO/type difference between two source snapshots",
+    "No legal event dates or verified border changes inferred",
+    "H1 road-pair and H2 market-access comparisons are outside this contribution",
+    "Permutation quantiles are null reference intervals, not confidence intervals"
+  ]
+}

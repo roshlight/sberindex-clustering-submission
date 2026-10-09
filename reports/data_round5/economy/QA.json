@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "original_missing": 488,
+  "rows": 12096,
+  "numeric_gain": 64,
+  "numeric_total": 11672,
+  "remaining_missing": 424,
+  "reasons": {
+    "exact_code_year_not_returned": 140,
+    "semantic_scope_unverified": 132,
+    "semantic_unit_unverified": 78,
+    "recovered_numeric": 64,
+    "exact_source_code_absent_from_current_form": 52,
+    "exact_code_year_not_returned_in_controlled_export": 18,
+    "unresolved_source_marker": 4
+  },
+  "new_source_cells": 146,
+  "new_source_numeric": 142,
+  "source_only_cells": 0,
+  "recaptured_old_numeric": 78,
+  "recaptured_numeric_conflicts": 0,
+  "old_numeric_and_provenance_unchanged": true,
+  "exact_year_codes_unchanged": true,
+  "missing_imputed": 0,
+  "models_fitted": 0,
+  "boundary_equivalence_proven": 0
+}

@@ -1,0 +1,126 @@
+{
+  "readiness": "source_context_only_no_new_municipal_worker_join",
+  "municipal_source_rows": 769,
+  "municipal_total_blocks_by_year": {
+    "2023": 28,
+    "2024": 28
+  },
+  "municipal_distinct_industry_labels_excluding_total": 18,
+  "municipal_organization_count_numeric_cells": 769,
+  "municipal_count_cell_statuses": {
+    "observed": 769
+  },
+  "fns_rows": 297,
+  "fns_level_counts": [
+    {
+      "snapshot_date": "2023-07-10",
+      "source_level": 0,
+      "n": 89
+    },
+    {
+      "snapshot_date": "2023-07-10",
+      "source_level": 1,
+      "n": 9
+    },
+    {
+      "snapshot_date": "2023-07-10",
+      "source_level": 2,
+      "n": 1
+    },
+    {
+      "snapshot_date": "2024-07-10",
+      "source_level": 0,
+      "n": 89
+    },
+    {
+      "snapshot_date": "2024-07-10",
+      "source_level": 1,
+      "n": 9
+    },
+    {
+      "snapshot_date": "2024-07-10",
+      "source_level": 2,
+      "n": 1
+    },
+    {
+      "snapshot_date": "2025-07-10",
+      "source_level": 0,
+      "n": 89
+    },
+    {
+      "snapshot_date": "2025-07-10",
+      "source_level": 1,
+      "n": 9
+    },
+    {
+      "snapshot_date": "2025-07-10",
+      "source_level": 2,
+      "n": 1
+    }
+  ],
+  "fns_snapshot_and_reference_years": [
+    {
+      "snapshot_date": "2023-07-10",
+      "employee_reference_year": 2022
+    },
+    {
+      "snapshot_date": "2024-07-10",
+      "employee_reference_year": 2023
+    },
+    {
+      "snapshot_date": "2025-07-10",
+      "employee_reference_year": 2024
+    }
+  ],
+  "rosstat_regional_context_rows": 664,
+  "rosstat_regional_context_statuses": {
+    "observed": 656,
+    "unresolved_source_marker": 8
+  },
+  "fns_historical_schema_literal_field_audit": {
+    "2022": {
+      "ОКТМО": false,
+      "ОКАТО": false,
+      "КЛАДР": false,
+      "ФИАС": false,
+      "КодРегион": true,
+      "ССЧР": true
+    },
+    "2023": {
+      "ОКТМО": false,
+      "ОКАТО": false,
+      "КЛАДР": false,
+      "ФИАС": false,
+      "КодРегион": true,
+      "ССЧР": true
+    },
+    "2025": {
+      "ОКТМО": false,
+      "ОКАТО": false,
+      "КЛАДР": false,
+      "ФИАС": false,
+      "КодРегион": true,
+      "ССЧР": true
+    }
+  },
+  "municipal_joins_made": 0,
+  "municipal_workers2023_2024_gap_closed": false,
+  "all_downloaded_source_hashes_verified": true,
+  "archived_releases_not_downloaded": [
+    {
+      "source_id": "fns-archive-20240710-size",
+      "bytes": 2092669336,
+      "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10072024-structure-10062023.zip"
+    },
+    {
+      "source_id": "fns-archive-20250710-size",
+      "bytes": 2125639991,
+      "url": "https://file.nalog.ru/opendata/7707329152-rsmp/data-10072025-structure-10062025.zip"
+    }
+  ],
+  "captured_sources": 35,
+  "downloaded_bytes": 9229659,
+  "medium_scope_overlap_prevents_naive_addition": true,
+  "current_snapshots_not_substituted_for_historical": true,
+  "missing_and_source_markers_not_zero_imputed": true
+}

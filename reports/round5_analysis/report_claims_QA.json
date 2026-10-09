@@ -1,0 +1,433 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-09-16T19:57:59.627179+00:00",
+  "checks": [
+    {
+      "check": "dataset_names",
+      "status": "PASS"
+    },
+    {
+      "check": "dataset:primary_chart",
+      "status": "PASS",
+      "rows": 4
+    },
+    {
+      "check": "dataset:primary_table",
+      "status": "PASS",
+      "rows": 4
+    },
+    {
+      "check": "dataset:sensitivity_table",
+      "status": "PASS",
+      "rows": 8
+    },
+    {
+      "check": "dataset:secondary_table",
+      "status": "PASS",
+      "rows": 2
+    },
+    {
+      "check": "dataset:update_table",
+      "status": "PASS",
+      "rows": 8
+    },
+    {
+      "check": "dataset:update_chart",
+      "status": "PASS",
+      "rows": 4
+    },
+    {
+      "check": "dataset:coverage_table",
+      "status": "PASS",
+      "rows": 2
+    },
+    {
+      "check": "dataset:selection_chart",
+      "status": "PASS",
+      "rows": 4
+    },
+    {
+      "check": "dataset:selection_table",
+      "status": "PASS",
+      "rows": 4
+    },
+    {
+      "check": "dataset:slice_table",
+      "status": "PASS",
+      "rows": 4
+    },
+    {
+      "check": "dataset:geo_chart",
+      "status": "PASS",
+      "rows": 8
+    },
+    {
+      "check": "dataset:geo_table",
+      "status": "PASS",
+      "rows": 8
+    },
+    {
+      "check": "dataset:workers_table",
+      "status": "PASS",
+      "rows": 4
+    },
+    {
+      "check": "dataset:stock_table",
+      "status": "PASS",
+      "rows": 2
+    },
+    {
+      "check": "dataset:budget_table",
+      "status": "PASS",
+      "rows": 4
+    },
+    {
+      "check": "headline_csv",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_table_count",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_headers:coverage_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_shape:coverage_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_values:coverage_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_headers:selection_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_shape:selection_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_values:selection_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_headers:primary_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_shape:primary_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_values:primary_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_headers:sensitivity_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_shape:sensitivity_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_values:sensitivity_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_headers:update_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_shape:update_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_values:update_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_headers:slice_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_shape:slice_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_values:slice_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_headers:geo_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_shape:geo_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_values:geo_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_headers:workers_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_shape:workers_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_values:workers_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_headers:stock_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_shape:stock_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_values:stock_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_headers:budget_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_shape:budget_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_values:budget_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_headers:secondary_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_shape:secondary_table",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_values:secondary_table",
+      "status": "PASS"
+    },
+    {
+      "check": "source_inventory",
+      "status": "PASS"
+    },
+    {
+      "check": "source_copies_match",
+      "status": "PASS"
+    },
+    {
+      "check": "source_primary:models",
+      "status": "PASS"
+    },
+    {
+      "check": "source_tables:models",
+      "status": "PASS"
+    },
+    {
+      "check": "source_computation:models",
+      "status": "PASS"
+    },
+    {
+      "check": "source_primary:coverage",
+      "status": "PASS"
+    },
+    {
+      "check": "source_tables:coverage",
+      "status": "PASS"
+    },
+    {
+      "check": "source_computation:coverage",
+      "status": "PASS"
+    },
+    {
+      "check": "source_primary:selection",
+      "status": "PASS"
+    },
+    {
+      "check": "source_tables:selection",
+      "status": "PASS"
+    },
+    {
+      "check": "source_computation:selection",
+      "status": "PASS"
+    },
+    {
+      "check": "source_primary:readout",
+      "status": "PASS"
+    },
+    {
+      "check": "source_tables:readout",
+      "status": "PASS"
+    },
+    {
+      "check": "source_computation:readout",
+      "status": "PASS"
+    },
+    {
+      "check": "source_primary:geography",
+      "status": "PASS"
+    },
+    {
+      "check": "source_tables:geography",
+      "status": "PASS"
+    },
+    {
+      "check": "source_computation:geography",
+      "status": "PASS"
+    },
+    {
+      "check": "source_primary:workers",
+      "status": "PASS"
+    },
+    {
+      "check": "source_tables:workers",
+      "status": "PASS"
+    },
+    {
+      "check": "source_computation:workers",
+      "status": "PASS"
+    },
+    {
+      "check": "source_primary:stocks",
+      "status": "PASS"
+    },
+    {
+      "check": "source_tables:stocks",
+      "status": "PASS"
+    },
+    {
+      "check": "source_computation:stocks",
+      "status": "PASS"
+    },
+    {
+      "check": "source_primary:cases",
+      "status": "PASS"
+    },
+    {
+      "check": "source_tables:cases",
+      "status": "PASS"
+    },
+    {
+      "check": "source_computation:cases",
+      "status": "PASS"
+    },
+    {
+      "check": "dataset_source:coverage_table",
+      "status": "PASS"
+    },
+    {
+      "check": "dataset_source:selection_table",
+      "status": "PASS"
+    },
+    {
+      "check": "dataset_source:primary_table",
+      "status": "PASS"
+    },
+    {
+      "check": "dataset_source:sensitivity_table",
+      "status": "PASS"
+    },
+    {
+      "check": "dataset_source:update_table",
+      "status": "PASS"
+    },
+    {
+      "check": "dataset_source:slice_table",
+      "status": "PASS"
+    },
+    {
+      "check": "dataset_source:geo_table",
+      "status": "PASS"
+    },
+    {
+      "check": "dataset_source:workers_table",
+      "status": "PASS"
+    },
+    {
+      "check": "dataset_source:stock_table",
+      "status": "PASS"
+    },
+    {
+      "check": "dataset_source:budget_table",
+      "status": "PASS"
+    },
+    {
+      "check": "dataset_source:secondary_table",
+      "status": "PASS"
+    },
+    {
+      "check": "dataset_source:selection_chart",
+      "status": "PASS"
+    },
+    {
+      "check": "dataset_source:primary_chart",
+      "status": "PASS"
+    },
+    {
+      "check": "dataset_source:update_chart",
+      "status": "PASS"
+    },
+    {
+      "check": "dataset_source:geo_chart",
+      "status": "PASS"
+    },
+    {
+      "check": "primary_four_below_threshold_and_ci_includes_zero",
+      "status": "PASS"
+    },
+    {
+      "check": "stable_four_negative",
+      "status": "PASS"
+    },
+    {
+      "check": "four_extra_seed_intervals_include_zero",
+      "status": "PASS"
+    },
+    {
+      "check": "secondary_shared_2023_positive_2024_crosses_zero",
+      "status": "PASS"
+    },
+    {
+      "check": "independent_model_qa_current",
+      "status": "PASS"
+    },
+    {
+      "check": "decision_unchanged_false",
+      "status": "PASS"
+    }
+  ],
+  "model_refits": 0,
+  "production_functions_imported": false,
+  "scope": "Numerical reconciliation and local source resolution, not full prose/visual QA",
+  "report_sha256": "cb94a1f01ee4ee33e88b80d11bda04d884b20eafa88469c0b3119bbd30de2b55",
+  "artifact_sha256": "e597178f19cb5ffb8f908e85d1c96150b968471a604a24940b32d8c534dfa4f7",
+  "verifier_sha256": "7106678b6ef3eabd9b6db1b427bed47c5413153d9a6f8bd9512aa63065ece06c",
+  "source_sha256": {
+    "models/cv_comparisons.csv": "267cf632462e49a5a7ffd021fc661aa92d3132de79a2434d65020519ea553c7c",
+    "audit/joint_coverage.csv": "fc43fb60aee3bcfebdfcb3514e88e5a191777fc74675fd72a16bfbebd1db0f62",
+    "recovered/regional_selection_summary.csv": "06055a119fd91b714fc6f3457dabd7846d98854eef81846ac26de1faaf214249",
+    "readout/state_update_contributions.csv": "9de82a2a863281af066cb9f8a974e0595504d96baef9066d154fa153e75ad0af",
+    "context/coverage_interpretation.csv": "753a996c23a903ce5a698ae1e89ed2f9e1c8cdaa75ba681c7cdaf161f515c7b7",
+    "context/annual_population.csv": "b04e277bb3c87db85f9eb2abc854fcc7bac00619695017c1220ec0f1643ced7f",
+    "context/fns_population_contrast.csv": "3b9c899d5f1b5e68b8a4bd7bbc36ec25329858bc265d7bad1b36c8b1bfe815d0",
+    "context/budget_revision.csv": "0185ddde50d00cb50341f766d0413ed7a0223b0ab2ab1e39f7c226107dccc1bc",
+    "models/cv_metrics.csv": "2d71f56635c33f57ddf7997bcb4399856e77090c694f2cb00b1f1411a2600aae",
+    "independent_QA.json": "a7a976e02c3f9c947b0574bef9aff9fd30a5f7b1f222db03229054998bdf01e3",
+    "readout/QA.json": "2596e3de38c6bc6b136399cdba689940fdacddbc092fb750de0833ff1614f175",
+    "headline_metrics.csv": "fd234a67c8895429826c8523518f7f5a446b7cc4b9a9e16304cdab1ed963924f"
+  }
+}

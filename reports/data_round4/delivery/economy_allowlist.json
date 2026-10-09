@@ -1,0 +1,502 @@
+[
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/06eae35e1b07ecfa8d30331d84783b2a42e92d80bc63586e807d57fc6daec934.json",
+    "archive_path": "work/data-round4/economy/cache/06eae35e1b07ecfa8d30331d84783b2a42e92d80bc63586e807d57fc6daec934.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/06eae35e1b07ecfa8d30331d84783b2a42e92d80bc63586e807d57fc6daec934.raw",
+    "archive_path": "work/data-round4/economy/cache/06eae35e1b07ecfa8d30331d84783b2a42e92d80bc63586e807d57fc6daec934.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/07095b0b612e2c61a9b2bef676d164b0952df200b06aef09c40eb20e17b7dcd7.json",
+    "archive_path": "work/data-round4/economy/cache/07095b0b612e2c61a9b2bef676d164b0952df200b06aef09c40eb20e17b7dcd7.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/07095b0b612e2c61a9b2bef676d164b0952df200b06aef09c40eb20e17b7dcd7.raw",
+    "archive_path": "work/data-round4/economy/cache/07095b0b612e2c61a9b2bef676d164b0952df200b06aef09c40eb20e17b7dcd7.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/07e65ff550aef52c53e5c19ec37ae4ee30f62042c2cc1b7e8a4e6834c1fee7b7.json",
+    "archive_path": "work/data-round4/economy/cache/07e65ff550aef52c53e5c19ec37ae4ee30f62042c2cc1b7e8a4e6834c1fee7b7.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/07e65ff550aef52c53e5c19ec37ae4ee30f62042c2cc1b7e8a4e6834c1fee7b7.raw",
+    "archive_path": "work/data-round4/economy/cache/07e65ff550aef52c53e5c19ec37ae4ee30f62042c2cc1b7e8a4e6834c1fee7b7.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/0937a794194a0c293df23593347dd881ce684fef12a70ac99ad835754e3b226c.json",
+    "archive_path": "work/data-round4/economy/cache/0937a794194a0c293df23593347dd881ce684fef12a70ac99ad835754e3b226c.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/0937a794194a0c293df23593347dd881ce684fef12a70ac99ad835754e3b226c.raw",
+    "archive_path": "work/data-round4/economy/cache/0937a794194a0c293df23593347dd881ce684fef12a70ac99ad835754e3b226c.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/0996eaba38e3c40acc2b8926042b6abd637b44f954c64f9fdeafc22fb42c1e12.json",
+    "archive_path": "work/data-round4/economy/cache/0996eaba38e3c40acc2b8926042b6abd637b44f954c64f9fdeafc22fb42c1e12.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/0996eaba38e3c40acc2b8926042b6abd637b44f954c64f9fdeafc22fb42c1e12.raw",
+    "archive_path": "work/data-round4/economy/cache/0996eaba38e3c40acc2b8926042b6abd637b44f954c64f9fdeafc22fb42c1e12.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/09ba5f1082e78dae3df53f158854f7c54bcb19dc9a267d8a10f0c590beeadfe0.json",
+    "archive_path": "work/data-round4/economy/cache/09ba5f1082e78dae3df53f158854f7c54bcb19dc9a267d8a10f0c590beeadfe0.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/09ba5f1082e78dae3df53f158854f7c54bcb19dc9a267d8a10f0c590beeadfe0.raw",
+    "archive_path": "work/data-round4/economy/cache/09ba5f1082e78dae3df53f158854f7c54bcb19dc9a267d8a10f0c590beeadfe0.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/0e1d4da7515fbde3687e3fcae559b7cfc15aaa9a1b9173639f035e8b8267bdfd.json",
+    "archive_path": "work/data-round4/economy/cache/0e1d4da7515fbde3687e3fcae559b7cfc15aaa9a1b9173639f035e8b8267bdfd.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/0e1d4da7515fbde3687e3fcae559b7cfc15aaa9a1b9173639f035e8b8267bdfd.raw",
+    "archive_path": "work/data-round4/economy/cache/0e1d4da7515fbde3687e3fcae559b7cfc15aaa9a1b9173639f035e8b8267bdfd.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/13f583e51bf32d9babf6bb0592f8d52ce4ed0a4c2f760a22a6878181099d03a4.json",
+    "archive_path": "work/data-round4/economy/cache/13f583e51bf32d9babf6bb0592f8d52ce4ed0a4c2f760a22a6878181099d03a4.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/13f583e51bf32d9babf6bb0592f8d52ce4ed0a4c2f760a22a6878181099d03a4.raw",
+    "archive_path": "work/data-round4/economy/cache/13f583e51bf32d9babf6bb0592f8d52ce4ed0a4c2f760a22a6878181099d03a4.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/16e70ea5d60b464cd92f448ca552dc6c7fde0ee7020841f52ca122790b361751.json",
+    "archive_path": "work/data-round4/economy/cache/16e70ea5d60b464cd92f448ca552dc6c7fde0ee7020841f52ca122790b361751.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/16e70ea5d60b464cd92f448ca552dc6c7fde0ee7020841f52ca122790b361751.raw",
+    "archive_path": "work/data-round4/economy/cache/16e70ea5d60b464cd92f448ca552dc6c7fde0ee7020841f52ca122790b361751.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/18a620ec27c6f51b7bb1f5e0a42dc280b2e46655499dd957653f2441ef122b5f.json",
+    "archive_path": "work/data-round4/economy/cache/18a620ec27c6f51b7bb1f5e0a42dc280b2e46655499dd957653f2441ef122b5f.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/18a620ec27c6f51b7bb1f5e0a42dc280b2e46655499dd957653f2441ef122b5f.raw",
+    "archive_path": "work/data-round4/economy/cache/18a620ec27c6f51b7bb1f5e0a42dc280b2e46655499dd957653f2441ef122b5f.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/1a01017b7780e65f7f0288a3f9a56810b18ce4ee7d69ac60013168ff2a9ab5f6.json",
+    "archive_path": "work/data-round4/economy/cache/1a01017b7780e65f7f0288a3f9a56810b18ce4ee7d69ac60013168ff2a9ab5f6.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/1a01017b7780e65f7f0288a3f9a56810b18ce4ee7d69ac60013168ff2a9ab5f6.raw",
+    "archive_path": "work/data-round4/economy/cache/1a01017b7780e65f7f0288a3f9a56810b18ce4ee7d69ac60013168ff2a9ab5f6.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/22b693bc7ee77319fe0a55a56fed24ac609e1d60ac7b6ff83135307712cd32f0.json",
+    "archive_path": "work/data-round4/economy/cache/22b693bc7ee77319fe0a55a56fed24ac609e1d60ac7b6ff83135307712cd32f0.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/22b693bc7ee77319fe0a55a56fed24ac609e1d60ac7b6ff83135307712cd32f0.raw",
+    "archive_path": "work/data-round4/economy/cache/22b693bc7ee77319fe0a55a56fed24ac609e1d60ac7b6ff83135307712cd32f0.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/25f2a3d39f1427f49bf01c8fd4c7f43751119f7c4647187c0be8a138f6920ee3.json",
+    "archive_path": "work/data-round4/economy/cache/25f2a3d39f1427f49bf01c8fd4c7f43751119f7c4647187c0be8a138f6920ee3.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/25f2a3d39f1427f49bf01c8fd4c7f43751119f7c4647187c0be8a138f6920ee3.raw",
+    "archive_path": "work/data-round4/economy/cache/25f2a3d39f1427f49bf01c8fd4c7f43751119f7c4647187c0be8a138f6920ee3.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/395714dc4669420eadfbdb10d070c1bdb1dd2ac3a4285f915c4a464d2e4a8f6d.json",
+    "archive_path": "work/data-round4/economy/cache/395714dc4669420eadfbdb10d070c1bdb1dd2ac3a4285f915c4a464d2e4a8f6d.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/395714dc4669420eadfbdb10d070c1bdb1dd2ac3a4285f915c4a464d2e4a8f6d.raw",
+    "archive_path": "work/data-round4/economy/cache/395714dc4669420eadfbdb10d070c1bdb1dd2ac3a4285f915c4a464d2e4a8f6d.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/3f1777f01020de372d75d67524c0825bf9234c566b477455312d6b4887fdcda5.json",
+    "archive_path": "work/data-round4/economy/cache/3f1777f01020de372d75d67524c0825bf9234c566b477455312d6b4887fdcda5.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/3f1777f01020de372d75d67524c0825bf9234c566b477455312d6b4887fdcda5.raw",
+    "archive_path": "work/data-round4/economy/cache/3f1777f01020de372d75d67524c0825bf9234c566b477455312d6b4887fdcda5.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/41626db33983e2fd811c1a20f989d56ab0bbfe3ed76fa7b0326ccf4e2aaca34b.json",
+    "archive_path": "work/data-round4/economy/cache/41626db33983e2fd811c1a20f989d56ab0bbfe3ed76fa7b0326ccf4e2aaca34b.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/41626db33983e2fd811c1a20f989d56ab0bbfe3ed76fa7b0326ccf4e2aaca34b.raw",
+    "archive_path": "work/data-round4/economy/cache/41626db33983e2fd811c1a20f989d56ab0bbfe3ed76fa7b0326ccf4e2aaca34b.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/4346979eab98d2401f3b65d2ac4bac5d07d9e257742fe77ceff66113814104ae.json",
+    "archive_path": "work/data-round4/economy/cache/4346979eab98d2401f3b65d2ac4bac5d07d9e257742fe77ceff66113814104ae.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/4346979eab98d2401f3b65d2ac4bac5d07d9e257742fe77ceff66113814104ae.raw",
+    "archive_path": "work/data-round4/economy/cache/4346979eab98d2401f3b65d2ac4bac5d07d9e257742fe77ceff66113814104ae.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/4383da8e2ed0502b7c88156d3378bb9df9c88a5060de756d9dee516eb94bc1ec.json",
+    "archive_path": "work/data-round4/economy/cache/4383da8e2ed0502b7c88156d3378bb9df9c88a5060de756d9dee516eb94bc1ec.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/4383da8e2ed0502b7c88156d3378bb9df9c88a5060de756d9dee516eb94bc1ec.raw",
+    "archive_path": "work/data-round4/economy/cache/4383da8e2ed0502b7c88156d3378bb9df9c88a5060de756d9dee516eb94bc1ec.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/487960f64de3acb6119b4d97215df2c0dd4cffef00c994ca9f8abdca2f4c2ec3.json",
+    "archive_path": "work/data-round4/economy/cache/487960f64de3acb6119b4d97215df2c0dd4cffef00c994ca9f8abdca2f4c2ec3.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/487960f64de3acb6119b4d97215df2c0dd4cffef00c994ca9f8abdca2f4c2ec3.raw",
+    "archive_path": "work/data-round4/economy/cache/487960f64de3acb6119b4d97215df2c0dd4cffef00c994ca9f8abdca2f4c2ec3.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/53a9208177bf04aef2cabb85fd1c71a7f1086703c75f3aa107d5f943ee3540d3.json",
+    "archive_path": "work/data-round4/economy/cache/53a9208177bf04aef2cabb85fd1c71a7f1086703c75f3aa107d5f943ee3540d3.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/53a9208177bf04aef2cabb85fd1c71a7f1086703c75f3aa107d5f943ee3540d3.raw",
+    "archive_path": "work/data-round4/economy/cache/53a9208177bf04aef2cabb85fd1c71a7f1086703c75f3aa107d5f943ee3540d3.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/5b38526b6162541635d491612f16782b2e64c8bcdf77c61a54b092f31eee1d84.json",
+    "archive_path": "work/data-round4/economy/cache/5b38526b6162541635d491612f16782b2e64c8bcdf77c61a54b092f31eee1d84.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/5b38526b6162541635d491612f16782b2e64c8bcdf77c61a54b092f31eee1d84.raw",
+    "archive_path": "work/data-round4/economy/cache/5b38526b6162541635d491612f16782b2e64c8bcdf77c61a54b092f31eee1d84.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/61c9a797ce971a2747071a9451fdda9912a93d01ac7577f81996038edb833b94.json",
+    "archive_path": "work/data-round4/economy/cache/61c9a797ce971a2747071a9451fdda9912a93d01ac7577f81996038edb833b94.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/61c9a797ce971a2747071a9451fdda9912a93d01ac7577f81996038edb833b94.raw",
+    "archive_path": "work/data-round4/economy/cache/61c9a797ce971a2747071a9451fdda9912a93d01ac7577f81996038edb833b94.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/64bb8534335dfad291cf15c97f9314248bf22dd79e219e88fdd85475ab95e4da.json",
+    "archive_path": "work/data-round4/economy/cache/64bb8534335dfad291cf15c97f9314248bf22dd79e219e88fdd85475ab95e4da.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/64bb8534335dfad291cf15c97f9314248bf22dd79e219e88fdd85475ab95e4da.raw",
+    "archive_path": "work/data-round4/economy/cache/64bb8534335dfad291cf15c97f9314248bf22dd79e219e88fdd85475ab95e4da.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/70455f50de02e6a4cc33f950a540e1730ca4b70bbf634f72f2abb005f1459f3e.json",
+    "archive_path": "work/data-round4/economy/cache/70455f50de02e6a4cc33f950a540e1730ca4b70bbf634f72f2abb005f1459f3e.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/70455f50de02e6a4cc33f950a540e1730ca4b70bbf634f72f2abb005f1459f3e.raw",
+    "archive_path": "work/data-round4/economy/cache/70455f50de02e6a4cc33f950a540e1730ca4b70bbf634f72f2abb005f1459f3e.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/706c53ea1e59df6d39f4107d0ecac8bbe127732af72793f4943ed5f45a69c507.json",
+    "archive_path": "work/data-round4/economy/cache/706c53ea1e59df6d39f4107d0ecac8bbe127732af72793f4943ed5f45a69c507.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/706c53ea1e59df6d39f4107d0ecac8bbe127732af72793f4943ed5f45a69c507.raw",
+    "archive_path": "work/data-round4/economy/cache/706c53ea1e59df6d39f4107d0ecac8bbe127732af72793f4943ed5f45a69c507.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/7231e3186ec82ea6dc1659b941cebe13dba361a138796ecfada7d1b58a231d77.json",
+    "archive_path": "work/data-round4/economy/cache/7231e3186ec82ea6dc1659b941cebe13dba361a138796ecfada7d1b58a231d77.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/7231e3186ec82ea6dc1659b941cebe13dba361a138796ecfada7d1b58a231d77.raw",
+    "archive_path": "work/data-round4/economy/cache/7231e3186ec82ea6dc1659b941cebe13dba361a138796ecfada7d1b58a231d77.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/814255b58ec5789463a829223dfb4690d752155e94be28ef4386ee3669909833.json",
+    "archive_path": "work/data-round4/economy/cache/814255b58ec5789463a829223dfb4690d752155e94be28ef4386ee3669909833.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/814255b58ec5789463a829223dfb4690d752155e94be28ef4386ee3669909833.raw",
+    "archive_path": "work/data-round4/economy/cache/814255b58ec5789463a829223dfb4690d752155e94be28ef4386ee3669909833.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/85d6dcb807982f21926327f29070bcf0fc51ae1042ebe943d315c646c5ca133a.json",
+    "archive_path": "work/data-round4/economy/cache/85d6dcb807982f21926327f29070bcf0fc51ae1042ebe943d315c646c5ca133a.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/85d6dcb807982f21926327f29070bcf0fc51ae1042ebe943d315c646c5ca133a.raw",
+    "archive_path": "work/data-round4/economy/cache/85d6dcb807982f21926327f29070bcf0fc51ae1042ebe943d315c646c5ca133a.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/865c97d9f3800a436ef1d31612aa2dd103acefabe6db5719faa98b5afabe29bb.json",
+    "archive_path": "work/data-round4/economy/cache/865c97d9f3800a436ef1d31612aa2dd103acefabe6db5719faa98b5afabe29bb.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/865c97d9f3800a436ef1d31612aa2dd103acefabe6db5719faa98b5afabe29bb.raw",
+    "archive_path": "work/data-round4/economy/cache/865c97d9f3800a436ef1d31612aa2dd103acefabe6db5719faa98b5afabe29bb.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/8c8202e4956fe06548a919c8165fef753d3803f9ff71bd5de627bc1c695a8dca.json",
+    "archive_path": "work/data-round4/economy/cache/8c8202e4956fe06548a919c8165fef753d3803f9ff71bd5de627bc1c695a8dca.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/8c8202e4956fe06548a919c8165fef753d3803f9ff71bd5de627bc1c695a8dca.raw",
+    "archive_path": "work/data-round4/economy/cache/8c8202e4956fe06548a919c8165fef753d3803f9ff71bd5de627bc1c695a8dca.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/a17ee9f05f9fa9a544ae92ababbdcc7172e45c34446632684eb3b9e46bb7c7ee.json",
+    "archive_path": "work/data-round4/economy/cache/a17ee9f05f9fa9a544ae92ababbdcc7172e45c34446632684eb3b9e46bb7c7ee.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/a17ee9f05f9fa9a544ae92ababbdcc7172e45c34446632684eb3b9e46bb7c7ee.raw",
+    "archive_path": "work/data-round4/economy/cache/a17ee9f05f9fa9a544ae92ababbdcc7172e45c34446632684eb3b9e46bb7c7ee.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/a516f7c1df1f2741166aa6684a8b197d0a0295b2ac773d6245c2b3cf6bdd1440.json",
+    "archive_path": "work/data-round4/economy/cache/a516f7c1df1f2741166aa6684a8b197d0a0295b2ac773d6245c2b3cf6bdd1440.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/a516f7c1df1f2741166aa6684a8b197d0a0295b2ac773d6245c2b3cf6bdd1440.raw",
+    "archive_path": "work/data-round4/economy/cache/a516f7c1df1f2741166aa6684a8b197d0a0295b2ac773d6245c2b3cf6bdd1440.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/a52d7bd1d16ce1ec5b3d30c7d6a3520da4c1f8b4653b394580475264b1af756d.json",
+    "archive_path": "work/data-round4/economy/cache/a52d7bd1d16ce1ec5b3d30c7d6a3520da4c1f8b4653b394580475264b1af756d.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/a52d7bd1d16ce1ec5b3d30c7d6a3520da4c1f8b4653b394580475264b1af756d.raw",
+    "archive_path": "work/data-round4/economy/cache/a52d7bd1d16ce1ec5b3d30c7d6a3520da4c1f8b4653b394580475264b1af756d.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/a59271db682979ea51fc900840e9faea63943638591ea6558bb6009ff705ab96.json",
+    "archive_path": "work/data-round4/economy/cache/a59271db682979ea51fc900840e9faea63943638591ea6558bb6009ff705ab96.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/a59271db682979ea51fc900840e9faea63943638591ea6558bb6009ff705ab96.raw",
+    "archive_path": "work/data-round4/economy/cache/a59271db682979ea51fc900840e9faea63943638591ea6558bb6009ff705ab96.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/a65668dbda66affb7e1c3e1bfa51616d1954e1df09983fc9152277266a2748a0.json",
+    "archive_path": "work/data-round4/economy/cache/a65668dbda66affb7e1c3e1bfa51616d1954e1df09983fc9152277266a2748a0.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/a65668dbda66affb7e1c3e1bfa51616d1954e1df09983fc9152277266a2748a0.raw",
+    "archive_path": "work/data-round4/economy/cache/a65668dbda66affb7e1c3e1bfa51616d1954e1df09983fc9152277266a2748a0.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/a70be7c3ff88ba7b27a9e8ba3df6d4e761a8a8127a60a0ebbb5982822a733391.json",
+    "archive_path": "work/data-round4/economy/cache/a70be7c3ff88ba7b27a9e8ba3df6d4e761a8a8127a60a0ebbb5982822a733391.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/a70be7c3ff88ba7b27a9e8ba3df6d4e761a8a8127a60a0ebbb5982822a733391.raw",
+    "archive_path": "work/data-round4/economy/cache/a70be7c3ff88ba7b27a9e8ba3df6d4e761a8a8127a60a0ebbb5982822a733391.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/aa999350a6b724501c2988376e09165c0d6a4a50c922e626a88110d175d77286.json",
+    "archive_path": "work/data-round4/economy/cache/aa999350a6b724501c2988376e09165c0d6a4a50c922e626a88110d175d77286.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/aa999350a6b724501c2988376e09165c0d6a4a50c922e626a88110d175d77286.raw",
+    "archive_path": "work/data-round4/economy/cache/aa999350a6b724501c2988376e09165c0d6a4a50c922e626a88110d175d77286.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/b147e14f1b035e1003377a56be0af9144fdc176bb541489c44d285065e20f38b.json",
+    "archive_path": "work/data-round4/economy/cache/b147e14f1b035e1003377a56be0af9144fdc176bb541489c44d285065e20f38b.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/b147e14f1b035e1003377a56be0af9144fdc176bb541489c44d285065e20f38b.raw",
+    "archive_path": "work/data-round4/economy/cache/b147e14f1b035e1003377a56be0af9144fdc176bb541489c44d285065e20f38b.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/c3fea38cdb8e19258313572060c0e87d1dff7893477414d4e55d2c3ac3f51d41.json",
+    "archive_path": "work/data-round4/economy/cache/c3fea38cdb8e19258313572060c0e87d1dff7893477414d4e55d2c3ac3f51d41.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/c3fea38cdb8e19258313572060c0e87d1dff7893477414d4e55d2c3ac3f51d41.raw",
+    "archive_path": "work/data-round4/economy/cache/c3fea38cdb8e19258313572060c0e87d1dff7893477414d4e55d2c3ac3f51d41.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/c994269303eeb7f1b91bfede8c977f4f1171c267013bce7996562fdc7380ebcb.json",
+    "archive_path": "work/data-round4/economy/cache/c994269303eeb7f1b91bfede8c977f4f1171c267013bce7996562fdc7380ebcb.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/c994269303eeb7f1b91bfede8c977f4f1171c267013bce7996562fdc7380ebcb.raw",
+    "archive_path": "work/data-round4/economy/cache/c994269303eeb7f1b91bfede8c977f4f1171c267013bce7996562fdc7380ebcb.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/d30de815daf2f5b3dc28d76d0639866176275d201e70a386b601ad5748af984b.json",
+    "archive_path": "work/data-round4/economy/cache/d30de815daf2f5b3dc28d76d0639866176275d201e70a386b601ad5748af984b.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/d30de815daf2f5b3dc28d76d0639866176275d201e70a386b601ad5748af984b.raw",
+    "archive_path": "work/data-round4/economy/cache/d30de815daf2f5b3dc28d76d0639866176275d201e70a386b601ad5748af984b.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/de4cf9f273de2f3d0869a1b8de92640933e28c018102d8025be61c538558d4ed.json",
+    "archive_path": "work/data-round4/economy/cache/de4cf9f273de2f3d0869a1b8de92640933e28c018102d8025be61c538558d4ed.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/de4cf9f273de2f3d0869a1b8de92640933e28c018102d8025be61c538558d4ed.raw",
+    "archive_path": "work/data-round4/economy/cache/de4cf9f273de2f3d0869a1b8de92640933e28c018102d8025be61c538558d4ed.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/e2b408bf9d8365a5adb2f30635583919c4824f5e52681570b7a913619dab7b3a.json",
+    "archive_path": "work/data-round4/economy/cache/e2b408bf9d8365a5adb2f30635583919c4824f5e52681570b7a913619dab7b3a.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/e2b408bf9d8365a5adb2f30635583919c4824f5e52681570b7a913619dab7b3a.raw",
+    "archive_path": "work/data-round4/economy/cache/e2b408bf9d8365a5adb2f30635583919c4824f5e52681570b7a913619dab7b3a.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/f50ad0462110fe3c9968c7c0fa82142cd9f7521a80cea01524d6cb17078e5ce0.json",
+    "archive_path": "work/data-round4/economy/cache/f50ad0462110fe3c9968c7c0fa82142cd9f7521a80cea01524d6cb17078e5ce0.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/f50ad0462110fe3c9968c7c0fa82142cd9f7521a80cea01524d6cb17078e5ce0.raw",
+    "archive_path": "work/data-round4/economy/cache/f50ad0462110fe3c9968c7c0fa82142cd9f7521a80cea01524d6cb17078e5ce0.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/f5301e33c396f49645524caacfcbeb6d917a8fc0b24ff5c1f81d41cb6b6de5c1.json",
+    "archive_path": "work/data-round4/economy/cache/f5301e33c396f49645524caacfcbeb6d917a8fc0b24ff5c1f81d41cb6b6de5c1.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/f5301e33c396f49645524caacfcbeb6d917a8fc0b24ff5c1f81d41cb6b6de5c1.raw",
+    "archive_path": "work/data-round4/economy/cache/f5301e33c396f49645524caacfcbeb6d917a8fc0b24ff5c1f81d41cb6b6de5c1.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/f62665027c8e6e0303fc141ba0cc0ec62ed1586dc486b103966cc35a6018a7ba.json",
+    "archive_path": "work/data-round4/economy/cache/f62665027c8e6e0303fc141ba0cc0ec62ed1586dc486b103966cc35a6018a7ba.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/f62665027c8e6e0303fc141ba0cc0ec62ed1586dc486b103966cc35a6018a7ba.raw",
+    "archive_path": "work/data-round4/economy/cache/f62665027c8e6e0303fc141ba0cc0ec62ed1586dc486b103966cc35a6018a7ba.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/f8ff1e3c59727c04f88cd61acdad94ab8c5a4fd86131b12bebd9496e39057a93.json",
+    "archive_path": "work/data-round4/economy/cache/f8ff1e3c59727c04f88cd61acdad94ab8c5a4fd86131b12bebd9496e39057a93.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/f8ff1e3c59727c04f88cd61acdad94ab8c5a4fd86131b12bebd9496e39057a93.raw",
+    "archive_path": "work/data-round4/economy/cache/f8ff1e3c59727c04f88cd61acdad94ab8c5a4fd86131b12bebd9496e39057a93.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/fb87dd1f76c791d5658fbd1c93d97f10661f8babee7ccdd0e8738e89c1f5ef25.json",
+    "archive_path": "work/data-round4/economy/cache/fb87dd1f76c791d5658fbd1c93d97f10661f8babee7ccdd0e8738e89c1f5ef25.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/cache/fb87dd1f76c791d5658fbd1c93d97f10661f8babee7ccdd0e8738e89c1f5ef25.raw",
+    "archive_path": "work/data-round4/economy/cache/fb87dd1f76c791d5658fbd1c93d97f10661f8babee7ccdd0e8738e89c1f5ef25.raw"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/probe_sources.py",
+    "archive_path": "work/data-round4/economy/probe_sources.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/probe_inventory.json",
+    "archive_path": "work/data-round4/economy/probe_inventory.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/finalize_round4_audit.py",
+    "archive_path": "work/data-round4/economy/finalize_round4_audit.py"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/economy/methodology/bdmo_met2024.docx",
+    "archive_path": "work/data-round4/economy/methodology/bdmo_met2024.docx"
+  }
+]

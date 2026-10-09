@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "formula_checks": {
+    "status": "PASS",
+    "jan2023_index_included": true,
+    "constant_real_spending_recovered": true,
+    "annual_mean_shortcut_counterexample": {
+      "correct": 7.5,
+      "shortcut": 6.666666666666667
+    }
+  },
+  "cohort_rows": 290304,
+  "monthly_total_rows": 48384,
+  "annual_rows": 4032,
+  "growth_rows": 2016,
+  "region_months": 1752,
+  "n_regions": 73,
+  "all_municipality_years_have_12_months": true,
+  "all_cpi_chains_have_24_months": true,
+  "regional_mapping_stable_across_years": true,
+  "january2023_enters_chain": true,
+  "chain_endpoint_product_reconciled": true,
+  "regional_aggregate_rows_excluded": true,
+  "monthly_profile_invariance": {
+    "rows": 48384,
+    "components": 241920,
+    "max_absolute_error": 2.220446049250313e-16,
+    "atol": 1e-14,
+    "identity": "(x_j / D) / sum_k(x_k / D) = x_j / sum_k(x_k) for D>0"
+  },
+  "variance_decomposition_identity": "PASS",
+  "no_external_requests": true
+}

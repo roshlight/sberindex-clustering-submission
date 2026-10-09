@@ -1,0 +1,188 @@
+{
+  "created_at": "2026-09-14T20:40:18.647065+00:00",
+  "status": "complete_with_unknown_costs",
+  "scope": "Read-only metadata lookup for saved response_ids on HTTP403 attempts with missing cost; no new generation requests.",
+  "endpoint": "GET https://openrouter.ai/api/v1/generation?id=<saved_response_id>",
+  "primary_documentation": "https://openrouter.ai/docs/api/api-reference/generations/get-request-%26-usage-metadata-for-a-generation",
+  "retry_policy": "No retries; at most one GET per saved candidate ID.",
+  "ledgers": {
+    "smoke-20260914-01": {
+      "path": "/home/vpnadmin/services/sberindex-enrichment/enrichment/runs/smoke-20260914-01/router_attempts.json",
+      "sha256": "d4f8e776673ad29b283be115ba1b751f5e36fdefdc933bb144228ebd30f32f19",
+      "rows": 1,
+      "free_get_rows": 0
+    },
+    "connector-preflight": {
+      "path": "/home/vpnadmin/services/sberindex-enrichment/enrichment/runs/connector-preflight/router_attempts.json",
+      "sha256": "bcf37daa64a8346fc6a1713f43ac063f3a89d1dc7593e35e5558f8962d244df1",
+      "rows": 1,
+      "free_get_rows": 0
+    },
+    "research-20260914-01": {
+      "path": "/home/vpnadmin/services/sberindex-enrichment/enrichment/runs/research-20260914-01/router_attempts.json",
+      "sha256": "c1c176e271ce55ad9c223d2a5b26ee5b384b9a6ad5ea3982fffc8d9e3b5a82f8",
+      "rows": 44,
+      "free_get_rows": 1
+    },
+    "recovery-20260914-01": {
+      "path": "/home/vpnadmin/services/sberindex-enrichment/enrichment/runs/recovery-20260914-01/router_attempts.json",
+      "sha256": "aa919fba367e5a8e125826641a6a576b4962fb1334f87fdf628122c8c095df10",
+      "rows": 14,
+      "free_get_rows": 1
+    }
+  },
+  "legacy_classification": [
+    {
+      "run": "smoke-20260914-01",
+      "row_index": 0,
+      "classification": "completion_inferred_from_legacy_model_finish_reason_usage"
+    }
+  ],
+  "duplicate_generation_rows": 0,
+  "conflicts": [],
+  "per_run": {
+    "smoke-20260914-01": {
+      "completion_attempts": 1,
+      "known_cost_attempts": 1,
+      "unknown_cost_attempts": 0,
+      "known_cost_usd": 0.1936675,
+      "known_prompt_tokens": 7018,
+      "known_completion_tokens": 2119
+    },
+    "connector-preflight": {
+      "completion_attempts": 1,
+      "known_cost_attempts": 1,
+      "unknown_cost_attempts": 0,
+      "known_cost_usd": 0.004086,
+      "known_prompt_tokens": 628,
+      "known_completion_tokens": 283
+    },
+    "research-20260914-01": {
+      "completion_attempts": 43,
+      "known_cost_attempts": 43,
+      "unknown_cost_attempts": 0,
+      "known_cost_usd": 4.933355,
+      "known_prompt_tokens": 1433708,
+      "known_completion_tokens": 142709
+    },
+    "recovery-20260914-01": {
+      "completion_attempts": 13,
+      "known_cost_attempts": 3,
+      "unknown_cost_attempts": 10,
+      "known_cost_usd": 0.400242,
+      "known_prompt_tokens": 112546,
+      "known_completion_tokens": 17515
+    }
+  },
+  "per_id": [
+    {
+      "run": "recovery-20260914-01",
+      "response_id": "gen-1789418065-43FIRFyIU1Kwicmdwk23",
+      "original_http_status": 403,
+      "metadata_http_status": 404,
+      "status": "unknown_http_404",
+      "total_cost": null,
+      "tokens": {}
+    },
+    {
+      "run": "recovery-20260914-01",
+      "response_id": "gen-1789418065-96P8ecbtbMDtHOvQ3HfJ",
+      "original_http_status": 403,
+      "metadata_http_status": 404,
+      "status": "unknown_http_404",
+      "total_cost": null,
+      "tokens": {}
+    },
+    {
+      "run": "recovery-20260914-01",
+      "response_id": "gen-1789418065-GKlcB45dVKgf9rOMWgBc",
+      "original_http_status": 403,
+      "metadata_http_status": 404,
+      "status": "unknown_http_404",
+      "total_cost": null,
+      "tokens": {}
+    },
+    {
+      "run": "recovery-20260914-01",
+      "response_id": "gen-1789418065-kg7Y2RUTtrm3Tt6AsFXY",
+      "original_http_status": 403,
+      "metadata_http_status": 404,
+      "status": "unknown_http_404",
+      "total_cost": null,
+      "tokens": {}
+    },
+    {
+      "run": "recovery-20260914-01",
+      "response_id": "gen-1789418065-l5oZwnakXkRPgCe2uJ3M",
+      "original_http_status": 403,
+      "metadata_http_status": 404,
+      "status": "unknown_http_404",
+      "total_cost": null,
+      "tokens": {}
+    },
+    {
+      "run": "recovery-20260914-01",
+      "response_id": "gen-1789418065-vzWt6qizpMaJI1ThyKkd",
+      "original_http_status": 403,
+      "metadata_http_status": 404,
+      "status": "unknown_http_404",
+      "total_cost": null,
+      "tokens": {}
+    },
+    {
+      "run": "recovery-20260914-01",
+      "response_id": "gen-1789418066-0fZlJ3qKIxPcmZ4BbRUg",
+      "original_http_status": 403,
+      "metadata_http_status": 404,
+      "status": "unknown_http_404",
+      "total_cost": null,
+      "tokens": {}
+    },
+    {
+      "run": "recovery-20260914-01",
+      "response_id": "gen-1789418066-687RkFt1FgDHJJaAnujU",
+      "original_http_status": 403,
+      "metadata_http_status": 404,
+      "status": "unknown_http_404",
+      "total_cost": null,
+      "tokens": {}
+    },
+    {
+      "run": "recovery-20260914-01",
+      "response_id": "gen-1789418066-jQRO0GSQGpw0Qtr42oPp",
+      "original_http_status": 403,
+      "metadata_http_status": 404,
+      "status": "unknown_http_404",
+      "total_cost": null,
+      "tokens": {}
+    },
+    {
+      "run": "recovery-20260914-01",
+      "response_id": "gen-1789418076-Bf925xr3FKpgOKlqhSSp",
+      "original_http_status": 403,
+      "metadata_http_status": 404,
+      "status": "unknown_http_404",
+      "total_cost": null,
+      "tokens": {}
+    }
+  ],
+  "known_ledger_cost_usd": 5.5313505,
+  "known_ledger_prompt_tokens": 1553900,
+  "known_ledger_completion_tokens": 162626,
+  "root_reported_key_daily_usage_usd": 5.1311085,
+  "root_reported_key_daily_usage_note": "Supplied by parent task from prior GET /api/v1/key; not queried again or independently attributed to these runs.",
+  "cautions": [
+    "404 or inaccessible metadata does not prove zero cost.",
+    "Known ledger sums are partial if any generation cost remains unknown.",
+    "Account-level daily usage is not a per-generation allocation."
+  ],
+  "additional_reported_cost_usd": 0.0,
+  "reconciled_known_cost_usd": 5.5313505,
+  "metadata_get_requests": 10,
+  "metadata_status_counts": {
+    "unknown_http_404": 10
+  },
+  "remaining_unknown_cost_attempts": 10,
+  "daily_usage_minus_known_ledger_cost_usd": -0.400242,
+  "completed_at": "2026-09-14T20:40:19.801829+00:00"
+}

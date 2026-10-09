@@ -1,0 +1,944 @@
+[
+  {
+    "job": "munst57_8401011",
+    "codes": [
+      "57701000",
+      "57708000",
+      "57712000",
+      "57714000",
+      "57718000",
+      "57719000",
+      "57720000",
+      "57726000",
+      "57727000",
+      "57728000",
+      "57729000",
+      "57730000",
+      "57731000",
+      "57735000",
+      "57756000",
+      "57757000",
+      "57758000",
+      "57759000",
+      "57760000",
+      "57761000",
+      "57762000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "2a367cfad001bf354b2c6b5c363ab266483a83e16dd5a584b0415a23b7cfe215",
+    "raw_sha256": "fd4f5e3ecf897f77201304d302ef09216f7f0340e7b6c6141fbe0d32fd2d234f",
+    "status": "parsed",
+    "rows": 42,
+    "numeric": 42
+  },
+  {
+    "job": "munst05_8401003",
+    "codes": [
+      "5517000",
+      "5546000",
+      "5559000",
+      "5701000",
+      "5703000",
+      "5705000",
+      "5706000",
+      "5707000",
+      "5708000",
+      "5711000",
+      "5714000",
+      "5717000",
+      "5720000",
+      "5723000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "f1b8b0101196cb37b824bbbf8ec3174e9d71a92d67f4f95d60029db1c6c3d38e",
+    "raw_sha256": "167ab752705c928328e68d5cfc5aab48ff7bcb145cb75437f7d3b9c3f778109d",
+    "status": "parsed",
+    "rows": 23,
+    "numeric": 23
+  },
+  {
+    "job": "munst63_8401003",
+    "codes": [
+      "63602000",
+      "63603000",
+      "63604000",
+      "63606000",
+      "63607000",
+      "63608000",
+      "63609000",
+      "63611000",
+      "63612000",
+      "63613000",
+      "63614000",
+      "63616000",
+      "63617000",
+      "63619000",
+      "63621000",
+      "63622000",
+      "63623000",
+      "63624000",
+      "63625000",
+      "63626000",
+      "63629000",
+      "63630000",
+      "63632000",
+      "63634000",
+      "63635000",
+      "63636000",
+      "63637000",
+      "63639000",
+      "63640000",
+      "63641000",
+      "63642000",
+      "63644000",
+      "63646000",
+      "63647000",
+      "63648000",
+      "63649000",
+      "63650000",
+      "63701000",
+      "63746000"
+    ],
+    "selected_types": [
+      "10",
+      "7"
+    ],
+    "request_key": "4346979eab98d2401f3b65d2ac4bac5d07d9e257742fe77ceff66113814104ae",
+    "raw_sha256": "e352f34cec7d5fc6a197a008d445e6de5c6747a0808162db5e5deda20079a5a2",
+    "status": "semantic_unit_unverified",
+    "error": "ValueError: Unverified source monetary unit"
+  },
+  {
+    "job": "munst07_8401003",
+    "codes": [
+      "7502000",
+      "7503000",
+      "7505000",
+      "7507000",
+      "7510000",
+      "7512000",
+      "7515000",
+      "7517000",
+      "7520000",
+      "7522000",
+      "7525000",
+      "7528000",
+      "7530000",
+      "7533000",
+      "7536000",
+      "7539000",
+      "7541000",
+      "7543000",
+      "7544000",
+      "7546000",
+      "7548000",
+      "7550000",
+      "7552000",
+      "7554000",
+      "7556000",
+      "7558000",
+      "7701000",
+      "7705000",
+      "7707000",
+      "7710000",
+      "7712000",
+      "7713000",
+      "7714000",
+      "7715000",
+      "7716000",
+      "7718000",
+      "7721000",
+      "7724000",
+      "7725000",
+      "7726000",
+      "7727000",
+      "7731000",
+      "7735000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "395714dc4669420eadfbdb10d070c1bdb1dd2ac3a4285f915c4a464d2e4a8f6d",
+    "raw_sha256": "2c83a1809be94465068abf734a914dd141dbd5fe0b8c65c1b06cf5782f9ffdd1",
+    "status": "semantic_scope_unverified",
+    "error": "ValueError: Small-business exclusion not evidenced in this source header"
+  },
+  {
+    "job": "munst07_8401011",
+    "codes": [
+      "7502000",
+      "7503000",
+      "7505000",
+      "7507000",
+      "7510000",
+      "7512000",
+      "7515000",
+      "7517000",
+      "7520000",
+      "7522000",
+      "7525000",
+      "7528000",
+      "7530000",
+      "7533000",
+      "7536000",
+      "7539000",
+      "7541000",
+      "7543000",
+      "7544000",
+      "7546000",
+      "7548000",
+      "7550000",
+      "7552000",
+      "7554000",
+      "7556000",
+      "7558000",
+      "7701000",
+      "7705000",
+      "7707000",
+      "7710000",
+      "7712000",
+      "7713000",
+      "7714000",
+      "7715000",
+      "7716000",
+      "7718000",
+      "7721000",
+      "7724000",
+      "7725000",
+      "7726000",
+      "7727000",
+      "7731000",
+      "7735000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "be4707bbfaa16608e33bf66080a48064bc892e9461c8037bafcf869cb184ef2d",
+    "raw_sha256": "789d3c4ab356b3bd2e4706f8e0158bdaba553bff75b938305689b8650a7145b7",
+    "status": "semantic_scope_unverified",
+    "error": "ValueError: Small-business exclusion not evidenced in this source header"
+  },
+  {
+    "job": "munst40_8401003",
+    "codes": [
+      "40301000",
+      "40310000",
+      "40312000",
+      "40320000",
+      "40321000",
+      "40327000",
+      "40329000",
+      "40337000",
+      "40340000",
+      "40341000",
+      "40356000",
+      "40357000",
+      "40372000",
+      "40379000",
+      "40380000",
+      "40381000",
+      "40387000",
+      "40389000",
+      "40396000",
+      "40903000",
+      "40905000"
+    ],
+    "selected_types": [
+      "3"
+    ],
+    "request_key": "3f501034c4f7c0dc4ada8b8e4ae0ce8736e81c1f64c3a71d2a4763a9e0edb591",
+    "raw_sha256": "4d47cd377baf92d5aa1de7ce00907066245a13772b09fcf5b13be1e7b8c3dc1b",
+    "status": "parsed",
+    "rows": 9,
+    "numeric": 9
+  },
+  {
+    "job": "munst10_8401003",
+    "codes": [
+      "10508000",
+      "10540000",
+      "10630000",
+      "10632000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "ac39642a84bb3ded7ff445cb4e646485de7de8b0c29b0448dbf7606464b5b0f4",
+    "raw_sha256": "76d963e4b974ef870f708f74975f23984e2a3a678ead81c563daf75daa81ff31",
+    "status": "parsed",
+    "rows": 1,
+    "numeric": 1
+  },
+  {
+    "job": "munst93_8401003",
+    "codes": [
+      "93605000",
+      "93610000",
+      "93615000",
+      "93620000",
+      "93635000",
+      "93640000",
+      "93650000",
+      "93657000"
+    ],
+    "selected_types": [
+      "10",
+      "7"
+    ],
+    "request_key": "6ee3c874ee80e01005dd5e02557876bf7bda2ff9d2d1ebd56f69bbfe7d95f7b9",
+    "raw_sha256": "6589febb3e747944f7434557d2b1f0bda1daaac4db191076a845e4a03f547e98",
+    "status": "parsed",
+    "rows": 1,
+    "numeric": 1
+  },
+  {
+    "job": "munst98_8401003",
+    "codes": [
+      "98608000",
+      "98612000",
+      "98614000",
+      "98642000",
+      "98646000",
+      "98648000",
+      "98652000"
+    ],
+    "selected_types": [
+      "10",
+      "7"
+    ],
+    "request_key": "0cd45e601c61610e469d8529e096ccd05b77332b02fd9a0734b138d9799db2f3",
+    "raw_sha256": "7be2f655b1ecce5f9826993a4ef6aec3f519ea6426b81d681c69d4a742d271ca",
+    "status": "parsed",
+    "rows": 2,
+    "numeric": 2
+  },
+  {
+    "job": "munst65_8109001",
+    "codes": [
+      "65710000",
+      "65721000",
+      "65743000",
+      "65746000",
+      "65748000",
+      "65757000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "375649d326978da939fb42a91a53fb036608a4d227df4ad570d59401aca3469b",
+    "raw_sha256": "9af07f96c3566f80518cc41a18e6968f9ed0d8a9e63bbf47d3e7e4e8029a826e",
+    "status": "parsed",
+    "rows": 2,
+    "numeric": 2
+  },
+  {
+    "job": "munst45_8401003",
+    "codes": [
+      "45343000",
+      "45945000",
+      "45947000",
+      "45948000",
+      "45951000",
+      "45959000"
+    ],
+    "selected_types": [
+      "3"
+    ],
+    "request_key": "a31aba8f43415fd00cd1f5d2e987320da92de8df589087e967511e419536f6ee",
+    "raw_sha256": "a2cf7fd7130c457595cd08734f452c30d8ba572e9c7c0832ae9011da9398df98",
+    "status": "parsed",
+    "rows": 5,
+    "numeric": 5
+  },
+  {
+    "job": "munst90_8401003",
+    "codes": [
+      "90605000",
+      "90610000",
+      "90615000",
+      "90630000",
+      "90635000",
+      "90701000"
+    ],
+    "selected_types": [
+      "10",
+      "7"
+    ],
+    "request_key": "b5643bc852285f177da272c83abdca88ce1c9cf86f12a377fcdf4fe390f0ba8d",
+    "raw_sha256": "1f901d3e06dbaceec876c39058e8e3d608bcf326f40a9bcef21b054beeb7799c",
+    "status": "parsed",
+    "rows": 5,
+    "numeric": 5
+  },
+  {
+    "job": "munst30_8401003",
+    "codes": [
+      "30616000",
+      "30827000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "bd495b969f54c48044c254ff7d4c9aff35fd135846c71d70a87e2b31ba30e0af",
+    "raw_sha256": "74e76debb5737ba662cbd58df5808188530aee08520cbdd1dc6d64ffc2ac01df",
+    "initial_request_key": "bd8fec3b20a0549650f74cd90ea157129c8c70102017eadd3745595c11d84dd6",
+    "initial_raw_sha256": "e6b41a7ce8b8cac145f9d320255fb5be1df9a6aaadd0bfdf4be91467538c3dbf",
+    "retry_reason": "source_internal_file_open_error",
+    "control_code": "30510000",
+    "actual_codes": [
+      "30616000",
+      "30827000",
+      "30510000"
+    ],
+    "status": "parsed",
+    "rows": 1,
+    "numeric": 1
+  },
+  {
+    "job": "munst76_8401003",
+    "codes": [
+      "76515000",
+      "76634000",
+      "76636000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "b60aa44b89db8f5bbc2e246524a7702f41fcd160b8ac4196e744c06bb873aa3b",
+    "raw_sha256": "2079d2ef1648e7abad38f2a6d098325025baaff717651fcee558619bfc0ef67d",
+    "status": "parsed",
+    "rows": 2,
+    "numeric": 2
+  },
+  {
+    "job": "munst25_8401003",
+    "codes": [
+      "25618000",
+      "25620000",
+      "25629000",
+      "25642000",
+      "25646000",
+      "25648000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "9348d904bdd65d4ae875b6f03fed6b97ef9e4a1a2e02de21947484c3600d9d1d",
+    "raw_sha256": "61e4955af14ffd502c7e70df64b2e461e18f3785244010a4d1593d3033afd891",
+    "status": "parsed",
+    "rows": 5,
+    "numeric": 5
+  },
+  {
+    "job": "munst08_8401003",
+    "codes": [
+      "8628000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "2ab4f823251fedde267a4cf57d577f8b88457df3873c19c522adf40526b21e53",
+    "raw_sha256": "e105fb8a7deb83c4316cd34cee7311c606c96c7d13fbb3935a409dafe3909424",
+    "initial_request_key": "ab379c0efafe02bbf3ab52ddd0d3d2aa294dd3dad441fae7bbd5cb2f0808953c",
+    "initial_raw_sha256": "e6b41a7ce8b8cac145f9d320255fb5be1df9a6aaadd0bfdf4be91467538c3dbf",
+    "retry_reason": "source_internal_file_open_error",
+    "control_code": "8534000",
+    "actual_codes": [
+      "8628000",
+      "8534000"
+    ],
+    "status": "parsed",
+    "rows": 1,
+    "numeric": 1
+  },
+  {
+    "job": "munst28_8401003",
+    "codes": [
+      "28536000",
+      "28547000",
+      "28551000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "719482eac10a9713930deada4f0496a476d803583d443960e262e7db54150037",
+    "raw_sha256": "f79572fa2caa8608387c6b6950a53f94529e70fcecf54231006b83f706712e19",
+    "status": "parsed",
+    "rows": 4,
+    "numeric": 2
+  },
+  {
+    "job": "munst04_8401003",
+    "codes": [
+      "4615000",
+      "4635000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "ee816b082be5c03f7fa7720a962c30ceb046202bb8bb028e7a5888d26c56935f",
+    "raw_sha256": "9003a16272fabc0d65eb9bab620cd41334303d5b3df4b47341bd38d1e936581d",
+    "initial_request_key": "0302948a6b207a481c923fe9e132371b888d9b7dd35ac7217a4384affeff25b0",
+    "initial_raw_sha256": "e6b41a7ce8b8cac145f9d320255fb5be1df9a6aaadd0bfdf4be91467538c3dbf",
+    "retry_reason": "source_internal_file_open_error",
+    "control_code": "4545000",
+    "actual_codes": [
+      "4615000",
+      "4635000",
+      "4545000"
+    ],
+    "status": "parsed",
+    "rows": 2,
+    "numeric": 2
+  },
+  {
+    "job": "munst42_8109001",
+    "codes": [
+      "42603000",
+      "42615000",
+      "42627000",
+      "42642000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "97e82a3f967751a7b7555af2430629ce27c8d662faec46fe08eacd145921d27c",
+    "raw_sha256": "1fa6c45ff8fb1837f2b27f73f030d5d1e0f0af28cf37378f985e3b2232e80f6c",
+    "status": "parsed",
+    "rows": 4,
+    "numeric": 4
+  },
+  {
+    "job": "munst42_8401003",
+    "codes": [
+      "42603000",
+      "42615000",
+      "42627000",
+      "42642000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "566ccef7ef58e5372d00f4a395f50498f9cec21f27e86a93c9d4c5dc19bc4b44",
+    "raw_sha256": "3160931b2c8e92f8e27c55f4102cbe5b2e36a1207861f987a290c713b500c61f",
+    "status": "parsed",
+    "rows": 4,
+    "numeric": 4
+  },
+  {
+    "job": "munst42_8401011",
+    "codes": [
+      "42603000",
+      "42615000",
+      "42627000",
+      "42642000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "626075b4b65a9dc8824d718ae7f1726eab50ee8b2b991bf2d37d16f88bfbc108",
+    "raw_sha256": "71a386810521ce2b364f4768055a348b78980e91804cf671bbd300d4841fbf66",
+    "status": "parsed",
+    "rows": 4,
+    "numeric": 4
+  },
+  {
+    "job": "munst64_8401003",
+    "codes": [
+      "64724000",
+      "64748000"
+    ],
+    "selected_types": [
+      "7"
+    ],
+    "request_key": "081df93e512507b4826013da655ca217fcf7cb702060c6ca82316af505fb2f21",
+    "raw_sha256": "21dd69c484d928719a12c096081cbc6eff698927b2ed351c4ded140fcea6f75f",
+    "status": "parsed",
+    "rows": 4,
+    "numeric": 2
+  },
+  {
+    "job": "munst69_8401003",
+    "codes": [
+      "69604000",
+      "69652000"
+    ],
+    "selected_types": [
+      "10",
+      "7"
+    ],
+    "request_key": "5d3bc4c5f6e26f12c55610c6c6b614e4e4b50d4e1fac76bbc34a05fe06e72509",
+    "raw_sha256": "bc5613df0fc09a179cd9e67bac98d9a3b32dfd31ef176fa6ba77366b1fb78bc6",
+    "status": "parsed",
+    "rows": 2,
+    "numeric": 2
+  },
+  {
+    "job": "munst34_8401003",
+    "codes": [
+      "34628000"
+    ],
+    "selected_types": [
+      "10",
+      "20"
+    ],
+    "request_key": "2b9edd96f2611d243e7baaf11e0475a6963bdcb66b8a090270d5d7ecde141038",
+    "raw_sha256": "ef47af7142695790cd9d00f3f92ef643dbf2a902bf27f8711d4e7b633b044de0",
+    "status": "parsed",
+    "rows": 1,
+    "numeric": 1
+  },
+  {
+    "job": "munst44_8401003",
+    "codes": [
+      "44502000",
+      "44522000"
+    ],
+    "selected_types": [
+      "7",
+      "20"
+    ],
+    "request_key": "7197beb45468aa6190b38287d88e897b722ba2f48fe3194d8386dad04618d51d",
+    "raw_sha256": "2615628a21371f8543c5f6f40bb631fe1c8c6f3d81d76047265dc9450f1b791a",
+    "status": "parsed",
+    "rows": 1,
+    "numeric": 1
+  },
+  {
+    "job": "munst50_8401011",
+    "codes": [
+      "50634000",
+      "50636000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "3fcb7a8401642bb312f10b0a038dad9d8384e9226511a21310f07d00ba5cc22e",
+    "raw_sha256": "e74231c0ceaaa37f7d55b007a5a7afe1d82d0a36834b3dedce924d6952afac73",
+    "status": "parsed",
+    "rows": 1,
+    "numeric": 1
+  },
+  {
+    "job": "munst65_8401003",
+    "codes": [
+      "65710000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "4c96ee6ad150840f7fb0084387a5025b49439373c0421d27fc7ef6c4a1324b57",
+    "raw_sha256": "187f8c28456bc61a0ee682e3b9538ee2e06e3e829ee1545261c4405ddb40c702",
+    "status": "parsed",
+    "rows": 1,
+    "numeric": 1
+  },
+  {
+    "job": "munst49_8401003",
+    "codes": [
+      "49523000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "154f6dc04a5a6caf96016463c90f8d1e019f5b39bef81a0e35a66b5db1dd7b23",
+    "raw_sha256": "3c5ae7ede98c1e628676e4ce5d87b6ec90c066d44096f5371a1db767825b42b8",
+    "initial_request_key": "c77826d8d2591b6d2ca9d11f0e18f63c3baefadefdec5be62dacfa104113e819",
+    "initial_raw_sha256": "e6b41a7ce8b8cac145f9d320255fb5be1df9a6aaadd0bfdf4be91467538c3dbf",
+    "retry_reason": "source_internal_file_open_error",
+    "control_code": "49510000",
+    "actual_codes": [
+      "49523000",
+      "49510000"
+    ],
+    "status": "parsed",
+    "rows": 2,
+    "numeric": 2
+  },
+  {
+    "job": "munst71_8401003",
+    "codes": [
+      "71933000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "7d726980c2f0f04525a39e806efd16c0bb8366828038635e017ec0593b4f25d1",
+    "raw_sha256": "53e3876bd7ac642fbf8043e668fa7b9bb3782e4f8180cc2e540da567b54b91c3",
+    "initial_request_key": "b50b572773f6d78e7a219b9d07b1d9e45d9b77ceb3048e3b0ca4a87b9ae7ac18",
+    "initial_raw_sha256": "e6b41a7ce8b8cac145f9d320255fb5be1df9a6aaadd0bfdf4be91467538c3dbf",
+    "retry_reason": "source_internal_file_open_error",
+    "control_code": "71603000",
+    "actual_codes": [
+      "71933000",
+      "71603000"
+    ],
+    "status": "parsed",
+    "rows": 2,
+    "numeric": 2
+  },
+  {
+    "job": "munst84_8401003",
+    "codes": [
+      "84645000"
+    ],
+    "selected_types": [
+      "10",
+      "7"
+    ],
+    "request_key": "6441bda9902a348677497316979c143814b77b5824e761e597d432b723839ec5",
+    "raw_sha256": "8eb8cb2b61cf50517d30571500917bc6f30358507cd31bbc0a9c4665dfc4a4f9",
+    "initial_request_key": "2b44a18a02d1d2248e29fc9748bf310d4819c703c943b59151babac06579f796",
+    "initial_raw_sha256": "e6b41a7ce8b8cac145f9d320255fb5be1df9a6aaadd0bfdf4be91467538c3dbf",
+    "retry_reason": "source_internal_file_open_error",
+    "control_code": "84610000",
+    "actual_codes": [
+      "84645000",
+      "84610000"
+    ],
+    "status": "parsed",
+    "rows": 2,
+    "numeric": 2
+  },
+  {
+    "job": "munst88_8401003",
+    "codes": [
+      "88608000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "51310c053d2cdf76433b86096f9202754b58ada3e7358a48a665bf180c641dbb",
+    "raw_sha256": "854198511cd7baa5a8660baeded6834a5d2638c7ae602ffe291c6884fc636e07",
+    "initial_request_key": "bd18a44b04e2d1443b9577738cef0fc6148fca06293f40c830a723e97ed46c49",
+    "initial_raw_sha256": "e6b41a7ce8b8cac145f9d320255fb5be1df9a6aaadd0bfdf4be91467538c3dbf",
+    "retry_reason": "source_internal_file_open_error",
+    "control_code": "88604000",
+    "actual_codes": [
+      "88608000",
+      "88604000"
+    ],
+    "status": "parsed",
+    "rows": 2,
+    "numeric": 2
+  },
+  {
+    "job": "munst04_8401011",
+    "codes": [
+      "4656000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "d10b9f5567efe3a31c30970b505d6a06a78256cb9d3e39a6ece0ae223b7d7bfb",
+    "raw_sha256": "6141cf20008b306d5d659d9cce00e428d3c4cb5033c0a3ac0c280fafe1e5eba1",
+    "status": "parsed",
+    "rows": 1,
+    "numeric": 1
+  },
+  {
+    "job": "munst19_8109001",
+    "codes": [
+      "19546000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "463599d8403d2c03cbf6f20eecf120b4b311f3f53549cb56337107779275926e",
+    "raw_sha256": "1b7a5cf023abcc675d257692ccb2249f6f3620beeab9d21bb329f211d4507c31",
+    "status": "parsed",
+    "rows": 1,
+    "numeric": 1
+  },
+  {
+    "job": "munst19_8401003",
+    "codes": [
+      "19532000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "a7043615dc5cdda5c707e9f4386e80d66eda6c0c8f3173645a01bb86e15eee3d",
+    "raw_sha256": "50d5237d1968cf5ba36108cde376de1ffecb5dbf810bbd2714e0d10a27b28e7e",
+    "status": "parsed",
+    "rows": 1,
+    "numeric": 1
+  },
+  {
+    "job": "munst66_8401003",
+    "codes": [
+      "66609000"
+    ],
+    "selected_types": [
+      "10",
+      "20"
+    ],
+    "request_key": "f538206ae7ad119c63eec08c7bc3a6489fddbeea42ed480308c59a0ed15e26d3",
+    "raw_sha256": "bb97d79954a44fcb49f03c71857c8d522d62efce1aee3d8bcb392635f4ee2ca4",
+    "status": "parsed",
+    "rows": 1,
+    "numeric": 1
+  },
+  {
+    "job": "munst73_8401003",
+    "codes": [
+      "73602000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "e8ed8b6f7314f6028e6ee85934a4c916582bf78408108460ce4768ce99f0f1bc",
+    "raw_sha256": "6e8da3c73b56b9268a79c8cb9c6d2e11b885986b421c6299743f1045abbcae02",
+    "status": "parsed",
+    "rows": 1,
+    "numeric": 1
+  },
+  {
+    "job": "munst76_8109001",
+    "codes": [
+      "76652000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "298d583b0ef3594e848e6fce82f131387b5ed5b20d5c2d7f983de848fce50387",
+    "raw_sha256": "31c39d53fd0e0f6f378063dc56c3f25a154acb28ce004f60e5e15f3282899efb",
+    "status": "parsed",
+    "rows": 1,
+    "numeric": 1
+  },
+  {
+    "job": "munst77_8401003",
+    "codes": [
+      "77715000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "ae38f2b8d33dcfca87510f4478cb22ff06d544af2d8d9d8de91401a518769b55",
+    "raw_sha256": "aa6cc5f316e82e5b246e7e8bb2b5b33fba6d9febc32650bfe1d8c90c6bef2128",
+    "status": "parsed",
+    "rows": 1,
+    "numeric": 1
+  },
+  {
+    "job": "munst86_8401003",
+    "codes": [
+      "86550000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "55c359d33a08a2f739bd83300708be1232b1f8526f1ec5849172a3a03bdfe503",
+    "raw_sha256": "84f61bc3f2fa2954f17a582f268a79fe8bf65245795938cfffef7d1548517090",
+    "status": "parsed",
+    "rows": 1,
+    "numeric": 1
+  },
+  {
+    "job": "munst87_8109001",
+    "codes": [
+      "87725000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "bc07bd33ed7ea4936dd65a7ff8ce4de76e7ef1fd3bb3f85db35107e97b503aba",
+    "raw_sha256": "0e72ae4ff04494a07811e7e5d99478a2b0cd7f621ab1a46bb16bd5cf387b26c3",
+    "status": "parsed",
+    "rows": 1,
+    "numeric": 1
+  },
+  {
+    "job": "munst87_8401003",
+    "codes": [
+      "87725000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "57b40f295980ba639bbda3dcb7b5555bc0228f6fcaf9e027e57f3b170bbace3c",
+    "raw_sha256": "5b025c5a77c6c05d6d409b97e1d2d05324e6e395a8af3edefc33126692bffde0",
+    "status": "parsed",
+    "rows": 1,
+    "numeric": 1
+  },
+  {
+    "job": "munst87_8401011",
+    "codes": [
+      "87725000"
+    ],
+    "selected_types": [
+      "10",
+      "7",
+      "20"
+    ],
+    "request_key": "c6ea8fa66399f1faa71131eca7f0008a14520c6e69f0f0e5b86dfb7279fff6b9",
+    "raw_sha256": "bdc7c7113a72bf7900af52626b3774cea19e06422a52b45ddad516ab47d480f8",
+    "status": "parsed",
+    "rows": 1,
+    "numeric": 1
+  }
+]

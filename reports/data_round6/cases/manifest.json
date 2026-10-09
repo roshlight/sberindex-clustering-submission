@@ -1,0 +1,16 @@
+{
+  "script_sha256": "e53374a0844efa30cd23328b68afb3a5bbb7edfeb3a25ff8731fdaf8ffee85e0",
+  "helper_script_sha256": "1f72b2684464cfa539f13197a11bd5f2c62fffbb4950cf98675875a0c94f8950",
+  "recipe_sha256": "a23cb3c79db35d9794e54e721ba64f6812217aafcc9655b08705eed4c6cc733f",
+  "retrievals_sha256": "b30905f39d1ac11f1701d1c60cfce669b64d42bd62d0568a76e2fbae5176e7ab",
+  "outputs": {
+    "airport_annual_finance.csv": "83c344da375e48a4dcb402a7e77b75a575b48320a99ac275957319dacf50bbf1",
+    "evidence_ledger.csv": "4de9f5b4ec77704b92212ba1f86ecbda038c8f2c2a6c8d11778d35cfa10a2123",
+    "financial_semantics.csv": "5661e3ef5b78c08dbc7be813104fea99fbc62ec03d704e8cb67b395b34bba340",
+    "followup_requests.csv": "e4206e5e0e4559a040e6e64f8cb78627768b8e5d2bd07a31efc3641470d6c9e6",
+    "hypothesis_status.csv": "f97fa854f4d5faf097ef006b673ad39e8f09dc326c4a3c47951541a3a2ebd287",
+    "QA.json": "82099a507de73e8af16c59f641d184ecdefc2b1965be73fab23827450fbdac43",
+    "source_inventory.json": "b30905f39d1ac11f1701d1c60cfce669b64d42bd62d0568a76e2fbae5176e7ab",
+    "source_status.csv": "1c55884b75df0aff80815ca4ae08b5c7a67d10dc169ca4db5a438ea86340e700"
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "reference_id": "rosstat_cities_2024",
+    "publisher": "Rosstat",
+    "url": "https://rosstat.gov.ru/storage/mediabank/Region_Goroda_2024.pdf",
+    "retrieved_date": "2026-10-02",
+    "original_sha256": "5948325e6f32d97a88590ea59b6a37a6875cf5396b6896d4c96776d47298126d",
+    "original_bytes": 28227316,
+    "original_pdf_page_indices": [
+      1,
+      2,
+      3,
+      16,
+      17,
+      108,
+      109,
+      162,
+      163,
+      202,
+      203,
+      236,
+      237,
+      300,
+      301,
+      334,
+      335,
+      382,
+      383,
+      39,
+      423
+    ],
+    "excerpt": "sources/rosstat_cities_2024_excerpt.pdf",
+    "excerpt_sha256": "93a96992ec8db7296d3d75e579f93afe43be46ceccd15638fc59a5befe6154a9",
+    "tls_certificate_verified": false,
+    "transport_note": "HTTPS certificate chain untrusted; request-scoped validation bypass, no credentials",
+    "scope": "Official statistical reference, not exhaustive legal status history"
+  },
+  {
+    "reference_id": "lenobl_monitoring_2023",
+    "publisher": "Leningrad region government",
+    "url": "https://kpb.lenobl.ru/media/uploads/userfiles/2024/05/02/2023_%D0%B3%D0%BE%D0%B4.pdf",
+    "retrieved_date": "2026-10-02",
+    "original_sha256": "d909ca91a12140cffc41653a2b080d28bca302cfd8c49f11aeacad512021e90e",
+    "original_bytes": 8574072,
+    "original_pdf_page_indices": [
+      0,
+      1,
+      2
+    ],
+    "excerpt": "sources/lenobl_monitoring_2023_excerpt.pdf",
+    "excerpt_sha256": "6caf79655e090108bf19431d79cdb222ad0660567a71b83996d263e9b81f9c33",
+    "tls_certificate_verified": true,
+    "transport_note": "HTTPS with certificate validation",
+    "scope": "Official statistical reference, not exhaustive legal status history"
+  }
+]

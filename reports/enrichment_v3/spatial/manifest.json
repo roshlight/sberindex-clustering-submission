@@ -1,0 +1,17 @@
+{
+  "created_at_utc": "2026-09-14T23:04:30.687324+00:00",
+  "status": "ready_with_conditions",
+  "catalog_sources": 12,
+  "inventory_files": 1151,
+  "inventory_bytes": 66080026,
+  "source_catalog_sha256": "1439e52c786d0acb67dd58cbfe3ad10d566fc26256f6dd1b84e0b202f7038822",
+  "file_inventory_sha256": "1a762877b60496340d99a28f8053815f20e981905cf1a17f69ab52eac7f028ec",
+  "numeric_qa_sha256": "92705ef0385a54c8c5f9db6b1c9c0edcbddef2a39ecd7612ea7f07dc2209ec82",
+  "raw_bytes_unchanged": true,
+  "paid_model_calls": 0,
+  "limitations": [
+    "No completed legal or geometric equivalence for municipal area/population joins.",
+    "Territorial-type lists are incomplete historically and unlinked unless explicitly stated.",
+    "Source publication/revision vintage in2023/24 is not reconstructed."
+  ]
+}

@@ -1,0 +1,7 @@
+source_id,sheet,cell,territory_label,status
+census_01,Таб. 2,F1019,Верхнеколымский муниципальный район,text_locator_only_not_geographic_join
+census_01,Таб. 2,F2907,Нижнеколымский муниципальный район,text_locator_only_not_geographic_join
+census_05,Свободненский,A5,Свободненский муниципальный район,text_locator_only_not_geographic_join
+census_08,Куркино,A2,Куркино,text_locator_only_not_geographic_join
+census_14,Таб. 10,A1675,Красноярский край,text_locator_only_not_geographic_join
+census_15,таб. 12,A1448,Красноярский край,text_locator_only_not_geographic_join

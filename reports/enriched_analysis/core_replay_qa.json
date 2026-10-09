@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "comparison": "all ten core output files byte-identical",
+  "checks": {
+    "annual_panel.csv": true,
+    "annual_panel.parquet": true,
+    "correlations.csv": true,
+    "coverage.csv": true,
+    "cv_comparisons.csv": true,
+    "cv_metrics.csv": true,
+    "join_audit.json": true,
+    "oof_predictions.parquet": true,
+    "regression_coefficients.csv": true,
+    "stable_code_changes.csv": true
+  },
+  "environment": "same installed locked Windows Python environment",
+  "fresh_environment": false,
+  "network_requests": 0
+}

@@ -1,0 +1,782 @@
+{
+  "created_at_utc": "2026-09-16T16:44:29.785327+00:00",
+  "files": [
+    {
+      "path": "work/data-round3/cases/download_inventory.json",
+      "bytes": 20662,
+      "sha256": "1fd534345fce367e93c18fb03ed34e99b8c7a3c79fbec1f93823c39ab07a2d7f"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_adm_2024.extracted.json",
+      "bytes": 193987,
+      "sha256": "00bce12ed87cd67c85be3e12c7e0a3ff09feaca50c296dda21658b0e06c0869f"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_adm_2024.meta.json",
+      "bytes": 861,
+      "sha256": "66ca683ea783e9a0c70cccb22a1227e36d4e88afed1378710dfc4ac9fd4f0293"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_adm_2024.pdf",
+      "bytes": 632277,
+      "sha256": "03a0e28b852b3a9f211e4298f95d25094638c2ea551e4e2d196329aa2ffb1dbf"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_adm_2024.txt",
+      "bytes": 96911,
+      "sha256": "bf84411b53afa4a20d9c4796638a805d089224579a80c2c68661690c4ece09b2"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_adm_2024_page-01.png",
+      "bytes": 362361,
+      "sha256": "91eeb8e31fd25aac0cea77b98d9c05daa4cfd923e745190aeabba9b9d0ebc2cc"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_decisions_2024.extracted.json",
+      "bytes": 64626,
+      "sha256": "bb8cfd23a60104aa56a8650e2658d2a1a42c5b9f94e6700ce1a56843af573081"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_decisions_2024.html",
+      "bytes": 72441,
+      "sha256": "fc2045ffa303f5dee783226a86b32b2d1684aac781b1b3482a9d1d6adc40504b"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_decisions_2024.meta.json",
+      "bytes": 986,
+      "sha256": "4aaa3473e8f35850e3eb08de98ace24db3c4bc86ab5e8e4e952f67abaca90e04"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_decisions_2024.txt",
+      "bytes": 19145,
+      "sha256": "c34f646e4f936676c285638546d2b9e64fd5559af4f65b9c8a72bba5f17d3dfb"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_head_2024.extracted.json",
+      "bytes": 33279,
+      "sha256": "6e618fe292c949bca4710c0dd92a20bdf66e2f42ffbfae3dee6cbaff08779405"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_head_2024.meta.json",
+      "bytes": 863,
+      "sha256": "15e81f2c629d7fa3743ae219a120ccb53617847abb19bb82471a38eb8d686644"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_head_2024.pdf",
+      "bytes": 254479,
+      "sha256": "c4cec7e061dd22d48b70251579b923f3af9539b7555e49ccbf570aca4516e6ed"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_head_2024.txt",
+      "bytes": 16599,
+      "sha256": "81d74b5e9458690b3870cbb96bb3f623e95e1b77830869b82804ea554c465a48"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_home.extracted.json",
+      "bytes": 64075,
+      "sha256": "ada17cd60f91b9f26661ce46ba3d47ef47d74cdacaca7301c3c84101709451ef"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_home.html",
+      "bytes": 74350,
+      "sha256": "251f6126e8ac6238da56a6dd1bc19fec0938890f77c65ffad543c5b20a8297d9"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_home.meta.json",
+      "bytes": 683,
+      "sha256": "9a6d35f822089c8c22dfd0997b07fe889dfdea8152bce7278343f63aa35c9029"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_home.txt",
+      "bytes": 18452,
+      "sha256": "59d08e19410881d280d2dd606a5a52fc2e3e2d14f6a08dad68cbecfbbd48aa0c"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_org_reports.extracted.json",
+      "bytes": 56361,
+      "sha256": "96c9a5d6e0a5dd021b0431ba34180cafd6ac311eea38fb48085d039361e7f66b"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_org_reports.html",
+      "bytes": 61226,
+      "sha256": "1a32ec4d59275b627c8b7e6cf8455213e99172bd0b0284184905d9a7a5635e66"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_org_reports.meta.json",
+      "bytes": 869,
+      "sha256": "998ba7def2c5ed07925ed18a5c0bd9f692d43e80afda59989d420898abc350c0"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_org_reports.txt",
+      "bytes": 15254,
+      "sha256": "19f666638632d04c5833059aea64d3deb786a761fdf0fb4dc12fc61c589d275e"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_reports.extracted.json",
+      "bytes": 53179,
+      "sha256": "4f4eda93431ee7794f18490698f8efe418ded81d3f3b1ad32b7a528314e7b1d8"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_reports.html",
+      "bytes": 53678,
+      "sha256": "8dc22b31e348966e021ec7188e8d6741a550da152d885c784b21fd2cf9040656"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_reports.meta.json",
+      "bytes": 797,
+      "sha256": "3e61f6641118f033d7669c9c30cb329cd44aab7ee1fa2ae7ad5f2f91fd046d8e"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_reports.txt",
+      "bytes": 14516,
+      "sha256": "a83f31722dbee09f51e39a99b7f95d8bb87b314bc8898b10a8f40ef7c32f742b"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_2024.extracted.json",
+      "bytes": 2149,
+      "sha256": "48c8e68ec324178aff0bef0cd975b3ea815e502ce51b76f525be4e07755eaa60"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_2024.meta.json",
+      "bytes": 868,
+      "sha256": "dd9a08bbc0a98f560cc6a75389fd4007f1d4b579664a911a478dc32d25286b23"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_2024.pdf",
+      "bytes": 9596077,
+      "sha256": "1929a0996b9d64ca64550e49003f1d4db5443715207a1485e14b69471a3b7201"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_2024.txt",
+      "bytes": 935,
+      "sha256": "623f2062e1c4c99deb1d171ca059298ecad30ae7304e9daf392793f0967b02e8"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-01.png",
+      "bytes": 216253,
+      "sha256": "c27a3aac6616b0ad07377020260241332abaa85178ed6f882929a95fc410ef96"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-01.txt",
+      "bytes": 59,
+      "sha256": "52f38b59893a929deb92b5b76f10246a5820edab5640c7c64640f91a7f523623"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-02.png",
+      "bytes": 2324723,
+      "sha256": "8baa33ce4aaf72a5d33269c535bfbc3282938af761b4bc34dcc888be65607c3d"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-02.txt",
+      "bytes": 53,
+      "sha256": "d8f5122970caede30fcd250d4417499736373594067dece62319ab6057ed77f0"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-03.png",
+      "bytes": 2258178,
+      "sha256": "d2850b7f143a9a08f6c80287bea5c43affdbd2c4fd9415d22a55928adc24fd74"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-03.txt",
+      "bytes": 59,
+      "sha256": "f6f6be9738661a40b384fb6c788b5ed850f2f3d82898af943d6eb22b706aa0b1"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-04.png",
+      "bytes": 1510352,
+      "sha256": "9abf40fa4a422b72da612a4c9ab7535b62cb7d84c89d3c390bc2f3e2d426fe2e"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-04.txt",
+      "bytes": 58,
+      "sha256": "1aaaace161a06bc0ca089ab86a88af92c491f9a0f7a1361450c2befaafe3b300"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-05.png",
+      "bytes": 1681453,
+      "sha256": "2e05b4f8c8f086194815bacb0f11b0751484fd5046cc838cb6572e88ada43eb6"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-05.txt",
+      "bytes": 64,
+      "sha256": "737e214abfcb1beeb380c5b1bb52194c39e67b73f172d03c34493d89ffa550e6"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-06.png",
+      "bytes": 1618668,
+      "sha256": "1bbd5f3a21767318036a5d80251faec00a5ebc7647e013135e95606375fecf4c"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-06.txt",
+      "bytes": 42,
+      "sha256": "d547c7d5c8adc149db9384587575a9f83004e036570e1b17c2dafbea97df6430"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-07.png",
+      "bytes": 2863909,
+      "sha256": "741ec3f711464ba43362c138d101b42c815573884a15181626dcf8accd2e1c66"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-07.txt",
+      "bytes": 110,
+      "sha256": "302125236d6bfe3a065cd95bb8f05c145c782254d835c3739de712c6fedd99c4"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-08.png",
+      "bytes": 1107019,
+      "sha256": "e6f46a54859fb9fa0404168b4b66f4a3fe87cbfb16110c7b59e1abb490022afd"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-08.txt",
+      "bytes": 59,
+      "sha256": "80bcc0a8579dc02c784816cc6a69bc0ccd9cd1784f0e6ca152005496bac81fae"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-09.png",
+      "bytes": 1712160,
+      "sha256": "02049209f020471bda116eef7140d66700e29c56302df92646cb39faa9021249"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-09.txt",
+      "bytes": 51,
+      "sha256": "32955d628bd7e523e07bbe7617009afd6e9e70f48b88d176211ea0ee41fa259e"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-10.png",
+      "bytes": 1089236,
+      "sha256": "32ad2677e1da8a6024490f7e6551637807637c8c0cfd53f763bae08d7db2e3c7"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-10.txt",
+      "bytes": 43,
+      "sha256": "45d2c38e90d4c2d880c0a902bc94e6996d99f8903c3a4dac18dfebc714b072dc"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-11.png",
+      "bytes": 1736890,
+      "sha256": "86d530176c9512b0244d4491e754663aa4e2bcaf702fd918556a56b41b80acae"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-11.txt",
+      "bytes": 31,
+      "sha256": "bf743bd26dd6cf0c2d18c0ba293917808e0bb961b225fa7021f95663dde059e9"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-12.png",
+      "bytes": 1081233,
+      "sha256": "1ba8363d45c7d47e41b008240117e4b4205408a47148986fdc6c9f6e5b1272ba"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-12.txt",
+      "bytes": 29,
+      "sha256": "b473f114f48cfd17db4f3e001a042d10f8c836250a027abbdf0142fe0813936d"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-13.png",
+      "bytes": 974240,
+      "sha256": "5ba161c653f74b5106cd715fcfe1611260ad74ef5b433f2c8b7c33f68fb2ff84"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-13.txt",
+      "bytes": 659,
+      "sha256": "5eeb65436834a7fb5c5985a5051a991c8c0bb97e9ed43db4b6ab91da805f493f"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-14.png",
+      "bytes": 1697307,
+      "sha256": "dbacf522aaae810b811e392080eb282c8ceda260ff15b7c4a43612817a173496"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-14.txt",
+      "bytes": 73,
+      "sha256": "5121be0d47c60fb607bbd75629bdf892a8a68c4aa293648f3073d9d3ddea6293"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-15.png",
+      "bytes": 1848291,
+      "sha256": "fb57288911f4eb85269c47ede95f9c85b3cb870f51e24eb6433e7d1d26c3aa80"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-15.txt",
+      "bytes": 52,
+      "sha256": "b57353d1f9bb3d56faa5795d28636bac67f1ef618f98a654173a77e614cf4285"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-16.png",
+      "bytes": 988915,
+      "sha256": "7f1ac9d45f32a532c1981c0766a083ca3fba38943bd6873aae95791a25307ad8"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-16.txt",
+      "bytes": 67,
+      "sha256": "5eff5a40a2285a67463f867d621803d031997ed941a4bf18fdc73221de9af709"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-17.png",
+      "bytes": 1326522,
+      "sha256": "5cd9162a352700045a1cd913a16b33bac4b30b9865f24917e955f8dec4249efa"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-17.txt",
+      "bytes": 33,
+      "sha256": "e75832e694492f7bbc8ed9f233fe909f2de1204ba2ab9b5ff3e88ca38fa24667"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-18.png",
+      "bytes": 2134210,
+      "sha256": "dcf749f2a4ce7b72293abd528125023cf11fc94f879f5d0bf154fc3539bf4f4d"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-18.txt",
+      "bytes": 41,
+      "sha256": "13ee3f075b3d4267decd852488d70d308ddcb0c11f32d1ea92aa97e6e0db0aec"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-19.png",
+      "bytes": 1532670,
+      "sha256": "bf9084a57fa8bb36583c921c0ed6661a27aaea01d812d111732794e64f12ebde"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-19.txt",
+      "bytes": 53,
+      "sha256": "f377bf355c647bb0c8a5f7d819e2c6c590c90a85a0bf11ff3a04ec40adef1422"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-20.png",
+      "bytes": 1880489,
+      "sha256": "d6c6130a4a2911e50f33c6f48737b5801e5cb981a324a1076f8f1fb0e42dd7ab"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-20.txt",
+      "bytes": 30,
+      "sha256": "d2722abe08ca2d92d87339c20557d11a8b6f8b3180aa14e11153a36731a21a36"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-21.png",
+      "bytes": 1629403,
+      "sha256": "382e949416654cc22835b7a8209e1e7a6c1571c26a8dfdda6b9f6037f65df4cd"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-21.txt",
+      "bytes": 21,
+      "sha256": "1a2cf3e7b2e9c70f5c10de9648279fd8d6a6ee5cba691351214aeacd106c1fb8"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-22.png",
+      "bytes": 2103255,
+      "sha256": "06bd7cb5d29570cc2adf50a03946594de58b279cc6893ff06daec3f7fb8ab544"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-22.txt",
+      "bytes": 115,
+      "sha256": "3f7513570cf910431687289c1801d771b8b0e1e79e5b0087b69718f481c501a3"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-23.png",
+      "bytes": 1380014,
+      "sha256": "efb6d4cf50877ae2acdfa87e088cfb2522e06a18d847074afe44e2e485ff0aa9"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-23.txt",
+      "bytes": 97,
+      "sha256": "0b2508a25214ee170ceee31d529098e3ad7f2a9d7648ed9d2d7983664fdde66c"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-24.png",
+      "bytes": 1262025,
+      "sha256": "2dc28e1048e98633143f4c988d3b4a471c65dee00ff27d20ed541285d2a675e3"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-24.txt",
+      "bytes": 30,
+      "sha256": "3cf0f9ccc91b13c3d66afcf74030b51f63e93e7c4e5c8724eaae818ff4ca356c"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-25.png",
+      "bytes": 722922,
+      "sha256": "d1b50bf1eef856112fc6bb2b6dd5988e5213fc35e5c92ee26528898afe5ca535"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-25.txt",
+      "bytes": 36,
+      "sha256": "c1122631941cd6004e7787eecd5a5325a15a1197ae2d50e1072c1235d2ce01b7"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-26.png",
+      "bytes": 1183486,
+      "sha256": "c68789553d30063735dc51ca29efd39599f34e030b4894514e6b72553167f3f9"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-26.txt",
+      "bytes": 49,
+      "sha256": "a9d45bc3380c97fb19668fb9f473d435119cc415cecfe560bd1c008033741d04"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-27.png",
+      "bytes": 1559873,
+      "sha256": "bbd38e0e73dbcdd58f57d615ec9dfa16a317ade0659588effdfe488cc71731e1"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-27.txt",
+      "bytes": 56,
+      "sha256": "34914e3aeeac7a2e09eff71be7cdbfd1caebb1fca65be9f5a5c40446df9402da"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-28.png",
+      "bytes": 1806737,
+      "sha256": "512d795184da9ce7e7df5f4eb89cf8a22c4645fbcc608b3a07c312d4dabe8523"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-28.txt",
+      "bytes": 58,
+      "sha256": "700ad8dc13d5af50f9ee259fe9549cb775497727a0a11159a0e6e44cba0f4329"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-29.png",
+      "bytes": 1965452,
+      "sha256": "820cc5b31179e1ddb6c06f885d6615261f76900764e3796fa6b96c807bc4b8cc"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-29.txt",
+      "bytes": 52,
+      "sha256": "be22ea04e5f67007e53d25799bb8eb8d8fbc630acf3de0c8f92083f1ab0c04c3"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-30.png",
+      "bytes": 1358496,
+      "sha256": "db308d50cbf5108b9fe86e5033cce11ed3bc7db83c8e7b1f6a1918cad37e4424"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_uprava_page-30.txt",
+      "bytes": 33,
+      "sha256": "89974cc4726bb42c2711298bc1f410a996bac2c295105fee4d06bf250bc124a7"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_zhilishnik_2024.extracted.json",
+      "bytes": 43834,
+      "sha256": "592e124252faa2e16a55bd11f924dda5de21abe60ccb93bc76088b00bad466af"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_zhilishnik_2024.meta.json",
+      "bytes": 875,
+      "sha256": "04e4672cb67756d88a06394996ee3e86e035a1e4b2626d49662292e9e8057272"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_zhilishnik_2024.pdf",
+      "bytes": 523334,
+      "sha256": "57f2f9e3e46134d1ed56bd3bff65f1a3adae1d13b18a68fadce71702451dd174"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_zhilishnik_2024.txt",
+      "bytes": 21864,
+      "sha256": "7c49d986b9812267508ff84bf241ce9a99c46f70faa823841f85ca6ec09caf2c"
+    },
+    {
+      "path": "work/data-round3/cases/kurkino_zhilishnik_2024_page-1.png",
+      "bytes": 365688,
+      "sha256": "bbc4cddacc0f394f73406265d589f9848805259a1bc3297eade99404e93bb033"
+    },
+    {
+      "path": "work/data-round3/cases/ocr_manifest.json",
+      "bytes": 3573,
+      "sha256": "983c27dd5f74ee1901e17ef188d74339f08c900cb419ff485596e2ac3ed06393"
+    },
+    {
+      "path": "work/data-round3/cases/svetl_2023_report.extracted.json",
+      "bytes": 307072,
+      "sha256": "a90490a246f08c41fecee7e8d520d4c7f414eb752a8019febd220cace71d005c"
+    },
+    {
+      "path": "work/data-round3/cases/svetl_2023_report.meta.json",
+      "bytes": 920,
+      "sha256": "b7c86516150588e3a55ede5d9ed7762e56a1d1a519ff9b340014327eca18fefc"
+    },
+    {
+      "path": "work/data-round3/cases/svetl_2023_report.pdf",
+      "bytes": 658823,
+      "sha256": "ecec1db5ef1208e661d930b181ac8b14a9683d171900b551d1e201642bed0bab"
+    },
+    {
+      "path": "work/data-round3/cases/svetl_2023_report.txt",
+      "bytes": 153410,
+      "sha256": "e330299179284d0e0347b2799133f2984c13f09d764f71eab1ab64b8305c7e73"
+    },
+    {
+      "path": "work/data-round3/cases/svetl_2024_report.extracted.json",
+      "bytes": 203332,
+      "sha256": "e5e4b4bf5250a3d4adb00448344b7acb9bf12178c831d45f4e0e1b7e17c089d9"
+    },
+    {
+      "path": "work/data-round3/cases/svetl_2024_report.meta.json",
+      "bytes": 975,
+      "sha256": "1bc9c7273bd39b9a63ab35f3ba486ae90fade2966a0f77073d1453f275d1bc19"
+    },
+    {
+      "path": "work/data-round3/cases/svetl_2024_report.pdf",
+      "bytes": 1026407,
+      "sha256": "d82357219c9b7fb86c58b8b05c41b5939721b092a4190147bccd093c8687305f"
+    },
+    {
+      "path": "work/data-round3/cases/svetl_2024_report.txt",
+      "bytes": 101543,
+      "sha256": "1835eeb0363434cd312fe1854123c25186c8ce1f6767210a3065017237e316fa"
+    },
+    {
+      "path": "work/data-round3/cases/svetl_2024_report_page-04.png",
+      "bytes": 477094,
+      "sha256": "2e73c0c9c4e2f2c5ee6705294914085ff7e4f9b40d0f0730d8242d299ada4f99"
+    },
+    {
+      "path": "work/data-round3/cases/svetl_budget_2026.extracted.json",
+      "bytes": 190201,
+      "sha256": "4acc6a76db0a1fc639fb7fa9e974c7baaefaf5746b591d425e0c0347f7b14b85"
+    },
+    {
+      "path": "work/data-round3/cases/svetl_budget_2026.meta.json",
+      "bytes": 1002,
+      "sha256": "6891a7cf97337ea28153c469d8ea7551f556e42f0b0b83f052a3538a636af07d"
+    },
+    {
+      "path": "work/data-round3/cases/svetl_budget_2026.pdf",
+      "bytes": 4869932,
+      "sha256": "2d7ffbf61ab3ef04d0c6ec294050b250a0dff11f85c6942eeb35def362288657"
+    },
+    {
+      "path": "work/data-round3/cases/svetl_budget_2026.txt",
+      "bytes": 94785,
+      "sha256": "9ba1367bf64269365ea1209489bfe68a82e701b8b147e91baaadbd7f733bcc22"
+    },
+    {
+      "path": "work/data-round3/cases/svetl_workers_2024.meta.json",
+      "bytes": 1171,
+      "sha256": "3d710dc276f19cf73f23d28a233498797a97b81dafb7089372209f33c00fa3d1"
+    },
+    {
+      "path": "work/data-round3/cases/svetl_workers_2024.pdf",
+      "bytes": 668057,
+      "sha256": "25d4b40daa6ad5dd541cb1f9983ecfc4d3e5df7b7f4a3d39769e092cbe9118d9"
+    },
+    {
+      "path": "work/data-round3/cases/svetl_workers_2025_vintage.extracted.json",
+      "bytes": 3924,
+      "sha256": "7d5e7314aa19e1689ae54035e47079419bf6a21c5e87bc0deb48c4ce9f4cc1df"
+    },
+    {
+      "path": "work/data-round3/cases/svetl_workers_2025_vintage.meta.json",
+      "bytes": 1300,
+      "sha256": "f541e2e7bba0eeb7e063af02f2fab6365a6e5952bbf80fa8eacee0170150e759"
+    },
+    {
+      "path": "work/data-round3/cases/svetl_workers_2025_vintage.pdf",
+      "bytes": 98286,
+      "sha256": "24dc8b9d4d1357c7e12cae4ae96e8db072b6f1ff99c7355cce0c0aece142ae3e"
+    },
+    {
+      "path": "work/data-round3/cases/svetl_workers_2025_vintage.txt",
+      "bytes": 1929,
+      "sha256": "fefc86dbc9b2433d37c37e302af9766ef106652e42dfbf577dce5da6cd9204ca"
+    },
+    {
+      "path": "work/data-round3/cases/svob_annual2024.extracted.json",
+      "bytes": 1087331,
+      "sha256": "2a077e1bec8e678dc5f52a8eee7519507165b2c6c85ebf3427aad72f87b04a0a"
+    },
+    {
+      "path": "work/data-round3/cases/svob_annual2024.meta.json",
+      "bytes": 805,
+      "sha256": "4dd48e141a8682b3a1cdf50866bdef550144ab123dd03144518d93a4171fbf1f"
+    },
+    {
+      "path": "work/data-round3/cases/svob_annual2024.pdf",
+      "bytes": 3700767,
+      "sha256": "da2f9180f2cef11d09c5ec93a6e623e1a0a9e417a3e50641bc364aa0b2d8abee"
+    },
+    {
+      "path": "work/data-round3/cases/svob_annual2024.txt",
+      "bytes": 543224,
+      "sha256": "72c24591a513205c281459e19346a21f6cb16836fe5dc5ae08e4d01af83280a6"
+    },
+    {
+      "path": "work/data-round3/cases/svob_annual2024_page-014.png",
+      "bytes": 421380,
+      "sha256": "badad782c3b626f72f0a89888a5ea3728fc06949f7ddaa3b82426fac88b25242"
+    },
+    {
+      "path": "work/data-round3/cases/svob_bulletin.extracted.json",
+      "bytes": 196670,
+      "sha256": "eebe3d0b699dc8c23ed5641e01c8e770f063c717ef9fd8b7edb8db74a867c8ec"
+    },
+    {
+      "path": "work/data-round3/cases/svob_bulletin.html",
+      "bytes": 129720,
+      "sha256": "dceca9b737ad97e23ab1a22dae6825b4e4104a79ba28b3abc96ee25fd6ed1082"
+    },
+    {
+      "path": "work/data-round3/cases/svob_bulletin.meta.json",
+      "bytes": 782,
+      "sha256": "ad452b9879f75a9f0e103166a40910429faec3174c2033ade7ca83965dfd4387"
+    },
+    {
+      "path": "work/data-round3/cases/svob_bulletin.txt",
+      "bytes": 74190,
+      "sha256": "b13f0e118acb5f4e23bdf4ea65f42ee8d6c6d9bee188b8922bb15e6f21fc68c5"
+    },
+    {
+      "path": "work/data-round3/cases/svob_council.extracted.json",
+      "bytes": 120031,
+      "sha256": "d8361de5894a54661597185a202f330e27ca1f2042fdc1356dedfe667f257b95"
+    },
+    {
+      "path": "work/data-round3/cases/svob_council.html",
+      "bytes": 79696,
+      "sha256": "d0327411618c7fedb54465ba7115e841ec53bbe750cd1e79beadae47c44852fd"
+    },
+    {
+      "path": "work/data-round3/cases/svob_council.meta.json",
+      "bytes": 733,
+      "sha256": "41edb0260e81ac2c91bf02f684ee6e07a883edb0c062aa8e231de1df16af094c"
+    },
+    {
+      "path": "work/data-round3/cases/svob_council.txt",
+      "bytes": 50121,
+      "sha256": "663af1aaf33bb1c2a5a80ce4c4018d6e70765ed389b3156614541b081eebc1d1"
+    },
+    {
+      "path": "work/data-round3/cases/svob_dec2023.extracted.json",
+      "bytes": 314028,
+      "sha256": "a8c5371dd172d4ec312931e1da5e78c7b7221e6e3f042eca5b015c2fe9581620"
+    },
+    {
+      "path": "work/data-round3/cases/svob_dec2023.meta.json",
+      "bytes": 778,
+      "sha256": "eeaf7d70876f1facb6b5a01fec0fac0040ba7b06c09dee84315c7be2a86c91c4"
+    },
+    {
+      "path": "work/data-round3/cases/svob_dec2023.pdf",
+      "bytes": 2095805,
+      "sha256": "6a967ea6b173ae2d661ddcea2d74cb1f6daa2a9bb0a7f78b7cfc6154e873a67b"
+    },
+    {
+      "path": "work/data-round3/cases/svob_dec2023.txt",
+      "bytes": 156839,
+      "sha256": "99d7423997bb5ac6658ae036a3e60f4018c93a377dfd454f98b63bf6049de26e"
+    },
+    {
+      "path": "work/data-round3/cases/svob_dec2023_page-52.png",
+      "bytes": 251588,
+      "sha256": "f59a821aa5d56e99d742abdbf78124fc53ea4bdeaa3452f005ec020bfea940c3"
+    },
+    {
+      "path": "work/data-round3/cases/svob_dec2024.extracted.json",
+      "bytes": 316615,
+      "sha256": "624b0008d24d5a9a10ede1cb9dc4fe39f0fd9c3753126401c6ed34fccb717180"
+    },
+    {
+      "path": "work/data-round3/cases/svob_dec2024.meta.json",
+      "bytes": 778,
+      "sha256": "b026cd867f55b164a98bdcde6656361632a44b8a4c3e61694b5ffdc3676e4a0b"
+    },
+    {
+      "path": "work/data-round3/cases/svob_dec2024.pdf",
+      "bytes": 1723177,
+      "sha256": "2afacd6ca32198d69a473106d10424f0d1f1be29d09681cfb1b8fc8fb9f30560"
+    },
+    {
+      "path": "work/data-round3/cases/svob_dec2024.txt",
+      "bytes": 158142,
+      "sha256": "c244ac62c956716b64b1065dfff6c2683c1196b5aca5505db6816364fcc9f682"
+    },
+    {
+      "path": "work/data-round3/cases/svob_dec2024_page-49.png",
+      "bytes": 249818,
+      "sha256": "0642e997477b064f42266fc76d68767349d8d6b866c4863e73b269ccb721db64"
+    },
+    {
+      "path": "work/data-round3/cases/svob_economy_program2024.extracted.json",
+      "bytes": 366,
+      "sha256": "6c28bed002defe220a7f2b5aa5f388dbe982a26fb5afd75185f1a0daf22888b8"
+    },
+    {
+      "path": "work/data-round3/cases/svob_economy_program2024.meta.json",
+      "bytes": 1585,
+      "sha256": "45267df64619a915ba68c04e326e595a93d5b3cce22c2f965e22bba60f79ebdb"
+    },
+    {
+      "path": "work/data-round3/cases/svob_economy_program2024.pdf",
+      "bytes": 143482,
+      "sha256": "bf3000e08f91241a63706d9187718780129fc033721b729b1a8980145aae0c9a"
+    },
+    {
+      "path": "work/data-round3/cases/svob_economy_program2024.txt",
+      "bytes": 100,
+      "sha256": "977a2d7679fd8f414088b9b01adcd21191f834a1f553703ca13f5156156d93b8"
+    },
+    {
+      "path": "work/data-round3/cases/svob_home.meta.json",
+      "bytes": 293,
+      "sha256": "b57493e1212c9166fc9bca0481674639078a00d18b7b5b99609a98f5e0f7b1e3"
+    },
+    {
+      "path": "work/data-round3/cases/svob_legacy.meta.json",
+      "bytes": 313,
+      "sha256": "d22d6c6e1a3751644bba4192fa9e5322589cfe46c4309086858677321aa525ce"
+    },
+    {
+      "path": "work/data-round3/cases/svob_strategy2035.extracted.json",
+      "bytes": 50,
+      "sha256": "4e857ddbc42f7a4ac88f1ef8f998eb6db50602675ad966dc042e74d4c04570a5"
+    },
+    {
+      "path": "work/data-round3/cases/svob_strategy2035.meta.json",
+      "bytes": 1420,
+      "sha256": "bde4810030d89649f70704b1abae412a55bcb035aef6744eeb43061d1e1eb831"
+    },
+    {
+      "path": "work/data-round3/cases/svob_strategy2035.rar",
+      "bytes": 365060,
+      "sha256": "4a6f8d63d0de997d72ead18436309f53016d4d333acf36ffcbb2e58257979f3b"
+    },
+    {
+      "path": "work/data-round3/cases/svob_strategy2035.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "work/data-round3/cases/svob_strategy2035_docx.extracted.json",
+      "bytes": 343824,
+      "sha256": "d832135a56063d147338e8e2949975c99dd645fcffa73d980bd59087c543276d"
+    },
+    {
+      "path": "work/data-round3/cases/svob_strategy2035_docx.txt",
+      "bytes": 343779,
+      "sha256": "e7a2d1516507258a071e2066f90eb945cbb5a01792374b5416ea05119d93467c"
+    },
+    {
+      "path": "work/data-round3/cases/svob_strategy2035_members/Решение № 130 от 24.12.2025 стратегия/Решение Об утверждении Стратегии социально экономического развития до 2035 года +Пояснительнаяя.doc",
+      "bytes": 38400,
+      "sha256": "21adbb179b9b8b7cf471186f98ce7fc5ca04d3b5b7cee51376486505cdaf0e8c"
+    },
+    {
+      "path": "work/data-round3/cases/svob_strategy2035_members/Решение № 130 от 24.12.2025 стратегия/СТРАТЕГИЯ СВОБОДНЕНСКИЙ РАЙОН ДО 2035 новая 2.docx",
+      "bytes": 454890,
+      "sha256": "0e1103deef92a33984b4cab56ceaceac1f2b03998bdd580191ee97abf10cc1d4"
+    },
+    {
+      "path": "work/data-round3/cases/svob_strategy2035_members.json",
+      "bytes": 701,
+      "sha256": "5c196f664a63a7db701ad4c88dfeb47b4204a9c912af504ea9f48a4be2ac3f56"
+    },
+    {
+      "path": "work/data-round3/cases/svob_strategy2035_paragraphs.json",
+      "bytes": 302054,
+      "sha256": "c7ab015dc9d0c4c4c4b164ea4d3cee7620e45d2ffee9436e4c85454b474b7c3e"
+    },
+    {
+      "path": "work/data-round3/cases/svob_strategy2035_tables.json",
+      "bytes": 69534,
+      "sha256": "053a4f20f75912056345c402a4c4bb691f582da0f664b4576125968f17bae5d4"
+    }
+  ],
+  "source_allowlist_sha256": "8ff87d8b38bf0b85336f7c618a5de621ab82d47ff237f424826fec73d8817c4d",
+  "packager_sha256": "5bbdd46528947d3ee96db825f6f337e3cd0e7391411b13fb3312833a4ebb5c6f"
+}

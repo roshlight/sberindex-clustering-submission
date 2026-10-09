@@ -1,0 +1,62 @@
+[
+  {
+    "need_id": "r2_sector",
+    "query": "site:rosstat.gov.ru муниципальные образования 8423005 виды экономической деятельности 2024",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "r2_sector",
+    "query": "site:28.rosstat.gov.ru Свободненский район заработная плата виды деятельности 2024",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "r2_sector",
+    "query": "site:14.rosstat.gov.ru Нижнеколымский Верхнеколымский 2024 работники",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "r2_sector",
+    "query": "site:30.rosstat.gov.ru Красноярский район зарплата 2024",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "r2_boundaries",
+    "query": "site:rosstat.gov.ru классификация ОКТМО 2023 2024 изменения муниципальные округа",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "r2_boundaries",
+    "query": "site:publication.pravo.gov.ru 2023 преобразование муниципальный округ границы",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "r2_city_prices",
+    "query": "site:rosstat.gov.ru индекс стоимости жизни в городах 2024 методология",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "r2_city_prices",
+    "query": "site:rosstat.gov.ru индекс стоимости жизни 2023 города перечень",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "r2_commuting",
+    "query": "site:rosstat.gov.ru Том 10 Рабочая сила 2020 территория работы муниципальные образования",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "r2_commuting",
+    "query": "site:28.rosstat.gov.ru перепись 2020 работа периодичность выезда",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "r2_commuting",
+    "query": "site:77.rosstat.gov.ru Куркино перепись место работы",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "r2_commuting",
+    "query": "site:14.rosstat.gov.ru перепись 2020 работающие не по месту жительства",
+    "origin": "analyst_plan"
+  }
+]

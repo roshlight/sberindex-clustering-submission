@@ -1,0 +1,20 @@
+{"key": "munst28_8109001", "source_cells": 82, "last_status": "parsed"}
+{"key": "munst28_8401003", "source_cells": 160, "last_status": "parsed"}
+{"key": "munst28_8401011", "source_cells": 242, "last_status": "parsed"}
+{"key": "munst36_8109001", "source_cells": 314, "last_status": "parsed"}
+{"key": "munst36_8401003", "source_cells": 386, "last_status": "parsed"}
+{"key": "munst36_8401011", "source_cells": 458, "last_status": "parsed"}
+{"key": "munst05_8401003", "source_cells": 493, "last_status": "parsed"}
+{"key": "munst07_8401003", "source_cells": 493, "last_status": "response_review"}
+{"key": "munst07_8401011", "source_cells": 493, "last_status": "response_review"}
+{"key": "munst57_8401011", "source_cells": 535, "last_status": "parsed"}
+{"key": "munst61_8109001", "source_cells": 587, "last_status": "parsed"}
+{"key": "munst63_8401003", "source_cells": 587, "last_status": "response_review"}
+{"key": "munst70_8109001", "source_cells": 635, "last_status": "parsed"}
+{"key": "munst70_8401011", "source_cells": 683, "last_status": "parsed"}
+{"key": "munst78_8109001", "source_cells": 721, "last_status": "parsed"}
+{"key": "munst84_8401003", "source_cells": 741, "last_status": "parsed"}
+{"key": "munst85_8109001", "source_cells": 751, "last_status": "parsed"}
+{"key": "munst89_8109001", "source_cells": 791, "last_status": "parsed"}
+{"key": "munst90_8109001", "source_cells": 805, "last_status": "parsed"}
+{"rows": 12096, "municipalities": 2016, "old_numeric": 10829, "new_numeric": 11608, "numeric_gain": 779, "numeric_revision_conflicts": 0, "recovered_source_rows": 805, "recovered_source_numeric": 779, "statuses": {"parsed": 19, "response_review": 3}, "recovered_source_value_statuses": {"observed": 779, "unresolved_source_marker": 26}, "old_files_unchanged": true, "exact_year_code_join": true, "missing_imputed": 0, "boundary_equivalence_proven": 0, "frozen_models_or_masks_changed": false, "requests": 0, "cache_hits": 41}

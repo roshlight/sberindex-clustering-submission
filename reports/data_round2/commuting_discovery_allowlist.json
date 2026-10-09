@@ -1,0 +1,767 @@
+[
+  {
+    "root": "work",
+    "path": "commuting/raw/census_01.xlsx",
+    "archive_path": "commuting/raw/census_01.xlsx"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_01.xlsx.json",
+    "archive_path": "commuting/raw/census_01.xlsx.json"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_02.xlsx",
+    "archive_path": "commuting/raw/census_02.xlsx"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_02.xlsx.json",
+    "archive_path": "commuting/raw/census_02.xlsx.json"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_03.xlsx",
+    "archive_path": "commuting/raw/census_03.xlsx"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_03.xlsx.json",
+    "archive_path": "commuting/raw/census_03.xlsx.json"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_04.docx",
+    "archive_path": "commuting/raw/census_04.docx"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_04.docx.json",
+    "archive_path": "commuting/raw/census_04.docx.json"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_05.xlsx",
+    "archive_path": "commuting/raw/census_05.xlsx"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_05.xlsx.json",
+    "archive_path": "commuting/raw/census_05.xlsx.json"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_05.xlsx.json.initial-failure",
+    "archive_path": "commuting/raw/census_05.xlsx.json.initial-failure"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_06.xlsx",
+    "archive_path": "commuting/raw/census_06.xlsx"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_06.xlsx.json",
+    "archive_path": "commuting/raw/census_06.xlsx.json"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_06.xlsx.json.initial-failure",
+    "archive_path": "commuting/raw/census_06.xlsx.json.initial-failure"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_07.xlsx",
+    "archive_path": "commuting/raw/census_07.xlsx"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_07.xlsx.json",
+    "archive_path": "commuting/raw/census_07.xlsx.json"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_07.xlsx.json.initial-failure",
+    "archive_path": "commuting/raw/census_07.xlsx.json.initial-failure"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_08.xlsx",
+    "archive_path": "commuting/raw/census_08.xlsx"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_08.xlsx.json",
+    "archive_path": "commuting/raw/census_08.xlsx.json"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_09.xlsx",
+    "archive_path": "commuting/raw/census_09.xlsx"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_09.xlsx.json",
+    "archive_path": "commuting/raw/census_09.xlsx.json"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_10.docx",
+    "archive_path": "commuting/raw/census_10.docx"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_10.docx.json",
+    "archive_path": "commuting/raw/census_10.docx.json"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_11.xlsx",
+    "archive_path": "commuting/raw/census_11.xlsx"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_11.xlsx.json",
+    "archive_path": "commuting/raw/census_11.xlsx.json"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_12.xlsx",
+    "archive_path": "commuting/raw/census_12.xlsx"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_12.xlsx.json",
+    "archive_path": "commuting/raw/census_12.xlsx.json"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_13.pdf",
+    "archive_path": "commuting/raw/census_13.pdf"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_13.pdf.json",
+    "archive_path": "commuting/raw/census_13.pdf.json"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_14.xlsx",
+    "archive_path": "commuting/raw/census_14.xlsx"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_14.xlsx.json",
+    "archive_path": "commuting/raw/census_14.xlsx.json"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_15.xlsx",
+    "archive_path": "commuting/raw/census_15.xlsx"
+  },
+  {
+    "root": "work",
+    "path": "commuting/raw/census_15.xlsx.json",
+    "archive_path": "commuting/raw/census_15.xlsx.json"
+  },
+  {
+    "root": "work",
+    "path": "commuting/discovery/14.rosstat.gov.ru.html",
+    "archive_path": "commuting/discovery/14.rosstat.gov.ru.html"
+  },
+  {
+    "root": "work",
+    "path": "commuting/discovery/14.rosstat.gov.ru.json",
+    "archive_path": "commuting/discovery/14.rosstat.gov.ru.json"
+  },
+  {
+    "root": "work",
+    "path": "commuting/discovery/28.rosstat.gov.ru.html",
+    "archive_path": "commuting/discovery/28.rosstat.gov.ru.html"
+  },
+  {
+    "root": "work",
+    "path": "commuting/discovery/28.rosstat.gov.ru.json",
+    "archive_path": "commuting/discovery/28.rosstat.gov.ru.json"
+  },
+  {
+    "root": "work",
+    "path": "commuting/discovery/30.rosstat.gov.ru.html",
+    "archive_path": "commuting/discovery/30.rosstat.gov.ru.html"
+  },
+  {
+    "root": "work",
+    "path": "commuting/discovery/30.rosstat.gov.ru.json",
+    "archive_path": "commuting/discovery/30.rosstat.gov.ru.json"
+  },
+  {
+    "root": "work",
+    "path": "commuting/discovery/77.rosstat.gov.ru.html",
+    "archive_path": "commuting/discovery/77.rosstat.gov.ru.html"
+  },
+  {
+    "root": "work",
+    "path": "commuting/discovery/77.rosstat.gov.ru.json",
+    "archive_path": "commuting/discovery/77.rosstat.gov.ru.json"
+  },
+  {
+    "root": "work",
+    "path": "commuting/discovery/rosstat.gov.ru.html",
+    "archive_path": "commuting/discovery/rosstat.gov.ru.html"
+  },
+  {
+    "root": "work",
+    "path": "commuting/discovery/rosstat.gov.ru.json",
+    "archive_path": "commuting/discovery/rosstat.gov.ru.json"
+  },
+  {
+    "root": "work",
+    "path": "commuting/discovery/selected_links.json",
+    "archive_path": "commuting/discovery/selected_links.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/candidates.json",
+    "archive_path": "server-discovery/candidates.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/cards/12108304a931ef59c4bf.json",
+    "archive_path": "server-discovery/cards/12108304a931ef59c4bf.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/cards/ccc09949b10655300159.json",
+    "archive_path": "server-discovery/cards/ccc09949b10655300159.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/cards/ced354d36c714e4850c5.json",
+    "archive_path": "server-discovery/cards/ced354d36c714e4850c5.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/cards/d760dce12fe8a045486e.json",
+    "archive_path": "server-discovery/cards/d760dce12fe8a045486e.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/cards/fa4040e377d4b82f748c.json",
+    "archive_path": "server-discovery/cards/fa4040e377d4b82f748c.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/cards/fc864ee604119e8357ac.json",
+    "archive_path": "server-discovery/cards/fc864ee604119e8357ac.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/cross_source_review.json",
+    "archive_path": "server-discovery/cross_source_review.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/data_needs.json",
+    "archive_path": "server-discovery/data_needs.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/document_inventory.json",
+    "archive_path": "server-discovery/document_inventory.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/documents/00b739348b97b07a87d1.json",
+    "archive_path": "server-discovery/documents/00b739348b97b07a87d1.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/documents/016bf070aa26e05cbafe.json",
+    "archive_path": "server-discovery/documents/016bf070aa26e05cbafe.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/documents/017839e9617149687b30.json",
+    "archive_path": "server-discovery/documents/017839e9617149687b30.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/documents/01bc107570a69fea930c.json",
+    "archive_path": "server-discovery/documents/01bc107570a69fea930c.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/documents/02186dbaa2945bb4804f.json",
+    "archive_path": "server-discovery/documents/02186dbaa2945bb4804f.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/documents/024f93972a6850bc3282.json",
+    "archive_path": "server-discovery/documents/024f93972a6850bc3282.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/documents/029ad361282bd037140c.json",
+    "archive_path": "server-discovery/documents/029ad361282bd037140c.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/documents/02bfd17c81d8a3ffee51.json",
+    "archive_path": "server-discovery/documents/02bfd17c81d8a3ffee51.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/documents/0371aec496a1a90faf84.json",
+    "archive_path": "server-discovery/documents/0371aec496a1a90faf84.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/documents/039d85e1a85cc9ff226b.json",
+    "archive_path": "server-discovery/documents/039d85e1a85cc9ff226b.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/documents/03e2625834abd259be11.json",
+    "archive_path": "server-discovery/documents/03e2625834abd259be11.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/documents/040fc85fd27629d59795.json",
+    "archive_path": "server-discovery/documents/040fc85fd27629d59795.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/documents/12108304a931ef59c4bf.json",
+    "archive_path": "server-discovery/documents/12108304a931ef59c4bf.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/documents/4b94076c156359f43a11.json",
+    "archive_path": "server-discovery/documents/4b94076c156359f43a11.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/documents/921065ac63b1d11c81ca.json",
+    "archive_path": "server-discovery/documents/921065ac63b1d11c81ca.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/documents/ccc09949b10655300159.json",
+    "archive_path": "server-discovery/documents/ccc09949b10655300159.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/documents/ced354d36c714e4850c5.json",
+    "archive_path": "server-discovery/documents/ced354d36c714e4850c5.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/documents/d760dce12fe8a045486e.json",
+    "archive_path": "server-discovery/documents/d760dce12fe8a045486e.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/documents/fa4040e377d4b82f748c.json",
+    "archive_path": "server-discovery/documents/fa4040e377d4b82f748c.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/documents/fc864ee604119e8357ac.json",
+    "archive_path": "server-discovery/documents/fc864ee604119e8357ac.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/events.jsonl",
+    "archive_path": "server-discovery/events.jsonl"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/implementation_snapshot/pyproject.toml",
+    "archive_path": "server-discovery/implementation_snapshot/pyproject.toml"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/implementation_snapshot/src/sber_enrichment/__init__.py",
+    "archive_path": "server-discovery/implementation_snapshot/src/sber_enrichment/__init__.py"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/implementation_snapshot/src/sber_enrichment/bdpmo.py",
+    "archive_path": "server-discovery/implementation_snapshot/src/sber_enrichment/bdpmo.py"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/implementation_snapshot/src/sber_enrichment/clients.py",
+    "archive_path": "server-discovery/implementation_snapshot/src/sber_enrichment/clients.py"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/implementation_snapshot/src/sber_enrichment/economy_bulk.py",
+    "archive_path": "server-discovery/implementation_snapshot/src/sber_enrichment/economy_bulk.py"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/implementation_snapshot/src/sber_enrichment/evidence.py",
+    "archive_path": "server-discovery/implementation_snapshot/src/sber_enrichment/evidence.py"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/implementation_snapshot/src/sber_enrichment/office_text.py",
+    "archive_path": "server-discovery/implementation_snapshot/src/sber_enrichment/office_text.py"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/implementation_snapshot/src/sber_enrichment/pipeline.py",
+    "archive_path": "server-discovery/implementation_snapshot/src/sber_enrichment/pipeline.py"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/implementation_snapshot/src/sber_enrichment/population.py",
+    "archive_path": "server-discovery/implementation_snapshot/src/sber_enrichment/population.py"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/implementation_snapshot/src/sber_enrichment/population_bulk.py",
+    "archive_path": "server-discovery/implementation_snapshot/src/sber_enrichment/population_bulk.py"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/implementation_snapshot/src/sber_enrichment/search_guard.py",
+    "archive_path": "server-discovery/implementation_snapshot/src/sber_enrichment/search_guard.py"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/implementation_snapshot/uv.lock",
+    "archive_path": "server-discovery/implementation_snapshot/uv.lock"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/model_calls/12108304a931ef59c4bf-ac675ae91a14.json",
+    "archive_path": "server-discovery/model_calls/12108304a931ef59c4bf-ac675ae91a14.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/model_calls/ccc09949b10655300159-275b0b64e90a.json",
+    "archive_path": "server-discovery/model_calls/ccc09949b10655300159-275b0b64e90a.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/model_calls/ced354d36c714e4850c5-70ecbb6c6527.json",
+    "archive_path": "server-discovery/model_calls/ced354d36c714e4850c5-70ecbb6c6527.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/model_calls/cross-source-review-1604cc4458fd.json",
+    "archive_path": "server-discovery/model_calls/cross-source-review-1604cc4458fd.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/model_calls/d760dce12fe8a045486e-8c4cc8b5ab19.json",
+    "archive_path": "server-discovery/model_calls/d760dce12fe8a045486e-8c4cc8b5ab19.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/model_calls/fa4040e377d4b82f748c-f4f4613b8329.json",
+    "archive_path": "server-discovery/model_calls/fa4040e377d4b82f748c-f4f4613b8329.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/model_calls/fc864ee604119e8357ac-77aacbd4a589.json",
+    "archive_path": "server-discovery/model_calls/fc864ee604119e8357ac-77aacbd4a589.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/model_catalog.json",
+    "archive_path": "server-discovery/model_catalog.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/observed_download_candidates.json",
+    "archive_path": "server-discovery/observed_download_candidates.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/prompts/12108304a931ef59c4bf-ac675ae91a14.json",
+    "archive_path": "server-discovery/prompts/12108304a931ef59c4bf-ac675ae91a14.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/prompts/ccc09949b10655300159-275b0b64e90a.json",
+    "archive_path": "server-discovery/prompts/ccc09949b10655300159-275b0b64e90a.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/prompts/ced354d36c714e4850c5-70ecbb6c6527.json",
+    "archive_path": "server-discovery/prompts/ced354d36c714e4850c5-70ecbb6c6527.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/prompts/cross-source-review-1604cc4458fd.json",
+    "archive_path": "server-discovery/prompts/cross-source-review-1604cc4458fd.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/prompts/d760dce12fe8a045486e-8c4cc8b5ab19.json",
+    "archive_path": "server-discovery/prompts/d760dce12fe8a045486e-8c4cc8b5ab19.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/prompts/fa4040e377d4b82f748c-f4f4613b8329.json",
+    "archive_path": "server-discovery/prompts/fa4040e377d4b82f748c-f4f4613b8329.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/prompts/fc864ee604119e8357ac-77aacbd4a589.json",
+    "archive_path": "server-discovery/prompts/fc864ee604119e8357ac-77aacbd4a589.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/raw/017839e9617149687b30.bin",
+    "archive_path": "server-discovery/raw/017839e9617149687b30.bin"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/raw/01bc107570a69fea930c.bin",
+    "archive_path": "server-discovery/raw/01bc107570a69fea930c.bin"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/raw/02186dbaa2945bb4804f.bin",
+    "archive_path": "server-discovery/raw/02186dbaa2945bb4804f.bin"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/raw/029ad361282bd037140c.bin",
+    "archive_path": "server-discovery/raw/029ad361282bd037140c.bin"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/raw/03e2625834abd259be11.bin",
+    "archive_path": "server-discovery/raw/03e2625834abd259be11.bin"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/raw/12108304a931ef59c4bf.bin",
+    "archive_path": "server-discovery/raw/12108304a931ef59c4bf.bin"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/raw/ccc09949b10655300159.bin",
+    "archive_path": "server-discovery/raw/ccc09949b10655300159.bin"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/raw/ced354d36c714e4850c5.bin",
+    "archive_path": "server-discovery/raw/ced354d36c714e4850c5.bin"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/raw/d760dce12fe8a045486e.bin",
+    "archive_path": "server-discovery/raw/d760dce12fe8a045486e.bin"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/raw/fa4040e377d4b82f748c.bin",
+    "archive_path": "server-discovery/raw/fa4040e377d4b82f748c.bin"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/raw/fc864ee604119e8357ac.bin",
+    "archive_path": "server-discovery/raw/fc864ee604119e8357ac.bin"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/review_status.json",
+    "archive_path": "server-discovery/review_status.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/router_attempts.json",
+    "archive_path": "server-discovery/router_attempts.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/run_manifest.json",
+    "archive_path": "server-discovery/run_manifest.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/RUN_REPORT.md",
+    "archive_path": "server-discovery/RUN_REPORT.md"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/search/0185b40d42b5da66c29ed0cd.json",
+    "archive_path": "server-discovery/search/0185b40d42b5da66c29ed0cd.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/search/0aa65c8f243455b51f08ec31.json",
+    "archive_path": "server-discovery/search/0aa65c8f243455b51f08ec31.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/search/2e2c05f1e4fcd8e39a2323d7.json",
+    "archive_path": "server-discovery/search/2e2c05f1e4fcd8e39a2323d7.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/search/48ff365005b0b74095754ff3.json",
+    "archive_path": "server-discovery/search/48ff365005b0b74095754ff3.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/search/55fc9d137c8c3a0006d0fb2e.json",
+    "archive_path": "server-discovery/search/55fc9d137c8c3a0006d0fb2e.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/search/561e54bb5b149393b5c02150.json",
+    "archive_path": "server-discovery/search/561e54bb5b149393b5c02150.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/search/655f49b0f81086162c447484.json",
+    "archive_path": "server-discovery/search/655f49b0f81086162c447484.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/search/785b4b6b7b77e8902af9d7cc.json",
+    "archive_path": "server-discovery/search/785b4b6b7b77e8902af9d7cc.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/search/801be672dba147ed07e36694.json",
+    "archive_path": "server-discovery/search/801be672dba147ed07e36694.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/search/8a2ade228e612a6b314542d2.json",
+    "archive_path": "server-discovery/search/8a2ade228e612a6b314542d2.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/search/8d2f1134678cafcef4d767de.json",
+    "archive_path": "server-discovery/search/8d2f1134678cafcef4d767de.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/search/ef60840fbb2800cd8a0c604c.json",
+    "archive_path": "server-discovery/search/ef60840fbb2800cd8a0c604c.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/search_plan.json",
+    "archive_path": "server-discovery/search_plan.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/source_catalog.json",
+    "archive_path": "server-discovery/source_catalog.json"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/text/017839e9617149687b30.txt",
+    "archive_path": "server-discovery/text/017839e9617149687b30.txt"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/text/01bc107570a69fea930c.txt",
+    "archive_path": "server-discovery/text/01bc107570a69fea930c.txt"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/text/02186dbaa2945bb4804f.txt",
+    "archive_path": "server-discovery/text/02186dbaa2945bb4804f.txt"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/text/029ad361282bd037140c.txt",
+    "archive_path": "server-discovery/text/029ad361282bd037140c.txt"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/text/03e2625834abd259be11.txt",
+    "archive_path": "server-discovery/text/03e2625834abd259be11.txt"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/text/12108304a931ef59c4bf.txt",
+    "archive_path": "server-discovery/text/12108304a931ef59c4bf.txt"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/text/ccc09949b10655300159.txt",
+    "archive_path": "server-discovery/text/ccc09949b10655300159.txt"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/text/ced354d36c714e4850c5.txt",
+    "archive_path": "server-discovery/text/ced354d36c714e4850c5.txt"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/text/d760dce12fe8a045486e.txt",
+    "archive_path": "server-discovery/text/d760dce12fe8a045486e.txt"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/text/fa4040e377d4b82f748c.txt",
+    "archive_path": "server-discovery/text/fa4040e377d4b82f748c.txt"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/text/fc864ee604119e8357ac.txt",
+    "archive_path": "server-discovery/text/fc864ee604119e8357ac.txt"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/trust_snapshot/867f7441e50867674230f2b7154798178513c742d51bfb52e09f6b47d0e3b110.pem",
+    "archive_path": "server-discovery/trust_snapshot/867f7441e50867674230f2b7154798178513c742d51bfb52e09f6b47d0e3b110.pem"
+  },
+  {
+    "root": "work",
+    "path": "server-discovery/trust_snapshot/fd9fe86c296f5354cb578551a4f1216fc900624e88dbc8625e4ae506d1e8d624.pem",
+    "archive_path": "server-discovery/trust_snapshot/fd9fe86c296f5354cb578551a4f1216fc900624e88dbc8625e4ae506d1e8d624.pem"
+  },
+  {
+    "root": "work",
+    "path": "search-probe/brave.json",
+    "archive_path": "search-probe/brave.json"
+  },
+  {
+    "root": "work",
+    "path": "search-probe/duckduckgo.json",
+    "archive_path": "search-probe/duckduckgo.json"
+  },
+  {
+    "root": "work",
+    "path": "search-probe/summary.json",
+    "archive_path": "search-probe/summary.json"
+  },
+  {
+    "root": "repo",
+    "path": "configs/data_round2_needs.json",
+    "archive_path": "configs/data_round2_needs.json"
+  },
+  {
+    "root": "repo",
+    "path": "configs/data_round2_sources.json",
+    "archive_path": "configs/data_round2_sources.json"
+  },
+  {
+    "root": "repo",
+    "path": "configs/data_round2_census_sources.json",
+    "archive_path": "configs/data_round2_census_sources.json"
+  },
+  {
+    "root": "repo",
+    "path": "enrichment/scripts/collect_round2_census.py",
+    "archive_path": "code/collect_round2_census.py"
+  },
+  {
+    "root": "repo",
+    "path": "enrichment/scripts/verify_round2_census.py",
+    "archive_path": "code/verify_round2_census.py"
+  }
+]

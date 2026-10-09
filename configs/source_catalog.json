@@ -1,0 +1,215 @@
+[
+  {
+    "source_id": "sber_municipal_versions",
+    "need_id_if_known": "territory_crosswalk",
+    "title": "СберИндекс: данные о границах и преобразованиях муниципальных образований",
+    "url": "https://sberindex.ru/ru/research/dataset-borders-and-changes-of-municipalities",
+    "download_urls": [
+      "https://s.sber.ru/GthXk7",
+      "https://www.sberbank.com/common/files/t_dict_municipal.rar",
+      "https://www.sberbank.ru/common/img/uploaded/files/pdf/sberindex/metadata_municipal_dict_sberindex_2.pdf"
+    ],
+    "source_type": "publisher_dataset_and_metadata",
+    "coverage": "Full archive audited: 3101 attribute versions, 2660 territory_ids, 85 region codes. January 1 snapshots contain 2596 municipalities in 2023 and 2594 in 2024; each covers all 2016 IDs in the balanced consumption panel. Metadata scope: 2018-01-01 through 2024-01-01 inclusive; new regions and some Chechnya transfers excluded.",
+    "join_key": "territory_id; versioned oktmo with year_from inclusive and year_to exclusive. Preserve region_code separately from OKTMO prefix.",
+    "time_semantics": "Annual versions; within-year changes recorded at the start of the following year. Metadata does not establish all changes during 2024. Administrative-center changes were not dated; center retained from 2018.",
+    "license_status": "Publisher explicitly states CC BY-SA 4.0 in official page snapshot already read; Rosstat and OpenStreetMap provenance disclosed.",
+    "priority": "P0",
+    "access_status": "2026-09-14: official page GET 403, earlier official page snapshot and metadata retained. Published shortlink and direct RAR GET/HEAD 200; full 26925727-byte archive downloaded, SHA256 319ed22684b77716641bc15b61f7325adc44e9fc47e9be2973d88412d27d21f5. Existing Windows tar extracted XLSX and GeoPackage. Reproducible preparation and derived snapshots completed.",
+    "notes": "XLSX: 3101 rows, no duplicate territory_id/year_from keys or overlapping ID/OKTMO intervals. Within each snapshot ID-to-OKTMO is one-to-one. Source oktmo is 2-3-3-3 hyphenated text; separate oktmo_digits preserves 11 digits including leading zeroes. Region code is independent of OKTMO prefix. Among 2016 primary IDs, 78 change both OKTMO and type between 2023 and 2024; none changes region. GeoPackage: 2660 unique IDs with non-null geometries, EPSG:4326; topology not validated. year_to=9999 is an open sentinel, not post-2024 completeness. No TERSON-MO equivalence established. Outputs: data/derived/enrichment/municipal_crosswalk_*.csv and municipal_crosswalk_audit.json; script: scripts/prepare_municipal_crosswalk.py. Names never join keys. Preliminary 3 MB probe remains an incomplete archive; full original preserved separately."
+  },
+  {
+    "source_id": "rosstat_oktmo_versions",
+    "need_id_if_known": "territory_crosswalk",
+    "title": "Росстат: ОКТМО, исторические файлы и изменения классификатора",
+    "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo",
+    "download_urls": [
+      "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20230112T1301-structure-20260210T1102.csv",
+      "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20240101T1101-structure-20260210T1102.csv",
+      "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20241227T1412-structure-20260210T1102.csv",
+      "https://rosstat.gov.ru/opendata/7708234640-oktmo/structure-20260210T1102.csv"
+    ],
+    "source_type": "official_classifier_archive",
+    "coverage": "National classifier with dated snapshots including 2023/2024; current metadata page also lists 2026 snapshot. Particular historical CSV contents not downloaded in this stage.",
+    "join_key": "OKTMO string plus effective/source date. This source contains no established bridge to Sber territory_id by itself.",
+    "time_semantics": "Do not replace historical codes by the latest 2026 snapshot. Observed historical filenames reference a 2026 structure version; filename timestamp is not independently verified publication availability.",
+    "license_status": "Official open-data page links to https://data.gov.ru/information-usage; no CC license asserted here and linked terms not audited.",
+    "priority": "P0",
+    "access_status": "2026-09-14: metadata page and https://rosstat.gov.ru/classification GET 200; exact listed download links extracted from official HTML. Historical file bodies not fetched.",
+    "notes": "Use as cross-check and source of official code changes, not as an automatic polygon crosswalk. Classification page separately lists 2023/2024 amendments. Preserve leading zeroes, hierarchy and effective dates; merges/splits may be many-to-many."
+  },
+  {
+    "source_id": "sber_spending_methodology",
+    "need_id_if_known": "spending_methodology",
+    "title": "СберИндекс: описание муниципального набора хакатона",
+    "url": "https://sberindex.ru/ru/research/data-sense-opisanie-nabora-dannikh-khakatona-sberindeksa-po-munitsipalnim-dannim",
+    "download_urls": [
+      "https://www.sberbank.com/common/img/uploaded/files/pdf/sberindex/hackathonlicence.zip"
+    ],
+    "source_type": "publisher_metadata_in_existing_archive",
+    "coverage": "Existing four-page dataset description; consumption January 2023–December 2024 and five named categories plus overall category.",
+    "join_key": "territory_id in permanent boundaries; category and month.",
+    "time_semantics": "Monthly model estimates of average noncash consumer expenditure of municipality residents, rubles; the PDF calls the field consumption, the actual Parquet uses value.",
+    "license_status": "Explicit CC BY-SA 4.0 for the consumption data in the supplied description; preserve attribution.",
+    "priority": "P0",
+    "access_status": "Already downloaded and audited earlier in this session; no duplicate download. Local metadata and original ZIP preserved.",
+    "notes": "Also addresses measurement_quality, but only partially. Resident attribution, rubles and category definitions verified. Common denominators, transaction/client counts, model weights, uncertainty, quality thresholds, missingness reasons and revision vintages not supplied. Source does not establish exact household budget shares. Keep these gaps explicit; do not infer them from arithmetic additivity."
+  },
+  {
+    "source_id": "sber_consumption_original",
+    "need_id_if_known": "raw_spending_context",
+    "title": "СберИндекс: исходный consumption.parquet",
+    "url": "https://sberindex.ru/ru/research/data-sense-opisanie-nabora-dannikh-khakatona-sberindeksa-po-munitsipalnim-dannim",
+    "download_urls": [
+      "https://www.sberbank.com/common/img/uploaded/files/pdf/sberindex/hackathonlicence.zip"
+    ],
+    "source_type": "existing_publisher_dataset",
+    "coverage": "Audited 303126 category rows, 2190 territory_ids, 24 months; 2016 IDs have complete history. Six rows per observed territory-month; no null/zero/negative values or duplicate original keys.",
+    "join_key": "territory_id + date + category, unique in original data.",
+    "time_semantics": "Monthly 2023–2024. Complete 24-month cohort is retrospective. Overall category can supply level context, separately from normalized five-category profiles.",
+    "license_status": "Explicit CC BY-SA 4.0 with source attribution.",
+    "priority": "P1",
+    "access_status": "Already present in data/raw/consumption.parquet and audited; no new download required.",
+    "notes": "SHA256 9833ddaaee7b2a182ed4cceeed16469031700ea87d508bd976150c6770ef8a61. Portal name-only exports are not the ID source: 2118 names for 2190 codes, with 49 colliding names covering 121 codes. Reuse original coded data."
+  },
+  {
+    "source_id": "sber_market_access_2024",
+    "need_id_if_known": "market_access_2024",
+    "title": "СберИндекс: market_access.parquet, индекс доступности рынков",
+    "url": "https://sberindex.ru/ru/research/data-sense-opisanie-nabora-dannikh-khakatona-sberindeksa-po-munitsipalnim-dannim",
+    "download_urls": [
+      "https://www.sberbank.com/common/img/uploaded/files/pdf/sberindex/hackathonlicence.zip"
+    ],
+    "source_type": "existing_publisher_dataset",
+    "coverage": "Audited 2571 unique territory_ids; 2170/2190 consumption IDs matched. Actual matched coverage for chosen analytical cohort must be retained in an enrichment audit.",
+    "join_key": "territory_id, one row per source territory.",
+    "time_semantics": "Static 2024 index, normalized to 0–1000; population-weighted inverse distance to other municipalities. Not a monthly or historical 2023 observation.",
+    "license_status": "Explicit CC BY-SA 4.0 in archive metadata.",
+    "priority": "P1",
+    "access_status": "Already extracted under work/sberindex-research/hackathon-bundle/hackathonlicence; no repeat download required.",
+    "notes": "Metadata excludes 22 municipalities lacking road/ferry connection; the consumption dataset has a different inclusion universe. This is potential external market accessibility, not measured trade, travel or purchasing flows. Use as a 2024 descriptive covariate with missingness retained."
+  },
+  {
+    "source_id": "sber_transport_distances_2024",
+    "need_id_if_known": "transport_distances_2024",
+    "title": "СберИндекс: connection.parquet, автодорожные и железнодорожные расстояния",
+    "url": "https://sberindex.ru/ru/research/data-sense-opisanie-nabora-dannikh-khakatona-sberindeksa-po-munitsipalnim-dannim",
+    "download_urls": [
+      "https://www.sberbank.com/common/img/uploaded/files/pdf/sberindex/hackathonlicence.zip"
+    ],
+    "source_type": "existing_publisher_dataset",
+    "coverage": "Audited 5942364 rows: highway 3303736, railway 2638628. Primary 2016 IDs: highway 2006 matched, railway 1262. Road and rail have different coverage.",
+    "join_key": "territory_id_x, territory_id_y, type. Railway includes both directions; road has one direction per unordered pair in the audited file.",
+    "time_semantics": "Distances in kilometers as of 2024-12-31. Road: OSM graph between administrative centers. Rail: station network near centers. Not monthly transport activity.",
+    "license_status": "Explicit CC BY-SA 4.0 in archive metadata; upstream OSM and rail tariff-guide provenance disclosed.",
+    "priority": "P1",
+    "access_status": "Already extracted and audited; no duplicate download required.",
+    "notes": "Road: 148 zero-distance rows; rail: 1319314 unordered pairs duplicated in both directions with identical values. Metadata claims one orientation generally, which does not describe the rail file. Preserve raw; resolve zero distance and pair direction explicitly before graph use. Missing pairs are not zero distance."
+  },
+  {
+    "source_id": "rosstat_population_bulletins",
+    "need_id_if_known": "municipal_population",
+    "title": "Росстат: численность населения по муниципальным образованиям на 1 января 2023 и 2024",
+    "url": "https://rosstat.gov.ru/compendium/document/13282",
+    "download_urls": [
+      "https://rosstat.gov.ru/storage/mediabank/BUL_MO_2023.xlsx",
+      "https://rosstat.gov.ru/storage/mediabank/BUL_MO_2024.xlsx"
+    ],
+    "source_type": "official_statistical_bulletins",
+    "coverage": "National workbooks mix subjects, municipalities and settlements/cities. Main sheet Численность_по_МО includes total, urban and rural resident population, persons. Separate audited parser extracted 21069 rows for 2023 and 20406 for 2024 (41475 in total); these are all source levels, not a count of upper-level municipalities. No external join completed.",
+    "join_key": "2023 main sheet has names without explicit code in inspected header. 2024 main sheet has ТЕРСОН-МО, not an established OKTMO key. No automatic name join or code truncation authorized.",
+    "time_semantics": "Point-in-time estimates at January 1 of stated year; not annual means. Official page shows file updates 31.07.2024 for 2023 and 20.12.2024 for 2024, illustrating observation/publication distinction.",
+    "license_status": "Public official publication; no specific CC or other redistribution license established in this review. Preserve Rosstat attribution and check applicable publication terms.",
+    "priority": "P1",
+    "access_status": "2026-09-14: official page and both XLSX files GET/HEAD 200; complete files downloaded, 1318101 and 1599578 bytes. Source rows extracted and audited separately in docs/population_source_audit.md; territory_id and oktmo remain null in the unlinked layer.",
+    "notes": "Potential urban share = urban/total only for matching geography and date. 2023 columns A:name B:total C:urban D:rural; 2024 A:TERSON-MO B:name C:total D:urban E:rural. Municipality and its administrative city are distinct rows. Prefer coded BDPMO extraction until an explicit TERSON-to-OKTMO bridge is verified."
+  },
+  {
+    "source_id": "rosstat_bdpmo_population",
+    "need_id_if_known": "municipal_population",
+    "title": "Росстат БДПМО: 8112027 население, городской/сельский состав",
+    "url": "https://rosstat.gov.ru/storage/mediabank/MUNST.htm",
+    "download_urls": [
+      "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx",
+      "https://rosstat.gov.ru/storage/mediabank/bdmo_met2023.docx",
+      "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm"
+    ],
+    "source_type": "official_statistics_portal_and_indicator_metadata",
+    "coverage": "Official 2024 indicator list includes 8112027 for all municipality types; 8112014/8112015/8112016 for population by sex/age. Actual 2023/2024 cells and coded coverage require regional query/export.",
+    "join_key": "Portal municipality dimension plus classifier/code and observation year; require explicit exported codes and reconcile to versioned OKTMO before joining territory_id.",
+    "time_semantics": "Annual population at January 1; calculation accounts for births, deaths, migration and municipal transformations. Loading year 2024 is not automatically reference year 2024.",
+    "license_status": "Public official statistics portal; no specific CC license established. Metadata links and attribution retained; do not infer unrestricted redistribution from accessibility.",
+    "priority": "P1",
+    "access_status": "2026-09-14: national selector, methodology landing page and Adygea regional selector GET 200. Indicator 8112027 appears in live selector. Exported values have not yet been downloaded.",
+    "notes": "Official extraction instructions: https://rosstat.gov.ru/free_doc/new_site/bd_munst/instruction.htm; regional example https://rosstat.gov.ru/dbscripts/munst/munst79/. Select indicator, municipality/type, year and period, then show table/export Excel. download_urls here are metadata, not a ready nationwide data table."
+  },
+  {
+    "source_id": "rosstat_bdpmo_wages_employment",
+    "need_id_if_known": "municipal_wages_employment",
+    "title": "Росстат БДПМО: 8423005/8423006/8423007 работники, фонд оплаты и зарплата",
+    "url": "https://rosstat.gov.ru/storage/mediabank/MUNST.htm",
+    "download_urls": [
+      "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx",
+      "https://rosstat.gov.ru/storage/mediabank/bdmo_met2023.docx",
+      "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm"
+    ],
+    "source_type": "official_statistics_portal_and_indicator_metadata",
+    "coverage": "Official 2024 list: average payroll headcount 8423005, payroll 8423006, average monthly wage 8423007, since 2017; organizations excluding small businesses, form P-4, economic-activity breakdown. Actual 2023/2024 cell coverage unverified.",
+    "join_key": "Municipality code/version + period + activity category; explicit coded export and uniqueness check required. National bulk download not established.",
+    "time_semantics": "Quarterly cumulative periods; January–December can describe the full reference year. Do not treat cumulative quarters as independent monthly values or sum cumulative wage means.",
+    "license_status": "Public official statistics; exact redistribution terms not established in this review, no CC license asserted.",
+    "priority": "P1",
+    "access_status": "2026-09-14: official indicator list and regional Adygea selector GET 200; 8423005/8423007 verified in live selector. Official bdmo_met2024.docx fully downloaded (162482 bytes), source main text extracted and wage/headcount definitions read. Actual observation export and missing-cell audit pending.",
+    "notes": "This is a restricted organization/workforce measure, not income or employment of all residents. Commuting and excluded small businesses can separate it from resident spending. Keep wages and income concepts distinct; verify unit, enterprise attribution and denominator in metadata before use. The 2024 methodology defines nominal accrued mean monthly wages as payroll divided by average payroll headcount and by 3, 6, 9 or 12 months of the cumulative reporting period; headcount excludes external part-time workers. DOCX contains indicator names rather than the numeric IDs used in the separate official list. Local original: work/enrichment-sources/bdmo_met2024.docx; full main text is 169906 characters, while default Office preview truncates at 100000."
+  },
+  {
+    "source_id": "rosstat_bdpmo_sector_structure",
+    "need_id_if_known": "sector_structure",
+    "title": "Росстат БДПМО: отраслевые срезы работников и отгрузки организаций",
+    "url": "https://rosstat.gov.ru/storage/mediabank/MUNST.htm",
+    "download_urls": [
+      "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+      "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx"
+    ],
+    "source_type": "official_indicator_catalog_candidate",
+    "coverage": "Verified indicator list offers economic-activity breakdown for 8423005 and 8401011 (own-produced goods/work/services shipments, excluding small businesses); form P-1/P-5(m) for 8401011. No complete municipal sector matrix retrieved.",
+    "join_key": "Municipality code/version + period + OKVED category/version; require mutually compatible totals, suppressed-cell semantics and hierarchy before proportions.",
+    "time_semantics": "Quarterly cumulative according to 2024 indicator list. Use an annual window consistently; do not sum cumulative quarter totals.",
+    "license_status": "Public official publication; redistribution license not established.",
+    "priority": "P2",
+    "access_status": "Metadata and Adygea indicator 8401011 selector verified GET 200; actual data and nationwide compatibility not checked.",
+    "notes": "Defer until crosswalk and the smaller wage/employment family are usable. These are organization-based sector proxies, not municipal GDP or the entire local economic structure. No income-of-residents series was established by this search."
+  },
+  {
+    "source_id": "rosstat_emiss_catalog",
+    "need_id_if_known": "municipal_wages_employment",
+    "title": "Росстат / ЕМИСС: официальный каталог как резервный путь",
+    "url": "https://rosstat.gov.ru/emiss",
+    "download_urls": [],
+    "source_type": "official_catalog_discovery_only",
+    "coverage": "Rosstat links to https://fedstat.ru/. A particular 2023/2024 municipal wage/income series with sufficient coded geography was not verified.",
+    "join_key": "Unknown until a specific indicator and its geographic classifier are inspected; do not substitute regional values for municipal observations.",
+    "time_semantics": "Depends on indicator, reference period, publication and revision history; not established for a selected municipal series.",
+    "license_status": "No dataset-specific license established; public portal access alone does not establish a redistribution license.",
+    "priority": "P2",
+    "access_status": "2026-09-14: Rosstat EMISS page and https://www.fedstat.ru/ GET 200. Dataset download unverified; no indicator ID invented.",
+    "notes": "Retain as fallback, not as an acquired dataset or available nationwide municipal income panel. BDPMO is the narrower verified route for the chosen family."
+  },
+  {
+    "source_id": "sber_contest_metric_rules",
+    "need_id_if_known": "metric_specification",
+    "title": "СберИндекс: положение конкурса, требования к метрикам первого кейса",
+    "url": "https://sber.ru/common/assets/sber/sberindex_polozhenie_o_konkurse.pdf",
+    "download_urls": [
+      "https://sber.ru/common/assets/sber/sberindex_polozhenie_o_konkurse.pdf"
+    ],
+    "source_type": "official_contest_rules_existing_document",
+    "coverage": "Existing official contest rules, including named case 1 criteria and metrics; not a data table.",
+    "join_key": "Not applicable.",
+    "time_semantics": "Version of rules retrieved for this contest; additional task details may be published separately. Preserve the downloaded version.",
+    "license_status": "Official rules; no general data license inferred. Cite the source and avoid assigning the dataset CC license to all contest documents.",
+    "priority": "P0",
+    "access_status": "Already downloaded and read earlier; local contest-rules.pdf and text preserved. No repeated download.",
+    "notes": "Naming S_Dbw, AVI, AVU and MQ does not resolve every implementation convention. Existing docs/metrics.md fixes the implemented variants and sources; organizer-confirmed exact variants/denominator conventions remain a methodological gap."
+  }
+]

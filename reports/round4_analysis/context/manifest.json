@@ -1,0 +1,93 @@
+{
+  "script_sha256": "16fcace2cf2c34724db8fd1d397416ba2a19b477016c5df91e9904d8b5633f32",
+  "inputs": [
+    {
+      "root": "repo",
+      "path": "reports/data_round4/cases/evidence_ledger.csv",
+      "sha256": "61d21c92b693bd99b3e4a1d800b36ff06e0dd951f25575ddf11e4a2266ce6c90"
+    },
+    {
+      "root": "repo",
+      "path": "reports/data_round4/cases/rounding_comparison.csv",
+      "sha256": "10e7316d329545bb060c36d260ef0442e115b82f36f91ef711ed827fe9b78dbc"
+    },
+    {
+      "root": "repo",
+      "path": "reports/round3_analysis/context/six_cases_economy_pairs.csv",
+      "sha256": "f2bc250654032b1112dc650b0a9bbe60cf141f22d3586540babd3660d05fe8e5"
+    },
+    {
+      "root": "repo",
+      "path": "reports/data_round4/geography/publisher_geometry_identity.csv",
+      "sha256": "fd431bb1c6caf295816b5fd498a7a391a0441f8b99fe1613d4b900725dc9b935"
+    },
+    {
+      "root": "repo",
+      "path": "reports/data_round4/geography/publisher_annual_versions.csv",
+      "sha256": "f498ab3216818b15a410e0edfd59d9d0f95ff9b573173f789a1fb0b726d05ab4"
+    },
+    {
+      "root": "repo",
+      "path": "reports/data_round4/sme/annual_inventory.csv",
+      "sha256": "a1c29281efbd89a7f2860bc094e285b0b93cdcb027e2fde3404b03bca46dd8a3"
+    },
+    {
+      "root": "repo",
+      "path": "reports/data_round4/sme/manifest.json",
+      "sha256": "49b53e887bc0b968484c91b0f8347a550c1bca8a47eb755d0416f4114c053d3c"
+    },
+    {
+      "root": "repo",
+      "path": "reports/data_round4/sme/source_dictionary_pages.json",
+      "sha256": "b37f8219104a41fb119304e29217f5e5b1f5795250e88e5fe454037872ffed2c"
+    },
+    {
+      "root": "sme_raw",
+      "path": "extracted/2023/entire/data_sme_153_entire_year_2023_v20260605.parquet",
+      "sha256": "5b3f2dbcdfdad8a009c620c135b6207dc3a1748a77b4fa57bccc6f12b64e6572"
+    },
+    {
+      "root": "sme_raw",
+      "path": "extracted/2024/entire/data_sme_153_entire_year_2024_v20260605.parquet",
+      "sha256": "91ed51745f8eb76dfaeba22e92debad583fc0f6439c69e239001c99dafe2af23"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "claim_evidence_matrix.csv",
+      "sha256": "1d76fdf22ae42e860bb5507e5ae99a31c73b5ffc353c63f9f282d66fcccd41eb"
+    },
+    {
+      "path": "geography_evidence_decisions.csv",
+      "sha256": "bc3ba1a08ca245256449079097fdb74d857c44e5131a0e58061db521ded75426"
+    },
+    {
+      "path": "investment_2023_2024_exact_prior.csv",
+      "sha256": "9879394bfa2f1c89185ec39a31ed8e28f0cf83266836a5321d1f1ae26c347711"
+    },
+    {
+      "path": "investment_longer_comparisons.csv",
+      "sha256": "c077c037eb8595afbf91788c3c557bf8935236c56c5bf28693931546723aded9"
+    },
+    {
+      "path": "investment_paths.csv",
+      "sha256": "3b5a801d04952ded5a7012f75cf8f65e493b9af4cbe7deeff446291cb7b7e3ad"
+    },
+    {
+      "path": "QA.json",
+      "sha256": "089a488b3d347a22b47aaaaf5680821fb9b740efb4e2cbf6f8afc8a29f21ff8d"
+    },
+    {
+      "path": "sme_construction_routes.csv",
+      "sha256": "3f54e25600211f42719296687f0b33c2650ed023a4258ecd7befc83182a50d1e"
+    },
+    {
+      "path": "sme_entity_eligibility.csv",
+      "sha256": "e461e0f27db61aebe712c4c06ccdbad0013b3dabc61d526a9e0a07508ffcbec6"
+    },
+    {
+      "path": "sme_worker_observation_by_primary_nace2.csv",
+      "sha256": "0c0f382139f33a5d1b417826b9cc28ad9679d7c1298cef87a1fed1910387bb42"
+    }
+  ]
+}

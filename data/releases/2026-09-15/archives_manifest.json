@@ -1,0 +1,27 @@
+{
+  "release_tag": "data-2026-09-15",
+  "collection_code_commit": "6c1771314bff3cd3d17bd082e0f0ced6690fefeb",
+  "status": "archival_evidence_only",
+  "archives": [
+    {
+      "asset": "server-data-snapshots.zip",
+      "sha256": "dcae60a64c9dac4aa5e4930e352f049034a2ca7c98e93bbfb6ce9cf14af51f78",
+      "bytes": 378891889,
+      "archived_files": 690,
+      "uncompressed_bytes": 648963820,
+      "zip_crc_and_entry_hashes": "PASS"
+    },
+    {
+      "asset": "local-data-supplement.zip",
+      "sha256": "ffef5a042a026421e536dbcc6dbc0daf08dce30a3145b8a8b75416e9c454b575",
+      "bytes": 27631834,
+      "archived_files": 80,
+      "uncompressed_bytes": 100819612,
+      "duplicate_aliases": 31,
+      "zip_crc_and_entry_hashes": "PASS"
+    }
+  ],
+  "archived_files_total": 770,
+  "compressed_bytes_total": 406523723,
+  "uncompressed_bytes_total": 749783432
+}

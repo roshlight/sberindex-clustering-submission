@@ -1,0 +1,40 @@
+{
+  "status": "complete",
+  "started_at": "2026-09-14T22:30:11.234657+00:00",
+  "finished_at": "2026-09-14T22:52:01.953148+00:00",
+  "search": {
+    "planned_requests": 0,
+    "requests": 0,
+    "cached_records": 0,
+    "deferred": 0,
+    "rate_limit_responses": 0,
+    "failed": 0,
+    "partial": 0,
+    "result_rows": 0,
+    "unique_urls": 11
+  },
+  "documents": 43,
+  "cards": 32,
+  "model_review_failures": 0,
+  "model_reviews": {
+    "planned": 32,
+    "cards": 32,
+    "failed": 0,
+    "deferred": 0,
+    "critic_status": "complete"
+  },
+  "usage": {
+    "completed_calls": 33,
+    "http_attempts": 33,
+    "reported_cost_usd": 0.9388404963120001,
+    "prompt_tokens": 489588,
+    "completion_tokens": 187297,
+    "calls_with_unknown_cost_or_failure": 0
+  },
+  "models": {
+    "extract_model": "deepseek/deepseek-v4-pro-0813",
+    "review_model": "deepseek/deepseek-v4-pro-0813"
+  },
+  "interpretation": "Navigation-only review. Manual source acquisition and deterministic numeric extraction supersede these card statuses.",
+  "search_limitations": "Four enabled engines returned no usable results; the 32 planned keyword queries were not executed as a successful search."
+}

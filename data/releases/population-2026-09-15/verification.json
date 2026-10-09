@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "scope": "Local archive and numerical checks plus GitHub asset receipts.",
+  "local_archive_entry_checks": {
+    "status": "PASS",
+    "files": 5946
+  },
+  "source_cell_audit": {
+    "status": "PASS",
+    "cells": 7157,
+    "raw_csv_responses": 174
+  },
+  "independent_panel_audit": {
+    "status": "PASS",
+    "numeric_values": 6940,
+    "csv_parquet_agree": true
+  },
+  "tests": {
+    "enrichment_pytest_passed": 206,
+    "ruff_check": "PASS",
+    "ruff_format": "PASS"
+  },
+  "previous_deliveries": {
+    "initial_study_files_unchanged": 62,
+    "enrichment_v1_report_files_unchanged": 29
+  },
+  "github_asset_verification": "PASS",
+  "independent_full_clean_reproduction": "NOT RUN",
+  "github_release_id": 388744192,
+  "github_assets": [
+    {
+      "asset": "server-population-snapshots.zip",
+      "status": "PASS",
+      "bytes": 46262849,
+      "sha256": "02b785cc9ab6d0dfd6bce6e6096cf7fc7a4149efa14a19f0483d495def647fde",
+      "asset_id": 564331942,
+      "github_digest": "sha256:02b785cc9ab6d0dfd6bce6e6096cf7fc7a4149efa14a19f0483d495def647fde"
+    },
+    {
+      "asset": "local-source-snapshots.zip",
+      "status": "PASS",
+      "bytes": 134118647,
+      "sha256": "a1a1b6c1c9a5ce9817cf199a4420678eb852c902d03bd90721dade1b1e0f173c",
+      "asset_id": 564331944,
+      "github_digest": "sha256:a1a1b6c1c9a5ce9817cf199a4420678eb852c902d03bd90721dade1b1e0f173c"
+    },
+    {
+      "asset": "archives_manifest.json",
+      "status": "PASS",
+      "bytes": 1077,
+      "sha256": "0e21e9ac4adc8f6993cac06ab1a979c029298ac65ba5ad9c81ed6e59d3c173b6",
+      "asset_id": 564331941,
+      "github_digest": "sha256:0e21e9ac4adc8f6993cac06ab1a979c029298ac65ba5ad9c81ed6e59d3c173b6"
+    },
+    {
+      "asset": "SHA256SUMS.txt",
+      "status": "PASS",
+      "bytes": 191,
+      "sha256": "4f48a1fd43f7973ca4eb39fd15191f9fab809e4bb59d3b7eb54ea3316a15c462",
+      "asset_id": 564331940,
+      "github_digest": "sha256:4f48a1fd43f7973ca4eb39fd15191f9fab809e4bb59d3b7eb54ea3316a15c462"
+    }
+  ],
+  "verified_at_utc": "2026-09-14T22:16:43.999507+00:00",
+  "draft_at_asset_verification": true,
+  "archive_source_completeness": {
+    "status": "PASS",
+    "archive_source_entries": 5946,
+    "required_unique_source_sha256": 256,
+    "exact_bytes_hashes_present": 256,
+    "explicitly_normalized_metadata_hashes_present": 0,
+    "missing_unique_sha256": 0,
+    "invalid_reference_hashes": 0
+  }
+}

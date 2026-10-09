@@ -1,0 +1,5 @@
+start_year,end_year,metric,start_million_rubles,end_million_rubles,nominal_change_million_rubles,nominal_change_pct,cross_metric_decomposition
+2022,2023,airport_cash_million_rubles,939.908,788.5428,-151.3652,-16.104257012388,False
+2022,2023,municipal_investment_million_rubles,31.8,1329.7,1297.9,4081.446540880503,False
+2023,2024,airport_cash_million_rubles,788.5428,,,,False
+2023,2024,municipal_investment_million_rubles,1329.7,24.8,-1304.9,-98.134917650598,False

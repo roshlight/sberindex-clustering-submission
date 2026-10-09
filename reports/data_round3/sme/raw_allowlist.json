@@ -1,0 +1,433 @@
+{
+  "entries": [
+    {
+      "path": "work/data-round3/sme/raw/fns-archive-20240710-size.metadata.json",
+      "bytes": 776,
+      "sha256": "73ade53eb2b54a3b6b201795986c78d598d105ca9a07e91db917ac535bbaa6e6",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/fns-archive-20250710-size.metadata.json",
+      "bytes": 776,
+      "sha256": "9b156a37a3438104c82396f42181fb836bd13a6b13a2caff337625e6f1103ac2",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/fns-license.metadata.json",
+      "bytes": 679,
+      "sha256": "e058a295fa6640d6cbe3955304dc3a473fd298c0f9fbd9e85e2d8f4d7d7094c4",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/fns-license.pdf",
+      "bytes": 144536,
+      "sha256": "c772365757d41ff06662566b35b64356e482cb910d7e85302e325959ffc40492",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/fns-register-passport.html",
+      "bytes": 142269,
+      "sha256": "f550bdb16e7bfaae77f3d0cc3dc93e9c02408c899380a32c0d568d4ecc9ffc64",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/fns-register-passport.metadata.json",
+      "bytes": 660,
+      "sha256": "4b3c66e97adc92d3840ecdd6104ab6cf4f84b72890fbcc72ac57545f6fe1da51",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/fns-schema-2022.metadata.json",
+      "bytes": 827,
+      "sha256": "89d3f723f07f443dffd3b94808fabe4324d886c1c27ba5c5e39717ea8aa109f2",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/fns-schema-2022.xsd",
+      "bytes": 39049,
+      "sha256": "0757fe6e3385e970ad2a5d5b900791dd5ac46e5515e883aac8fcff666f9f0b01",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/fns-schema-2023.metadata.json",
+      "bytes": 828,
+      "sha256": "fe3669a73e8695565cb26c998d355b73f6a1e9af5c488ad044543e6c61afcbde",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/fns-schema-2023.xsd",
+      "bytes": 38186,
+      "sha256": "c16ab6c99a09965f69dc7f25bd1aefdade714030f59ca074d83ba9ce07699df6",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/fns-schema-2025.metadata.json",
+      "bytes": 840,
+      "sha256": "4dce54bb90ce4d088aa2ae089e3c06a8289e8cd2476b8a5a9fc4aca0c3ae11cb",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/fns-schema-2025.xsd",
+      "bytes": 33300,
+      "sha256": "bd324f628fc760038499400427258888b29727044cd32fd424e1a0c3094cd36c",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/fns-statistics-20230710.json",
+      "bytes": 175039,
+      "sha256": "ba53588adbd99ea68214fe9642bf056562073e5f76f322e0a996c424934fd81f",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/fns-statistics-20230710.metadata.json",
+      "bytes": 748,
+      "sha256": "44e3cf7ca66da293a21b6e54808c033836d269647b87c5e3d2e30f93122ef056",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/fns-statistics-20240710.json",
+      "bytes": 176547,
+      "sha256": "e243bc7062af485fcfcc1d717690d34f4bc78c1e889ac24e943ee8a7b086da56",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/fns-statistics-20240710.metadata.json",
+      "bytes": 742,
+      "sha256": "0489fb652c7db5ca00fddd02aeb9f0b2179e422bd89468c665fd04121f293923",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/fns-statistics-20250710.json",
+      "bytes": 173693,
+      "sha256": "59eedb50ece074219de9f080061430085fc2e806ca5028c6bb57e6142523a892",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/fns-statistics-20250710.metadata.json",
+      "bytes": 742,
+      "sha256": "50f5daa4742be161ee77c22aedaa323e9c17adfd88e2d8b1017ab1829788269c",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/fns-statistics-interface.html",
+      "bytes": 273566,
+      "sha256": "a323ce1e32dc402a38b79892ca7e8905d024813efefcfe210f63d52d62c1b10c",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/fns-statistics-interface.metadata.json",
+      "bytes": 644,
+      "sha256": "bd06ac9035a2b7916325f787dba766cbbf3baddea276e231dfbafdf8a5e22372",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/fns-statistics-javascript.js",
+      "bytes": 34430,
+      "sha256": "04f44e1cc5f2078cabbb91e6fd477baa6b93fdce923f78bbb2726e651c0d010d",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/fns-statistics-javascript.metadata.json",
+      "bytes": 824,
+      "sha256": "5a8002a1980c1925d5f296c85f8d482e78ea8466c6647391ba6f14860d0b67ed",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/inventory.json",
+      "bytes": 33608,
+      "sha256": "8952e881a4660a1d7bfaedb31bab380e1552651b78ffa45a5bc06278fd0e2163",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/ivanovo-municipal-page-table-1.metadata.json",
+      "bytes": 954,
+      "sha256": "2292b8c4ee8916c4db2636d0883f27736010a2be292c92bdd46184736f99cd5e",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/ivanovo-municipal-page-table-1.pdf",
+      "bytes": 135337,
+      "sha256": "7901527bfe1a8ce5b85c8d68705630ce52701e68730a687896b4e113fa99d3ae",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/ivanovo-municipal-page-table-2.metadata.json",
+      "bytes": 1221,
+      "sha256": "450be091d14d52fc64d42c874221f3b5e3a4653b18c7b5ea0c9ed7b105a63eac",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/ivanovo-municipal-page-table-2.pdf",
+      "bytes": 134629,
+      "sha256": "2e806408abcba78dfb6ca1faf59202f36cac426f7aadf91514167125df47828c",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/ivanovo-municipal-page-table-3.metadata.json",
+      "bytes": 937,
+      "sha256": "359ee6a0c224ea0b1febccb79938cddc349315017f7289f68625facab78717a3",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/ivanovo-municipal-page-table-3.pdf",
+      "bytes": 135435,
+      "sha256": "aabd26389f51b46aee5098748efee11be5a9e3a737458aca49d570d4c9536950",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/ivanovo-municipal-page-table-4.metadata.json",
+      "bytes": 1093,
+      "sha256": "31839e6abc6684f7810b80b4e97c26d6c3c47ba41f30ecd6284a485ea7f76c65",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/ivanovo-municipal-page-table-4.pdf",
+      "bytes": 134732,
+      "sha256": "1a7496aa35a1110c312bde3760692f877fedaae71e1b94f815faf220a3ac2946",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/ivanovo-municipal-page.html",
+      "bytes": 862690,
+      "sha256": "5487f6bb9f67fbb23c0a5ccb584a647a4480259ea1e5a06b803df19284703dcc",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/ivanovo-municipal-page.metadata.json",
+      "bytes": 641,
+      "sha256": "7c15950f65194253378bdd696ee9b7f9e595341383add5997266b529051adaef",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/khabarovsk-municipal-page-table-1.doc",
+      "bytes": 38400,
+      "sha256": "c1e1b1e39b3f8123fda68fe5947adbf359739a9729b09f8b09e8c340e90c9535",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/khabarovsk-municipal-page-table-1.metadata.json",
+      "bytes": 1412,
+      "sha256": "8f87f432809a9ec5804c76cf747e6e96a14d51f516b13fc607be43ce581b3776",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/khabarovsk-municipal-page-table-2.doc",
+      "bytes": 38400,
+      "sha256": "334e72a3760e63a97068faad5e1d70490976749320f574b6e05a9c424488cb22",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/khabarovsk-municipal-page-table-2.metadata.json",
+      "bytes": 1526,
+      "sha256": "4820d902f74e5fe3bdfa9870010997fd9d44a2a1571b190b10ecf95a98e13301",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/khabarovsk-municipal-page.html",
+      "bytes": 789142,
+      "sha256": "12c58ed5b82d3eaf7fcbe46bcc8986ee48ba9dae5faa5889ddc3520b5400c0a9",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/khabarovsk-municipal-page.metadata.json",
+      "bytes": 643,
+      "sha256": "a42ef8be3e10eee64256f468b33d2cc22e6f3db7dd04ebb9f0c059dd73b5acc5",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/magadan-municipal-page-table-1.docx",
+      "bytes": 14235,
+      "sha256": "f6d55abb0d09abee82bab98a715d4dea1e0f3b74fdd0173da75b7a89e5417ba0",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/magadan-municipal-page-table-1.metadata.json",
+      "bytes": 1040,
+      "sha256": "0fa9a59a6882249d0150d3e71d473f1b4473a21f02bcd28a727891b3e5f1d27b",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/magadan-municipal-page-table-2.docx",
+      "bytes": 14228,
+      "sha256": "e45f037461605685be66abdceb8d41a3e6a3ca737a39d12d0b95788d370b2e86",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/magadan-municipal-page-table-2.metadata.json",
+      "bytes": 1243,
+      "sha256": "0859e6b494e9a021425e9e42d41bdc24fe008344dfe247e4712e0e68a1a824d0",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/magadan-municipal-page.html",
+      "bytes": 757360,
+      "sha256": "71835a6e9363cec3ef9c7912ba3fb9e86071777e09e772dbcc9085c86205897d",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/magadan-municipal-page.metadata.json",
+      "bytes": 635,
+      "sha256": "867afae387d594f92b4d7eeb3bd483c0ef1c9c09001c116f07632a6b363b854f",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/prikubansky-municipal-2024.metadata.json",
+      "bytes": 939,
+      "sha256": "6436001f597df403b37f1b01a35de775080a5e1be6a1fa3ca9a5d25bf514f56f",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/prikubansky-municipal-2024.pdf",
+      "bytes": 199960,
+      "sha256": "6a2d87a51b08119941332a691227838e753b84e611f9ff1c8400e5223cfa21b6",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/rosstat-mp2020-methodology.html",
+      "bytes": 811141,
+      "sha256": "70dea40eacfba4093988d8a70c5b85cf3f9bed563ec7aa23307eb1a8b0531108",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/rosstat-mp2020-methodology.metadata.json",
+      "bytes": 663,
+      "sha256": "b998e7ff01d04facebaad8ce5d9ac23a5d941192154ddca08f463ca53879d793",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/rosstat-municipal-catalog.htm",
+      "bytes": 565790,
+      "sha256": "9f245a8e1a1cfad4565cfa6ad2980b4f4b8f8f6e61ac8beddd01d6fc92ca2501",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/rosstat-municipal-catalog.metadata.json",
+      "bytes": 765,
+      "sha256": "c33cacd8be496e9ba13f2737a490ddb0a3f27efc602a37a7717dc0f337a9f2e4",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/rosstat-sme-regional-page-table-1.metadata.json",
+      "bytes": 1182,
+      "sha256": "dfcf592b07f4ea8012f06d4503cd25117ab90b86922d39901687608e6ae41ba7",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/rosstat-sme-regional-page-table-1.xlsx",
+      "bytes": 65307,
+      "sha256": "b0883ddeb4fe8c743b02f237c41a8d5e14a804884f3955cb0bdb80ed6fd80491",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/rosstat-sme-regional-page-table-2.metadata.json",
+      "bytes": 1173,
+      "sha256": "718c416a5f9e04d9aaceddb085995cfedf27b8e02639f8ed04bf44730f8419a0",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/rosstat-sme-regional-page-table-2.xlsx",
+      "bytes": 65925,
+      "sha256": "098678dd07658acd00022e03f35a2e33fabfedc800895e838b08e12497c98607",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/rosstat-sme-regional-page.html",
+      "bytes": 763777,
+      "sha256": "3497962d70991acc0ec35dd4a6566af52cc7ae1ca7eb2ea515cec670986d69d4",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/rosstat-sme-regional-page.metadata.json",
+      "bytes": 673,
+      "sha256": "4ef982b4abcd45a76bcdbefebffa07a4888ba314ebddc1f9d25c41420cbe88cf",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/rosstat-transport-confidentiality.metadata.json",
+      "bytes": 1018,
+      "sha256": "2d9fbd1849c7154a4f4f03b06c4d1a93c035389e93786ed76928f0b2f3cdbd2d",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/rosstat-transport-confidentiality.pdf",
+      "bytes": 735853,
+      "sha256": "266c2574bce792d6c844f699595a0b0c3be50f77e3805a32e40be4b0a5496902",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/sakhalin-municipal-page-table-1.htm",
+      "bytes": 29353,
+      "sha256": "c228515f47f729dc5f7f83d7c9ab9e10bdabc3584f204ad65a51470c3eac2c35",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/sakhalin-municipal-page-table-1.metadata.json",
+      "bytes": 1251,
+      "sha256": "afa4d8116f4a701fc300b7d7777eb9d13d995bf264c7d73838bab53a615334f1",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/sakhalin-municipal-page.html",
+      "bytes": 759687,
+      "sha256": "3308aee5c8f310f47e2db27ffe4ecf55eac7ec6d9a7120aebd3b25131dc5c01c",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/sakhalin-municipal-page.metadata.json",
+      "bytes": 643,
+      "sha256": "6cc0d095ffcc454d90edff9a34eee5c8f384651a52cc7fccd01b9474226fef5f",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/vologda-finance-page-table-2.metadata.json",
+      "bytes": 1343,
+      "sha256": "76e26f95a84a0f98f5ac4493018425afe13e77796267b1d49bd92a6d2de01ce4",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/vologda-finance-page-table-2.xlsx",
+      "bytes": 52819,
+      "sha256": "26a3fec350e4b5302c36439d987056d98122ae8946e5c899d6cc8671d225c713",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/vologda-finance-page-table-4.metadata.json",
+      "bytes": 1343,
+      "sha256": "9d064296c4422c242e38d6d22f37ee2ae539baad7dd52c4c546ae3efacd7bea9",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/vologda-finance-page-table-4.xlsx",
+      "bytes": 51584,
+      "sha256": "04f6271a9e29307f98823b85195bb23b4f8b972287f296ea9626a7995ee74a4a",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/vologda-finance-page.html",
+      "bytes": 843260,
+      "sha256": "ea6cfd3ac7be88b85931449bfafc81c4f31c8055d9c10cd4cae9cb8eaeab8e0e",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/raw/vologda-finance-page.metadata.json",
+      "bytes": 630,
+      "sha256": "abd02b172f44613e98ac52448d43f783929db084709fe8d1216281696ec45735",
+      "purpose": "immutable public source body or capture metadata"
+    },
+    {
+      "path": "work/data-round3/sme/fetch_plan.json",
+      "bytes": 11332,
+      "sha256": "08f2e1149ff48b97fb905e257d74f8994cb5a0e62f15a60cbfdf72638aa021a2",
+      "purpose": "reviewed request plan or offline audit annotations"
+    },
+    {
+      "path": "work/data-round3/sme/finalize_audit.py",
+      "bytes": 10654,
+      "sha256": "0a2c76a986380844975f4ee5794182f6832d24237234bebdb2a1c7a66c5d62fd",
+      "purpose": "reviewed request plan or offline audit annotations"
+    }
+  ],
+  "files": 71,
+  "bytes": 9317307,
+  "excluded": "initial navigation probe duplicates; no credentials, browser state, or large registry body"
+}

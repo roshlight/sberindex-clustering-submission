@@ -1,0 +1,221 @@
+{
+  "grain": "one territory_id/year; source cohort includes 2016 municipalities in each year",
+  "source_scope": "organizational average annual workers, excluding small enterprises",
+  "section_features": {
+    "sector_A_share": {
+      "canonical_section": "A",
+      "label": "Сельское, лесное хозяйство, охота, рыболовство и рыбоводство",
+      "source_activity_key": "10000",
+      "formula": "observed 8423005 section / observed 8423005 total101 in same ID/year",
+      "validity": "finite numerator>=0, finite official total>0, numerator<=total",
+      "missing": "not offered, not returned, unresolved marker or invalid ratio; never0",
+      "selected_for_model": true
+    },
+    "sector_B_share": {
+      "canonical_section": "B",
+      "label": "Добыча полезных ископаемых",
+      "source_activity_key": "50000",
+      "formula": "observed 8423005 section / observed 8423005 total101 in same ID/year",
+      "validity": "finite numerator>=0, finite official total>0, numerator<=total",
+      "missing": "not offered, not returned, unresolved marker or invalid ratio; never0",
+      "selected_for_model": true
+    },
+    "sector_C_share": {
+      "canonical_section": "C",
+      "label": "Обрабатывающие производства",
+      "source_activity_key": "20000",
+      "formula": "observed 8423005 section / observed 8423005 total101 in same ID/year",
+      "validity": "finite numerator>=0, finite official total>0, numerator<=total",
+      "missing": "not offered, not returned, unresolved marker or invalid ratio; never0",
+      "selected_for_model": true
+    },
+    "sector_D_share": {
+      "canonical_section": "D",
+      "label": "Электричество, газ, пар и кондиционирование воздуха",
+      "source_activity_key": "30000",
+      "formula": "observed 8423005 section / observed 8423005 total101 in same ID/year",
+      "validity": "finite numerator>=0, finite official total>0, numerator<=total",
+      "missing": "not offered, not returned, unresolved marker or invalid ratio; never0",
+      "selected_for_model": true
+    },
+    "sector_E_share": {
+      "canonical_section": "E",
+      "label": "Водоснабжение, отходы и ликвидация загрязнений",
+      "source_activity_key": "40000",
+      "formula": "observed 8423005 section / observed 8423005 total101 in same ID/year",
+      "validity": "finite numerator>=0, finite official total>0, numerator<=total",
+      "missing": "not offered, not returned, unresolved marker or invalid ratio; never0",
+      "selected_for_model": false
+    },
+    "sector_F_share": {
+      "canonical_section": "F",
+      "label": "Строительство",
+      "source_activity_key": "41000",
+      "formula": "observed 8423005 section / observed 8423005 total101 in same ID/year",
+      "validity": "finite numerator>=0, finite official total>0, numerator<=total",
+      "missing": "not offered, not returned, unresolved marker or invalid ratio; never0",
+      "selected_for_model": false
+    },
+    "sector_G_share": {
+      "canonical_section": "G",
+      "label": "Оптовая и розничная торговля, ремонт автотранспорта",
+      "source_activity_key": "45000",
+      "formula": "observed 8423005 section / observed 8423005 total101 in same ID/year",
+      "validity": "finite numerator>=0, finite official total>0, numerator<=total",
+      "missing": "not offered, not returned, unresolved marker or invalid ratio; never0",
+      "selected_for_model": false
+    },
+    "sector_H_share": {
+      "canonical_section": "H",
+      "label": "Транспортировка и хранение",
+      "source_activity_key": "49000",
+      "formula": "observed 8423005 section / observed 8423005 total101 in same ID/year",
+      "validity": "finite numerator>=0, finite official total>0, numerator<=total",
+      "missing": "not offered, not returned, unresolved marker or invalid ratio; never0",
+      "selected_for_model": true
+    },
+    "sector_I_share": {
+      "canonical_section": "I",
+      "label": "Гостиницы и общественное питание",
+      "source_activity_key": "55000",
+      "formula": "observed 8423005 section / observed 8423005 total101 in same ID/year",
+      "validity": "finite numerator>=0, finite official total>0, numerator<=total",
+      "missing": "not offered, not returned, unresolved marker or invalid ratio; never0",
+      "selected_for_model": false
+    },
+    "sector_J_share": {
+      "canonical_section": "J",
+      "label": "Информация и связь",
+      "source_activity_key": "63000",
+      "formula": "observed 8423005 section / observed 8423005 total101 in same ID/year",
+      "validity": "finite numerator>=0, finite official total>0, numerator<=total",
+      "missing": "not offered, not returned, unresolved marker or invalid ratio; never0",
+      "selected_for_model": false
+    },
+    "sector_K_share": {
+      "canonical_section": "K",
+      "label": "Финансовая и страховая деятельность",
+      "source_activity_key": "60000",
+      "formula": "observed 8423005 section / observed 8423005 total101 in same ID/year",
+      "validity": "finite numerator>=0, finite official total>0, numerator<=total",
+      "missing": "not offered, not returned, unresolved marker or invalid ratio; never0",
+      "selected_for_model": false
+    },
+    "sector_L_share": {
+      "canonical_section": "L",
+      "label": "Операции с недвижимым имуществом",
+      "source_activity_key": "68000",
+      "formula": "observed 8423005 section / observed 8423005 total101 in same ID/year",
+      "validity": "finite numerator>=0, finite official total>0, numerator<=total",
+      "missing": "not offered, not returned, unresolved marker or invalid ratio; never0",
+      "selected_for_model": false
+    },
+    "sector_M_share": {
+      "canonical_section": "M",
+      "label": "Профессиональная, научная и техническая деятельность",
+      "source_activity_key": "70000",
+      "formula": "observed 8423005 section / observed 8423005 total101 in same ID/year",
+      "validity": "finite numerator>=0, finite official total>0, numerator<=total",
+      "missing": "not offered, not returned, unresolved marker or invalid ratio; never0",
+      "selected_for_model": false
+    },
+    "sector_N_share": {
+      "canonical_section": "N",
+      "label": "Административная деятельность и сопутствующие услуги",
+      "source_activity_key": "80000",
+      "formula": "observed 8423005 section / observed 8423005 total101 in same ID/year",
+      "validity": "finite numerator>=0, finite official total>0, numerator<=total",
+      "missing": "not offered, not returned, unresolved marker or invalid ratio; never0",
+      "selected_for_model": false
+    },
+    "sector_O_share": {
+      "canonical_section": "O",
+      "label": "Государственное управление, военная безопасность и социальное обеспечение",
+      "source_activity_key": "84000",
+      "formula": "observed 8423005 section / observed 8423005 total101 in same ID/year",
+      "validity": "finite numerator>=0, finite official total>0, numerator<=total",
+      "missing": "not offered, not returned, unresolved marker or invalid ratio; never0",
+      "selected_for_model": true
+    },
+    "sector_P_share": {
+      "canonical_section": "P",
+      "label": "Образование",
+      "source_activity_key": "85000",
+      "formula": "observed 8423005 section / observed 8423005 total101 in same ID/year",
+      "validity": "finite numerator>=0, finite official total>0, numerator<=total",
+      "missing": "not offered, not returned, unresolved marker or invalid ratio; never0",
+      "selected_for_model": true
+    },
+    "sector_Q_share": {
+      "canonical_section": "Q",
+      "label": "Здравоохранение и социальные услуги",
+      "source_activity_key": "86000",
+      "formula": "observed 8423005 section / observed 8423005 total101 in same ID/year",
+      "validity": "finite numerator>=0, finite official total>0, numerator<=total",
+      "missing": "not offered, not returned, unresolved marker or invalid ratio; never0",
+      "selected_for_model": true
+    },
+    "sector_R_share": {
+      "canonical_section": "R",
+      "label": "Культура, спорт, досуг и развлечения",
+      "source_activity_key": "90000",
+      "formula": "observed 8423005 section / observed 8423005 total101 in same ID/year",
+      "validity": "finite numerator>=0, finite official total>0, numerator<=total",
+      "missing": "not offered, not returned, unresolved marker or invalid ratio; never0",
+      "selected_for_model": false
+    },
+    "sector_S_share": {
+      "canonical_section": "S",
+      "label": "Прочие услуги",
+      "source_activity_key": "95000",
+      "formula": "observed 8423005 section / observed 8423005 total101 in same ID/year",
+      "validity": "finite numerator>=0, finite official total>0, numerator<=total",
+      "missing": "not offered, not returned, unresolved marker or invalid ratio; never0",
+      "selected_for_model": false
+    },
+    "sector_U_share": {
+      "canonical_section": "U",
+      "label": "Экстерриториальные организации и органы",
+      "source_activity_key": "73000",
+      "formula": "observed 8423005 section / observed 8423005 total101 in same ID/year",
+      "validity": "finite numerator>=0, finite official total>0, numerator<=total",
+      "missing": "not offered, not returned, unresolved marker or invalid ratio; never0",
+      "selected_for_model": false
+    }
+  },
+  "fields": {
+    "territory_id": "SberIndex internal identifier, joined exactly to frozen annual panel",
+    "year": "January-December observation year; source capture was in2026",
+    "official_oktmo_8": "same annual code verified on both input sides; retain leading zeros",
+    "workers_total_source": "published total101; people, not resident employment",
+    "workers_total_frozen_core": "previous core total, unchanged even when new total exists",
+    "newly_available_workers_total": "old total NULL and current source total available",
+    "n_offered_sectors": "number of non-total dimensions offered in source form, including U",
+    "n_observed_sectors": "number of non-total sections with observed numeric values",
+    "n_valid_sector_shares": "number of sections satisfying the individual ratio rules",
+    "n_exceeds_total_sectors": "number of individual observed numerators exceeding total",
+    "observed_workers_sum_diagnostic": "sum of observed section numerators only; no wages",
+    "observed_sum_over_official_total_diagnostic": "observed sum/total; no economic residual",
+    "observed_sum_exceeds_official_total": "nullable Boolean; NULL if ratio unavailable",
+    "n_selected_shares_available": "available share count among fixed A,B,C,D,H,O,P,Q",
+    "selected8_complete": "all eight shares available; not an eligibility override",
+    "core_eligible": "copied from frozen core, never recomputed from new source values",
+    "conservative_eligible": "copied from frozen core; includes original geography guards",
+    "calendar_review": "original core temporal review flag, not silently adjudicated here",
+    "source_temporal_review_required": "upstream sector candidate temporal flag",
+    "code_type_changed": "original annual code/type change flag;78municipalities",
+    "geography_status": "original conditional linkage status, not legal boundary proof",
+    "geographic_equivalence_confirmed": "all NULL: independent equivalence unconfirmed",
+    "workers_total_source_*": "SHA256, source CSV row and official request URL of denominator",
+    "region_code,region_name,municipal_district_name,municipal_district_type": "unchanged descriptors from frozen core; never used for joins"
+  },
+  "long_table_statuses": {
+    "valid": "ratio satisfies rules; explicit source zero remains zero",
+    "not_offered": "the section is absent from the source form",
+    "not_returned": "no cell returned for an offered section; not a zero",
+    "unresolved_source_marker": "source marker or blank could not be treated as numeric",
+    "invalid_total": "observed numerator but denominator is missing, nonfinite or<=0",
+    "invalid_numerator": "observed status but numeric cell is invalid; production audit rejects",
+    "exceeds_total": "numerator>official total; ratio excluded without clipping"
+  }
+}

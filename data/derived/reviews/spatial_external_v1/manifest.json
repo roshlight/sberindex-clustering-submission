@@ -1,0 +1,85 @@
+{
+  "status": "complete_H1_H2",
+  "config": {
+    "status": "exploratory_after_2024_results",
+    "method": "leiden_hellinger",
+    "months": [
+      "2024-06",
+      "2024-12"
+    ],
+    "samples": [
+      "all",
+      "no_attribute_change"
+    ],
+    "permutations": 999,
+    "seed": 190527,
+    "alpha": 0.05,
+    "minimum_id_coverage": 0.95,
+    "minimum_pair_coverage": 0.95,
+    "expected_cohort_size": 2016,
+    "road_type": "highway",
+    "distance_thresholds_km": [
+      100,
+      250,
+      500,
+      1000,
+      2000,
+      4000,
+      8000,
+      16000,
+      32000
+    ],
+    "road_statistic": "mean_km_among_available_unordered_same_group_pairs_equal_pair_weight",
+    "market_statistic": "between_group_sum_of_squares_divided_by_total_sum_of_squares_raw_index",
+    "null": "shuffle_cluster_labels_within_regions_of_each_complete_source_sample",
+    "multiplicity": "Holm_across_H1_H2_and_two_months_separately_for_each_sample",
+    "selection_note": "June and December fixed before this calculation; existing December results already known. No claim of preregistration or fresh holdout.",
+    "source_dates": {
+      "road": "2024-12-31",
+      "market_access": "2024",
+      "crosswalk": "2024-01-01"
+    },
+    "inputs": {
+      "data/raw/connection.parquet": "20cbd5213d3ac1d0a867f097b485431811614b283d7366eb5cba9f65dc80493d",
+      "reports/enrichment_v1/core_context/municipal_context_2024.parquet": "1a33be3593d0f6f3fb2e2ff53f687786294bedeb9ecb30a84bcc6eed4f92d1b4",
+      "reports/initial_study/assignments.parquet": "54f6c1f3c92a878a990c620e9fdb544ab6187f9ac0baea4bc5070d964e0ae6bc",
+      "data/derived/reviews/spatial_transitions_v1/territory_crosswalk.csv": "14adad093b9c946aad5f9b7b27ca891fc52a5395ab9c796c34a1cabf6e173587"
+    }
+  },
+  "config_sha256": "c10fcd8a3019638c1679b13d0c1d98aec029edefcb203ac25f5e0a3f3c4b652f",
+  "processor_sha256": "37942cc555fbe221fbb2b2b768f8c8875f265b5df1e923418bb7bc878cc64319",
+  "shared_helper_sha256": "259e88286ca84c0506bfe24ab989a6dc2685435bc2b81d78bcc67b18b0ccbc3d",
+  "road_audit": {
+    "highway_source_rows": 3303736,
+    "unordered_pairs": 3303736,
+    "consistent_reverse_rows_collapsed": 0
+  },
+  "source_type_counts": [
+    {
+      "type": "railway",
+      "n": 2638628
+    },
+    {
+      "type": "highway",
+      "n": 3303736
+    }
+  ],
+  "market_input_scope": "Previously audited exact-cohort subset, not a fresh full source download",
+  "network_requests": 0,
+  "run_id": "evaluation-20260914-v1",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "duckdb": "1.5.5"
+  },
+  "output_hashes": {
+    "spatial_checks.csv": "2f31737f034a97695902af6e0d24ee51ee50fc1d7633b78de7b1846e054df1bb",
+    "spatial_coverage.csv": "78468bd308dd6616d7c60d96954ab02601a778d9b5b68743fa87a3498345ef6b",
+    "missing_ids.csv": "b337392930af8552ab34e7394d0ab9197b293ab26de7081d3fbaa8c2a14d3c78",
+    "group_summary.csv": "d0b327c66364b24af91c22be9aa7984244c9c879718bb16897d0cfaf95dd1017",
+    "road_cdf.csv": "976220a203fef07b840c6435afc99e46f7084eef9ab52f536d918eb89f79e210",
+    "permutation_draws.csv": "09711a0a68c55219b504a3c75ee7cf3e9e848de312a480f84a3960c6a02aacb2",
+    "eligible_memberships.csv": "f4c79c182e00e1aa065c6339fc2ad1f41002c0a9a10b29a725a7b5073cce38e3"
+  }
+}

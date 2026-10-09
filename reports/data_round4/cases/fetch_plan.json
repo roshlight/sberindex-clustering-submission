@@ -1,0 +1,32 @@
+[
+  {
+    "source_id": "yakutia_publications",
+    "url": "https://14.rosstat.gov.ru/folder/39429",
+    "suffix": ".html",
+    "role": "official publication catalogue and dated version links"
+  },
+  {
+    "source_id": "yakutia_yearbook2025",
+    "url": "https://14.rosstat.gov.ru/storage/mediabank/Ежегодник%202025.pdf",
+    "suffix": ".pdf",
+    "role": "municipal retrospective investments, shipments and methodology; publication year2025"
+  },
+  {
+    "source_id": "yakutia_yearbook2023",
+    "url": "https://14.rosstat.gov.ru/storage/mediabank/Ежегодник_от%2023.10.2023_05_896604.pdf",
+    "suffix": ".pdf",
+    "role": "earlier municipal time-series version through2022"
+  },
+  {
+    "source_id": "yakutia_yearbook2024",
+    "url": "https://14.rosstat.gov.ru/storage/mediabank/Статистический%20ежегодник%20Республики%20Саха%20(Якутия).PDF",
+    "suffix": ".pdf",
+    "role": "2024 publication through2023; actual official catalogue link"
+  },
+  {
+    "source_id": "yakutia_yearbook2025_current",
+    "url": "https://14.rosstat.gov.ru/storage/mediabank/Ежегодник%202025_merged_removed_organized.pdf",
+    "suffix": ".pdf",
+    "role": "current catalogue version of2025 yearbook, compare to indexed URL; not independent measurement"
+  }
+]

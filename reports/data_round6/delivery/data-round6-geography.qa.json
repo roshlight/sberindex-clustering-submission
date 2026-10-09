@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "archive": "data-round6-geography.zip",
+  "archive_sha256": "c5b6e8c8d7279d61d2d01e438af0a19c4bd44498e6322cec22abb4a7455dea57",
+  "archive_bytes": 7085633,
+  "verified_files": 41,
+  "uncompressed_bytes": 73037797,
+  "allowlist_sha256": "c3c32880ded5a1c1c3b6997f412b3c3d7beb6fc39309b09243f4e72c8f8e0fcd",
+  "packager_sha256": "a9d5443b7d2817046bdf57a167a9ff839eaec18e95d84b07c96b4c6032827fbc",
+  "immutable_helper_sha256": "3f6e2a4eab351a7a40674d2b3ed9d060f15d248f911eaf37b0755ddfa286bb26",
+  "credential_scan_policy": "unchanged_regex_and_DHT_parser_with_exact_path_bound_exception",
+  "audited_exceptions_applied": 0,
+  "credential_scan_exceptions": []
+}

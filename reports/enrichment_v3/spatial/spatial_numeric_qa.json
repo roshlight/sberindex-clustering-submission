@@ -1,0 +1,55 @@
+{
+  "rows": 14424,
+  "numeric": 14305,
+  "null": 119,
+  "statistics": [
+    {
+      "indicator": "8006001",
+      "year": 2023,
+      "source_rows": 2014,
+      "numeric_values": 1996,
+      "numeric_zero_cells": 0,
+      "negative_cells": 0,
+      "candidate_ids_with_any_numeric_cell": 1996,
+      "candidate_ids_with_multiple_numeric_source_codes": 0
+    },
+    {
+      "indicator": "8006001",
+      "year": 2024,
+      "source_rows": 2005,
+      "numeric_values": 1977,
+      "numeric_zero_cells": 0,
+      "negative_cells": 0,
+      "candidate_ids_with_any_numeric_cell": 1977,
+      "candidate_ids_with_multiple_numeric_source_codes": 0
+    },
+    {
+      "indicator": "8006005",
+      "year": 2023,
+      "source_rows": 5215,
+      "numeric_values": 5163,
+      "numeric_zero_cells": 0,
+      "negative_cells": 0,
+      "candidate_ids_with_any_numeric_cell": 1742,
+      "candidate_ids_with_multiple_numeric_source_codes": 0
+    },
+    {
+      "indicator": "8006005",
+      "year": 2024,
+      "source_rows": 5190,
+      "numeric_values": 5169,
+      "numeric_zero_cells": 0,
+      "negative_cells": 0,
+      "candidate_ids_with_any_numeric_cell": 1744,
+      "candidate_ids_with_multiple_numeric_source_codes": 0
+    }
+  ],
+  "repeated_source_rows": 12,
+  "repeated_keys": 6,
+  "repeated_keys_with_conflicting_values": 0,
+  "area_both_years_positive_codes": 1899,
+  "area_ratio_outside_0_5_to_2_review_codes": 7,
+  "road_three_subtypes_complete_code_years_excluding_repeated_keys": 3358,
+  "road_nested_inequality_violations": 0,
+  "interpretation": "Diagnostics only: no numeric corrections, no geographic equivalence established, no outlier deletion."
+}

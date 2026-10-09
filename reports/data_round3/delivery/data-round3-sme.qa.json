@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "archive": "data-round3-sme.zip",
+  "archive_sha256": "7e821991055ff8be96b622f1888bd6f5462f3e666ea95a158b573bfe6527fcc1",
+  "archive_bytes": 2756108,
+  "verified_files": 71,
+  "uncompressed_bytes": 9317307,
+  "allowlist_sha256": "8a78f093564b95bdfc45ff097f27f106f451f3b6831119302aebaa401ce5fe32",
+  "packager_sha256": "5bbdd46528947d3ee96db825f6f337e3cd0e7391411b13fb3312833a4ebb5c6f"
+}

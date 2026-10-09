@@ -1,0 +1,3 @@
+1cc3c4e96a0dc7a4f4049207933ff9b033d873acd6327c2f6fc41c09e4f9274f  server-discovery-snapshots.zip
+83cc1b420e22fccc9e51af4f3b5441ea58202b767f49cce46a81ff3454993f7f  server-economy-snapshots.zip
+2b865d884e4f765fc1694054603ae1c1815879d7870efc219330236511bd47d6  local-context-snapshots.zip

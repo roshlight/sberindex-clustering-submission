@@ -1,0 +1,22 @@
+{
+  "status": "ready_with_conditions",
+  "rows": 276,
+  "numeric_rows": 276,
+  "by_variable": {
+    "food_sales_all_visible_activity": 78,
+    "resale_non_own_goods": 66,
+    "shipments_economic_activity": 66,
+    "shipments_pure_activity": 66
+  },
+  "municipality_years": 144,
+  "stavropol_documents": 66,
+  "pdf_docx_crosschecks": 33,
+  "old_panel_modified": false,
+  "missing_bdpmo_cells_filled": 0,
+  "conditions": [
+    "Operational publication differs from current BДПМО vintage; candidate is separate.",
+    "Food sales and resale of non-own goods are not total retail turnover.",
+    "Name links are candidates, not proof of historical boundary equivalence.",
+    "Source markers are retained, never coerced to zero."
+  ]
+}

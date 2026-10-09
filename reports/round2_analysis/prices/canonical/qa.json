@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checks": [
+    "region absorption",
+    "nuisance partial slope",
+    "idempotent within transform",
+    "ratio of means differs from median monthly ratios",
+    "actual SQL rejects changed city code, changed source code, changed unit and zero",
+    "missing positive month stays 11/12; no annual imputation"
+  ],
+  "frozen_price_manifest_outputs_verified": true,
+  "raw_XML_prior_audit": "3836682 cells PASS; no new extraction or source revisions",
+  "no_forbidden_temporal_or_january_pairs": true,
+  "unique_annual_and_product_keys": true,
+  "strict_positive_pairs_only": true,
+  "exact_full_product_labels_unchanged": true
+}

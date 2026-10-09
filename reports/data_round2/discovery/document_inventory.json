@@ -1,0 +1,2772 @@
+[
+  {
+    "source_id": "00b739348b97b07a87d1",
+    "url": "[rejected-url]",
+    "title": " XLSX",
+    "need_ids": [
+      "r2_commuting"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "ccc09949b10655300159"
+    ],
+    "fetched_at": "2026-09-15T09:23:34.708590+00:00",
+    "final_url": null,
+    "status": null,
+    "content_type": null,
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": null,
+    "error": "blocked_url"
+  },
+  {
+    "source_id": "016bf070aa26e05cbafe",
+    "url": "[rejected-url]",
+    "title": " XLSX",
+    "need_ids": [
+      "r2_commuting"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "ccc09949b10655300159"
+    ],
+    "fetched_at": "2026-09-15T09:23:34.708846+00:00",
+    "final_url": null,
+    "status": null,
+    "content_type": null,
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": null,
+    "error": "blocked_url"
+  },
+  {
+    "source_id": "017839e9617149687b30",
+    "url": "https://rosstat.gov.ru/storage/mediabank/ind_vtor_4kv-2022.xlsx",
+    "title": " XLSX",
+    "need_ids": [
+      "r2_city_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-15T09:23:35.957613+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/ind_vtor_4kv-2022.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "ec8fed8a5d0e4ac50781cdd8966a9ef6331a24273b727890610010fbca4c1cd9",
+    "error": null,
+    "raw_file": "raw/017839e9617149687b30.bin",
+    "raw_bytes": 78679,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/017839e9617149687b30.txt",
+    "text_sha256": "085da790e65b2be48e5e8375caad31be357e2cac5801ffab46439a017dde8baa",
+    "text_chars": 13219
+  },
+  {
+    "source_id": "01bc107570a69fea930c",
+    "url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2024.xlsx",
+    "title": "на 1 января 2024 года",
+    "need_ids": [
+      "r2_sector"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "d760dce12fe8a045486e"
+    ],
+    "fetched_at": "2026-09-15T09:23:35.896907+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2024.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "62ec8010202bd0c496387dbe6a22c9c3c458afa6fa64c6db1a2339f2824ffea3",
+    "error": null,
+    "raw_file": "raw/01bc107570a69fea930c.bin",
+    "raw_bytes": 21817,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/01bc107570a69fea930c.txt",
+    "text_sha256": "5ef9554212f6fd4132e81c3d742be4feadc4ede0fd2da16a87650488ff9bc85e",
+    "text_chars": 2894
+  },
+  {
+    "source_id": "02186dbaa2945bb4804f",
+    "url": "https://rosstat.gov.ru/storage/mediabank/OKFS.rar",
+    "title": " RAR",
+    "need_ids": [
+      "r2_boundaries"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fa4040e377d4b82f748c"
+    ],
+    "fetched_at": "2026-09-15T09:23:37.049921+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/OKFS.rar",
+    "status": 200,
+    "content_type": "application/x-rar-compressed",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "4efed5fe81d8f919dee5951222188f0bbb26e174a68317131381cee065653d73",
+    "error": null,
+    "raw_file": "raw/02186dbaa2945bb4804f.bin",
+    "raw_bytes": 36066,
+    "kind": "binary",
+    "links": [],
+    "truncated": false,
+    "text_file": "text/02186dbaa2945bb4804f.txt",
+    "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_chars": 0
+  },
+  {
+    "source_id": "024f93972a6850bc3282",
+    "url": "[rejected-url]",
+    "title": " XLSX",
+    "need_ids": [
+      "r2_commuting"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "ccc09949b10655300159"
+    ],
+    "fetched_at": "2026-09-15T09:23:35.984340+00:00",
+    "final_url": null,
+    "status": null,
+    "content_type": null,
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": null,
+    "error": "blocked_url"
+  },
+  {
+    "source_id": "029ad361282bd037140c",
+    "url": "https://77.rosstat.gov.ru/storage/mediabank/%D1%82%D0%BE%D0%BC%2010.%20%D0%A2%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0%201.%20%D0%9C%D0%9E.xlsx",
+    "title": "Таблица 1. Население частных домохозяйств по возрастным группам, полу и статусу участия в составе рабочей силы",
+    "need_ids": [
+      "r2_commuting"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "12108304a931ef59c4bf"
+    ],
+    "fetched_at": "2026-09-15T09:23:36.829484+00:00",
+    "final_url": "https://77.rosstat.gov.ru/storage/mediabank/%D1%82%D0%BE%D0%BC%2010.%20%D0%A2%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0%201.%20%D0%9C%D0%9E.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "a3b1b166f59253903132c5c20e74bb924499a325350493ae783ba4191a94e9b3",
+    "error": null,
+    "raw_file": "raw/029ad361282bd037140c.bin",
+    "raw_bytes": 28543,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/029ad361282bd037140c.txt",
+    "text_sha256": "28d7a36a09a8e6920475670855dab2ecf5ff26899bf5a4550d8a86f832936293",
+    "text_chars": 1704
+  },
+  {
+    "source_id": "02bfd17c81d8a3ffee51",
+    "url": "[rejected-url]",
+    "title": " XLSX",
+    "need_ids": [
+      "r2_commuting"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "ccc09949b10655300159"
+    ],
+    "fetched_at": "2026-09-15T09:23:36.837664+00:00",
+    "final_url": null,
+    "status": null,
+    "content_type": null,
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": null,
+    "error": "blocked_url"
+  },
+  {
+    "source_id": "0371aec496a1a90faf84",
+    "url": "[rejected-url]",
+    "title": " XLSX",
+    "need_ids": [
+      "r2_commuting"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "ccc09949b10655300159"
+    ],
+    "fetched_at": "2026-09-15T09:23:36.838061+00:00",
+    "final_url": null,
+    "status": null,
+    "content_type": null,
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": null,
+    "error": "blocked_url"
+  },
+  {
+    "source_id": "039d85e1a85cc9ff226b",
+    "url": "[rejected-url]",
+    "title": " XLSX",
+    "need_ids": [
+      "r2_commuting"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "ccc09949b10655300159"
+    ],
+    "fetched_at": "2026-09-15T09:23:36.838372+00:00",
+    "final_url": null,
+    "status": null,
+    "content_type": null,
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": null,
+    "error": "blocked_url"
+  },
+  {
+    "source_id": "03e2625834abd259be11",
+    "url": "https://77.rosstat.gov.ru/storage/mediabank/%D1%82%D0%BE%D0%BC%205.%20%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B%20%D1%84%D0%BE%D1%80%D0%BC%20%D0%BF%D0%B5%D1%80%D0%B5%D0%BF%D0%B8%D1%81%D0%BD%D1%8B%D1%85%20%D0%BB%D0%B8%D1%81%D1%82%D0%BE%D0%B2.pdf",
+    "title": "Образцы форм переписных листов",
+    "need_ids": [
+      "r2_commuting"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "12108304a931ef59c4bf"
+    ],
+    "fetched_at": "2026-09-15T09:23:37.650704+00:00",
+    "final_url": "https://77.rosstat.gov.ru/storage/mediabank/%D1%82%D0%BE%D0%BC%205.%20%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B%20%D1%84%D0%BE%D1%80%D0%BC%20%D0%BF%D0%B5%D1%80%D0%B5%D0%BF%D0%B8%D1%81%D0%BD%D1%8B%D1%85%20%D0%BB%D0%B8%D1%81%D1%82%D0%BE%D0%B2.pdf",
+    "status": 200,
+    "content_type": "application/pdf",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "55c7280563f54ba9df43d3f5c5ff43c1604c7135879beefc1579a882da758c57",
+    "error": null,
+    "raw_file": "raw/03e2625834abd259be11.bin",
+    "raw_bytes": 541742,
+    "kind": "pdf",
+    "links": [],
+    "truncated": false,
+    "text_file": "text/03e2625834abd259be11.txt",
+    "text_sha256": "6ae070826a0e3915310eb2bcc7a0087f29f6d80820eeceb69c4f83eca71d404f",
+    "text_chars": 61
+  },
+  {
+    "source_id": "040fc85fd27629d59795",
+    "url": "[rejected-url]",
+    "title": " PDF",
+    "need_ids": [
+      "r2_commuting"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "ccc09949b10655300159"
+    ],
+    "fetched_at": "2026-09-15T09:23:37.051080+00:00",
+    "final_url": null,
+    "status": null,
+    "content_type": null,
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": null,
+    "error": "blocked_url"
+  },
+  {
+    "source_id": "12108304a931ef59c4bf",
+    "url": "https://77.rosstat.gov.ru/folder/210976",
+    "title": "Мосстат: итоги переписи",
+    "need_ids": [
+      "r2_commuting"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": true,
+    "authority_hint": "official",
+    "fetched_at": "2026-09-15T09:23:26.723988+00:00",
+    "final_url": "https://77.rosstat.gov.ru/folder/210976",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "bcf8f0ba4c5e1235be005da4c98b72d08b942e730d07ca35138f68bcf2a457ac",
+    "error": null,
+    "raw_file": "raw/12108304a931ef59c4bf.bin",
+    "raw_bytes": 829489,
+    "kind": "html",
+    "links": [
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/1qzaxqkl/3. Распоряжение Правительства РФ  № 2648-р от 08.11.2019_882293.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/Постановление от 19.12.2019 г. № 1608.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/Постановление от 27.06.2020 г.  № 943.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/wun5LnOJ/1. Постановление № 949 от 21.06.2021_882295.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/Постановление Правительства РФ о переносе ВПН № 1347 от 16.08.21_882291.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/Постановление от 07.07.2021 № 1126(1).pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/Приказ Росстата от 09.09.2019 № 512.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/Приказ Росстата от 30.01.2020 № 39(1).pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/Приказ Росстата ОМОП от 09.09.2021 № 549(1).pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/Таблица%201.%20Население%20по%20типам%20занимаемых%20жилых%20помещений(4).xlsx",
+        "label": "Таблица 1. Население, учтенное при Всероссийской переписи населения 2020 года"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%201.%20Таблица%202.xlsx",
+        "label": "Таблица 2. Изменение численности населения г. Москвы"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%201.%20Таблица%203.xlsx",
+        "label": "Таблица 3. Число муниципальных образований, внутригородских районов, округов города, межселенных территорий и населенных пунктов г. Москвы"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%201.%20Таблица%204.xlsx",
+        "label": "Таблица 4. Численность городского и сельского населения по полу г. Москвы"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%201.%20Таблица%205.xlsx",
+        "label": "Таблица 5. Численность населения г. Москвы, муниципальных образований, городских населенных пунктов, сельских населенных пунктов с населением 3000 человек и более"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%201.%20Таблица%206.xlsx",
+        "label": "Таблица 6. Группировка внутригородских районов по численности населения г. Москвы"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%201.%20Таблица%207.xlsx",
+        "label": "Таблица 7. Группировка муниципальных районов и муниципальных округов по численности населения г. Москвы"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%201.%20Таблица%208.xlsx",
+        "label": "Таблица 8. Группировка городских поселений муниципальных районов по численности населения г. Москвы"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%201.%20таблица%209.xlsx",
+        "label": "Таблица 9. Группировка сельских поселений муниципальных районов по численности населения г. Москвы"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%201.%20Таблица%2010.xlsx",
+        "label": "Таблица 10. Группировка городских населенных пунктов по численности населения г. Москвы"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%201.%20Таблица%2011.xlsx",
+        "label": "Таблица 11. Группировка сельских населенных пунктов по численности населения г. Москвы"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%201.%20Образцы%20форм%20переписных%20листов.pdf",
+        "label": "Образцы форм переписных листов"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%202.%20Таблица%201.xlsx",
+        "label": "Таблица 1. Население по возрасту и по полу"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%202.%20Таблица%202.xlsx",
+        "label": "Таблица 2. Население по возрастным группам и полу по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%202.%20Таблица%203.xlsx",
+        "label": "Таблица 3. Численность населения по основным возрастным группам по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%202.%20Таблица%204.xlsx",
+        "label": "Таблица 4. Демографическая нагрузка на население трудоспособного возраста по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%202.%20Таблица%205(1).xlsx",
+        "label": "Таблица 5. Население по возрасту, полу и состоянию в браке по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%202.%20Образцы%20форм%20переписных%20листов.pdf",
+        "label": "Образцы форм переписных листов"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%203.%20Таблица%201.xlsx",
+        "label": "Таблица 1. Население по возрасту, полу и уровню образования по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%203.%20Таблица%202.xlsx",
+        "label": "Таблица 2. Население, имеющее ученые степени, по возрастным группам и полу"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%203.%20Таблица%203.xlsx",
+        "label": "Таблица 3. Население, имеющее ученые степени, по возрастным группам и полу по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%203.%20Таблица%204.xlsx",
+        "label": "Таблица 4. Занятое население частных домохозяйств по возрастным группам, полу и уровню образования по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%203.%20Таблица%205.xlsx",
+        "label": "Таблица 5. Население, обучающееся по основным и дополнительным образовательным программам, полу и возрасту по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%203.%20Образцы%20форм%20переписных%20листов.pdf",
+        "label": "Образцы форм переписных листов"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%204.%20Таблица%201.xlsx",
+        "label": "Таблица 1. Население по гражданству и возрастным группам"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%204.%20Таблица%202.xlsx",
+        "label": "Таблица 2. Население по гражданству и возрастным группам по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%204.%20Таблица%203.xlsx",
+        "label": "Таблица 3. Население по гражданству и месту рождения"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%204.%20Таблица%204.xlsx",
+        "label": "Таблица 4. Население по гражданству и месту рождения по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%204.%20Образцы%20форм%20переписных%20листов.pdf",
+        "label": "Образцы форм переписных листов"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%201.xlsx",
+        "label": "Таблица 1. Национальный состав населения"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%202(1).xlsx",
+        "label": "Таблица 2. Состав группы населения, указавшие другие ответы о национальной принадлежности"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%203.xlsx",
+        "label": "Таблица 3. Население по национальной принадлежности, владению русским языком и его использованию"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%204.xlsx",
+        "label": "Таблица 4. Владение языками и использование языков населением"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%205.xlsx",
+        "label": "Таблица 5. Владение языками населением наиболее многочисленных национальностей"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%206.xlsx",
+        "label": "Таблица 6. Население по родному языку"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%207.xlsx",
+        "label": "Таблица 7. Население наиболее многочисленных национальностей по родному языку"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%208.xlsx",
+        "label": "Таблица 8. Население наиболее многочисленных национальностей по возрастным группам и полу"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%209.xlsx",
+        "label": "Таблица 9. Население наиболее многочисленных национальностей по возрастным группам, полу и состоянию в браке"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%2010.xlsx",
+        "label": "Таблица 10. Население наиболее многочисленных национальностей по возрастным группам, полу и уровню образования"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%2011.xlsx",
+        "label": "Таблица 11. Население наиболее многочисленных национальностей по возрастным группам, полу и источникам средств к существованию"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%2012.xlsx",
+        "label": "Таблица 12. Владение языками населением разных возрастных групп"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%2013.xlsx",
+        "label": "Таблица 13. Частные домохозяйства, состоящие из двух и более человек, по национальной однородности членов и размеру домохозяйства"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%2014.xlsx",
+        "label": "Таблица 14. Женщины наиболее многочисленных национальностей по национальной принадлежности, возрастным группам и числу рожденных детей"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%2015.xlsx",
+        "label": "Таблица 15. Женщины наиболее многочисленных национальностей по национальной принадлежности, уровню образования и числу рожденных детей"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%2016.xlsx",
+        "label": "Таблица 16. Женщины наиболее многочисленных национальностей по возрасту, в котором родили первого ребенка"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Образцы%20форм%20переписных%20листов.pdf",
+        "label": "Образцы форм переписных листов"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%206.%20Таблица%201.xlsx",
+        "label": "Таблица 1. Население по месту рождения и месту проживания"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%206.%20Таблица%202.xlsx",
+        "label": "Таблица 2. Население частных домохозяйств по продолжительности проживания в месте постоянного жительства, полу, возрастным группам по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%206.%20Таблица%203.xlsx",
+        "label": "Таблица 3. Население частных домохозяйств по месту постоянного жительства и проживанию более одного года в других странах"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%206.%20Таблица%204.xlsx",
+        "label": "Таблица 4. Население частных домохозяйств по проживанию более 1 года в других странах и году прибытия на территорию г. Москвы"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%206.%20Таблица%205.xls",
+        "label": "Таблица 5. Население частных домохозяйств по месту проживания, возрастным группам и месту регистрации по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%206.%20Таблица%206.xlsx",
+        "label": "Таблица 6. Занятое население частных домохозяйств в возрасте 15 лет и более по месту проживания и месту регистрации"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%206.%20Таблица%207.xlsx",
+        "label": "Таблица 7. Население, временно находившееся на территории г. Москвы, по стране постоянного проживания и цели приезда в г. Москву"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%206.%20Таблица%208.xlsx",
+        "label": "Таблица 8. Население, временно находившееся на территории г. Москвы, по стране постоянного проживания и цели приезда в г. Москву по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%206.%20Таблица%209.xlsx",
+        "label": "Таблица 9. Население, временно находившееся на территории г. Москвы, по стране постоянного проживания и возрастным группам"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%206.%20Таблица%2010.xlsx",
+        "label": "Таблица 10. Население, временно находившееся на территории г. Москвы с целью работы, учебы или частной поездки, по стране постоянного проживания и гражданству"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%206.%20Образцы%20форм%20переписных%20листов.pdf",
+        "label": "Образцы форм переписных листов"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%207.%20Таблица%201.xlsx",
+        "label": "Таблица 1. Население по возрастным группам, полу и источникам средств к существованию"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%207.%20Таблица%202.xlsx",
+        "label": "Таблица 2. Население по возрастным группам, полу и источникам средств к существованию по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%207.%20Таблица%203.xlsx",
+        "label": "Таблица 3. Население по основному источнику средств к существованию, возрастным группам и полу"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%207.%20Таблица%204.xlsx",
+        "label": "Таблица 4. Население по основному источнику средств к существованию, возрастным группам и полу по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%207.%20Образцы%20форм%20переписных%20листов.pdf",
+        "label": "Образцы форм переписных листов"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Таблица%201.xlsx",
+        "label": "Таблица 1. Население частных и коллективных домохозяйств, домохозяйств бездомных"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Таблица%202.xlsx",
+        "label": "Таблица 2. Частные домохозяйства по размеру домохозяйства"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Таблица%203.xlsx",
+        "label": "Таблица 3. Частные домохозяйства, состоящие из двух и более человек, по типам, размеру домохозяйства и числу детей моложе 18 лет"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Таблица%204.xlsx",
+        "label": "Таблица 4. Частные домохозяйства, состоящие из двух и более человек, по типам, размеру домохозяйства и числу детей моложе 18 лет по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Таблица%205.xlsx",
+        "label": "Таблица 5. Частные домохозяйства, состоящие из двух и более человек, по числу занятых в возрасте 15 лет и более и числу иждивенцев"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Таблица%206.xlsx",
+        "label": "Таблица 6. Частные домохозяйства, состоящие из двух и более человек, по числу занятых в возрасте 15 лет и более и числу иждивенцев по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Таблица%207.xlsx",
+        "label": "Таблица 7. Население частных домохозяйств, состоящих из одного человека, по основному источнику средств к существованию и возрастным группам"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/8.%20%20Семейные%20ячейки,%20входящие%20в%20состав%20частных%20домохозяйств,%20по%20размеру%20и%20числу%20детей%20моложе%2018%20лет.xlsx",
+        "label": "Таблица 8. Семейные ячейки, входящие в состав частных домохозяйств, по размеру и числу детей моложе 18 лет"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Таблица%209.xlsx",
+        "label": "Таблица 9. Семейные ячейки, входящие в состав частных домохозяйств, по размеру и числу детей моложе 18 лет по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Таблица%2010.xlsx",
+        "label": "Таблица 10. Семейные ячейки, входящие в состав частных домохозяйств, где взрослые моложе 35 лет, по размеру и числу детей моложе 18 лет"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Таблица%2011.xlsx",
+        "label": "Таблица 11. Семейные ячейки, входящие в состав частных домохозяйств, где взрослые моложе 35 лет, по размеру и числу детей моложе 18 лет по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Таблица%2012.xlsx",
+        "label": "Таблица 12. Семейные ячейки, входящие в состав частных домохозяйств, по возрастным группам детей"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Таблица%2013.xlsx",
+        "label": "Таблица 13. Население коллективных домохозяйств и домохозяйств бездомных по полу и возрастным группам"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Образцы%20форм%20переписных%20листов.pdf",
+        "label": "Образцы форм переписных листов"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%209.%20Таблица%201.xlsx",
+        "label": "Таблица 1. Женщины, проживающие в частных домохозяйствах, по возрастным группам и числу рожденных детей по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%209.%20Таблица%202.xlsx",
+        "label": "Таблица 2. Занятые женщины, проживающие в частных домохозяйствах, по возрастным группам и числу рожденных детей по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%209.%20Таблица%203.xlsx",
+        "label": "Таблица 3. Состоящие в браке женщины, проживающие в частных домохозяйствах, по возрастным группам и числу рожденных детей по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%209.%20Таблица%204.xlsx",
+        "label": "Таблица 4. Женщины, проживающие в частных домохозяйствах, по возрастным группам и возрасту, в котором родили первого ребёнка по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%209.%20Таблица%205.xlsx",
+        "label": "Таблица 5. Среднее число рожденных детей женщинами, проживающими в частных домохозяйствах, имеющим различный уровень образования (на 1000 женщин соответствующего возраста и уровня образования, указавш"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%209.%20Образцы%20форм%20переписных%20листов.pdf",
+        "label": "Образцы форм переписных листов"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Таблица%201.xlsx",
+        "label": "Таблица 1. Население частных домохозяйств по возрастным группам, полу и статусу участия в составе рабочей силы"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Таблица%202.xlsx",
+        "label": "Таблица 2. Население частных домохозяйств по возрастным группам, полу и статусу участия в составе рабочей силы по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Таблица%203.xlsx",
+        "label": "Таблица 3. Население частных домохозяйств по полу, статусу участия в составе рабочей силы и уровню образования"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Таблица%204.xlsx",
+        "label": "Таблица 4. Население частных домохозяйств по полу, статусу участия в составе рабочей силы и уровню образования по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Таблица%205.xlsx",
+        "label": "Таблица 5. Потенциальная рабочая сила по причинам неучастия в составе рабочей силы"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Таблица%206.xlsx",
+        "label": "Таблица 6. Потенциальная рабочая сила по причинам неучастия в составе рабочей силы по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Таблица%207.xlsx",
+        "label": "Таблица 7. Занятое население частных домохозяйств по полу, возрастным группам и статусу занятости"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Таблица%208.xlsx",
+        "label": "Таблица 8. Занятое население частных домохозяйств по полу, возрастным группам и статусу занятости по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Таблица%209.xlsx",
+        "label": "Таблица 9. Занятое население частных домохозяйств по территориям нахождения работы и статусу занятости"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Таблица%2010.xlsx",
+        "label": "Таблица 10. Занятое население частных домохозяйств, работающее за пределами своего населенного пункта, по территории нахождения работы и периодичности выезда на работу"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Образцы%20форм%20переписных%20листов.pdf",
+        "label": "Образцы форм переписных листов"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/Таблица%201.%20Население%20по%20типам%20занимаемых%20жилых%20помещений(5).xlsx",
+        "label": "Таблица 1. Население по типам занимаемых жилых помещений"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2011.%20Таблица%202.xlsx",
+        "label": "Таблица 2. Частные домохозяйства по типам занимаемых жилых помещений по размеру домохозяйства по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2011.%20Таблица%203.xlsx",
+        "label": "Таблица 3. Частные домохозяйства, проживающие в индивидуальных домах, отдельных и коммунальных квартирах, по числу занимаемых комнат и размеру домохозяйства по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2011.%20Таблица%204.xlsx",
+        "label": "Таблица 4. Население частных домохозяйств, проживающее в индивидуальных домах, отдельных и коммунальных квартирах, по времени постройки дома и материалу наружных стен по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2011.%20Таблица%205.xlsx",
+        "label": "Таблица 5. Обеспеченность частных домохозяйств, проживающих в индивидуальных домах, отдельных и коммунальных квартирах, различными видами благоустройства по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2011.%20Таблица%206.xlsx",
+        "label": "Таблица 6. Жилые помещения по их типам, числу комнат и числу проживающих в них частных домохозяйств по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2011.%20Таблица%207.xlsx",
+        "label": "Таблица 7. Частные домохозяйства по типам занимаемых жилых помещений и размеру общей площади индивидуального дома, квартиры по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2011.%20Образцы%20форм%20переписных%20листов.pdf",
+        "label": "Образцы форм переписных листов"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%201.%20Таблица%201.%20МО.xlsx",
+        "label": "Таблица 1. Население, учтенное при Всероссийской переписи населения 2020 года, по полу по Московской области"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%201.%20Таблица%202.%20МО.xlsx",
+        "label": "Таблица 2. Изменение численности населения Московской области"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%201.%20Таблица%203.%20МО.xlsx",
+        "label": "Таблица 3. Число муниципальных образований, внутригородских районов, округов города, межселенных территорий и населенных пунктов по муниципальным образованиям Московской области"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%201.%20Таблица%204.%20МО.xlsx",
+        "label": "Таблица 4. Численность городского и сельского населения по полу по муниципальным образованиям Московской области"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%201.%20Таблица%205.%20МО.xlsx",
+        "label": "Таблица 5. Численность населения Московской области, городских округов, городских населенных пунктов, сельских населенных пунктов с населением 3000 человек и более"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%201.%20Таблица%206.%20МО.xlsx",
+        "label": "Таблица 6. Группировка городских округов по численности населения по муниципальным образованиям Московской области"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%201.%20Таблица%207.%20МО.xlsx",
+        "label": "Таблица 7. Группировка муниципальных районов и муниципальных округов по численности населения Московской области"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%201.%20Таблица%208.%20МО.xlsx",
+        "label": "Таблица 8. Группировка городских поселений муниципальных районов по численности населения Московской области"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%201.%20Таблица%209.%20МО.xlsx",
+        "label": "Таблица 9. Группировка сельских поселений муниципальных районов по численности населения Московской области"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%201.%20Таблица%2010.%20МО.xlsx",
+        "label": "Таблица 10. Группировка городских населенных пунктов по численности населения по муниципальным образованиям Московской области"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%201.%20Таблица%2011.%20МО.xlsx",
+        "label": "Таблица 11. Группировка сельских населенных пунктов по численности населения по муниципальным образованиям Московской области"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%201.%20Образцы%20форм%20переписных%20листов.%20МО.pdf",
+        "label": "Образцы форм переписных листов"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%202.%20Таблица%201.%20МО.xlsx",
+        "label": "Таблица 1. Население по возрасту и по полу"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%202.%20Таблица%202.%20МО.xlsx",
+        "label": "Таблица 2. Население по возрастным группам и полу по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%202.%20Таблица%203.%20МО.xls",
+        "label": "Таблица 3. Численность населения по основным возрастным группам по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%202.%20Таблица%204.%20МО.xlsx",
+        "label": "Таблица 4. Демографическая нагрузка на население трудоспособного возраста по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%202.%20Таблица%205.%20МО(2).xlsx",
+        "label": "Таблица 5. Население по возрасту, полу и состоянию в браке по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%202.%20Образцы%20форм%20переписных%20листов.%20МО.pdf",
+        "label": "Образцы форм переписных листов"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%203.%20Таблица%201.%20МО.xlsx",
+        "label": "Таблица 1. Население по возрасту, полу и уровню образования по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%203.%20Таблица%202.%20МО.xlsx",
+        "label": "Таблица 2. Население, имеющее ученые степени, по возрастным группам и полу"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%203.%20Таблица%203.%20МО.xlsx",
+        "label": "Таблица 3. Население, имеющее ученые степени, по возрастным группам и полу по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%203.%20Таблица%204.%20МО.xlsx",
+        "label": "Таблица 4. Занятое население частных домохозяйств по возрастным группам, полу и уровню образования по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%203.%20Таблица%205.%20МО.xlsx",
+        "label": "Таблица 5. Население, обучающееся по основным и дополнительным образовательным программам, полу и возрасту по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%203.%20Образцы%20форм%20переписных%20листов.%20МО.pdf",
+        "label": "Образцы форм переписных листов"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%204.%20Таблица%201.%20МО.xlsx",
+        "label": "Таблица 1. Население по гражданству и возрастным группам"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%204.%20Таблица%202.%20МО.xlsx",
+        "label": "Таблица 2. Население по гражданству и возрастным группам по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%204.%20Таблица%203.%20МО.xlsx",
+        "label": "Таблица 3. Население по гражданству и месту рождения"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%204.%20Таблица%204.%20МО.xlsx",
+        "label": "Таблица 4. Население по гражданству и месту рождения по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%204.%20Образцы%20форм%20переписных%20листов.%20МО.pdf",
+        "label": "Образцы форм переписных листов"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%201.%20МО.xlsx",
+        "label": "Таблица 1. Национальный состав населения"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%202.%20МО.xlsx",
+        "label": "Таблица 2. Состав группы населения, указавшие другие ответы о национальной принадлежности"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/Таблица%203.(26).xlsx",
+        "label": "Таблица 3. Население по национальной принадлежности, владению русским языком и его использованию"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%204.%20МО.xlsx",
+        "label": "Таблица 4. Владение языками и использование языков населением"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%205.%20МО.xlsx",
+        "label": "Таблица 5. Владение языками населением наиболее многочисленных национальностей"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%206.%20МО.xlsx",
+        "label": "Таблица 6. Население по родному языку"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%207.%20МО.xlsx",
+        "label": "Таблица 7. Население наиболее многочисленных национальностей по родному языку"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%208.%20МО.xlsx",
+        "label": "Таблица 8. Население наиболее многочисленных национальностей по возрастным группам и полу"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%209.%20МО.xlsx",
+        "label": "Таблица 9. Население наиболее многочисленных национальностей по возрастным группам, полу и состоянию в браке"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%2010.%20МО.xlsx",
+        "label": "Таблица 10. Население наиболее многочисленных национальностей по возрастным группам, полу и уровню образования"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%2011.%20МО.xlsx",
+        "label": "Таблица 11. Население наиболее многочисленных национальностей по возрастным группам, полу и источникам средств к существованию"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%2012.%20МО.xlsx",
+        "label": "Таблица 12. Владение языками населением разных возрастных групп"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%2013.%20МО.xlsx",
+        "label": "Таблица 13. Частные домохозяйства, состоящие из двух и более человек, по национальной однородности членов и размеру домохозяйства"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%2014.%20МО.xlsx",
+        "label": "Таблица 14. Женщины наиболее многочисленных национальностей по национальной принадлежности, возрастным группам и числу рожденных детей"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%2015.%20МО.xlsx",
+        "label": "Таблица 15. Женщины наиболее многочисленных национальностей по национальной принадлежности, уровню образования и числу рожденных детей"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Таблица%2016.%20МО.xlsx",
+        "label": "Таблица 16. Женщины наиболее многочисленных национальностей по возрасту, в котором родили первого ребенка"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%205.%20Образцы%20форм%20переписных%20листов.%20МО.pdf",
+        "label": "Образцы форм переписных листов"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%206.%20Таблица%201.%20МО.xlsx",
+        "label": "Таблица 1. Население по месту рождения и месту проживания"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%206.%20Таблица%202.%20МО.xlsx",
+        "label": "Таблица 2. Население частных домохозяйств по продолжительности проживания в месте постоянного жительства, полу, возрастным группам по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%206.%20Таблица%203.%20МО.xlsx",
+        "label": "Таблица 3. Население частных домохозяйств по месту постоянного жительства и проживанию более одного года в других странах"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%206.%20Таблица%204.%20МО.xlsx",
+        "label": "Таблица 4. Население частных домохозяйств по проживанию более 1 года в других странах и году прибытия на территорию Московской области"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%206.%20Таблица%205.%20МО.xlsx",
+        "label": "Таблица 5. Население частных домохозяйств по месту проживания, возрастным группам и месту регистрации по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%206.%20Таблица%206.%20МО.xlsx",
+        "label": "Таблица 6. Занятое население частных домохозяйств в возрасте 15 лет и более по месту проживания и месту регистрации"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%206.%20Таблица%207.%20МО.xlsx",
+        "label": "Таблица 7. Население, временно находившееся на территории Московской области, по стране постоянного проживания и цели приезда в Московскую область"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%206.%20Таблица%208.%20МО.xlsx",
+        "label": "Таблица 8. Население, временно находившееся на территории Московской области, по стране постоянного проживания и цели приезда в Московскую область по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%206.%20Таблица%209.%20МО.xlsx",
+        "label": "Таблица 9. Население, временно находившееся на территории Московской области, по стране постоянного проживания и возрастным группам"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%206.%20Таблица%2010.%20МО.xlsx",
+        "label": "Таблица 10. Население, временно находившееся на территории Московской области с целью работы, учебы или частной поездки, по стране постоянного проживания и гражданству"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%206.%20Образцы%20форм%20переписных%20листов.%20МО.pdf",
+        "label": "Образцы форм переписных листов"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%207.%20Таблица%201.%20МО.xlsx",
+        "label": "Таблица 1. Население по возрастным группам, полу и источникам средств к существованию"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%207.%20Таблица%202.%20МО.xlsx",
+        "label": "Таблица 2. Население по возрастным группам, полу и источникам средств к существованию по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%207.%20Таблица%203.%20МО.xlsx",
+        "label": "Таблица 3. Население по основному источнику средств к существованию, возрастным группам и полу"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%207.%20Таблица%204.%20МО.xlsx",
+        "label": "Таблица 4. Население по основному источнику средств к существованию, возрастным группам и полу по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%207.%20Образцы%20форм%20переписных%20листов.%20МО.pdf",
+        "label": "Образцы форм переписных листов"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Таблица%201.%20МО.xlsx",
+        "label": "Таблица 1. Население частных и коллективных домохозяйств, домохозяйств бездомных"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Таблица%202.%20МО.xlsx",
+        "label": "Таблица 2. Частные домохозяйства по размеру домохозяйства"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Таблица%203.%20МО.xlsx",
+        "label": "Таблица 3. Частные домохозяйства, состоящие из двух и более человек, по типам, размеру домохозяйства и числу детей моложе 18 лет"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Таблица%204.%20МО.xlsx",
+        "label": "Таблица 4. Частные домохозяйства, состоящие из двух и более человек, по типам, размеру домохозяйства и числу детей моложе 18 лет по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Таблица%205.%20МО.xlsx",
+        "label": "Таблица 5. Частные домохозяйства, состоящие из двух и более человек, по числу занятых в возрасте 15 лет и более и числу иждивенцев"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Таблица%206.%20МО.xlsx",
+        "label": "Таблица 6. Частные домохозяйства, состоящие из двух и более человек, по числу занятых в возрасте 15 лет и более и числу иждивенцев по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Таблица%207.%20МО.xlsx",
+        "label": "Таблица 7. Население частных домохозяйств, состоящих из одного человека, по основному источнику средств к существованию и возрастным группам"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/8.%20%20Семейные%20ячейки,%20входящие%20в%20состав%20частных%20домохозяйств,%20по%20размеру%20и%20числу%20детей%20моложе%2018%20лет(1).xlsx",
+        "label": "Таблица 8. Семейные ячейки, входящие в состав частных домохозяйств, по размеру и числу детей моложе 18 лет"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Таблица%209.%20МО.xlsx",
+        "label": "Таблица 9. Семейные ячейки, входящие в состав частных домохозяйств, по размеру и числу детей моложе 18 лет по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Таблица%2010.%20МО.xlsx",
+        "label": "Таблица 10. Семейные ячейки, входящие в состав частных домохозяйств, где взрослые моложе 35 лет, по размеру и числу детей моложе 18 лет"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Таблица%2011.%20МО.xlsx",
+        "label": "Таблица 11. Семейные ячейки, входящие в состав частных домохозяйств, где взрослые моложе 35 лет, по размеру и числу детей моложе 18 лет по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Таблица%2012.%20МО.xlsx",
+        "label": "Таблица 12. Семейные ячейки, входящие в состав частных домохозяйств, по возрастным группам детей"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Таблица%2013.%20МО.xlsx",
+        "label": "Таблица 13. Население коллективных домохозяйств и домохозяйств бездомных по полу и возрастным группам"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%208.%20Образцы%20форм%20переписных%20листов.%20МО.pdf",
+        "label": "Образцы форм переписных листов"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%209.%20Таблица%201.%20МО.xlsx",
+        "label": "Таблица 1. Женщины, проживающие в частных домохозяйствах, по возрастным группам и числу рожденных детей по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%209.%20Таблица%202.%20МО.xlsx",
+        "label": "Таблица 2. Занятые женщины, проживающие в частных домохозяйствах, по возрастным группам и числу рожденных детей по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%209.%20Таблица%203.%20МО.xlsx",
+        "label": "Таблица 3. Состоящие в браке женщины, проживающие в частных домохозяйствах, по возрастным группам и числу рожденных детей по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%209.%20Таблица%204.%20МО.xlsx",
+        "label": "Таблица 4. Женщины, проживающие в частных домохозяйствах, по возрастным группам и возрасту, в котором родили первого ребёнка по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%209.%20Таблица%205.%20МО.xlsx",
+        "label": "Таблица 5. Среднее число рожденных детей женщинами, проживающими в частных домохозяйствах, имеющим различный уровень образования (на 1000 женщин соответствующего возраста и уровня образования, указавш"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%209.%20Образцы%20форм%20переписных%20листов.%20МО.pdf",
+        "label": "Образцы форм переписных листов"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Таблица%201.%20МО.xlsx",
+        "label": "Таблица 1. Население частных домохозяйств по возрастным группам, полу и статусу участия в составе рабочей силы"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Таблица%202.%20МО.xlsx",
+        "label": "Таблица 2. Население частных домохозяйств по возрастным группам, полу и статусу участия в составе рабочей силы по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Таблица%203.%20МО.xlsx",
+        "label": "Таблица 3. Население частных домохозяйств по полу, статусу участия в составе рабочей силы и уровню образования"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Таблица%204.%20МО.xlsx",
+        "label": "Таблица 4. Население частных домохозяйств по полу, статусу участия в составе рабочей силы и уровню образования по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Таблица%205.%20МО.xlsx",
+        "label": "Таблица 5. Потенциальная рабочая сила по причинам неучастия в составе рабочей силы"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Таблица%206.%20МО.xlsx",
+        "label": "Таблица 6. Потенциальная рабочая сила по причинам неучастия в составе рабочей силы по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Таблица%207.%20МО.xlsx",
+        "label": "Таблица 7. Занятое население частных домохозяйств по полу, возрастным группам и статусу занятости"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Таблица%208.%20МО.xlsx",
+        "label": "Таблица 8. Занятое население частных домохозяйств по полу, возрастным группам и статусу занятости по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Таблица%209.%20МО.xlsx",
+        "label": "Таблица 9. Занятое население частных домохозяйств по территориям нахождения работы и статусу занятости"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Таблица%2010.%20МО.xlsx",
+        "label": "Таблица 10. Занятое население частных домохозяйств, работающее за пределами своего населенного пункта, по территории нахождения работы и периодичности выезда на работу"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2010.%20Образцы%20форм%20переписных%20листов.%20МО.pdf",
+        "label": "Образцы форм переписных листов"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2011.%20Таблица%201.%20МО.xlsx",
+        "label": "Таблица 1. Население по типам занимаемых жилых помещений"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2011.%20Таблица%202.%20МО.xlsx",
+        "label": "Таблица 2. Частные домохозяйства по типам занимаемых жилых помещений по размеру домохозяйства по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2011.%20Таблица%203.%20МО.xlsx",
+        "label": "Таблица 3. Частные домохозяйства, проживающие в индивидуальных домах, отдельных и коммунальных квартирах, по числу занимаемых комнат и размеру домохозяйства по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2011.%20Таблица%204.%20МО.xlsx",
+        "label": "Таблица 4. Население частных домохозяйств, проживающее в индивидуальных домах, отдельных и коммунальных квартирах, по времени постройки дома и материалу наружных стен по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2011.%20Таблица%205.%20МО.xlsx",
+        "label": "Таблица 5. Обеспеченность частных домохозяйств, проживающих в индивидуальных домах, отдельных и коммунальных квартирах, различными видами благоустройства по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2011.%20Таблица%206.%20МО.xlsx",
+        "label": "Таблица 6. Жилые помещения по их типам, числу комнат и числу проживающих в них частных домохозяйств по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2011.%20Таблица%207.%20МО.xlsx",
+        "label": "Таблица 7. Частные домохозяйства по типам занимаемых жилых помещений и размеру общей площади индивидуального дома, квартиры по муниципальным образованиям"
+      },
+      {
+        "url": "https://77.rosstat.gov.ru/storage/mediabank/том%2011.%20Образцы%20форм%20переписных%20листов.%20МО.pdf",
+        "label": "Образцы форм переписных листов"
+      }
+    ],
+    "truncated": false,
+    "text_file": "text/12108304a931ef59c4bf.txt",
+    "text_sha256": "ed50d1dbe01aea9b7300ad9e1b4baeaa643827f74a1a8944c93fdbc10c856723",
+    "text_chars": 25998
+  },
+  {
+    "source_id": "4b94076c156359f43a11",
+    "url": "https://14.rosstat.gov.ru/folder/179476",
+    "title": "Якутия: итоги переписи",
+    "need_ids": [
+      "r2_commuting"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": true,
+    "authority_hint": "official",
+    "fetched_at": "2026-09-15T09:23:25.920692+00:00",
+    "final_url": "https://14.rosstat.gov.ru/folder/179476",
+    "status": null,
+    "content_type": null,
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": null,
+    "error": "fetch_network_error"
+  },
+  {
+    "source_id": "921065ac63b1d11c81ca",
+    "url": "https://28.rosstat.gov.ru/folder/64793",
+    "title": "Амурстат: итоги переписи",
+    "need_ids": [
+      "r2_commuting"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": true,
+    "authority_hint": "official",
+    "fetched_at": "2026-09-15T09:23:26.154127+00:00",
+    "final_url": "https://28.rosstat.gov.ru/folder/64793",
+    "status": null,
+    "content_type": null,
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": null,
+    "error": "fetch_network_error"
+  },
+  {
+    "source_id": "ccc09949b10655300159",
+    "url": "https://30.rosstat.gov.ru/vpn-2020",
+    "title": "Астрахань: итоги переписи",
+    "need_ids": [
+      "r2_commuting"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": true,
+    "authority_hint": "official",
+    "fetched_at": "2026-09-15T09:23:28.709378+00:00",
+    "final_url": "https://30.rosstat.gov.ru/vpn-2020",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "f8ab4f5d34cea01977a6d5b28f0715d9a0aaa1c9bbfd4c87bf08e1bdc09c18f8",
+    "error": null,
+    "raw_file": "raw/ccc09949b10655300159.bin",
+    "raw_bytes": 971327,
+    "kind": "html",
+    "links": [
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 1. Население, учтенное при Всероссийской переписи населения 2020 года(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 2. Изменение численности населения Астраханской области.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 3. Число муниципальных образований, внутригородских районов, округов города по Астраханской области.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 4. Численность городского и сельского населения Астраханской области по полу.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 5. Численность населения Астраханской области, муниципальных районов, городских и сельских поселений.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 6. Группировка городских округов Астраханской области по численности населения.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 7. Группировка муниципальных районов Астраханской области по численности населения.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 8. Группировка городских поселений муниципальных районов Астраханской области по численности населения.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 9. Группировка сельских поселений муниципальных районов Астраханской области по численности населения.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 10. Группировка городских населенных пунктов Астраханской области по численности населения.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 11. Группировка сельских населенных пунктов Астраханской области по численности населения.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 1. Население по возрасту и полу по Астраханской области.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/таблица 2. Население по возрастным группам и полу по муниципальным.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 3. Численность население по основным возрастным группам ЮФО.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 4. Демографическая нагрузка на население трудоспособного возраста ЮФО.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/таблица 5. Население Астраханской области по возрасту, полу и состоянию в браке.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/таблица 6. Численнолсть населения Астраханской области по году, месяцу рождения и полу.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/таблица 7. Численность населения Астраханской области по году рождения, возрасту и полу.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 1. Население по возрасту,полу и уровню образования.xls",
+        "label": " XLS"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 2. Население, имеющее ученые степени, по возрастным группам и полу Астраханской области.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 3. Население,имеющее ученые степени,по возрастным группам и полу полу по муницип.образованиям.xls",
+        "label": " XLS"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 4. Занятое население частных домохозяйств по возрастным группам,полу и уровню образования.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 5. Население, обучающееся по основным и доп.программам, полу и возрасту.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 1. Население по гражданству и возрастным группам по Астраханской области.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 2. Население по гражданству и возрастным группам по муниципальным образованиям.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 3. Население по гражданству и месту рождения по Астраханской области.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 4. Население Астраханской области по гражданству и месту рождения по муниципальным образованиям.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 1 Национальный состав населения по муниципальным образованиям.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 2 Состав группы населения указавшие другие ответы о национальной принадлежности (Все ответы).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 3 Население по национальной принадлежности, владению русским языком и его использованию в повседневной жизни (Все ответы).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 4 Владение языками населением Российской Федерации .xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 5 Население наиболее многочисленных национальностей по возрастным группам и полу (Все).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 6 Население наиболее многосисленных национальностей по возрастным группам, полу и состоянию в браке (Все население).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 7 Население наиболее многочисленных национальностей по возрастным группам, полу и уровню образования (Все).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 8  Население наиболее многочисленных национальностей по возрастным группам, полу и источникам средств к существованию (Все).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 9 Население наиболее многочисленных национальностей по возрастным группам.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 10 Занятое население частных домохозяйств наиболее многочисленных.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 11 Население частных домохозяйств наиболее многочисленных национальностей.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 12 Частные домохозяйства, состоящие из двух и более человек, по национальной принадлежности членов и размеру домохозяйства.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 13 Женщины наиболее многочисленных национальностей, по национальной принадлежности, возрастным группам и числу детей (Все).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 14 Женщины наиболее многочисленных национальностей по возрасту, в котором родили первого ребенка.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 15 Женщины наиболее многочисленных национальностей, по уровню образования и числу рожденных детей (Все).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 16 Население по родному языку.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 17 Население коренных малочисленных народов Российской Федерации по родному языку.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 18 Владение языками населением  коренных малочисленных народов  Российской Федерации.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 19 Население коренных малочисленных народов Российской Федерации.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 20 Население наиболее многочисленных национальностей, состоящее в браке, по национальной принадлежности супругов.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/1. Население по месту рождения и месту проживания на территории Российской Федерации по Южному Федеральному округу.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/1. Население по месту рождения и месту проживания на территории РФ по ЮФО.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/2. Население частных домохозяйств по продолжительности проживания в месте постоянного жительства.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/2. Население частных домохозяйств по продолж. проживания в месте пост. жит. полу, возраст. гр. по АО.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/3. Население частных домохозяйств по месту постоянного жительства и проживанию более 1 года по ЮФО.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/4. Население частных домохозяйств по проживанию более 1 года в других странах и году прибытия  на территорию Астраханской области.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/5. Население частных домохозяйств по месту проживания, возрастным группам и месту регистрации.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/6. Занятое население частных домохозяйств в возрасте 15 лет и более по месту проживания и месту регистрации по Южному Федеральному округу.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/7. Население, временно находившееся на территории Российской Федерации, по стране постоянного проживания и цели приезда в Россию.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/8. Население, временно находившееся на территории РФ  по стране постоянного проживания.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/9. Население, временно находившееся на территории Российской Федерации, по стране постоянного проживания и возрастным группам.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/10. Население, временно находившееся РФ, по стране постоянного проживания и возрастным группам по АО.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/11. Население, временно находившееся на территории АО, с целью работы, учебы, частной поездки.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/таблица 1. Население по возрастным группам, полу и источникам средств к существованию.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/таблица 2. Население по основному источнику средств к существованию, возрастным группам и полу.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/таблица 3. Население по полу и возрастным группам, указавшее один источник средств к существованию.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/таблица 4. Население, имеющее два источника к существованию, по полу и возрастным группам.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/8.2. Частные домохозяйства по размеру домохозяйства по субъектам Российской Федерации.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/8.3. Частные домохозяйства по размеру домохозяйства.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/8.4. Частные домохозяйства, состоящие из двух и более человек, по типам, размеру домохозяйства и числу детей моложе 18 лет .xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/8.5. Частные домохозяйства, состоящие из двух и более человек, по числу занятых в возрасте 15 лет и более и числу иждивенцев.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/8.6. Население частных домохозяйств, состоящих из одного человека, по основному источнику средств к существованию и возрастным группам.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/8.7. Население частных домохозяйств по полу и возрастным группам.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/8.9. Население коллективных домохозяйств по возрасту.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/8.10. Семейные ячейки, входящие в состав частных домохозяйств, по размеру и числу детей моложе 18 лет (Все семейные ячейки).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/8.10. Семейные ячейки, входящие в состав частных домохозяйств, по р.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/8.10. Семейные ячейки, входящие в состав частных домохозяйств, по.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/8.10. Семейные ячейки, входящие в состав частных домохозяйств.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/8.11. Семейные ячейки, входящие в состав частных домохозяйств, по возрастным группам детей (Все семейные ячейки).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/8.11. Семейные ячейки, входящие в состав частных домохозяйств, по возрастным группам детей (Матери с детьми).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/8.11. Семейные ячейки, входящие в состав частных домохозяйств, по возрастным группам детей (Отцы с детьми).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/8.11. Семейные ячейки, входящие в состав частных домохозяйств, по возрастным группам детей (Супружеские пары с детьми).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/8.12. Население коллективных домохозяйств и домохозяйств бездомных по полу и возрастным группам.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/1. Население частных и коллективных домохозяйств, домохозяйств бездомных по Южному федеральному округу.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/таблица 1.  Женщины, проживающие в частных домохозяйствах, по возрастным группам и числу рожденных детей по муниципальным образованиям.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/таблица 2.  Занятые женщины, проживающие в частных домохозяйствах, в котором родили первого ребенка.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/таблица 3.  Состоящие в браке женщины, прожив в частных дом, по возрастным групп и числу рожденных детей.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 4.  Женщины,проживающие в частных дом, по возрастным гр и возр,в котором родили первого ребенка.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/таблица 5.  Женщины, проживающие в частных домохозяйствах, по возрасту, уровню образования.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/10.01 Население частных домохозяйств по возрастным группам, полу и статусу участияя в составе рабочей силы (Частные).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/10.01 Население частных домохозяйств по возрастным группам, полу и статусу участияя в составе рабочей силы (Обучающиеся).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/10.02 Население частных домохозяйств в возрасте 15 лет и более  (Частные).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/10.02 Население частных домохозяйств в возрасте 15 лет и более (Обучающиеся).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/10.03 Потенциальная рабочая сила по причинам неучастия в составе рабочей силы.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/10.04 Занятое население частных домохозяйств по полу, возрастным группам и статусу занятости.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/10.05 Занятое население частных домохозяйств по территории нахождения работы и статусу занятости.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/10.06 Периодичность выезд (выхода) на работу занятого населения частных домохозяйств, работающего не по месту постоянного жительства.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/таблица 1. Населенние частных домохозяйств по возрастным гуппам, полу и статусу участия в составе рабочей силы.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 1. Население по типам занимаемых жилых помещений АО.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 2. Частные домохозяйства по типам занимаемых жилых помещений и размеру домохозяйства(2).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 3. Частные домохозяйства, проживающие в индивидуальных домах.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 4. Население частных домохозяйств, проживающее в индивидуальных домах(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 5. Обеспеченность частных домохозяйств, проживающих в индивидуальных домах.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 6. Жилые помещения по их типам, числу комнат и числу проживающих в них частных домохозяйств(2).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 7. Частные домохозяйства по типам занимаемых жилых помещений и размеру общей площади индивидуального дома, квартиры(2).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 1. Население, учтенное при Всероссийской переписи населения 2020 года(2).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 2. Изменение численности населения Республики Калмыкия.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 3. Число муниципальных образований, внутригородских районов, округов города, межселенных территорий и населенных пунктов по РК.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 4. Численность городского и сельского населения Республики Калмыкия по полу.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 5. Численность населения Республики Калмыкия, муниципальных районов, городских и сельских поселений.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 6. Группировка городских округов Республики Калмыкия по численности населения.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 7. Группировка муниципальных районов Республики Калмыкия по численности населения.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 8. Группировка городских поселений муниципальных районов Республики Калмыкия по численности.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 9. Группировка сельских поселений муниципальных районов Республики Калмыкия по численности населения.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 10. Группировка городских населенных пунктов Республики Калмыкия по численности населения.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 11. Группировка сельских населенных пунктов Республики Калмыкия по численности населения.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Образцы форм переписных листов ВПН-2020.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Образцы форм переписных листов ВПН-2020(1).pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 1. Население по возрасту и полу.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 2. Население по возрастным группам и полу в РК.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 3. Численность население по основным возрастным группам.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 4. Демографическая нагрузка на население трудоспособного возраста.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 5. Население по возрасту, полу и состоянию в браке по РК.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Образцы форм переписных листов ВПН-2020(2).pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 1. Население по возрасту, полу и уровню образование по Республике Калмыкия.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 2. Население, имеющее ученые степени, по возрастным группам и полу в РК.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 3. Население, имеющее ученые степени, по возрастным группам и полу по районам РК.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 4. Занятое население частных домохозяйств по возрастным группам, по и уровню образования в РК.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 5. Население, обучающееся по основным и доп образовательным программам, полу и возрасту по РК.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Образцы форм переписных листов ВПН-2020(3).pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 1. Население по гражданству и возрастным группам по РК(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 2. Население по гражданству и возрастным группам по РК в разрезе районов(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 3. Население по гражданству и месту рождения по Республике Калмыкия(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 4. Население по гражданству и месту рождения по РК в разрезе районов(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 5. Образцы форм переписных листов ВПН-2020.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 5. Таблица 1. Национальный состав населения(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 5. Таблица 2. Состав группы населения, указавшие другие ответы о национальной принадлежности.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 5. Таблица 3. Население по нац принадлежности, владению русским языком и его использованию.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 5. Таблица 4. Владение языками и использование языков населением.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 5. Таблица 5. Владение языками населением наиболее многочисленных национальностей.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 5. Таблица 6. Население по родному языку.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 5. Таблица 7. Население наиболее многочисленных национальностей по родному языку.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 5. Таблица 8. Население наиболее многочисленных национальностей по возрастным группам, полу.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 5. Таблица 9. Население наиболее многочисленных нац по возрастным группам, полу и состоянию в браке.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том5. Таблица 10. Население наиболее многочисленных нац по возрасту, полу и уровню образования(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 5. Таблица 11. Население наиболее многочисленных нац по возрасту, полу и источникам средств к существованию.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 5. Таблица 12. Владение языками  населением разных возрастных групп.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 5. Таблица 14. Женщины многочисленных нац-й по нац принадлежности, возрастным группам, числу рожденных детей.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 5. Таблица 13. Частные домохоза, состоящие из 2 и более человек по нац принадлежности членов и размеру домохоз.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 5. Таблица 15. Женщины многочисленных нац-и по нац принадлежности, по уровню обр и числу рожд-ых детей.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 5. Таблица 16. Женщины многочисленных нац по возрасту, в котором родили первого ребенка.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 17. Занятое население частных домохозяйств наиболее многочисленных национальностей.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 18. Население частных домохозяйств наиболее многочисленных национальностей.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 19 Население наиболее многочисленных национальностей, состоящее в браке, по национальной принадлежности супругов.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 6. Образцы форм переписных листов ВПН-2020.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 6. Таблица 1.(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 6. Таблица 2..xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 6. Таблица 3..xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 6. Таблица 4..xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 6. Таблица 5..xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 6. Таблица 6..xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 6. Таблица 7..xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 6. Таблица 8..xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 6. Таблица 9..xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 6. Таблица 10..xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 7. Образцы форм переписных листов ВПН-2020.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 7. Население по возрастным группам, полу и источникам средств к существованию.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 7. Население по основному источнику средств к существованию, возрастным группам и полу.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 7. Население по полу и возрастным группам, указавшее один источник средств к существованию.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Том 7. Население, имеющее два источника средств к существованию, по полу и возрастным группам..xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Образцы форм переписных листов ВПН-2020(5).pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 1. Население частных и коллективных домохозяйств, домохозяйств бездомных.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 2. Частные домохозяйства по размеру домохозяйства.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 3. Частные домохозяйства, состоящие из двух и более человек, по типам, размеру домохозяйства и числу детей моложе 18 лет(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 4. Частные домохозяйства, состоящие из двух и более человек, по числу занятых в возрасте 15 лет и более и числу иждивенцев(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 5. Население частных домохозяйств, из 1 человека, по основному источнику средств к существованию и возрастным группам.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 6.  Население частных домохозяйств по полу и возрастным группам.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 7. Население домохозяйств бездомных по возрастным группам.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 8. Население коллективных домохозяйств по возрасту.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 9. Семейные ячейки, входящие в состав частных домохозяйств, по размеру и числу детей до 18 лет.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 10. Семейные ячейки, входящие в состав частных домохозяйств, где взрослые до 35 лет, по размеру и числу детей до 18 лет.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 11. Семейные ячейки, входящие в состав частных домохозяйств, по возрастным группам детей.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 12. Население коллективных домохозяйств и домохозяйств бездомных по полу и возрастным группам.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Образцы форм переписных листов ВПН-2020(4).pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 1. Женщины, проживающие в частных домохозяйствах, по возрастным группам и числу рожденных детей.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 2. Занятые  женщины, проживающие в частных домохозяйствах, по возрастным группам и числу рожденных детей.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 3. Cостоящие в браке женщины, проживающие в частных домохозяйствах, по возрастным группам и числу рожденных детей.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 4. Женщины, проживающие в частных домохозяйствах, по возрастным группам и возрасту, в котором родили первого ребенка.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 5. Среднее число рожденных детей женщинами, проживающими в частных  домохозяйствах, имеющими различный уровень образования.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Образцы форм переписных листов ВПН-2020(6).pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 1. Население частных домохоз по возрастным группам, полу и статусу участия в составе раб силы (все).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 2. Население частных домохоз по возрастным группам, полу и статусу участия в составе раб силы (обучающиеся).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 3. Население частных домохозяйств в возрасте от 15 лет по полу, статусу участия в составе раб силы и уровню обр(все).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 4. Население частных домохоз в возрасте от 15 лет по полу, статусу участия в составе раб силы и уровню обр(обучающиеся)..xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 5. Потенциальная рабочая сила по причинам неучастия в составе рабочей силы.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 6. Занятое население частных домохозяйств по полу, возрастным группам и статусу занятости.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 7.  Занятое население частных домохозяйств по территории нахождения работы и статуса занятости.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 8.  Занятое население частных домохоз, за пределами населенного пункта, по территории работы и частоте выезда на работу.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Образцы форм переписных листов ВПН-2020(7).pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 1. Население по типам занимаемых жилых помещений.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 2. Частные домохозяйства по типам занимаемых жилых помещений и размеру домохозяйства(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 3. Частные домохоз-ва, проживающие в частных домах, отдельных и коммунальных кв., по числу комнат и размеру домохоз-в.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 4. Население частных домохоз, проживающее в частных домах, отдельных и коммунальных квартирах, по времени и материалу стен.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 5. Обеспеченность частных домохоз, проживающих в частных домах, отдельных и коммунальных квартирах, видами благоустройства.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 6. Жилые помещения по их типам, числу комнат и числу проживающих в них частных домохозяйств(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://30.rosstat.gov.ru/storage/mediabank/Таблица 7. Частные домохозяйства по типам занимаемых жилых помещений и размеру общей площади индивидуального дома, квартиры(1).xlsx",
+        "label": " XLSX"
+      }
+    ],
+    "truncated": false,
+    "text_file": "text/ccc09949b10655300159.txt",
+    "text_sha256": "a4da9132a09904b3491b50383719e4502d809c74a5974990d40faf6245082c86",
+    "text_chars": 31141
+  },
+  {
+    "source_id": "ced354d36c714e4850c5",
+    "url": "https://rosstat.gov.ru/vpn/2020/Tom10_Rabochaya_sila",
+    "title": "Росстат: ВПН-2020, том 10",
+    "need_ids": [
+      "r2_commuting"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": true,
+    "authority_hint": "official",
+    "fetched_at": "2026-09-15T09:23:27.770222+00:00",
+    "final_url": "https://rosstat.gov.ru/vpn/2020/Tom10_Rabochaya_sila",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "c54a58884a2c06170bcfefb5e8e2872a95d84ead2cb4bd1df0780ace811a7eb1",
+    "error": null,
+    "raw_file": "raw/ced354d36c714e4850c5.bin",
+    "raw_bytes": 748507,
+    "kind": "html",
+    "links": [
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Tom10_met_VPN-2020.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Tom10_tab1_VPN-2020.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Tom10_tab2_VPN-2020.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Tom10_tab3_VPN-2020.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Tom10_tab4_VPN-2020.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Tom10_tab5_VPN-2020.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Tom10_tab6_VPM-2020.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Tom10_tab7_VPN-2020.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Tom10_tab8_VPN-2020.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Tom10_tab9_VPN-2020.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Tom10_tab10_VPN-2020.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Tom10_Tab11_VPN-2020.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Tom10_tab12_VPN-2020.xlsx",
+        "label": " XLSX"
+      }
+    ],
+    "truncated": false,
+    "text_file": "text/ced354d36c714e4850c5.txt",
+    "text_sha256": "f551a7acc89d227c7144fa6f79662fadd2dfe4b8a5e8119ab94d1e774ad3c4fe",
+    "text_chars": 3722
+  },
+  {
+    "source_id": "d760dce12fe8a045486e",
+    "url": "https://rosstat.gov.ru/storage/mediabank/MUNST.htm",
+    "title": "БД ПМО: первичные формы",
+    "need_ids": [
+      "r2_sector"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": true,
+    "authority_hint": "official",
+    "fetched_at": "2026-09-15T09:23:28.924575+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/MUNST.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "a7e1d9dbb4973f7e8b988be3b7189b3ef9fbc447893a5f406d41fb146ab7c766",
+    "error": null,
+    "raw_file": "raw/d760dce12fe8a045486e.bin",
+    "raw_bytes": 24934,
+    "kind": "html",
+    "links": [
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2026.xlsx",
+        "label": "на 1 января 2026 года"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2025.xlsx",
+        "label": "на 1 января 2025 года"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2024.xlsx",
+        "label": "на 1 января 2024 года"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2023.xlsx",
+        "label": "на 1 января 2023 года"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2022.xlsx",
+        "label": "на 1 января 2022 года"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2021.xlsx",
+        "label": "на 1 января 2021 года"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2020.xlsx",
+        "label": "на 1 января 2020 года"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2019.xlsx",
+        "label": "на 1 января 2019 года"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2018.xls",
+        "label": "на 1 января 2018 года"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2017.xls",
+        "label": "на 1 января 2017 года"
+      }
+    ],
+    "truncated": false,
+    "text_file": "text/d760dce12fe8a045486e.txt",
+    "text_sha256": "15099a4da5c0f373c228f36b3ad4b16a0c5f7b75e91e6ecba36fc34ec25176e7",
+    "text_chars": 2638
+  },
+  {
+    "source_id": "fa4040e377d4b82f748c",
+    "url": "https://rosstat.gov.ru/classification",
+    "title": "Росстат: классификации",
+    "need_ids": [
+      "r2_boundaries"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": true,
+    "authority_hint": "official",
+    "fetched_at": "2026-09-15T09:23:34.223257+00:00",
+    "final_url": "https://rosstat.gov.ru/classification",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "37fd73489874ad76944ca84ab6f9f75abfa18c43db7bd7fb4bb0c21d2130e9c8",
+    "error": null,
+    "raw_file": "raw/fa4040e377d4b82f748c.bin",
+    "raw_bytes": 1245418,
+    "kind": "html",
+    "links": [
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/post1733-070619.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/OKOPF.rar",
+        "label": " RAR"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/okato.zip",
+        "label": " ZIP"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/okogu.rar",
+        "label": " RAR"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/OKOF.rar",
+        "label": " RAR"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/OKFS.rar",
+        "label": " RAR"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/OKVED2.rar",
+        "label": " RAR"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/OKPD2.rar",
+        "label": " RAR"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/pr1745_349420.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/OKFI.rar",
+        "label": " RAR"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/KIPC-IPC_Prikaz_86-26022026.pdf",
+        "label": " PDF"
+      }
+    ],
+    "truncated": false,
+    "text_file": "text/fa4040e377d4b82f748c.txt",
+    "text_sha256": "91d41518c112e01ef39a6f420423119cef0e9ec62dcab6505b39cd14199b045d",
+    "text_chars": 45199
+  },
+  {
+    "source_id": "fc864ee604119e8357ac",
+    "url": "https://rosstat.gov.ru/statistics/price",
+    "title": "Росстат: цены",
+    "need_ids": [
+      "r2_city_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": true,
+    "authority_hint": "official",
+    "fetched_at": "2026-09-15T09:23:29.681924+00:00",
+    "final_url": "https://rosstat.gov.ru/statistics/price",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "aaa9a6daaef3c65286cb0bbeebaf08f066535ec226743ed8210cf90dadff41a6",
+    "error": null,
+    "raw_file": "raw/fc864ee604119e8357ac.bin",
+    "raw_bytes": 882321,
+    "kind": "html",
+    "links": [
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Nedel_ipc.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ipc_RF_fo_sub_08-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ipc_mes_08-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ipc_s_1992-2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ipc_kv2_2005-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ipc-KIPC_2010-2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ipc_sub_2kv-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ipc_spr_08-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Opredeleniya_IPC.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Nedel_sred_cen.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_potreb_cen_08-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_potreb_cen_2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_potreb_cen_2024.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_potreb_cen_2023.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_potreb_cen_2022.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Potreb_cen_2021(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_potreb_cen_1991-2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Opredeleniya_potreb_ceny.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Opredeleniya_potreb_nabor.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/CPR_SUB_2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/CPR_Gr-Tov-RF_2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/CPR_Gr-Tov-RF_2001-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/CPR_tov_RF_2004-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Vesa-tov-KIPC_2012-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Opredeleniya_strukt_potreb_rasxodov.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/isg_2012-2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Opredeleniya_ind_stoim(1).pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Struktur_rozn_cen_2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Struktur_rozn_cen_2024.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Struktur_rozn_cen_2023.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Struktur_rozn_cen_2022.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2021(2).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2020(1)(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2019(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2018(1)(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2017(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2016(1)(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2015(1)(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2014(1)(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2013(1)(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2012(1)(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2011(1)(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2010(1)(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2009(1)(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2008(1)(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Opredeleniya_struktura rozn.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_perv_2kv-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_vtor_2kv-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_perv_4kv-2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_vtor_4kv-2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_perv_4kv-2024.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_vtor_4kv-2024.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_perv_4kv-2023.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_vtor_4kv-2023.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_perv_4kv-2022.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_vtor_4kv-2022.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_perv_2021 г..xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_vtor_2021.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/dinamika_1998-2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Opredeleniya_Ind_cen_zhilya.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_perv_2kv-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_vtor_2kv-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_perv_4kv-2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_vtor_4kv-2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_perv_4kv-2024.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_vtor_4kv-2024.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_perv_4kv-2023.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_vtor_4kv-2023.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_perv_4kv-2022_.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_vtor_4kv-2022_.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_perv_4kv-2021.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_vtor_4kv-2021.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/dinamika_sred_1998-2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Opredeleniya_sred_ceny_zhilya.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Nedvijimost_prodaja_Cena_2kv_2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Nedvijimost_arenda_Cena_2kv-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/osnovnye_ponyatiya_nedvijimost.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Proizvoditeli_Ind_VED_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Proizvoditeli_Ind_tov_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Proizvoditeli_Cena_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Proizvoditeli_Ind_VED_2kv-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/mu_ind_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/mu_cena_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/vesa_2006-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Osnovnye ponyatiya_ICP_promtovary.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_sx_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/cena_sx_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Ind_sx_vse_kategorii_1kv-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Cena_sx_vse_kategorii_1kv-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Osnovnye ponyatiya_ICP_selhozprodukcii.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Invest_ind_svodn_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Invest_ind_stroitel_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Invest_ind_oborud_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Invest_ind_prochie_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Grup_obyekt_ind_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Osnovnye_ponyatiya_stroitelnaya_produkciya.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Gruzovie_ind_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Osnovnye ponyatiya_gruzovye perevozki.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Tarif_Ind_2kv-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Tarif_Cena_2kv-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Osnovnye ponyatiya_uslugi svyazi.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Priobretenie_Ind_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Priobretenie_Cena_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Zerno_Ind_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Zerno_Cen_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Osnovnye ponyatiya_priobretenie.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Pri-cx-ind_2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Pri-cx-cen_2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Osnovnye_ponyatiya_godovoe_priobretenie.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Materialy_index_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Materialy_cena_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Osnovnye ponyatiya_stroitel'nye organizacii.pdf",
+        "label": " PDF"
+      }
+    ],
+    "truncated": false,
+    "text_file": "text/fc864ee604119e8357ac.txt",
+    "text_sha256": "dd594260c35579dec1c7682a4523e063e77dbf97656d4bece67b4cf1e9dc61aa",
+    "text_chars": 21491
+  }
+]

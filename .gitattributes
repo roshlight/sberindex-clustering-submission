@@ -1,0 +1,74 @@
+* text=auto eol=lf
+# Preserve byte hashes in delivered research payloads and the evaluation lock.
+reports/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Retain embedded source-label line breaks and spaces inside quoted CPI CSV fields.
+reports/enriched_analysis/prices/regional_cpi_chain.csv whitespace=-blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+configs/evaluation_lock.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Preserve the exact audited source bytes referenced by enrichment delivery manifests.
+scripts/build_enriched_examples.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+scripts/enriched_audit/audit_inputs.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+scripts/enriched_audit/coverage_details.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+scripts/enriched_audit/validate_core.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+*.parquet binary
+*.npz binary
+*.png binary
+*.svg binary
+*.zip binary
+# Keep source/config bytes used in second-round provenance hashes.
+configs/data_round2*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+enrichment/scripts/*round2* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Preserve source bytes referenced by the analysis manifests.
+configs/round2_analysis_v1.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+scripts/*round2* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Verbatim spreadsheet captions and PDF/DOCX extraction retain source whitespace.
+reports/data_round2/commuting/sheet_inventory.csv whitespace=-blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+reports/data_round2/commuting/source_text/*.txt whitespace=-blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+# Preserve the verified bytes of the third collection round.
+configs/data_round3*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+enrichment/scripts/*round3* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+enrichment/src/sber_enrichment/round3_economy.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Preserve bytes referenced by third-round analytical manifests.
+configs/round3_analysis*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+scripts/*round3* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Preserve exact fourth-round collector, verifier, and configuration bytes.
+configs/data_round4*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+enrichment/scripts/*round4* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+enrichment/src/sber_enrichment/round4_economy.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+enrichment/tests/*round4* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Preserve code and protocol bytes used by fourth-round analytical evidence.
+configs/round4_analysis*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+scripts/*round4* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+tests/*round4* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Preserve exact source/configuration bytes referenced by fifth-round evidence.
+configs/data_round5*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+enrichment/scripts/*round5* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+enrichment/src/sber_enrichment/round5_economy.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+enrichment/tests/*round5* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Keep verbatim trailing spaces in the official FNS XSD field captions.
+reports/data_round5/sme/schema_field_evidence.csv whitespace=-blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Preserve source and protocol bytes referenced by fifth-round analysis manifests.
+configs/round5_analysis*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+scripts/*round5* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+tests/*round5* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Preserve exact bytes for sixth-round collection and replay.
+configs/data_round6*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+enrichment/scripts/*round6* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+enrichment/tests/*round6* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Retain verbatim source captions and extracted cover text in evidence tables.
+reports/data_round6/economy/document_inventory.csv whitespace=-blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+reports/data_round6/geography/gar_schema_history_fields.csv whitespace=-blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Preserve protocol and code bytes pinned by sixth-round analytical manifests.
+configs/round6_analysis*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+scripts/*round6* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+tests/*round6* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Preserve exact bytes pinned by the spatial transition review manifest.
+configs/spatial_transition_review.json -text
+configs/spatial_external_review.json -text
+configs/regional_center_review.json -text
+scripts/review_regional_centers.py -text
+data/derived/reviews/regional_centers_v1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+scripts/review_spatial_external.py -text
+scripts/plot_spatial_review.py -text
+data/derived/reviews/spatial_external_v1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+scripts/review_spatial_transitions.py -text
+data/derived/reviews/spatial_transitions_v1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

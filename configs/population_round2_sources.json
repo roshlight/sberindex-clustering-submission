@@ -1,0 +1,53 @@
+[
+  {
+    "source_id": "sber_dictionary_metadata",
+    "need_id_if_known": "territory_crosswalk",
+    "title": "Метаданные версионного справочника СберИндекса",
+    "url": "https://www.sberbank.ru/common/img/uploaded/files/pdf/sberindex/metadata_municipal_dict_sberindex_2.pdf",
+    "download_urls": []
+  },
+  {
+    "source_id": "sber_dataset_description",
+    "need_id_if_known": "market_access_2024",
+    "title": "Описание конкурсных данных",
+    "url": "https://sberindex.ru/ru/research/data-sense-opisanie-nabora-dannikh-khakatona-sberindeksa-po-munitsipalnim-dannim",
+    "download_urls": []
+  },
+  {
+    "source_id": "rosstat_oktmo",
+    "need_id_if_known": "territory_crosswalk",
+    "title": "Открытые данные ОКТМО",
+    "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo",
+    "download_urls": [
+      "https://rosstat.gov.ru/storage/mediabank/Vved_OKTMO_red891.docx"
+    ]
+  },
+  {
+    "source_id": "rosstat_bdpmo",
+    "need_id_if_known": "municipal_population",
+    "title": "Региональные БДПМО",
+    "url": "https://rosstat.gov.ru/storage/mediabank/MUNST.htm",
+    "download_urls": []
+  },
+  {
+    "source_id": "rosstat_population_bulletins",
+    "need_id_if_known": "municipal_population",
+    "title": "Численность населения по муниципальным образованиям",
+    "url": "https://rosstat.gov.ru/compendium/document/13282",
+    "download_urls": []
+  },
+  {
+    "source_id": "rosstat_indicator_list",
+    "need_id_if_known": "municipal_population",
+    "title": "Перечень показателей БДПМО2024",
+    "url": "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+    "download_urls": []
+  },
+  {
+    "source_id": "rosstat_methodology2024",
+    "need_id_if_known": "municipal_population",
+    "title": "Методологический комментарий БДПМО2024",
+    "url": "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx",
+    "download_urls": []
+  }
+]

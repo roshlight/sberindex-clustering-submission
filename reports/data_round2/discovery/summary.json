@@ -1,0 +1,24 @@
+{
+  "status": "partial_discovery_followed_by_targeted_official_collection",
+  "search_planned": 12,
+  "search_executed": 2,
+  "search_deferred": 10,
+  "search_result_rows": 0,
+  "curated_seed_urls": 8,
+  "document_attempts": 20,
+  "successful_http_200_with_raw": 11,
+  "document_errors": {
+    "blocked_url": 7,
+    "fetch_network_error": 2
+  },
+  "model": "deepseek/deepseek-v4-pro-0813",
+  "usage": {
+    "completed_calls": 7,
+    "http_attempts": 7,
+    "reported_cost_usd": 0.24934495199999998,
+    "prompt_tokens": 72223,
+    "completion_tokens": 44020,
+    "calls_with_unknown_cost_or_failure": 0
+  },
+  "llm_claims_are_candidates_not_validated_data": true
+}

@@ -1,0 +1,354 @@
+{
+  "pilot_reconciliation": {
+    "aggregate_cells_checked": 24,
+    "exact_value_or_null_matches": 24,
+    "both_numeric_matches": 24,
+    "both_null": 0,
+    "unmatched_reference_rows": 0,
+    "mismatches": []
+  },
+  "frozen_v3_sha256": "c1d0bbeaaf742e14417d7d7d168764c060bb6c01199481a850a7eea3b6359bd4",
+  "bulk_reconciliation": {
+    "aggregate_cells_checked": 8064,
+    "exact_value_or_null_matches": 8060,
+    "both_numeric_matches": 8030,
+    "both_null": 30,
+    "unmatched_reference_rows": 0,
+    "mismatches": [
+      {
+        "territory_id": "2710",
+        "year": "2023",
+        "indicator_id": "8423005",
+        "value_new": 11485.0,
+        "value_old": null
+      },
+      {
+        "territory_id": "2710",
+        "year": "2023",
+        "indicator_id": "8423007",
+        "value_new": 42874.9,
+        "value_old": null
+      },
+      {
+        "territory_id": "2710",
+        "year": "2024",
+        "indicator_id": "8423005",
+        "value_new": 11014.0,
+        "value_old": null
+      },
+      {
+        "territory_id": "2710",
+        "year": "2024",
+        "indicator_id": "8423007",
+        "value_new": 52418.1,
+        "value_old": null
+      }
+    ]
+  },
+  "recovered_prior_caption_gap_aggregate_cells": [
+    {
+      "territory_id": "2710",
+      "year": "2023",
+      "indicator_id": "8423005",
+      "value_new": 11485.0,
+      "value_old": null
+    },
+    {
+      "territory_id": "2710",
+      "year": "2023",
+      "indicator_id": "8423007",
+      "value_new": 42874.9,
+      "value_old": null
+    },
+    {
+      "territory_id": "2710",
+      "year": "2024",
+      "indicator_id": "8423005",
+      "value_new": 11014.0,
+      "value_old": null
+    },
+    {
+      "territory_id": "2710",
+      "year": "2024",
+      "indicator_id": "8423007",
+      "value_new": 52418.1,
+      "value_old": null
+    }
+  ],
+  "unexplained_aggregate_differences": [],
+  "combined_candidate": {
+    "rows": 162210,
+    "territories": 2016,
+    "municipality_years": 4032,
+    "status_counts": {
+      "observed": 111384,
+      "not_returned": 46721,
+      "unresolved_source_marker": 4105
+    },
+    "source_csv_captures": 144,
+    "duplicate_keys": 0,
+    "geographic_equivalence_confirmed": null
+  },
+  "bulk_run_status": {
+    "status": "PASS",
+    "planned_jobs": 142,
+    "parsed_jobs": 142,
+    "network_requests_this_invocation": 0,
+    "max_concurrent_regions": 2,
+    "global_min_start_interval_seconds": 2.5,
+    "raw_source_rows": 168318,
+    "candidate_rows": 162134,
+    "duplicate_source_keys": 0,
+    "candidate_territories": 2015,
+    "candidate_municipality_years": 4030,
+    "source_status_counts": {
+      "observed": 111332,
+      "unresolved_source_marker": 4819,
+      "not_returned": 52167
+    },
+    "candidate_status_counts": {
+      "observed": 111332,
+      "unresolved_source_marker": 4101,
+      "not_returned": 46701
+    },
+    "script_sha256": "a2c29677e45c4016c000c0a0f2d09f31c7b53bb3c864947b13592ec4e94c9212"
+  },
+  "single_vs_batch_pilot": {
+    "overlapping_cells": 488,
+    "value_or_null_matches": 488,
+    "status_matches_after_literal_alias": 466,
+    "mismatches": [
+      {
+        "territory_id": "318",
+        "year": "2024",
+        "indicator_id": "8423007",
+        "source_activity_code": "10000",
+        "value_pilot": null,
+        "value_bulk": null,
+        "status_pilot": "source_marker_unresolved",
+        "status_bulk": "not_returned"
+      },
+      {
+        "territory_id": "318",
+        "year": "2024",
+        "indicator_id": "8423007",
+        "source_activity_code": "30000",
+        "value_pilot": null,
+        "value_bulk": null,
+        "status_pilot": "source_marker_unresolved",
+        "status_bulk": "not_returned"
+      },
+      {
+        "territory_id": "318",
+        "year": "2024",
+        "indicator_id": "8423007",
+        "source_activity_code": "40000",
+        "value_pilot": null,
+        "value_bulk": null,
+        "status_pilot": "source_marker_unresolved",
+        "status_bulk": "not_returned"
+      },
+      {
+        "territory_id": "318",
+        "year": "2024",
+        "indicator_id": "8423007",
+        "source_activity_code": "50000",
+        "value_pilot": null,
+        "value_bulk": null,
+        "status_pilot": "source_marker_unresolved",
+        "status_bulk": "not_returned"
+      },
+      {
+        "territory_id": "318",
+        "year": "2024",
+        "indicator_id": "8423007",
+        "source_activity_code": "60000",
+        "value_pilot": null,
+        "value_bulk": null,
+        "status_pilot": "source_marker_unresolved",
+        "status_bulk": "not_returned"
+      },
+      {
+        "territory_id": "318",
+        "year": "2024",
+        "indicator_id": "8423007",
+        "source_activity_code": "68000",
+        "value_pilot": null,
+        "value_bulk": null,
+        "status_pilot": "source_marker_unresolved",
+        "status_bulk": "not_returned"
+      },
+      {
+        "territory_id": "318",
+        "year": "2024",
+        "indicator_id": "8423007",
+        "source_activity_code": "80000",
+        "value_pilot": null,
+        "value_bulk": null,
+        "status_pilot": "source_marker_unresolved",
+        "status_bulk": "not_returned"
+      },
+      {
+        "territory_id": "331",
+        "year": "2024",
+        "indicator_id": "8423007",
+        "source_activity_code": "10000",
+        "value_pilot": null,
+        "value_bulk": null,
+        "status_pilot": "source_marker_unresolved",
+        "status_bulk": "not_returned"
+      },
+      {
+        "territory_id": "331",
+        "year": "2024",
+        "indicator_id": "8423007",
+        "source_activity_code": "30000",
+        "value_pilot": null,
+        "value_bulk": null,
+        "status_pilot": "source_marker_unresolved",
+        "status_bulk": "not_returned"
+      },
+      {
+        "territory_id": "331",
+        "year": "2024",
+        "indicator_id": "8423007",
+        "source_activity_code": "40000",
+        "value_pilot": null,
+        "value_bulk": null,
+        "status_pilot": "source_marker_unresolved",
+        "status_bulk": "not_returned"
+      },
+      {
+        "territory_id": "331",
+        "year": "2024",
+        "indicator_id": "8423007",
+        "source_activity_code": "55000",
+        "value_pilot": null,
+        "value_bulk": null,
+        "status_pilot": "source_marker_unresolved",
+        "status_bulk": "not_returned"
+      },
+      {
+        "territory_id": "331",
+        "year": "2024",
+        "indicator_id": "8423007",
+        "source_activity_code": "60000",
+        "value_pilot": null,
+        "value_bulk": null,
+        "status_pilot": "source_marker_unresolved",
+        "status_bulk": "not_returned"
+      },
+      {
+        "territory_id": "331",
+        "year": "2024",
+        "indicator_id": "8423007",
+        "source_activity_code": "68000",
+        "value_pilot": null,
+        "value_bulk": null,
+        "status_pilot": "source_marker_unresolved",
+        "status_bulk": "not_returned"
+      },
+      {
+        "territory_id": "331",
+        "year": "2024",
+        "indicator_id": "8423007",
+        "source_activity_code": "80000",
+        "value_pilot": null,
+        "value_bulk": null,
+        "status_pilot": "source_marker_unresolved",
+        "status_bulk": "not_returned"
+      },
+      {
+        "territory_id": "331",
+        "year": "2024",
+        "indicator_id": "8423007",
+        "source_activity_code": "95000",
+        "value_pilot": null,
+        "value_bulk": null,
+        "status_pilot": "source_marker_unresolved",
+        "status_bulk": "not_returned"
+      },
+      {
+        "territory_id": "883",
+        "year": "2024",
+        "indicator_id": "8423007",
+        "source_activity_code": "45000",
+        "value_pilot": null,
+        "value_bulk": null,
+        "status_pilot": "source_marker_unresolved",
+        "status_bulk": "not_returned"
+      },
+      {
+        "territory_id": "883",
+        "year": "2024",
+        "indicator_id": "8423007",
+        "source_activity_code": "50000",
+        "value_pilot": null,
+        "value_bulk": null,
+        "status_pilot": "source_marker_unresolved",
+        "status_bulk": "not_returned"
+      },
+      {
+        "territory_id": "883",
+        "year": "2024",
+        "indicator_id": "8423007",
+        "source_activity_code": "68000",
+        "value_pilot": null,
+        "value_bulk": null,
+        "status_pilot": "source_marker_unresolved",
+        "status_bulk": "not_returned"
+      },
+      {
+        "territory_id": "883",
+        "year": "2024",
+        "indicator_id": "8423007",
+        "source_activity_code": "95000",
+        "value_pilot": null,
+        "value_bulk": null,
+        "status_pilot": "source_marker_unresolved",
+        "status_bulk": "not_returned"
+      },
+      {
+        "territory_id": "925",
+        "year": "2024",
+        "indicator_id": "8423007",
+        "source_activity_code": "63000",
+        "value_pilot": null,
+        "value_bulk": null,
+        "status_pilot": "source_marker_unresolved",
+        "status_bulk": "not_returned"
+      },
+      {
+        "territory_id": "925",
+        "year": "2024",
+        "indicator_id": "8423007",
+        "source_activity_code": "68000",
+        "value_pilot": null,
+        "value_bulk": null,
+        "status_pilot": "source_marker_unresolved",
+        "status_bulk": "not_returned"
+      },
+      {
+        "territory_id": "925",
+        "year": "2024",
+        "indicator_id": "8423007",
+        "source_activity_code": "95000",
+        "value_pilot": null,
+        "value_bulk": null,
+        "status_pilot": "source_marker_unresolved",
+        "status_bulk": "not_returned"
+      }
+    ]
+  },
+  "candidate_parquet": {
+    "path": "bulk/annual_candidate_sector.parquet",
+    "rows": 162210,
+    "bytes": 1668851,
+    "sha256": "1e31fad3974f14692681af13854290565c8ff88bd08b93862bbd20ac86ca7af0"
+  },
+  "checked_raw_source_files": 308,
+  "unique_raw_source_hashes": 296,
+  "status": "WARN",
+  "scope_note": "Coverage describes the last assembled CSV snapshot; live checkpoints may be newer. No claim of full economic sector coverage follows from successful parsing.",
+  "script_sha256": "17405725ac9f0a1e982357ab196dbc72c57f2d0b55677d5dfa828e8775787c82"
+}

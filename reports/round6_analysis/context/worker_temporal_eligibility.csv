@@ -1,0 +1,5 @@
+target_year,data_date,document_date,workers_state,records,denominator_sample_records,document_lag_days_from_data_date,measurement_year_matches_target,document_after_target_year_end,eligible_historical_input,representative_sample
+2023,2025-12-31,2026-08-25,positive,764,900,237,False,True,False,False
+2024,2025-12-31,2026-08-25,positive,764,900,237,False,True,False,False
+2023,2025-12-31,2026-08-25,zero,136,900,237,False,True,False,False
+2024,2025-12-31,2026-08-25,zero,136,900,237,False,True,False,False

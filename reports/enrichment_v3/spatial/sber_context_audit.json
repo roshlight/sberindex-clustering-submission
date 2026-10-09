@@ -1,0 +1,124 @@
+{
+  "cohort_entities": 2016,
+  "annual_rows": 4032,
+  "static_rows": 2016,
+  "annual_counts": {
+    "2023-01-01": {
+      "rows": 2016,
+      "zato_positive": 0,
+      "flagged_center_positive": 64,
+      "center_coordinate_pairs": 1774,
+      "north_whole_region_baseline_positive": 72
+    },
+    "2024-01-01": {
+      "rows": 2016,
+      "zato_positive": 0,
+      "flagged_center_positive": 64,
+      "center_coordinate_pairs": 1774,
+      "north_whole_region_baseline_positive": 72
+    }
+  },
+  "center_candidate_rows_full_crosswalk": 83,
+  "center_candidate_regions_full_crosswalk": 81,
+  "ambiguous_center_regions": [
+    {
+      "territory_id": 1198,
+      "region_code": "40",
+      "region_name": "Калужская область",
+      "municipal_district_name": "городской округ город Калуга"
+    },
+    {
+      "territory_id": 1207,
+      "region_code": "40",
+      "region_name": "Калужская область",
+      "municipal_district_name": "Кировский муниципальный район"
+    },
+    {
+      "territory_id": 2338,
+      "region_code": "79",
+      "region_name": "Еврейская автономная область",
+      "municipal_district_name": "городской округ город Биробиджан"
+    },
+    {
+      "territory_id": 2339,
+      "region_code": "79",
+      "region_name": "Еврейская автономная область",
+      "municipal_district_name": "Биробиджанский муниципальный район"
+    }
+  ],
+  "center_mapping_status": {
+    "unique_sber_status_candidate": 1691,
+    "no_sber_status_candidate": 294,
+    "ambiguous_sber_status_candidates": 31
+  },
+  "road_distance_status": {
+    "observed_pair": 1619,
+    "no_sber_status_candidate": 294,
+    "same_territory_zero_by_definition_not_source_cell": 60,
+    "ambiguous_sber_status_candidates": 31,
+    "source_pair_absent": 12
+  },
+  "market_access_nonnull": 2004,
+  "limitations": [
+    "No names used as municipal join keys.",
+    "Sber flagged centers are source labels, not independently verified capital identities.",
+    "Positive-only ZATO and northern baseline flags: missing means unclassified, not false.",
+    "No 2024 within-year boundary completeness, topology or geodesic area check.",
+    "Northern flag covers only seven whole-region inclusions in the original effective-2022 act; it is not the full list.",
+    "No current OSM replacement or imputations for the 12 absent market indices."
+  ],
+  "inputs": [
+    {
+      "path": "outputs/municipal-economic-profiles/reports/enrichment_v2/code_bridge/population_fetch_candidate_targets.json",
+      "bytes": 6301696,
+      "sha256": "a0c243eab9c78e110354bdb43d602ea61201b510d58640b0dbaac5a89f01fd11"
+    },
+    {
+      "path": "work/enrichment-sources/t_dict_municipal_original/t_dict_municipal_districts_poly.gpkg",
+      "bytes": 74334208,
+      "sha256": "e62027630d48e4a13f9b6d173dd074d7358706743fe859ca3b7fa30fefa9813a"
+    },
+    {
+      "path": "work/enrichment-v3/spatial/raw/north_pravo_1946_pdf.pdf",
+      "bytes": 335504,
+      "sha256": "424942029eb2fff5ff546ad834342991bb028894ab55e718d17c9bb71077a619"
+    },
+    {
+      "path": "outputs/municipal-economic-profiles/data/derived/enrichment/municipal_crosswalk_2023-01-01.csv",
+      "bytes": 845554,
+      "sha256": "ee3de32865f707060ef2239f58f9f991d1c3f6ce52192019c005ba1b64954ae0"
+    },
+    {
+      "path": "outputs/municipal-economic-profiles/data/derived/enrichment/municipal_crosswalk_2024-01-01.csv",
+      "bytes": 845122,
+      "sha256": "dc1603aacda2303a6ef836272d379323f527b32fd6bf0cffb55c279e0d22db3e"
+    },
+    {
+      "path": "work/sberindex-research/hackathon-bundle/hackathonlicence/connection.parquet",
+      "bytes": 21904682,
+      "sha256": "20cbd5213d3ac1d0a867f097b485431811614b283d7366eb5cba9f65dc80493d"
+    },
+    {
+      "path": "work/sberindex-research/hackathon-bundle/hackathonlicence/market_access.parquet",
+      "bytes": 25163,
+      "sha256": "434258afe322b7e6e6610b2552d129ae47094613de72dae3d13f6965a28d1dc1"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "sber_flagged_regional_centers_2024.csv",
+      "bytes": 30747,
+      "sha256": "36ec905b93cbd5419db44c4c21f28a098ebd31e7cb60dfff5768cd4c32313542"
+    },
+    {
+      "path": "sber_static_context_2024.csv",
+      "bytes": 335035,
+      "sha256": "a07e8517d4476a1f921936e83d42f532eb01b20adfb670f24c809acf778f569e"
+    },
+    {
+      "path": "sber_yearly_spatial_attributes.csv",
+      "bytes": 1426929,
+      "sha256": "85986eb1091df29fe9aa9347a4bce1b974dac30386198daacbb8f976491362ce"
+    }
+  ]
+}

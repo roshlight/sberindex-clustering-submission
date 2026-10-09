@@ -1,0 +1,107 @@
+{
+  "created_at_utc": "2026-09-16T17:48:01.934908+00:00",
+  "files": [
+    {
+      "path": "work/data-round4/sme/description_pages.json",
+      "bytes": 23721,
+      "sha256": "7b060f02f9cd2e489191f9c935f3c29126001395c19b8cd3b529cecf42665b61"
+    },
+    {
+      "path": "work/data-round4/sme/description_retrieval.json",
+      "bytes": 298,
+      "sha256": "11f033b3925de32b67867f3d6b7e83d36765e4a7a7ce48b6c871dde61faefa32"
+    },
+    {
+      "path": "work/data-round4/sme/discovered_links.json",
+      "bytes": 27176,
+      "sha256": "36cb03be4e1c7b2edaac65747ebd39778366dcd6fc8a249eb052f7266167ab9e"
+    },
+    {
+      "path": "work/data-round4/sme/implementation/fetch_round4_sakhalin.py",
+      "bytes": 1419,
+      "sha256": "2853e778a412b30b5e6c61f0285a83aa759ca8e6ca87a0afd6de98404065fc31"
+    },
+    {
+      "path": "work/data-round4/sme/implementation/probe_round4_sme.py",
+      "bytes": 1457,
+      "sha256": "671e57d11fd5b56f9bde18c4ddb6fca3ca299d1deec1de1b787a2c437bb890ee"
+    },
+    {
+      "path": "work/data-round4/sme/probe.json",
+      "bytes": 1655,
+      "sha256": "20635f470283830e3accd29462e0e5fc47c89b6516148e3b94782ff19ccf0e61"
+    },
+    {
+      "path": "work/data-round4/sme/raw/data_sme_153_year_2023_v20260605_parquet.zip",
+      "bytes": 402332732,
+      "sha256": "9be7766e1ae1eaab00cf2b05762775a45417c151524a1fc494c39553109db921"
+    },
+    {
+      "path": "work/data-round4/sme/raw/data_sme_153_year_2024_v20260605_parquet.zip",
+      "bytes": 402816235,
+      "sha256": "a2cfce2b8908230e95d7fe7eab3d9f2d6f3c60e87cb1f20349842f99f08bd640"
+    },
+    {
+      "path": "work/data-round4/sme/raw/description_sme.pdf",
+      "bytes": 299127,
+      "sha256": "78a8afac57ff18f07e7ddb74f9ff76341b8951b85200011b4fd76b5d6ad9492e"
+    },
+    {
+      "path": "work/data-round4/sme/raw/sakhalin_sme_share.htm",
+      "bytes": 29256,
+      "sha256": "2ca4c78dd971c02d5e98b946bb7c8dd55b1b549bcb6f5a6a06b38de01ecb6339"
+    },
+    {
+      "path": "work/data-round4/sme/raw/tochno_sme.html",
+      "bytes": 434771,
+      "sha256": "697392e7b9e219996525001e0a07525dcbe77fe198f35a38092c3d29b5bc4f89"
+    },
+    {
+      "path": "work/data-round4/sme/retrieval_2023.json",
+      "bytes": 2089,
+      "sha256": "4ff6838cebf53f24812dadc10638078991d488a9862e94a0c953cad3a13b47de"
+    },
+    {
+      "path": "work/data-round4/sme/retrieval_2024.json",
+      "bytes": 2089,
+      "sha256": "5d4bb0ae09dca071f66e8caed38ad64ad55472065a2503829b6e7d542925a190"
+    },
+    {
+      "path": "work/data-round4/sme/retrievals.json",
+      "bytes": 4379,
+      "sha256": "0161c81f002776fd59b9f1bd51e8f2218f71916107eb5fbfe20830d36e4a1111"
+    },
+    {
+      "path": "work/data-round4/sme/review-render/description-3.png",
+      "bytes": 270372,
+      "sha256": "ce2fd2d33b8f4330ac4e094a20de09a9e1ff15dfe7bf55e91adcaeb1facf11d3"
+    },
+    {
+      "path": "work/data-round4/sme/review-render/description-5.png",
+      "bytes": 190461,
+      "sha256": "ebcad637cb5772fa2c36100889b6e7660ca1f7f331c37140e67d0110adf69461"
+    },
+    {
+      "path": "work/data-round4/sme/review-render/description-6.png",
+      "bytes": 178882,
+      "sha256": "6148d3314171c8cb5397c8fc57e156f7de8384797a6249c2fcd81fd1e8279f20"
+    },
+    {
+      "path": "work/data-round4/sme/review-render/description-7.png",
+      "bytes": 153424,
+      "sha256": "5908d478d60918dd6088b760e9b6c40b3e8d879acedcd2e7f4d33d148e898656"
+    },
+    {
+      "path": "work/data-round4/sme/sakhalin_retrieval.json",
+      "bytes": 1293,
+      "sha256": "76154d6b96d5f207e11e2cb478d19d115cedff7d956bc4c8b3ff9cfd23eb9307"
+    },
+    {
+      "path": "work/data-round4/sme/sakhalin_sme_share.txt",
+      "bytes": 2249,
+      "sha256": "e5b5ef15cef470fd6082cd5b2722be245ece15d0bff2024ed81ea060023533e4"
+    }
+  ],
+  "source_allowlist_sha256": "992955bedc3a7bf9dd479d8164bdb6de33eddddd4ea2c49552a6e809f7120872",
+  "packager_sha256": "5bbdd46528947d3ee96db825f6f337e3cd0e7391411b13fb3312833a4ebb5c6f"
+}

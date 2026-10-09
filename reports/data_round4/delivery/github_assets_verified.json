@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "private_repository": true,
+  "verified_at_utc": "2026-09-16T18:06:41.312574+00:00",
+  "release_tag": "data-round4-2026-09-16",
+  "assets": [
+    {
+      "name": "data-round4-cases.zip",
+      "size": 97780703,
+      "digest": "sha256:70d1601b14875f33e682fdeb1cfdbee2fff2c3130a2c6a90b50154b2263ac884",
+      "browser_download_url": "https://github.com/sberindex-hackathon-2026/municipal-economic-profiles/releases/download/untagged-0d99083bd3874da0cc93/data-round4-cases.zip"
+    },
+    {
+      "name": "data-round4-economy.zip",
+      "size": 528199,
+      "digest": "sha256:d89029c9024f78409275790b87365803890b521766a4d93a58b2e059bd93aaaa",
+      "browser_download_url": "https://github.com/sberindex-hackathon-2026/municipal-economic-profiles/releases/download/untagged-0d99083bd3874da0cc93/data-round4-economy.zip"
+    },
+    {
+      "name": "data-round4-geography.zip",
+      "size": 65744124,
+      "digest": "sha256:c0d4f5dfa26e23c31bd344fdf0d5b74158ed654e9f8727bac0acab7d3ee1b355",
+      "browser_download_url": "https://github.com/sberindex-hackathon-2026/municipal-economic-profiles/releases/download/untagged-0d99083bd3874da0cc93/data-round4-geography.zip"
+    },
+    {
+      "name": "data-round4-search.zip",
+      "size": 865883,
+      "digest": "sha256:c5e09d80cef3cf1cec882258be354006cfed543227400902a5657cce797cccbd",
+      "browser_download_url": "https://github.com/sberindex-hackathon-2026/municipal-economic-profiles/releases/download/untagged-0d99083bd3874da0cc93/data-round4-search.zip"
+    },
+    {
+      "name": "data-round4-sme.zip",
+      "size": 806448079,
+      "digest": "sha256:f81487fa843ee718bd172011f0d53ba33a9ceefe78e47b4fb9f77135679a88f2",
+      "browser_download_url": "https://github.com/sberindex-hackathon-2026/municipal-economic-profiles/releases/download/untagged-0d99083bd3874da0cc93/data-round4-sme.zip"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "size": 445,
+      "digest": "sha256:b9617273b12118943e155cadf22b9665e887d7c09458efd2f36ddf6bba1f1305",
+      "browser_download_url": "https://github.com/sberindex-hackathon-2026/municipal-economic-profiles/releases/download/untagged-0d99083bd3874da0cc93/SHA256SUMS.txt"
+    }
+  ],
+  "scope": "Uploaded asset bytes verified before publication; release target checked at publication"
+}

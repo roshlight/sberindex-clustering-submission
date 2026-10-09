@@ -1,0 +1,69 @@
+{
+  "created_at_utc": "2026-09-14T23:32:34.137007+00:00",
+  "status": "PASS_with_interpretation_limits",
+  "script_sha256": "e9edf3465d8e0dd848f8c84a9bf24a99f71198c00fc63df8a7dd02ea8cd31143",
+  "inputs": [
+    {
+      "path": "data/raw/consumption.parquet",
+      "bytes": 2373939,
+      "sha256": "9833ddaaee7b2a182ed4cceeed16469031700ea87d508bd976150c6770ef8a61"
+    },
+    {
+      "path": "reports/enrichment_v3/prices/cpi_monthly_2023_2024.csv",
+      "bytes": 2902665,
+      "sha256": "81bd703ff20b9837ef5e89f4e66ed3b8751454fa322afc6c5339ff9858641c75"
+    },
+    {
+      "path": "reports/enrichment_v3/prices/municipal_region_price_links.csv",
+      "bytes": 807469,
+      "sha256": "0632857da52a0e4890e4d70ea93f2d572e6da615d9942a6c776469f6d9790e77"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "independent_arithmetic_qa.json",
+      "bytes": 1367,
+      "sha256": "d662327b80c0367a7c0b44cf83303f6b09a01581ddcaab7f2a0101c6cb0b90f8"
+    },
+    {
+      "path": "municipal_annual_price_context.csv",
+      "bytes": 423837,
+      "sha256": "49c46e2e2927f0847aa5ff00da8899991545974bd4f0f8b825dbf3c6dfa9277f"
+    },
+    {
+      "path": "municipal_monthly_price_context.csv",
+      "bytes": 5348585,
+      "sha256": "807fe842c434fc3a5ad56203995af69d1da40171888d1e9b1a290a56d688361f"
+    },
+    {
+      "path": "municipal_price_growth.csv",
+      "bytes": 856604,
+      "sha256": "51df9eae66c4ddce838dfeb84058d8c12fba1b9c2838866aea958815a990e54f"
+    },
+    {
+      "path": "qa.json",
+      "bytes": 1004,
+      "sha256": "ff212562ab6f8cf5b123c0e2a4bf1a19ba4cb40e1b0defa95c4e42f43daf0d40"
+    },
+    {
+      "path": "regional_cpi_chain.csv",
+      "bytes": 601011,
+      "sha256": "4ff84d5c1acf4cadded15778bb9c36338bf4eaeb06e91ff6cf91120689a8ef6d"
+    },
+    {
+      "path": "regional_growth_summary.csv",
+      "bytes": 37025,
+      "sha256": "e8a00982787a34c6b4685e6257ab06fe1fc0c617d31451675c413d4f7fd88667"
+    },
+    {
+      "path": "regional_price_summary.csv",
+      "bytes": 8987,
+      "sha256": "c0f92ac1d2e7e753e1a468b805136a947e275e860740bc58894f1147e3a3728a"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 11744,
+      "sha256": "d6318a9d91356de30f6b4fc972e44902a401f8f90fad942a6e9212d14d4ebbb3"
+    }
+  ]
+}

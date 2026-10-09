@@ -1,0 +1,23 @@
+{
+  "analysis_id": "enriched-analysis-v1",
+  "status": "exploratory_after_observing_both_years",
+  "years": [2023, 2024],
+  "cohort": "2016 municipalities with all24months and six published consumption categories",
+  "primary_grain": "municipality-year",
+  "annual_profile": "arithmetic mean of12monthly five-category normalized profiles",
+  "annual_total": "arithmetic mean of12monthly published total-category estimates; not an annual aggregate",
+  "primary_question": "Do municipality-level population, wages and worker concentration add descriptive information beyond region and municipal type?",
+  "core_features": ["log_population", "log_wage", "log_worker_concentration"],
+  "worker_concentration": "log(workers/population); annual covered-organization employees divided by January resident population; not employment rate",
+  "supplementary_features": ["urban_share", "log_market_access_2024_only"],
+  "primary_exclusions": "Known economy calendar review flags; missing or nonpositive required values. No imputation.",
+  "sensitivity_exclusion": "Any municipality among78with changed annual code/type",
+  "unaccepted_sources": ["v3demography candidate links", "secondaryTochno unlinked data", "area2024/population2024 density", "municipal price estimates inferred from region"],
+  "cv": {"folds": 5, "seed": 13, "ridge_alpha": 1.0, "regimes": ["municipality folds balanced within region", "held-out entire regions"]},
+  "profile_target": "CLR transform of strictly positive annual normalized profile; squared-error R2 summed over five coordinates",
+  "uncertainty": {"region_bootstrap_repeats": 2000, "confidence_level": 0.95, "scope": "paired fixed out-of-fold losses; no refitting in bootstrap"},
+  "regressions": "Year-specific logtotal on region/type fixed effects and3corefeatures; region-clustered covariance. Stable-code paired changes with region effects.",
+  "annual_network": "Same2016cohort, profile-only distances, prior22partitiongrid; attributes used for interpretation, not input distances",
+  "prohibited_claims": ["causal effects", "income of residents from organization wage", "trueeconomicclusters", "independentfuturevalidation", "real-time forecasting"],
+  "preserve_prior_outputs": true
+}

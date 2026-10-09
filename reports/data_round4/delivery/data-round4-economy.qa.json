@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "archive": "data-round4-economy.zip",
+  "archive_sha256": "d89029c9024f78409275790b87365803890b521766a4d93a58b2e059bd93aaaa",
+  "archive_bytes": 528199,
+  "verified_files": 100,
+  "uncompressed_bytes": 1957408,
+  "allowlist_sha256": "428728d7d9253cbc5b92d85196f2fe386ed2791aaf609d89d290c1467d54352e",
+  "packager_sha256": "5bbdd46528947d3ee96db825f6f337e3cd0e7391411b13fb3312833a4ebb5c6f"
+}

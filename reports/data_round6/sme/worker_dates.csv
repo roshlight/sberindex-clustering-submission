@@ -1,0 +1,3 @@
+data_date,document_date,data_year,document_year,workers_state,records,denominator_records,representative_sample
+31.12.2025,25.08.2026,2025,2026,positive,764,900,False
+31.12.2025,25.08.2026,2025,2026,zero,136,900,False

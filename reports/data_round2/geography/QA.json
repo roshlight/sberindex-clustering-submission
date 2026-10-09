@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checks": {
+    "78_unique_cases": true,
+    "156_unique_case_year_rows": true,
+    "all_78_exact_full_code_pairs": true,
+    "all_new_codes_DateVved_2024_01_01": true,
+    "all_78_second_vintage_confirmed": true,
+    "no_boundary_promotion": true,
+    "22_recoding_docs_10624_pairs": true,
+    "full11_digit_pairs": true,
+    "no_automatic_settlement_to_MO_join": true,
+    "20_explicit_law_reference_rows_preserved": true,
+    "6_calendar_cases_disjoint": true,
+    "all_37_source_hashes": true,
+    "all_manifest_output_hashes": true,
+    "source_catalog_has_no_viewer_auth_tokens": true,
+    "all_bundled_input_hashes": true
+  },
+  "passed": 15,
+  "total": 15,
+  "semantic_scope": "Code/date and three institutional succession decisions only; independent boundary equivalence remains unknown.",
+  "manifest_sha256": "620b36a84fa0d117c562b05e98e03f262b21d5e0ba0b8555cdec9e139757165d"
+}

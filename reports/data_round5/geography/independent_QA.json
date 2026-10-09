@@ -1,0 +1,343 @@
+{
+  "status": "PASS_WITH_SCOPE_LIMITS",
+  "recorded_at_utc": "2026-09-16T19:07:32.347793+00:00",
+  "execution_kind": "one_off_PowerShell_here_string_python_read_only_audit",
+  "independence": "Production geography helpers were not imported. Registry construction was independently implemented with csv.reader; SME row counts came directly from full Parquet files through DuckDB.",
+  "reproducibility_limit": "The audit was executed as a one-off command. No standalone verifier script was saved; this receipt records executed checks and their exact outputs, not a separately rerun clean-environment verification.",
+  "method": {
+    "registry": "Read all six UTF-8 semicolon CSVs as strings; exclude TER=00 and section-2 headings KOD3=000; form exact 8-digit section-1 and 11-digit section-2 codes. No prefix join or zero padding.",
+    "sme": "SELECT municipality_code,count(*) FROM raw_sme GROUP BY municipality_code; count raw source rows for each exact registry membership. SELECT count(*) FROM raw_sme WHERE year IS NULL.",
+    "kind": "Section 2 -> section2_settlement; otherwise KOD1=000 -> region_group; otherwise KOD2=000 -> section1_top_level_or_group; otherwise section1_submunicipal_or_group. No exact code -> no_exact_code.",
+    "assertions": "Assert all 12 exact-presence numerators and denominators and all 10 code-kind numerators match canonical summary CSVs; assert unique selected registry codes. June/July code/name differences counted independently."
+  },
+  "registry_checks": [
+    {
+      "version_label": "2023-02-08",
+      "selected_entries": 176427,
+      "duplicate_codes": 0,
+      "section1_KOD1_zero_KOD2_nonzero": 0
+    },
+    {
+      "version_label": "2023-12-19",
+      "selected_entries": 179261,
+      "duplicate_codes": 0,
+      "section1_KOD1_zero_KOD2_nonzero": 0
+    },
+    {
+      "version_label": "2024-01-25",
+      "selected_entries": 179244,
+      "duplicate_codes": 0,
+      "section1_KOD1_zero_KOD2_nonzero": 0
+    },
+    {
+      "version_label": "2024-12-27",
+      "selected_entries": 178274,
+      "duplicate_codes": 0,
+      "section1_KOD1_zero_KOD2_nonzero": 0
+    },
+    {
+      "version_label": "2026-06-01",
+      "selected_entries": 173895,
+      "duplicate_codes": 0,
+      "section1_KOD1_zero_KOD2_nonzero": 0
+    },
+    {
+      "version_label": "2026-07-01",
+      "selected_entries": 173835,
+      "duplicate_codes": 0,
+      "section1_KOD1_zero_KOD2_nonzero": 0
+    }
+  ],
+  "source_period_rows": 15440928,
+  "year_code_groups": 160690,
+  "sme_checks": [
+    {
+      "year": 2023,
+      "source_rows": 7555943,
+      "source_code_groups": 79840,
+      "null_year_rows": 0
+    },
+    {
+      "year": 2024,
+      "source_rows": 7884985,
+      "source_code_groups": 80850,
+      "null_year_rows": 0
+    }
+  ],
+  "presence_checks": [
+    {
+      "source_year": 2023,
+      "registry_version_label": "2023-02-08",
+      "matched_source_rows": 6810572,
+      "denominator_source_rows": 7555943,
+      "matched_pct": 90.13530144417447,
+      "canonical_summary_match": true
+    },
+    {
+      "source_year": 2023,
+      "registry_version_label": "2023-12-19",
+      "matched_source_rows": 6886887,
+      "denominator_source_rows": 7555943,
+      "matched_pct": 91.14530112257331,
+      "canonical_summary_match": true
+    },
+    {
+      "source_year": 2023,
+      "registry_version_label": "2024-01-25",
+      "matched_source_rows": 6888605,
+      "denominator_source_rows": 7555943,
+      "matched_pct": 91.1680381919239,
+      "canonical_summary_match": true
+    },
+    {
+      "source_year": 2023,
+      "registry_version_label": "2024-12-27",
+      "matched_source_rows": 7098859,
+      "denominator_source_rows": 7555943,
+      "matched_pct": 93.95066902966315,
+      "canonical_summary_match": true
+    },
+    {
+      "source_year": 2023,
+      "registry_version_label": "2026-06-01",
+      "matched_source_rows": 7552326,
+      "denominator_source_rows": 7555943,
+      "matched_pct": 99.9521303959016,
+      "canonical_summary_match": true
+    },
+    {
+      "source_year": 2023,
+      "registry_version_label": "2026-07-01",
+      "matched_source_rows": 7552326,
+      "denominator_source_rows": 7555943,
+      "matched_pct": 99.9521303959016,
+      "canonical_summary_match": true
+    },
+    {
+      "source_year": 2024,
+      "registry_version_label": "2023-02-08",
+      "matched_source_rows": 7113638,
+      "denominator_source_rows": 7884985,
+      "matched_pct": 90.21752102255108,
+      "canonical_summary_match": true
+    },
+    {
+      "source_year": 2024,
+      "registry_version_label": "2023-12-19",
+      "matched_source_rows": 7194430,
+      "denominator_source_rows": 7884985,
+      "matched_pct": 91.24215201423972,
+      "canonical_summary_match": true
+    },
+    {
+      "source_year": 2024,
+      "registry_version_label": "2024-01-25",
+      "matched_source_rows": 7196090,
+      "denominator_source_rows": 7884985,
+      "matched_pct": 91.26320468586815,
+      "canonical_summary_match": true
+    },
+    {
+      "source_year": 2024,
+      "registry_version_label": "2024-12-27",
+      "matched_source_rows": 7414854,
+      "denominator_source_rows": 7884985,
+      "matched_pct": 94.03764243051826,
+      "canonical_summary_match": true
+    },
+    {
+      "source_year": 2024,
+      "registry_version_label": "2026-06-01",
+      "matched_source_rows": 7881846,
+      "denominator_source_rows": 7884985,
+      "matched_pct": 99.9601901588906,
+      "canonical_summary_match": true
+    },
+    {
+      "source_year": 2024,
+      "registry_version_label": "2026-07-01",
+      "matched_source_rows": 7881846,
+      "denominator_source_rows": 7884985,
+      "matched_pct": 99.9601901588906,
+      "canonical_summary_match": true
+    }
+  ],
+  "kind_checks": [
+    {
+      "source_year": 2023,
+      "code_kind_june2026": "no_exact_code",
+      "source_rows": 3617,
+      "denominator_source_rows": 7555943,
+      "canonical_summary_match": true
+    },
+    {
+      "source_year": 2023,
+      "code_kind_june2026": "region_group",
+      "source_rows": 1531266,
+      "denominator_source_rows": 7555943,
+      "canonical_summary_match": true
+    },
+    {
+      "source_year": 2023,
+      "code_kind_june2026": "section1_submunicipal_or_group",
+      "source_rows": 2234,
+      "denominator_source_rows": 7555943,
+      "canonical_summary_match": true
+    },
+    {
+      "source_year": 2023,
+      "code_kind_june2026": "section1_top_level_or_group",
+      "source_rows": 64751,
+      "denominator_source_rows": 7555943,
+      "canonical_summary_match": true
+    },
+    {
+      "source_year": 2023,
+      "code_kind_june2026": "section2_settlement",
+      "source_rows": 5954075,
+      "denominator_source_rows": 7555943,
+      "canonical_summary_match": true
+    },
+    {
+      "source_year": 2024,
+      "code_kind_june2026": "no_exact_code",
+      "source_rows": 3139,
+      "denominator_source_rows": 7884985,
+      "canonical_summary_match": true
+    },
+    {
+      "source_year": 2024,
+      "code_kind_june2026": "region_group",
+      "source_rows": 1609494,
+      "denominator_source_rows": 7884985,
+      "canonical_summary_match": true
+    },
+    {
+      "source_year": 2024,
+      "code_kind_june2026": "section1_submunicipal_or_group",
+      "source_rows": 3299,
+      "denominator_source_rows": 7884985,
+      "canonical_summary_match": true
+    },
+    {
+      "source_year": 2024,
+      "code_kind_june2026": "section1_top_level_or_group",
+      "source_rows": 61977,
+      "denominator_source_rows": 7884985,
+      "canonical_summary_match": true
+    },
+    {
+      "source_year": 2024,
+      "code_kind_june2026": "section2_settlement",
+      "source_rows": 6207076,
+      "denominator_source_rows": 7884985,
+      "canonical_summary_match": true
+    }
+  ],
+  "june_july_code_name_drift": {
+    "removed": 61,
+    "name_changed": 12,
+    "added": 1,
+    "total": 74
+  },
+  "reviewed_region_group_examples_2023": [
+    {
+      "source_code": "45000000",
+      "source_rows": 1062832,
+      "registry_name": "Муниципальные образования города Москвы (столицы Российской Федерации города федерального значения)"
+    },
+    {
+      "source_code": "40000000",
+      "source_rows": 397232,
+      "registry_name": "Муниципальные образования города федерального значения Санкт-Петербурга"
+    },
+    {
+      "source_code": "67000000",
+      "source_rows": 26197,
+      "registry_name": "Муниципальные образования города федерального значения Севастополя"
+    }
+  ],
+  "interpretation": {
+    "region_group_means": "Grouping heading for municipal formations of a federal subject, including federal cities; not a proven municipal-panel key.",
+    "source_rows_are": "Period rows, not unique enterprises or employment totals.",
+    "historical_address_proven": false,
+    "historical_boundary_proven": false,
+    "municipal_join_accepted": false,
+    "causal_claims": false,
+    "canonical_data_changed": false
+  },
+  "not_checked": [
+    "Independent byte-for-byte reconstruction of sme_code_presence.parquet",
+    "Independent recomputation of tax_ids_with_this_code",
+    "Independent verification of all publication and retrieval metadata",
+    "All non-name registry field changes between June and July",
+    "Clean independent environment"
+  ],
+  "input_hashes_recorded_at_receipt_creation": {
+    "work/data-round5/geography/reused/data-20230208T0902-structure-20260210T1102.csv": {
+      "sha256": "db2033073f7b6c0171083063237a915f41f9e1f23be7aecf1027008391c79ebe",
+      "bytes": 21419968,
+      "role": "registry_source_csv"
+    },
+    "work/data-round5/geography/reused/data-20231219T1512-structure-20260210T1102.csv": {
+      "sha256": "8be058baf8d8ec32bda5431fa6ed5ccdcf0effa0c62869a03576755cbcf956d9",
+      "bytes": 21582558,
+      "role": "registry_source_csv"
+    },
+    "work/data-round5/geography/reused/data-20240125T1401-structure-20260210T1102.csv": {
+      "sha256": "62b579d803e50def8668dc704ffecb5ee4e6e12bb1ffd5f848cafd32dfdd926c",
+      "bytes": 21580725,
+      "role": "registry_source_csv"
+    },
+    "work/data-round5/geography/reused/data-20241227T1412-structure-20260210T1102.csv": {
+      "sha256": "513bd287a1f1b42b9190f04afcfb8239bd31e0e699bb890f67dc49341285c13b",
+      "bytes": 21337303,
+      "role": "registry_source_csv"
+    },
+    "work/data-round5/geography/downloads/registry_2026-06-01.csv": {
+      "sha256": "033edd2e23a5a4e11e804a3904b658b4903034df728f81e260e5deff8d024439",
+      "bytes": 20132958,
+      "role": "registry_source_csv"
+    },
+    "work/data-round5/geography/downloads/registry_2026-07-01.csv": {
+      "sha256": "0eaf779ffbb5a3098bc5e8130f9dfb5cc9d59c3d4bf26877c5cfaf1621fdd572",
+      "bytes": 20127306,
+      "role": "registry_source_csv"
+    },
+    "work/data-round4/sme/extracted/2023/entire/data_sme_153_entire_year_2023_v20260605.parquet": {
+      "sha256": "5b3f2dbcdfdad8a009c620c135b6207dc3a1748a77b4fa57bccc6f12b64e6572",
+      "bytes": 302935780,
+      "role": "entire_annual_sme_source_parquet"
+    },
+    "work/data-round4/sme/extracted/2024/entire/data_sme_153_entire_year_2024_v20260605.parquet": {
+      "sha256": "91ed51745f8eb76dfaeba22e92debad583fc0f6439c69e239001c99dafe2af23",
+      "bytes": 308016001,
+      "role": "entire_annual_sme_source_parquet"
+    },
+    "enrichment/scripts/prepare_round5_geography.py": {
+      "sha256": "a2571e820a63644bb5eaf6d2d28e462955ba292c08a8cfb8799c9cf3c0867881",
+      "bytes": 12264,
+      "role": "reviewed_code_or_claim_file"
+    },
+    "reports/data_round5/geography/registry_versions.csv": {
+      "sha256": "8f5f1147ef7cc36f9e8e2c2dd1a788edd48682fc8e8cb41f5395aef2f14caded",
+      "bytes": 2127,
+      "role": "reviewed_code_or_claim_file"
+    },
+    "reports/data_round5/geography/code_presence_summary.csv": {
+      "sha256": "f260d5eba4872a2cbc0d93bd10a56d83ebd83e6c305b3fe0790e44889813099d",
+      "bytes": 1784,
+      "role": "reviewed_code_or_claim_file"
+    },
+    "reports/data_round5/geography/code_kind_summary.csv": {
+      "sha256": "78ed2a923c9c57bd02d7adfe2d6fbdc1e73dcd116c6dc123ed1404aa96d17ac0",
+      "bytes": 838,
+      "role": "reviewed_code_or_claim_file"
+    },
+    "reports/data_round5/geography/README.md": {
+      "sha256": "cecdb73cee5a4a5f1394e742b0771f9e59d22e71c2998b6a39ac113d04848513",
+      "bytes": 8391,
+      "role": "reviewed_code_or_claim_file"
+    }
+  }
+}

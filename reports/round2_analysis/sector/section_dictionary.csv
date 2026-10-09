@@ -1,0 +1,21 @@
+canonical_section,source_activity_code,label,feature,selected_for_model,denominator,unit
+A,10000,"Сельское, лесное хозяйство, охота, рыболовство и рыбоводство",sector_A_share,True,8423005:101:same municipality and calendar year,dimensionless ratio of average annual organizational workers
+B,50000,Добыча полезных ископаемых,sector_B_share,True,8423005:101:same municipality and calendar year,dimensionless ratio of average annual organizational workers
+C,20000,Обрабатывающие производства,sector_C_share,True,8423005:101:same municipality and calendar year,dimensionless ratio of average annual organizational workers
+D,30000,"Электричество, газ, пар и кондиционирование воздуха",sector_D_share,True,8423005:101:same municipality and calendar year,dimensionless ratio of average annual organizational workers
+E,40000,"Водоснабжение, отходы и ликвидация загрязнений",sector_E_share,False,8423005:101:same municipality and calendar year,dimensionless ratio of average annual organizational workers
+F,41000,Строительство,sector_F_share,False,8423005:101:same municipality and calendar year,dimensionless ratio of average annual organizational workers
+G,45000,"Оптовая и розничная торговля, ремонт автотранспорта",sector_G_share,False,8423005:101:same municipality and calendar year,dimensionless ratio of average annual organizational workers
+H,49000,Транспортировка и хранение,sector_H_share,True,8423005:101:same municipality and calendar year,dimensionless ratio of average annual organizational workers
+I,55000,Гостиницы и общественное питание,sector_I_share,False,8423005:101:same municipality and calendar year,dimensionless ratio of average annual organizational workers
+J,63000,Информация и связь,sector_J_share,False,8423005:101:same municipality and calendar year,dimensionless ratio of average annual organizational workers
+K,60000,Финансовая и страховая деятельность,sector_K_share,False,8423005:101:same municipality and calendar year,dimensionless ratio of average annual organizational workers
+L,68000,Операции с недвижимым имуществом,sector_L_share,False,8423005:101:same municipality and calendar year,dimensionless ratio of average annual organizational workers
+M,70000,"Профессиональная, научная и техническая деятельность",sector_M_share,False,8423005:101:same municipality and calendar year,dimensionless ratio of average annual organizational workers
+N,80000,Административная деятельность и сопутствующие услуги,sector_N_share,False,8423005:101:same municipality and calendar year,dimensionless ratio of average annual organizational workers
+O,84000,"Государственное управление, военная безопасность и социальное обеспечение",sector_O_share,True,8423005:101:same municipality and calendar year,dimensionless ratio of average annual organizational workers
+P,85000,Образование,sector_P_share,True,8423005:101:same municipality and calendar year,dimensionless ratio of average annual organizational workers
+Q,86000,Здравоохранение и социальные услуги,sector_Q_share,True,8423005:101:same municipality and calendar year,dimensionless ratio of average annual organizational workers
+R,90000,"Культура, спорт, досуг и развлечения",sector_R_share,False,8423005:101:same municipality and calendar year,dimensionless ratio of average annual organizational workers
+S,95000,Прочие услуги,sector_S_share,False,8423005:101:same municipality and calendar year,dimensionless ratio of average annual organizational workers
+U,73000,Экстерриториальные организации и органы,sector_U_share,False,8423005:101:same municipality and calendar year,dimensionless ratio of average annual organizational workers

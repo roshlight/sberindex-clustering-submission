@@ -1,0 +1,352 @@
+[
+  {
+    "root": "work",
+    "path": "data-round6/cases/metadata/ach_rtm_audit_mirror.json",
+    "archive_path": "raw6/cases/metadata/ach_rtm_audit_mirror.json",
+    "sha256": "286badd3f7d7a6241c35d54182bf8849a618371d9e0c8a53b36e7220ab0b58e3",
+    "bytes": 807
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/metadata/ach_rtm_audit_page.json",
+    "archive_path": "raw6/cases/metadata/ach_rtm_audit_page.json",
+    "sha256": "cf67f87e8345088b519e7ace3303004f9e61cb8202862dab28fe9231f1a0cda2",
+    "bytes": 768
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/metadata/ach_rtm_contracts.json",
+    "archive_path": "raw6/cases/metadata/ach_rtm_contracts.json",
+    "sha256": "a2967b5cd1aacce43ce0688c8ddffc0b6240ec29a7c242b3e8f61b44f4060b61",
+    "bytes": 1021
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/metadata/ach_rtm_financing.json",
+    "archive_path": "raw6/cases/metadata/ach_rtm_financing.json",
+    "sha256": "609592d265288953e75389a42482c359710aa8d53b306ef4f64870aae0edd03d",
+    "bytes": 917
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/metadata/ach_rtm_report.json",
+    "archive_path": "raw6/cases/metadata/ach_rtm_report.json",
+    "sha256": "f9a75fc47d38ed944f25558f9b34a6fea8d08ec95262ccfdfddd3fea294ad3c4",
+    "bytes": 794
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/metadata/airport_eis.json",
+    "archive_path": "raw6/cases/metadata/airport_eis.json",
+    "sha256": "49ed2267a8b115b1c8eb5d58f5eb3ebe488636073099d5d3ef556d053f5beacc",
+    "bytes": 904
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/metadata/airport_eis_execution.json",
+    "archive_path": "raw6/cases/metadata/airport_eis_execution.json",
+    "sha256": "56739ade06760d5324f42dc848f9034a29b5269346930059d69919bf367c2856",
+    "bytes": 984
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/metadata/airport_eis_payments.json",
+    "archive_path": "raw6/cases/metadata/airport_eis_payments.json",
+    "sha256": "8c5251000e9c448f7fac9fc323a983c0c75456da1f8769e533a182121c028ab0",
+    "bytes": 1021
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/metadata/auditor_directory.json",
+    "archive_path": "raw6/cases/metadata/auditor_directory.json",
+    "sha256": "9782a8eba0da7dbe9b11f6cd3d0d28ce4ff5a315b7f811b20cb66cd8bb17a54f",
+    "bytes": 708
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/metadata/clinic_tender_lead.json",
+    "archive_path": "raw6/cases/metadata/clinic_tender_lead.json",
+    "sha256": "5a88f6976bf9f4be4c723d43d43c0d27b2f5d6dbd402a3ab2025ce1b8fb85f5a",
+    "bytes": 781
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/metadata/district_home.json",
+    "archive_path": "raw6/cases/metadata/district_home.json",
+    "sha256": "d551ffc688322a25b46e16f4f6d2ed291123bd1df27702768ec03c060ea88678",
+    "bytes": 271
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/metadata/district_http.json",
+    "archive_path": "raw6/cases/metadata/district_http.json",
+    "sha256": "f18fac6d51eccae457422be52f517a6fa4d51d3726407ccfb290fced59658e78",
+    "bytes": 231
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/metadata/sakha_auditor_home.json",
+    "archive_path": "raw6/cases/metadata/sakha_auditor_home.json",
+    "sha256": "e708d144441ca9ce451042dc19095a5bd28ddc9556329504c34547307636d35f",
+    "bytes": 259
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/metadata/sakha_auditor_official.json",
+    "archive_path": "raw6/cases/metadata/sakha_auditor_official.json",
+    "sha256": "3bdeece6833d3c0b9bd992d08b68bd4a2ff6703addaa9151ca7b8cfb9d080461",
+    "bytes": 282
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/metadata/sakha_budget2023.json",
+    "archive_path": "raw6/cases/metadata/sakha_budget2023.json",
+    "sha256": "7e36ff536db8473a54abc04a7d5b1204eae05594c621e45964169583e9dc7bdd",
+    "bytes": 330
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/parsed/ach_rtm_audit_mirror.pages.json",
+    "archive_path": "raw6/cases/parsed/ach_rtm_audit_mirror.pages.json",
+    "sha256": "351b8774875854f91a2fa98babde66ab4321225fb27c9f5bdc1f33e6bc178fa3",
+    "bytes": 197346
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/parsed/ach_rtm_audit_mirror.txt",
+    "archive_path": "raw6/cases/parsed/ach_rtm_audit_mirror.txt",
+    "sha256": "a3c02317a679cdd91bf997a13bac5de22a298eaa1545a4e10cdd21de14413454",
+    "bytes": 195574
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/parsed/ach_rtm_audit_page.links.json",
+    "archive_path": "raw6/cases/parsed/ach_rtm_audit_page.links.json",
+    "sha256": "989583235db1c9be74a5586c8e04cf6270142ec82693b47da096ff9438e82c7d",
+    "bytes": 322
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/parsed/ach_rtm_audit_page.txt",
+    "archive_path": "raw6/cases/parsed/ach_rtm_audit_page.txt",
+    "sha256": "5cf22635e98b4f7e662a5ad9f5818b0d25ec3c54e3d1f6240e46f3daab8ceeea",
+    "bytes": 1500
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/parsed/ach_rtm_contracts.cells.json",
+    "archive_path": "raw6/cases/parsed/ach_rtm_contracts.cells.json",
+    "sha256": "8e8ed5d034862f99b88dc6953e0da2dc09f4271cc6af75e2c60dfe9d069c10a9",
+    "bytes": 685768
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/parsed/ach_rtm_contracts.txt",
+    "archive_path": "raw6/cases/parsed/ach_rtm_contracts.txt",
+    "sha256": "c680e23d7dafde624250bda3829f78d8867c407594aba5e2f5471baea6b28da3",
+    "bytes": 563516
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/parsed/ach_rtm_financing.cells.json",
+    "archive_path": "raw6/cases/parsed/ach_rtm_financing.cells.json",
+    "sha256": "222eb44f314c8f1286e7915d258d2d980c9db83958d0f1347b3827a9744a5cd1",
+    "bytes": 361654
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/parsed/ach_rtm_financing.txt",
+    "archive_path": "raw6/cases/parsed/ach_rtm_financing.txt",
+    "sha256": "a01226bf093dcbad638cdba11110d88605ff78e93c88718c85543be77a64d797",
+    "bytes": 271947
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/parsed/ach_rtm_report.pages.json",
+    "archive_path": "raw6/cases/parsed/ach_rtm_report.pages.json",
+    "sha256": "351b8774875854f91a2fa98babde66ab4321225fb27c9f5bdc1f33e6bc178fa3",
+    "bytes": 197346
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/parsed/ach_rtm_report.txt",
+    "archive_path": "raw6/cases/parsed/ach_rtm_report.txt",
+    "sha256": "a3c02317a679cdd91bf997a13bac5de22a298eaa1545a4e10cdd21de14413454",
+    "bytes": 195574
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/parsed/airport_eis.links.json",
+    "archive_path": "raw6/cases/parsed/airport_eis.links.json",
+    "sha256": "be7ca3685ff340855c28df37faab928485836f9346dd73944e3e74efe3c2d5be",
+    "bytes": 13835
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/parsed/airport_eis.txt",
+    "archive_path": "raw6/cases/parsed/airport_eis.txt",
+    "sha256": "f390140f7675288351d967f656da56ad35aa087509be4f23ce50e552b6857028",
+    "bytes": 31205
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/parsed/airport_eis_execution.links.json",
+    "archive_path": "raw6/cases/parsed/airport_eis_execution.links.json",
+    "sha256": "255f1f1014c46eb96daa100aea22dbdd7868483450024a12cf3191f4e76cb62b",
+    "bytes": 12949
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/parsed/airport_eis_execution.txt",
+    "archive_path": "raw6/cases/parsed/airport_eis_execution.txt",
+    "sha256": "a7145cd6da4ae7b83deaa3605ab763e595123a6e8428407f195b04b769fd04a1",
+    "bytes": 12406
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/parsed/airport_eis_payments.links.json",
+    "archive_path": "raw6/cases/parsed/airport_eis_payments.links.json",
+    "sha256": "c83b118088ebf9be8dd926651e12a5bbcd6d39013d2975c9c5935349c0edd291",
+    "bytes": 12969
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/parsed/airport_eis_payments.txt",
+    "archive_path": "raw6/cases/parsed/airport_eis_payments.txt",
+    "sha256": "2705c912d213a5a6275ac695afabc784e2d61e70776922ba3abcd9e1dbe116df",
+    "bytes": 12378
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/parsed/auditor_directory.links.json",
+    "archive_path": "raw6/cases/parsed/auditor_directory.links.json",
+    "sha256": "c6ffa49373b83f86d12928b284aed05e54e5d9657c0d6779031106eb4cfe1d03",
+    "bytes": 6315
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/parsed/auditor_directory.txt",
+    "archive_path": "raw6/cases/parsed/auditor_directory.txt",
+    "sha256": "f07c375fc66bd18d40bffeac7ba4319c36b4eb0c57d0071b18fb2ffbc77de2b9",
+    "bytes": 2904
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/parsed/clinic_tender_lead.links.json",
+    "archive_path": "raw6/cases/parsed/clinic_tender_lead.links.json",
+    "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "bytes": 4
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/parsed/clinic_tender_lead.txt",
+    "archive_path": "raw6/cases/parsed/clinic_tender_lead.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/raw/ach_rtm_audit_mirror.pdf",
+    "archive_path": "raw6/cases/raw/ach_rtm_audit_mirror.pdf",
+    "sha256": "dd90aa61ad92e695149941bb495cbb88933e8b84f2a947cbac29d23d4ad290ae",
+    "bytes": 597806
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/raw/ach_rtm_audit_page.html",
+    "archive_path": "raw6/cases/raw/ach_rtm_audit_page.html",
+    "sha256": "62033f57ba76b48ff2171ad0aa97522b8109a75ed6e89c09e9c5c7e4ec0b5076",
+    "bytes": 164185
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/raw/ach_rtm_contracts.xlsx",
+    "archive_path": "raw6/cases/raw/ach_rtm_contracts.xlsx",
+    "sha256": "a96c99045e41ac99f7bba7726ba399068a97f23e37475fc6137c501b7691ffac",
+    "bytes": 157339
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/raw/ach_rtm_financing.xlsx",
+    "archive_path": "raw6/cases/raw/ach_rtm_financing.xlsx",
+    "sha256": "22b77428cf4c21b6c8957197e1743eb991be485b79543770fae01501bb37c0b6",
+    "bytes": 7145227
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/raw/ach_rtm_report.pdf",
+    "archive_path": "raw6/cases/raw/ach_rtm_report.pdf",
+    "sha256": "dd90aa61ad92e695149941bb495cbb88933e8b84f2a947cbac29d23d4ad290ae",
+    "bytes": 597806
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/raw/airport_eis.html",
+    "archive_path": "raw6/cases/raw/airport_eis.html",
+    "sha256": "89604e677bc3febe7b5b3f443c4407777ea5d21b9b3d8ce5f25b2cd0cb0bb305",
+    "bytes": 242473
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/raw/airport_eis_execution.html",
+    "archive_path": "raw6/cases/raw/airport_eis_execution.html",
+    "sha256": "82209b762250bb270f0f4ce493129d7edb5c0e6f4bc808ab2250a57a36873001",
+    "bytes": 154628
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/raw/airport_eis_payments.html",
+    "archive_path": "raw6/cases/raw/airport_eis_payments.html",
+    "sha256": "6f2713245bebac7b8cf00ec33a23686487c962a4f8f5a572d0dde1b46d1594c7",
+    "bytes": 162765
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/raw/auditor_directory.html",
+    "archive_path": "raw6/cases/raw/auditor_directory.html",
+    "sha256": "f1d13bc2aeab3a84974e52a59bc7c1cda0e5a03f8f9b607a3204fdd57aedb3ab",
+    "bytes": 46018
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/raw/clinic_tender_lead.html",
+    "archive_path": "raw6/cases/raw/clinic_tender_lead.html",
+    "sha256": "2b73525bf5e7dae24e7f4711365bd6226b026a6f29ea8c84d357c45decec03ee",
+    "bytes": 723
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/rendered/ach_rtm_report_page_1.png",
+    "archive_path": "raw6/cases/rendered/ach_rtm_report_page_1.png",
+    "sha256": "cceb6381586ef2c12af5d9de43da6dce392b1ed86f368f5ce791e178edeb9029",
+    "bytes": 179887
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/rendered/ach_rtm_report_page_31.png",
+    "archive_path": "raw6/cases/rendered/ach_rtm_report_page_31.png",
+    "sha256": "4db2ed8e1431a49ff79855d319d179bf506442e4fa17f19a543139c911e03a7c",
+    "bytes": 320214
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/rendered/ach_rtm_report_page_32.png",
+    "archive_path": "raw6/cases/rendered/ach_rtm_report_page_32.png",
+    "sha256": "a6caa9d8a85c4ed23265f2e6a44bd9d1518ca87625217c498424a5466ab9d2fa",
+    "bytes": 342552
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/retrievals.json",
+    "archive_path": "raw6/cases/retrievals.json",
+    "sha256": "b30905f39d1ac11f1701d1c60cfce669b64d42bd62d0568a76e2fbae5176e7ab",
+    "bytes": 10546
+  },
+  {
+    "root": "work",
+    "path": "data-round6/cases/search_log.json",
+    "archive_path": "raw6/cases/search_log.json",
+    "sha256": "ccbd70db7831791ee14c7375e18acf593957ab16124a86a569524c978edda04f",
+    "bytes": 43704
+  }
+]

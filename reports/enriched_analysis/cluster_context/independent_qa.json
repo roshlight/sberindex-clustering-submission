@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "source_and_output_hashes": true,
+  "recomputed_dispersion_rows": 12,
+  "verified_permutation_rows": 5988,
+  "method": "separate pandas group-mean SS and saved null summary reconciliation; same agent",
+  "verifier_sha256": "e4a590320a07fd0f295409493edfbbcfb0c88cac9a632d9837c248ac750363a4"
+}

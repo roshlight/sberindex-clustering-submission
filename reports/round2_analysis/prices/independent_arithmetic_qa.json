@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "full_dummy_ols": [
+    {
+      "year": 2023,
+      "max_abs_slope_difference": 2.9818161828565337e-13
+    },
+    {
+      "year": 2024,
+      "max_abs_slope_difference": 1.199040866595169e-14
+    }
+  ],
+  "tail_diagnostic_cells_checked": 240
+}

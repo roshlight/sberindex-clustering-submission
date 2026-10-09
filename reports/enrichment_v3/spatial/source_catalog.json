@@ -1,0 +1,483 @@
+[
+  {
+    "source_id": "bdpmo_spatial_metadata",
+    "need_id_if_known": "territorial_area_and_local_roads",
+    "title": "Росстат: каталог площади и местных дорог, 2024",
+    "url": "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+    "download_urls": [
+      "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+      "https://23.rosstat.gov.ru/storage/mediabank/Pokazateli_2024.pdf"
+    ],
+    "source_type": "official_publication",
+    "coverage": "8006001: площадь в гектарах; 8006005: местные дороги в километрах; уровни МО определяются формой.",
+    "join_key": "Точный код p_oktmo внутри региональной формы; подпись строки должна быть уникальна во всей форме.",
+    "time_semantics": "Годовые показатели на конец отчётного года; каталог редакции 2024, ответы выгружены в 2026.",
+    "license_status": "Публичный официальный документ; отдельная лицензия CC не установлена.",
+    "priority": "P1",
+    "access_status": "downloaded",
+    "notes": "Нельзя суммировать вложенные виды дорожного покрытия. Местные дороги не равны всей дорожной сети; сопоставимость уровней МО требует проверки.",
+    "files": [
+      {
+        "path": "work/enrichment-v3/spatial/raw/bdpmo_catalog_native.html",
+        "bytes": 565790,
+        "sha256": "9f245a8e1a1cfad4565cfa6ad2980b4f4b8f8f6e61ac8beddd01d6fc92ca2501",
+        "url": "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm"
+      },
+      {
+        "path": "work/enrichment-v3/spatial/raw/bdpmo_catalog_krasnodar.pdf",
+        "bytes": 322891,
+        "sha256": "04071ec3b4959d8dc6c6395b270ed1341deef4e73b01c92bfcf2885d8e2ce8fa",
+        "url": "https://23.rosstat.gov.ru/storage/mediabank/Pokazateli_2024.pdf"
+      }
+    ]
+  },
+  {
+    "source_id": "north_policy_1946",
+    "need_id_if_known": "territorial_policy_types",
+    "title": "Районы Крайнего Севера: постановление 1946 от 16.11.2021",
+    "url": "http://publication.pravo.gov.ru/document/0001202111170030",
+    "download_urls": [
+      "http://publication.pravo.gov.ru/document/0001202111170030",
+      "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202111170030"
+    ],
+    "source_type": "official_publication",
+    "coverage": "Полный текст исходного перечня; положительный производный флаг создан только для 7 целиком включённых регионов.",
+    "join_key": "У исходного перечня нет ОКТМО. Для 7 регионов вручную проверено точное соответствие коду региона Сбера; остальные МО не классифицированы.",
+    "time_semantics": "Исходный акт действует с 01.01.2022; полная история последующих поправок не восстановлена.",
+    "license_status": "Публичный официальный документ; отдельная лицензия CC не установлена.",
+    "priority": "P2",
+    "access_status": "downloaded",
+    "notes": "72 МО когорты получили положительный baseline-флаг. Это не полная классификация Севера на 2023/2024 и не экономическая специализация.",
+    "files": [
+      {
+        "path": "work/enrichment-v3/spatial/raw/north_pravo_1946.html",
+        "bytes": 24168,
+        "sha256": "819f696c7f21ebcf7e4f1ec38c0ee00dd3183a6faf5a343919eb2e9b16496944",
+        "url": "http://publication.pravo.gov.ru/document/0001202111170030"
+      },
+      {
+        "path": "work/enrichment-v3/spatial/raw/north_pravo_1946_pdf.pdf",
+        "bytes": 335504,
+        "sha256": "424942029eb2fff5ff546ad834342991bb028894ab55e718d17c9bb71077a619",
+        "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202111170030"
+      }
+    ]
+  },
+  {
+    "source_id": "resorts_1959_2024",
+    "need_id_if_known": "territorial_policy_types",
+    "title": "Федеральные курорты: 1959-р от 23.07.2024 и изменение 3884-р от 19.12.2024",
+    "url": "http://publication.pravo.gov.ru/document/0001202407250017",
+    "download_urls": [
+      "http://publication.pravo.gov.ru/document/0001202407250017",
+      "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202407250017",
+      "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202412200018"
+    ],
+    "source_type": "official_publication",
+    "coverage": "Курорты, лечебно-оздоровительная местность и курортные регионы; неодинаковый территориальный уровень.",
+    "join_key": "Кодов ОКТМО нет; необходимо отдельное официальное кодовое/территориальное основание. Автоматическое присоединение не выполнено.",
+    "time_semantics": "1959-р вступает в силу 01.09.2024. Изменение подписано 19.12.2024, опубликовано 20.12.2024; отдельная дата вступления в силу в нём не указана.",
+    "license_status": "Публичный официальный документ; отдельная лицензия CC не установлена.",
+    "priority": "P2",
+    "access_status": "downloaded",
+    "notes": "Исходный перечень нельзя переносить на 2023 или январь–август 2024. Поправка добавляет Саки и меняет формулировку позиции Южного берега Крыма. В документах встречаются территории вне когорты.",
+    "files": [
+      {
+        "path": "work/enrichment-v3/spatial/raw/resorts_pravo_http.html",
+        "bytes": 20302,
+        "sha256": "94174bf8a2503acf9cb3e1ab0ea6904eab5d2b4117fe716f8df6b6bc2683afe0",
+        "url": "http://publication.pravo.gov.ru/document/0001202407250017"
+      },
+      {
+        "path": "work/enrichment-v3/spatial/raw/resorts_pravo_pdf_http.pdf",
+        "bytes": 601591,
+        "sha256": "aa1a2bd4f8ccec1eb89fca9f3d049ee9e9525a3bac3030bf68b7717bade6d315",
+        "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202407250017"
+      },
+      {
+        "path": "work/enrichment-v3/spatial/raw/resorts_pravo_change_2024_pdf_retry.pdf",
+        "bytes": 211540,
+        "sha256": "cf8bf68e184da85a24749b782a5efafffbc93145f0e8ee91d58d0d90b6c66f09",
+        "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202412200018"
+      }
+    ]
+  },
+  {
+    "source_id": "monotown_baseline_2020",
+    "need_id_if_known": "territorial_policy_types",
+    "title": "Моногорода: консолидированная редакция 1398-р на 21.01.2020 и первичная поправка 42-р",
+    "url": "https://mir.midural.ru/sites/default/files/files/1398-r.pdf",
+    "download_urls": [
+      "https://mir.midural.ru/sites/default/files/files/1398-r.pdf",
+      "http://publication.pravo.gov.ru/document/0001202001220021",
+      "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202001220021"
+    ],
+    "source_type": "primary_research_or_hosted_copy",
+    "coverage": "Федеральный перечень наименований монопрофильных муниципальных образований; размещённая региональным министерством копия КонсультантПлюс.",
+    "join_key": "ОКТМО нет; часть объектов — городские поселения внутри исследуемых районов. Совпадение названия не создаёт муниципальную связь.",
+    "time_semantics": "Консолидированная редакция 21.01.2020, сохранение 14.02.2020; полнота изменений до конца 2024 отдельно не доказана.",
+    "license_status": "Публичный официальный документ; отдельная лицензия CC не установлена.",
+    "priority": "P2",
+    "access_status": "downloaded",
+    "notes": "Первичный акт 42-р перемещает Ермолино между позициями перечня (исключает101, добавляет261¹). Редакции 2026 не используются как исторические. Число строк не считается по последнему номеру.",
+    "files": [
+      {
+        "path": "work/enrichment-v3/spatial/raw/mono_sverdlovsk_2020.pdf",
+        "bytes": 306851,
+        "sha256": "f619e6eb7381c4b985daf62f7696dae623173b316639cb2435619388d1ca702c",
+        "url": "https://mir.midural.ru/sites/default/files/files/1398-r.pdf"
+      },
+      {
+        "path": "work/enrichment-v3/spatial/raw/mono_pravo_change_2020.html",
+        "bytes": 19256,
+        "sha256": "dfd7596f88c29320b92d604542d0b20380374e7f9a17e81470cf9f61063389ed",
+        "url": "http://publication.pravo.gov.ru/document/0001202001220021"
+      },
+      {
+        "path": "work/enrichment-v3/spatial/raw/mono_pravo_change_2020_pdf.pdf",
+        "bytes": 32113,
+        "sha256": "e9f72b773cb033f279cfade0d54c2c92285a247fd97007feec271f2a6786769f",
+        "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202001220021"
+      }
+    ]
+  },
+  {
+    "source_id": "zato_historical_sources",
+    "need_id_if_known": "territorial_policy_types",
+    "title": "ЗАТО: копия перечня 508 и первичное изменение 200 от 16.02.2021",
+    "url": "https://www.azatorf.ru/files/doc1.pdf",
+    "download_urls": [
+      "https://www.azatorf.ru/files/doc1.pdf",
+      "http://publication.pravo.gov.ru/document/0001202102180023",
+      "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202102180023"
+    ],
+    "source_type": "primary_research_or_hosted_copy",
+    "coverage": "Копия ассоциации ЗАТО в редакции 2019 и отдельная поправка 2021.",
+    "join_key": "Кодов в PDF нет. Уже имеющийся статус Сбера используется только как положительный source-флаг по territory_id.",
+    "time_semantics": "Поправка исключает отдельные населённые пункты из состава ЗАТО Мурманской области; она не означает исключение самих ЗАТО.",
+    "license_status": "Условия повторного распространения отдельно не установлены; сохранён публичный первичный источник.",
+    "priority": "P2",
+    "access_status": "downloaded",
+    "notes": "Ноль положительных флагов ЗАТО в когорте2016, хотя в полном срезе Сбера39. Пустой статус не приравнивается к подтверждённому отсутствию ЗАТО. Полная юридическая история не восстановлена.",
+    "files": [
+      {
+        "path": "work/enrichment-v3/spatial/raw/zato_association.pdf",
+        "bytes": 363260,
+        "sha256": "5ae988f4332e575f9903e79b511273be3a7f1addcf08c689117fae829069aadb",
+        "url": "https://www.azatorf.ru/files/doc1.pdf"
+      },
+      {
+        "path": "work/enrichment-v3/spatial/raw/zato_pravo_change_2021.html",
+        "bytes": 20735,
+        "sha256": "6cf99abc4e1852004ee24ee83ab2360403cada4bc6f0eac873253395c4020e4b",
+        "url": "http://publication.pravo.gov.ru/document/0001202102180023"
+      },
+      {
+        "path": "work/enrichment-v3/spatial/raw/zato_pravo_change_2021_pdf.pdf",
+        "bytes": 45072,
+        "sha256": "10065b73a23b242f1988ef0945af3fedd8d800d71948a4f84e1b7e2b63df6033",
+        "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202102180023"
+      }
+    ]
+  },
+  {
+    "source_id": "iue_agglomeration_membership",
+    "need_id_if_known": "targeted_context_docs",
+    "title": "ИЭГ: состав 17 агломераций и методика, выпуск 7",
+    "url": "https://urbaneconomics.ru/sites/default/files/ekonomika_gorodov_i_gorodskih_aglomeracii_vypusk_7_metodika.pdf",
+    "download_urls": [
+      "https://urbaneconomics.ru/sites/default/files/ekonomika_gorodov_i_gorodskih_aglomeracii_vypusk_7_metodika.pdf"
+    ],
+    "source_type": "primary_research_or_hosted_copy",
+    "coverage": "Таблица2, страницы23–28: состав 17 агломераций по названиям МО; методическое издание2023.",
+    "join_key": "Муниципальные названия без ОКТМО. Нужна отдельно проверенная датированная таблица соответствия; прямого join нет.",
+    "time_semantics": "Границы фиксированы на2021; обновление методики на февраль2023.",
+    "license_status": "Условия повторного распространения отдельно не установлены; сохранён публичный первичный источник.",
+    "priority": "P2",
+    "access_status": "downloaded",
+    "notes": "Первичное исследование ИЭГ, не единая обязательная общероссийская классификация агломераций на2023/24.",
+    "files": [
+      {
+        "path": "work/enrichment-v3/spatial/raw/agglomeration_iue_membership_2021.pdf",
+        "bytes": 1065636,
+        "sha256": "86461092776b2c7a5aedd47de3640f73f6afe7780fcb295eafba562eaae8f649",
+        "url": "https://urbaneconomics.ru/sites/default/files/ekonomika_gorodov_i_gorodskih_aglomeracii_vypusk_7_metodika.pdf"
+      }
+    ]
+  },
+  {
+    "source_id": "iue_agglomeration_2021_2023",
+    "need_id_if_known": "targeted_context_docs",
+    "title": "ИЭГ: динамика структуры экономики агломераций в2021–2023",
+    "url": "https://www.urbaneconomics.ru/sites/default/files/dinamika_struktury_ekonomiki_krupneishih_gorodskih_aglomeracii_v_2021-2023_gg.pdf",
+    "download_urls": [
+      "https://www.urbaneconomics.ru/sites/default/files/dinamika_struktury_ekonomiki_krupneishih_gorodskih_aglomeracii_v_2021-2023_gg.pdf"
+    ],
+    "source_type": "primary_research_or_hosted_copy",
+    "coverage": "46 рассматриваемых агломераций; доступность отдельных оценок ограничена статистикой.",
+    "join_key": "Состав устанавливают авторы по региональным документам; машиночитаемый кодовый состав в этом PDF не подтверждён.",
+    "time_semantics": "Публикация2025, данные2021–2023; границы аналитически фиксированы на2023, в том числе с привлечением более поздних документов.",
+    "license_status": "Условия повторного распространения отдельно не установлены; сохранён публичный первичный источник.",
+    "priority": "P2",
+    "access_status": "downloaded",
+    "notes": "Ретроспективный контекст. Отраслевая оценка использует фонд оплаты труда как прокси; это не измеренный муниципальный ВВП и не независимый от БДПМО ground truth.",
+    "files": [
+      {
+        "path": "work/enrichment-v3/spatial/raw/agglomeration_iue_2021_2023.pdf",
+        "bytes": 994251,
+        "sha256": "e55d8c31f998b833207fddc7c443b6c429ee036808c48ca78026933bd3c31e90",
+        "url": "https://www.urbaneconomics.ru/sites/default/files/dinamika_struktury_ekonomiki_krupneishih_gorodskih_aglomeracii_v_2021-2023_gg.pdf"
+      }
+    ]
+  },
+  {
+    "source_id": "iue_agglomeration_trends",
+    "need_id_if_known": "targeted_context_docs",
+    "title": "ИЭГ: долгосрочные тренды агломераций, публикация2023",
+    "url": "https://www.urbaneconomics.ru/sites/default/files/dolgosrochnye_trendy_v_ekonomike_zhilishchnoi_i_gradostroitelnoi_sferah_krupneishih_gorodskih_aglomeracii_rossii_2023.pdf",
+    "download_urls": [
+      "https://www.urbaneconomics.ru/sites/default/files/dolgosrochnye_trendy_v_ekonomike_zhilishchnoi_i_gradostroitelnoi_sferah_krupneishih_gorodskih_aglomeracii_rossii_2023.pdf"
+    ],
+    "source_type": "primary_research_or_hosted_copy",
+    "coverage": "44-страничное исследование долгосрочных жилищных/экономических трендов.",
+    "join_key": "Агломерация, не исходная единица нашей панели. Прямой кодовый join не выполнен.",
+    "time_semantics": "Публикация2023; существенная часть временных рядов относится к2010–2021.",
+    "license_status": "Условия повторного распространения отдельно не установлены; сохранён публичный первичный источник.",
+    "priority": "P2",
+    "access_status": "downloaded",
+    "notes": "Скачано как первичное исследование для интерпретации. Числовые таблицы не превращены в признаки2023/24.",
+    "files": [
+      {
+        "path": "work/enrichment-v3/spatial/raw/agglomeration_iue_2023.pdf",
+        "bytes": 1237649,
+        "sha256": "259ec1d90ce47b4d61aef7af27c27248da4370c592aeeee85dc84aee9c5ea167",
+        "url": "https://www.urbaneconomics.ru/sites/default/files/dolgosrochnye_trendy_v_ekonomike_zhilishchnoi_i_gradostroitelnoi_sferah_krupneishih_gorodskih_aglomeracii_rossii_2023.pdf"
+      }
+    ]
+  },
+  {
+    "source_id": "hse_agglomeration_method",
+    "need_id_if_known": "targeted_context_docs",
+    "title": "Демографическое обозрение: методика границ агломераций",
+    "url": "https://demreview.hse.ru/article/view/11139",
+    "download_urls": [
+      "https://demreview.hse.ru/article/view/11139"
+    ],
+    "source_type": "primary_research_or_hosted_copy",
+    "coverage": "Методическая статья, а не выгрузка актуальных границ.",
+    "join_key": "Не даёт проверенной таблицы territory_id↔агломерация.",
+    "time_semantics": "Публикация2020; историческая методическая база.",
+    "license_status": "Условия повторного распространения отдельно не установлены; сохранён публичный первичный источник.",
+    "priority": "P2",
+    "access_status": "downloaded",
+    "notes": "Сохранена страница первичного научного издателя. Текущая национальная разметка2023/24 не получена.",
+    "files": [
+      {
+        "path": "work/enrichment-v3/spatial/raw/agglomeration_method.html",
+        "bytes": 61697,
+        "sha256": "7f054895ba28ca368c2ac45d42304235b0dedb44be348edbc4d75f6ef0940db7",
+        "url": "https://demreview.hse.ru/article/view/11139"
+      }
+    ]
+  },
+  {
+    "source_id": "hse_geoportal_navigator",
+    "need_id_if_known": "targeted_context_docs",
+    "title": "Центр геоданных ВШЭ: геопортал муниципальной статистики",
+    "url": "https://geodata.hse.ru/geoportalstatistic",
+    "download_urls": [
+      "https://geodata.hse.ru/geoportalstatistic"
+    ],
+    "source_type": "primary_research_or_hosted_copy",
+    "coverage": "Прототип на Краснодарском крае и Республике Адыгея, МО первого уровня.",
+    "join_key": "На странице описана пространственная база с ОКТМО; схема и доступный bulk-export не проверены.",
+    "time_semantics": "Указанный РИД2024621787: пространственные данные с населением на01.01.2021.",
+    "license_status": "Условия повторного распространения отдельно не установлены; сохранён публичный первичный источник.",
+    "priority": "P2",
+    "access_status": "downloaded",
+    "notes": "Навигатор к geoportal.hse.ru. Не выдан за общероссийский источник2023/24. Тематические выгрузки Tochno исследует root, здесь не дублируются.",
+    "files": [
+      {
+        "path": "work/enrichment-v3/spatial/raw/hse_geoportal_navigator.html",
+        "bytes": 50826,
+        "sha256": "8850fd2c9c5010f06d45ef348118f5262c108064ab2623a865bd37961bca6e29",
+        "url": "https://geodata.hse.ru/geoportalstatistic"
+      }
+    ]
+  },
+  {
+    "source_id": "sber_existing_spatial_sources",
+    "need_id_if_known": "territory_crosswalk",
+    "title": "СберИндекс: исторический справочник, геометрии, connection и market_access",
+    "url": "https://sberindex.ru/ru/research/dataset-borders-and-changes-of-municipalities",
+    "download_urls": [
+      "https://www.sberbank.com/common/files/t_dict_municipal.rar",
+      "https://www.sberbank.com/common/img/uploaded/files/pdf/sberindex/hackathonlicence.zip",
+      "https://www.sberbank.ru/common/img/uploaded/files/pdf/sberindex/metadata_municipal_dict_sberindex_2.pdf"
+    ],
+    "source_type": "existing_original_data_reused",
+    "coverage": "Срезы01.01.2023 и01.01.2024; 2016 МО когорты; центр/статус/геометрии; транспорт и market2024.",
+    "join_key": "Точный territory_id и интервал year_from≤год<year_to; для центров требуется единственность source-статуса в регионе.",
+    "time_semantics": "Границы покрыты до01.01.2024; центры по метаданным2018, изменения центров не датированы; transport31.12.2024 иmarket2024 только ретроспективно.",
+    "license_status": "CC BY-SA4.0 согласно ранее проверенным метаданным СберИндекса; атрибуция СберИндекс/Росстат/OSM.",
+    "priority": "P0",
+    "access_status": "local_existing_originals_reused",
+    "notes": "Текущий OSM не скачивался; внутригодовая полнота2024 не заявляется. 12 пропусков market не имитированы.",
+    "files": [
+      {
+        "path": "outputs/municipal-economic-profiles/reports/enrichment_v2/code_bridge/population_fetch_candidate_targets.json",
+        "bytes": 6301696,
+        "sha256": "a0c243eab9c78e110354bdb43d602ea61201b510d58640b0dbaac5a89f01fd11"
+      },
+      {
+        "path": "work/enrichment-sources/t_dict_municipal_original/t_dict_municipal_districts_poly.gpkg",
+        "bytes": 74334208,
+        "sha256": "e62027630d48e4a13f9b6d173dd074d7358706743fe859ca3b7fa30fefa9813a"
+      },
+      {
+        "path": "work/enrichment-v3/spatial/raw/north_pravo_1946_pdf.pdf",
+        "bytes": 335504,
+        "sha256": "424942029eb2fff5ff546ad834342991bb028894ab55e718d17c9bb71077a619"
+      },
+      {
+        "path": "outputs/municipal-economic-profiles/data/derived/enrichment/municipal_crosswalk_2023-01-01.csv",
+        "bytes": 845554,
+        "sha256": "ee3de32865f707060ef2239f58f9f991d1c3f6ce52192019c005ba1b64954ae0"
+      },
+      {
+        "path": "outputs/municipal-economic-profiles/data/derived/enrichment/municipal_crosswalk_2024-01-01.csv",
+        "bytes": 845122,
+        "sha256": "dc1603aacda2303a6ef836272d379323f527b32fd6bf0cffb55c279e0d22db3e"
+      },
+      {
+        "path": "work/sberindex-research/hackathon-bundle/hackathonlicence/connection.parquet",
+        "bytes": 21904682,
+        "sha256": "20cbd5213d3ac1d0a867f097b485431811614b283d7366eb5cba9f65dc80493d"
+      },
+      {
+        "path": "work/sberindex-research/hackathon-bundle/hackathonlicence/market_access.parquet",
+        "bytes": 25163,
+        "sha256": "434258afe322b7e6e6610b2552d129ae47094613de72dae3d13f6965a28d1dc1"
+      }
+    ]
+  },
+  {
+    "source_id": "bdpmo_area_road_source_cells",
+    "need_id_if_known": "territorial_area_and_local_roads",
+    "title": "Фактические CSV БДПМО8006001/8006005: 136 разобранных экспортов",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/",
+    "download_urls": [
+      "https://rosstat.gov.ru/dbscripts/munst/munst01/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst04/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst05/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst07/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst08/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst10/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst11/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst12/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst17/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst18/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst19/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst22/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst24/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst25/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst27/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst28/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst29/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst30/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst32/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst33/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst34/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst36/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst37/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst40/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst41/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst42/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst44/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst45/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst46/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst47/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst49/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst50/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst52/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst53/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst54/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst56/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst57/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst58/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst61/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst63/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst64/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst65/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst66/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst68/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst69/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst70/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst71/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst73/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst75/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst76/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst77/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst79/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst80/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst83/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst84/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst85/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst86/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst87/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst88/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst89/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst90/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst91/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst92/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst93/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst94/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst95/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst97/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst98/DBInet.cgi",
+      "https://rosstat.gov.ru/dbscripts/munst/munst99/DBInet.cgi"
+    ],
+    "source_type": "official_dynamic_post_export",
+    "coverage": [
+      {
+        "indicator_id": "8006001",
+        "source_year": 2023,
+        "rows": 2014,
+        "numeric_values": 1996,
+        "codes": 2014,
+        "territory_candidates": 1996
+      },
+      {
+        "indicator_id": "8006001",
+        "source_year": 2024,
+        "rows": 2005,
+        "numeric_values": 1977,
+        "codes": 2005,
+        "territory_candidates": 1992
+      },
+      {
+        "indicator_id": "8006005",
+        "source_year": 2023,
+        "rows": 5215,
+        "numeric_values": 5163,
+        "codes": 1760,
+        "territory_candidates": 1752
+      },
+      {
+        "indicator_id": "8006005",
+        "source_year": 2024,
+        "rows": 5190,
+        "numeric_values": 5169,
+        "codes": 1751,
+        "territory_candidates": 1748
+      }
+    ],
+    "join_key": "Source key=(regionURL,p_oktmo,indicator,year,surface). Candidate SberID only via prior code registry; external names never join keys.",
+    "time_semantics": "Explicit source header2023/2024; end-of-year. Omitted years stay absent. Retrieved2026, no historical release-vintage guarantee.",
+    "license_status": "Публичный официальный документ; отдельная лицензия CC не установлена.",
+    "priority": "P1",
+    "access_status": "136_parsed_4_capture_exceptions",
+    "notes": "POST bodies, raw CP1251 bytes, hashes and form options in bdpmo-bulk and bdpmo-followup receipts. 4 source rows remain unbound; all repeated keys retained. Not a completed geographic population denominator join.",
+    "manifest": "outputs/municipal-economic-profiles/reports/enrichment_v3/spatial/bdpmo_spatial_source_audit.json"
+  }
+]

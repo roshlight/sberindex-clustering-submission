@@ -1,0 +1,6 @@
+asset,rows,columns,explicit_validity_columns,explicit_validity_columns_count,historical_join_approved,sha256
+abbr.csv,393,type_id|fias_level|name|name_full,,0,False,a87d1107ed4cc4017ddf0256e80522b793423334967500335cd9f7c4a519b31f
+cities.csv,1117,address|postal_code|country|federal_district|region_type|region|area_type|area|city_type|city|settlement_type|settlement|kladr_id|fias_id|fias_level|capital_marker|okato|oktmo|tax_office|timezone|geo_lat|geo_lon|population|foundation_year,,0,False,b513afa09ba0223a9f200e58feade8c9308bd49832ea5a848af4021d66b62bef
+cities_additional.csv,12,address|postal_code|country|federal_district|region_type|region|area_type|area|city_type|city|settlement_type|settlement|kladr_id|fias_id|fias_level|capital_marker|okato|oktmo|tax_office|timezone|geo_lat|geo_lon|population|foundation_year,,0,False,20c505e65065c531a2cf30b2bce1a6de68bbaf35d290d659f648ba7f8c6ec4e7
+regions.csv,86,code|name|short_name|iso_code,,0,False,158f8a3f91d21b2c214b84839a3ccc51e0a64a2865a151d3611d978de60d72b8
+settlements.csv,155921,id|region|municipality|settlement|type|population|children|latitude_dms|longitude_dms|latitude_dd|longitude_dd|oktmo|dadata|rosstat,,0,False,d52b37f56fb474401b5c1837fd8b3b26c73a0450519e4cffd58d43608c57a46b

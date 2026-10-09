@@ -1,0 +1,352 @@
+{
+  "raw_root": "work/data-round5/cases",
+  "files": [
+    {
+      "path": "metadata/arctic_tlc.json",
+      "bytes": 907,
+      "sha256": "7000c28590985bc1481a3a99facf44c0e7597fbfafea547cfd18cb25f5cf5139"
+    },
+    {
+      "path": "metadata/district_home.json",
+      "bytes": 288,
+      "sha256": "1bca1f786c5a7b14b43bf4ca2a899a6eccc7c6873bbb859f3753e305041d0061"
+    },
+    {
+      "path": "metadata/favt_certification.json",
+      "bytes": 303,
+      "sha256": "599afc5806258bf82748c3c7fef19dd2ad6f4e9c393dc22e56e3f3208be5ff80"
+    },
+    {
+      "path": "metadata/gov_contract_uplift_a.json",
+      "bytes": 334,
+      "sha256": "40b8398e4608e7d0881d904fed78c4f20128b45669f9456e63f72f0d70d9e447"
+    },
+    {
+      "path": "metadata/gov_contract_uplift_a_http.json",
+      "bytes": 885,
+      "sha256": "05c3cdf595a671cf364adab6a3754e15332fcbdcaf8387a0daaa262f48c47593"
+    },
+    {
+      "path": "metadata/gov_contract_uplift_b.json",
+      "bytes": 334,
+      "sha256": "c32c6000381e9372e3dac6134e31738a484860a5d5ef41ea225fff996efaa564"
+    },
+    {
+      "path": "metadata/gov_contract_uplift_b_http.json",
+      "bytes": 885,
+      "sha256": "7cf770bc4cca1a3de3e5373bef3c61858b0f751d6c28aca756622bdd812525bb"
+    },
+    {
+      "path": "metadata/iltumen_app_js.json",
+      "bytes": 757,
+      "sha256": "9e656098977561251862cc6e985079548f32f5ec03af5ec31d0622d09fc8cf80"
+    },
+    {
+      "path": "metadata/iltumen_arctic_review.json",
+      "bytes": 779,
+      "sha256": "287766489cdc340728118365253b2ebbe8f42198b7dc7d115deb87a7b7c199b3"
+    },
+    {
+      "path": "metadata/iltumen_article_api.json",
+      "bytes": 787,
+      "sha256": "191e73378098c638b6d14af06c2ba26623ee90a2421abc85d1e90f140f9b6668"
+    },
+    {
+      "path": "metadata/mintrans_permit.json",
+      "bytes": 781,
+      "sha256": "fb7fabd5edfa74e12c8246eeb1ea4e85ee0c246fa2221d292e823d72c2c15243"
+    },
+    {
+      "path": "metadata/mintrans_report2023.json",
+      "bytes": 736,
+      "sha256": "b348fc3a60292ea4e0710cfea886eb20d9573eb70f1a45e93e570156046eb3df"
+    },
+    {
+      "path": "metadata/operator_home.json",
+      "bytes": 862,
+      "sha256": "fd412a1c0c9e069cf6d83d2c4e6220233e51f1c11be2b9999b3f46012c6281e0"
+    },
+    {
+      "path": "metadata/parliament_arctic_review.json",
+      "bytes": 1011,
+      "sha256": "9cef2ab8cd0e7933ea9368867f10d700cebe848c9f76a13501babade2075022f"
+    },
+    {
+      "path": "metadata/rosstat_arctic2024.json",
+      "bytes": 875,
+      "sha256": "eb93f76593a077b68b41ca3b5a1c0f48ce7c673407f2122989063b6da2878aaa"
+    },
+    {
+      "path": "metadata/rtm_first_flight.json",
+      "bytes": 859,
+      "sha256": "2d3c8ae7d0a4d12e428c12a487b5bfe9c5b56cc3e819ae3c9b01a76b089ba53b"
+    },
+    {
+      "path": "metadata/rtm_project.json",
+      "bytes": 759,
+      "sha256": "8ee209d558bc774a4c6a72e9d892f722c480e19ca3590f79f9cfc4f49b6dca0b"
+    },
+    {
+      "path": "metadata/ysia_tlc_permit.json",
+      "bytes": 904,
+      "sha256": "fa7e72dc4e2ffea0ac04466a99f99cce91050b09d07bf83346ad27e6f1fd3440"
+    },
+    {
+      "path": "parsed/arctic_tlc.links.json",
+      "bytes": 7761,
+      "sha256": "548e3089cef3934c1cd358851ffeb9e7fc14deb97d5c50d90b8e37959664748f"
+    },
+    {
+      "path": "parsed/arctic_tlc.txt",
+      "bytes": 16146,
+      "sha256": "3eed36f2c766bb2bab55a1eb73a3814207080dd814c81aa163dfbac536d930d5"
+    },
+    {
+      "path": "parsed/gov_contract_uplift_a_http.pages.json",
+      "bytes": 253111,
+      "sha256": "ef15c66317ecd9317e6f555953ba41ad0b7318f5de93512f0421845f43aa8224"
+    },
+    {
+      "path": "parsed/gov_contract_uplift_a_http.txt",
+      "bytes": 245960,
+      "sha256": "77bdf818476f26bbe35c6e7dce2a8a402a0a03e9e8b671f2f1c3dd722da099de"
+    },
+    {
+      "path": "parsed/gov_contract_uplift_b_http.pages.json",
+      "bytes": 230872,
+      "sha256": "a026a06589cef1814376291c4d9d4393ced3529f08c2b847a661f65bd11eae50"
+    },
+    {
+      "path": "parsed/gov_contract_uplift_b_http.txt",
+      "bytes": 224168,
+      "sha256": "5cb0b557347b1d7cc7c258de53b20c438f8e1ee9206b4742b0f3b85d9b0d2a39"
+    },
+    {
+      "path": "parsed/iltumen_app_js.links.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "parsed/iltumen_app_js.txt",
+      "bytes": 1620337,
+      "sha256": "b997e0a8c18f0f14dd43ea4b2ef95527b6f98c5e571db924add81b63b85bdd80"
+    },
+    {
+      "path": "parsed/iltumen_arctic_review.links.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "parsed/iltumen_arctic_review.txt",
+      "bytes": 15,
+      "sha256": "892b33e27f81318956c7458576c505b45bb580e6cfbbe91b695a3b37c8fcd1e1"
+    },
+    {
+      "path": "parsed/iltumen_article_api.links.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "parsed/iltumen_article_api.txt",
+      "bytes": 32512,
+      "sha256": "cb7ea58f40c3c035088789ce1c5c909a3a16d40d861ed9fcb82dce8fe9256e90"
+    },
+    {
+      "path": "parsed/mintrans_permit.links.json",
+      "bytes": 16336,
+      "sha256": "b04f4d0f38328974135c2fadbdb4ce66a9f34b83fd8b132ce3927580a87b8bbe"
+    },
+    {
+      "path": "parsed/mintrans_permit.txt",
+      "bytes": 11158,
+      "sha256": "afbdb67031483449f8476f84425adedfa7caa0823c60d353f2d52d5d06cca0cc"
+    },
+    {
+      "path": "parsed/mintrans_report2023.pages.json",
+      "bytes": 123124,
+      "sha256": "2a737b6584115f9574148798c7d149104e49b2e7306b82754e26b51acb55f5f5"
+    },
+    {
+      "path": "parsed/mintrans_report2023.txt",
+      "bytes": 121437,
+      "sha256": "284f43bafa0a2c662f3e0505781c83d2c79b109a4bd9692fb44d9556fc3ab64f"
+    },
+    {
+      "path": "parsed/operator_home.links.json",
+      "bytes": 68727,
+      "sha256": "ddb3d122739d1a78b9eb7b5169050c51419a76fe19a21203b372f5685629ae7b"
+    },
+    {
+      "path": "parsed/operator_home.txt",
+      "bytes": 21026,
+      "sha256": "886290b45e53e27307fa980962ce9ffc0d3d692aec09ebe066b3018e4e1b7e2a"
+    },
+    {
+      "path": "parsed/parliament_arctic_review.links.json",
+      "bytes": 16199,
+      "sha256": "5976648644073740bd1ae3f1e90a87c1c1091cd61a26d08a805c91597ef573d2"
+    },
+    {
+      "path": "parsed/parliament_arctic_review.txt",
+      "bytes": 40166,
+      "sha256": "54c7cb8933b858359899eb8f37a1eb83aae985ed564120afcc250894e0be823d"
+    },
+    {
+      "path": "parsed/rosstat_arctic2024.pages.json",
+      "bytes": 6149,
+      "sha256": "81e73e5ab7447a5eaeb6db1c4fb3c65027f263e2050297e4ee22cdcc60ff7d35"
+    },
+    {
+      "path": "parsed/rosstat_arctic2024.txt",
+      "bytes": 6058,
+      "sha256": "bfc6260ad6ac988d36b374cd247296039a5ff863290a4732d2c64209f5f072e0"
+    },
+    {
+      "path": "parsed/rtm_first_flight.links.json",
+      "bytes": 1832,
+      "sha256": "e0070f445a2c732b123d1d0f97b782c68182123fa963f534233057b787c32d7b"
+    },
+    {
+      "path": "parsed/rtm_first_flight.txt",
+      "bytes": 3918,
+      "sha256": "0b1d70ef9db37151e2dcea63fcfd0d84789d0c7772635fd3cc0ae113b370cf50"
+    },
+    {
+      "path": "parsed/rtm_project.links.json",
+      "bytes": 5623,
+      "sha256": "e575e025bff96abaf36134788e757b074d20459f62109ef83a11f00b9ba7f43a"
+    },
+    {
+      "path": "parsed/rtm_project.txt",
+      "bytes": 8611,
+      "sha256": "88dc351d3ac3b7bbad24d3b699aad3e9aae4ec3fbe5c4d1def211fe3e53c0047"
+    },
+    {
+      "path": "parsed/ysia_tlc_permit.links.json",
+      "bytes": 22406,
+      "sha256": "944caa4be0a87915eb8e83fca17ae7b09e3dac38a17ef27479a1a67154c71230"
+    },
+    {
+      "path": "parsed/ysia_tlc_permit.txt",
+      "bytes": 14442,
+      "sha256": "b9e4e721314bd4bc9eb9f26ee6893483f2de03d31088336a6ed7c6c3c8b98612"
+    },
+    {
+      "path": "raw/arctic_tlc.html",
+      "bytes": 111769,
+      "sha256": "58f5f1e1d5a83f6eab56098af51fc6b5d56eeffa7d352a3616a3d0f64bb8d177"
+    },
+    {
+      "path": "raw/gov_contract_uplift_a_http.pdf",
+      "bytes": 1371649,
+      "sha256": "e6e7054fa8ebdb2b936e73e68ccd4999dd728a03a394e28a5e2413e7b09ffaa0"
+    },
+    {
+      "path": "raw/gov_contract_uplift_b_http.pdf",
+      "bytes": 1282785,
+      "sha256": "08d1a0981278524ee59c6f4faf51f99ccbeca57794e813cdf34043c8392a941a"
+    },
+    {
+      "path": "raw/iltumen_app_js.html",
+      "bytes": 1620335,
+      "sha256": "0f8f2ce827837f74f11d958a11aef32355c42a0dab5ae5c39cd80fb3c785c8a3"
+    },
+    {
+      "path": "raw/iltumen_arctic_review.html",
+      "bytes": 2487,
+      "sha256": "cae45316757cfee8ff498508013bed8fbbfe9dc72f5caec386fbbf407990f7ab"
+    },
+    {
+      "path": "raw/iltumen_article_api.html",
+      "bytes": 34990,
+      "sha256": "ccf78da934aa0ed5c936ffe30c18afb901fbc85ef736aec605f4f45f94a5f8c9"
+    },
+    {
+      "path": "raw/mintrans_permit.html",
+      "bytes": 61402,
+      "sha256": "3b916e14cf62777e8353285c0c2d94040572eef86ec658d9426b049ec8f953dd"
+    },
+    {
+      "path": "raw/mintrans_report2023.pdf",
+      "bytes": 3135381,
+      "sha256": "25ef09e6feb255f70eeed7c2417a13ecdd7b6705a2d16d03435629704f850e20"
+    },
+    {
+      "path": "raw/operator_home.html",
+      "bytes": 487539,
+      "sha256": "574b66ce239a386fc672ea3a1c4f5321f86c884cb951f9ea4d169052cb8e21e2"
+    },
+    {
+      "path": "raw/parliament_arctic_review.html",
+      "bytes": 103398,
+      "sha256": "39304cafb6007151a094a51f52ad54deec3a81caacd247a62b46b1ae9af2b3dc"
+    },
+    {
+      "path": "raw/rosstat_arctic2024.pdf",
+      "bytes": 325593,
+      "sha256": "e7f5b0fa3fa2f732bd2e48c0daf09e698c55928f902afefaa6e374eaad65d900"
+    },
+    {
+      "path": "raw/rtm_first_flight.html",
+      "bytes": 195552,
+      "sha256": "4440aabc4f36982fbddf52d652bf5f92159f511398e70dbad57896682bb2c4c8"
+    },
+    {
+      "path": "raw/rtm_project.html",
+      "bytes": 338827,
+      "sha256": "f48d19be85d501eb7c2fbf673511e2b41c28732fbbd7c9a5ddd9c395209f88e3"
+    },
+    {
+      "path": "raw/ysia_tlc_permit.html",
+      "bytes": 725328,
+      "sha256": "b0c6da17425ac17bc84d3eea28290f1af301b0617f964c2d9bc3302c78a562d5"
+    },
+    {
+      "path": "rendered/gov_a_physical04.png",
+      "bytes": 156840,
+      "sha256": "3fcb7cec44b28c59bc787efbc3d7c52512c9708baa7ba52bb41e64d871abd118"
+    },
+    {
+      "path": "rendered/gov_a_physical28.png",
+      "bytes": 206903,
+      "sha256": "a876687a152635b27a0fb478ee64cb70fb541ce53734fecd56bd5ff71ab289ad"
+    },
+    {
+      "path": "rendered/gov_b_physical03.png",
+      "bytes": 155914,
+      "sha256": "1bdeaf287ac3f7fa7b5deefdc4659c9a3b3dacece9ecd73750c8d81b8f393107"
+    },
+    {
+      "path": "rendered/gov_b_physical30.png",
+      "bytes": 202545,
+      "sha256": "9262bb239459dee4db204c2d078c48b88adf39fe28045eda3067263b10d9a2ff"
+    },
+    {
+      "path": "rendered/mintrans_report_physical18.png",
+      "bytes": 446036,
+      "sha256": "1ebd323a329c2172ad846970780b98adc1244ee2db8d60b9f80044b4fbb75d51"
+    },
+    {
+      "path": "retrievals.json",
+      "bytes": 13683,
+      "sha256": "7aa89af09537561424e44f8d5e152a341938353f137bcf4113164dc3583ae10b"
+    },
+    {
+      "path": "search_log.json",
+      "bytes": 317841,
+      "sha256": "10a8e265bc9ebb129f4631b52a9c1f2f1af2a1824bd41fa9c4e35fc36d23d070"
+    },
+    {
+      "path": "search_log_final.json",
+      "bytes": 368399,
+      "sha256": "03bc0f57f15b886998bc28c169b7cce652b5480e4e7b95c2389714eff5a9621e"
+    },
+    {
+      "path": "server_https_failures.json",
+      "bytes": 980,
+      "sha256": "159bbf6d43c78e7b490aeb3e1eb1ddebe2cf4d845df3e8b8ab1959134cdaf441"
+    }
+  ],
+  "files_count": 69,
+  "bytes": 14797328
+}

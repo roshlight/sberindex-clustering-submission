@@ -1,0 +1,53 @@
+{
+  "protocol_version": "round6-v1",
+  "base_commit": "c39666da2b4a35223d3f3be96f6e1dfcc2456545",
+  "locked_before_new_association_results": true,
+  "question": "Which economic interpretations are supported by the sixth collection without changing the frozen municipal network?",
+  "scope": "Retrospective exploratory descriptive validation, not forecasting, causal inference or new cluster training",
+  "years": [
+    2023,
+    2024
+  ],
+  "unit": "Municipality-year with equal municipality weights; years reuse municipalities and are not independent replications",
+  "regional_primary_attributes": {
+    "26": "shipments_economic_activity",
+    "64": "food_sales_all_visible_activity"
+  },
+  "primary_outcome": "log_total: log annual mean monthly sum of the five published spending categories",
+  "secondary_outcome": "p_food: annual mean monthly food share within the five published categories, not the entire household budget",
+  "denominator": "Beginning-of-year population_total; nominal rubles per resident is a territorial intensity, not resident income or a matching Sber spending amount",
+  "paired_population": "Within each region, same IDs must have positive attribute/population and finite annual profile/log_total in both years; 33 Stavropol and 38 Saratov expected. Prior core wage/workers requirements do not apply.",
+  "samples": [
+    "paired_available",
+    "paired_stable_code",
+    "paired_without_largest",
+    "paired_urban_complete",
+    "paired_stable_urban_complete"
+  ],
+  "largest_rule": "Exclude one ID with highest 2023 population in each paired_available region; same ID excluded in both years",
+  "main_statistics": "Spearman rho; population-adjusted partial Spearman via OLS residualization of average ranks on population ranks and intercept. Ranks and regressions recomputed in every bootstrap draw and LOO subset.",
+  "uncertainty": "2000 paired-ID bootstrap draws within each regional sample, same draws by year, percentile 95%; conditional descriptive uncertainty, no correction for spatial dependence or repeated exploratory comparisons",
+  "influence": "Leave-one-municipality-out minimum/maximum rho and partial rho",
+  "cluster_context": "Frozen annual leiden_hellinger labels only; rank eta-squared within each region/year paired_available sample, 4999 label permutations and BH adjustment across the four primary region-year comparisons; exchangeability conditional null, not spatially adjusted or stability validation",
+  "minimum_n": 12,
+  "seed": 20260916,
+  "bootstrap_draws": 2000,
+  "permutation_draws": 4999,
+  "adoption": "No automatic model or panel adoption. Even strong association cannot resolve unknown historical boundaries, source vintage, or low stability of frozen clusters",
+  "admission_checks": "All 276 values retained separately, source indices compared with cross-publication nominal ratios only as discrepancies; no retail substitutions or automatic filling of 424 prior missing cells",
+  "case_comparison": "Federal project cash and municipal statistical investments are different series: ratios are arithmetic scale comparisons, never accepted project shares or causal decomposition; absent 2024 cash remains missing",
+  "sme": "Count candidate source-code groups once per year and region; no accepted historical company join, no 2025 worker values in 2023/2024 features",
+  "evaluation_contacts": "Both years, prior clusters and model errors have already been inspected. Entire round is exploratory and no fresh holdout is claimed",
+  "prohibited_claims": [
+    "national inference from two regions",
+    "real growth from nominal ratios",
+    "group labels align across years",
+    "stable economic classes from unstable Leiden labels",
+    "project cash is municipal investment",
+    "name matching proves boundaries",
+    "worker XML 2025 fills historical employment"
+  ],
+  "pre_result_protocol_refinement": "Validator found prior core excludes 10 Stavropol municipalities for missing wage/workers unrelated to this question. Changed to paired_available before association results; retain stable-code sensitivity. Structural missingness audit then found urban_share unavailable in14Stavropol and6Saratov paired municipalities. Moved urban adjustment to explicitly restricted sensitivity before any association result; primary controls population only.",
+  "urban_sensitivity": "Restrict to same IDs with observed urban_share in both years (expected19/32); report raw and population-adjusted rho on exactly these rows, then also partial rho controlling population and urban-share ranks. Stable urban sample expected9/32: n9 NOT_ESTIMATED under minimum_n12.",
+  "missingness": "Never impute urban_share=0; pairwise masks explicit, missing population id1947 excluded in both years."
+}

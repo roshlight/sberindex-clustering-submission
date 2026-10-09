@@ -1,0 +1,127 @@
+{
+  "created_at_utc": "2026-09-16T17:47:00.757259+00:00",
+  "files": [
+    {
+      "path": "work/data-round4/cases/inputs/lineage.json",
+      "bytes": 378,
+      "sha256": "4cb90ffe8645e6afa4d0d4e3377883f68dc8e577e782bc1a88f328e55328da3a"
+    },
+    {
+      "path": "work/data-round4/cases/inputs/round3_investment_reference.csv",
+      "bytes": 5314,
+      "sha256": "a9db6165feda768b752a3f2443f8f815d1daad47db77f7760be1bc670dbb2170"
+    },
+    {
+      "path": "work/data-round4/cases/raw/yakutia_publications.html",
+      "bytes": 771085,
+      "sha256": "74c5ce5b3a18349feab000d6f2e79c61cdb24aa7d6cd786e133271054d554014"
+    },
+    {
+      "path": "work/data-round4/cases/raw/yakutia_publications.meta.json",
+      "bytes": 704,
+      "sha256": "53ecb3ecde3e2555e774bf7872134b6026e516735202d93f4e535a4c9c391671"
+    },
+    {
+      "path": "work/data-round4/cases/raw/yakutia_publications.text.json",
+      "bytes": 82082,
+      "sha256": "d4a5e1937cf2f5f3774de213a179e73362f7c0588d643e4953fa7b81a020420c"
+    },
+    {
+      "path": "work/data-round4/cases/raw/yakutia_yearbook2023.meta.json",
+      "bytes": 974,
+      "sha256": "58f4569a28d6dd3a7a72199c5488df3c33178b1e85b1626233ff6e90d9d4e5d9"
+    },
+    {
+      "path": "work/data-round4/cases/raw/yakutia_yearbook2023.pdf",
+      "bytes": 3973873,
+      "sha256": "ba3ce2ff23b1d3b454d95f8e83a1f61fff899714fb2018a3ca4fb1f4f84f56db"
+    },
+    {
+      "path": "work/data-round4/cases/raw/yakutia_yearbook2023.text.json",
+      "bytes": 3766723,
+      "sha256": "e263f14dc292e850e7b05c429e2f33c11fa533661062e7161262208513921d44"
+    },
+    {
+      "path": "work/data-round4/cases/raw/yakutia_yearbook2024.meta.json",
+      "bytes": 1404,
+      "sha256": "4b15e56845ef9819314d0dac878e0cfcc937e328c5bec99ea89d50fe6be430cc"
+    },
+    {
+      "path": "work/data-round4/cases/raw/yakutia_yearbook2024.pdf",
+      "bytes": 28862644,
+      "sha256": "478b76e74d76ad8d48dc809d9879601ddcf4207b19c60f137b2893791a6b57a0"
+    },
+    {
+      "path": "work/data-round4/cases/raw/yakutia_yearbook2024.text.json",
+      "bytes": 7761,
+      "sha256": "3b37536a11329d4c0bb964348fba0b46a43ba19b16596acc61057b884c17a7f1"
+    },
+    {
+      "path": "work/data-round4/cases/raw/yakutia_yearbook2025.meta.json",
+      "bytes": 931,
+      "sha256": "8df756a0310ceb51115668652d6cb11b205bc2a2fb910c27600b8c8ec0ae36e1"
+    },
+    {
+      "path": "work/data-round4/cases/raw/yakutia_yearbook2025.pdf",
+      "bytes": 32482139,
+      "sha256": "437cad9a5e0313b09ce47d443fdc983ac2f1fabba57d9a0ffa1dcb59e7f9df0b"
+    },
+    {
+      "path": "work/data-round4/cases/raw/yakutia_yearbook2025.text.json",
+      "bytes": 7206,
+      "sha256": "b4d9ae06c4c508eb560abae0e20efad11a31bfbf3b044840a3489d4fbaf70f0c"
+    },
+    {
+      "path": "work/data-round4/cases/raw/yakutia_yearbook2025_current.meta.json",
+      "bytes": 1032,
+      "sha256": "f7efeeacea93fab8cca63b2e1f461e0042d2e71c2bdc2257e7e45b6fc891c7ba"
+    },
+    {
+      "path": "work/data-round4/cases/raw/yakutia_yearbook2025_current.pdf",
+      "bytes": 33045179,
+      "sha256": "b8398deec6653dfe2fb454d164c44d7d27485ffa12395b31931f73330ac7d8e2"
+    },
+    {
+      "path": "work/data-round4/cases/raw/yakutia_yearbook2025_current.text.json",
+      "bytes": 7206,
+      "sha256": "c914e840f3a83f7690e967075dd75cec74fcf007de9de6d9633b6800d1604315"
+    },
+    {
+      "path": "work/data-round4/cases/render/yakutia_yearbook2023-261.png",
+      "bytes": 261080,
+      "sha256": "15b2df9be4f80ef2dfe857b8a1dcb1998518a953574f11d577fdcb00a77a9dfc"
+    },
+    {
+      "path": "work/data-round4/cases/render/yakutia_yearbook2023-264.png",
+      "bytes": 313049,
+      "sha256": "dea3aba41694fd6781ecb2bcbf96416e424c5d75453e354007953bfac470efe1"
+    },
+    {
+      "path": "work/data-round4/cases/render/yakutia_yearbook2024-241.png",
+      "bytes": 192850,
+      "sha256": "56932617cb1d8607a2e7d3cd32fc99412a4843fadc8e398c35d729f42eba949a"
+    },
+    {
+      "path": "work/data-round4/cases/render/yakutia_yearbook2024-244.png",
+      "bytes": 221073,
+      "sha256": "7802110cdc9636957ef2f048a7da15b8c452ef156e799428611a2bb6b30ebfb5"
+    },
+    {
+      "path": "work/data-round4/cases/render/yakutia_yearbook2025-234.png",
+      "bytes": 192720,
+      "sha256": "ac1eecd7dbb1fa042479a40204f6cad490a7fdd2a09bbb0dcdc575566bab8f74"
+    },
+    {
+      "path": "work/data-round4/cases/render/yakutia_yearbook2025_current-231.png",
+      "bytes": 170127,
+      "sha256": "0d94eea5f637202a94da90b72fd38f76b15e446c867d83edacb987c6a151f050"
+    },
+    {
+      "path": "work/data-round4/cases/render/yakutia_yearbook2025_current-234.png",
+      "bytes": 192720,
+      "sha256": "ac1eecd7dbb1fa042479a40204f6cad490a7fdd2a09bbb0dcdc575566bab8f74"
+    }
+  ],
+  "source_allowlist_sha256": "99556e68c7706c5c9e5ef5ea5d90ae43c5d7a65b8d4e47531255ee6cb27b030f",
+  "packager_sha256": "5bbdd46528947d3ee96db825f6f337e3cd0e7391411b13fb3312833a4ebb5c6f"
+}

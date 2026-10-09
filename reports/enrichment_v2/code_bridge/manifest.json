@@ -1,0 +1,72 @@
+{
+  "status": "complete",
+  "scope": "Audit official registry vintages and prepare year-specific population fetch candidates.\n\nThis is a code-identity audit, not a legal-effectivity or boundary adjudication.\nDateUtv/DateVved are retained verbatim. They never select a population year, change\na Sber code, or supply an automatic replacement for an unmatched municipality.\nNo names are used to join. The source form must still confirm exact p_oktmo options.\n",
+  "inputs": {
+    "crosswalk_2023": {
+      "path": "..\\data\\derived\\enrichment\\municipal_crosswalk_2023-01-01.csv",
+      "bytes": 845554,
+      "sha256": "ee3de32865f707060ef2239f58f9f991d1c3f6ce52192019c005ba1b64954ae0"
+    },
+    "crosswalk_2024": {
+      "path": "..\\data\\derived\\enrichment\\municipal_crosswalk_2024-01-01.csv",
+      "bytes": 845122,
+      "sha256": "dc1603aacda2303a6ef836272d379323f527b32fd6bf0cffb55c279e0d22db3e"
+    },
+    "assignments": {
+      "path": "..\\reports\\initial_study\\assignments.parquet",
+      "bytes": 1978134,
+      "sha256": "54f6c1f3c92a878a990c620e9fdb544ab6187f9ac0baea4bc5070d964e0ae6bc"
+    },
+    "registry_2023-01-12": {
+      "path": "..\\..\\..\\work\\oktmo-history-20260915\\raw\\data-20230112T1301-structure-20260210T1102.csv",
+      "bytes": 21427247,
+      "sha256": "7648c4065bb42a80080029253064c5843577d5c3ea9110fa97d9e32eb19c3f73"
+    },
+    "registry_2023-02-08": {
+      "path": "..\\..\\..\\work\\oktmo-history-20260915\\raw\\data-20230208T0902-structure-20260210T1102.csv",
+      "bytes": 21419968,
+      "sha256": "db2033073f7b6c0171083063237a915f41f9e1f23be7aecf1027008391c79ebe"
+    },
+    "registry_2023-12-19": {
+      "path": "..\\..\\..\\work\\oktmo-history-20260915\\raw\\data-20231219T1512-structure-20260210T1102.csv",
+      "bytes": 21582558,
+      "sha256": "8be058baf8d8ec32bda5431fa6ed5ccdcf0effa0c62869a03576755cbcf956d9"
+    },
+    "registry_2024-01-01": {
+      "path": "..\\..\\..\\work\\oktmo-history-20260915\\raw\\data-20240101T1101-structure-20260210T1102.csv",
+      "bytes": 22617530,
+      "sha256": "def4fe436545f6ef7e349607c4c8256a331146fe9b977e12618443ed59ddbff3"
+    },
+    "registry_2024-01-25": {
+      "path": "..\\..\\..\\work\\oktmo-history-20260915\\raw\\data-20240125T1401-structure-20260210T1102.csv",
+      "bytes": 21580725,
+      "sha256": "62b579d803e50def8668dc704ffecb5ee4e6e12bb1ffd5f848cafd32dfdd926c"
+    },
+    "registry_2024-12-27": {
+      "path": "..\\..\\..\\work\\oktmo-history-20260915\\raw\\data-20241227T1412-structure-20260210T1102.csv",
+      "bytes": 21337303,
+      "sha256": "513bd287a1f1b42b9190f04afcfb8239bd31e0e699bb890f67dc49341285c13b"
+    },
+    "previous_unmatched": {
+      "path": "..\\reports\\enrichment_v1\\population_bridge\\primary_unmatched_2024.csv",
+      "bytes": 45728,
+      "sha256": "c6e6b74d7206ec27877aa72bea72b43c8672e1e71dc681a2294f6346863e6557"
+    },
+    "sber_versions": {
+      "path": "..\\data\\derived\\enrichment\\municipal_crosswalk_versions.csv",
+      "bytes": 935749,
+      "sha256": "70825d5ae255c02026a44365d093ac102c3b737632d8b3d6beef1f00c3ace536"
+    }
+  },
+  "processor_sha256": "dee421636ea45d840ae7d04562fa1c4641a66ef59285fce46c47797659d9f8f6",
+  "output_hashes": {
+    "population_fetch_candidate_targets.json": "a0c243eab9c78e110354bdb43d602ea61201b510d58640b0dbaac5a89f01fd11",
+    "primary_78_code_type_changes.csv": "e839fcc89afaa0f3b3ef8599cf1f14efd5ac96f53d34f50583ddb3c70591f791",
+    "recovered_389.csv": "cb68da5cb00a3fa06d9793ef1ca208c788a76b9c3400f4e5e0981ac074577c09",
+    "reference_code_evidence.csv": "13c29651d059d323126e4f6e860cc3c6608fad7127d703f7b6714e8e51bfa51b",
+    "registry_vintage_audit.csv": "f46537b892ad4f61c5a6d3015b2425705790e698b6b1d2d5bcb305098a304432",
+    "summary.json": "33446258c2cbc4fc935893e3a0cf3638c5a0b14b8eff681a2cfe19726c7e6253",
+    "temporal_review_2023.csv": "adc95727412f9677dd7f92effc2771be6dd12e20ebc880c90041469041d04912",
+    "temporal_review_links.csv": "b08065f9bdb77f098c813bec68173c847ebb1bb166e0130576c32d177b1319d3"
+  }
+}

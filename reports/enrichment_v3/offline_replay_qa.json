@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "network_requests": 0,
+  "cache_hits": 284,
+  "source_cells": 8082,
+  "numeric_cells": 8030,
+  "checks": [
+    {
+      "replayed_file": "economy/economy_source.csv",
+      "reference_file": "reports/enrichment_v3/economy/source/economy_source.csv",
+      "rows": 8082,
+      "all_columns_and_values_equal": true,
+      "reference_sha256": "62c76b4b71ceac4cdb2237748f5a4caa952481b3b5c13cf2a35ca01da4ec64e4"
+    },
+    {
+      "replayed_file": "economy/annual_code_reference_links.csv",
+      "reference_file": "reports/enrichment_v3/economy/source/annual_code_reference_links.csv",
+      "rows": 4032,
+      "all_columns_and_values_equal": true,
+      "reference_sha256": "9310bdcb227c44cc95e92bfcba69a8298066395fc1767a226fe9902210910a8d"
+    },
+    {
+      "replayed_file": "annual/annual_candidate_panel.csv",
+      "reference_file": "reports/enrichment_v3/economy/annual_candidates/annual_candidate_panel.csv",
+      "rows": 8064,
+      "all_columns_and_values_equal": true,
+      "reference_sha256": "c1d0bbeaaf742e14417d7d7d168764c060bb6c01199481a850a7eea3b6359bd4"
+    },
+    {
+      "replayed_file": "annual/annual_coverage.csv",
+      "reference_file": "reports/enrichment_v3/economy/annual_candidates/annual_coverage.csv",
+      "rows": 4,
+      "all_columns_and_values_equal": true,
+      "reference_sha256": "42db80935dc6ec9b844ac69e0de8955fdc9adf5e5dd77c54f54ae4f2ec40296a"
+    }
+  ],
+  "scope": "Replayed archived Linux-source cache on Windows in existing locked environment; no independent fresh environment provisioning."
+}

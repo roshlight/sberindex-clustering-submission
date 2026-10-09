@@ -1,0 +1,293 @@
+[
+  {
+    "primary_catalog_url": "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+    "methodology_url": "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx",
+    "observation_years": [
+      2023,
+      2024
+    ],
+    "publication_vintage": "retrieved September 2026; first publication and revision history unknown",
+    "geographic_join": "exact regional source option code and year-specific Sber/official code bridge; full-year boundary equivalence unproven",
+    "indicator_id": "8423005",
+    "priority": "P0",
+    "label": "Среднесписочная численность работников организаций без субъектов малого предпринимательства",
+    "status": "source_and_annual_candidate_panel",
+    "unit": "человек",
+    "period_code": "79",
+    "feature_role": "Масштаб наблюдаемой организационной занятости",
+    "limits": "Средняя за год; не все занятые жители, не конец года",
+    "values_fabricated_or_imputed": false,
+    "pilot_table": "pilot_source_cells.csv",
+    "form_evidence": "form_inventory.csv"
+  },
+  {
+    "primary_catalog_url": "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+    "methodology_url": "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx",
+    "observation_years": [
+      2023,
+      2024
+    ],
+    "publication_vintage": "retrieved September 2026; first publication and revision history unknown",
+    "geographic_join": "exact regional source option code and year-specific Sber/official code bridge; full-year boundary equivalence unproven",
+    "indicator_id": "8423007",
+    "priority": "P0",
+    "label": "Среднемесячная заработная плата работников организаций без субъектов малого предпринимательства",
+    "status": "source_and_annual_candidate_panel",
+    "unit": "рубль; source_unit_label preserves рубль/рублей",
+    "period_code": "79",
+    "feature_role": "Номинальная оплата труда наблюдаемых организаций",
+    "limits": "Не медиана и не располагаемый доход жителей",
+    "values_fabricated_or_imputed": false,
+    "pilot_table": "pilot_source_cells.csv",
+    "form_evidence": "form_inventory.csv"
+  },
+  {
+    "primary_catalog_url": "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+    "methodology_url": "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx",
+    "observation_years": [
+      2023,
+      2024
+    ],
+    "publication_vintage": "retrieved September 2026; first publication and revision history unknown",
+    "geographic_join": "exact regional source option code and year-specific Sber/official code bridge; full-year boundary equivalence unproven",
+    "indicator_id": "8401011",
+    "priority": "P1",
+    "label": "Отгрузка товаров собственного производства, выполненные работы и услуги собственными силами",
+    "status": "actual_two_municipality_pilot",
+    "unit": "тысяча рублей in inspected exports",
+    "period_code": "79",
+    "feature_role": "Производственная специализация и масштаб по ОКВЭД2",
+    "limits": "Без субъектов малого предпринимательства; иерархию видов деятельности не суммировать; не ВРП/не потоки",
+    "values_fabricated_or_imputed": false,
+    "pilot_table": "pilot_source_cells.csv",
+    "form_evidence": "form_inventory.csv"
+  },
+  {
+    "primary_catalog_url": "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+    "methodology_url": "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx",
+    "observation_years": [
+      2023,
+      2024
+    ],
+    "publication_vintage": "retrieved September 2026; first publication and revision history unknown",
+    "geographic_join": "exact regional source option code and year-specific Sber/official code bridge; full-year boundary equivalence unproven",
+    "indicator_id": "8401003",
+    "priority": "P1",
+    "label": "Оборот розничной торговли",
+    "status": "actual_two_municipality_pilot",
+    "unit": "тысяча рублей in inspected exports",
+    "period_code": "79",
+    "feature_role": "Масштаб наблюдаемой розницы",
+    "limits": "Без субъектов малого предпринимательства; место продажи и охват отличаются от расходов жителей",
+    "values_fabricated_or_imputed": false,
+    "pilot_table": "pilot_source_cells.csv",
+    "form_evidence": "form_inventory.csv"
+  },
+  {
+    "primary_catalog_url": "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+    "methodology_url": "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx",
+    "observation_years": [
+      2023,
+      2024
+    ],
+    "publication_vintage": "retrieved September 2026; first publication and revision history unknown",
+    "geographic_join": "exact regional source option code and year-specific Sber/official code bridge; full-year boundary equivalence unproven",
+    "indicator_id": "8109001",
+    "priority": "P1",
+    "label": "Инвестиции в основной капитал организаций",
+    "status": "actual_two_municipality_pilot",
+    "unit": "тысяча рублей in inspected exports",
+    "period_code": "17",
+    "feature_role": "Инвестиционная активность по ОКВЭД2",
+    "limits": "Без субъектов малого предпринимательства; source financing dimension8=Всего; не суммировать с компонентами",
+    "values_fabricated_or_imputed": false,
+    "pilot_table": "pilot_source_cells.csv",
+    "form_evidence": "form_inventory.csv"
+  },
+  {
+    "primary_catalog_url": "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+    "methodology_url": "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx",
+    "observation_years": [
+      2023,
+      2024
+    ],
+    "publication_vintage": "retrieved September 2026; first publication and revision history unknown",
+    "geographic_join": "exact regional source option code and year-specific Sber/official code bridge; full-year boundary equivalence unproven",
+    "indicator_id": "8009001",
+    "priority": "P1",
+    "label": "Инвестиции в основной капитал за счёт средств местного бюджета",
+    "status": "actual_pilot_unit_conflict_hold",
+    "unit": "Maykop тысяча рублей; Balashikha рубль",
+    "period_code": "17",
+    "feature_role": "Местные бюджетные капиталовложения",
+    "limits": "Не менять масштаб по догадке; межрегиональное сравнение до разрешения единиц заблокировано",
+    "values_fabricated_or_imputed": false,
+    "pilot_table": "pilot_source_cells.csv",
+    "form_evidence": "form_inventory.csv"
+  },
+  {
+    "primary_catalog_url": "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+    "methodology_url": "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx",
+    "observation_years": [
+      2023,
+      2024
+    ],
+    "publication_vintage": "retrieved September 2026; first publication and revision history unknown",
+    "geographic_join": "exact regional source option code and year-specific Sber/official code bridge; full-year boundary equivalence unproven",
+    "indicator_id": "8109003",
+    "priority": "P1",
+    "label": "Инвестиции в основной капитал за счёт внебюджетных средств на одного жителя",
+    "status": "actual_two_municipality_pilot",
+    "unit": "рубль",
+    "period_code": "17",
+    "feature_role": "Инвестиционная интенсивность",
+    "limits": "Проверить период населения-знаменателя, не восстанавливать итог умножением на население01.01",
+    "values_fabricated_or_imputed": false,
+    "pilot_table": "pilot_source_cells.csv",
+    "form_evidence": "form_inventory.csv"
+  },
+  {
+    "primary_catalog_url": "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+    "methodology_url": "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx",
+    "observation_years": [
+      2023,
+      2024
+    ],
+    "publication_vintage": "retrieved September 2026; first publication and revision history unknown",
+    "geographic_join": "exact regional source option code and year-specific Sber/official code bridge; full-year boundary equivalence unproven",
+    "indicator_id": "8313015",
+    "priority": "P1",
+    "label": "Доля налоговых и неналоговых доходов в собственных доходах местного бюджета",
+    "status": "actual_two_municipality_pilot",
+    "unit": "процент",
+    "period_code": "17",
+    "feature_role": "Бюджетная структура",
+    "limits": "Определение содержит исключения; не сумма доходов и не универсальная финансовая самостоятельность",
+    "values_fabricated_or_imputed": false,
+    "pilot_table": "pilot_source_cells.csv",
+    "form_evidence": "form_inventory.csv"
+  },
+  {
+    "primary_catalog_url": "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+    "methodology_url": "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx",
+    "observation_years": [
+      2023,
+      2024
+    ],
+    "publication_vintage": "retrieved September 2026; first publication and revision history unknown",
+    "geographic_join": "exact regional source option code and year-specific Sber/official code bridge; full-year boundary equivalence unproven",
+    "indicator_id": "8019014",
+    "priority": "P1",
+    "label": "Объём социальных выплат населению и налогооблагаемых денежных доходов населению",
+    "status": "actual_single_municipality_pilot_methodology_pending",
+    "unit": "тысяча рублей",
+    "period_code": "17",
+    "feature_role": "Кандидат денежных ресурсов населения",
+    "limits": "Не располагаемый доход; полный состав и охват выплат/налоговой базы ещё не разрешён",
+    "values_fabricated_or_imputed": false,
+    "pilot_table": "pilot_source_cells.csv",
+    "form_evidence": "form_inventory.csv"
+  },
+  {
+    "primary_catalog_url": "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+    "methodology_url": "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx",
+    "observation_years": [
+      2023,
+      2024
+    ],
+    "publication_vintage": "retrieved September 2026; first publication and revision history unknown",
+    "geographic_join": "exact regional source option code and year-specific Sber/official code bridge; full-year boundary equivalence unproven",
+    "indicator_id": "8013001",
+    "priority": "P1",
+    "label": "Доходы местного бюджета, фактически исполненные",
+    "status": "forms_inspected_requested_years_absent",
+    "unit": "not asserted for 2023/2024",
+    "period_code": null,
+    "feature_role": "Требуется текущий кодовый источник бюджетных доходов",
+    "limits": "В munst79 и46 формы только2006–2020; не объявлять национальное отсутствие данных",
+    "values_fabricated_or_imputed": false,
+    "pilot_table": "pilot_source_cells.csv",
+    "form_evidence": "form_inventory.csv"
+  },
+  {
+    "primary_catalog_url": "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+    "methodology_url": "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx",
+    "observation_years": [
+      2023,
+      2024
+    ],
+    "publication_vintage": "retrieved September 2026; first publication and revision history unknown",
+    "geographic_join": "exact regional source option code and year-specific Sber/official code bridge; full-year boundary equivalence unproven",
+    "indicator_id": "8013002",
+    "priority": "P1",
+    "label": "Расходы местного бюджета, фактически исполненные",
+    "status": "form_inspected_requested_years_absent",
+    "unit": "not asserted for 2023/2024",
+    "period_code": null,
+    "feature_role": "Требуется текущий кодовый источник бюджетных расходов",
+    "limits": "В munst79 форма только2006–2020; не переносить2020вперёд",
+    "values_fabricated_or_imputed": false,
+    "pilot_table": "pilot_source_cells.csv",
+    "form_evidence": "form_inventory.csv"
+  },
+  {
+    "primary_catalog_url": "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+    "methodology_url": "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx",
+    "observation_years": [
+      2023,
+      2024
+    ],
+    "publication_vintage": "retrieved September 2026; first publication and revision history unknown",
+    "geographic_join": "exact regional source option code and year-specific Sber/official code bridge; full-year boundary equivalence unproven",
+    "indicator_id": "8215003",
+    "priority": "P2",
+    "label": "Число субъектов МСП на10тысяч населения",
+    "status": "forms_inspected_requested_years_absent",
+    "unit": "source definition, no accepted 2023/2024 observation",
+    "period_code": null,
+    "feature_role": "Плотность предпринимательства",
+    "limits": "В проверенных формах2010/2015/2020; переписные наблюдения не годовая панель",
+    "values_fabricated_or_imputed": false,
+    "pilot_table": "pilot_source_cells.csv",
+    "form_evidence": "form_inventory.csv"
+  },
+  {
+    "primary_catalog_url": "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+    "methodology_url": "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx",
+    "observation_years": [
+      2023,
+      2024
+    ],
+    "publication_vintage": "retrieved September 2026; first publication and revision history unknown",
+    "geographic_join": "exact regional source option code and year-specific Sber/official code bridge; full-year boundary equivalence unproven",
+    "indicator_id": "8155040",
+    "priority": "P2",
+    "label": "Доля среднесписочной численности работников малых и средних предпринимателей",
+    "status": "form_inspected_requested_years_absent",
+    "unit": "source definition, no accepted 2023/2024 observation",
+    "period_code": null,
+    "feature_role": "Структура занятости МСП",
+    "limits": "В munst79 только2010/2015/2020; полное название формы усечено",
+    "values_fabricated_or_imputed": false,
+    "pilot_table": "pilot_source_cells.csv",
+    "form_evidence": "form_inventory.csv"
+  },
+  {
+    "indicator_id": "fns_rsmp_historical_register",
+    "priority": "P2",
+    "status": "page_and_xsd_downloaded_archive_HEAD_only",
+    "primary_url": "https://www.nalog.gov.ru/opendata/7707329152-rsmp/",
+    "snapshots": [
+      "2023-01-10",
+      "2024-01-10"
+    ],
+    "archive_bytes": [
+      2077530661,
+      2146321032
+    ],
+    "feature_role": "Potential municipality counts and composition of registered SME entities",
+    "join_blocker": "No explicit OKTMO in inspected schemas; coded date-appropriate address bridge required; no name join",
+    "time_caveat": "January-June headcount field uses year before previous year; register snapshot is not the headcount observation year",
+    "downloaded_archives": false
+  }
+]

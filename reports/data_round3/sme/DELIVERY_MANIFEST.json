@@ -1,0 +1,80 @@
+{
+  "status": "PASS for extraction; municipal worker gap remains open",
+  "entries": [
+    {
+      "repo_path": "reports/data_round3/sme/fetch_plan.json",
+      "bytes": 11332,
+      "sha256": "08f2e1149ff48b97fb905e257d74f8994cb5a0e62f15a60cbfdf72638aa021a2"
+    },
+    {
+      "repo_path": "reports/data_round3/sme/fns_historical_aggregates.csv",
+      "bytes": 127682,
+      "sha256": "d8b6ac46ba9953e8d16667dcbea1800ea09b9325dcc65c960f3636f00150995f"
+    },
+    {
+      "repo_path": "reports/data_round3/sme/manifest.json",
+      "bytes": 4463,
+      "sha256": "2a452a85e367c7498abc49617baa2185ef44318b60141afdbc343fe6d362c21a"
+    },
+    {
+      "repo_path": "reports/data_round3/sme/period_audit.csv",
+      "bytes": 13694,
+      "sha256": "8441e8852584db5f6582250564a98f08e1522653ecd87776ddd702af11cd92c3"
+    },
+    {
+      "repo_path": "reports/data_round3/sme/QA.json",
+      "bytes": 3147,
+      "sha256": "59b0d2c9e523d9ac14a50c910979b5eb420f5a01d6861b92db9148070247667f"
+    },
+    {
+      "repo_path": "reports/data_round3/sme/raw_allowlist.json",
+      "bytes": 19303,
+      "sha256": "45682b6d2f60242f5a9b29c61a1e4ba7c9e798c2d6644d463b6d64b035700a30"
+    },
+    {
+      "repo_path": "reports/data_round3/sme/README.md",
+      "bytes": 15994,
+      "sha256": "e722eaf4e98e6a0687f5aed1f5f152073f67623b0338d4bfc9bdd40f48f750cf"
+    },
+    {
+      "repo_path": "reports/data_round3/sme/rosstat_regional_workers_context.csv",
+      "bytes": 275103,
+      "sha256": "f830a95e107fbd33126655cb1610dae0fb3fef754ed73a05212e6fd1bfef30b2"
+    },
+    {
+      "repo_path": "reports/data_round3/sme/search_log.json",
+      "bytes": 3596,
+      "sha256": "0d90154ffa69027546ca2fe69b6430095d584ffce5117b9124909abbd7a04ad0"
+    },
+    {
+      "repo_path": "reports/data_round3/sme/source_catalog.json",
+      "bytes": 32986,
+      "sha256": "e45ce12ff53be3633424370d16c953dbff8accd3e99a1f2c82d8583ecb27cd3e"
+    },
+    {
+      "repo_path": "reports/data_round3/sme/source_inventory.json",
+      "bytes": 33608,
+      "sha256": "8952e881a4660a1d7bfaedb31bab380e1552651b78ffa45a5bc06278fd0e2163"
+    },
+    {
+      "repo_path": "reports/data_round3/sme/validation.json",
+      "bytes": 1256,
+      "sha256": "7fbacf7866fec71bd025af83a8b4c4a6ae60b131a2fcd8815de45b9a136c73a6"
+    },
+    {
+      "repo_path": "reports/data_round3/sme/vologda_small_organizations_unlinked.csv",
+      "bytes": 400207,
+      "sha256": "c7563f853d5a22d134a1c9db1d9a0f7e4d3b471c42560d60f4bbbd428c2973c9"
+    },
+    {
+      "repo_path": "enrichment/scripts/collect_round3_sme.py",
+      "bytes": 19696,
+      "sha256": "b05a3f7a684fd27adca0f7a7d0581246eaebf1fc7312ff61b47ab16b30b35447"
+    },
+    {
+      "repo_path": "enrichment/tests/test_round3_sme.py",
+      "bytes": 4261,
+      "sha256": "32e0bcc58d4a1c11536b3acd6e41184e2dfa6954b108e0259e1289c65e5e75ef"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "note": "20 individually targeted queries retained from this session; additional queries and direct official-page traversal also occurred. Query counts are not evidence counts. Nonofficial results were not admitted.",
+  "queries": [
+    {
+      "query_id": 1,
+      "territory_id": 1180,
+      "date": "2026-09-16",
+      "engine": "web search",
+      "query": "Светловский городской округ Калининградская отчет главы 2023 2024 социально экономическое развитие численность работников",
+      "scope": "targeted discovery; official sources only admitted as evidence"
+    },
+    {
+      "query_id": 2,
+      "territory_id": 1180,
+      "date": "2026-09-16",
+      "engine": "web search",
+      "query": "Светловский городской округ итоги социально экономического развития 2024 среднесписочная численность организаций",
+      "scope": "targeted discovery; official sources only admitted as evidence"
+    },
+    {
+      "query_id": 3,
+      "territory_id": 1180,
+      "date": "2026-09-16",
+      "engine": "web search",
+      "query": "\"Светловский\" \"отчет\" \"2024\" \"2025\" глава",
+      "scope": "targeted discovery; official sources only admitted as evidence"
+    },
+    {
+      "query_id": 4,
+      "territory_id": 1180,
+      "date": "2026-09-16",
+      "engine": "web search",
+      "query": "\"Светловский\" \"2023\" \"2024\" \"численность\" site:39.rosstat.gov.ru",
+      "scope": "targeted discovery; official sources only admitted as evidence"
+    },
+    {
+      "query_id": 5,
+      "territory_id": 883,
+      "date": "2026-09-16",
+      "engine": "web search",
+      "query": "Свободненский район Амурской области отчет главы 2023 социально экономическое развитие работники",
+      "scope": "targeted discovery; official sources only admitted as evidence"
+    },
+    {
+      "query_id": 6,
+      "territory_id": 883,
+      "date": "2026-09-16",
+      "engine": "web search",
+      "query": "Свободненский район Амурской области итоги социально экономического развития 2024 численность работников",
+      "scope": "targeted discovery; official sources only admitted as evidence"
+    },
+    {
+      "query_id": 7,
+      "territory_id": 883,
+      "date": "2026-09-16",
+      "engine": "web search",
+      "query": "\"Свободненский район\" \"социально-экономического\" \"2024\" \"отчет\"",
+      "scope": "targeted discovery; official sources only admitted as evidence"
+    },
+    {
+      "query_id": 8,
+      "territory_id": 883,
+      "date": "2026-09-16",
+      "engine": "web search",
+      "query": "\"Свободненский район\" \"2023\" \"численность\" \"работников\"",
+      "scope": "targeted discovery; official sources only admitted as evidence"
+    },
+    {
+      "query_id": 9,
+      "territory_id": 883,
+      "date": "2026-09-16",
+      "engine": "web search",
+      "query": "\"Свободненский район\" \"официальный сайт\" администрация",
+      "scope": "targeted discovery; official sources only admitted as evidence"
+    },
+    {
+      "query_id": 10,
+      "territory_id": 883,
+      "date": "2026-09-16",
+      "engine": "web search",
+      "query": "\"Свободненский\" \"2024\" \"отчет\" site:svobregion.amurobl.ru",
+      "scope": "targeted discovery; official sources only admitted as evidence"
+    },
+    {
+      "query_id": 11,
+      "territory_id": 883,
+      "date": "2026-09-16",
+      "engine": "web search",
+      "query": "\"Свободненского района\" \"2024\" \"среднесписочная численность\"",
+      "scope": "targeted discovery; official sources only admitted as evidence"
+    },
+    {
+      "query_id": 12,
+      "territory_id": 883,
+      "date": "2026-09-16",
+      "engine": "web search",
+      "query": "\"Свободненский район\" \"2024\" \"паспорт\"",
+      "scope": "targeted discovery; official sources only admitted as evidence"
+    },
+    {
+      "query_id": 13,
+      "territory_id": 2527,
+      "date": "2026-09-16",
+      "engine": "web search",
+      "query": "Куркино Москва отчет главы управы 2024 организации численность занятых",
+      "scope": "targeted discovery; official sources only admitted as evidence"
+    },
+    {
+      "query_id": 14,
+      "territory_id": 2527,
+      "date": "2026-09-16",
+      "engine": "web search",
+      "query": "\"Куркино\" \"2024\" \"предприятий\" site:kurkino-vmo.ru",
+      "scope": "targeted discovery; official sources only admitted as evidence"
+    },
+    {
+      "query_id": 15,
+      "territory_id": 2527,
+      "date": "2026-09-16",
+      "engine": "web search",
+      "query": "\"Куркино\" \"2023\" \"отчет\" site:kurkino-vmo.ru",
+      "scope": "targeted discovery; official sources only admitted as evidence"
+    },
+    {
+      "query_id": 16,
+      "territory_id": 2527,
+      "date": "2026-09-16",
+      "engine": "web search",
+      "query": "\"Куркино\" \"2023\" \"результатах деятельности\" \"управы\"",
+      "scope": "targeted discovery; official sources only admitted as evidence"
+    },
+    {
+      "query_id": 17,
+      "territory_id": 2527,
+      "date": "2026-09-16",
+      "engine": "web search",
+      "query": "\"Куркино\" \"2024\" \"экономика\" \"организаций\"",
+      "scope": "targeted discovery; official sources only admitted as evidence"
+    },
+    {
+      "query_id": 18,
+      "territory_id": 2527,
+      "date": "2026-09-16",
+      "engine": "web search",
+      "query": "\"Куркино\" \"2023\" \"отчет\" \"управы\" site:mos.ru",
+      "scope": "targeted discovery; official sources only admitted as evidence"
+    },
+    {
+      "query_id": 19,
+      "territory_id": 2527,
+      "date": "2026-09-16",
+      "engine": "web search",
+      "query": "\"Куркино\" \"2023\" \"2024\" \"среднесписочная\"",
+      "scope": "targeted discovery; official sources only admitted as evidence"
+    },
+    {
+      "query_id": 20,
+      "territory_id": 2527,
+      "date": "2026-09-16",
+      "engine": "web search",
+      "query": "\"Куркино\" \"2023\" \"потребительский рынок\"",
+      "scope": "targeted discovery; official sources only admitted as evidence"
+    }
+  ]
+}

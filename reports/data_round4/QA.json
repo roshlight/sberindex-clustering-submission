@@ -1,0 +1,46 @@
+{
+  "status": "PASS_WITH_DATA_LIMITATIONS",
+  "reproduction_status": "ready for independent reproduction",
+  "source_revision_before_round": "5c6edb40636fad1cbaa4fbcbc041169dfe80e11f",
+  "scope": "Data collection and evidence audit; no new model results",
+  "checks": {
+    "enrichment_tests": {
+      "status": "PASS",
+      "passed": 350
+    },
+    "ruff_check_enrichment": "PASS",
+    "ruff_format_check_enrichment": "PASS",
+    "existing_environment_integrated_replay": "PASS: eight stages",
+    "independent_clean_environment_run": "NOT_RUN",
+    "economy_independent_source_cells": 805,
+    "sme_independent_checks_pass": 114,
+    "source_archives_verified": 5,
+    "archive_member_files": 298,
+    "archive_bytes": 971366988,
+    "uncompressed_delivery_bytes": 1007815230,
+    "github_digests_match": true,
+    "prior_tracked_artifacts_changed": false,
+    "credential_scan_new_repo_files": "PASS",
+    "raw_scanner_exact_audited_jpeg_exception": 1
+  },
+  "environment": {
+    "python": "3.12.10",
+    "os": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "duckdb": "1.5.5",
+      "pandas": "3.0.5",
+      "pypdf": "6.18.1",
+      "pytest": "9.1.1",
+      "ruff": "0.16.7"
+    },
+    "enrichment_lock_sha256": "b07d548b44a8a636ea0d8ace4d1f0babdbdbfd87c87c7a97e91a5742bbfab612"
+  },
+  "limitations": [
+    "488 candidate monetary cells remain nonnumeric",
+    "Old numeric source cells were not re-fetched; source revision stability not tested",
+    "SME historical municipal join NOT_READY; period records are not unique companies",
+    "Case publications verify amounts and scope, not causes or stable respondents",
+    "Identical publisher geometries do not prove independent historical legal equivalence",
+    "Automated server search returned zero result rows; model critic failed"
+  ]
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "source_id": "r5_seed_0",
+    "need_id_if_known": "r5_sme",
+    "title": "ФНС: паспорт реестра МСП",
+    "url": "https://www.nalog.gov.ru/opendata/7707329152-rsmp/",
+    "download_urls": [],
+    "source_type": "official_primary_source",
+    "priority": "P0",
+    "notes": "Candidate only; verify reporting and observation times separately"
+  },
+  {
+    "source_id": "r5_seed_1",
+    "need_id_if_known": "r5_sme",
+    "title": "ФНС: описание и форматы реестра МСП",
+    "url": "https://rmsp.nalog.ru/developers.html",
+    "download_urls": [],
+    "source_type": "official_primary_source",
+    "priority": "P0",
+    "notes": "Candidate only; verify reporting and observation times separately"
+  },
+  {
+    "source_id": "r5_seed_2",
+    "need_id_if_known": "r5_sme",
+    "title": "Документация обработанного набора МСП",
+    "url": "https://tochno.st/datasets/sme",
+    "download_urls": [],
+    "source_type": "documented_secondary_dataset",
+    "priority": "P0",
+    "notes": "Candidate only; verify reporting and observation times separately"
+  },
+  {
+    "source_id": "r5_seed_3",
+    "need_id_if_known": "r5_cases",
+    "title": "Минтранс: ввод аэропорта Черский",
+    "url": "https://www.mintrans.gov.ru/press-center/news/10959",
+    "download_urls": [],
+    "source_type": "official_primary_source",
+    "priority": "P0",
+    "notes": "Candidate only; verify reporting and observation times separately"
+  },
+  {
+    "source_id": "r5_seed_4",
+    "need_id_if_known": "r5_cases",
+    "title": "Росавиация: сертификация Черского",
+    "url": "https://ykt-s.favt.ru/novosti/?id=6553",
+    "download_urls": [],
+    "source_type": "official_primary_source",
+    "priority": "P0",
+    "notes": "Candidate only; verify reporting and observation times separately"
+  },
+  {
+    "source_id": "r5_seed_5",
+    "need_id_if_known": "r5_cases",
+    "title": "Госзаказчик: реконструкция Черского",
+    "url": "https://rtm.ppp-transport.ru/aeroport-cherskij",
+    "download_urls": [],
+    "source_type": "official_primary_source",
+    "priority": "P0",
+    "notes": "Candidate only; verify reporting and observation times separately"
+  },
+  {
+    "source_id": "r5_seed_6",
+    "need_id_if_known": "r5_geography",
+    "title": "Росстат: официальные версии ОКТМО",
+    "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo",
+    "download_urls": [],
+    "source_type": "official_primary_source",
+    "priority": "P0",
+    "notes": "Candidate only; verify reporting and observation times separately"
+  },
+  {
+    "source_id": "r5_seed_7",
+    "need_id_if_known": "r5_economy",
+    "title": "Ставропольстат: муниципальные показатели",
+    "url": "https://26.rosstat.gov.ru/main_indicators",
+    "download_urls": [],
+    "source_type": "official_primary_source",
+    "priority": "P0",
+    "notes": "Candidate only; verify reporting and observation times separately"
+  },
+  {
+    "source_id": "r5_seed_8",
+    "need_id_if_known": "r5_economy",
+    "title": "Саратовстат: муниципальные показатели",
+    "url": "https://64.rosstat.gov.ru/main_indicators",
+    "download_urls": [],
+    "source_type": "official_primary_source",
+    "priority": "P0",
+    "notes": "Candidate only; verify reporting and observation times separately"
+  }
+]

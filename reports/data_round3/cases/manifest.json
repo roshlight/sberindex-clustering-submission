@@ -1,0 +1,83 @@
+{
+  "status": "ready_with_conditions_documentary_context_only",
+  "created_date": "2026-09-16",
+  "python": "3.12.10",
+  "collector": {
+    "path": "enrichment/scripts/collect_round3_cases.py",
+    "sha256": "071ea2d9dd8170d3c9064baf04904187d501bc3c352f2ca55766c39e12fd12d8"
+  },
+  "tests": {
+    "path": "enrichment/tests/test_round3_cases.py",
+    "sha256": "4663c2ebc88b9beb82e8e9c9999cd2597590c268c028e803f565857d20ce86b0",
+    "result": "5 passed"
+  },
+  "lock_sha256": "b07d548b44a8a636ea0d8ace4d1f0babdbdbfd87c87c7a97e91a5742bbfab612",
+  "raw_root_workspace_relative": "work/data-round3/cases",
+  "raw_allowlist": "raw_inventory.json",
+  "raw_files": 155,
+  "raw_bytes": 81897740,
+  "artifacts": [
+    {
+      "path": "evidence_recipe.json",
+      "bytes": 40886,
+      "sha256": "777fb55afa6803ffc493f9c4c739f143e84013f3fe545b326617fab8855b7bcd"
+    },
+    {
+      "path": "existing_baseline_reference.csv",
+      "bytes": 1496,
+      "sha256": "85398d7975e7ea2cde2f3974b463bed5cf67a4ed5270a5aad94a680381345017"
+    },
+    {
+      "path": "factual_evidence.csv",
+      "bytes": 36249,
+      "sha256": "c6f132abe7b7a5b47683d11da87fa987f2ef40a3de46977640423a55be4d0edb"
+    },
+    {
+      "path": "QA.md",
+      "bytes": 5178,
+      "sha256": "ef2c986ff8a0cedb4e372e5e4e052f3924bb8ed2f66e362f89da565eba082b85"
+    },
+    {
+      "path": "raw_inventory.json",
+      "bytes": 24640,
+      "sha256": "857518753c6fb993c4a6ec9cd5a837e745bc39656b39df676a2107c36635a4c4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11503,
+      "sha256": "b85323901f8c96aa79f0450fab1291cf0a91cb2b5b074c949cbac2ccc312a65e"
+    },
+    {
+      "path": "REPRODUCE.md",
+      "bytes": 5649,
+      "sha256": "221a99ba4a5aed153e8586ab757fdbe9466f0c190be26ebf3d741431420c40a1"
+    },
+    {
+      "path": "search_log.json",
+      "bytes": 6830,
+      "sha256": "95b7ac1dde8e8a21f4913d994e49ef4e271d6a571c1cec6ea4bebc7cdd65d10e"
+    },
+    {
+      "path": "source_inventory.json",
+      "bytes": 20662,
+      "sha256": "2a053188c980f2d6c032552f558e5932bc4d46e7e64f026bf8c9d85dd4fc7cc8"
+    },
+    {
+      "path": "source_roles.csv",
+      "bytes": 5595,
+      "sha256": "415f01bf616fb8d316acb8751835fa1bdf4d7897e1e34d3f6ca18ec75d53fe3b"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 4611,
+      "sha256": "cd112ec766758438d01cc302921f6e3c571244fcc41403e119b9a98e8dc47bfc"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 227,
+      "sha256": "cc1812ba6501f3f4fa1a0024005c97e9d567d90d1638c14062ac35af0e8b3073"
+    }
+  ],
+  "no_model_fit": true,
+  "old_outputs_modified": false
+}

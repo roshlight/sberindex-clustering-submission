@@ -1,0 +1,45 @@
+{
+  "status": "complete_with_gaps",
+  "identity": {
+    "targets_sha256": "a0c243eab9c78e110354bdb43d602ea61201b510d58640b0dbaac5a89f01fd11",
+    "processor_sha256": "cfac5d55f4aa34f31c5c3db07fba1288b86dd221b40c8c112aabc5f7759e0c2e",
+    "interval": 2.5,
+    "batch_size": 100,
+    "cache_only": false,
+    "bdpmo_sha256": "a0a6889710a72b0c8ed3beffb8b0c3b46623553fdaef130bf5d529b062798b13",
+    "backoff_helpers_sha256": "d782974b8dda66e36f6136b180297f1e347ffddd96fee7b0311d995644689af2",
+    "ca_bundle_sha256": "fd9fe86c296f5354cb578551a4f1216fc900624e88dbc8625e4ae506d1e8d624"
+  },
+  "started_at": "2026-09-14T22:39:46.996572+00:00",
+  "target_count": 2094,
+  "indicator_count": 2,
+  "source_cache": "/home/vpnadmin/services/sberindex-enrichment/work/enrichment-v3/economy/cache",
+  "python_version": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "uv_lock_sha256": "b07d548b44a8a636ea0d8ace4d1f0babdbdbfd87c87c7a97e91a5742bbfab612",
+  "implementation_snapshot_hashes": {
+    "bdpmo.py": "a0a6889710a72b0c8ed3beffb8b0c3b46623553fdaef130bf5d529b062798b13",
+    "run_economy_bulk.py": "aa42f7d307920f0b2ed31ddb2c1da4ae3605f186e320af8300f55d1754524964",
+    "economy_bulk.py": "cfac5d55f4aa34f31c5c3db07fba1288b86dd221b40c8c112aabc5f7759e0c2e",
+    "population_bulk.py": "d782974b8dda66e36f6136b180297f1e347ffddd96fee7b0311d995644689af2"
+  },
+  "scope": "Annual source-code observations excluding small businesses; not a resident-income measure",
+  "processed_target_indicator_pairs": 4188,
+  "status_counts": {
+    "complete": 3387,
+    "partial_source": 222,
+    "not_returned": 20,
+    "form_review": 458,
+    "response_review": 101
+  },
+  "record_count": 6996,
+  "observed_cells": 6960,
+  "network_request_count": 263,
+  "cache_hit_count": 0,
+  "updated_at": "2026-09-14T22:54:20.210580+00:00",
+  "output_hashes": {
+    "annual_code_reference_links.csv": "9310bdcb227c44cc95e92bfcba69a8298066395fc1767a226fe9902210910a8d",
+    "economy_source.csv": "837dd12c46a0caed6e18e1018ceedd178e1850790e53d41cf70eaf720235ee1c",
+    "target_status.csv": "7b5bc5c0415dc792e8647de58fa03b930435a464d0835fe8f03e34a0cb708c34",
+    "economy_source.parquet": "40521a8bcb0b67c8327de0af5bfaa15dcd4e72152e98d9f059b3362bc00b1b31"
+  }
+}

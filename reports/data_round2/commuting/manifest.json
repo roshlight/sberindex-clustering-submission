@@ -1,0 +1,46 @@
+{
+  "status": "source_cells_ready_geographic_join_unresolved",
+  "sources": 15,
+  "downloaded": 15,
+  "nonempty_cells": 350850,
+  "numeric_cells": 263406,
+  "sheets": 257,
+  "six_case_text_locators": 6,
+  "census_reference_date": "2021-10-01",
+  "municipal_2023_2024_joins_accepted": 0,
+  "sources_config_sha256": "12fa04bd7d8048ed0c4e904a30f8be82e6e85caa7939825dd33cfe6563ee6e49",
+  "script_sha256": "18d84af7510902d595ec01464f18eed684871278e0d80234b622f6257797c5c9",
+  "source_hashes": {
+    "census_01.xlsx": "68f2b7c906cdafad0c77a01c612081c853946dd57fca9c509176f5606ebffdd4",
+    "census_02.xlsx": "c1cb9fba73173042083f024ec699d0f3f09f46b713e7c6e398b52dda5bfe2bdb",
+    "census_03.xlsx": "49f720fbe6aa2807588ad5d508a794f88d97391ffe63e416d06a5be1d29b084a",
+    "census_04.docx": "fdc137f059afee777e1d4374e29c419a3b61ab16353b1b95333cb0e146f4efa2",
+    "census_05.xlsx": "d11bee4f53b938a87521918cafeacc29b3579c993ee38ff0c3a061cd0976da32",
+    "census_06.xlsx": "c7522e3e03a23f39569a8b876442b87c4827e365ba769859b639e1bc4b81d2b5",
+    "census_07.xlsx": "24f9d81cfd52f80747e9ec8a04229c501bf48f7cec6e5f3b7ac454fa8390fa5d",
+    "census_08.xlsx": "c2e52cc1ad0b1c06f21f51fe546b20c499992ab6655abf1d50e04481a0e83aac",
+    "census_09.xlsx": "264ba369fd472032104f8fb9783b24e848f4e6a31479d43a0e4e779e0017b1ca",
+    "census_10.docx": "f9e94bfbaa42de03d4beba539551b8c8e9f78adc1770c9e1b9bd0eb467fc3649",
+    "census_11.xlsx": "227673ff05d1c4004af6b07cf4d2fcbd030848a4b6d0ddc468e4503e695b1ed2",
+    "census_12.xlsx": "3239d2eb8c6a8c0258c6c93d9694b686a960c50455110c4b08eebc32048e6457",
+    "census_13.pdf": "36befcc23ddd36e7727eeb4436b749f5a8a5dbb41241c612a54f79157d226bcb",
+    "census_14.xlsx": "d43832dcb014583eb1f9f9a51675a8bd4c5a2e99dce29f1e111dff6f50ba285a",
+    "census_15.xlsx": "d417f02244008b11eb6b1e601bd54987aaf8cce39ded0b106a7540e4c285c6ec"
+  },
+  "outputs": {
+    "sheet_inventory.csv": "15afa197dc6f9aa39497bf0b07607bb4163d378d3a3a3d6a9ac15bf3890a3acf",
+    "six_case_text_locators.csv": "5f253142a8a316cb6c6c0e592972ba7a635ee97120e7ed137ceda512182b924c",
+    "source_cells.parquet": "24f25e2fd37ca29703ca4f62534e66c8bae53deb5c33b1ed8c183269bfae7ce1",
+    "source_inventory.csv": "b4ad7acec9fbd87dd43a49ccb96fd68e818b2de5391977b0d227b0e4d70157cf",
+    "source_text/census_04.txt": "9419e987a46286d3d727f7f40a2f82b4ebc1d8ff936b7868805ae5b296b76be7",
+    "source_text/census_10.txt": "09db99e02d22c6dd602a9019a47712e8248430d7045cf89e0cd11a1fcd10397c",
+    "source_text/census_13.txt": "d9dced21a2db2f1fd15b2ce4db870f9231db67c894acca974c28c8c2c5598683"
+  },
+  "limits": [
+    "No imputation of blanks or dash markers",
+    "No automatic geographic joins",
+    "Commuting outside settlement does not imply crossing municipality boundary",
+    "Census 2021 values are not observations of 2023 or 2024",
+    "Raw numeric cells include headers and totals; not a count of analytical observations"
+  ]
+}

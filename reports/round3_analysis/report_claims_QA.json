@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "scope": "all ten Markdown numerical tables; planned interval/sign claims; six cases recomputed from primary annual panel",
+  "report_sha256": "4838bf571ce2d71daf65975fce284c316041f6973a0bc0b00e36bdfef7110623",
+  "tables": 10,
+  "table_rows": 86,
+  "numeric_cell_checks": 293,
+  "case_pairs": 18,
+  "finite_case_pairs": 17,
+  "report_wording_corrections_pending": [],
+  "report_wording_review": "PASS; three requested wording corrections checked in final REPORT and artifact",
+  "coverage_claims": {
+    "source_positions": 12096,
+    "numeric": 10829,
+    "not_returned_or_unaccepted": 1245,
+    "markers": 22,
+    "outside_annual_links_markers": 29,
+    "numeric_without_population_feature": 108,
+    "tver_2024_all_three_absent_municipalities": 37,
+    "samara_2024_all_three_absent_municipalities": 36
+  },
+  "artifact_sha256": "0a4f781626ca756b42283ee688301956abb70b45443b8fecd06bc6f215ca10ef",
+  "artifact_markdown_blocks": 15,
+  "artifact_markdown_exact_report_matches": 15,
+  "scope_limit": "Numerical/text claims only; figure visual QA and portable HTML are separate checks."
+}

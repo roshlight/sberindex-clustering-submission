@@ -1,0 +1,195 @@
+{
+  "created_at_utc": "2026-09-14T21:27:42.598499+00:00",
+  "local_date": "2026-09-15 Europe/Moscow",
+  "status": "absence_verified_no_replacement_values_found",
+  "counts": {
+    "primary_cohort": 2016,
+    "requested_missing_ids": 12,
+    "recovered_market_values": 0,
+    "missing_ids_without_any_published_highway_edge": 10,
+    "missing_ids_in_isolated_highway_pair": 2,
+    "source_market_ids": 2571,
+    "crosswalk2024_ids": 2594,
+    "crosswalk2024_without_market": 23,
+    "metadata_declared_exclusions": 22,
+    "crosswalk2024_without_highway_endpoint": 21,
+    "highway_endpoints": 2573,
+    "same_id_attribute_changes_in_cohort": 78,
+    "source_version_rows": 3101,
+    "latest_year_from": 2024,
+    "latest_finite_year_to": 2024
+  },
+  "conditions": [
+    "No imputation, no zero replacement, no broadcast of 2024 index to 2023 or months.",
+    "Metadata gives an aggregate exclusion rule, not individual labels for these 12 IDs.",
+    "22 declared exclusions do not reconcile with the 23 IDs missing against this published 2024 crosswalk.",
+    "Road absence describes the published source graph and does not prove absence of every real-world transport route.",
+    "78 changes compare attribute snapshots 2023-01-01 and 2024-01-01; they do not demonstrate 78 boundary changes or complete transformations during 2024.",
+    "No newer official linked Sber version through 2025-01-01 was found in this bounded check; promised update is not evidence of delivery."
+  ],
+  "fresh_archives_match_existing": {
+    "hackathonlicence.zip": true,
+    "t_dict_municipal.rar": true
+  },
+  "sources": [
+    {
+      "url": "https://www.sberbank.com/common/img/uploaded/files/pdf/sberindex/hackathonlicence.zip",
+      "file": "hackathonlicence.zip",
+      "retrieved_at_utc": "2026-09-14T21:20:23.579961+00:00",
+      "status": 200,
+      "sha256": "a9f932ff4096a7df797d1547987937f34d3995ac445b4748177114488d12b010",
+      "bytes": 19603203,
+      "error": null,
+      "headers": {
+        "content-type": "application/zip",
+        "content-length": "19603203",
+        "last-modified": "Thu, 18 Dec 2025 12:25:55 GMT",
+        "etag": "\"36be4d044e7e5268bfe0e18917bb2496\""
+      }
+    },
+    {
+      "url": "https://www.sberbank.ru/common/img/uploaded/files/pdf/sberindex/metadata_municipal_dict_sberindex_2.pdf",
+      "file": "metadata_municipal_dict_sberindex_2.pdf",
+      "retrieved_at_utc": "2026-09-14T21:20:23.580475+00:00",
+      "status": 200,
+      "sha256": "05707427a64061552d1f23f74f578a99fdabeff69f0c8a0fc99d924210fee0b3",
+      "bytes": 333567,
+      "error": null,
+      "headers": {
+        "content-type": "application/pdf, application/pdf",
+        "content-length": "333567",
+        "last-modified": "Fri, 07 Nov 2025 10:54:43 GMT",
+        "etag": "\"4d3806c4b659e234aa417e05a62cff44\"",
+        "content-encoding": "aws-chunked"
+      }
+    },
+    {
+      "url": "https://sberindex.ru/ru/research/dataset-borders-and-changes-of-municipalities",
+      "file": "sber_crosswalk_landing.html",
+      "retrieved_at_utc": "2026-09-14T21:23:01.023304+00:00",
+      "status": 200,
+      "sha256": "7a06f301a68d773607b36dce0507f98cdeadf7a15a2e93cb14b665fbdce3ef2e",
+      "bytes": 2616,
+      "error": null,
+      "headers": {
+        "content-type": "text/html",
+        "content-length": "2616",
+        "last-modified": "Monday, 14-Sep-2026 21:23:00 GMT"
+      }
+    },
+    {
+      "url": "https://sberindex.ru/ru/research/data-sense-opisanie-nabora-dannikh-khakatona-sberindeksa-po-munitsipalnim-dannim",
+      "file": "sber_market_landing.html",
+      "retrieved_at_utc": "2026-09-14T21:23:00.949927+00:00",
+      "status": 200,
+      "sha256": "7a06f301a68d773607b36dce0507f98cdeadf7a15a2e93cb14b665fbdce3ef2e",
+      "bytes": 2616,
+      "error": null,
+      "headers": {
+        "content-type": "text/html",
+        "content-length": "2616",
+        "last-modified": "Monday, 14-Sep-2026 21:23:00 GMT"
+      }
+    },
+    {
+      "url": "https://habr.com/ru/companies/sberbank/articles/849682/",
+      "file": "sber_methodology_habr.html",
+      "retrieved_at_utc": "2026-09-14T21:23:00.144982+00:00",
+      "status": 200,
+      "sha256": "be17929e7843c704e05ab39372021e85ba9cc51f92239ede33b2959bd91da41d",
+      "bytes": 224053,
+      "error": null,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "224053"
+      }
+    },
+    {
+      "url": "https://www.sberbank.com/common/files/t_dict_municipal.rar",
+      "file": "t_dict_municipal.rar",
+      "retrieved_at_utc": "2026-09-14T21:20:23.580475+00:00",
+      "status": 200,
+      "sha256": "319ed22684b77716641bc15b61f7325adc44e9fc47e9be2973d88412d27d21f5",
+      "bytes": 26925727,
+      "error": null,
+      "headers": {
+        "content-type": "application/x-rar-compressed",
+        "content-length": "26925727",
+        "last-modified": "Fri, 03 Oct 2025 22:03:47 GMT",
+        "etag": "\"e2f6ed1bb315670bed5cbcaa548716dc\""
+      }
+    },
+    {
+      "file": "market_access.parquet",
+      "url": "https://www.sberbank.com/common/img/uploaded/files/pdf/sberindex/hackathonlicence.zip",
+      "sha256": "434258afe322b7e6e6610b2552d129ae47094613de72dae3d13f6965a28d1dc1",
+      "bytes": 25163,
+      "note": "Extracted unchanged from fresh ZIP"
+    },
+    {
+      "file": "connection.parquet",
+      "url": "https://www.sberbank.com/common/img/uploaded/files/pdf/sberindex/hackathonlicence.zip",
+      "sha256": "20cbd5213d3ac1d0a867f097b485431811614b283d7366eb5cba9f65dc80493d",
+      "bytes": 21904682,
+      "note": "Extracted unchanged from fresh ZIP"
+    },
+    {
+      "file": "hackathon_metadata.pdf",
+      "url": "https://www.sberbank.com/common/img/uploaded/files/pdf/sberindex/hackathonlicence.zip",
+      "sha256": "030269e726f969250b911a1fcb72131a4b61c3952aad10c8470ce9c0736c472f",
+      "bytes": 538791,
+      "note": "ZIP member; market-access exclusions on page 2; connection semantics on page 3"
+    },
+    {
+      "file": "crosswalk/t_dict_municipal_districts.xlsx",
+      "url": "https://www.sberbank.com/common/files/t_dict_municipal.rar",
+      "sha256": "4150658c3298fbc87ed79838f503f3a5b9a28da33257ff803c7d9231ddb775d6",
+      "bytes": 322024,
+      "note": "Extracted unchanged from fresh RAR"
+    },
+    {
+      "file": "crosswalk/t_dict_municipal_districts_poly.gpkg",
+      "url": "https://www.sberbank.com/common/files/t_dict_municipal.rar",
+      "sha256": "e62027630d48e4a13f9b6d173dd074d7358706743fe859ca3b7fa30fefa9813a",
+      "bytes": 74334208,
+      "note": "Extracted unchanged from fresh RAR; geometry topology not newly audited"
+    },
+    {
+      "file": "sber_market_rendered.json",
+      "url": "https://sberindex.ru/ru/research/data-sense-opisanie-nabora-dannikh-khakatona-sberindeksa-po-munitsipalnim-dannim",
+      "sha256": "87132abbfa89f5543488d77584e39ad38361337ed285c8cbafee5f7a3f04fd06",
+      "bytes": 9163,
+      "note": "Public article text and visible links captured with Playwright; plain HTTP body is SPA shell"
+    },
+    {
+      "file": "sber_crosswalk_rendered.json",
+      "url": "https://sberindex.ru/ru/research/dataset-borders-and-changes-of-municipalities",
+      "sha256": "99b381a4316fb13bb800833cf3df90ddad1bf2b2a97c4367b23dd520b2923b24",
+      "bytes": 6217,
+      "note": "Public article text and visible links captured with Playwright; page advertises update 25.10.2024"
+    },
+    {
+      "url": "https://s.sber.ru/GthXk7",
+      "file": "crosswalk_shortlink_head.json",
+      "sha256": "99efa0e3ce8b64ca131a432431c5d64ba4df99b1758d41a7401a5131262e76bf",
+      "bytes": 399,
+      "note": "HEAD redirect evidence from current visible publisher archive link to the audited RAR"
+    }
+  ],
+  "inputs": {
+    "outputs\\municipal-economic-profiles\\reports\\enrichment_v1\\core_context\\market_access_missing_ids.csv": "3f171b6c5080dade9e926099ecb091f775bde842c7cb440234c04c7ef78f446e",
+    "outputs\\municipal-economic-profiles\\reports\\initial_study\\assignments.parquet": "54f6c1f3c92a878a990c620e9fdb544ab6187f9ac0baea4bc5070d964e0ae6bc"
+  },
+  "audit_script": {
+    "path": "work\\market-access-followup-20260915\\audit_followup.py",
+    "sha256": "df1510d251cb33e77c957a97bdcb64dd58ff8caf515a8244dfeb7220261ee1d3"
+  },
+  "raw_sources_directory": "work\\market-access-followup-20260915\\sources",
+  "output_sha256": {
+    "crosswalk2024_without_market_access_23.csv": "3a330fe93f322c545f7f993051417964bb78189af4f72f246f109901a3d5596f",
+    "missing_market_access_12_verified.csv": "0de54311fc008ca24528481d5e8149f80c55546a66029f828715fad26847e450",
+    "norilsk_taymyr_published_connections.csv": "4f35c1004ac04b8a8e548ade6666f03a24646bc1ec8bfe1b503dc253406aad56",
+    "sber_attribute_changes_78.csv": "937a1768d5532ab5956e1ae6c48fd7623343d8259c0df417eb6bf090dcd56ea2",
+    "FINDINGS.md": "cac57425ad2830b3cccd0b70b476ec17074f5fb656470c9112c5890a54d1f36d"
+  }
+}

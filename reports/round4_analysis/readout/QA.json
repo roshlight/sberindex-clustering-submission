@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "adoption_passed": false,
+  "main_four_primary_intervals_include_zero": true,
+  "all_primary_seed13_intervals_include_zero": true,
+  "postfit_contribution_sums_match_state_update": true,
+  "slice_analysis": "Descriptive post-fit diagnostic, no subgroup hypothesis test or causal attribution"
+}

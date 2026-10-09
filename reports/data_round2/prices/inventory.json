@@ -1,0 +1,24 @@
+{
+  "scope": "city_context_only; source and candidate rows are not automatic model inputs",
+  "bridge": "bridge_v2",
+  "monthly": "monthly_v3",
+  "source_verification": "source_cell_verification_v3.json",
+  "source_cells": 3836682,
+  "primary_cells": 2933362,
+  "raw_inventory": "raw_inventory.json",
+  "raw_file_count": 74,
+  "raw_bytes": 112294963,
+  "table_roles": {
+    "bridge_v2/bridge_candidates.csv": "city-year; all candidates and review reasons",
+    "bridge_v2/bridge_approved_evidence.csv": "city-year; documentary approved links",
+    "bridge_v2/primary_cohort_city_context.csv": "municipality-year grid; annual city ISZh",
+    "monthly_v3/city_monthly_price_cells.parquet": "all published city-month-product cells",
+    "monthly_v3/primary_city_price_context.parquet": "approved primary city context cells",
+    "monthly_v3/city_monthly_dimensions.csv": "source city-month; exact context/status",
+    "monthly_v3/product_dictionary.csv": "product-month; full name/unit/source column",
+    "monthly_v3/yearly_source_coverage.csv": "year; nominal/published/numeric/missing counts",
+    "monthly_v3/product_primary_coverage.csv": "product-year; accepted cohort coverage",
+    "primary_numeric_qa.csv": "year; numeric, positive and zero denominators",
+    "source_zero_review.csv": "year-product; literal source zero counts, no imputation"
+  }
+}

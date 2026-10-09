@@ -1,0 +1,82 @@
+{
+  "primary_municipalities": 2016,
+  "reference_links": 4032,
+  "expected_cells": 8064,
+  "source_rows_present": 7093,
+  "observed_source_values": 6940,
+  "analysis_values_available": 6940,
+  "missing_analysis_cells": 1124,
+  "complete_annual_total_and_urban_pairs": 2948,
+  "initial_calendar_links": 6,
+  "calendar_links_cleared": 6,
+  "unresolved_calendar_links": 0,
+  "source_target_count": 2094,
+  "source_target_status_counts": {
+    "complete": 1504,
+    "partial_source": 588,
+    "attribution_review": 1,
+    "error": 1
+  },
+  "coverage": [
+    {
+      "reference_date": "2023-01-01",
+      "population_type": "11",
+      "expected_municipalities": 2016,
+      "source_rows_returned": 1981,
+      "source_values_observed": 1979,
+      "analysis_values_available": 1979,
+      "temporal_review_links": 0,
+      "calendar_review_cleared_links": 6,
+      "status_counts": {
+        "observed_conditional_geography": 1979,
+        "not_returned": 35,
+        "missing_or_unresolved_source_marker": 2
+      }
+    },
+    {
+      "reference_date": "2023-01-01",
+      "population_type": "12",
+      "expected_municipalities": 2016,
+      "source_rows_returned": 1533,
+      "source_values_observed": 1463,
+      "analysis_values_available": 1463,
+      "temporal_review_links": 0,
+      "calendar_review_cleared_links": 6,
+      "status_counts": {
+        "observed_conditional_geography": 1463,
+        "not_returned": 483,
+        "missing_or_unresolved_source_marker": 70
+      }
+    },
+    {
+      "reference_date": "2024-01-01",
+      "population_type": "11",
+      "expected_municipalities": 2016,
+      "source_rows_returned": 2013,
+      "source_values_observed": 2013,
+      "analysis_values_available": 2013,
+      "temporal_review_links": 0,
+      "calendar_review_cleared_links": 0,
+      "status_counts": {
+        "observed_conditional_geography": 2013,
+        "not_returned": 3
+      }
+    },
+    {
+      "reference_date": "2024-01-01",
+      "population_type": "12",
+      "expected_municipalities": 2016,
+      "source_rows_returned": 1566,
+      "source_values_observed": 1485,
+      "analysis_values_available": 1485,
+      "temporal_review_links": 0,
+      "calendar_review_cleared_links": 0,
+      "status_counts": {
+        "observed_conditional_geography": 1485,
+        "not_returned": 450,
+        "missing_or_unresolved_source_marker": 81
+      }
+    }
+  ],
+  "imputed_values": 0
+}

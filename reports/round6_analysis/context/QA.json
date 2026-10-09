@@ -1,0 +1,25 @@
+{
+  "all_read_csv_hashes_verified_against_upstream_manifests": true,
+  "cash_ratio_is_not_share": true,
+  "code_groups_unique_year_code": true,
+  "independent_clean_environment": "NOT RUN",
+  "machine_checks": "PASS",
+  "missing_cash2024_preserved": true,
+  "model_adoption": false,
+  "no_employee_totals_computed": true,
+  "no_historical_company_join": true,
+  "queue_matches_original_code_inventory": true,
+  "raw_pdf_xlsx_xml_reextraction_this_analysis": "NOT RUN: using verified collection outputs",
+  "status": "ready_with_conditions",
+  "tables": {
+    "airport_changes.csv": 4,
+    "airport_comparison.csv": 3,
+    "geography_code_groups.csv": 2000,
+    "geography_queue_summary.csv": 6,
+    "settlement_parent_summary.csv": 6,
+    "sme_asset_readiness.csv": 3,
+    "source_availability.csv": 45,
+    "transition_ambiguity_summary.csv": 2,
+    "worker_temporal_eligibility.csv": 4
+  }
+}

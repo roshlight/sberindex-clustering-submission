@@ -1,0 +1,59 @@
+job,reason,missing_cells,priority,next_action
+munst63_8401003,semantic_unit_unverified,78,1,Find official regional indicator unit; do not infer scale
+munst07_8401003,semantic_scope_unverified,66,1,Find official regional indicator scope; keep values blocked
+munst07_8401011,semantic_scope_unverified,66,1,Find official regional indicator scope; keep values blocked
+munst40_8401003,exact_code_year_not_returned,33,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst93_8401003,exact_code_year_not_returned,15,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst98_8401003,exact_code_year_not_returned,12,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst65_8109001,exact_code_year_not_returned,10,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst10_8401003,exact_source_code_absent_from_current_form,8,2,Seek historical form/archive for exact code-year; no replacement by current code
+munst10_8401003,exact_code_year_not_returned,7,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst25_8401003,exact_code_year_not_returned,7,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst45_8401003,exact_code_year_not_returned,7,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst90_8401003,exact_code_year_not_returned,7,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst40_8401003,exact_source_code_absent_from_current_form,6,2,Seek historical form/archive for exact code-year; no replacement by current code
+munst05_8401003,exact_source_code_absent_from_current_form,5,2,Seek historical form/archive for exact code-year; no replacement by current code
+munst76_8401003,exact_source_code_absent_from_current_form,5,2,Seek historical form/archive for exact code-year; no replacement by current code
+munst04_8401003,exact_code_year_not_returned_in_controlled_export,4,2,Controlled query works; seek official publication or omission notes for exact missing code-year
+munst05_8401003,exact_code_year_not_returned,4,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst08_8401003,exact_source_code_absent_from_current_form,4,2,Seek historical form/archive for exact code-year; no replacement by current code
+munst30_8401003,exact_code_year_not_returned_in_controlled_export,4,2,Controlled query works; seek official publication or omission notes for exact missing code-year
+munst30_8401003,exact_source_code_absent_from_current_form,4,2,Seek historical form/archive for exact code-year; no replacement by current code
+munst42_8109001,exact_code_year_not_returned,4,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst42_8401003,exact_code_year_not_returned,4,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst42_8401011,exact_code_year_not_returned,4,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst44_8401003,exact_code_year_not_returned,3,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst50_8401011,exact_code_year_not_returned,3,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst76_8401003,exact_code_year_not_returned,3,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst08_8401003,exact_code_year_not_returned_in_controlled_export,2,2,Controlled query works; seek official publication or omission notes for exact missing code-year
+munst28_8401003,exact_code_year_not_returned,2,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst28_8401003,exact_source_code_absent_from_current_form,2,2,Seek historical form/archive for exact code-year; no replacement by current code
+munst28_8401003,unresolved_source_marker,2,2,Seek marker definition tied to this source cell; never treat blank as zero
+munst34_8401003,exact_source_code_absent_from_current_form,2,2,Seek historical form/archive for exact code-year; no replacement by current code
+munst45_8401003,exact_source_code_absent_from_current_form,2,2,Seek historical form/archive for exact code-year; no replacement by current code
+munst49_8401003,exact_code_year_not_returned_in_controlled_export,2,2,Controlled query works; seek official publication or omission notes for exact missing code-year
+munst61_8401003,exact_source_code_absent_from_current_form,2,2,Seek historical form/archive for exact code-year; no replacement by current code
+munst64_8401003,exact_source_code_absent_from_current_form,2,2,Seek historical form/archive for exact code-year; no replacement by current code
+munst64_8401003,unresolved_source_marker,2,2,Seek marker definition tied to this source cell; never treat blank as zero
+munst65_8401003,exact_source_code_absent_from_current_form,2,2,Seek historical form/archive for exact code-year; no replacement by current code
+munst69_8401003,exact_code_year_not_returned,2,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst69_8401003,exact_source_code_absent_from_current_form,2,2,Seek historical form/archive for exact code-year; no replacement by current code
+munst71_8401003,exact_code_year_not_returned_in_controlled_export,2,2,Controlled query works; seek official publication or omission notes for exact missing code-year
+munst84_8401003,exact_code_year_not_returned_in_controlled_export,2,2,Controlled query works; seek official publication or omission notes for exact missing code-year
+munst88_8401003,exact_code_year_not_returned_in_controlled_export,2,2,Controlled query works; seek official publication or omission notes for exact missing code-year
+munst90_8401003,exact_source_code_absent_from_current_form,2,2,Seek historical form/archive for exact code-year; no replacement by current code
+munst91_8401003,exact_source_code_absent_from_current_form,2,2,Seek historical form/archive for exact code-year; no replacement by current code
+munst99_8401003,exact_source_code_absent_from_current_form,2,2,Seek historical form/archive for exact code-year; no replacement by current code
+munst04_8401011,exact_code_year_not_returned,1,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst19_8109001,exact_code_year_not_returned,1,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst19_8401003,exact_code_year_not_returned,1,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst34_8401003,exact_code_year_not_returned,1,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst65_8401003,exact_code_year_not_returned,1,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst66_8401003,exact_code_year_not_returned,1,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst73_8401003,exact_code_year_not_returned,1,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst76_8109001,exact_code_year_not_returned,1,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst77_8401003,exact_code_year_not_returned,1,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst86_8401003,exact_code_year_not_returned,1,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst87_8109001,exact_code_year_not_returned,1,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst87_8401003,exact_code_year_not_returned,1,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality
+munst87_8401011,exact_code_year_not_returned,1,2,Seek official alternative publication and explicit omission notes; absence does not establish confidentiality

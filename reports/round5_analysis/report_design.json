@@ -1,0 +1,44 @@
+{
+  "audience": "technical",
+  "delivery": "portable HTML",
+  "reason": "Continuation of the repository-based research report in Codex",
+  "adoption_passed": false,
+  "structure_mapping": "Summary; definitions before evidence; coverage and selection; model findings; update diagnostics; SME/context; dedicated methods and limitations; actions and open questions",
+  "chart_map": [
+    {
+      "id": "selection_chart",
+      "question": "Какие территории были недопредставлены из-за пропусков?",
+      "family": "discrete grouped comparison",
+      "palette": "shared native categorical palette; year is the only color dimension",
+      "surface": "native artifact bar",
+      "row_count": 4
+    },
+    {
+      "id": "primary_chart",
+      "question": "Проходит ли блок прежний критерий принятия?",
+      "family": "discrete grouped comparison",
+      "palette": "shared native categorical palette; year is the only color dimension",
+      "surface": "native artifact bar",
+      "row_count": 4
+    },
+    {
+      "id": "update_chart",
+      "question": "Отличается ли замена чисел от полного обновления модели?",
+      "family": "discrete grouped comparison",
+      "palette": "shared native categorical palette; year is the only color dimension",
+      "surface": "native artifact bar",
+      "row_count": 4
+    },
+    {
+      "id": "geo_chart",
+      "question": "Где сосредоточено отсутствие муниципальной детализации?",
+      "family": "discrete grouped comparison",
+      "palette": "shared native categorical palette; year is the only color dimension",
+      "surface": "native artifact bar",
+      "row_count": 8
+    }
+  ],
+  "repeated_chart_family_reason": "All charts compare discrete groups and two separately assessed years; no temporal trajectory or unsupported confidence whiskers implied",
+  "tables_without_charts": "Coverage is a small exact lookup; workers and population definitions need precise denominators; budget revision includes a nonnumeric dash. No invented trend points.",
+  "snapshot_limits": "Conditional retrospective exploratory evidence, no new holdout or causal claim"
+}

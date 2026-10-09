@@ -1,0 +1,23 @@
+{
+  "key": [
+    "territory_id",
+    "year"
+  ],
+  "row_grain": "frozen municipality-year",
+  "prefix_order": [
+    "investment",
+    "shipments",
+    "retail"
+  ],
+  "monetary_unit": "nominal thousand rubles; excludes small entrepreneurship",
+  "denominator": "frozen population_total at January 1 of observation year",
+  "formula": "log(value*1000/population_total) for finite positive operands only",
+  "old_prefix": "round-three values and availability; same accepted year code",
+  "new_numeric": "previously missing raw value now numeric; zero is not missing",
+  "new_feature": "previously unavailable log intensity now valid",
+  "common_complete": "old and new three log features all available; coverage sensitivity only",
+  "core_and_conservative": "unchanged frozen cohort masks, independent of new coverage",
+  "point_in_time": "retrieved 2026-09-16; original publication/revisions unknown",
+  "geometry": "code and year link only; legal boundary equivalence not proven",
+  "inference": "collection failures concentrated by region; gains are not random"
+}

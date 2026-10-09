@@ -1,0 +1,21 @@
+{
+  "analysis_status": "exploratory_after_published_2024_results",
+  "method": "leiden_hellinger",
+  "seed": 1905,
+  "permutations": 9999,
+  "alpha": 0.05,
+  "expected_cohort_size": 2016,
+  "comparison_fields": ["oktmo", "municipal_district_type"],
+  "windows": {
+    "boundary_2023_2024": {"from_year": "2023", "to_year": "2024", "lag": 1, "pairs_per_territory": 1},
+    "within_2024": {"from_year": "2024", "to_year": "2024", "lag": 1, "pairs_per_territory": 11},
+    "year_over_year": {"from_year": "2023", "to_year": "2024", "lag": 12, "pairs_per_territory": 12}
+  },
+  "inputs": {
+    "reports/initial_study/assignments.parquet": "54f6c1f3c92a878a990c620e9fdb544ab6187f9ac0baea4bc5070d964e0ae6bc",
+    "reports/initial_study/transitions.parquet": "179fecaa89fa56960b407abce749c517b89d631338b8964f9fe6b0d2ab4f6e30",
+    "reports/initial_study/report_manifest.json": "5632672692f1ed44f86a7446c0b09e0625657cf00ea0408834a6b95e8d3f7da3",
+    "reports/enrichment_v1/crosswalk/municipal_crosswalk_versions.csv": "421750a85e3fed92c7b1a1c89636cfc53e2d89c4b0c86faf5b39207871013528",
+    "reports/enrichment_v2/market_access_followup/sber_attribute_changes_78.csv": "937a1768d5532ab5956e1ae6c48fd7623343d8259c0df417eb6bf090dcd56ea2"
+  }
+}

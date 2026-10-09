@@ -1,0 +1,5 @@
+archive,snapshot_date,format_version,documents,entity_type_counts,location_records,district_records,city_records,settlement_records,workers_present,workers_missing,workers_negative,workers_zero,workers_min,workers_max,oktmo_field_present,representative_sample,source_sha256
+archive_2023_12,10.12.2023,4.04,900,"{""2"": 894, ""1"": 6}",900,899,64,109,0,900,0,0,,,False,False,f1993044f208cca6771aa231b049ee00f478d7e26b63469e6f8a29b88ec796df
+archive_2024_06,10.06.2024,4.04,900,"{""2"": 880, ""1"": 20}",900,900,75,117,0,900,0,0,,,False,False,9ee3110e0dcf15572457b067039470ece87a96d547962f126108aea7c85c2d62
+archive_2024_07,10.07.2024,4.04,899,"{""2"": 879, ""1"": 20}",899,898,65,11,19,880,0,1,0,17,False,False,e860fdca40ff69848633a17e85285237c084e04d9047b79336c9e64ab463fdb5
+archive_2024_12,10.12.2024,4.04,899,"{""2"": 849, ""1"": 50}",899,12,888,22,45,854,0,3,0,68,False,False,b2015f5a0e3f05401b6e6a008a382305228134102d1414cd26daca20b56565b3

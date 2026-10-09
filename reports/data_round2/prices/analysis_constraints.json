@@ -1,0 +1,21 @@
+{
+  "zero_use_status": "unclear_zero_use",
+  "source_numeric_includes_zero": true,
+  "primary_numeric_includes_zero": true,
+  "primary_positive_prices": 2570596,
+  "primary_numeric_prices": 2571434,
+  "primary_source_zero_prices": 838,
+  "source_positive_prices": 3331700,
+  "source_numeric_prices": 3332759,
+  "source_zero_prices": 1059,
+  "exclude_zero_from_log_ratio_deflation_until_source_review": true,
+  "whole_municipality_price_estimate": false,
+  "scope": "city_context_only",
+  "allow_nearest_city_fill": false,
+  "allow_automatic_sber_category_deflation": false,
+  "single_common_index_cancels_when_profiles_renormalized": true,
+  "allow_parent_only_adjudication_for_city": false,
+  "temporal_review_city_years": 3,
+  "temporal_review_primary_city_years": 1,
+  "temporal_review_source_cells": 20520
+}

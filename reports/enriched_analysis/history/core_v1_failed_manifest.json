@@ -1,0 +1,17 @@
+{
+  "status": "failed",
+  "started_at": "2026-09-15T02:31:49.939814+03:00",
+  "protocol_sha256": "280fc6cd02efb9f04c42909f85e16f7eae1900469b33715661ac727fe3fe8969",
+  "input_hashes": {
+    "data/raw/consumption.parquet": "9833ddaaee7b2a182ed4cceeed16469031700ea87d508bd976150c6770ef8a61",
+    "reports/enrichment_v2/population/municipal_population_wide.csv": "3c625230fefe007abebcb025b72257e413e6465fc2224da38b3991353131f8fb",
+    "reports/enrichment_v3/economy/annual_candidates/annual_candidate_panel.csv": "c1d0bbeaaf742e14417d7d7d168764c060bb6c01199481a850a7eea3b6359bd4",
+    "reports/enrichment_v3/spatial/sber_yearly_spatial_attributes.csv": "85986eb1091df29fe9aa9347a4bce1b974dac30386198daacbb8f976491362ce",
+    "reports/enrichment_v3/spatial/sber_static_context_2024.csv": "a07e8517d4476a1f921936e83d42f532eb01b20adfb670f24c809acf778f569e",
+    "reports/enrichment_v2/code_bridge/primary_78_code_type_changes.csv": "e839fcc89afaa0f3b3ef8599cf1f14efd5ac96f53d34f50583ddb3c70591f791"
+  },
+  "code_sha256": "1014f93cefa1338a6db3ad9daa5ee137f71029807593e1b3b7d8789b4b7c798a",
+  "analysis_status": "exploratory_conditional_geography",
+  "failure_reason": "Pandas 3 readonly NumPy view during scaling; fixed by explicit array copy.",
+  "superseded_by": "core_v2"
+}

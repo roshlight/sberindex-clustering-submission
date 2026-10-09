@@ -1,0 +1,135 @@
+{
+  "status": "PASS_WITH_SOURCE_LIMITATIONS",
+  "readiness": "ready_with_conditions",
+  "source_rows": 162210,
+  "source_csv_hashes": 144,
+  "years": [
+    2023,
+    2024
+  ],
+  "source_status_counts": [
+    {
+      "indicator_id": "8423005",
+      "status": "not_returned",
+      "rows": 28899
+    },
+    {
+      "indicator_id": "8423005",
+      "status": "observed",
+      "rows": 51145
+    },
+    {
+      "indicator_id": "8423005",
+      "status": "unresolved_source_marker",
+      "rows": 906
+    },
+    {
+      "indicator_id": "8423007",
+      "status": "not_returned",
+      "rows": 17822
+    },
+    {
+      "indicator_id": "8423007",
+      "status": "observed",
+      "rows": 60239
+    },
+    {
+      "indicator_id": "8423007",
+      "status": "unresolved_source_marker",
+      "rows": 3199
+    }
+  ],
+  "published_zero_cells": 2,
+  "geographic_equivalence_confirmed_nonnull": 0,
+  "feature_rows": 4032,
+  "municipalities": 2016,
+  "worker_section_grid_rows": 80640,
+  "actual_canonical_sections": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "U"
+  ],
+  "not_obtained_section": "T",
+  "precommitted_model_sections": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "H",
+    "O",
+    "P",
+    "Q"
+  ],
+  "workers_total_available": 4017,
+  "worker_section_cells_observed": 47128,
+  "valid_worker_shares": 47128,
+  "sector_cells_exceeding_total": 0,
+  "observed_sums_exceeding_total": 88,
+  "maximum_observed_sum_over_total": 1.0012170385395538,
+  "sum_excess_min_workers": 1.0,
+  "sum_excess_max_workers": 3.0,
+  "sum_diagnostic_unavailable_mo_years": 19,
+  "total_available_no_disclosed_sections_mo_years": 4,
+  "raw_example_check_status": "PASS",
+  "raw_example_checked_cells": 24,
+  "raw_example_checked_source_hashes": 5,
+  "selected8_complete_mo_years": 266,
+  "new_workers_totals": [
+    {
+      "territory_id": 2710,
+      "year": 2023,
+      "workers_total_source": 11485.0,
+      "core_eligible": false
+    },
+    {
+      "territory_id": 2710,
+      "year": 2024,
+      "workers_total_source": 11014.0,
+      "core_eligible": false
+    }
+  ],
+  "frozen_eligibility_preserved": true,
+  "known_common_workers_totals_exactly_reconciled": 4015,
+  "exact_form_label_match": true,
+  "source_label_variants": 134,
+  "changed_code_type_municipalities": 78,
+  "example_ids": [
+    331,
+    318,
+    2527,
+    925,
+    1180,
+    883
+  ],
+  "example_annual_rows": 12,
+  "example_conditional_valid_sector_pairs": 62,
+  "consumer_outcome_columns_loaded": [],
+  "tests_and_lint": "separate command results; see validation.json",
+  "limitations": [
+    "Observed organizations exclude small enterprises; workers are not resident employment",
+    "Missing, not offered and unresolved source marker are not zero",
+    "Shares use official total; observed sum ratio is only a disclosure diagnostic",
+    "Source captures from 2026 do not prove contemporaneous availability in 2023/2024",
+    "Independent legal boundary equivalence remains unknown, including unchanged codes",
+    "U has no observed worker values; T was not obtained",
+    "Prior pilot has 22 NULL representation differences; values/NULLs reconcile",
+    "Exploratory analysis after previous inspection of 2024; no causal inference"
+  ]
+}

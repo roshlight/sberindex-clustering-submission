@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "path": "analytical_cohort.parquet",
+      "bytes": 286510,
+      "sha256": "a4f7423007e5e3e334c0ed00148240d0a93e72e5aef64ba85d0c53248ed5c356"
+    },
+    {
+      "path": "feature_dispersion.csv",
+      "bytes": 3357,
+      "sha256": "33720b8bea9bccdf62ee31fe66b26a357c2d147f6f88f8efec754b45f6d7754b"
+    },
+    {
+      "path": "group_attribute_composition.csv",
+      "bytes": 96504,
+      "sha256": "f7d42d2c6a3ef60c0906e129cee54232070a93a25f2a27102b5c61d16c4b0e11"
+    },
+    {
+      "path": "group_context.csv",
+      "bytes": 11423,
+      "sha256": "05cfd8c7aee7a95857d7afb506c7a791f55d734ca9095588948f419459334776"
+    },
+    {
+      "path": "independent_qa.json",
+      "bytes": 322,
+      "sha256": "dca90c3d44bedd64f51cb825cbeaa373dcbc43779c77ce5f02f3b1aa285975b5"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 13409,
+      "sha256": "b63e910686ca55da0b240bb8f3c1dce078b4a8a6df8c90a8470f1f18dc357321"
+    },
+    {
+      "path": "partition_concentration.csv",
+      "bytes": 990,
+      "sha256": "1525a68cba3c7abbb0f93a0f9fd78224d60aa0d2fdcaeda4936d471fe070a6dc"
+    },
+    {
+      "path": "partition_method_agreement.csv",
+      "bytes": 150,
+      "sha256": "c54873f72df46b3870c28dcc5f3ab86d1e480fb53325bd994a3702c890b96d83"
+    },
+    {
+      "path": "permutation_draws.csv",
+      "bytes": 459145,
+      "sha256": "a1a2b93d665a39655c1774f1d061417f2aa9fd05eadb7dc9b0b7c0fff917583a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10959,
+      "sha256": "dcb363d47cfee2802a214894c7e85f34fa5b2eca6a8ae477306c68c758b43f30"
+    },
+    {
+      "path": "verify_results.py",
+      "bytes": 2644,
+      "sha256": "e4a590320a07fd0f295409493edfbbcfb0c88cac9a632d9837c248ac750363a4"
+    }
+  ]
+}

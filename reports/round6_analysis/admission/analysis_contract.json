@@ -1,0 +1,18 @@
+{
+  "decision": "Separate descriptive context only; no replacement of the frozen monetary panel",
+  "grain": "territory_id x year x source-specific variable",
+  "observations": [
+    2023,
+    2024
+  ],
+  "normalization": "Exact region/year/name with explicit type-token removal; no fuzzy match; no boundary proof",
+  "percentage_check": "Cross-edition amount ratio versus source percentage; interval overlap allowing half a unit in the final printed decimal of every input; compatibility is arithmetic only",
+  "no_claims": [
+    "real growth",
+    "retail substitution",
+    "small-firm contribution from two shipment definitions",
+    "revision cause",
+    "causal economic change"
+  ],
+  "source_review_independence": "New analysis reuses prior independent PDF evidence; it is not a second independent reading of all PDFs"
+}

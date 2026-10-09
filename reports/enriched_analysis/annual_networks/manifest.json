@@ -1,0 +1,110 @@
+{
+  "status": "complete",
+  "started_at": "2026-09-14T23:36:00.581347+00:00",
+  "protocol_sha256": "e938482eece0fc62424a0dd3ed2dfb82336bbf875725322854af51a40a3abee3",
+  "self_checks": {
+    "status": "PASS",
+    "checks": 3,
+    "scope": "hand-calculated annual mean, missing month, exact variants"
+  },
+  "elapsed_seconds": 5.014999999984866,
+  "yearly_support": [
+    {
+      "year": 2023,
+      "n": 2016,
+      "primary_n_clusters": 11,
+      "primary_smallest_cluster": 94,
+      "primary_largest_cluster_share": 0.12103174603174603,
+      "n_strong_memberships": 0,
+      "strong_membership_share": 0.0,
+      "median_support_fraction": 0.09523809523809523,
+      "median_mean_peer_jaccard": 0.4183324941908988
+    },
+    {
+      "year": 2024,
+      "n": 2016,
+      "primary_n_clusters": 9,
+      "primary_smallest_cluster": 108,
+      "primary_largest_cluster_share": 0.1597222222222222,
+      "n_strong_memberships": 0,
+      "strong_membership_share": 0.0,
+      "median_support_fraction": 0.047619047619047616,
+      "median_mean_peer_jaccard": 0.44250167603596247
+    }
+  ],
+  "temporal_results": [
+    {
+      "from_month": "2023-12",
+      "to_month": "2024-12",
+      "lag": 12,
+      "method": "kmeans",
+      "ncommon": 2016,
+      "ari": 0.663132137131655,
+      "switch_share": 0.161210317460317,
+      "robust_switch_share_of_all": null,
+      "median_profile_change": 0.04880671204638,
+      "profile_basis": "annual_mean_12months"
+    },
+    {
+      "from_month": "2023-12",
+      "to_month": "2024-12",
+      "lag": 12,
+      "method": "leiden_hellinger",
+      "ncommon": 2016,
+      "ari": 0.32528278785044,
+      "switch_share": 0.542162698412698,
+      "robust_switch_share_of_all": 0.0,
+      "median_profile_change": 0.04880671204638,
+      "profile_basis": "annual_mean_12months"
+    },
+    {
+      "from_month": "2023-12",
+      "to_month": "2024-12",
+      "lag": 12,
+      "method": "kmeans",
+      "ncommon": 2016,
+      "ari": 0.515199893485968,
+      "switch_share": 0.250496031746032,
+      "robust_switch_share_of_all": null,
+      "median_profile_change": 0.044212248007739,
+      "profile_basis": "original_december"
+    },
+    {
+      "from_month": "2023-12",
+      "to_month": "2024-12",
+      "lag": 12,
+      "method": "leiden_hellinger",
+      "ncommon": 2016,
+      "ari": 0.420431258941114,
+      "switch_share": 0.400297619047619,
+      "robust_switch_share_of_all": 0.0,
+      "median_profile_change": 0.044212248007739,
+      "profile_basis": "original_december"
+    }
+  ],
+  "python": "3.12.10",
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.1",
+    "igraph": "1.0.0",
+    "leidenalg": "0.12.0",
+    "duckdb": "1.5.5"
+  },
+  "outputs": {
+    "annual_profiles.parquet": "9679f8966b8228a25265d55af7d9719b51e72f16e390f40aa92052463bc0c358",
+    "annual_vs_december_partitions.csv": "215fa3fd356965ada303792a647d02e6e27bb4c577357333401597b1416a16a0",
+    "assignments.parquet": "f0d516da6d0f065f1685819dad6ba4c1c309802c47988a8fc538562f4516825d",
+    "cluster_flows.csv": "969068e0f044f5bc0e8033b2b4a6a6c7cc08d85a4ec67f7824199a04efe84f3c",
+    "membership_agreement.parquet": "aa055ccfa99f2a500860ca2f09b68d94aa8976df6d0aa960ae19e40181d3303a",
+    "original_december_support.csv": "ad787df744fb8d69c349a082b64c9eb2e908bbefeec767ca051b5433f36ded4f",
+    "protocol.json": "e938482eece0fc62424a0dd3ed2dfb82336bbf875725322854af51a40a3abee3",
+    "temporal_comparison.csv": "288cd4b16d072ebd2a00b770c7c8f31991a5b55edff3b6d306101d01d0e2aa02",
+    "temporal_summary.csv": "d6510bf76d1c7e4ec6e1da54e285b2c5dfae0f06255f97ca174b5f49e17b5e18",
+    "transitions.parquet": "b46d544deb3ad5e093f7bafad009171df1f629bc06f86ad5282196a2523115e8",
+    "variant_evidence.npz": "4a078da7b5c7bec9532ef72e4071caf38e650f7d8b24683556f2691c2a3a0a76",
+    "variant_keys.json": "45333a270922cd020373f16c19c46e17f6123c6fa759ffff0c4bdf189955f8d9",
+    "variant_robustness.csv": "8a92804b578db0471e6576327c04f073836bb0fbf795903f6dcd4a8243119526",
+    "yearly_support.csv": "babf88b6e2aa11472c1ea1738a39eb04253b4ec9c32629930a9aa3853a163302"
+  }
+}

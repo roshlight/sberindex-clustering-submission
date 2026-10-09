@@ -1,0 +1,21 @@
+{
+  "experiment_id": "consumer-profile-robustness-v1",
+  "description": "Descriptive network stability, not prediction or causal inference",
+  "feature_mode": "five_published_means_normalized_by_their_sum",
+  "development_year": "2023",
+  "evaluation_year": "2024",
+  "primary": {"geometry": "hellinger", "k": 20, "resolution": 1.0, "seed": 13},
+  "geometries": ["hellinger", "cosine"],
+  "neighbor_counts": [10, 20, 30],
+  "resolutions": [0.75, 1.0, 1.25],
+  "seeds": [13, 29, 47],
+  "baseline_clusters": 8,
+  "anchor_months": ["01", "04", "07", "10"],
+  "permutation_repeats": 25,
+  "agreement_threshold": 0.8,
+  "co_membership_threshold": 0.8,
+  "graph_symmetrization": "union_max_weight",
+  "minimum_primary_cluster_size": 20,
+  "maximum_primary_cluster_share": 0.5,
+  "notes": "Thresholds are descriptive screening rules, not calibrated probabilities or truth labels. Complete24month cohort is retrospective and is checked against the available monthly panel."
+}

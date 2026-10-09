@@ -1,0 +1,438 @@
+[
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst98/DBInet.cgi",
+    "payload": {
+      "pl": "8423005"
+    },
+    "request_key": "5847704c086e92a1cb22dd37997088171e9f7f67d8f065a0b6356da7d693430e",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst98/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-15T09:25:29.093621+00:00",
+    "raw_sha256": "fba469e1f35506b2bc89329903654a8d4f109470b2c0fd3dbb7747b407a41ed4",
+    "bytes": 47572,
+    "redirects": [],
+    "purpose": "coded_indicator_form"
+  },
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst98/DBInet.cgi",
+    "payload": {
+      "Qry": "Pokazateli:8423005;munr:98601000,98603000,98604000,98606000,98608000,98610000,98612000,98614000,98615000,98616000,98618000,98620000,98622000,98624000,98626000,98627000,98629000,98631000,98633000,98635000,98637000,98639000,98641000,98642000,98644000,98646000,98648000,98650000,98652000,98654000,98656000,98658000,98659000,98660000,98700000;tippos:10,7;oktmo:98615000;okved2:101,10000,50000,20000,30000,40000,41000,45000,49000,55000,63000,60000,68000,70000,80000,84000,85000,86000,90000,95000;god:2023,2024;period:79;",
+      "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;okved2_b:1;god_s:1;",
+      "QryFootNotes": ";",
+      "YearsList": "2023;2024;",
+      "tbl": "1",
+      "Format": "CSV",
+      "YearFrom": "2023",
+      "YearTo": "2024"
+    },
+    "request_key": "69c63c1c253187323bb30978ac1c9a1841d4e3d2f8431fd79ad77c0e1c5005df",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst98/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "application/x-csv; name=Report.csv",
+    "retrieved_at": "2026-09-15T09:28:06.570781+00:00",
+    "raw_sha256": "5d35f1a5061a26e07901133c498ffffcfc9a810ed5b0137c84c4f7fa4985cd39",
+    "bytes": 882,
+    "redirects": [],
+    "purpose": "single_municipality_sector_csv"
+  },
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst98/DBInet.cgi",
+    "payload": {
+      "pl": "8423007"
+    },
+    "request_key": "670f71a9bab56e9aed73c2d3902389443d81a85bf6efc9264e1c7acb7a0eaf07",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst98/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-15T09:28:09.684463+00:00",
+    "raw_sha256": "8854bf55e171b79700a1c136fcd08ef6a487d815008f42efff4b220d971615dd",
+    "bytes": 47665,
+    "redirects": [],
+    "purpose": "coded_indicator_form"
+  },
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst98/DBInet.cgi",
+    "payload": {
+      "Qry": "Pokazateli:8423007;munr:98601000,98603000,98604000,98606000,98608000,98610000,98612000,98614000,98615000,98616000,98618000,98620000,98622000,98624000,98626000,98627000,98629000,98631000,98633000,98635000,98637000,98639000,98641000,98642000,98644000,98646000,98648000,98650000,98652000,98654000,98656000,98658000,98659000,98660000,98700000;tippos:10,7;oktmo:98615000;okved2:101,10000,50000,20000,30000,40000,41000,45000,49000,55000,63000,60000,68000,70000,80000,84000,85000,86000,90000,95000,73000;god:2023,2024;period:79;",
+      "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;okved2_b:1;god_s:1;",
+      "QryFootNotes": ";",
+      "YearsList": "2023;2024;",
+      "tbl": "1",
+      "Format": "CSV",
+      "YearFrom": "2023",
+      "YearTo": "2024"
+    },
+    "request_key": "e0bd7b89e38c37f4e8e15792253d4ff4a39aa8671632fdce21af3da595a3ce1b",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst98/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "application/x-csv; name=Report.csv",
+    "retrieved_at": "2026-09-15T09:28:13.572614+00:00",
+    "raw_sha256": "6012a756da710f961e9927b71b19d577d8319b6aefcfa0153105bdc9bba29439",
+    "bytes": 1531,
+    "redirects": [],
+    "purpose": "single_municipality_sector_csv"
+  },
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst98/DBInet.cgi",
+    "payload": {
+      "Qry": "Pokazateli:8423005;munr:98601000,98603000,98604000,98606000,98608000,98610000,98612000,98614000,98615000,98616000,98618000,98620000,98622000,98624000,98626000,98627000,98629000,98631000,98633000,98635000,98637000,98639000,98641000,98642000,98644000,98646000,98648000,98650000,98652000,98654000,98656000,98658000,98659000,98660000,98700000;tippos:10,7;oktmo:98637000;okved2:101,10000,50000,20000,30000,40000,41000,45000,49000,55000,63000,60000,68000,70000,80000,84000,85000,86000,90000,95000;god:2023,2024;period:79;",
+      "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;okved2_b:1;god_s:1;",
+      "QryFootNotes": ";",
+      "YearsList": "2023;2024;",
+      "tbl": "1",
+      "Format": "CSV",
+      "YearFrom": "2023",
+      "YearTo": "2024"
+    },
+    "request_key": "1ffa04a299cb03b5af26c6c92a8171c0e0e66e019222483c23aa5388789a4bfb",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst98/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "application/x-csv; name=Report.csv",
+    "retrieved_at": "2026-09-15T09:25:32.953992+00:00",
+    "raw_sha256": "d19e759951ffc18353eed3de682570395d369c92205bed6166cb316b28c7955a",
+    "bytes": 879,
+    "redirects": [],
+    "purpose": "single_municipality_sector_csv"
+  },
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst98/DBInet.cgi",
+    "payload": {
+      "Qry": "Pokazateli:8423007;munr:98601000,98603000,98604000,98606000,98608000,98610000,98612000,98614000,98615000,98616000,98618000,98620000,98622000,98624000,98626000,98627000,98629000,98631000,98633000,98635000,98637000,98639000,98641000,98642000,98644000,98646000,98648000,98650000,98652000,98654000,98656000,98658000,98659000,98660000,98700000;tippos:10,7;oktmo:98637000;okved2:101,10000,50000,20000,30000,40000,41000,45000,49000,55000,63000,60000,68000,70000,80000,84000,85000,86000,90000,95000,73000;god:2023,2024;period:79;",
+      "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;okved2_b:1;god_s:1;",
+      "QryFootNotes": ";",
+      "YearsList": "2023;2024;",
+      "tbl": "1",
+      "Format": "CSV",
+      "YearFrom": "2023",
+      "YearTo": "2024"
+    },
+    "request_key": "7699627b3986f6e4dfd6cfdd30c5b7fde6f3af39f7060db888cf2e7a2788110f",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst98/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "application/x-csv; name=Report.csv",
+    "retrieved_at": "2026-09-15T09:28:16.902605+00:00",
+    "raw_sha256": "7eb27dc4969d4117f032d7fd96e1ea01b7c4e741452bf7f10683d90df6885bf6",
+    "bytes": 1617,
+    "redirects": [],
+    "purpose": "single_municipality_sector_csv"
+  },
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst10/DBInet.cgi",
+    "payload": {
+      "pl": "8423005"
+    },
+    "request_key": "61deae75ad16aecbbad9991b8302d11ca4ec6958f9aeccbd28b24a6992bfaefc",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst10/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-15T09:28:21.067478+00:00",
+    "raw_sha256": "81f6404d2c21a4dc41544420b072274989bc63a043d8aa058b47c39db625a55a",
+    "bytes": 48258,
+    "redirects": [],
+    "purpose": "coded_indicator_form"
+  },
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst10/DBInet.cgi",
+    "payload": {
+      "Qry": "Pokazateli:8423005;munr:10605000,10608000,10611000,10615000,10621000,10625000,10628000,10630000,10631000,10632000,10635000,10638000,10640000,10642000,10645000,10647000,10649000,10651000,10654000,10655000,10700000,10540000,10508000,10515000,10521000,10528000,10554000,10505000,10511000,10555000,10547000,10549000,10551000,10525000,10531000,10532000,10535000,10538000;tippos:10,7,20;oktmo:10642000;okved2:101,10000,50000,20000,30000,40000,45000,55000,63000,41000,60000,68000,70000,84000,80000,86000,90000,95000,49000,85000;god:2023,2024;period:79;",
+      "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;okved2_b:1;god_s:1;",
+      "QryFootNotes": ";",
+      "YearsList": "2023;2024;",
+      "tbl": "1",
+      "Format": "CSV",
+      "YearFrom": "2023",
+      "YearTo": "2024"
+    },
+    "request_key": "f0a4d3a45db64597c093d24de8cc68a34720f50bee171da2a98c7d67174e5d1f",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst10/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "application/x-csv; name=Report.csv",
+    "retrieved_at": "2026-09-15T09:28:25.158159+00:00",
+    "raw_sha256": "836387f84c2911be60d7f5684da6efead8bca7b7e16d7e69eb6d285c923106f2",
+    "bytes": 1128,
+    "redirects": [],
+    "purpose": "single_municipality_sector_csv"
+  },
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst10/DBInet.cgi",
+    "payload": {
+      "pl": "8423007"
+    },
+    "request_key": "4c4bb15766a85c16d2b90c18e33f7da91911012e29e165dddfca35eb195848a8",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst10/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-15T09:28:28.299660+00:00",
+    "raw_sha256": "d0a892311bcb9216b615fef81c666761f133f0d17d638c08f212e822337e214e",
+    "bytes": 48262,
+    "redirects": [],
+    "purpose": "coded_indicator_form"
+  },
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst10/DBInet.cgi",
+    "payload": {
+      "Qry": "Pokazateli:8423007;munr:10605000,10608000,10611000,10615000,10621000,10625000,10628000,10630000,10631000,10632000,10635000,10638000,10640000,10642000,10645000,10647000,10649000,10651000,10654000,10655000,10700000,10540000,10508000,10515000,10521000,10528000,10554000,10505000,10511000,10555000,10547000,10549000,10551000,10525000,10531000,10532000,10535000,10538000;tippos:10,7,20;oktmo:10642000;okved2:101,10000,50000,20000,30000,40000,45000,55000,63000,41000,60000,68000,70000,84000,80000,86000,90000,95000,49000,85000;god:2023,2024;period:79;",
+      "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;okved2_b:1;god_s:1;",
+      "QryFootNotes": ";",
+      "YearsList": "2023;2024;",
+      "tbl": "1",
+      "Format": "CSV",
+      "YearFrom": "2023",
+      "YearTo": "2024"
+    },
+    "request_key": "e6ced59189470a89d8e835c35a261e33af6fdab189b28affc01f2e6ee7fe74d2",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst10/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "application/x-csv; name=Report.csv",
+    "retrieved_at": "2026-09-15T09:28:32.176916+00:00",
+    "raw_sha256": "8c588329b7638a2167fef6916d295120056ef5276f058749c3365246b80874ad",
+    "bytes": 1510,
+    "redirects": [],
+    "purpose": "single_municipality_sector_csv"
+  },
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst12/DBInet.cgi",
+    "payload": {
+      "pl": "8423005"
+    },
+    "request_key": "e18d1777759aeb18531259011e7d8a8a8a105c4d9f8e9252d23825461581d1e3",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst12/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-15T09:28:36.573518+00:00",
+    "raw_sha256": "e9f01e2881ef70e79ee69ec94b58b1431f217e02ed8942c047829fd8c5df506e",
+    "bytes": 45071,
+    "redirects": [],
+    "purpose": "coded_indicator_form"
+  },
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst12/DBInet.cgi",
+    "payload": {
+      "Qry": "Pokazateli:8423005;munr:12605000,12610000,12615000,12620000,12625000,12630000,12635000,12640000,12642000,12645000,12650000,12700000,12515000,12530000,12535000,12550000;tippos:10,20,7;oktmo:12630000;okved2:101,10000,50000,20000,30000,40000,41000,45000,49000,55000,63000,60000,68000,70000,80000,84000,85000,86000,90000,95000;god:2023,2024;period:79;",
+      "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;okved2_b:1;god_s:1;",
+      "QryFootNotes": ";",
+      "YearsList": "2023;2024;",
+      "tbl": "1",
+      "Format": "CSV",
+      "YearFrom": "2023",
+      "YearTo": "2024"
+    },
+    "request_key": "d04bf00b8cd91225642835a69f0945c1d4ba7ea8aab9133d4bcfc9dc7ac6f3db",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst12/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "application/x-csv; name=Report.csv",
+    "retrieved_at": "2026-09-15T09:28:40.278550+00:00",
+    "raw_sha256": "08eba59e741707b7aac560c26467ba616148b92f8ab489505e0f75944ee950f2",
+    "bytes": 1465,
+    "redirects": [],
+    "purpose": "single_municipality_sector_csv"
+  },
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst12/DBInet.cgi",
+    "payload": {
+      "pl": "8423007"
+    },
+    "request_key": "977717beb5573f3c2c8f7be47d5137d2f754cc42c4bb10f1af174c223e7dbc54",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst12/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-15T09:28:43.373137+00:00",
+    "raw_sha256": "a8ddddbe62850b0e3cc54c252b4a0551bad74468d883cf941271a80b0c70a76d",
+    "bytes": 45073,
+    "redirects": [],
+    "purpose": "coded_indicator_form"
+  },
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst12/DBInet.cgi",
+    "payload": {
+      "Qry": "Pokazateli:8423007;munr:12605000,12610000,12615000,12620000,12625000,12630000,12635000,12640000,12642000,12645000,12650000,12700000,12515000,12530000,12535000,12550000;tippos:10,20,7;oktmo:12630000;okved2:101,10000,50000,20000,30000,40000,41000,45000,49000,55000,63000,60000,68000,70000,80000,84000,85000,86000,90000,95000;god:2023,2024;period:79;",
+      "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;okved2_b:1;god_s:1;",
+      "QryFootNotes": ";",
+      "YearsList": "2023;2024;",
+      "tbl": "1",
+      "Format": "CSV",
+      "YearFrom": "2023",
+      "YearTo": "2024"
+    },
+    "request_key": "fd3fdd0a9ec0e32ff6634240ecabba0908c52cd9a3d33c1e43997c6721078e31",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst12/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "application/x-csv; name=Report.csv",
+    "retrieved_at": "2026-09-15T09:28:46.822436+00:00",
+    "raw_sha256": "1c872cceaaf46844e63f9d502425bb70fd6abe8d3e78cee6e61bcae1171d2969",
+    "bytes": 1793,
+    "redirects": [],
+    "purpose": "single_municipality_sector_csv"
+  },
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst27/DBInet.cgi",
+    "payload": {
+      "pl": "8423005"
+    },
+    "request_key": "39b4bc68cfc3292605f4cae82054c5994b0df48f6bcc5b57ad1a5687f7202fd3",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst27/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-15T09:28:50.769104+00:00",
+    "raw_sha256": "62b27d8ee84180213b15d38893505960e592580582ba58e3a23ab6f8127dd786",
+    "bytes": 44690,
+    "redirects": [],
+    "purpose": "coded_indicator_form"
+  },
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst27/DBInet.cgi",
+    "payload": {
+      "Qry": "Pokazateli:8423005;munr:27700000,27500000,27600000;tippos:7,20,10;oktmo:27725000;okved2:101,10000,50000,20000,30000,40000,41000,45000,49000,55000,63000,60000,68000,70000,80000,84000,85000,86000,90000,95000;god:2023,2024;period:79;",
+      "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;okved2_b:1;god_s:1;",
+      "QryFootNotes": ";",
+      "YearsList": "2023;2024;",
+      "tbl": "1",
+      "Format": "CSV",
+      "YearFrom": "2023",
+      "YearTo": "2024"
+    },
+    "request_key": "2831b48389fef1fad86bdfdd1d6f28628b3c3cc9f96d90c292b366e2d7295dd9",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst27/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "application/x-csv; name=Report.csv",
+    "retrieved_at": "2026-09-15T09:28:53.977664+00:00",
+    "raw_sha256": "32c6d158c0640e541c5ba8ae456ecc8a01a9cfe728e0de68cea3f09dc528290c",
+    "bytes": 1107,
+    "redirects": [],
+    "purpose": "single_municipality_sector_csv"
+  },
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst27/DBInet.cgi",
+    "payload": {
+      "pl": "8423007"
+    },
+    "request_key": "e6937915fe92be87862001a06d8db3a78868c29de3b5dfe2a04c42df21e80b11",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst27/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-15T09:28:57.071226+00:00",
+    "raw_sha256": "bb1847971b9973a99c9baff53d9e9dbd965005f031587b4292d4c48a8a706063",
+    "bytes": 44693,
+    "redirects": [],
+    "purpose": "coded_indicator_form"
+  },
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst27/DBInet.cgi",
+    "payload": {
+      "Qry": "Pokazateli:8423007;munr:27700000,27500000,27600000;tippos:7,20,10;oktmo:27725000;okved2:101,10000,50000,20000,30000,40000,41000,45000,49000,55000,63000,60000,68000,70000,80000,84000,85000,86000,90000,95000;god:2023,2024;period:79;",
+      "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;okved2_b:1;god_s:1;",
+      "QryFootNotes": ";",
+      "YearsList": "2023;2024;",
+      "tbl": "1",
+      "Format": "CSV",
+      "YearFrom": "2023",
+      "YearTo": "2024"
+    },
+    "request_key": "089a69a009609101cc432e59d576bcba3d193da7ab9dde8e4277295e0fa800a6",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst27/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "application/x-csv; name=Report.csv",
+    "retrieved_at": "2026-09-15T09:29:00.235743+00:00",
+    "raw_sha256": "edf0097b814a5f1dcf51fdef966bd83aad947f8d20b2c7d0c094c3e8c87257ad",
+    "bytes": 1530,
+    "redirects": [],
+    "purpose": "single_municipality_sector_csv"
+  },
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst45/DBInet.cgi",
+    "payload": {
+      "pl": "8423005"
+    },
+    "request_key": "21549ba8c0134ec045865721f764f787dd63a67241e4d7701a329f8607d4ae24",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst45/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-15T09:29:04.487090+00:00",
+    "raw_sha256": "78bae69b1faa46d6b47ff3f83724c9984e2ca730abb58c279f09c8d5bdd2b878",
+    "bytes": 50298,
+    "redirects": [],
+    "purpose": "coded_indicator_form"
+  },
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst45/DBInet.cgi",
+    "payload": {
+      "Qry": "Pokazateli:8423005;munr:45000000;tippos:3;oktmo:45366000;okved2:101,10000,49000,50000,20000,30000,40000,41000,45000,55000,63000,60000,68000,70000,80000,84000,85000,86000,90000,95000,73000;god:2023,2024;period:79;",
+      "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;okved2_b:1;god_s:1;",
+      "QryFootNotes": ";",
+      "YearsList": "2023;2024;",
+      "tbl": "1",
+      "Format": "CSV",
+      "YearFrom": "2023",
+      "YearTo": "2024"
+    },
+    "request_key": "b83a4f77793642b637200ae1f7b206e43ae909de766acba66f264e423a2d7a57",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst45/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "application/x-csv; name=Report.csv",
+    "retrieved_at": "2026-09-15T09:29:07.663956+00:00",
+    "raw_sha256": "5e0c64cf3ade8a6ca8647cde2a0261cd7e2298d448556086ab1323d4fda18b74",
+    "bytes": 963,
+    "redirects": [],
+    "purpose": "single_municipality_sector_csv"
+  },
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst45/DBInet.cgi",
+    "payload": {
+      "pl": "8423007"
+    },
+    "request_key": "c0759e7fb567237376631921b5e9ebfd64b90730a8382c420fe1476a4e62b3fa",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst45/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-15T09:29:10.761956+00:00",
+    "raw_sha256": "017fcb49f7576140321bbc59af60532a298cec02f83317ea4446d5b36166c3dd",
+    "bytes": 50300,
+    "redirects": [],
+    "purpose": "coded_indicator_form"
+  },
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst45/DBInet.cgi",
+    "payload": {
+      "Qry": "Pokazateli:8423007;munr:45000000;tippos:3;oktmo:45366000;okved2:101,10000,49000,50000,20000,30000,40000,41000,45000,55000,63000,60000,68000,70000,80000,84000,85000,86000,90000,95000,73000;god:2023,2024;period:79;",
+      "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;okved2_b:1;god_s:1;",
+      "QryFootNotes": ";",
+      "YearsList": "2023;2024;",
+      "tbl": "1",
+      "Format": "CSV",
+      "YearFrom": "2023",
+      "YearTo": "2024"
+    },
+    "request_key": "aaa2ee4a82ada78f8f44bcb34e275d59b6a6f456646fd49c887925f3ccaa23d7",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst45/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "application/x-csv; name=Report.csv",
+    "retrieved_at": "2026-09-15T09:29:13.814197+00:00",
+    "raw_sha256": "48486680f5ff61891534d578f03aebfb99f177d0f415179f404776246ff6df13",
+    "bytes": 1417,
+    "redirects": [],
+    "purpose": "single_municipality_sector_csv"
+  }
+]

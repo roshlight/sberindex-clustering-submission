@@ -1,0 +1,13 @@
+year,sample,regime,seed,n,exact_prior_folds
+2023,core,within_region,13,1975,True
+2023,core,within_region,29,1975,True
+2023,core,within_region,47,1975,True
+2023,core,heldout_regions,13,1975,True
+2023,stable_code,within_region,13,1897,True
+2023,stable_code,heldout_regions,13,1897,True
+2024,core,within_region,13,1998,True
+2024,core,within_region,29,1998,True
+2024,core,within_region,47,1998,True
+2024,core,heldout_regions,13,1998,True
+2024,stable_code,within_region,13,1930,True
+2024,stable_code,heldout_regions,13,1930,True

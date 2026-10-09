@@ -1,0 +1,23 @@
+{
+  "offline_replay_status": "PASS",
+  "identical_generated_files": {
+    "source_inventory.json": true,
+    "summary.json": true,
+    "evidence_ledger.csv": true,
+    "rounding_comparison.csv": true,
+    "publication_version_comparison.csv": true,
+    "case_review_status.csv": true,
+    "raw_allowlist.json": true,
+    "QA.json": true,
+    "manifest.json": true
+  },
+  "test_count": 10,
+  "tests_status": "PASS",
+  "ruff_check": "PASS",
+  "ruff_format_check": "PASS",
+  "fresh_search_batches_recorded": 8,
+  "fresh_search_queries_recorded": 28,
+  "script_sha256": "be316cb6ef6be5d107c7fceedb415be75ada0c12ddd77e8830ccfdd98c32bd8b",
+  "manifest_sha256": "ed58b28fcbd859f677b4c61f99753f4c57f1a06c70a5907999587a0e25d4df49",
+  "frozen_parent_sha256_unchanged": true
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "source_and_output_hashes": true,
+  "annual_mean_reconciled": true,
+  "support_cells_independently_recomputed": 84672,
+  "paired_variant_switches_independently_recomputed": 42336,
+  "n_common": 2016,
+  "raw_primary_switches": 1093,
+  "robust_primary_switches": 0,
+  "max_pair_reproduction_fraction": 0.14285714285714285,
+  "qa_method": "separate Counter peer-overlap and Hungarian implementations; same agent",
+  "verifier_sha256": "f11dd079d3a6bd60e4144d36f7d57372b1dcd3de8687022cd8bdbab91b1b5f7b"
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/inputs/calendar_priority_6.csv",
+    "archive_path": "work/data-round3/geography/inputs/calendar_priority_6.csv"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/inputs/reviewed_evidence.json",
+    "archive_path": "work/data-round3/geography/inputs/reviewed_evidence.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/inputs/sources.json",
+    "archive_path": "work/data-round3/geography/inputs/sources.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/raw/karelia_2837.pdf",
+    "archive_path": "work/data-round3/geography/raw/karelia_2837.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/raw/karelia_2837_publication.html",
+    "archive_path": "work/data-round3/geography/raw/karelia_2837_publication.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/raw/karelia_2838.pdf",
+    "archive_path": "work/data-round3/geography/raw/karelia_2838.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/raw/karelia_2838_publication.html",
+    "archive_path": "work/data-round3/geography/raw/karelia_2838_publication.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/raw/karelia_2839.pdf",
+    "archive_path": "work/data-round3/geography/raw/karelia_2839.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/raw/karelia_2839_publication.html",
+    "archive_path": "work/data-round3/geography/raw/karelia_2839_publication.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/raw/karelia_2841.pdf",
+    "archive_path": "work/data-round3/geography/raw/karelia_2841.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/raw/karelia_2841_publication.html",
+    "archive_path": "work/data-round3/geography/raw/karelia_2841_publication.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/raw/karelia_2841_search.html",
+    "archive_path": "work/data-round3/geography/raw/karelia_2841_search.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/raw/pravo_search.html",
+    "archive_path": "work/data-round3/geography/raw/pravo_search.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/raw/reused/data-20230112T1301-structure-20260210T1102.csv",
+    "archive_path": "work/data-round3/geography/raw/reused/data-20230112T1301-structure-20260210T1102.csv"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/raw/reused/data-20240125T1401-structure-20260210T1102.csv",
+    "archive_path": "work/data-round3/geography/raw/reused/data-20240125T1401-structure-20260210T1102.csv"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/raw/reused/fns_19514000_web_tool_text.txt",
+    "archive_path": "work/data-round3/geography/raw/reused/fns_19514000_web_tool_text.txt"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/raw/reused/gost_change_586_2022.html",
+    "archive_path": "work/data-round3/geography/raw/reused/gost_change_586_2022.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/raw/reused/gost_change_593_2022.html",
+    "archive_path": "work/data-round3/geography/raw/reused/gost_change_593_2022.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/raw/reused/gost_change_594_2022.html",
+    "archive_path": "work/data-round3/geography/raw/reused/gost_change_594_2022.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/raw/reused/gost_change_598_2023.html",
+    "archive_path": "work/data-round3/geography/raw/reused/gost_change_598_2023.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/raw/reused/gost_change_600_2023.html",
+    "archive_path": "work/data-round3/geography/raw/reused/gost_change_600_2023.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/raw/reused/karelia_laws_2023_04.pdf",
+    "archive_path": "work/data-round3/geography/raw/reused/karelia_laws_2023_04.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/raw/reused/oktmo_change_634_2023_1.docx",
+    "archive_path": "work/data-round3/geography/raw/reused/oktmo_change_634_2023_1.docx"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/raw/vologda_5115.pdf",
+    "archive_path": "work/data-round3/geography/raw/vologda_5115.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/raw/vologda_5115_publication.html",
+    "archive_path": "work/data-round3/geography/raw/vologda_5115_publication.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/raw/vologda_5115_search.html",
+    "archive_path": "work/data-round3/geography/raw/vologda_5115_search.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/retrievals.json",
+    "archive_path": "work/data-round3/geography/retrievals.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/retrievals_additional.json",
+    "archive_path": "work/data-round3/geography/retrievals_additional.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/retrievals_pdf.json",
+    "archive_path": "work/data-round3/geography/retrievals_pdf.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/retrievals_search.json",
+    "archive_path": "work/data-round3/geography/retrievals_search.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/search_log.json",
+    "archive_path": "work/data-round3/geography/search_log.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/search_log_additional.json",
+    "archive_path": "work/data-round3/geography/search_log_additional.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/search_log_date_check.json",
+    "archive_path": "work/data-round3/geography/search_log_date_check.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/server_retrievals.json",
+    "archive_path": "work/data-round3/geography/server_retrievals.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/server_retrievals_pdf.json",
+    "archive_path": "work/data-round3/geography/server_retrievals_pdf.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round3/geography/text/ocr_pages.json",
+    "archive_path": "work/data-round3/geography/text/ocr_pages.json"
+  }
+]

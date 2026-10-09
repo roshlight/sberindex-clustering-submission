@@ -1,0 +1,51 @@
+{
+  "script_sha256": "fab88f68f48f702d8ebd61c1b0f36a53bba69e704a5b7af0eeac43c6d8d7b869",
+  "lock_sha256": "0a6a3b3051ad89b3aebc2a673966f0d67c4601453f9c386e924de7065bbca6f4",
+  "input_files": {
+    "frozen_panel": {
+      "repo_path": "reports/enriched_analysis/core_v2/annual_panel.csv",
+      "sha256": "0e44e34b94c51aeb429615ec9a0e8127def140a6f414afa75e255e00cb4f8190"
+    },
+    "economy_csv": {
+      "repo_path": "reports/data_round3/economy/annual_candidate_panel.csv",
+      "sha256": "6660b05f061eb699fdb23c29e41fc2435ae56ffcb291cd519f6ff24f93f71e37"
+    },
+    "economy_parquet": {
+      "repo_path": "reports/data_round3/economy/annual_candidate_panel.parquet",
+      "sha256": "6d3533cd29444e173e51891233c9b1953a337e1760e55e2b3bda344a9e1359d8"
+    },
+    "source_cells": {
+      "repo_path": "reports/data_round3/economy/source_cells.csv",
+      "sha256": "68100741506b02d12ea90f0aa442f408e10574c26ebea5020f06e3745e53c99a"
+    },
+    "source_only": {
+      "repo_path": "reports/data_round3/economy/source_cells_outside_year_link.csv",
+      "sha256": "67565e059d71988c87cf76f459223519f9088767da586c21e08f3f74151eec35"
+    },
+    "collection_status": {
+      "repo_path": "reports/data_round3/economy/collection_status.json",
+      "sha256": "5c5869df4d3db2fca7daaea8887c0e28d1cee1d5d8ec184919cf3d32b2b88b6d"
+    },
+    "sector": {
+      "repo_path": "reports/round2_analysis/sector/feature_panel.csv",
+      "sha256": "b8d11bd3ae22d73beb29b8c558782bbcff484502a6d7c453066cb56be4f63d48"
+    }
+  },
+  "output_hashes": {
+    "annual_features.csv": "3ce5ec4410384d5729551a1bd5739ec041574b74f0268c15eb1e652640cae149",
+    "annual_features.parquet": "70a096199139260fd546aff7ea58e705300c3a204c8567a5a3fa9d71fe300f76",
+    "collection_refusals.csv": "cd435c0569a4410048c83794422a261bda78e2d5dcdd5242402e2f81e0740836",
+    "coverage.csv": "99ac9ce8ff70b9eefc60340b267cdd9420d4c1fc49005c794d0fbf23593fd44b",
+    "coverage_by_population.csv": "171c5d84163f035af9054956665e6ebd10afaafcef50aff1a0565b451ae3dd99",
+    "coverage_by_region.csv": "c13667b0a28911f548d1f945914565144ef4b29e918adbb62157f3272dd96188",
+    "coverage_by_type.csv": "a77f71cf00dc30ef8de12651cc40e734bf09ae8b475dc16d9c9f5fd0f5a7af11",
+    "feature_dictionary.json": "4f6be9e3ba932ec8efbcc70d2dc6aa733153191d7581568756c472ba50fa449b",
+    "historical_source_only_29.csv": "02d410529a64658169cfada1e682f9d2700224be9cb86449ed60cd453cb685d4",
+    "joint_coverage.csv": "ad6fff1b12aa371e2a8d02b975a5e6e36e872cdcc6718dbce3e8c34a6bcccf51",
+    "missingness_patterns.csv": "df9179b67ea914199027022041be82cf3ebecc40aabf567878e247633a8f8a39",
+    "QA.json": "292fd8944a385f5eba998f8fcfd6325d8b0441c8f98fb32f915a92671aef55bf",
+    "README.md": "a5ff130e6433b0b2406e92c9e11a8973998e2a52c32f07de1dc712c04f656796",
+    "replay_QA.json": "b402a43e201c6938c7551e121302b8daaa5c4cfb34af0e817f67626fdceaeac5",
+    "unavailable_indicator_rows.csv": "df240cc161a418a4c1db0d372475d8c0375c7395adcd9a70988eaca9c736f4f4"
+  }
+}

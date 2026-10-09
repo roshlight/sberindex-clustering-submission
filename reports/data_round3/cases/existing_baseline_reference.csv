@@ -1,0 +1,7 @@
+﻿territory_id,year,municipal_district_name,workers,wage,source_sha256,source_path
+883,2023,Свободненский муниципальный район,6285.0,186125.9,0e44e34b94c51aeb429615ec9a0e8127def140a6f414afa75e255e00cb4f8190,reports/enriched_analysis/core_v2/annual_panel.csv
+1180,2023,городской округ Светловский,5396.0,86483.2,0e44e34b94c51aeb429615ec9a0e8127def140a6f414afa75e255e00cb4f8190,reports/enriched_analysis/core_v2/annual_panel.csv
+2527,2023,внутригородская территория города федерального значения муниципальный округ Куркино,3812.0,107615.1,0e44e34b94c51aeb429615ec9a0e8127def140a6f414afa75e255e00cb4f8190,reports/enriched_analysis/core_v2/annual_panel.csv
+883,2024,Свободненский муниципальный район,8927.0,227512.1,0e44e34b94c51aeb429615ec9a0e8127def140a6f414afa75e255e00cb4f8190,reports/enriched_analysis/core_v2/annual_panel.csv
+1180,2024,городской округ Светловский,6455.0,105631.8,0e44e34b94c51aeb429615ec9a0e8127def140a6f414afa75e255e00cb4f8190,reports/enriched_analysis/core_v2/annual_panel.csv
+2527,2024,внутригородская территория города федерального значения муниципальный округ Куркино,3349.0,125392.2,0e44e34b94c51aeb429615ec9a0e8127def140a6f414afa75e255e00cb4f8190,reports/enriched_analysis/core_v2/annual_panel.csv

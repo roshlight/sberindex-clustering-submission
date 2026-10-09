@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "frozen_source_replay": true,
+  "network_used": false,
+  "replayed_outputs": 9,
+  "checks": [
+    {
+      "path": "claim_evidence_matrix.csv",
+      "exact_replay_match": true
+    },
+    {
+      "path": "geography_evidence_decisions.csv",
+      "exact_replay_match": true
+    },
+    {
+      "path": "investment_2023_2024_exact_prior.csv",
+      "exact_replay_match": true
+    },
+    {
+      "path": "investment_longer_comparisons.csv",
+      "exact_replay_match": true
+    },
+    {
+      "path": "investment_paths.csv",
+      "exact_replay_match": true
+    },
+    {
+      "path": "QA.json",
+      "exact_replay_match": true
+    },
+    {
+      "path": "sme_construction_routes.csv",
+      "exact_replay_match": true
+    },
+    {
+      "path": "sme_entity_eligibility.csv",
+      "exact_replay_match": true
+    },
+    {
+      "path": "sme_worker_observation_by_primary_nace2.csv",
+      "exact_replay_match": true
+    }
+  ],
+  "script_sha256": "16fcace2cf2c34724db8fd1d397416ba2a19b477016c5df91e9904d8b5633f32",
+  "semantic_tests_passed": 8,
+  "humanizer_final_prose_review": "facts_numbers_limits_preserved"
+}

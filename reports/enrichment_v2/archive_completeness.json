@@ -1,0 +1,118 @@
+{
+  "status": "PASS",
+  "created_at_utc": "2026-09-14T22:19:45.995073+00:00",
+  "scope": "Source SHA256 membership against completed archive catalogs, checked against internal manifests and ZIP directory sizes. Full payload CRC/SHA checks were previously completed and are not repeated here.",
+  "archive_catalogs": [
+    {
+      "asset": "server-population-snapshots.zip",
+      "archived_files": 5864,
+      "catalog": "server-file-catalog.json",
+      "catalog_sha256": "f2d7b7f14b94443994854d8ed528f2f7f7270dd10f1f663e77f219a7c637c8c2",
+      "catalog_matches_internal_manifest": "PASS",
+      "member_names_and_declared_sizes": "PASS",
+      "repository_catalog_sha256": "f2d7b7f14b94443994854d8ed528f2f7f7270dd10f1f663e77f219a7c637c8c2",
+      "catalog_sha256_scope": "Exact external sidecar bytes used by independent audit; equivalent catalog content is included inside the archive.",
+      "internal_manifest_sha256": "f2d7b7f14b94443994854d8ed528f2f7f7270dd10f1f663e77f219a7c637c8c2"
+    },
+    {
+      "asset": "local-source-snapshots.zip",
+      "archived_files": 82,
+      "catalog": "local-file-catalog.json",
+      "catalog_sha256": "213126b1965de0c1493e016a2cc2c821aa20582130b12975e4bf736cf4368f83",
+      "catalog_matches_internal_manifest": "PASS",
+      "member_names_and_declared_sizes": "PASS",
+      "repository_catalog_sha256": "6e220cbe3e0c1d834de73d4e43c0457fc59a298d8d22acfa21fa68b915718716",
+      "catalog_sha256_scope": "Exact external sidecar bytes used by independent audit; equivalent catalog content is included inside the archive.",
+      "repository_catalog_formatting": "Git-normalized LF; JSON content unchanged.",
+      "internal_manifest_sha256": "7a1a9accb38e4157a58547bac9994732223bd8b0c2531fab687a11494d53a299"
+    }
+  ],
+  "totals": {
+    "archive_source_entries": 5946,
+    "required_unique_source_sha256": 256,
+    "exact_bytes_hashes_present": 256,
+    "explicitly_normalized_metadata_hashes_present": 0,
+    "missing_unique_sha256": 0,
+    "invalid_reference_hashes": 0
+  },
+  "groups": {
+    "population_source": {
+      "source_manifest": "outputs/municipal-economic-profiles/reports/enrichment_v2/population_source/population_source.csv",
+      "source_manifest_sha256": "e0675fc634937cb8e856ea1891709152303ba69c3fe3a80bb6876884d2ade895",
+      "rows_or_records": 7157,
+      "nonempty_hash_references": 7157,
+      "unique_required_sha256": 174,
+      "exact_bytes_hashes_present": 174,
+      "explicitly_normalized_metadata_hashes_present": 0,
+      "missing_sha256": [],
+      "invalid_hashes": [],
+      "normalization_matches": [],
+      "raw_bodies_require_exact_bytes": true
+    },
+    "discovery_successful_raw_sources": {
+      "source_manifest": "outputs/municipal-economic-profiles/reports/enrichment_v2/discovery/source_inventory.csv",
+      "source_manifest_sha256": "c069b9d165ed960af5a770fef196ad9052dc8551d9cfe64ac41365015dee78b6",
+      "rows_or_records": 30,
+      "nonempty_hash_references": 30,
+      "unique_required_sha256": 29,
+      "exact_bytes_hashes_present": 29,
+      "explicitly_normalized_metadata_hashes_present": 0,
+      "missing_sha256": [],
+      "invalid_hashes": [],
+      "normalization_matches": [],
+      "raw_bodies_require_exact_bytes": true,
+      "inventory_rows_total": 31,
+      "successful_records": 30
+    },
+    "code_bridge_sources_all": {
+      "source_manifest": "outputs/municipal-economic-profiles/reports/enrichment_v2/code_bridge_sources.json",
+      "source_manifest_sha256": "be9c24bc1d664a093b1dc8f7f55f962bc1555f198d78a112e8562ece6f645c74",
+      "rows_or_records": 19,
+      "nonempty_hash_references": 19,
+      "unique_required_sha256": 19,
+      "exact_bytes_hashes_present": 19,
+      "explicitly_normalized_metadata_hashes_present": 0,
+      "missing_sha256": [],
+      "invalid_hashes": [],
+      "normalization_matches": [],
+      "raw_bodies_require_exact_bytes": false,
+      "historical_registry_csv_records": 6
+    },
+    "population_caption_review_source_files": {
+      "source_manifest": "outputs/municipal-economic-profiles/reports/enrichment_v2/population_caption_review/evidence_manifest.json",
+      "source_manifest_sha256": "7c90bccd2736627af76e1839e3bfc4dbe4aebceb0c7390b93fc74c48c3f4c501",
+      "rows_or_records": 34,
+      "nonempty_hash_references": 34,
+      "unique_required_sha256": 34,
+      "exact_bytes_hashes_present": 34,
+      "explicitly_normalized_metadata_hashes_present": 0,
+      "missing_sha256": [],
+      "invalid_hashes": [],
+      "normalization_matches": [],
+      "raw_bodies_require_exact_bytes": false
+    },
+    "population_caption_review_registry_sources": {
+      "source_manifest": "outputs/municipal-economic-profiles/reports/enrichment_v2/population_caption_review/evidence_manifest.json",
+      "source_manifest_sha256": "7c90bccd2736627af76e1839e3bfc4dbe4aebceb0c7390b93fc74c48c3f4c501",
+      "rows_or_records": 4,
+      "nonempty_hash_references": 4,
+      "unique_required_sha256": 4,
+      "exact_bytes_hashes_present": 4,
+      "explicitly_normalized_metadata_hashes_present": 0,
+      "missing_sha256": [],
+      "invalid_hashes": [],
+      "normalization_matches": [],
+      "raw_bodies_require_exact_bytes": false
+    }
+  },
+  "exceptions": [],
+  "normalization_rule": "original_sha256 accepted only for declared normalize_generated_service_paths JSON metadata with original_bytes; raw source bodies require exact SHA256. Normalized metadata does not mean original bytes were archived.",
+  "unsupported_transformed_archive_entries": [],
+  "normalized_required_metadata": [],
+  "not_run": [
+    "Repeated archive SHA256",
+    "Repeated payload CRC/SHA256 across5946 entries",
+    "Network requests",
+    "Model calls"
+  ]
+}

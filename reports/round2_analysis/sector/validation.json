@@ -1,0 +1,24 @@
+{
+  "status": "PASS_WITH_SOURCE_LIMITATIONS",
+  "pytest": {
+    "tests": 11,
+    "passed": 11,
+    "command": "uv run --frozen pytest tests/test_round2_sector_analysis.py -q"
+  },
+  "ruff_check": "PASS",
+  "ruff_format_check": "PASS",
+  "initial_feature_numeric_values_and_frozen_flags_unchanged": true,
+  "metadata_correction": "observed_sum_exceeds_official_total: missing ratio now NULL in19rows, not False",
+  "raw_example_check": {
+    "cells": 24,
+    "distinct_sha256": 5,
+    "status": "PASS"
+  },
+  "output_hashes_verified": true,
+  "input_hashes_verified": true,
+  "script_hash_verified": true,
+  "humanizer": "Embedded prose-only final pass; numerical claims and technical literals preserved",
+  "no_models_no_network_no_source_mutation": true,
+  "test_script_sha256": "6194c9c5c0eb7d2a9cb367d3d81a740007a1e5be06b7a8829c52ab26be2a8955",
+  "canonical_feature_panel_sha256": "b8d11bd3ae22d73beb29b8c558782bbcff484502a6d7c453066cb56be4f63d48"
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "root": "work",
+    "path": "data-round5/geography/catalog.retrieval.json",
+    "archive_path": "work/data-round5/geography/catalog.retrieval.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/geography/downloads/catalog.html",
+    "archive_path": "work/data-round5/geography/downloads/catalog.html"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/geography/downloads/registry_2026-06-01.csv",
+    "archive_path": "work/data-round5/geography/downloads/registry_2026-06-01.csv"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/geography/downloads/registry_2026-07-01.csv",
+    "archive_path": "work/data-round5/geography/downloads/registry_2026-07-01.csv"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/geography/downloads/retrievals.json",
+    "archive_path": "work/data-round5/geography/downloads/retrievals.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/geography/registry_2026-06-01.retrieval.json",
+    "archive_path": "work/data-round5/geography/registry_2026-06-01.retrieval.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/geography/registry_2026-07-01.retrieval.json",
+    "archive_path": "work/data-round5/geography/registry_2026-07-01.retrieval.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/geography/reused/data-20230208T0902-structure-20260210T1102.csv",
+    "archive_path": "work/data-round5/geography/reused/data-20230208T0902-structure-20260210T1102.csv"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/geography/reused/data-20230208T0902-structure-20260210T1102.csv.download.json",
+    "archive_path": "work/data-round5/geography/reused/data-20230208T0902-structure-20260210T1102.csv.download.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/geography/reused/data-20231219T1512-structure-20260210T1102.csv",
+    "archive_path": "work/data-round5/geography/reused/data-20231219T1512-structure-20260210T1102.csv"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/geography/reused/data-20231219T1512-structure-20260210T1102.csv.download.json",
+    "archive_path": "work/data-round5/geography/reused/data-20231219T1512-structure-20260210T1102.csv.download.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/geography/reused/data-20240125T1401-structure-20260210T1102.csv",
+    "archive_path": "work/data-round5/geography/reused/data-20240125T1401-structure-20260210T1102.csv"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/geography/reused/data-20240125T1401-structure-20260210T1102.csv.download.json",
+    "archive_path": "work/data-round5/geography/reused/data-20240125T1401-structure-20260210T1102.csv.download.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/geography/reused/data-20241227T1412-structure-20260210T1102.csv",
+    "archive_path": "work/data-round5/geography/reused/data-20241227T1412-structure-20260210T1102.csv"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/geography/reused/data-20241227T1412-structure-20260210T1102.csv.download.json",
+    "archive_path": "work/data-round5/geography/reused/data-20241227T1412-structure-20260210T1102.csv.download.json"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "archive": "data-round5-economy.zip",
+  "archive_sha256": "9e81f298948ed76c3a41bf2611b022e8e103fa2dd493ca35a67a3edb4ea18002",
+  "archive_bytes": 748399,
+  "verified_files": 195,
+  "uncompressed_bytes": 4445871,
+  "allowlist_sha256": "0d50d5b8fe5866b084a4e1ea3ed34c1c62398a266248a7ceb0a7648f47c3c510",
+  "packager_sha256": "233f9ce509bb7466b86d4a807d485189a1616a563c161027ff53056ea3a8ef1d",
+  "credential_scan_policy": "block_all_matches_except_one_exact_audited_pdf_jpeg_dht",
+  "audited_exceptions_applied": 0,
+  "credential_scan_exceptions": []
+}

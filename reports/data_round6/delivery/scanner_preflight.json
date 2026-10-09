@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "helper_sha256": "a9d5443b7d2817046bdf57a167a9ff839eaec18e95d84b07c96b4c6032827fbc",
+  "pattern_sha256": "eac28383fcd054026c92c738a7c0f5857d15499d2c90964c0f0524eda43f0a5b",
+  "source_files": 428,
+  "blocked_findings": [],
+  "audited_exceptions_applied": [
+    {
+      "archive_path": "raw6/cases/raw/ach_rtm_audit_mirror.pdf",
+      "exception_id": "ach-rtm-2025-pdf-jpeg-dht-20260916",
+      "file_bytes": 597806,
+      "file_sha256": "dd90aa61ad92e695149941bb495cbb88933e8b84f2a947cbac29d23d4ad290ae",
+      "offset": 79451,
+      "length": 45,
+      "match_sha256": "51be0a9642a4cb5bb2c57526b29208cdbc08774fd3c5186aef3a3150db9a42e8",
+      "jpeg_offset": 78915,
+      "jpeg_bytes": 9838,
+      "jpeg_sha256": "a84120f461eae7d378e40bac239aef8939d553eee33c3c1a1316f1b45dc44a37",
+      "pdf_object_number": 4,
+      "pdf_filter": "/DCTDecode",
+      "pdf_subtype": "/Image",
+      "dht": {
+        "segment_offset": 79157,
+        "segment_end_exclusive": 79577,
+        "declared_length": 418,
+        "table_offset": 79398,
+        "table_class": 1,
+        "table_id": 1,
+        "symbol_count": 162,
+        "symbols_offset": 79415,
+        "symbols_end_exclusive": 79577
+      },
+      "review": "reports/data_round6/delivery/scanner_false_positive_review.json",
+      "reason": "JPEG DHT AC-table symbol bytes; not a credential"
+    },
+    {
+      "archive_path": "raw6/cases/raw/ach_rtm_report.pdf",
+      "exception_id": "ach-rtm-2025-pdf-jpeg-dht-20260916",
+      "file_bytes": 597806,
+      "file_sha256": "dd90aa61ad92e695149941bb495cbb88933e8b84f2a947cbac29d23d4ad290ae",
+      "offset": 79451,
+      "length": 45,
+      "match_sha256": "51be0a9642a4cb5bb2c57526b29208cdbc08774fd3c5186aef3a3150db9a42e8",
+      "jpeg_offset": 78915,
+      "jpeg_bytes": 9838,
+      "jpeg_sha256": "a84120f461eae7d378e40bac239aef8939d553eee33c3c1a1316f1b45dc44a37",
+      "pdf_object_number": 4,
+      "pdf_filter": "/DCTDecode",
+      "pdf_subtype": "/Image",
+      "dht": {
+        "segment_offset": 79157,
+        "segment_end_exclusive": 79577,
+        "declared_length": 418,
+        "table_offset": 79398,
+        "table_class": 1,
+        "table_id": 1,
+        "symbol_count": 162,
+        "symbols_offset": 79415,
+        "symbols_end_exclusive": 79577
+      },
+      "review": "reports/data_round6/delivery/scanner_false_positive_review.json",
+      "reason": "JPEG DHT AC-table symbol bytes; not a credential"
+    }
+  ]
+}

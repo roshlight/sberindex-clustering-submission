@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "verified_cells": 7157,
+  "verified_numeric_cells": 6940,
+  "unique_numeric_responses": 174,
+  "all_output_and_snapshot_hashes_verified": true,
+  "verifier_sha256": "0ef1be242b2f3688490698a60b8e1eadec83e6d3ef72c842fb0622bf9b6971a1",
+  "manifest_sha256": "b247c59580a7a762c2339a673a3251f08762e3ffc28966d976ff9d431b5f05ee"
+}

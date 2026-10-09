@@ -1,0 +1,45 @@
+{
+  "release_tag": "data-round5-2026-09-16",
+  "assets": [
+    {
+      "archive": "data-round5-cases.zip",
+      "archive_sha256": "b7f0e67b61374d49f49c0007b7f94a89a3aed85f918384611b2b9df33377c364",
+      "archive_bytes": 7428418,
+      "verified_files": 69,
+      "uncompressed_bytes": 14797328
+    },
+    {
+      "archive": "data-round5-economy.zip",
+      "archive_sha256": "9e81f298948ed76c3a41bf2611b022e8e103fa2dd493ca35a67a3edb4ea18002",
+      "archive_bytes": 748399,
+      "verified_files": 195,
+      "uncompressed_bytes": 4445871
+    },
+    {
+      "archive": "data-round5-geography.zip",
+      "archive_sha256": "e97459041c0ebba6c0821dadb7a246256f4b93507d53c70c639e8b89d2f3a9c2",
+      "archive_bytes": 13437154,
+      "verified_files": 15,
+      "uncompressed_bytes": 127031099
+    },
+    {
+      "archive": "data-round5-search.zip",
+      "archive_sha256": "86dc705137da4789964b8eb9b9f384970a7a83dbfc2f67a5dc15c9dd63fb1d55",
+      "archive_bytes": 15899658,
+      "verified_files": 158,
+      "uncompressed_bytes": 133773491
+    },
+    {
+      "archive": "data-round5-sme.zip",
+      "archive_sha256": "dc211797c4d385a4122ebd61752c8e5501359026647a781163a629ea13080777",
+      "archive_bytes": 14566643,
+      "verified_files": 147,
+      "uncompressed_bytes": 29249713
+    }
+  ],
+  "raw_files": 584,
+  "uncompressed_bytes": 309297502,
+  "archive_bytes": 52080272,
+  "archive_rebuild_byte_identity_expected": false,
+  "archive_rebuild_note": "ZIP metadata includes packaging time; source file hashes are the replay contract."
+}

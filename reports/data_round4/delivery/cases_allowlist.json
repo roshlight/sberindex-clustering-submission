@@ -1,0 +1,122 @@
+[
+  {
+    "root": "work",
+    "path": "work/data-round4/cases/inputs/lineage.json",
+    "archive_path": "work/data-round4/cases/inputs/lineage.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/cases/inputs/round3_investment_reference.csv",
+    "archive_path": "work/data-round4/cases/inputs/round3_investment_reference.csv"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/cases/raw/yakutia_publications.html",
+    "archive_path": "work/data-round4/cases/raw/yakutia_publications.html"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/cases/raw/yakutia_publications.meta.json",
+    "archive_path": "work/data-round4/cases/raw/yakutia_publications.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/cases/raw/yakutia_publications.text.json",
+    "archive_path": "work/data-round4/cases/raw/yakutia_publications.text.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/cases/raw/yakutia_yearbook2023.meta.json",
+    "archive_path": "work/data-round4/cases/raw/yakutia_yearbook2023.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/cases/raw/yakutia_yearbook2023.pdf",
+    "archive_path": "work/data-round4/cases/raw/yakutia_yearbook2023.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/cases/raw/yakutia_yearbook2023.text.json",
+    "archive_path": "work/data-round4/cases/raw/yakutia_yearbook2023.text.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/cases/raw/yakutia_yearbook2024.meta.json",
+    "archive_path": "work/data-round4/cases/raw/yakutia_yearbook2024.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/cases/raw/yakutia_yearbook2024.pdf",
+    "archive_path": "work/data-round4/cases/raw/yakutia_yearbook2024.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/cases/raw/yakutia_yearbook2024.text.json",
+    "archive_path": "work/data-round4/cases/raw/yakutia_yearbook2024.text.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/cases/raw/yakutia_yearbook2025.meta.json",
+    "archive_path": "work/data-round4/cases/raw/yakutia_yearbook2025.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/cases/raw/yakutia_yearbook2025.pdf",
+    "archive_path": "work/data-round4/cases/raw/yakutia_yearbook2025.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/cases/raw/yakutia_yearbook2025.text.json",
+    "archive_path": "work/data-round4/cases/raw/yakutia_yearbook2025.text.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/cases/raw/yakutia_yearbook2025_current.meta.json",
+    "archive_path": "work/data-round4/cases/raw/yakutia_yearbook2025_current.meta.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/cases/raw/yakutia_yearbook2025_current.pdf",
+    "archive_path": "work/data-round4/cases/raw/yakutia_yearbook2025_current.pdf"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/cases/raw/yakutia_yearbook2025_current.text.json",
+    "archive_path": "work/data-round4/cases/raw/yakutia_yearbook2025_current.text.json"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/cases/render/yakutia_yearbook2023-261.png",
+    "archive_path": "work/data-round4/cases/render/yakutia_yearbook2023-261.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/cases/render/yakutia_yearbook2023-264.png",
+    "archive_path": "work/data-round4/cases/render/yakutia_yearbook2023-264.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/cases/render/yakutia_yearbook2024-241.png",
+    "archive_path": "work/data-round4/cases/render/yakutia_yearbook2024-241.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/cases/render/yakutia_yearbook2024-244.png",
+    "archive_path": "work/data-round4/cases/render/yakutia_yearbook2024-244.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/cases/render/yakutia_yearbook2025-234.png",
+    "archive_path": "work/data-round4/cases/render/yakutia_yearbook2025-234.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/cases/render/yakutia_yearbook2025_current-231.png",
+    "archive_path": "work/data-round4/cases/render/yakutia_yearbook2025_current-231.png"
+  },
+  {
+    "root": "work",
+    "path": "work/data-round4/cases/render/yakutia_yearbook2025_current-234.png",
+    "archive_path": "work/data-round4/cases/render/yakutia_yearbook2025_current-234.png"
+  }
+]

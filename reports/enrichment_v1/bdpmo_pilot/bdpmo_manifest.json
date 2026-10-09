@@ -1,0 +1,33 @@
+{
+  "status": "complete_unlinked",
+  "target_count": 3,
+  "planned_target_count": 3,
+  "limit": 3,
+  "ca_bundle": "/home/vpnadmin/services/sberindex-enrichment/certs/russian-trusted.pem",
+  "ca_bundle_sha256": "fd9fe86c296f5354cb578551a4f1216fc900624e88dbc8625e4ae506d1e8d624",
+  "targets_sha256": "1e50acdc188fc7054fe533579e77c626950ef3f74098370fe3a06fd061d0fab2",
+  "targets": [
+    {
+      "region_url": "https://rosstat.gov.ru/dbscripts/munst/munst79/",
+      "oktmo": "79701000"
+    },
+    {
+      "region_url": "https://rosstat.gov.ru/dbscripts/munst/munst46/",
+      "oktmo": "46704000"
+    },
+    {
+      "region_url": "https://rosstat.gov.ru/dbscripts/munst/munst03/",
+      "oktmo": "3701000"
+    }
+  ],
+  "raw_cache": "/home/vpnadmin/services/sberindex-enrichment/enrichment/data/bdpmo-server-cache-20260914-v1",
+  "processor_sha256": "f1d17c873c6fdbb66c41eaff74dbb901e2beeb659881bb34df5e0ca8c6fc471b",
+  "scope": "Source OKTMO values only; no automatic OKTMO length conversion or SberIndex join",
+  "completed_targets": 3,
+  "errors": [],
+  "n_rows": 12,
+  "output_hashes": {
+    "population_source_oktmo.csv": "ebf9effd506658ac388d39ac856c210895ac353c8cdca4804bd3bb4dc3f363b8",
+    "population_source_oktmo.parquet": "3e691e28d7b3c280e8cf2f6a14c0998e257680e55dcc071b454700937f453887"
+  }
+}

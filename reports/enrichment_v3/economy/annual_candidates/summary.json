@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "scope": "conditional annual-code candidate layer; no legal boundary audit or model result",
+  "created_at": "2026-09-14T22:59:37.371315+00:00",
+  "source_manifest_sha256": "661b0df743c67a5c886debbc193468704b749dcdc69dddecf2e05a298ccecd5e",
+  "script_sha256": "69f6d51eb22e17edab8f78f40e0efb1d05593534826da73a1e3cfc360c4e3bd3",
+  "expected_cells": 8064,
+  "unique_territories": 2016,
+  "cell_status_counts": {
+    "observed": 8030,
+    "not_returned": 32,
+    "returned_source_marker": 2
+  },
+  "coverage": [
+    {
+      "year": "2023",
+      "indicator_id": "8423005",
+      "not_returned": 1,
+      "observed": 2015,
+      "returned_source_marker": 0,
+      "expected_cells": 2016
+    },
+    {
+      "year": "2023",
+      "indicator_id": "8423007",
+      "not_returned": 1,
+      "observed": 2015,
+      "returned_source_marker": 0,
+      "expected_cells": 2016
+    },
+    {
+      "year": "2024",
+      "indicator_id": "8423005",
+      "not_returned": 15,
+      "observed": 2000,
+      "returned_source_marker": 1,
+      "expected_cells": 2016
+    },
+    {
+      "year": "2024",
+      "indicator_id": "8423007",
+      "not_returned": 15,
+      "observed": 2000,
+      "returned_source_marker": 1,
+      "expected_cells": 2016
+    }
+  ],
+  "outputs": {
+    "annual_candidate_panel.parquet": "53efd79904ade5728052c7d133b912dfc4279aa036e39bc0c601dab74284b174",
+    "annual_candidate_panel.csv": "c1d0bbeaaf742e14417d7d7d168764c060bb6c01199481a850a7eea3b6359bd4",
+    "annual_coverage.csv": "42db80935dc6ec9b844ac69e0de8955fdc9adf5e5dd77c54f54ae4f2ec40296a",
+    "annual_gaps.csv": "fd2cbf01227d6488c5d4ac162717717d5429b605005337281eb60eb65a497cfe"
+  }
+}

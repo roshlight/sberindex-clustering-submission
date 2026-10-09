@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "exact_byte_replay": {
+    "annual_features.csv": true,
+    "annual_features.parquet": true,
+    "collection_refusals.csv": true,
+    "coverage.csv": true,
+    "coverage_by_population.csv": true,
+    "coverage_by_region.csv": true,
+    "coverage_by_type.csv": true,
+    "feature_dictionary.json": true,
+    "historical_source_only_29.csv": true,
+    "joint_coverage.csv": true,
+    "missingness_patterns.csv": true,
+    "QA.json": true,
+    "unavailable_indicator_rows.csv": true
+  },
+  "feature_csv_sha256": "3ce5ec4410384d5729551a1bd5739ec041574b74f0268c15eb1e652640cae149",
+  "output_parquet_key_and_log_roundtrip": true,
+  "self_tests_passed": 3,
+  "ruff_check": "PASS",
+  "ruff_format_check": "PASS",
+  "original_inputs_unchanged": true,
+  "frozen_masks_changed": false
+}

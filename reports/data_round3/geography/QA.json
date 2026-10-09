@@ -1,0 +1,27 @@
+{
+  "status": "PASS_WITH_LIMITATIONS",
+  "source_files_hash_verified": 23,
+  "targeted_web_queries": 27,
+  "full_laws_downloaded": 5,
+  "new_law_pdf_pages": 70,
+  "exact_recoding_pairs": 131,
+  "registry_settlement_rows": 262,
+  "unmatched_settlement_codes": 0,
+  "changed_settlement_names": 0,
+  "priority_cases": 4,
+  "carried_forward_calendar_cases": 6,
+  "boundary_equivalence_proven": 0,
+  "mask_changes": 0,
+  "city_2023_temporal_review_retained": true,
+  "legal_lists_to_registry_join": "NOT_RUN_no_automatic_name_join",
+  "limits": [
+    "No automatic mask reversal or prior-result edits.",
+    "131 exact code pairs prove a complete settlement inventory bijection in the two official registry snapshots, not identical boundaries, areas or Sber polygons.",
+    "Full legal settlement lists are saved; no automatic name join of law lists to registry codes. Before-law boundary versions and polygon comparison remain unresolved.",
+    "Official publication dates refer to saved publication.pravo.gov.ru cards; they are distinct from signature, effective and OKTMO introduction dates.",
+    "Vologda law appendix uses OKATO; it does not date the city OKTMO 19514000001. Price temporal_review for 1051/2023 remains.",
+    "Six calendar decisions are carried forward with verified source hashes; they do not establish independent boundary equivalence.",
+    "OCR is a navigation aid, not a silently corrected source. No claim that all 412 Vologda appendix rows were independently transcribed.",
+    "Original HTTPS attempts timed out; successful ordinary HTTP downloads from the official publication portal are recorded explicitly. SHA fixes received bytes, not the authenticity of an HTTP transport."
+  ]
+}

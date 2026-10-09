@@ -1,0 +1,17 @@
+year,sample,regime,seed,check,max_abs
+2023,core,within_region,13,legacy_predictions,0.0
+2023,core,within_region,29,legacy_predictions,0.0
+2023,core,within_region,47,legacy_predictions,0.0
+2023,core,heldout_regions,13,legacy_predictions,0.0
+2023,stable_code,within_region,13,legacy_predictions,0.0
+2023,stable_code,heldout_regions,13,legacy_predictions,0.0
+2023,common_complete_new3,within_region,13,common_complete_invariance,0.0
+2023,common_complete_new3,heldout_regions,13,common_complete_invariance,0.0
+2024,core,within_region,13,legacy_predictions,0.0
+2024,core,within_region,29,legacy_predictions,0.0
+2024,core,within_region,47,legacy_predictions,0.0
+2024,core,heldout_regions,13,legacy_predictions,0.0
+2024,stable_code,within_region,13,legacy_predictions,0.0
+2024,stable_code,heldout_regions,13,legacy_predictions,0.0
+2024,common_complete_new3,within_region,13,common_complete_invariance,0.0
+2024,common_complete_new3,heldout_regions,13,common_complete_invariance,0.0

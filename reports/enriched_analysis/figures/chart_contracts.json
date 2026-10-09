@@ -1,0 +1,58 @@
+{
+  "surface": "standalone_static_research_figures",
+  "palette": {
+    "blue": "#2364AA",
+    "gold": "#BB7922",
+    "neutral": "#243246"
+  },
+  "charts": [
+    {
+      "figure": "01_price_growth",
+      "family": "histogram",
+      "n": 2016,
+      "question": "How much does inflation adjustment change growth?",
+      "source": "prices/municipal_price_growth.csv"
+    },
+    {
+      "figure": "02_cv_quality",
+      "family": "paired_dot",
+      "n": 1998,
+      "question": "Do economic attributes add information under both CV regimes?",
+      "source": "core_v2/cv_metrics.csv"
+    },
+    {
+      "figure": "03_coefficients",
+      "family": "coefficient_interval",
+      "n": [
+        1975,
+        1998
+      ],
+      "question": "Which conditional associations repeat in both years?",
+      "source": "core_v2/regression_coefficients.csv"
+    },
+    {
+      "figure": "04_continuous_gradients",
+      "family": "hexbin_scatter",
+      "n": 1998,
+      "question": "Are differences continuous rather than necessarily discrete?",
+      "source": "core_v2/annual_panel.csv"
+    },
+    {
+      "figure": "05_rank_correlations",
+      "family": "heatmap",
+      "n": [
+        1998,
+        2013
+      ],
+      "question": "Do regional differences confound simple associations?",
+      "source": "core_v2/correlations.csv"
+    },
+    {
+      "figure": "06_annual_stability",
+      "family": "grouped_bar",
+      "n": 2016,
+      "question": "Does annual averaging strengthen the typology?",
+      "source": "annual_networks/temporal_comparison.csv"
+    }
+  ]
+}

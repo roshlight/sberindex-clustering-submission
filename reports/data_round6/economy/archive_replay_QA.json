@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "files_byte_identical": 67,
+  "tool": "Windows bsdtar 3.8.8 + Python zipfile",
+  "repeated_native_word_conversion": false
+}

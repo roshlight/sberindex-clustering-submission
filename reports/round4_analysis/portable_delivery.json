@@ -1,0 +1,63 @@
+{
+  "ok": true,
+  "method": "installed native builder + native SVG extraction + native verifier",
+  "started_at": "2026-09-16T18:37:02.086Z",
+  "artifact": {
+    "path": "artifact.json",
+    "sha256": "d2173e133090c1b68c655d8fff8e941acefffbad716034d7bae40fa6424338bc"
+  },
+  "wrapper_sha256": "8078f6f9a3888cef6c87ff1a8c9bc0647ea4e5d2cc44a10a11a9813f15eb54f0",
+  "plugin_files": {
+    "build_portable_artifact.mjs": "0b86883810cf23c81f563a48a7708283a6a4cadf11228ad261efb64426ef728e",
+    "extract_portable_chart_svgs.mjs": "77e78593d8971563b6394334128dd3ee243f2182d3d087591d3a5499ece9283b",
+    "verify_portable_artifact.mjs": "b495c4cc34113fb2918118eac302f4e7e2152c1b1b9b63e3646cea97ecbf9b3f"
+  },
+  "plugin_modified": false,
+  "native_static_chart_entries": 3,
+  "original_delivery_failure": {
+    "code": "horizontal_overflow",
+    "error": "Portable artifact overflows horizontally at 1440px. (desktop viewport)",
+    "reason": "Native full-bleed headers use 100vw with a 15px classic vertical scrollbar; client1425 versus scroll1433 at viewport1440.",
+    "diagnostic_screenshot": "native-build-DQtsc3/native-verification-failure.png"
+  },
+  "compatibility_patch": {
+    "applied": true,
+    "style_id": "round2-scrollbar-compatibility",
+    "css": "html body .portable-page-header,html body .analytics-top-bar{width:100%;margin-left:0;margin-right:0}",
+    "scope": "Only document header container width and horizontal margins; no clipping or hidden content"
+  },
+  "verification": {
+    "ok": true,
+    "counts": {
+      "blocks": 25,
+      "charts": 3,
+      "html": 0,
+      "metrics": 0,
+      "tables": 9
+    },
+    "html": "report.html",
+    "sourceDialog": "passed",
+    "sourceInteraction": "keyboard_menu_semantic_click",
+    "timings": {
+      "browserRunMs": 1665.9,
+      "readerReadyMs": 181.8,
+      "contentChecksMs": 32.1,
+      "sourceDialogMs": 31.9,
+      "responsiveChecksMs": 32.1,
+      "totalMs": 1717.1
+    },
+    "viewports": [
+      1440,
+      390
+    ]
+  },
+  "embedded_payload_and_runtime_unchanged": true,
+  "compressed_block_sha256": {
+    "data-analytics-portable-artifact-payload-source": "1010f7e2ef1899ae1a2240ca73478d4547aa2fb2d89eaca947ea9159821a2312",
+    "data-analytics-portable-reader-runtime-source": "dc2fe655fa3b72c7b29a7b3dbc8bc3f0b64da0c925ccb0b46f975d459d2fb4cc"
+  },
+  "external_requests": "none; enforced by successful native browser verification",
+  "output_sha256": "d0cad300b78a6f49ea21bf154b46b65d410be85842f5efdeb206ef98283ac8d1",
+  "output_bytes": 796437,
+  "finished_at": "2026-09-16T18:37:07.921Z"
+}

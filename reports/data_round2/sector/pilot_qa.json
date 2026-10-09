@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "collected_at": "2026-09-15T09:37:51.336764+00:00",
+  "territories": 6,
+  "municipality_years": 12,
+  "rows_including_explicit_absences": 488,
+  "unique_key": [
+    "territory_id",
+    "year",
+    "indicator_id",
+    "source_activity_code"
+  ],
+  "duplicate_keys": 0,
+  "status_counts": {
+    "not_returned": 138,
+    "observed": 311,
+    "source_marker_unresolved": 39
+  },
+  "zero_observed_cells": 0,
+  "network_requests_this_invocation": 0,
+  "cache_hits_this_invocation": 34,
+  "unique_captured_requests": 22,
+  "source_files": {
+    "year_specific_links": {
+      "path": "reports/enrichment_v3/economy/annual_candidates/annual_candidate_panel.csv",
+      "sha256": "c1d0bbeaaf742e14417d7d7d168764c060bb6c01199481a850a7eea3b6359bd4"
+    }
+  },
+  "source_sha256": {
+    "sector_source.csv": "2c7471f44187ba9cddc7459373bfe4a094d34a20dac15031c5fc7249628b9b0f",
+    "pilot_targets.csv": "28c2608f667d73d768ef3ab399b41b4a809a6cdd5720894243aa15bf07c147a5",
+    "source_inventory.json": "b92913580a05e0c204c029918eec2e08c27c649b167068fee0c6da1cf91699cb"
+  },
+  "script_sha256": "f3554ce298ab184ac84d00f2643b1b1446366b8899d097ab6f282f7f67e84580",
+  "limits": [
+    "Six outcome-selected examples, not a representative municipality sample",
+    "Absent rows and source markers are not zero",
+    "Workers refer to observed organizations, not employed residents",
+    "Internal activity keys are not literal OKVED class codes",
+    "Reference-date code evidence does not establish full-year boundary equivalence",
+    "Retrieval vintage is current; first publication and revision history unknown"
+  ]
+}

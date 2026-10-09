@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "verified_at_utc": "2026-09-14T22:04:48.940454+00:00",
+  "source_rows": 7157,
+  "source_numeric_values": 6940,
+  "source_null_cells": 217,
+  "panel_rows": 8064,
+  "annual_rows": 4032,
+  "exact_cohort_ids": 2016,
+  "panel_numeric_values": 6940,
+  "source_rows_matched_to_panel": 7093,
+  "unmatched_source_rows_all_null": 64,
+  "source_values_lost": 0,
+  "nulls_imputed_as_zero": 0,
+  "duplicate_or_wrong_code_year_keys": 0,
+  "code_representation": "Exact numeric source code retained; official identifier is its unique eight-digit zero-filled representation.",
+  "rows_with_source_leading_zero_omitted": 792,
+  "calendar_initial_warnings_retained_and_cleared": 6,
+  "calendar_cleared_long_rows": 12,
+  "calendar_capture_hashes_verified": true,
+  "independent_boundary_confirmation_still_null": true,
+  "population_total_2023_observed": 1979,
+  "population_total_2024_observed": 2013,
+  "population_total_2024_missing": [
+    {
+      "territory_id": "1421",
+      "official_oktmo_8": "42630000",
+      "source_oktmo_name": "",
+      "source_region_url": "https://rosstat.gov.ru/dbscripts/munst/munst42/",
+      "fetch_status": "error",
+      "fetch_error": "Urban population exceeds total population",
+      "availability_status": "not_returned",
+      "municipal_district_name": "Краснинский муниципальный район",
+      "municipal_district_type": "муниципальный район",
+      "region_name": "Липецкая область",
+      "name_source_snapshot": "2024-01-01"
+    },
+    {
+      "territory_id": "1947",
+      "official_oktmo_8": "63644000",
+      "source_oktmo_name": "",
+      "source_region_url": "https://rosstat.gov.ru/dbscripts/munst/munst63/",
+      "fetch_status": "partial_source",
+      "fetch_error": "",
+      "availability_status": "not_returned",
+      "municipal_district_name": "Советский муниципальный район",
+      "municipal_district_type": "муниципальный район",
+      "region_name": "Саратовская область",
+      "name_source_snapshot": "2024-01-01"
+    },
+    {
+      "territory_id": "2710",
+      "official_oktmo_8": "28714000",
+      "source_oktmo_name": "",
+      "source_region_url": "https://rosstat.gov.ru/dbscripts/munst/munst28/",
+      "fetch_status": "attribution_review",
+      "fetch_error": "Singleton response does not confirm the exact source municipality caption",
+      "availability_status": "not_returned",
+      "municipal_district_name": "городской округ Вышневолоцкий",
+      "municipal_district_type": "городской округ",
+      "region_name": "Тверская область",
+      "name_source_snapshot": "2024-01-01"
+    }
+  ],
+  "csv_parquet_values_match": true,
+  "four_panel_output_hashes": {
+    "municipal_population.csv": "cc874551a206b7eb11dc17ba0b93db4fe9173b23654410aab93a60ebc3036229",
+    "municipal_population_wide.csv": "3c625230fefe007abebcb025b72257e413e6465fc2224da38b3991353131f8fb",
+    "municipal_population.parquet": "10b5c7611a407654c754a9d962548af9ec5d532b10b701ebdeba281fa3b2d183",
+    "municipal_population_wide.parquet": "c3c6116f3711ec6eba95ea64d056e1c6190053cd796e808a5d9cb9551a979cbf"
+  },
+  "panel_inputs_and_source_outputs_hashes_verified": true,
+  "source_http_requests_in_this_audit": 0,
+  "local_name_source": {
+    "path": "outputs\\municipal-economic-profiles\\data\\derived\\enrichment\\municipal_crosswalk_2024-01-01.csv",
+    "sha256": "dc1603aacda2303a6ef836272d379323f527b32fd6bf0cffb55c279e0d22db3e"
+  },
+  "audit_script": {
+    "path": "work/population-final-qa-20260915/verify_saved_panel.py",
+    "sha256": "db4083223539624a09c28a4fd4c518318d6417ad1fa35e37729ce76ecc5c274e"
+  }
+}

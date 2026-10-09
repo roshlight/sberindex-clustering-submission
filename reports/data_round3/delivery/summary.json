@@ -1,0 +1,57 @@
+{
+  "archives": [
+    {
+      "status": "PASS",
+      "archive": "data-round3-cases.zip",
+      "archive_sha256": "72541f43c18a7d303a99392de8d5b51c5c0e3414cf5ed5b06fd91c2787d8d443",
+      "archive_bytes": 73724103,
+      "verified_files": 155,
+      "uncompressed_bytes": 81897740,
+      "allowlist_sha256": "8ff87d8b38bf0b85336f7c618a5de621ab82d47ff237f424826fec73d8817c4d",
+      "packager_sha256": "5bbdd46528947d3ee96db825f6f337e3cd0e7391411b13fb3312833a4ebb5c6f"
+    },
+    {
+      "status": "PASS",
+      "archive": "data-round3-sme.zip",
+      "archive_sha256": "7e821991055ff8be96b622f1888bd6f5462f3e666ea95a158b573bfe6527fcc1",
+      "archive_bytes": 2756108,
+      "verified_files": 71,
+      "uncompressed_bytes": 9317307,
+      "allowlist_sha256": "8a78f093564b95bdfc45ff097f27f106f451f3b6831119302aebaa401ce5fe32",
+      "packager_sha256": "5bbdd46528947d3ee96db825f6f337e3cd0e7391411b13fb3312833a4ebb5c6f"
+    },
+    {
+      "status": "PASS",
+      "archive": "data-round3-geography.zip",
+      "archive_sha256": "9cd94327e6a6da2fab8573d6587930dd10a8da455cbcf896b3e482fb70984870",
+      "archive_bytes": 48298330,
+      "verified_files": 36,
+      "uncompressed_bytes": 93492057,
+      "allowlist_sha256": "81dc8ab46bb6bac50b55980b6c1d09ac0d1ec4788f419eb62dc8f60d84bffaae",
+      "packager_sha256": "5bbdd46528947d3ee96db825f6f337e3cd0e7391411b13fb3312833a4ebb5c6f"
+    },
+    {
+      "status": "PASS",
+      "archive": "data-round3-economy.zip",
+      "archive_sha256": "e348ac77471590f9c77aa4af94c3f1e22630335bdfd9cc0ad7117dd12cbe30b4",
+      "archive_bytes": 5419570,
+      "verified_files": 848,
+      "uncompressed_bytes": 60576301,
+      "allowlist_sha256": "52be936673d8d5da8a67acb9db563006f9eb703ffba203cf49e969d756f97080",
+      "packager_sha256": "5bbdd46528947d3ee96db825f6f337e3cd0e7391411b13fb3312833a4ebb5c6f"
+    },
+    {
+      "status": "PASS",
+      "archive": "data-round3-search.zip",
+      "archive_sha256": "29266816808ee1e8f5c49b6a9bfb5fbb9b461a1a7ac535ed00a238fed0a42115",
+      "archive_bytes": 3099571,
+      "verified_files": 81,
+      "uncompressed_bytes": 6772342,
+      "allowlist_sha256": "97d67243c6326532aa8a13263b0f1a36255a4bf39e000e35773e2c61d9fd390c",
+      "packager_sha256": "5bbdd46528947d3ee96db825f6f337e3cd0e7391411b13fb3312833a4ebb5c6f"
+    }
+  ],
+  "verified_files": 1191,
+  "archive_bytes": 133297682,
+  "uncompressed_bytes": 252055747
+}

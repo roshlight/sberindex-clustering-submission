@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "method": "DuckDB SQL: exp(sum(log(monthly CPI factor))), annual mean of monthly ratios",
+  "annual_rows": 4032,
+  "municipalities": 2016,
+  "max_nominal_level_absolute_error": 7.275957614183426e-12,
+  "max_real_level_absolute_error": 3.637978807091713e-11,
+  "max_real_growth_error_pp": 8.881784197001252e-14,
+  "positive_signs_identical": true,
+  "independent_code_path_not_independent_source": true,
+  "inputs": [
+    {
+      "path": "data/raw/consumption.parquet",
+      "sha256": "9833ddaaee7b2a182ed4cceeed16469031700ea87d508bd976150c6770ef8a61"
+    },
+    {
+      "path": "reports/enrichment_v3/prices/cpi_monthly_2023_2024.csv",
+      "sha256": "81bd703ff20b9837ef5e89f4e66ed3b8751454fa322afc6c5339ff9858641c75"
+    },
+    {
+      "path": "reports/enrichment_v3/prices/municipal_region_price_links.csv",
+      "sha256": "0632857da52a0e4890e4d70ea93f2d572e6da615d9942a6c776469f6d9790e77"
+    }
+  ],
+  "checked_outputs": [
+    {
+      "path": "municipal_annual_price_context.csv",
+      "sha256": "49c46e2e2927f0847aa5ff00da8899991545974bd4f0f8b825dbf3c6dfa9277f"
+    },
+    {
+      "path": "municipal_price_growth.csv",
+      "sha256": "51df9eae66c4ddce838dfeb84058d8c12fba1b9c2838866aea958815a990e54f"
+    }
+  ],
+  "script_sha256": "ed26841929e6f737c05b2ea6b048df7ef12488a66e03b06f0c74df62fa85ca5c"
+}

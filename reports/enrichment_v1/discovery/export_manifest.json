@@ -1,0 +1,23 @@
+{
+  "source_runs": [
+    "smoke-20260914-01",
+    "connector-preflight",
+    "research-20260914-01",
+    "recovery-20260914-01",
+    "primary-pdf-20260914-01"
+  ],
+  "export_type": "provenance_without_full_source_text",
+  "source_record_count": 159,
+  "unique_fetched_urls": 142,
+  "model_cards": 42,
+  "literal_matches": 197,
+  "rejected_quotes": 29,
+  "reported_cost_usd": 5.5313505,
+  "output_sha256": {
+    "run_summaries.json": "2dd904c043daa3a22e6871beaaa9c31a9d3888ff9325754ec69f4cdd93e4f4a3",
+    "search_requests.csv": "ca701ceeb8e8f753ed38fc83e019b508f2203d4108ceefda733ed7cf57de7fc3",
+    "model_evidence_index.json": "9f759a0f9354b78bb3785483294b9efb6e4640d803a3b8c10db294b69ff97d56",
+    "model_usage.csv": "c24abc4e82b9977a2953f50881e22508a867b4e5a4c0c7c4d2e28920e3044f27",
+    "source_inventory.csv": "1256fe1eb86c00c4787eafa556f996b91563350f7bbfbbd543f7192dabcb7594"
+  }
+}

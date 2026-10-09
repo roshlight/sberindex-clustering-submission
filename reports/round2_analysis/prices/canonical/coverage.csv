@@ -1,0 +1,7 @@
+year,group,n,regions,core_eligible,conservative_eligible
+2023,full_cohort,2016,73,1975,1897
+2023,price_selected,215,69,207,205
+2023,not_selected,1801,73,1768,1692
+2024,full_cohort,2016,73,1998,1930
+2024,price_selected,214,70,212,210
+2024,not_selected,1802,73,1786,1720

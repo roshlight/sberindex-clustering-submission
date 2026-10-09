@@ -1,0 +1,17 @@
+indicator_id,year,value_status,cells
+8109001,2023,not_returned_or_unaccepted,178
+8109001,2023,observed,1838
+8109001,2024,not_returned_or_unaccepted,184
+8109001,2024,observed,1829
+8109001,2024,unresolved_source_marker,3
+8401003,2023,not_returned_or_unaccepted,265
+8401003,2023,observed,1735
+8401003,2023,unresolved_source_marker,16
+8401003,2024,not_returned_or_unaccepted,266
+8401003,2024,observed,1748
+8401003,2024,unresolved_source_marker,2
+8401011,2023,not_returned_or_unaccepted,174
+8401011,2023,observed,1842
+8401011,2024,not_returned_or_unaccepted,178
+8401011,2024,observed,1837
+8401011,2024,unresolved_source_marker,1

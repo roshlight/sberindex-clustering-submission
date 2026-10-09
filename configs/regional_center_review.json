@@ -1,0 +1,16 @@
+{
+  "cohort": "data/derived/reviews/spatial_transitions_v1/territory_crosswalk.csv",
+  "reference": "data/derived/reviews/regional_centers_v1/reviewed_center_reference.csv",
+  "versions": "reports/enrichment_v1/crosswalk/municipal_crosswalk_versions.csv",
+  "reference_date": "2024 edition; 2023/end-year observations",
+  "review_date": "2026-10-02",
+  "classification": "Exact municipality identity against reviewed regional center; unknown is nullable",
+  "inputs": {
+    "data/derived/reviews/spatial_transitions_v1/territory_crosswalk.csv": "14adad093b9c946aad5f9b7b27ca891fc52a5395ab9c796c34a1cabf6e173587",
+    "data/derived/reviews/regional_centers_v1/reviewed_center_reference.csv": "f5776ea879788558217767cc5dc803557913bc61e753fa1f9ae4edf3abfecb0b",
+    "reports/enrichment_v1/crosswalk/municipal_crosswalk_versions.csv": "421750a85e3fed92c7b1a1c89636cfc53e2d89c4b0c86faf5b39207871013528",
+    "data/derived/reviews/regional_centers_v1/sources/lenobl_monitoring_2023_excerpt.pdf": "6caf79655e090108bf19431d79cdb222ad0660567a71b83996d263e9b81f9c33",
+    "data/derived/reviews/regional_centers_v1/sources/receipts.json": "2aced7b04a1930b4b118b997a0e72c19045714694181ac5dfc327dc5b1267ae1",
+    "data/derived/reviews/regional_centers_v1/sources/rosstat_cities_2024_excerpt.pdf": "93a96992ec8db7296d3d75e579f93afe43be46ceccd15638fc59a5befe6154a9"
+  }
+}

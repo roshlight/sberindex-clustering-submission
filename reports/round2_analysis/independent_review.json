@@ -1,0 +1,1308 @@
+{
+  "stage": "independent_numerical_verification",
+  "status": "PASS_WITH_SCOPE_LIMITATIONS",
+  "review_role": "Independent validator; no production pipeline or source edits",
+  "input_hashes": {
+    "src/municipal_profiles/enriched_analysis.py": "095722e93f9c8b8c6a34813879c933e3fb2fbc1d3dc4f1e51b169f4fa9c88102",
+    "configs/enriched_analysis_v1.json": "280fc6cd02efb9f04c42909f85e16f7eae1900469b33715661ac727fe3fe8969",
+    "reports/enriched_analysis/core_v2/annual_panel.parquet": "b1770837d8e6527ef62c4e1cb3cbfdacd09aa3aaaf130b2937d586222167d5ce",
+    "reports/enriched_analysis/core_v2/oof_predictions.parquet": "db69abc68e4b5d2eef100cac1518b1f86f3a8e8dcf7c21034c4baa7de96bcf8e",
+    "reports/data_round2/sector/bulk/annual_candidate_sector.parquet": "1e31fad3974f14692681af13854290565c8ff88bd08b93862bbd20ac86ca7af0",
+    "reports/data_round2/sector/reconciliation_qa.json": "5a09a16e3b494eba6655974275f409bc08585fa6d013b3ea3f18dd6ecc5735e5"
+  },
+  "frozen_counts": {
+    "core": {
+      "2023": 1975,
+      "2024": 1998
+    },
+    "conservative": {
+      "2023": 1897,
+      "2024": 1930
+    },
+    "core_regions": {
+      "2023": 72,
+      "2024": 73
+    }
+  },
+  "source_findings": {
+    "candidate_cells": 162210,
+    "official_code_conflicts": 0,
+    "source_literal_seven_digit_rows": 15906,
+    "eligible_worker_totals_checked": 3973,
+    "eligible_worker_total_mismatches": 0,
+    "sector_cells_with_numeric_positive_denominator": 47128,
+    "individual_sector_above_total": 0,
+    "maximum_individual_sector_ratio": 0.889364128885087,
+    "municipality_years_with_any_numeric_sector_and_positive_total": 4013,
+    "published_sector_sum_above_total": 88,
+    "max_published_sector_sum_ratio": 1.0012170385395538,
+    "missing_option_50000_municipality_years": 174,
+    "worker_source_zero_cells": 2
+  },
+  "design_checks": [
+    {
+      "id": "D01",
+      "status": "verified",
+      "check": "Frozen municipality-year masks and same fold IDs for every compared model",
+      "details": "core 1975/1998; conservative 1897/1930. New ID2710 totals cannot expand the frozen sample."
+    },
+    {
+      "id": "D02",
+      "status": "verified",
+      "check": "Nested comparison separates disclosure patterns from numeric sector information",
+      "details": "economic; economic+same sector missingness indicators; economic+those indicators+worker sector/official-total ratios. Same rows and exact folds in all three."
+    },
+    {
+      "id": "D03",
+      "status": "verified",
+      "check": "Train-only imputation, scaling and category vocabulary",
+      "details": "Per-fold median and ddof0 numeric scale; fixed fallback for all-missing train columns. Log statistics and all-missing features; test rows cannot change them."
+    },
+    {
+      "id": "D04",
+      "status": "verified",
+      "check": "Exact official code/year join and positive covered-organization denominator",
+      "details": "All162210 official_oktmo_8 source fields match frozen annual panel.3973 eligible worker totals are identical. Source literal may be7digits:15906 rows preserve an omitted leading zero separately."
+    },
+    {
+      "id": "D05",
+      "status": "interpretation_condition",
+      "check": "Worker ratios are not shares of all resident employment",
+      "details": "Official annual average staff excludes small-business entities; resident population is a different denominator. Do not normalize observed sector sum, invent Other or aggregate wages."
+    },
+    {
+      "id": "D06",
+      "status": "verified",
+      "check": "Metric and paired fixed-OOF region bootstrap reproduced independently",
+      "details": "Five-coordinate CLR from mean12 monthly profiles. Main R2 uses total centered SST across coordinates, MSE averages cells. Relative error reduction positive means improvement. Resample identical region weights for both models."
+    },
+    {
+      "id": "D07",
+      "status": "interpretation_condition",
+      "check": "Same-year exploratory evidence only",
+      "details": "Both years and six residual-selected pilots already inspected. Separate2023/2024 fits are not future validation. Bootstrap conditional on fixed predictions is not full training/model-selection uncertainty."
+    },
+    {
+      "id": "D08",
+      "status": "verified",
+      "check": "Source options and missing statuses retained",
+      "details": "Eight sections A/B/C/D/H/O/P/Q fixed before model results. 73000 excluded.50000 absent as an option in174 municipality-years, not a zero. Missing flags and all4032 exact keys independently checked."
+    },
+    {
+      "id": "D09",
+      "status": "verified",
+      "check": "Direct algebra refits on several folds",
+      "details": "Rebuild fold-local design independently, center X/y, solve ridge with unpenalized intercept, compare all six outcomes against saved predictions. Verify held-out-region disjointness."
+    }
+  ],
+  "model_output_checks": {
+    "source_ratio_max_errors": {
+      "A": 9.86623976961809e-17,
+      "B": 9.8879238130678e-17,
+      "C": 9.80118763926896e-17,
+      "D": 9.93129189996722e-17,
+      "H": 9.8879238130678e-17,
+      "O": 9.8879238130678e-17,
+      "P": 9.71445146547012e-17,
+      "Q": 9.80118763926896e-17
+    },
+    "primary_comparisons_recomputed": [
+      {
+        "year": 2023,
+        "sample": "core",
+        "regime": "within_region",
+        "seed": 13,
+        "target": "log_total",
+        "baseline": "economic_missingness",
+        "alternative": "economic_sectors",
+        "n": 1975,
+        "relative_mse_reduction": -0.0020248598934844,
+        "ci_low": -0.017869512806181,
+        "ci_high": 0.018898416781456
+      },
+      {
+        "year": 2023,
+        "sample": "core",
+        "regime": "within_region",
+        "seed": 13,
+        "target": "profile_clr",
+        "baseline": "economic_missingness",
+        "alternative": "economic_sectors",
+        "n": 1975,
+        "relative_mse_reduction": 0.0140008766863508,
+        "ci_low": 0.0017066913984386,
+        "ci_high": 0.0260867430283261
+      },
+      {
+        "year": 2023,
+        "sample": "core",
+        "regime": "heldout_regions",
+        "seed": 13,
+        "target": "log_total",
+        "baseline": "economic_missingness",
+        "alternative": "economic_sectors",
+        "n": 1975,
+        "relative_mse_reduction": 0.0248845892515129,
+        "ci_low": -0.0252664571918482,
+        "ci_high": 0.0778085877846928
+      },
+      {
+        "year": 2023,
+        "sample": "core",
+        "regime": "heldout_regions",
+        "seed": 13,
+        "target": "profile_clr",
+        "baseline": "economic_missingness",
+        "alternative": "economic_sectors",
+        "n": 1975,
+        "relative_mse_reduction": 0.0827178887021098,
+        "ci_low": 0.0352081322340357,
+        "ci_high": 0.1224968718447996
+      },
+      {
+        "year": 2023,
+        "sample": "stable_code",
+        "regime": "within_region",
+        "seed": 13,
+        "target": "log_total",
+        "baseline": "economic_missingness",
+        "alternative": "economic_sectors",
+        "n": 1897,
+        "relative_mse_reduction": -0.0035839337803269,
+        "ci_low": -0.0161390937991474,
+        "ci_high": 0.013329095661743
+      },
+      {
+        "year": 2023,
+        "sample": "stable_code",
+        "regime": "within_region",
+        "seed": 13,
+        "target": "profile_clr",
+        "baseline": "economic_missingness",
+        "alternative": "economic_sectors",
+        "n": 1897,
+        "relative_mse_reduction": 0.0192426744518851,
+        "ci_low": 0.0057277535931173,
+        "ci_high": 0.0314508971722324
+      },
+      {
+        "year": 2023,
+        "sample": "stable_code",
+        "regime": "heldout_regions",
+        "seed": 13,
+        "target": "log_total",
+        "baseline": "economic_missingness",
+        "alternative": "economic_sectors",
+        "n": 1897,
+        "relative_mse_reduction": 0.0149965572065581,
+        "ci_low": -0.0244285029028442,
+        "ci_high": 0.0571315021480148
+      },
+      {
+        "year": 2023,
+        "sample": "stable_code",
+        "regime": "heldout_regions",
+        "seed": 13,
+        "target": "profile_clr",
+        "baseline": "economic_missingness",
+        "alternative": "economic_sectors",
+        "n": 1897,
+        "relative_mse_reduction": 0.0906281237378806,
+        "ci_low": 0.0442121261775911,
+        "ci_high": 0.1288127454069191
+      },
+      {
+        "year": 2023,
+        "sample": "complete_sectors",
+        "regime": "within_region",
+        "seed": 13,
+        "target": "log_total",
+        "baseline": "economic_missingness",
+        "alternative": "economic_sectors",
+        "n": 134,
+        "relative_mse_reduction": -0.0782158882187515,
+        "ci_low": -0.2035369702429766,
+        "ci_high": 0.057378891873716
+      },
+      {
+        "year": 2023,
+        "sample": "complete_sectors",
+        "regime": "within_region",
+        "seed": 13,
+        "target": "profile_clr",
+        "baseline": "economic_missingness",
+        "alternative": "economic_sectors",
+        "n": 134,
+        "relative_mse_reduction": -0.1290770791763704,
+        "ci_low": -0.2355720799077194,
+        "ci_high": -0.058182994388725
+      },
+      {
+        "year": 2023,
+        "sample": "complete_sectors",
+        "regime": "heldout_regions",
+        "seed": 13,
+        "target": "log_total",
+        "baseline": "economic_missingness",
+        "alternative": "economic_sectors",
+        "n": 134,
+        "relative_mse_reduction": 0.0176135623917313,
+        "ci_low": -0.1839446879141987,
+        "ci_high": 0.157734334946145
+      },
+      {
+        "year": 2023,
+        "sample": "complete_sectors",
+        "regime": "heldout_regions",
+        "seed": 13,
+        "target": "profile_clr",
+        "baseline": "economic_missingness",
+        "alternative": "economic_sectors",
+        "n": 134,
+        "relative_mse_reduction": -0.0548659510308451,
+        "ci_low": -0.1386143117999183,
+        "ci_high": 0.0244670671617291
+      },
+      {
+        "year": 2024,
+        "sample": "core",
+        "regime": "within_region",
+        "seed": 13,
+        "target": "log_total",
+        "baseline": "economic_missingness",
+        "alternative": "economic_sectors",
+        "n": 1998,
+        "relative_mse_reduction": -0.0010693121822045,
+        "ci_low": -0.0146021846639947,
+        "ci_high": 0.0145925720664749
+      },
+      {
+        "year": 2024,
+        "sample": "core",
+        "regime": "within_region",
+        "seed": 13,
+        "target": "profile_clr",
+        "baseline": "economic_missingness",
+        "alternative": "economic_sectors",
+        "n": 1998,
+        "relative_mse_reduction": 0.0137987168412748,
+        "ci_low": 0.0035663535905294,
+        "ci_high": 0.0242834714627982
+      },
+      {
+        "year": 2024,
+        "sample": "core",
+        "regime": "heldout_regions",
+        "seed": 13,
+        "target": "log_total",
+        "baseline": "economic_missingness",
+        "alternative": "economic_sectors",
+        "n": 1998,
+        "relative_mse_reduction": 0.0262669066795996,
+        "ci_low": -0.0204992227267743,
+        "ci_high": 0.0723880648267202
+      },
+      {
+        "year": 2024,
+        "sample": "core",
+        "regime": "heldout_regions",
+        "seed": 13,
+        "target": "profile_clr",
+        "baseline": "economic_missingness",
+        "alternative": "economic_sectors",
+        "n": 1998,
+        "relative_mse_reduction": 0.0733964728875812,
+        "ci_low": 0.0271478127372523,
+        "ci_high": 0.1150890824273849
+      },
+      {
+        "year": 2024,
+        "sample": "stable_code",
+        "regime": "within_region",
+        "seed": 13,
+        "target": "log_total",
+        "baseline": "economic_missingness",
+        "alternative": "economic_sectors",
+        "n": 1930,
+        "relative_mse_reduction": -0.0015272394786496,
+        "ci_low": -0.0143990099475459,
+        "ci_high": 0.0133042345583892
+      },
+      {
+        "year": 2024,
+        "sample": "stable_code",
+        "regime": "within_region",
+        "seed": 13,
+        "target": "profile_clr",
+        "baseline": "economic_missingness",
+        "alternative": "economic_sectors",
+        "n": 1930,
+        "relative_mse_reduction": 0.0164015642102974,
+        "ci_low": 0.0046932550916989,
+        "ci_high": 0.027865231004607
+      },
+      {
+        "year": 2024,
+        "sample": "stable_code",
+        "regime": "heldout_regions",
+        "seed": 13,
+        "target": "log_total",
+        "baseline": "economic_missingness",
+        "alternative": "economic_sectors",
+        "n": 1930,
+        "relative_mse_reduction": 0.0088645331708283,
+        "ci_low": -0.0364557460765076,
+        "ci_high": 0.0540757157223787
+      },
+      {
+        "year": 2024,
+        "sample": "stable_code",
+        "regime": "heldout_regions",
+        "seed": 13,
+        "target": "profile_clr",
+        "baseline": "economic_missingness",
+        "alternative": "economic_sectors",
+        "n": 1930,
+        "relative_mse_reduction": 0.0772188890426176,
+        "ci_low": 0.0309667395467795,
+        "ci_high": 0.1192195996020782
+      },
+      {
+        "year": 2024,
+        "sample": "complete_sectors",
+        "regime": "within_region",
+        "seed": 13,
+        "target": "log_total",
+        "baseline": "economic_missingness",
+        "alternative": "economic_sectors",
+        "n": 127,
+        "relative_mse_reduction": -0.0283859334958078,
+        "ci_low": -0.1789807573767513,
+        "ci_high": 0.111452166214972
+      },
+      {
+        "year": 2024,
+        "sample": "complete_sectors",
+        "regime": "within_region",
+        "seed": 13,
+        "target": "profile_clr",
+        "baseline": "economic_missingness",
+        "alternative": "economic_sectors",
+        "n": 127,
+        "relative_mse_reduction": -0.0708109194148094,
+        "ci_low": -0.1573876337894817,
+        "ci_high": -0.0052417036152696
+      },
+      {
+        "year": 2024,
+        "sample": "complete_sectors",
+        "regime": "heldout_regions",
+        "seed": 13,
+        "target": "log_total",
+        "baseline": "economic_missingness",
+        "alternative": "economic_sectors",
+        "n": 127,
+        "relative_mse_reduction": -0.0706036312400624,
+        "ci_low": -0.3140483062573753,
+        "ci_high": 0.1079757664352836
+      },
+      {
+        "year": 2024,
+        "sample": "complete_sectors",
+        "regime": "heldout_regions",
+        "seed": 13,
+        "target": "profile_clr",
+        "baseline": "economic_missingness",
+        "alternative": "economic_sectors",
+        "n": 127,
+        "relative_mse_reduction": -0.1318046389248073,
+        "ci_low": -0.2550404109237214,
+        "ci_high": -0.0441780617016087
+      }
+    ],
+    "manifest_sha256": "2e3eb522f030e6c3ef9fab85549ff2bac2a23e91d57f9dc0c3b8b0de422535f2",
+    "source_sha256": "1e31fad3974f14692681af13854290565c8ff88bd08b93862bbd20ac86ca7af0",
+    "model_code_sha256": "deb994922f4d0840e8f3c0d9413c669618c8862877e4aa737878a0a7f6cc61f4",
+    "verifier_sha256": "a1d9bfbcfd2b35df2e3c94ebca62dd15c50c4794fd1923c0bcca3eb9243cf447",
+    "limitations": [
+      "No independent reacquisition or legal boundary proof; documented source code/year fields checked against frozen panel.",
+      "Both years were already observed; this is not temporal validation or causal identification.",
+      "Bootstrap resamples regions for fixed OOF errors; models are not refitted in the bootstrap.",
+      "Worker ratios refer to covered organizations excluding small businesses, not all resident employment.",
+      "Partial correlations and the price branch are outside this numerical model verification."
+    ],
+    "checks": [
+      {
+        "check": "frozen_design_constants",
+        "status": "PASS"
+      },
+      {
+        "check": "manifest_hashes",
+        "status": "PASS",
+        "output_mismatches": [],
+        "input_mismatches": []
+      },
+      {
+        "check": "frozen_keys",
+        "status": "PASS",
+        "rows": 4032
+      },
+      {
+        "check": "model_panel_keys",
+        "status": "PASS",
+        "rows": 4032
+      },
+      {
+        "check": "features_keys",
+        "status": "PASS",
+        "rows": 4032
+      },
+      {
+        "check": "selected_feature_keys",
+        "status": "PASS"
+      },
+      {
+        "check": "root_agent_feature_implementations_agree",
+        "status": "PASS",
+        "cells": 32256,
+        "max_abs_error": 0.0,
+        "agent_feature_sha256": "b8d11bd3ae22d73beb29b8c558782bbcff484502a6d7c453066cb56be4f63d48"
+      },
+      {
+        "check": "all_frozen_panel_fields_preserved",
+        "status": "PASS",
+        "mismatches": {}
+      },
+      {
+        "check": "frozen_masks",
+        "status": "PASS",
+        "core": {
+          "2023": 1975,
+          "2024": 1998
+        },
+        "conservative": {
+          "2023": 1897,
+          "2024": 1930
+        }
+      },
+      {
+        "check": "new_totals_do_not_expand_sample",
+        "status": "PASS"
+      },
+      {
+        "check": "source_documented_official_code_year",
+        "status": "PASS",
+        "source_rows": 162210,
+        "conflicts": 0
+      },
+      {
+        "check": "worker_source_unit_and_annual_period",
+        "status": "PASS",
+        "rows": 80950
+      },
+      {
+        "check": "worker_activity_key_unique",
+        "status": "PASS"
+      },
+      {
+        "check": "eligible_official_denominators",
+        "status": "PASS",
+        "checked": 3973
+      },
+      {
+        "check": "source_ratio_A",
+        "status": "PASS",
+        "max_abs_error": 9.86623976961809e-17,
+        "observed": 2105,
+        "missing": 1927
+      },
+      {
+        "check": "missing_flag_A",
+        "status": "PASS"
+      },
+      {
+        "check": "source_ratio_B",
+        "status": "PASS",
+        "max_abs_error": 9.8879238130678e-17,
+        "observed": 624,
+        "missing": 3408
+      },
+      {
+        "check": "missing_flag_B",
+        "status": "PASS"
+      },
+      {
+        "check": "source_ratio_C",
+        "status": "PASS",
+        "max_abs_error": 9.80118763926896e-17,
+        "observed": 2234,
+        "missing": 1798
+      },
+      {
+        "check": "missing_flag_C",
+        "status": "PASS"
+      },
+      {
+        "check": "source_ratio_D",
+        "status": "PASS",
+        "max_abs_error": 9.93129189996722e-17,
+        "observed": 2822,
+        "missing": 1210
+      },
+      {
+        "check": "missing_flag_D",
+        "status": "PASS"
+      },
+      {
+        "check": "source_ratio_H",
+        "status": "PASS",
+        "max_abs_error": 9.8879238130678e-17,
+        "observed": 2936,
+        "missing": 1096
+      },
+      {
+        "check": "missing_flag_H",
+        "status": "PASS"
+      },
+      {
+        "check": "source_ratio_O",
+        "status": "PASS",
+        "max_abs_error": 9.8879238130678e-17,
+        "observed": 3895,
+        "missing": 137
+      },
+      {
+        "check": "missing_flag_O",
+        "status": "PASS"
+      },
+      {
+        "check": "source_ratio_P",
+        "status": "PASS",
+        "max_abs_error": 9.71445146547012e-17,
+        "observed": 3991,
+        "missing": 41
+      },
+      {
+        "check": "missing_flag_P",
+        "status": "PASS"
+      },
+      {
+        "check": "source_ratio_Q",
+        "status": "PASS",
+        "max_abs_error": 9.80118763926896e-17,
+        "observed": 3568,
+        "missing": 464
+      },
+      {
+        "check": "missing_flag_Q",
+        "status": "PASS"
+      },
+      {
+        "check": "selected_sector_count",
+        "status": "PASS"
+      },
+      {
+        "check": "unique_oof_key",
+        "status": "PASS",
+        "rows": 80150
+      },
+      {
+        "check": "finite_oof",
+        "status": "PASS"
+      },
+      {
+        "check": "all_predeclared_model_groups_present",
+        "status": "PASS",
+        "expected": 52,
+        "actual": 52
+      },
+      {
+        "check": "preprocessing_records_unique",
+        "status": "PASS"
+      },
+      {
+        "check": "oof_exact_sample_coverage",
+        "status": "PASS",
+        "model_groups": 52,
+        "failures": []
+      },
+      {
+        "check": "oof_targets_rebuilt_from_frozen_panel",
+        "status": "PASS",
+        "failures": []
+      },
+      {
+        "check": "paired_folds_and_region_separation",
+        "status": "PASS",
+        "split_groups": 16,
+        "failures": []
+      },
+      {
+        "check": "frozen_economic_oof_replicated",
+        "status": "PASS",
+        "max_abs_error": 5.329070518200751e-15
+      },
+      {
+        "check": "all_training_preprocessing_recomputed",
+        "status": "PASS",
+        "records": 260,
+        "failures": [],
+        "train_empty": []
+      },
+      {
+        "check": "direct_numpy_ridge_refits",
+        "status": "PASS",
+        "refits": [
+          {
+            "label": [
+              2023,
+              "core",
+              "heldout_regions",
+              13,
+              "economic"
+            ],
+            "fold": 0,
+            "train_n": 1579,
+            "test_n": 396,
+            "max_abs_error": 1.7763568394002505e-15
+          },
+          {
+            "label": [
+              2023,
+              "core",
+              "heldout_regions",
+              13,
+              "economic"
+            ],
+            "fold": 4,
+            "train_n": 1580,
+            "test_n": 395,
+            "max_abs_error": 1.7763568394002505e-15
+          },
+          {
+            "label": [
+              2023,
+              "core",
+              "heldout_regions",
+              13,
+              "economic_sectors"
+            ],
+            "fold": 0,
+            "train_n": 1579,
+            "test_n": 396,
+            "max_abs_error": 2.6645352591003757e-15
+          },
+          {
+            "label": [
+              2023,
+              "core",
+              "heldout_regions",
+              13,
+              "economic_sectors"
+            ],
+            "fold": 4,
+            "train_n": 1580,
+            "test_n": 395,
+            "max_abs_error": 1.7763568394002505e-15
+          },
+          {
+            "label": [
+              2023,
+              "core",
+              "within_region",
+              13,
+              "economic"
+            ],
+            "fold": 0,
+            "train_n": 1585,
+            "test_n": 390,
+            "max_abs_error": 3.552713678800501e-15
+          },
+          {
+            "label": [
+              2023,
+              "core",
+              "within_region",
+              13,
+              "economic"
+            ],
+            "fold": 4,
+            "train_n": 1588,
+            "test_n": 387,
+            "max_abs_error": 5.329070518200751e-15
+          },
+          {
+            "label": [
+              2023,
+              "core",
+              "within_region",
+              13,
+              "economic_sectors"
+            ],
+            "fold": 0,
+            "train_n": 1585,
+            "test_n": 390,
+            "max_abs_error": 1.0436096431476471e-14
+          },
+          {
+            "label": [
+              2023,
+              "core",
+              "within_region",
+              13,
+              "economic_sectors"
+            ],
+            "fold": 4,
+            "train_n": 1588,
+            "test_n": 387,
+            "max_abs_error": 1.3655743202889425e-14
+          },
+          {
+            "label": [
+              2024,
+              "core",
+              "heldout_regions",
+              13,
+              "economic"
+            ],
+            "fold": 0,
+            "train_n": 1598,
+            "test_n": 400,
+            "max_abs_error": 1.7763568394002505e-15
+          },
+          {
+            "label": [
+              2024,
+              "core",
+              "heldout_regions",
+              13,
+              "economic"
+            ],
+            "fold": 4,
+            "train_n": 1599,
+            "test_n": 399,
+            "max_abs_error": 1.7763568394002505e-15
+          },
+          {
+            "label": [
+              2024,
+              "core",
+              "heldout_regions",
+              13,
+              "economic_sectors"
+            ],
+            "fold": 0,
+            "train_n": 1598,
+            "test_n": 400,
+            "max_abs_error": 3.552713678800501e-15
+          },
+          {
+            "label": [
+              2024,
+              "core",
+              "heldout_regions",
+              13,
+              "economic_sectors"
+            ],
+            "fold": 4,
+            "train_n": 1599,
+            "test_n": 399,
+            "max_abs_error": 1.7763568394002505e-15
+          },
+          {
+            "label": [
+              2024,
+              "core",
+              "within_region",
+              13,
+              "economic"
+            ],
+            "fold": 0,
+            "train_n": 1600,
+            "test_n": 398,
+            "max_abs_error": 5.551115123125783e-15
+          },
+          {
+            "label": [
+              2024,
+              "core",
+              "within_region",
+              13,
+              "economic"
+            ],
+            "fold": 4,
+            "train_n": 1600,
+            "test_n": 398,
+            "max_abs_error": 7.327471962526033e-15
+          },
+          {
+            "label": [
+              2024,
+              "core",
+              "within_region",
+              13,
+              "economic_sectors"
+            ],
+            "fold": 0,
+            "train_n": 1600,
+            "test_n": 398,
+            "max_abs_error": 1.0547118733938987e-14
+          },
+          {
+            "label": [
+              2024,
+              "core",
+              "within_region",
+              13,
+              "economic_sectors"
+            ],
+            "fold": 4,
+            "train_n": 1600,
+            "test_n": 398,
+            "max_abs_error": 1.4654943925052066e-14
+          }
+        ]
+      },
+      {
+        "check": "all_oof_metrics",
+        "status": "PASS",
+        "rows": 104,
+        "failures": []
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_within_region_13_economic_economic_missingness_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_within_region_13_economic_economic_missingness_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_within_region_13_economic_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_within_region_13_economic_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_within_region_13_economic_missingness_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_within_region_13_economic_missingness_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_within_region_13_economic_missingness_permuted_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_within_region_13_economic_missingness_permuted_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_within_region_29_economic_economic_missingness_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_within_region_29_economic_economic_missingness_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_within_region_29_economic_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_within_region_29_economic_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_within_region_29_economic_missingness_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_within_region_29_economic_missingness_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_within_region_47_economic_economic_missingness_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_within_region_47_economic_economic_missingness_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_within_region_47_economic_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_within_region_47_economic_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_within_region_47_economic_missingness_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_within_region_47_economic_missingness_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_heldout_regions_13_economic_economic_missingness_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_heldout_regions_13_economic_economic_missingness_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_heldout_regions_13_economic_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_heldout_regions_13_economic_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_heldout_regions_13_economic_missingness_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_heldout_regions_13_economic_missingness_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_heldout_regions_13_economic_missingness_permuted_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_core_heldout_regions_13_economic_missingness_permuted_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_stable_code_within_region_13_economic_economic_missingness_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_stable_code_within_region_13_economic_economic_missingness_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_stable_code_within_region_13_economic_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_stable_code_within_region_13_economic_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_stable_code_within_region_13_economic_missingness_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_stable_code_within_region_13_economic_missingness_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_stable_code_heldout_regions_13_economic_economic_missingness_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_stable_code_heldout_regions_13_economic_economic_missingness_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_stable_code_heldout_regions_13_economic_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_stable_code_heldout_regions_13_economic_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_stable_code_heldout_regions_13_economic_missingness_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_stable_code_heldout_regions_13_economic_missingness_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_complete_sectors_within_region_13_economic_economic_missingness_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_complete_sectors_within_region_13_economic_economic_missingness_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_complete_sectors_within_region_13_economic_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_complete_sectors_within_region_13_economic_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_complete_sectors_within_region_13_economic_missingness_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_complete_sectors_within_region_13_economic_missingness_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_complete_sectors_heldout_regions_13_economic_economic_missingness_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_complete_sectors_heldout_regions_13_economic_economic_missingness_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_complete_sectors_heldout_regions_13_economic_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_complete_sectors_heldout_regions_13_economic_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_complete_sectors_heldout_regions_13_economic_missingness_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2023_complete_sectors_heldout_regions_13_economic_missingness_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_within_region_13_economic_economic_missingness_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_within_region_13_economic_economic_missingness_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_within_region_13_economic_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_within_region_13_economic_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_within_region_13_economic_missingness_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_within_region_13_economic_missingness_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_within_region_13_economic_missingness_permuted_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_within_region_13_economic_missingness_permuted_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_within_region_29_economic_economic_missingness_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_within_region_29_economic_economic_missingness_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_within_region_29_economic_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_within_region_29_economic_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_within_region_29_economic_missingness_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_within_region_29_economic_missingness_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_within_region_47_economic_economic_missingness_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_within_region_47_economic_economic_missingness_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_within_region_47_economic_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_within_region_47_economic_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_within_region_47_economic_missingness_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_within_region_47_economic_missingness_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_heldout_regions_13_economic_economic_missingness_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_heldout_regions_13_economic_economic_missingness_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_heldout_regions_13_economic_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_heldout_regions_13_economic_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_heldout_regions_13_economic_missingness_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_heldout_regions_13_economic_missingness_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_heldout_regions_13_economic_missingness_permuted_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_core_heldout_regions_13_economic_missingness_permuted_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_stable_code_within_region_13_economic_economic_missingness_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_stable_code_within_region_13_economic_economic_missingness_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_stable_code_within_region_13_economic_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_stable_code_within_region_13_economic_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_stable_code_within_region_13_economic_missingness_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_stable_code_within_region_13_economic_missingness_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_stable_code_heldout_regions_13_economic_economic_missingness_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_stable_code_heldout_regions_13_economic_economic_missingness_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_stable_code_heldout_regions_13_economic_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_stable_code_heldout_regions_13_economic_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_stable_code_heldout_regions_13_economic_missingness_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_stable_code_heldout_regions_13_economic_missingness_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_complete_sectors_within_region_13_economic_economic_missingness_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_complete_sectors_within_region_13_economic_economic_missingness_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_complete_sectors_within_region_13_economic_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_complete_sectors_within_region_13_economic_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_complete_sectors_within_region_13_economic_missingness_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_complete_sectors_within_region_13_economic_missingness_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_complete_sectors_heldout_regions_13_economic_economic_missingness_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_complete_sectors_heldout_regions_13_economic_economic_missingness_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_complete_sectors_heldout_regions_13_economic_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_complete_sectors_heldout_regions_13_economic_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_complete_sectors_heldout_regions_13_economic_missingness_economic_sectors_log_total",
+        "status": "PASS"
+      },
+      {
+        "check": "comparison_pair_identity_2024_complete_sectors_heldout_regions_13_economic_missingness_economic_sectors_profile_clr",
+        "status": "PASS"
+      },
+      {
+        "check": "all_paired_fixed_oof_region_bootstraps",
+        "status": "PASS",
+        "rows": 104,
+        "repetitions": 2000,
+        "seed": 13,
+        "failures": []
+      }
+    ],
+    "verified_at_utc": "2026-09-15T12:17:39.395467+00:00",
+    "passed": 147,
+    "failed": 0
+  },
+  "prohibited_claims": [
+    "causal effect of sector composition",
+    "independent temporal validation",
+    "all-resident employment shares",
+    "complete municipal sector composition",
+    "confidence interval covering model training and selection uncertainty"
+  ]
+}

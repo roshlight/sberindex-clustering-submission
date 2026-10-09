@@ -1,0 +1,135 @@
+year,region_code,region,unmatched_reason,legal_kind,source_rows
+2023,04,Республика Алтай,source_null,legal_entity,2
+2023,05,Республика Дагестан,valid_syntax_not_in_june2026,IP,97
+2023,05,Республика Дагестан,valid_syntax_not_in_june2026,legal_entity,50
+2023,07,Кабардино-Балкарская республика,valid_syntax_not_in_june2026,IP,68
+2023,07,Кабардино-Балкарская республика,valid_syntax_not_in_june2026,legal_entity,14
+2023,15,Республика Северная Осетия - Алания,valid_syntax_not_in_june2026,IP,122
+2023,15,Республика Северная Осетия - Алания,valid_syntax_not_in_june2026,legal_entity,16
+2023,18,Удмуртская республика,source_null,legal_entity,1
+2023,21,Чувашская республика - Чувашия,source_null,IP,5
+2023,22,Алтайский край,valid_syntax_not_in_june2026,IP,27
+2023,22,Алтайский край,valid_syntax_not_in_june2026,legal_entity,4
+2023,24,Красноярский край,source_null,IP,139
+2023,24,Красноярский край,source_null,legal_entity,91
+2023,28,Амурская область,valid_syntax_not_in_june2026,IP,169
+2023,28,Амурская область,valid_syntax_not_in_june2026,legal_entity,56
+2023,29,Архангельская область,source_null,IP,1
+2023,31,Белгородская область,valid_syntax_not_in_june2026,IP,60
+2023,31,Белгородская область,valid_syntax_not_in_june2026,legal_entity,6
+2023,33,Владимирская область,source_null,IP,46
+2023,33,Владимирская область,source_null,legal_entity,12
+2023,33,Владимирская область,valid_syntax_not_in_june2026,IP,18
+2023,33,Владимирская область,valid_syntax_not_in_june2026,legal_entity,1
+2023,35,Вологодская область,source_null,IP,16
+2023,35,Вологодская область,source_null,legal_entity,2
+2023,35,Вологодская область,valid_syntax_not_in_june2026,IP,2
+2023,35,Вологодская область,valid_syntax_not_in_june2026,legal_entity,1
+2023,38,Иркутская область,valid_syntax_not_in_june2026,IP,28
+2023,38,Иркутская область,valid_syntax_not_in_june2026,legal_entity,5
+2023,40,Калужская область,source_null,legal_entity,1
+2023,40,Калужская область,valid_syntax_not_in_june2026,IP,155
+2023,40,Калужская область,valid_syntax_not_in_june2026,legal_entity,72
+2023,41,Камчатский край,source_null,IP,13
+2023,41,Камчатский край,source_null,legal_entity,1
+2023,43,Кировская область,source_null,legal_entity,1
+2023,43,Кировская область,valid_syntax_not_in_june2026,IP,3
+2023,43,Кировская область,valid_syntax_not_in_june2026,legal_entity,1
+2023,44,Костромская область,valid_syntax_not_in_june2026,IP,3
+2023,47,Ленинградская область,source_null,IP,44
+2023,47,Ленинградская область,source_null,legal_entity,18
+2023,47,Ленинградская область,valid_syntax_not_in_june2026,IP,43
+2023,47,Ленинградская область,valid_syntax_not_in_june2026,legal_entity,4
+2023,48,Липецкая область,valid_syntax_not_in_june2026,IP,1
+2023,48,Липецкая область,valid_syntax_not_in_june2026,legal_entity,1
+2023,50,Московская область,source_null,IP,1
+2023,50,Московская область,source_null,legal_entity,79
+2023,53,Новгородская область,source_null,IP,1
+2023,53,Новгородская область,source_null,legal_entity,1
+2023,56,Оренбургская область,source_null,IP,18
+2023,56,Оренбургская область,source_null,legal_entity,1
+2023,56,Оренбургская область,valid_syntax_not_in_june2026,IP,88
+2023,56,Оренбургская область,valid_syntax_not_in_june2026,legal_entity,20
+2023,57,Орловская область,source_null,IP,1
+2023,57,Орловская область,source_null,legal_entity,90
+2023,58,Пензенская область,valid_syntax_not_in_june2026,legal_entity,4
+2023,64,Саратовская область,source_null,IP,5
+2023,64,Саратовская область,source_null,legal_entity,5
+2023,66,Свердловская область,valid_syntax_not_in_june2026,IP,65
+2023,66,Свердловская область,valid_syntax_not_in_june2026,legal_entity,4
+2023,69,Тверская область,source_null,IP,94
+2023,69,Тверская область,source_null,legal_entity,18
+2023,69,Тверская область,valid_syntax_not_in_june2026,IP,485
+2023,69,Тверская область,valid_syntax_not_in_june2026,legal_entity,233
+2023,71,Тульская область,valid_syntax_not_in_june2026,IP,1
+2023,74,Челябинская область,valid_syntax_not_in_june2026,IP,2
+2023,75,Забайкальский край,source_null,IP,10
+2023,76,Ярославская область,valid_syntax_not_in_june2026,IP,5
+2023,76,Ярославская область,valid_syntax_not_in_june2026,legal_entity,2
+2023,86,Ханты-Мансийский автономный округ - Югра,valid_syntax_not_in_june2026,IP,30
+2023,86,Ханты-Мансийский автономный округ - Югра,valid_syntax_not_in_june2026,legal_entity,116
+2023,99,"Иные территории, включая город и космодром Байконур",source_null,IP,616
+2023,99,"Иные территории, включая город и космодром Байконур",source_null,legal_entity,202
+2024,04,Республика Алтай,source_null,legal_entity,4
+2024,05,Республика Дагестан,valid_syntax_not_in_june2026,IP,128
+2024,05,Республика Дагестан,valid_syntax_not_in_june2026,legal_entity,54
+2024,07,Кабардино-Балкарская республика,valid_syntax_not_in_june2026,IP,67
+2024,07,Кабардино-Балкарская республика,valid_syntax_not_in_june2026,legal_entity,16
+2024,10,Республика Карелия,valid_syntax_not_in_june2026,IP,4
+2024,15,Республика Северная Осетия - Алания,valid_syntax_not_in_june2026,IP,94
+2024,15,Республика Северная Осетия - Алания,valid_syntax_not_in_june2026,legal_entity,12
+2024,21,Чувашская республика - Чувашия,source_null,IP,3
+2024,22,Алтайский край,valid_syntax_not_in_june2026,IP,28
+2024,22,Алтайский край,valid_syntax_not_in_june2026,legal_entity,6
+2024,24,Красноярский край,source_null,IP,155
+2024,24,Красноярский край,source_null,legal_entity,72
+2024,28,Амурская область,valid_syntax_not_in_june2026,IP,147
+2024,28,Амурская область,valid_syntax_not_in_june2026,legal_entity,48
+2024,31,Белгородская область,valid_syntax_not_in_june2026,IP,162
+2024,31,Белгородская область,valid_syntax_not_in_june2026,legal_entity,13
+2024,33,Владимирская область,source_null,IP,148
+2024,33,Владимирская область,source_null,legal_entity,33
+2024,33,Владимирская область,valid_syntax_not_in_june2026,IP,40
+2024,33,Владимирская область,valid_syntax_not_in_june2026,legal_entity,7
+2024,35,Вологодская область,source_null,IP,9
+2024,35,Вологодская область,valid_syntax_not_in_june2026,IP,1
+2024,38,Иркутская область,valid_syntax_not_in_june2026,IP,29
+2024,38,Иркутская область,valid_syntax_not_in_june2026,legal_entity,7
+2024,40,Калужская область,valid_syntax_not_in_june2026,IP,211
+2024,40,Калужская область,valid_syntax_not_in_june2026,legal_entity,75
+2024,41,Камчатский край,source_null,IP,12
+2024,41,Камчатский край,source_null,legal_entity,1
+2024,43,Кировская область,source_null,legal_entity,1
+2024,43,Кировская область,valid_syntax_not_in_june2026,IP,10
+2024,43,Кировская область,valid_syntax_not_in_june2026,legal_entity,3
+2024,44,Костромская область,valid_syntax_not_in_june2026,IP,11
+2024,44,Костромская область,valid_syntax_not_in_june2026,legal_entity,2
+2024,47,Ленинградская область,source_null,IP,55
+2024,47,Ленинградская область,source_null,legal_entity,15
+2024,47,Ленинградская область,valid_syntax_not_in_june2026,IP,59
+2024,47,Ленинградская область,valid_syntax_not_in_june2026,legal_entity,7
+2024,48,Липецкая область,valid_syntax_not_in_june2026,IP,1
+2024,48,Липецкая область,valid_syntax_not_in_june2026,legal_entity,1
+2024,50,Московская область,source_null,IP,1
+2024,50,Московская область,source_null,legal_entity,4
+2024,56,Оренбургская область,source_null,IP,14
+2024,56,Оренбургская область,valid_syntax_not_in_june2026,IP,96
+2024,56,Оренбургская область,valid_syntax_not_in_june2026,legal_entity,22
+2024,57,Орловская область,source_null,legal_entity,5
+2024,58,Пензенская область,valid_syntax_not_in_june2026,legal_entity,4
+2024,64,Саратовская область,source_null,legal_entity,2
+2024,66,Свердловская область,valid_syntax_not_in_june2026,IP,63
+2024,66,Свердловская область,valid_syntax_not_in_june2026,legal_entity,3
+2024,69,Тверская область,source_null,IP,44
+2024,69,Тверская область,source_null,legal_entity,6
+2024,69,Тверская область,valid_syntax_not_in_june2026,IP,135
+2024,69,Тверская область,valid_syntax_not_in_june2026,legal_entity,50
+2024,71,Тульская область,valid_syntax_not_in_june2026,IP,3
+2024,71,Тульская область,valid_syntax_not_in_june2026,legal_entity,2
+2024,75,Забайкальский край,source_null,IP,31
+2024,76,Ярославская область,valid_syntax_not_in_june2026,IP,10
+2024,76,Ярославская область,valid_syntax_not_in_june2026,legal_entity,2
+2024,86,Ханты-Мансийский автономный округ - Югра,valid_syntax_not_in_june2026,IP,26
+2024,86,Ханты-Мансийский автономный округ - Югра,valid_syntax_not_in_june2026,legal_entity,101
+2024,99,"Иные территории, включая город и космодром Байконур",source_null,IP,573
+2024,99,"Иные территории, включая город и космодром Байконур",source_null,legal_entity,191

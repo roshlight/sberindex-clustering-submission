@@ -1,0 +1,9 @@
+year,sample,regime,seed,comparison,baseline,alternative,target,n,regions,relative_mse_reduction,ci_low,ci_high
+2023,core,within_region,13,primary,new_flags,recovered_full,profile_clr,1975,72,0.0005762373214142,-0.0038252592963189,0.0042297967278544
+2023,core,heldout_regions,13,primary,new_flags,recovered_full,profile_clr,1975,72,-0.004956298478947,-0.0278209032659165,0.0152656454374592
+2023,stable_code,within_region,13,primary,new_flags,recovered_full,profile_clr,1897,72,-0.0010320155261482,-0.0056926225094028,0.002995015365486
+2023,stable_code,heldout_regions,13,primary,new_flags,recovered_full,profile_clr,1897,72,6.6801108385528e-05,-0.0219063616765324,0.0195427551596604
+2024,core,within_region,13,primary,new_flags,recovered_full,profile_clr,1998,73,0.00118651798713,-0.0033438335484585,0.0058230481700342
+2024,core,heldout_regions,13,primary,new_flags,recovered_full,profile_clr,1998,73,-0.0037007411062008,-0.0108974746794137,0.0041400527836092
+2024,stable_code,within_region,13,primary,new_flags,recovered_full,profile_clr,1930,73,-0.000347516682176,-0.0052472844631638,0.0048311214457322
+2024,stable_code,heldout_regions,13,primary,new_flags,recovered_full,profile_clr,1930,73,-0.0022483991507058,-0.0105816038963511,0.0064399884389683

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "archives_verified": 2,
+  "members_crc_sha_verified": 4,
+  "streamed_uncompressed_bytes": 944355942,
+  "created": [],
+  "existing_unchanged": [
+    "extracted/2023/entire/data_sme_153_entire_year_2023_v20260605.parquet",
+    "extracted/2023/filtered/data_sme_153_filtered_year_2023_v20260605.parquet",
+    "extracted/2024/entire/data_sme_153_entire_year_2024_v20260605.parquet",
+    "extracted/2024/filtered/data_sme_153_filtered_year_2024_v20260605.parquet"
+  ],
+  "retrievals_sha256_unchanged": "0161c81f002776fd59b9f1bd51e8f2218f71916107eb5fbfe20830d36e4a1111",
+  "metadata_written": false,
+  "network_requests": 0
+}

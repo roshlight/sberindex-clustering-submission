@@ -1,0 +1,62 @@
+{
+  "status": "complete",
+  "no_model_fitting": true,
+  "months": [
+    "2023-01",
+    "2023-02",
+    "2023-03",
+    "2023-04",
+    "2023-05",
+    "2023-06",
+    "2023-07",
+    "2023-08",
+    "2023-09",
+    "2023-10",
+    "2023-11",
+    "2023-12",
+    "2024-01",
+    "2024-02",
+    "2024-03",
+    "2024-04",
+    "2024-05",
+    "2024-06",
+    "2024-07",
+    "2024-08",
+    "2024-09",
+    "2024-10",
+    "2024-11",
+    "2024-12"
+  ],
+  "years": [
+    "2023",
+    "2024"
+  ],
+  "n_territories": 2016,
+  "n_assignments": 193536,
+  "n_primary_entity_months": 48384,
+  "n_strong_entity_months": 66,
+  "strong_share_of_all": 0.0013640873015873015,
+  "agreement_threshold": 0.8,
+  "co_membership_threshold": 0.8,
+  "core_variants": 21,
+  "primary_transition_counts": [
+    {
+      "lag": 1,
+      "n_entity_pairs": 46368,
+      "n_month_pairs": 23,
+      "n_switched": 18008,
+      "n_assessed": 46368,
+      "n_robust_switches": 0
+    },
+    {
+      "lag": 12,
+      "n_entity_pairs": 24192,
+      "n_month_pairs": 12,
+      "n_switched": 11018,
+      "n_assessed": 24192,
+      "n_robust_switches": 0
+    }
+  ],
+  "scope": "Retrospective procedural stability; no forecast, causal or economic-class claim",
+  "aggregation": "Month/variant medians and extrema; counts exclude undefined values. No composite ranking."
+}

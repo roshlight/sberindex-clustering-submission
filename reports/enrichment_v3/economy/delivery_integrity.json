@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "copied_source_and_panel_hashes": {
+    "source\\annual_code_reference_links.csv": "9310bdcb227c44cc95e92bfcba69a8298066395fc1767a226fe9902210910a8d",
+    "source\\economy_source.csv": "62c76b4b71ceac4cdb2237748f5a4caa952481b3b5c13cf2a35ca01da4ec64e4",
+    "source\\target_status.csv": "1eaeaf150956401b84c75c2f5b3c3d61d8d3f361ebe4b4f9dc6ab8826a29d0cf",
+    "source\\economy_source.parquet": "79956db1a8880f0c7f4640d9736148047664747824235454a866d89e58060c36",
+    "annual_candidates\\annual_candidate_panel.parquet": "53efd79904ade5728052c7d133b912dfc4279aa036e39bc0c601dab74284b174",
+    "annual_candidates\\annual_candidate_panel.csv": "c1d0bbeaaf742e14417d7d7d168764c060bb6c01199481a850a7eea3b6359bd4",
+    "annual_candidates\\annual_coverage.csv": "42db80935dc6ec9b844ac69e0de8955fdc9adf5e5dd77c54f54ae4f2ec40296a",
+    "annual_candidates\\annual_gaps.csv": "fd2cbf01227d6488c5d4ac162717717d5429b605005337281eb60eb65a497cfe"
+  },
+  "checked_at": "2026-09-14T23:04:57.438619+00:00",
+  "script_sha256": "cdfb1b797178e3ea93d6f7bd33efc9b8d51b02bba8aa8876a3e968e487919358"
+}

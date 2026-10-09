@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-09-14T22:56:22.623198+00:00",
+  "read_only_source_review": true,
+  "all_checked_numeric_values_match_source": true,
+  "no_fabricated_municipal_city_join": true,
+  "source_hashes_verified": 10,
+  "output_hashes_verified": 6,
+  "source_cell_checks": {
+    "cpi_monthly_2023_2024.csv": {
+      "rows": 9216,
+      "source_cells_equal": true,
+      "source_hashes_equal": true,
+      "date_headers_checked": true
+    },
+    "city_cost_of_living_2023_2024.csv": {
+      "rows": 594,
+      "source_cells_equal": true,
+      "source_hashes_equal": true,
+      "date_headers_checked": true
+    },
+    "fixed_basket_regional_2024.csv": {
+      "rows": 1152,
+      "source_cells_equal": true,
+      "source_hashes_equal": true,
+      "date_headers_checked": true
+    },
+    "cpi_annual_reconciliation.csv": {
+      "rows": 168,
+      "source_cells_equal": true,
+      "source_hashes_equal": true,
+      "date_headers_checked": false
+    }
+  },
+  "cpi_distinct_territories": 96,
+  "cpi_territorial_levels": {
+    "country": 1,
+    "federal_district": 8,
+    "region": 85,
+    "composite_region_including_autonomous_okrugs": 2
+  },
+  "region_bridge_rows": 85,
+  "municipal_region_links": 4032,
+  "municipal_ids": 2016,
+  "cohort_regions": 73,
+  "nested_autonomous_okrugs_separated": {
+    "29": "11001000",
+    "72": "71001000",
+    "83": "11100000",
+    "86": "71100000",
+    "89": "71140000"
+  },
+  "city_observed_cells": 561,
+  "city_output_missing_cells": 31,
+  "annual_reconciliation_rows": 168,
+  "annual_max_abs_difference_pp": 0.02454075718564752,
+  "findings": [],
+  "limitations": [
+    "2026 snapshot is retrospective, not evidence of feature availability in 2023/2024.",
+    "Regional price links remain regional context and do not create municipal price observations.",
+    "Frozen experiment unchanged."
+  ]
+}

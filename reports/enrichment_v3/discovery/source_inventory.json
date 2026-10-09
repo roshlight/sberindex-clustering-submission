@@ -1,0 +1,1829 @@
+[
+  {
+    "source_id": "017839e9617149687b30",
+    "url": "https://rosstat.gov.ru/storage/mediabank/ind_vtor_4kv-2022.xlsx",
+    "title": " XLSX",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-14T22:30:18.491792+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/ind_vtor_4kv-2022.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "ec8fed8a5d0e4ac50781cdd8966a9ef6331a24273b727890610010fbca4c1cd9",
+    "error": null,
+    "raw_file": "raw/017839e9617149687b30.bin",
+    "raw_bytes": 78679,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/017839e9617149687b30.txt",
+    "text_sha256": "085da790e65b2be48e5e8375caad31be357e2cac5801ffab46439a017dde8baa",
+    "text_chars": 13219
+  },
+  {
+    "source_id": "01bc107570a69fea930c",
+    "url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2024.xlsx",
+    "title": "на 1 января 2024 года",
+    "need_ids": [
+      "municipal_wages_employment"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "d760dce12fe8a045486e"
+    ],
+    "fetched_at": "2026-09-14T22:30:18.443206+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2024.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "62ec8010202bd0c496387dbe6a22c9c3c458afa6fa64c6db1a2339f2824ffea3",
+    "error": null,
+    "raw_file": "raw/01bc107570a69fea930c.bin",
+    "raw_bytes": 21817,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/01bc107570a69fea930c.txt",
+    "text_sha256": "5ef9554212f6fd4132e81c3d742be4feadc4ede0fd2da16a87650488ff9bc85e",
+    "text_chars": 2894
+  },
+  {
+    "source_id": "0566506389bd9afecc05",
+    "url": "https://rosstat.gov.ru/storage/mediabank/CPR_Gr-Tov-RF_2001-2026.xlsx",
+    "title": " XLSX",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-14T22:30:19.493595+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/CPR_Gr-Tov-RF_2001-2026.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "1a16b03ae96130506318b23f67060d01e57d099b7edc090ef4101010e7112627",
+    "error": null,
+    "raw_file": "raw/0566506389bd9afecc05.bin",
+    "raw_bytes": 559369,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/0566506389bd9afecc05.txt",
+    "text_sha256": "ba2d701560f4b43daefe638cb587e4f4eab8f00482dc0fe7296abc6b8a031032",
+    "text_chars": 19667
+  },
+  {
+    "source_id": "0714e84e7dd0ea246404",
+    "url": "https://rosstat.gov.ru/storage/mediabank/mun_obr2020.rar",
+    "title": " RAR",
+    "need_ids": [
+      "municipal_population"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "0a9082b9ae954c6cf826"
+    ],
+    "fetched_at": "2026-09-14T22:30:20.096776+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/mun_obr2020.rar",
+    "status": 200,
+    "content_type": "application/x-rar-compressed",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "22b04f40502a257adb0db1fe9537d17bc064bbdbb4e7195ee5650be2a1bd32fa",
+    "error": null,
+    "raw_file": "raw/0714e84e7dd0ea246404.bin",
+    "raw_bytes": 1916560,
+    "kind": "binary",
+    "links": [],
+    "truncated": false,
+    "text_file": "text/0714e84e7dd0ea246404.txt",
+    "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_chars": 0
+  },
+  {
+    "source_id": "076785fba5c384ef52d4",
+    "url": "https://rosstat.gov.ru/storage/mediabank/ind_vtor_4kv-2025.xlsx",
+    "title": " XLSX",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-14T22:30:20.585237+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/ind_vtor_4kv-2025.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "f40deff1e8b3333173b21d49b54afce14582223001c2c9a90586ac7e0c2e2f7d",
+    "error": null,
+    "raw_file": "raw/076785fba5c384ef52d4.bin",
+    "raw_bytes": 80573,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/076785fba5c384ef52d4.txt",
+    "text_sha256": "90889d0363c79abb355d6e320b9900aa9ded1ea270de57abbc1c083e7455606d",
+    "text_chars": 13926
+  },
+  {
+    "source_id": "07f3231c7c2adcc5b69d",
+    "url": "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx",
+    "title": "Методология БДПМО 2024",
+    "need_ids": [
+      "municipal_wages_employment"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": true,
+    "authority_hint": "official",
+    "fetched_at": "2026-09-14T22:30:13.762905+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/bdmo_met2024.docx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "73bb0909bbc4a0b4ff1d19c0a5113b0bb59934cbbfb739544641ea2e5a7eadb3",
+    "error": null,
+    "raw_file": "raw/07f3231c7c2adcc5b69d.bin",
+    "raw_bytes": 162482,
+    "kind": "docx_main_text",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/07f3231c7c2adcc5b69d.txt",
+    "text_sha256": "fa36d76d2aecc8813cd652746f2db9643d2eb142f11b743398d3b12f19c1a215",
+    "text_chars": 100000
+  },
+  {
+    "source_id": "08530aa870496b0b0845",
+    "url": "https://rosstat.gov.ru/storage/mediabank/2017(1).xlsx",
+    "title": " XLSX",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-14T22:30:20.995595+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/2017(1).xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "761854097abe8a9be5b006c5868fc11e7b0fe3f8924b0074dd35e3cc493cf602",
+    "error": null,
+    "raw_file": "raw/08530aa870496b0b0845.bin",
+    "raw_bytes": 242002,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/08530aa870496b0b0845.txt",
+    "text_sha256": "abb124bee27a413d8f199682f4d6dd4dee13835f1fa91c934befa5288e3c215f",
+    "text_chars": 59347
+  },
+  {
+    "source_id": "08887cc57ce12eaec63f",
+    "url": "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+    "title": "Перечень показателей БДПМО 2024",
+    "need_ids": [
+      "municipal_wages_employment"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": true,
+    "authority_hint": "official",
+    "fetched_at": "2026-09-14T22:30:13.554922+00:00",
+    "final_url": "https://60.rosstat.gov.ru/storage/mediabank/SVOD240215_1.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "9f245a8e1a1cfad4565cfa6ad2980b4f4b8f8f6e61ac8beddd01d6fc92ca2501",
+    "error": null,
+    "raw_file": "raw/08887cc57ce12eaec63f.bin",
+    "raw_bytes": 565790,
+    "kind": "html",
+    "links": [],
+    "truncated": false,
+    "text_file": "text/08887cc57ce12eaec63f.txt",
+    "text_sha256": "07b3c67b2f110150f8bf01ad0cab0b259881d66c9f654317f89f1d37a73f5c45",
+    "text_chars": 45604
+  },
+  {
+    "source_id": "0a4694383d6f3a5c9bc5",
+    "url": "https://rosstat.gov.ru/storage/mediabank/BUL_MO_2023.xlsx",
+    "title": " XLSX",
+    "need_ids": [
+      "municipal_population"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "0a9082b9ae954c6cf826"
+    ],
+    "fetched_at": "2026-09-14T22:30:21.740185+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/BUL_MO_2023.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "9c2ce2e38712e33e357b25fe0a18241cd02eb1505f67be9753079806dd94adda",
+    "error": null,
+    "raw_file": "raw/0a4694383d6f3a5c9bc5.bin",
+    "raw_bytes": 1318101,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/0a4694383d6f3a5c9bc5.txt",
+    "text_sha256": "1478d6686ab6ec73e7abb633c0bf3bd7bdf3edc906ce4b0a1fb7f6c2a16dccf7",
+    "text_chars": 51223
+  },
+  {
+    "source_id": "0a9082b9ae954c6cf826",
+    "url": "https://rosstat.gov.ru/compendium/document/13282",
+    "title": "Муниципальное население",
+    "need_ids": [
+      "municipal_population"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": true,
+    "authority_hint": "official",
+    "fetched_at": "2026-09-14T22:30:14.798859+00:00",
+    "final_url": "https://rosstat.gov.ru/compendium/document/13282",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "d6ff9223993020be959595052c4eb5716ab2c3b67081d8ea68aa45fab5c7de5f",
+    "error": null,
+    "raw_file": "raw/0a9082b9ae954c6cf826.bin",
+    "raw_bytes": 747037,
+    "kind": "html",
+    "links": [
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/BUL_MO_2024.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/BUL_MO_2023.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Chisl_nasel_RF_MO_01-01-2022.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/mun_obr2021.rar",
+        "label": " RAR"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/mun_obr2020.rar",
+        "label": " RAR"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/mun_obr2019_348634.rar",
+        "label": " RAR"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/mun_obr2018_348638.rar",
+        "label": " RAR"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/mun_obr2017_348639.rar",
+        "label": " RAR"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/mun_obr2016_348637.rar",
+        "label": " RAR"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/mun_obr2015_348642.rar",
+        "label": " RAR"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/mun_obr2014_348647.rar",
+        "label": " RAR"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/mun_obr2013_348648.rar",
+        "label": " RAR"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/mun_obr2012_348649.rar",
+        "label": " RAR"
+      }
+    ],
+    "truncated": false,
+    "text_file": "text/0a9082b9ae954c6cf826.txt",
+    "text_sha256": "b0d92d16f953b3b863d72c95c2a564b6e5102ffec3f96fed1c888d220ec0898a",
+    "text_chars": 3551
+  },
+  {
+    "source_id": "0bce6c8f9507bca6b4e7",
+    "url": "https://rosstat.gov.ru/storage/mediabank/2016(1)(1).xlsx",
+    "title": " XLSX",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-14T22:30:22.319018+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/2016(1)(1).xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "e7cd3e135feceb5176cec1dcbe15f1c96445321e839c7f1aa24d18b9ea9a0006",
+    "error": null,
+    "raw_file": "raw/0bce6c8f9507bca6b4e7.bin",
+    "raw_bytes": 243545,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/0bce6c8f9507bca6b4e7.txt",
+    "text_sha256": "d29f4ed53e715dab8709a9028be21a338ebebc87ecaf9d06fa2cf2971a277b40",
+    "text_chars": 59238
+  },
+  {
+    "source_id": "0de7e898f7b654b2b3fa",
+    "url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2020.xlsx",
+    "title": "на 1 января 2020 года",
+    "need_ids": [
+      "municipal_wages_employment"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "d760dce12fe8a045486e"
+    ],
+    "fetched_at": "2026-09-14T22:30:23.216903+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2020.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "bffcdfac6822f23a5f3ba62aa82a07ff58a68522d9a187ee8b09a00c1de34ba0",
+    "error": null,
+    "raw_file": "raw/0de7e898f7b654b2b3fa.bin",
+    "raw_bytes": 17550,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/0de7e898f7b654b2b3fa.txt",
+    "text_sha256": "416a4c6229318a7a50c700d8d7eafbefc5851f833ad7f597ce52138cdf5f3b30",
+    "text_chars": 1826
+  },
+  {
+    "source_id": "0f306bdc95ea589d019b",
+    "url": "https://rosstat.gov.ru/storage/mediabank/Proizvoditeli_Ind_VED_2kv-2026.xlsx",
+    "title": " XLSX",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-14T22:30:23.333180+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/Proizvoditeli_Ind_VED_2kv-2026.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "805362757bb39c1bb3a62a231a5022adf98e511bb3c22c84ccffc44c3528394a",
+    "error": null,
+    "raw_file": "raw/0f306bdc95ea589d019b.bin",
+    "raw_bytes": 19905,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/0f306bdc95ea589d019b.txt",
+    "text_sha256": "8b977b09c84e26462bf69287b7f65641a87d3440125aa04a3c70364728945cda",
+    "text_chars": 2672
+  },
+  {
+    "source_id": "0fa4c5128468f2c76180",
+    "url": "[rejected-url]",
+    "title": " XLSX",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-14T22:30:23.222267+00:00",
+    "final_url": null,
+    "status": null,
+    "content_type": null,
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": null,
+    "error": "blocked_url"
+  },
+  {
+    "source_id": "110bf5ed77086980e5ae",
+    "url": "https://rosstat.gov.ru/storage/mediabank/Pri-cx-ind_2025.xlsx",
+    "title": " XLSX",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-14T22:30:24.018281+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/Pri-cx-ind_2025.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "8f01771ca4eb82e80a1a43fb5b3590fe68ed7e000d2b17cbc6e32b6a1cfa6d91",
+    "error": null,
+    "raw_file": "raw/110bf5ed77086980e5ae.bin",
+    "raw_bytes": 100148,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/110bf5ed77086980e5ae.txt",
+    "text_sha256": "957a9ea6d5ec4a41100cdc1f9e44de29c9297ae1cc55c81fdc12d04709fb5ec4",
+    "text_chars": 4686
+  },
+  {
+    "source_id": "117dfd2ee026b6dcff19",
+    "url": "https://rosstat.gov.ru/storage/mediabank/vesa_2006-2026.xlsx",
+    "title": " XLSX",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-14T22:30:24.629343+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/vesa_2006-2026.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "ca4212576da8b7566e3bc08cebe99cd16b45652579def6b1b951eaf3162741ee",
+    "error": null,
+    "raw_file": "raw/117dfd2ee026b6dcff19.bin",
+    "raw_bytes": 55147,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/117dfd2ee026b6dcff19.txt",
+    "text_sha256": "b96a1b3acd04147bd3104b8fc4262574b5b0fc27e8ed8118dc0ac62e9cacbf31",
+    "text_chars": 9559
+  },
+  {
+    "source_id": "13d5a9c2acd53d4d5eb5",
+    "url": "https://rosstat.gov.ru/storage/mediabank/Proizvoditeli_Ind_VED_07-2026.xlsx",
+    "title": " XLSX",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-14T22:30:25.181099+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/Proizvoditeli_Ind_VED_07-2026.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "b73983f6ae40f5c33becf5b7e4f5f6f40b99196fbda700d0e0858556a18a0339",
+    "error": null,
+    "raw_file": "raw/13d5a9c2acd53d4d5eb5.bin",
+    "raw_bytes": 6768139,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/13d5a9c2acd53d4d5eb5.txt",
+    "text_sha256": "eeb194c2dcf24acde1cf24f75d221252d974d46c096578304ac456fcbbbe6386",
+    "text_chars": 74657
+  },
+  {
+    "source_id": "1543ca3c676a3a2e18a9",
+    "url": "https://rosstat.gov.ru/storage/mediabank/Ind_sx_vse_kategorii_1kv-2026.xlsx",
+    "title": " XLSX",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-14T22:30:26.860166+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/Ind_sx_vse_kategorii_1kv-2026.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "0d348d02e813867e39c0251e2a3ab60e1e0cb7718cb7b2caf38400733a88d660",
+    "error": null,
+    "raw_file": "raw/1543ca3c676a3a2e18a9.bin",
+    "raw_bytes": 277636,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/1543ca3c676a3a2e18a9.txt",
+    "text_sha256": "160aedcd338fd42e66b5aa51b58579d3c5b1c5c8d2a25042fb4a480cb4747516",
+    "text_chars": 33669
+  },
+  {
+    "source_id": "1634ce3c8eb8681b8fdc",
+    "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_perv_4kv-2024.xlsx",
+    "title": " XLSX",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-14T22:30:28.876821+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_perv_4kv-2024.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "18d57d0b6e1e810a9c8e5c375bae59275a5774ea3dfcb7770cd1b1b40ca5fab4",
+    "error": null,
+    "raw_file": "raw/1634ce3c8eb8681b8fdc.bin",
+    "raw_bytes": 49976,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/1634ce3c8eb8681b8fdc.txt",
+    "text_sha256": "ce17f36185e9cb34358cef9bae7a9f2035cf7026610bafcc4fe37366664f4e32",
+    "text_chars": 6681
+  },
+  {
+    "source_id": "189c11daeb4c0b59a1de",
+    "url": "https://rosstat.gov.ru/storage/mediabank/ind_perv_4kv-2024.xlsx",
+    "title": " XLSX",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-14T22:30:28.858518+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/ind_perv_4kv-2024.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "70aa2cb998f11d570779151a946832764396a437cfd3b711baf37f1617d291c1",
+    "error": null,
+    "raw_file": "raw/189c11daeb4c0b59a1de.bin",
+    "raw_bytes": 72518,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/189c11daeb4c0b59a1de.txt",
+    "text_sha256": "0ece7f124bd0250432421a65c4e4ee9c78ac1b193119f2ea7bb6be36e7264920",
+    "text_chars": 12381
+  },
+  {
+    "source_id": "18d6bcf68191eddc15b6",
+    "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_vtor_4kv-2025.xlsx",
+    "title": " XLSX",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-14T22:30:29.798649+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_vtor_4kv-2025.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "139a12c08f368ae9fba6208aa79763c7aeb42db8ca39b819865de86e6e776cde",
+    "error": null,
+    "raw_file": "raw/18d6bcf68191eddc15b6.bin",
+    "raw_bytes": 53542,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/18d6bcf68191eddc15b6.txt",
+    "text_sha256": "8109f17714637a6bcadea9d0e8bd55dfa4a6e237fe8cb46fbe78f78fd2606dde",
+    "text_chars": 7599
+  },
+  {
+    "source_id": "1a6e6a7738e5dcc2d80f",
+    "url": "https://rosstat.gov.ru/storage/mediabank/dinamika_sred_1998-2025.xlsx",
+    "title": " XLSX",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-14T22:30:29.757042+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/dinamika_sred_1998-2025.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "5dc0631dfd21b9a3e4bc91a57fb651c10dd5cf84e1effdc9aec6b1b2da5d2554",
+    "error": null,
+    "raw_file": "raw/1a6e6a7738e5dcc2d80f.bin",
+    "raw_bytes": 19345,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/1a6e6a7738e5dcc2d80f.txt",
+    "text_sha256": "16f7fd04a4962653d68290fd4ae17da5058a51f5cdd321268b63dd8ff7741781",
+    "text_chars": 3086
+  },
+  {
+    "source_id": "1da5e151aff3f855ab76",
+    "url": "https://rosstat.gov.ru/storage/mediabank/Opredeleniya_IPC.pdf",
+    "title": " PDF",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-14T22:30:31.050122+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/Opredeleniya_IPC.pdf",
+    "status": 200,
+    "content_type": "application/pdf",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "6e99134b34592e80b2b9408dba6f6c999131c57bb786695362961adb56398819",
+    "error": null,
+    "raw_file": "raw/1da5e151aff3f855ab76.bin",
+    "raw_bytes": 316641,
+    "kind": "pdf",
+    "links": [],
+    "truncated": false,
+    "text_file": "text/1da5e151aff3f855ab76.txt",
+    "text_sha256": "027acfe2a614472d2e7df34de05d63007ae6ebd43354d06ab943aabad51466a3",
+    "text_chars": 2514
+  },
+  {
+    "source_id": "2166237b4e7cf9e6fc6d",
+    "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_vtor_4kv-2022_.xlsx",
+    "title": " XLSX",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-14T22:30:30.748575+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_vtor_4kv-2022_.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "d2608dc1fa172d920f3ce914ef5ed9acdacd25472fa6a5f883cbf47569fdf482",
+    "error": null,
+    "raw_file": "raw/2166237b4e7cf9e6fc6d.bin",
+    "raw_bytes": 60425,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/2166237b4e7cf9e6fc6d.txt",
+    "text_sha256": "a3c7f6300be2d3d9a305bc7991195da45e2dac4f737aace4eada1cd4086dff37",
+    "text_chars": 7308
+  },
+  {
+    "source_id": "219dc483186035dec864",
+    "url": "https://rosstat.gov.ru/storage/mediabank/mun_obr2014_348647.rar",
+    "title": " RAR",
+    "need_ids": [
+      "municipal_population"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "0a9082b9ae954c6cf826"
+    ],
+    "fetched_at": "2026-09-14T22:30:32.107948+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/mun_obr2014_348647.rar",
+    "status": 200,
+    "content_type": "application/x-rar-compressed",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "f74e6fac6dcd8512cc97bbc32565adf64d4c167141378d6bb7c06cb1f5978c6f",
+    "error": null,
+    "raw_file": "raw/219dc483186035dec864.bin",
+    "raw_bytes": 868762,
+    "kind": "binary",
+    "links": [],
+    "truncated": false,
+    "text_file": "text/219dc483186035dec864.txt",
+    "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_chars": 0
+  },
+  {
+    "source_id": "2288a499ba304e3db93c",
+    "url": "https://rosstat.gov.ru/storage/mediabank/CPR_SUB_2026.xlsx",
+    "title": " XLSX",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-14T22:30:32.626549+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/CPR_SUB_2026.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "1e828d79a8146f5038b7c1be5ebe92db085054adcf604318b9e389faaf230361",
+    "error": null,
+    "raw_file": "raw/2288a499ba304e3db93c.bin",
+    "raw_bytes": 420042,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/2288a499ba304e3db93c.txt",
+    "text_sha256": "144d38c16394c8ba4cecaf949231444902ffd5e40e5ee064be9ee6e8cf48207b",
+    "text_chars": 8446
+  },
+  {
+    "source_id": "238650d8a12b85038e8e",
+    "url": "https://rosstat.gov.ru/storage/mediabank/ipc_kv2_2005-2026.xlsx",
+    "title": " XLSX",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-14T22:30:32.835010+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/ipc_kv2_2005-2026.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "cfe3a14fb3ab3494b7366b94c4d333705639f9fdc6bf4f11e99a34340eca4914",
+    "error": null,
+    "raw_file": "raw/238650d8a12b85038e8e.bin",
+    "raw_bytes": 28833,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/238650d8a12b85038e8e.txt",
+    "text_sha256": "b9366ee0a7513e83308ea207d2f2adb67c6271bf47b006edc971656a27ba74dd",
+    "text_chars": 2799
+  },
+  {
+    "source_id": "239c4f4cb1a612d4196c",
+    "url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2021.xlsx",
+    "title": "на 1 января 2021 года",
+    "need_ids": [
+      "municipal_wages_employment"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "d760dce12fe8a045486e"
+    ],
+    "fetched_at": "2026-09-14T22:30:33.359270+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2021.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "f1f07ec2bd1059ea3756a8a04e0952eca50d360752f74ba7c107a96f93ad5a78",
+    "error": null,
+    "raw_file": "raw/239c4f4cb1a612d4196c.bin",
+    "raw_bytes": 20313,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/239c4f4cb1a612d4196c.txt",
+    "text_sha256": "62e4591ab361d8481fecbae063525939c1b36ddbd9e20ace02855f31cfd0b85a",
+    "text_chars": 2520
+  },
+  {
+    "source_id": "24cffab06de312a79031",
+    "url": "https://rosstat.gov.ru/storage/mediabank/2014(1)(1).xlsx",
+    "title": " XLSX",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-14T22:30:34.258486+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/2014(1)(1).xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "58a4565bebf425c5667cad6023a915a2c06f7f268969c15ddad68670c67d59d1",
+    "error": null,
+    "raw_file": "raw/24cffab06de312a79031.bin",
+    "raw_bytes": 234780,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/24cffab06de312a79031.txt",
+    "text_sha256": "0a88ea16392f0e43dcb0abf64ed7d838f1f5c7bc6a2724419c467eb903c2ac86",
+    "text_chars": 59279
+  },
+  {
+    "source_id": "26550607bf82a3a3f07c",
+    "url": "https://rosstat.gov.ru/storage/mediabank/ind_vtor_2kv-2026.xlsx",
+    "title": " XLSX",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-14T22:30:34.450144+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/ind_vtor_2kv-2026.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "27269162a1bbcd64c83969fb3bc7a949f6da352e99e76586a9ce62ed8a2178e8",
+    "error": null,
+    "raw_file": "raw/26550607bf82a3a3f07c.bin",
+    "raw_bytes": 53042,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/26550607bf82a3a3f07c.txt",
+    "text_sha256": "2497a3f42d9438028ede7eb5834341f3da1f06b9e5c7a59c50f756da18b9f96b",
+    "text_chars": 9393
+  },
+  {
+    "source_id": "27911129235b75602353",
+    "url": "https://rosstat.gov.ru/storage/mediabank/2021(2).xlsx",
+    "title": " XLSX",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-14T22:30:35.159103+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/2021(2).xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "dfa4413b2388134ec9b4444ffb8f3f643da843cb2dd9d0d895260652cc83a56e",
+    "error": null,
+    "raw_file": "raw/27911129235b75602353.bin",
+    "raw_bytes": 234970,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/27911129235b75602353.txt",
+    "text_sha256": "229222754ff98238a2bb417f2b5c885a694ce46e160b09efc629ec66a1a07919",
+    "text_chars": 58939
+  },
+  {
+    "source_id": "28200f4625ce331b2e8a",
+    "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_perv_4kv-2023.xlsx",
+    "title": " XLSX",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-14T22:30:35.490009+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_perv_4kv-2023.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "4a2b65d51f284e9cec463fdad9c181f82a0202c6e94e27bd9eea15de00794ccd",
+    "error": null,
+    "raw_file": "raw/28200f4625ce331b2e8a.bin",
+    "raw_bytes": 50363,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/28200f4625ce331b2e8a.txt",
+    "text_sha256": "599057c97323b5a75f03293d5383f9058f273a6ed887b32e35b4ef3e41659bfa",
+    "text_chars": 6711
+  },
+  {
+    "source_id": "2e9e1954e8f80948f35d",
+    "url": "https://rosstat.gov.ru/storage/mediabank/mun_obr2021.rar",
+    "title": " RAR",
+    "need_ids": [
+      "municipal_population"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "0a9082b9ae954c6cf826"
+    ],
+    "fetched_at": "2026-09-14T22:30:36.055011+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/mun_obr2021.rar",
+    "status": 200,
+    "content_type": "application/x-rar-compressed",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "723b6a739b5a70d10ff74cdb0af8736eef085358b6d7ebcc2d98f5121bacfd49",
+    "error": null,
+    "raw_file": "raw/2e9e1954e8f80948f35d.bin",
+    "raw_bytes": 1958315,
+    "kind": "binary",
+    "links": [],
+    "truncated": false,
+    "text_file": "text/2e9e1954e8f80948f35d.txt",
+    "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_chars": 0
+  },
+  {
+    "source_id": "342259bfa0ee24fc88ee",
+    "url": "https://rosstat.gov.ru/storage/mediabank/sred_potreb_cen_08-2026.xlsx",
+    "title": " XLSX",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-14T22:30:37.047511+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/sred_potreb_cen_08-2026.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "0303a5fc3ed434eacf37e29c53df6f36fcf0a19e163f8ffd2cc7537994d8f96c",
+    "error": null,
+    "raw_file": "raw/342259bfa0ee24fc88ee.bin",
+    "raw_bytes": 13725680,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/342259bfa0ee24fc88ee.txt",
+    "text_sha256": "4ab69f0fa965a4eb7f69adb96c6dab5458a0e6d3e9ded0d572e1aff6487714e5",
+    "text_chars": 42947
+  },
+  {
+    "source_id": "36b946a72e874c6e7868",
+    "url": "https://rosstat.gov.ru/storage/mediabank/Nedvijimost_prodaja_Cena_2kv_2026.xlsx",
+    "title": " XLSX",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": false,
+    "authority_hint": "official",
+    "discovered_from": [
+      "fc864ee604119e8357ac"
+    ],
+    "fetched_at": "2026-09-14T22:30:38.117498+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/Nedvijimost_prodaja_Cena_2kv_2026.xlsx",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "1e449980fbc2760583d9d073bcca013b4a613a322367966d7a601edd74f4fb70",
+    "error": null,
+    "raw_file": "raw/36b946a72e874c6e7868.bin",
+    "raw_bytes": 150457,
+    "kind": "xlsx_header_preview",
+    "links": [],
+    "truncated": true,
+    "text_file": "text/36b946a72e874c6e7868.txt",
+    "text_sha256": "4f430b5ba676457bc03cfc0a1464ef1daa0491b5b79635f2af8c9c52c63bdaaa",
+    "text_chars": 4600
+  },
+  {
+    "source_id": "4703df9b1f1e61506c42",
+    "url": "https://sberindex.ru/ru/research/data-sense-opisanie-nabora-dannikh-khakatona-sberindeksa-po-munitsipalnim-dannim",
+    "title": "Описание конкурсного набора СберИндекса",
+    "need_ids": [
+      "spending_methodology"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": true,
+    "authority_hint": "official",
+    "fetched_at": "2026-09-14T22:30:14.510835+00:00",
+    "final_url": "https://sberindex.ru/ru/research/data-sense-opisanie-nabora-dannikh-khakatona-sberindeksa-po-munitsipalnim-dannim",
+    "status": 200,
+    "content_type": "text/html",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "7a06f301a68d773607b36dce0507f98cdeadf7a15a2e93cb14b665fbdce3ef2e",
+    "error": null,
+    "raw_file": "raw/4703df9b1f1e61506c42.bin",
+    "raw_bytes": 2616,
+    "kind": "html",
+    "links": [],
+    "truncated": false,
+    "text_file": "text/4703df9b1f1e61506c42.txt",
+    "text_sha256": "a63d48d04196446667f768fc7128ae277fb960162887767247024b3cfa8b2b38",
+    "text_chars": 10
+  },
+  {
+    "source_id": "9f9aacfd3b77bcc08baf",
+    "url": "https://sberindex.ru/ru/research/dataset-borders-and-changes-of-municipalities",
+    "title": "Границы и преобразования муниципалитетов",
+    "need_ids": [
+      "territory_crosswalk"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": true,
+    "authority_hint": "official",
+    "fetched_at": "2026-09-14T22:30:14.789219+00:00",
+    "final_url": "https://sberindex.ru/ru/research/dataset-borders-and-changes-of-municipalities",
+    "status": 200,
+    "content_type": "text/html",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "7a06f301a68d773607b36dce0507f98cdeadf7a15a2e93cb14b665fbdce3ef2e",
+    "error": null,
+    "raw_file": "raw/9f9aacfd3b77bcc08baf.bin",
+    "raw_bytes": 2616,
+    "kind": "html",
+    "links": [],
+    "truncated": false,
+    "text_file": "text/9f9aacfd3b77bcc08baf.txt",
+    "text_sha256": "a63d48d04196446667f768fc7128ae277fb960162887767247024b3cfa8b2b38",
+    "text_chars": 10
+  },
+  {
+    "source_id": "ade08c6a463998fb08de",
+    "url": "https://rmsp.nalog.ru/statistics.html",
+    "title": "Статистика реестра МСП",
+    "need_ids": [
+      "sector_structure"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": true,
+    "authority_hint": "other",
+    "fetched_at": "2026-09-14T22:30:17.484724+00:00",
+    "final_url": "https://rmsp.nalog.ru/statistics.html",
+    "status": 200,
+    "content_type": "text/html;charset=utf-8",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "2dbd7ca376e8f1453baa1c1edf318697b60868c7d6015112049089d2144cd81f",
+    "error": null,
+    "raw_file": "raw/ade08c6a463998fb08de.bin",
+    "raw_bytes": 273566,
+    "kind": "html",
+    "links": [],
+    "truncated": false,
+    "text_file": "text/ade08c6a463998fb08de.txt",
+    "text_sha256": "db69a2b7d7b686cc8866f47c34c7f878122d52f432150693f3cd71df237971eb",
+    "text_chars": 3326
+  },
+  {
+    "source_id": "b6679b79566ab315b581",
+    "url": "https://38.rosstat.gov.ru/main_indicators",
+    "title": "Муниципальная статистика Иркутскстата",
+    "need_ids": [
+      "sector_structure"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": true,
+    "authority_hint": "official",
+    "fetched_at": "2026-09-14T22:30:15.024174+00:00",
+    "final_url": "https://38.rosstat.gov.ru/main_indicators",
+    "status": null,
+    "content_type": null,
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": null,
+    "error": "fetch_network_error"
+  },
+  {
+    "source_id": "cb99e41a48509e267770",
+    "url": "https://60.rosstat.gov.ru/main_indicators",
+    "title": "Показатели муниципалитетов Псковстата",
+    "need_ids": [
+      "territory_crosswalk"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": true,
+    "authority_hint": "official",
+    "fetched_at": "2026-09-14T22:30:15.870360+00:00",
+    "final_url": "https://60.rosstat.gov.ru/main_indicators",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "1aad25fdd12a9897b86dc97ca90ddcc97a1ed9846e7f49f134d88ce2d2532161",
+    "error": null,
+    "raw_file": "raw/cb99e41a48509e267770.bin",
+    "raw_bytes": 726847,
+    "kind": "html",
+    "links": [],
+    "truncated": false,
+    "text_file": "text/cb99e41a48509e267770.txt",
+    "text_sha256": "a922b98d489cd7d8a9520dc90d98f0459394f813cb1ce442939af0f631fca981",
+    "text_chars": 3104
+  },
+  {
+    "source_id": "d760dce12fe8a045486e",
+    "url": "https://rosstat.gov.ru/storage/mediabank/MUNST.htm",
+    "title": "Региональные БДПМО",
+    "need_ids": [
+      "municipal_wages_employment"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": true,
+    "authority_hint": "official",
+    "fetched_at": "2026-09-14T22:30:15.986173+00:00",
+    "final_url": "https://rosstat.gov.ru/storage/mediabank/MUNST.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "a7e1d9dbb4973f7e8b988be3b7189b3ef9fbc447893a5f406d41fb146ab7c766",
+    "error": null,
+    "raw_file": "raw/d760dce12fe8a045486e.bin",
+    "raw_bytes": 24934,
+    "kind": "html",
+    "links": [
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2026.xlsx",
+        "label": "на 1 января 2026 года"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2025.xlsx",
+        "label": "на 1 января 2025 года"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2024.xlsx",
+        "label": "на 1 января 2024 года"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2023.xlsx",
+        "label": "на 1 января 2023 года"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2022.xlsx",
+        "label": "на 1 января 2022 года"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2021.xlsx",
+        "label": "на 1 января 2021 года"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2020.xlsx",
+        "label": "на 1 января 2020 года"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2019.xlsx",
+        "label": "на 1 января 2019 года"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2018.xls",
+        "label": "на 1 января 2018 года"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/1-adm_2017.xls",
+        "label": "на 1 января 2017 года"
+      }
+    ],
+    "truncated": false,
+    "text_file": "text/d760dce12fe8a045486e.txt",
+    "text_sha256": "15099a4da5c0f373c228f36b3ad4b16a0c5f7b75e91e6ecba36fc34ec25176e7",
+    "text_chars": 2638
+  },
+  {
+    "source_id": "f4655919246d967cf114",
+    "url": "https://www.sberbank.ru/common/img/uploaded/files/pdf/sberindex/metadata_municipal_dict_sberindex_2.pdf",
+    "title": "Метаданные муниципального справочника",
+    "need_ids": [
+      "territory_crosswalk"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": true,
+    "authority_hint": "official",
+    "fetched_at": "2026-09-14T22:30:17.124922+00:00",
+    "final_url": "https://www.sberbank.ru/common/img/uploaded/files/pdf/sberindex/metadata_municipal_dict_sberindex_2.pdf",
+    "status": 200,
+    "content_type": "application/pdf, application/pdf",
+    "declared_content_encoding": "aws-chunked",
+    "encoding_note": "declared_aws_chunked_but_received_bare_pdf",
+    "sha256": "05707427a64061552d1f23f74f578a99fdabeff69f0c8a0fc99d924210fee0b3",
+    "error": null,
+    "raw_file": "raw/f4655919246d967cf114.bin",
+    "raw_bytes": 333567,
+    "kind": "pdf",
+    "links": [],
+    "truncated": false,
+    "text_file": "text/f4655919246d967cf114.txt",
+    "text_sha256": "395d550ee3c37787118a0047cd31c8de741b9c8877b5c65e10fdb9f43ce6ab58",
+    "text_chars": 5363
+  },
+  {
+    "source_id": "fc864ee604119e8357ac",
+    "url": "https://rosstat.gov.ru/statistics/price",
+    "title": "Цены и инфляция Росстата",
+    "need_ids": [
+      "regional_prices"
+    ],
+    "engines": [],
+    "queries": [],
+    "seed": true,
+    "authority_hint": "official",
+    "fetched_at": "2026-09-14T22:30:16.677726+00:00",
+    "final_url": "https://rosstat.gov.ru/statistics/price",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "declared_content_encoding": null,
+    "encoding_note": null,
+    "sha256": "3522c3e0c9fbe4acb06d4c46bd4d253e0ad6da63a5ad9c5cef62becb88e326ef",
+    "error": null,
+    "raw_file": "raw/fc864ee604119e8357ac.bin",
+    "raw_bytes": 898245,
+    "kind": "html",
+    "links": [
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Nedel_ipc.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ipc_RF_fo_sub_08-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ipc_mes_08-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ipc_s_1992-2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ipc_kv2_2005-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ipc-KIPC_2010-2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ipc_sub_2kv-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ipc_spr_08-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Opredeleniya_IPC.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Nedel_sred_cen.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_potreb_cen_08-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_potreb_cen_2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_potreb_cen_2024.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_potreb_cen_2023.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_potreb_cen_2022.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Potreb_cen_2021(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_potreb_cen_1991-2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Opredeleniya_potreb_ceny.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Opredeleniya_potreb_nabor.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/CPR_SUB_2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/CPR_Gr-Tov-RF_2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/CPR_Gr-Tov-RF_2001-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/CPR_tov_RF_2004-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Vesa-tov-KIPC_2012-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Opredeleniya_strukt_potreb_rasxodov.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/isg_2012-2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Opredeleniya_ind_stoim(1).pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Struktur_rozn_cen_2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Struktur_rozn_cen_2024.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Struktur_rozn_cen_2023.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Struktur_rozn_cen_2022.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2021(2).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2020(1)(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2019(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2018(1)(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2017(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2016(1)(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2015(1)(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2014(1)(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2013(1)(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2012(1)(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2011(1)(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2010(1)(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2009(1)(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/2008(1)(1).xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Opredeleniya_struktura rozn.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_perv_2kv-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_vtor_2kv-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_perv_4kv-2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_vtor_4kv-2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_perv_4kv-2024.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_vtor_4kv-2024.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_perv_4kv-2023.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_vtor_4kv-2023.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_perv_4kv-2022.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_vtor_4kv-2022.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_perv_2021 г..xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_vtor_2021.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/dinamika_1998-2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Opredeleniya_Ind_cen_zhilya.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_perv_2kv-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_vtor_2kv-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_perv_4kv-2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_vtor_4kv-2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_perv_4kv-2024.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_vtor_4kv-2024.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_perv_4kv-2023.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_vtor_4kv-2023.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_perv_4kv-2022_.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_vtor_4kv-2022_.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_perv_4kv-2021.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/sred_cen_vtor_4kv-2021.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/dinamika_sred_1998-2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Opredeleniya_sred_ceny_zhilya.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Nedvijimost_prodaja_Cena_2kv_2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Nedvijimost_arenda_Cena_2kv-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/osnovnye_ponyatiya_nedvijimost.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Proizvoditeli_Ind_VED_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Proizvoditeli_Ind_tov_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Proizvoditeli_Cena_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Proizvoditeli_Ind_VED_2kv-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/mu_ind_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/mu_cena_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/vesa_2006-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Osnovnye ponyatiya_ICP_promtovary.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/ind_sx_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/cena_sx_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Ind_sx_vse_kategorii_1kv-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Cena_sx_vse_kategorii_1kv-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Osnovnye ponyatiya_ICP_selhozprodukcii.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Invest_ind_svodn_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Invest_ind_stroitel_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Invest_ind_oborud_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Invest_ind_prochie_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Grup_obyekt_ind_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Osnovnye_ponyatiya_stroitelnaya_produkciya.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Gruzovie_ind_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Osnovnye ponyatiya_gruzovye perevozki.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Tarif_Ind_2kv-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Tarif_Cena_2kv-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Osnovnye ponyatiya_uslugi svyazi.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Priobretenie_Ind_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Priobretenie_Cena_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Zerno_Ind_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Zerno_Cen_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Osnovnye ponyatiya_priobretenie.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Pri-cx-ind_2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Pri-cx-cen_2025.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Osnovnye_ponyatiya_godovoe_priobretenie.pdf",
+        "label": " PDF"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Materialy_index_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Materialy_cena_07-2026.xlsx",
+        "label": " XLSX"
+      },
+      {
+        "url": "https://rosstat.gov.ru/storage/mediabank/Osnovnye ponyatiya_stroitel'nye organizacii.pdf",
+        "label": " PDF"
+      }
+    ],
+    "truncated": false,
+    "text_file": "text/fc864ee604119e8357ac.txt",
+    "text_sha256": "dd594260c35579dec1c7682a4523e063e77dbf97656d4bece67b4cf1e9dc61aa",
+    "text_chars": 21491
+  }
+]

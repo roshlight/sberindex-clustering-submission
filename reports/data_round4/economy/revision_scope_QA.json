@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "input": "delta_all_cells.csv",
+  "input_sha256": "0f7a2ee744697f6a458704b5bafca5ab8b7a7792d9cf77b7ec2d0e0ab1049f1d",
+  "old_numeric_cells": 10829,
+  "both_old_and_new_capture_numeric": 0,
+  "old_numeric_cells_with_new_capture": 0,
+  "old_numeric_values_preserved_exactly": true,
+  "numeric_revision_conflicts": 0,
+  "revision_stability_assessed": false,
+  "scope": "Previously numeric cells were not fetched again; zero conflicts is not evidence of source revision stability.",
+  "calculation": "both_old_and_new_capture_numeric = sum(old_value IS NOT NULL AND new_capture_value IS NOT NULL) over delta_all_cells.csv"
+}

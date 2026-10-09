@@ -1,0 +1,49 @@
+{
+  "audience": "technical",
+  "delivery": "portable HTML",
+  "reason": "Established repository-based research report and GitHub handoff in Codex",
+  "adoption_passed": false,
+  "primary": "profile CLR",
+  "secondary": "log nominal level",
+  "sections": [
+    "title",
+    "summary",
+    "definitions",
+    "coverage_text",
+    "primary_text",
+    "recovery_text",
+    "strata_text",
+    "secondary_text",
+    "cases_text",
+    "sme_text",
+    "geo_text",
+    "methods",
+    "decision"
+  ],
+  "spine": "Coverage improves; model decision unchanged; bounded secondary and source insights",
+  "chart_map": [
+    {
+      "id": "coverage_chart",
+      "question": "\u041a\u0430\u043a \u0438\u0437\u043c\u0435\u043d\u0438\u043b\u043e\u0441\u044c \u043f\u043e\u043a\u0440\u044b\u0442\u0438\u0435 \u043f\u0440\u0438 \u0442\u043e\u043c \u0436\u0435 \u0441\u043e\u0441\u0442\u0430\u0432\u0435 \u041c\u041e?",
+      "family": "comparison",
+      "type": "grouped bar"
+    },
+    {
+      "id": "primary_chart",
+      "question": "\u0414\u043e\u0431\u0430\u0432\u043b\u044f\u044e\u0442 \u043b\u0438 \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u044b\u0435 \u0430\u0442\u0440\u0438\u0431\u0443\u0442\u044b \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044e?",
+      "family": "comparison",
+      "type": "grouped bar"
+    },
+    {
+      "id": "control_chart",
+      "question": "\u0418\u0441\u0447\u0435\u0437\u0430\u0435\u0442 \u043b\u0438 \u0441\u0438\u0433\u043d\u0430\u043b \u043f\u0440\u0438 \u0440\u0430\u0437\u0440\u0443\u0448\u0435\u043d\u0438\u0438 \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u044f \u0432\u043d\u0443\u0442\u0440\u0438 \u0440\u0435\u0433\u0438\u043e\u043d\u0430?",
+      "family": "comparison",
+      "type": "grouped bar"
+    }
+  ],
+  "repeated_chart_family_reason": "All three visuals compare discrete groups, not time trajectories",
+  "tables_instead_of_trends": "Five annual case points retained as exact table; no shock timing claim",
+  "source_data_not_changed": true,
+  "static_research_figure": "figures/profile_increment.png and SVG with conditional intervals",
+  "structure_mapping": "Summary; definitions before evidence; visual findings; dedicated methods; limitations adjacent; decision and open questions"
+}

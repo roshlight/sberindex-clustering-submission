@@ -1,0 +1,73 @@
+{
+  "status": "PASS_FOR_FINAL_REVIEWED_DATA_AND_REPORT",
+  "review_date": "2026-09-15",
+  "commuting": {
+    "method": "Independent ZIP/XML inspection, exact source hashes and header/row review",
+    "source_files": 15,
+    "sheets": 257,
+    "numeric_cells_checked": 263406,
+    "numeric_missing_extra_or_value_mismatches": 0,
+    "nonempty_cells": 350850,
+    "duplicate_keys": 0,
+    "reviewed_pilot_rows": 4,
+    "additivity_checks": 12,
+    "geography_checks": ["census_06 Astrakhan F4", "census_07 Kalmykia A5", "Krasnoyarsk Krai hits are not the Astrakhan municipality"],
+    "labor_reference_week": ["2021-09-24", "2021-09-30"],
+    "accepted_historical_panel_joins": 0
+  },
+  "discovery": {
+    "document_attempts": 20,
+    "successful_raw_documents": 11,
+    "html_seed_pages": 6,
+    "linked_files": 5,
+    "blocked_url": 7,
+    "network_errors": 2,
+    "model_post_calls": 7,
+    "model_catalog_get_calls": 1,
+    "reported_cost_usd_decimal": "0.249344952",
+    "raw_and_text_hashes": "PASS"
+  },
+  "geography_archive": {
+    "offline_replay": "PASS",
+    "checks_passed": 15,
+    "checks_total": 15,
+    "all_9_data_csv_byte_identical": true,
+    "excluded_attempts_and_manifest_byte_identical": true,
+    "qa_file": "geography/delivery_replay_qa.json"
+  },
+  "prices_final": {
+    "canonical_bridge": "prices/bridge_v2",
+    "canonical_monthly": "prices/monthly_v3",
+    "source_cells": 3836682,
+    "primary_context_cells": 2933362,
+    "primary_numeric": 2571434,
+    "primary_positive": 2570596,
+    "primary_literal_zeros": 838,
+    "cohort_municipalities_2023": 215,
+    "cohort_municipalities_2024": 214,
+    "accepted_links_with_dates_later_than_year_start": 0,
+    "temporal_city_year_exclusions": 3,
+    "disputed_january_2023_cells_excluded": 570,
+    "duplicate_or_source_primary_dimension_mismatches": 0,
+    "manual_chain_examples": ["Maykop", "Balashikha", "Vyshny Volochyok"],
+    "all_reviewed_output_hashes": "PASS"
+  },
+  "sector_final": {
+    "candidate_rows": 162210,
+    "numeric_rows": 111384,
+    "municipalities": 2016,
+    "municipality_years": 4032,
+    "aggregate_positions_checked": 8064,
+    "matches_to_frozen_v3": 8060,
+    "new_values_for_prior_caption_gap_2710": 4,
+    "pilot_values_or_null_matches": 488,
+    "pilot_status_matches": 466,
+    "documented_null_representation_differences": 22,
+    "unexplained_numeric_differences": 0
+  },
+  "limits": [
+    "Source extraction accuracy does not establish economic measurement validity.",
+    "No census 2021 boundary bridge to the 2023/2024 panel was accepted.",
+    "Public release availability is verified by the publisher after upload."
+  ]
+}

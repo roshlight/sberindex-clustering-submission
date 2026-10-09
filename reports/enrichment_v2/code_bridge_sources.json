@@ -1,0 +1,303 @@
+{
+  "scope": "New official registry snapshots, recoding documents and calendar-code evidence; originals preserved. No population fetched by this source audit.",
+  "sources": [
+    {
+      "path_from_workspace": "work/oktmo-history-20260915/raw/586_22_OKTMO.DOC",
+      "bytes": 312832,
+      "sha256": "172daeeeffae1ffa0ab8f0dfe4e7b06ad83f555f18b9c4ea8301c9213050d139",
+      "url": "https://rosstat.gov.ru/storage/mediabank/586_22_OKTMO.DOC",
+      "source_capture_kind": "raw_bytes",
+      "download_receipts": [
+        "work/oktmo-history-20260915/raw/586_22_OKTMO.DOC.download.json"
+      ],
+      "notes": [
+        "Official recoding table for settlements; downloaded unchanged. Heuristic UTF16 preview is not a complete DOC parse and is not used to adjudicate dates."
+      ]
+    },
+    {
+      "path_from_workspace": "work/oktmo-history-20260915/raw/590_22_OKTMO.doc",
+      "bytes": 35328,
+      "sha256": "143481abfa3e0d63bfe81db06bb09354c0d1ba6225b69ed2922ea46b380f7e27",
+      "url": "https://rosstat.gov.ru/storage/mediabank/590_22_OKTMO.doc",
+      "source_capture_kind": "raw_bytes",
+      "download_receipts": [
+        "work/oktmo-history-20260915/raw/590_22_OKTMO.doc.download.json"
+      ],
+      "notes": [
+        "Official recoding table for settlements; downloaded unchanged. Heuristic UTF16 preview is not a complete DOC parse and is not used to adjudicate dates.",
+        "Exploratory document for Leningrad region; not used in the six decisions."
+      ]
+    },
+    {
+      "path_from_workspace": "work/oktmo-history-20260915/raw/593_22_OKTMO.doc",
+      "bytes": 73728,
+      "sha256": "bccc4304d999a90d43f5d4043dc54d487b99e97dd4f6187c383c8da72755ee9c",
+      "url": "https://rosstat.gov.ru/storage/mediabank/593_22_OKTMO.doc",
+      "source_capture_kind": "raw_bytes",
+      "download_receipts": [
+        "work/oktmo-history-20260915/raw/593_22_OKTMO.doc.download.json"
+      ],
+      "notes": [
+        "Official recoding table for settlements; downloaded unchanged. Heuristic UTF16 preview is not a complete DOC parse and is not used to adjudicate dates."
+      ]
+    },
+    {
+      "path_from_workspace": "work/oktmo-history-20260915/raw/594_22_OKTMO.doc",
+      "bytes": 186880,
+      "sha256": "5f20c2260432136a71418af505a00ccbc44dc2d4d70e6bc4ed0264121091651d",
+      "url": "https://rosstat.gov.ru/storage/mediabank/594_22_OKTMO.doc",
+      "source_capture_kind": "raw_bytes",
+      "download_receipts": [
+        "work/oktmo-history-20260915/raw/594_22_OKTMO.doc.download.json"
+      ],
+      "notes": [
+        "Official recoding table for settlements; downloaded unchanged. Heuristic UTF16 preview is not a complete DOC parse and is not used to adjudicate dates."
+      ]
+    },
+    {
+      "path_from_workspace": "work/oktmo-history-20260915/raw/598_23_OKTMO.doc",
+      "bytes": 48128,
+      "sha256": "2e4e2a731bf4bb0f344b8f0e14974d8e67c6a80e86d21ce68ba658fde95d3856",
+      "url": "https://rosstat.gov.ru/storage/mediabank/598_23_OKTMO.doc",
+      "source_capture_kind": "raw_bytes",
+      "download_receipts": [
+        "work/oktmo-history-20260915/raw/598_23_OKTMO.doc.download.json"
+      ],
+      "notes": [
+        "Official recoding table for settlements; downloaded unchanged. Heuristic UTF16 preview is not a complete DOC parse and is not used to adjudicate dates."
+      ]
+    },
+    {
+      "path_from_workspace": "work/oktmo-history-20260915/raw/600_23_OKTMO.doc",
+      "bytes": 183296,
+      "sha256": "85e91e800d250d3d986ef52a69c83c6b973a17eadb7e9808571cdc7e5b64954d",
+      "url": "https://rosstat.gov.ru/storage/mediabank/600_23_OKTMO.doc",
+      "source_capture_kind": "raw_bytes",
+      "download_receipts": [
+        "work/oktmo-history-20260915/raw/600_23_OKTMO.doc.download.json"
+      ],
+      "notes": [
+        "Official recoding table for settlements; downloaded unchanged. Heuristic UTF16 preview is not a complete DOC parse and is not used to adjudicate dates."
+      ]
+    },
+    {
+      "path_from_workspace": "work/oktmo-history-20260915/raw/data-20230112T1301-structure-20260210T1102.csv",
+      "bytes": 21427247,
+      "sha256": "7648c4065bb42a80080029253064c5843577d5c3ea9110fa97d9e32eb19c3f73",
+      "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20230112T1301-structure-20260210T1102.csv",
+      "source_capture_kind": "raw_bytes",
+      "download_receipts": [
+        "work/oktmo-history-20260915/raw/data-20230112T1301-structure-20260210T1102.csv.download.json"
+      ],
+      "notes": []
+    },
+    {
+      "path_from_workspace": "work/oktmo-history-20260915/raw/data-20230208T0902-structure-20260210T1102.csv",
+      "bytes": 21419968,
+      "sha256": "db2033073f7b6c0171083063237a915f41f9e1f23be7aecf1027008391c79ebe",
+      "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20230208T0902-structure-20260210T1102.csv",
+      "source_capture_kind": "raw_bytes",
+      "download_receipts": [
+        "work/oktmo-history-20260915/raw/data-20230208T0902-structure-20260210T1102.csv.download.json"
+      ],
+      "notes": []
+    },
+    {
+      "path_from_workspace": "work/oktmo-history-20260915/raw/data-20231219T1512-structure-20260210T1102.csv",
+      "bytes": 21582558,
+      "sha256": "8be058baf8d8ec32bda5431fa6ed5ccdcf0effa0c62869a03576755cbcf956d9",
+      "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20231219T1512-structure-20260210T1102.csv",
+      "source_capture_kind": "raw_bytes",
+      "download_receipts": [
+        "work/oktmo-history-20260915/raw/data-20231219T1512-structure-20260210T1102.csv.download.json"
+      ],
+      "notes": []
+    },
+    {
+      "path_from_workspace": "work/oktmo-history-20260915/raw/data-20240101T1101-structure-20260210T1102.csv",
+      "bytes": 22617530,
+      "sha256": "def4fe436545f6ef7e349607c4c8256a331146fe9b977e12618443ed59ddbff3",
+      "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20240101T1101-structure-20260210T1102.csv",
+      "source_capture_kind": "raw_bytes",
+      "download_receipts": [
+        "work/oktmo-history-20260915/raw/data-20240101T1101-structure-20260210T1102.csv.download.json"
+      ],
+      "notes": [
+        "Repeat matches originalSHA; problematic for matching2023/2024 annual codes. See registry_vintage_audit.csv; do not infer population year from filename."
+      ]
+    },
+    {
+      "path_from_workspace": "work/oktmo-history-20260915/raw/data-20240125T1401-structure-20260210T1102.csv",
+      "bytes": 21580725,
+      "sha256": "62b579d803e50def8668dc704ffecb5ee4e6e12bb1ffd5f848cafd32dfdd926c",
+      "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20240125T1401-structure-20260210T1102.csv",
+      "source_capture_kind": "raw_bytes",
+      "download_receipts": [
+        "work/oktmo-history-20260915/raw/data-20240125T1401-structure-20260210T1102.csv.download.json"
+      ],
+      "notes": []
+    },
+    {
+      "path_from_workspace": "work/oktmo-history-20260915/raw/data-20241227T1412-structure-20260210T1102.csv",
+      "bytes": 21337303,
+      "sha256": "513bd287a1f1b42b9190f04afcfb8239bd31e0e699bb890f67dc49341285c13b",
+      "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20241227T1412-structure-20260210T1102.csv",
+      "source_capture_kind": "raw_bytes",
+      "download_receipts": [
+        "work/oktmo-history-20260915/raw/data-20241227T1412-structure-20260210T1102.csv.download.json"
+      ],
+      "notes": []
+    },
+    {
+      "path_from_workspace": "work/oktmo-history-20260915/raw/fns_19514000_web_tool_text.txt",
+      "bytes": 972,
+      "sha256": "b36ad8d5ff00681ab9d11d6166e02868a7679b5666dc9ab80755e566482b4b95",
+      "url": "https://www.nalog.gov.ru/rn35/taxation/submission_statements/rekvizit/12986966/",
+      "source_capture_kind": "web_tool_text",
+      "download_receipts": [],
+      "notes": [
+        "Selective official-page text capture, not HTML; direct HTTP403. Ten quoted source words. Supports19514000/code-date only."
+      ]
+    },
+    {
+      "path_from_workspace": "work/oktmo-history-20260915/raw/gost_change_586_2022.html",
+      "bytes": 75924,
+      "sha256": "d97b826b52996a7988a96cc4b72529bdf5c8b12fa07618574bfeba6f41703f51",
+      "url": "https://protect.gost.ru/classificators/changesdetails/9f7198d7-2161-4bce-96af-e20a11a94ba0",
+      "source_capture_kind": "raw_html",
+      "download_receipts": [
+        "work/oktmo-history-20260915/raw/gost_change_586_2022.html.server-download.json",
+        "work/oktmo-history-20260915/raw/gost_change_586_2022.html.download.json"
+      ],
+      "notes": [
+        "Read-only HTTPS fetch through timeweb-server after local DNS failure; no remote file written."
+      ]
+    },
+    {
+      "path_from_workspace": "work/oktmo-history-20260915/raw/gost_change_593_2022.html",
+      "bytes": 76307,
+      "sha256": "b71b96fffbe7b3d5f5d47b08ab300fb6ed02c64e0dcb43d90ec2921458679152",
+      "url": "https://protect.gost.ru/classificators/changesdetails/28c5d432-50bf-49c4-a508-7c54d524ecb9",
+      "source_capture_kind": "raw_html",
+      "download_receipts": [
+        "work/oktmo-history-20260915/raw/gost_change_593_2022.html.server-download.json",
+        "work/oktmo-history-20260915/raw/gost_change_593_2022.html.download.json"
+      ],
+      "notes": [
+        "Read-only HTTPS fetch through timeweb-server after local DNS failure; no remote file written."
+      ]
+    },
+    {
+      "path_from_workspace": "work/oktmo-history-20260915/raw/gost_change_594_2022.html",
+      "bytes": 76307,
+      "sha256": "2086dff17aa89d0886737d93afb775a43630dfc34a14ba72678ef3ae99f5850c",
+      "url": "https://protect.gost.ru/classificators/changesdetails/85cf7d7a-cca0-4389-ae8b-ed264f54b608",
+      "source_capture_kind": "raw_html",
+      "download_receipts": [
+        "work/oktmo-history-20260915/raw/gost_change_594_2022.html.server-download.json",
+        "work/oktmo-history-20260915/raw/gost_change_594_2022.html.download.json"
+      ],
+      "notes": [
+        "Read-only HTTPS fetch through timeweb-server after local DNS failure; no remote file written."
+      ]
+    },
+    {
+      "path_from_workspace": "work/oktmo-history-20260915/raw/gost_change_598_2023.html",
+      "bytes": 76429,
+      "sha256": "cbef4677f2222f26ce9ea0d7092486e5169aa41d62ef2528f8cd5cd9b366c25b",
+      "url": "https://protect.gost.ru/classificators/changesdetails/cb34ba18-8543-4d72-9a95-40c55c3cbcd9",
+      "source_capture_kind": "raw_html",
+      "download_receipts": [
+        "work/oktmo-history-20260915/raw/gost_change_598_2023.html.server-download.json",
+        "work/oktmo-history-20260915/raw/gost_change_598_2023.html.download.json"
+      ],
+      "notes": [
+        "Read-only HTTPS fetch through timeweb-server after local DNS failure; no remote file written."
+      ]
+    },
+    {
+      "path_from_workspace": "work/oktmo-history-20260915/raw/gost_change_600_2023.html",
+      "bytes": 76430,
+      "sha256": "893b13dcc1df5f8a34d6a6de2674844e82ea291ec054006e993894ef7161f38a",
+      "url": "https://protect.gost.ru/classificators/changesdetails/3c1e0930-031a-4ef5-9217-ab13213e5d12",
+      "source_capture_kind": "raw_html",
+      "download_receipts": [
+        "work/oktmo-history-20260915/raw/gost_change_600_2023.html.server-download.json",
+        "work/oktmo-history-20260915/raw/gost_change_600_2023.html.download.json"
+      ],
+      "notes": [
+        "Read-only HTTPS fetch through timeweb-server after local DNS failure; no remote file written."
+      ]
+    },
+    {
+      "path_from_workspace": "work/oktmo-history-20260915/raw/meta.csv",
+      "bytes": 16084,
+      "sha256": "33f254fb19b1c448f2f718ea0ad60997f0201a4ab8d3ccec8de6166777b3e972",
+      "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/meta.csv",
+      "source_capture_kind": "raw_bytes",
+      "download_receipts": [
+        "work/oktmo-history-20260915/raw/meta.csv.download.json"
+      ],
+      "notes": []
+    }
+  ],
+  "source_count": 19,
+  "source_bytes": 131203976,
+  "attempt_failures": [
+    {
+      "url": "https://rosstat.gov.ru/opendata/7708234640-oktmo/data-20240101-structure-20150128.csv",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "receipt": "work/oktmo-history-20260915/raw/data-20240101-structure-20150128.csv.download.json"
+    },
+    {
+      "url": "https://www.nalog.gov.ru/html/sites/www.rn35.nalog.ru/rekvizit%202/oktmo2023.xlsx",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "receipt": "work/oktmo-history-20260915/raw/fns_oktmo2023.xlsx.download.json"
+    },
+    {
+      "url": "https://www.nalog.gov.ru/html/sites/www.rn35.nalog.ru/rekvizit%202/reorg2023.xls",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "receipt": "work/oktmo-history-20260915/raw/fns_reorg2023.xls.download.json"
+    },
+    {
+      "url": "https://protect.gost.ru/classificators/changesdetails/9f7198d7-2161-4bce-96af-e20a11a94ba0",
+      "error": "URLError: <urlopen error [Errno 11002] getaddrinfo failed>",
+      "receipt": "work/oktmo-history-20260915/raw/gost_change_586_2022.html.download.json"
+    },
+    {
+      "url": "https://protect.gost.ru/classificators/changesdetails/28c5d432-50bf-49c4-a508-7c54d524ecb9",
+      "error": "URLError: <urlopen error [Errno 11002] getaddrinfo failed>",
+      "receipt": "work/oktmo-history-20260915/raw/gost_change_593_2022.html.download.json"
+    },
+    {
+      "url": "https://protect.gost.ru/classificators/changesdetails/85cf7d7a-cca0-4389-ae8b-ed264f54b608",
+      "error": "URLError: <urlopen error [Errno 11002] getaddrinfo failed>",
+      "receipt": "work/oktmo-history-20260915/raw/gost_change_594_2022.html.download.json"
+    },
+    {
+      "url": "https://protect.gost.ru/classificators/changesdetails/cb34ba18-8543-4d72-9a95-40c55c3cbcd9",
+      "error": "URLError: <urlopen error [Errno 11002] getaddrinfo failed>",
+      "receipt": "work/oktmo-history-20260915/raw/gost_change_598_2023.html.download.json"
+    },
+    {
+      "url": "https://protect.gost.ru/classificators/changesdetails/3c1e0930-031a-4ef5-9217-ab13213e5d12",
+      "error": "URLError: <urlopen error [Errno 11002] getaddrinfo failed>",
+      "receipt": "work/oktmo-history-20260915/raw/gost_change_600_2023.html.download.json"
+    }
+  ],
+  "additional_barriers": [
+    {
+      "url": "https://protect.gost.ru/classificators/changesdetails/9f7198d7-2161-4bce-96af-e20a11a94ba0",
+      "resource": "Full text viewer of586/2022",
+      "status": "authorization_required",
+      "evidence": "First-image response visually shows login/registration requirement. It is not a document page; no access bypass attempted."
+    }
+  ],
+  "excluded_diagnostics": [
+    "gost_change_586_page1.jpg is an access gate, not primary document content",
+    "gost_change_586_pages.json and gost_doc_viewer.js are viewer diagnostics, not economic data or legal evidence",
+    "*.heuristic-utf16.txt previews are incomplete and not used for legal/date decisions"
+  ],
+  "portable_evidence_copies": "reports/enrichment_v2/code_bridge_adjudication/evidence/",
+  "full_raw_directory": "work/oktmo-history-20260915/raw"
+}

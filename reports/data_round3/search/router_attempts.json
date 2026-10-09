@@ -1,0 +1,177 @@
+[
+  {
+    "attempt_id": "93cd5787b9184070b7d2cea62e29b43f",
+    "call_id": "b2cec75f1640463cad5a4eb666a10b2c",
+    "attempt": 1,
+    "method": "GET",
+    "operation": "/api/v1/models",
+    "state": "complete",
+    "started_at": "2026-09-16T16:20:43.753432+00:00",
+    "status": 200,
+    "response_id": null,
+    "usage": null,
+    "updated_at": "2026-09-16T16:20:43.977226+00:00",
+    "seconds": 0.20717193745076656,
+    "model": null
+  },
+  {
+    "attempt_id": "903d1b7462de4c2ba73795bcad5c271a",
+    "call_id": "145bf612579f4a8c81d286eb9ebee0ac",
+    "attempt": 1,
+    "method": "POST",
+    "operation": "/api/v1/chat/completions",
+    "state": "complete",
+    "started_at": "2026-09-16T16:22:00.188922+00:00",
+    "status": 200,
+    "response_id": "gen-1789575720-iHa7Mcs6dd3O0IqQZm1Q",
+    "usage": {
+      "prompt_tokens": 19171,
+      "completion_tokens": 1472,
+      "total_tokens": 20643,
+      "cost": 0.03097936039275,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.03097936039275,
+        "upstream_inference_prompt_cost": 0.02517934956075,
+        "upstream_inference_completions_cost": 0.005800010832
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "updated_at": "2026-09-16T16:23:06.815312+00:00",
+    "seconds": 66.60093577951193,
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "finish_reason": "stop"
+  },
+  {
+    "attempt_id": "749542cf69db4330b600811dc05cbb33",
+    "call_id": "05bf4a82c3414c32ba9adf448d193e3e",
+    "attempt": 1,
+    "method": "POST",
+    "operation": "/api/v1/chat/completions",
+    "state": "failed",
+    "started_at": "2026-09-16T16:22:00.190196+00:00",
+    "status": 200,
+    "response_id": "gen-1789575720-2yJHUWmri78rbtwrz8OK",
+    "usage": null,
+    "updated_at": "2026-09-16T16:23:58.240170+00:00",
+    "error": "network_error",
+    "seconds": 118.0431543616578
+  },
+  {
+    "attempt_id": "f698ae434ba84cc485f3f9b072504677",
+    "call_id": "20f2dade42d14ae9b38cbba254bbd20c",
+    "attempt": 1,
+    "method": "POST",
+    "operation": "/api/v1/chat/completions",
+    "state": "complete",
+    "started_at": "2026-09-16T16:23:06.856489+00:00",
+    "status": 200,
+    "response_id": "gen-1789575787-XOO1ReOXIFlPo9ZnRSuF",
+    "usage": {
+      "prompt_tokens": 5407,
+      "completion_tokens": 7466,
+      "total_tokens": 12873,
+      "cost": 0.0367026,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0367026,
+        "upstream_inference_prompt_cost": 0.00713724,
+        "upstream_inference_completions_cost": 0.02956536
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 5942,
+        "audio_tokens": 0
+      }
+    },
+    "updated_at": "2026-09-16T16:24:33.273448+00:00",
+    "seconds": 86.40393508970737,
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "finish_reason": "stop"
+  },
+  {
+    "attempt_id": "2cafb51ed291481ca0a0bd92f2818046",
+    "call_id": "9bd213adaf734e74a6d2399f68b77cd0",
+    "attempt": 1,
+    "method": "POST",
+    "operation": "/api/v1/chat/completions",
+    "state": "failed",
+    "started_at": "2026-09-16T16:23:58.250785+00:00",
+    "status": 200,
+    "response_id": "gen-1789575838-di2dkRTAeNtEsDawgwVQ",
+    "usage": {
+      "prompt_tokens": 2936,
+      "completion_tokens": 9002,
+      "total_tokens": 11938,
+      "cost": 0,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0287139072,
+        "upstream_inference_prompt_cost": 0.002809752,
+        "upstream_inference_completions_cost": 0.0259041552
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 9002,
+        "audio_tokens": 0
+      }
+    },
+    "updated_at": "2026-09-16T16:25:40.190404+00:00",
+    "seconds": 101.92817890364677,
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "finish_reason": "error",
+    "error": "provider_error"
+  },
+  {
+    "attempt_id": "3244810d0b994abd83a0463e0b0ed7e3",
+    "call_id": "846ebfe6aec04cfb867c0603e0736166",
+    "attempt": 1,
+    "method": "POST",
+    "operation": "/api/v1/chat/completions",
+    "state": "complete",
+    "started_at": "2026-09-16T16:25:40.214871+00:00",
+    "status": 200,
+    "response_id": "gen-1789575940-vRiEEiU42YbLPpMtBFKJ",
+    "usage": {
+      "prompt_tokens": 3716,
+      "completion_tokens": 1636,
+      "total_tokens": 5352,
+      "cost": 0.0090844,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0090844,
+        "upstream_inference_prompt_cost": 0.0048308,
+        "upstream_inference_completions_cost": 0.0042536
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "updated_at": "2026-09-16T16:26:06.460249+00:00",
+    "seconds": 26.224551224149764,
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "finish_reason": "stop"
+  }
+]

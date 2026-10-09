@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "deterministic_files": 7,
+  "source_accepted_values": 34,
+  "independently_recomputed_growth_pairs": 17,
+  "max_percentage_point_difference": 4.547473508864641e-13,
+  "missing_pair_preserved_as_missing": true,
+  "source_status_upgrade": false,
+  "all_six_boundary_equivalence_unknown": true,
+  "self_tests": "8 passed",
+  "ruff_check": "PASS",
+  "readme_sha256": "1411a7adbbe18471345b2ea9f7b3870f3cbdad012e88295b6cacc8b306eb71f3",
+  "script_sha256": "d82809bc0f99696918c8a42de333dc004a33a57ebd06cb5699905b28787da3aa",
+  "manifest_sha256": "748e587f1e7ca599271376b761591e7b174ace1678123ee3ec925af9391ef4a8"
+}

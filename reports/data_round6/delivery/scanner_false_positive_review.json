@@ -1,0 +1,44 @@
+{
+  "status": "PASS_EXACT_BINARY_FALSE_POSITIVE",
+  "scope": "One PDF byte sequence present in an official source snapshot and its identical mirror",
+  "archive_paths": [
+    "raw6/cases/raw/ach_rtm_report.pdf",
+    "raw6/cases/raw/ach_rtm_audit_mirror.pdf"
+  ],
+  "file_bytes": 597806,
+  "file_sha256": "dd90aa61ad92e695149941bb495cbb88933e8b84f2a947cbac29d23d4ad290ae",
+  "match_offset": 79451,
+  "match_length": 45,
+  "match_sha256": "51be0a9642a4cb5bb2c57526b29208cdbc08774fd3c5186aef3a3150db9a42e8",
+  "pdf_object_number": 4,
+  "pdf_object_generation": 0,
+  "pdf_filter": "/DCTDecode",
+  "pdf_subtype": "/Image",
+  "image_width": 312,
+  "image_height": 314,
+  "jpeg_offset": 78915,
+  "jpeg_bytes": 9838,
+  "jpeg_sha256": "a84120f461eae7d378e40bac239aef8939d553eee33c3c1a1316f1b45dc44a37",
+  "dht": {
+    "segment_offset": 79157,
+    "segment_end_exclusive": 79577,
+    "declared_length": 418,
+    "table_offset": 79398,
+    "table_class": 1,
+    "table_id": 1,
+    "symbol_count": 162,
+    "symbols_offset": 79415,
+    "symbols_end_exclusive": 79577
+  },
+  "review_method": "pypdf independently identified object 4 as a JPEG image. Its full decoded stream exactly equals the source byte range 78915:88753. The unchanged round5 containing_dht parser establishes that the entire scanner match lies within AC Huffman symbols, outside headers and compressed scan payload.",
+  "decision": "Accept only this exact file, JPEG, match coordinates and the two declared archive paths. Do not exempt other bytes in the PDF, other PDFs or generic binary content.",
+  "scanner_regex_changed": false,
+  "prior_helper_changed": false,
+  "matched_bytes_disclosed": false,
+  "tests": {
+    "command": "cd enrichment; uv run --frozen --offline pytest tests/test_round6_delivery_scanner.py tests/test_round5_delivery_scanner.py -q",
+    "passed": 24,
+    "guards": ["wrong path", "file mutation", "offset", "length", "match hash", "file hash", "new second match", "not-DHT segment despite matching hashes", "prior module immutability", "real exact PDF and appended-byte mutation"]
+  },
+  "source_url": "https://ach.gov.ru/upload/iblock/a51/j221v2r7ct251igl3uqoo73v84lzi5wo/Otchet_transport.pdf"
+}

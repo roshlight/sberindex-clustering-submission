@@ -1,0 +1,44 @@
+{
+  "status": "exploratory_observational_city_context_only",
+  "unit": "approved city inside a primary municipality, annual reference geography conditional",
+  "iszh_predictor": "log annual city ISZh, Russia=1; not local inflation",
+  "outcomes": [
+    "log_total",
+    "clr_p_food",
+    "clr_p_health",
+    "clr_p_marketplaces",
+    "clr_p_foodservice",
+    "clr_p_transport"
+  ],
+  "controls": [
+    "log_population",
+    "log_wage",
+    "log_worker_concentration",
+    "municipality type",
+    "region fixed effects"
+  ],
+  "raw_and_partial_sample": "same complete core_eligible city-year sample, separate years",
+  "sensitivity": "conservative_eligible stable-code sample, same controls",
+  "bootstrap": "999 draws of whole regions with replacement; nuisance regression refit each draw",
+  "seed": 13,
+  "intervals": "percentile 95%; descriptive, marginal, not multiplicity adjusted or causal",
+  "product_pair_key": "same municipality, city OKTMO, source city code, month, product and full label/unit",
+  "price_filter": "strictly positive in both years; no missing/zero/source-code repair",
+  "annual_product_estimand": "mean2024/mean2023 over exactly 12 common positive months",
+  "city_estimand": "unweighted median of eligible annual product price ratios, not CPI",
+  "primary_min_products": 100,
+  "sensitivity_min_products": [
+    50,
+    100,
+    200,
+    300
+  ],
+  "sensitivity_min_month_pairs": [
+    10,
+    12
+  ],
+  "common_basket_sensitivity": "products available in >=90% of primary cities, cities with ALL these products",
+  "no_cross_validation_or_prediction_claim": true,
+  "no_sber_category_deflator": true,
+  "bootstrap_draws": 999
+}

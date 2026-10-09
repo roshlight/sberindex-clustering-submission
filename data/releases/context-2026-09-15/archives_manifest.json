@@ -1,0 +1,42 @@
+{
+  "release_tag": "context-data-2026-09-15",
+  "created_at_utc": "2026-09-14T23:13:36.428488+00:00",
+  "status": "replayable_with_conditions",
+  "archives": [
+    {
+      "asset": "server-discovery-snapshots.zip",
+      "bytes": 547260826,
+      "sha256": "1cc3c4e96a0dc7a4f4049207933ff9b033d873acd6327c2f6fc41c09e4f9274f",
+      "archived_files": 286,
+      "uncompressed_bytes": 556100927,
+      "zip_crc_and_entry_hashes": "PASS"
+    },
+    {
+      "asset": "server-economy-snapshots.zip",
+      "bytes": 14253487,
+      "sha256": "83cc1b420e22fccc9e51af4f3b5441ea58202b767f49cce46a81ff3454993f7f",
+      "archived_files": 8977,
+      "uncompressed_bytes": 76304709,
+      "zip_crc_and_entry_hashes": "PASS"
+    },
+    {
+      "asset": "local-context-snapshots.zip",
+      "bytes": 38083321,
+      "sha256": "2b865d884e4f765fc1694054603ae1c1815879d7870efc219330236511bd47d6",
+      "archived_files": 1457,
+      "uncompressed_bytes": 113276934,
+      "zip_crc_and_entry_hashes": "PASS"
+    }
+  ],
+  "archived_files_total": 10720,
+  "compressed_bytes_total": 599597634,
+  "uncompressed_bytes_total": 745682570,
+  "base_commit": "b38fa338429e78232ac1b202ffe83616e1801f30",
+  "previous_release": "population-data-2026-09-15",
+  "report": "reports/enrichment_v3/REPORT.md",
+  "limitations": [
+    "Source extraction does not imply accepted geography joins.",
+    "Primary and secondary Rosstat are not independent measurements.",
+    "No new clustering experiment; all previously tracked files preserved."
+  ]
+}

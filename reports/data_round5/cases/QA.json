@@ -1,0 +1,15 @@
+{
+  "status": "PASS_WITH_CONDITIONS",
+  "sources_attempted": 18,
+  "sources_downloaded": 14,
+  "source_and_text_hashes_verified": 28,
+  "evidence_rows": 18,
+  "raw_to_text_replays_verified": 14,
+  "visual_receipts_verified": 5,
+  "accepted_municipal_numeric_cells": 0,
+  "causal_attributions": 0,
+  "models_fit": 0,
+  "previous_sources_changed": 0,
+  "new_yearbook_transcriptions": 0,
+  "network_requests_in_replay": 0
+}

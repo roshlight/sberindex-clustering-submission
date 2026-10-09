@@ -1,0 +1,14 @@
+[
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst28/",
+    "indicator": "8423005",
+    "source_oktmo": "28714000",
+    "reason": "ambiguous_or_truncated_full_form_label"
+  },
+  {
+    "region": "https://rosstat.gov.ru/dbscripts/munst/munst28/",
+    "indicator": "8423007",
+    "source_oktmo": "28714000",
+    "reason": "ambiguous_or_truncated_full_form_label"
+  }
+]

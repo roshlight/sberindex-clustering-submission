@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "manifest": "reports/initial_study/delivery_manifest.json",
+      "files": 62,
+      "status": "PASS"
+    },
+    {
+      "manifest": "reports/enrichment_v1/delivery_manifest.json",
+      "scope": "Prior delivered report/data files only; current enrichment implementation changed.",
+      "files": 29,
+      "status": "PASS"
+    },
+    {
+      "manifest": "code_bridge/manifest.json",
+      "files": 8,
+      "status": "PASS"
+    },
+    {
+      "manifest": "code_bridge_adjudication/manifest.json",
+      "files": 8,
+      "status": "PASS"
+    },
+    {
+      "manifest": "population/manifest.json",
+      "files": 4,
+      "status": "PASS"
+    },
+    {
+      "manifest": "population_source/manifest.json",
+      "files": 5,
+      "status": "PASS"
+    }
+  ],
+  "scope": "Artifact identity and preservation; not a new model evaluation or clean independent reproduction."
+}

@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "network_requests": 0,
+  "cached_responses": 416,
+  "checks": [
+    {
+      "file": "source_cells.csv",
+      "equal_values_and_order": true,
+      "byte_equal": false
+    },
+    {
+      "file": "annual_candidate_panel.csv",
+      "equal_values_and_order": true,
+      "byte_equal": false
+    },
+    {
+      "file": "coverage.csv",
+      "equal_values_and_order": true,
+      "byte_equal": false
+    },
+    {
+      "file": "annual_candidate_panel.parquet",
+      "equal_values_and_order": true,
+      "byte_equal": true
+    }
+  ],
+  "note": "Canonical Linux CSV and Windows replay differ only in platform line endings; values and order identical. Network counters intentionally differ in summary."
+}

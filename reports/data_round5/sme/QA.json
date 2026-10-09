@@ -1,0 +1,520 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "no_cookie_headers:ajax-forms.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:ajax-forms.js",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/static/js/ajax-forms.js?ver=4.42.3"
+    },
+    {
+      "name": "no_cookie_headers:archive_2023_01.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "no_cookie_headers:archive_2023_06.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "no_cookie_headers:archive_2023_07.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "no_cookie_headers:archive_2023_12.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "no_cookie_headers:archive_2024_01.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "no_cookie_headers:archive_2024_06.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "no_cookie_headers:archive_2024_07.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "no_cookie_headers:archive_2024_12.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "no_cookie_headers:author_article_2024.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "no_cookie_headers:fns_about.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:fns_about.html",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/about.html"
+    },
+    {
+      "name": "no_cookie_headers:fns_developers.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:fns_developers.html",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/developers.html"
+    },
+    {
+      "name": "no_cookie_headers:fns_passport.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:fns_passport.html",
+      "passed": true,
+      "evidence": "https://www.nalog.gov.ru/opendata/7707329152-rsmp/"
+    },
+    {
+      "name": "no_cookie_headers:fns_statistics.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:fns_statistics.html",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/statistics.html"
+    },
+    {
+      "name": "no_cookie_headers:fns_workers_passport.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:fns_workers_passport.html",
+      "passed": true,
+      "evidence": "https://www.nalog.gov.ru/opendata/7707329152-sshr2019/"
+    },
+    {
+      "name": "no_cookie_headers:generator_source.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:generator_source.gz",
+      "passed": true,
+      "evidence": "https://files.pythonhosted.org/packages/22/a2/000c50d475b5fcef9eec7f5513ba2caed12692dbfd781f8230af4b8e46c4/russian_sme_registry-1.0.0b10.tar.gz"
+    },
+    {
+      "name": "no_cookie_headers:jquery.ba-hashchange.min.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:jquery.ba-hashchange.min.js",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/static/js/jquery.ba-hashchange.min.js?ver=4.42.3"
+    },
+    {
+      "name": "no_cookie_headers:jquery.blockUI.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:jquery.blockUI.js",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/static/js/jquery.blockUI.js?ver=4.42.3"
+    },
+    {
+      "name": "no_cookie_headers:jquery.cookie.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:jquery.cookie.js",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/static/js/jquery.cookie.js?ver=4.42.3"
+    },
+    {
+      "name": "no_cookie_headers:jquery.is-input.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:jquery.is-input.js",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/static/js/jquery.is-input.js?ver=4.42.3"
+    },
+    {
+      "name": "no_cookie_headers:jquery.mask.min.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:jquery.mask.min.js",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/static/js/jquery.mask.min.js?ver=4.42.3"
+    },
+    {
+      "name": "no_cookie_headers:jquery.min.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:jquery.min.js",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/static/js/jquery.min.js?ver=4.42.3"
+    },
+    {
+      "name": "no_cookie_headers:jquery.simplemodal.min.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:jquery.simplemodal.min.js",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/static/js/jquery.simplemodal.min.js?ver=4.42.3"
+    },
+    {
+      "name": "no_cookie_headers:jquery.uni-checkbox.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:jquery.uni-checkbox.js",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/static/js/jquery.uni-checkbox.js?ver=4.42.3"
+    },
+    {
+      "name": "no_cookie_headers:jquery.uni-date.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:jquery.uni-date.js",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/static/js/jquery.uni-date.js?ver=4.42.3"
+    },
+    {
+      "name": "no_cookie_headers:jquery.uni-fias.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:jquery.uni-fias.js",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/static/js/jquery.uni-fias.js?ver=4.42.3"
+    },
+    {
+      "name": "no_cookie_headers:jquery.uni-kladr2.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:jquery.uni-kladr2.js",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/static/js/jquery.uni-kladr2.js?ver=4.42.3"
+    },
+    {
+      "name": "no_cookie_headers:jquery.uni-radio.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:jquery.uni-radio.js",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/static/js/jquery.uni-radio.js?ver=4.42.3"
+    },
+    {
+      "name": "no_cookie_headers:jquery.uni-select.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:jquery.uni-select.js",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/static/js/jquery.uni-select.js?ver=4.42.3"
+    },
+    {
+      "name": "no_cookie_headers:jquery.uni-set.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:jquery.uni-set.js",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/static/js/jquery.uni-set.js?ver=4.42.3"
+    },
+    {
+      "name": "no_cookie_headers:jquery.uni-text.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:jquery.uni-text.js",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/static/js/jquery.uni-text.js?ver=4.42.3"
+    },
+    {
+      "name": "no_cookie_headers:jquery.uni-tree2.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:jquery.uni-tree2.js",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/static/js/jquery.uni-tree2.js?ver=4.42.3"
+    },
+    {
+      "name": "no_cookie_headers:js.cookie.min.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:js.cookie.min.js",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/static/js/js.cookie.min.js?ver=4.42.3"
+    },
+    {
+      "name": "no_cookie_headers:main.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:main.js",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/js/jqvmap/main.js?ver=1.5.9"
+    },
+    {
+      "name": "no_cookie_headers:pypi_generator.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:pypi_generator.html",
+      "passed": true,
+      "evidence": "https://pypi.org/project/russian-sme-registry/"
+    },
+    {
+      "name": "no_cookie_headers:rsmp-commons.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:rsmp-commons.js",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/static/js/rsmp/rsmp-commons.js?ver=4.42.3"
+    },
+    {
+      "name": "no_cookie_headers:rudnya_municipal_2024.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:rudnya_municipal_2024.pdf",
+      "passed": true,
+      "evidence": "https://xn--d1ashm6d.xn--p1ai/files/458/analiticheskaya-info2.pdf"
+    },
+    {
+      "name": "no_cookie_headers:statistics.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:statistics.js",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/js/statistics.js?ver=1.5.9"
+    },
+    {
+      "name": "no_cookie_headers:statistics_2023.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:statistics_2023.xlsx",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/statistics.xlsx?statDate=10.12.2023"
+    },
+    {
+      "name": "no_cookie_headers:statistics_2024.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:statistics_2024.xlsx",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/statistics.xlsx?statDate=10.12.2024"
+    },
+    {
+      "name": "no_cookie_headers:structure-10032022.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:structure-10032022.xsd",
+      "passed": true,
+      "evidence": "https://file.nalog.ru/opendata/7707329152-rsmp/structure-10032022.xsd"
+    },
+    {
+      "name": "no_cookie_headers:structure-10062023.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:structure-10062023.xsd",
+      "passed": true,
+      "evidence": "https://file.nalog.ru/opendata/7707329152-rsmp/structure-10062023.xsd"
+    },
+    {
+      "name": "no_cookie_headers:uni-dialogs.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:uni-dialogs.js",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/static/js/uni-dialogs.js?ver=4.42.3"
+    },
+    {
+      "name": "no_cookie_headers:uni-i18n.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:uni-i18n.js",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/static/js/uni-i18n.js?ver=4.42.3"
+    },
+    {
+      "name": "no_cookie_headers:uni-string.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:uni-string.js",
+      "passed": true,
+      "evidence": "https://rmsp.nalog.ru/static/js/uni-string.js?ver=4.42.3"
+    },
+    {
+      "name": "no_cookie_headers:VO_RRMSPSV_2_213_04_04_06.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:VO_RRMSPSV_2_213_04_04_06.zip",
+      "passed": true,
+      "evidence": "https://file.nalog.ru/opendata/7707329152-rsmp/VO_RRMSPSV_2_213_04_04_06.zip"
+    },
+    {
+      "name": "no_cookie_headers:workers_2024_release.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "no_cookie_headers:workers_structure.http.json",
+      "passed": true,
+      "evidence": "HTTP metadata"
+    },
+    {
+      "name": "source_hash:workers_structure.xsd",
+      "passed": true,
+      "evidence": "https://file.nalog.ru/opendata/7707329152-sshr2019/structure-20200408.xsd"
+    },
+    {
+      "name": "24_distinct_archive_links",
+      "passed": true,
+      "evidence": "FNS passport"
+    },
+    {
+      "name": "range_zip_member_offline_replay",
+      "passed": true,
+      "evidence": "All selected members replayed; zipfile validates CRC"
+    },
+    {
+      "name": "sample_hash:archive_2023_12",
+      "passed": true,
+      "evidence": "sample.xml"
+    },
+    {
+      "name": "sample_hash:archive_2024_06",
+      "passed": true,
+      "evidence": "sample.xml"
+    },
+    {
+      "name": "sample_hash:archive_2024_07",
+      "passed": true,
+      "evidence": "sample.xml"
+    },
+    {
+      "name": "sample_hash:archive_2024_12",
+      "passed": true,
+      "evidence": "sample.xml"
+    },
+    {
+      "name": "no_oktmo_field:structure-10032022.xsd",
+      "passed": true,
+      "evidence": "XSD names"
+    },
+    {
+      "name": "no_oktmo_field:structure-10062023.xsd",
+      "passed": true,
+      "evidence": "XSD names"
+    },
+    {
+      "name": "no_oktmo_field:workers_structure.xsd",
+      "passed": true,
+      "evidence": "XSD names"
+    },
+    {
+      "name": "municipal_pdf_27_rows",
+      "passed": true,
+      "evidence": "page1"
+    },
+    {
+      "name": "municipal_pdf_2024_sum",
+      "passed": true,
+      "evidence": "page1 printed total"
+    },
+    {
+      "name": "pypi_archive_digest",
+      "passed": true,
+      "evidence": "PyPI published source digest"
+    },
+    {
+      "name": "generator_code_evidence",
+      "passed": true,
+      "evidence": "author source archive; static read, no execution"
+    },
+    {
+      "name": "prior_tochno_document_present",
+      "passed": true,
+      "evidence": "Reused frozen round4 documentation"
+    }
+  ],
+  "downloaded_body_count": 38,
+  "archive_links": 24,
+  "sampled_archives": 4,
+  "sample_documents": 3598,
+  "sample_range_bytes": 4668346,
+  "complete_archive_bytes_not_downloaded": 8650977510,
+  "official_stock_rows": 198,
+  "municipal_2024_candidates": 27,
+  "model_adoption": false,
+  "historical_municipal_join_approved": false,
+  "exact_tochno_build_lineage_proven": false,
+  "xml_xsd_validation_performed": false,
+  "pdf_page1_visual_review": "PASS; rendered original PDF table inspected, labels/counts preserved",
+  "raw_files": 147,
+  "raw_bytes": 29249713
+}

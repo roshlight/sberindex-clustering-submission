@@ -1,0 +1,79 @@
+{
+  "sources": [
+    {
+      "id": "ach_rtm_audit_page",
+      "url": "https://ach.gov.ru/checks/stroitelstvo-transportnoy-infrastruktury",
+      "role": "federal_auditor"
+    },
+    {
+      "id": "ach_rtm_audit_mirror",
+      "url": "https://pravdaosro.ru/wp-content/uploads/2025/12/Otchet_transport.pdf",
+      "role": "nonofficial_mirror_lead"
+    },
+    {
+      "id": "district_home",
+      "url": "https://mr-nizhnekolymskij.sakha.gov.ru/",
+      "role": "municipality"
+    },
+    {
+      "id": "sakha_auditor_home",
+      "url": "https://sp.sakha.gov.ru/",
+      "role": "regional_auditor_candidate"
+    },
+    {
+      "id": "ach_rtm_report",
+      "url": "https://ach.gov.ru/upload/iblock/a51/j221v2r7ct251igl3uqoo73v84lzi5wo/Otchet_transport.pdf",
+      "role": "federal_auditor"
+    },
+    {
+      "id": "ach_rtm_financing",
+      "url": "https://ach.gov.ru/upload/iblock/103/ld8hjdc9xsortn29n10q9b5qs91n7o20/Prilozhenie-_-3-Svedeniya-o-finansirovanii-OKS.xlsx",
+      "role": "federal_auditor"
+    },
+    {
+      "id": "ach_rtm_contracts",
+      "url": "https://ach.gov.ru/upload/iblock/c56/n2trneuap1dnlhju3vd85nf92896zolf/Prilozhenie-_-5-Svodnaya-tablitsa-po-obektam-FKU-RTM.xlsx",
+      "role": "federal_auditor"
+    },
+    {
+      "id": "clinic_tender_lead",
+      "url": "https://vsem-podryad.ru/purchase/2d4d5217-e544-406f-ba71-5852060201bf/",
+      "role": "nonofficial_mirror_lead"
+    },
+    {
+      "id": "airport_eis",
+      "url": "https://zakupki.gov.ru/epz/contract/contractCard/common-info.html?reestrNumber=1771454974421000032",
+      "role": "procurement_registry"
+    },
+    {
+      "id": "district_http",
+      "url": "http://mr-nizhnekolymskij.sakha.gov.ru/",
+      "role": "municipality"
+    },
+    {
+      "id": "auditor_directory",
+      "url": "https://declarator.org/office/9451",
+      "role": "nonofficial_mirror_lead"
+    },
+    {
+      "id": "airport_eis_payments",
+      "url": "https://zakupki.gov.ru/epz/contract/contractCard/payment-info-and-target-of-order.html?reestrNumber=1771454974421000032&contractInfoId=94379895",
+      "role": "procurement_registry"
+    },
+    {
+      "id": "airport_eis_execution",
+      "url": "https://zakupki.gov.ru/epz/contract/contractCard/process-info.html?reestrNumber=1771454974421000032&contractInfoId=94379895",
+      "role": "procurement_registry"
+    },
+    {
+      "id": "sakha_auditor_official",
+      "url": "https://schetnaja-palata.sakha.gov.ru/",
+      "role": "regional_auditor"
+    },
+    {
+      "id": "sakha_budget2023",
+      "url": "https://minfin.old.sakha.gov.ru/bjudzhet/ispolnenie/otchet-za-2023-god/za-2023-god1",
+      "role": "regional_finance_ministry"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+claim,status,source,evidence,limitation
+explicit_cancelled_to_valid_settlement_codes,ready_with_conditions,crosswalk_files,Six publisher releases with source-row provenance,No effective-date field; release date does not date territorial membership
+primorye_643_csv_consistent_with_primary_document,ready,supplement/643_23 ОКТМО.docx,119 exact code pairs,"Agreement confirms published recoding, not enterprise location or boundaries"
+perm_2024_panel_code_reference,ready_with_conditions,supplement/perm_20240101.pdf,42/42 exact panel codes,"Two-page section 1 list, not settlement composition or address history"
+classifier_structural_parent_candidate,ready_with_conditions,priority_sources/oktmo_introduction_891.docx,Declared component construction plus exact parent and panel records,"2026 introduction, historical snapshots can include future-effective rows"
+gar_history_fields_available_in_schema,ready_with_conditions,priority_sources/gar_schemas.zip,STARTDATE ENDDATE PREVID NEXTID PARENTOBJID OKTMO and UPDATEDATE documented,Schema does not supply historical object records; old archive not acquired
+historical_enterprise_address_to_municipality,unknown,candidate_transitions_to_panel.csv,Only code-level candidates; no dated enterprise-address assignment,"Modern geocoding lineage, observation address and date remain unproven"
+sakha_settlement_recoding_coverage,unknown,crosswalk_files/data-20260601T1106-structure-20231110T1511.csv,No rows labelled Republic of Sakha in the downloaded June recoding table,Absence of recoding rows does not prove unchanged boundaries or addresses

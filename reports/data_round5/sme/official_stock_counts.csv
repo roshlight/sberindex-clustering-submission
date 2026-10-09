@@ -1,0 +1,199 @@
+snapshot_date,geography_label,geography_level,total,legal_total,legal_micro,legal_small,legal_medium,ip_total,ip_micro,ip_small,ip_medium,source_file,excel_row,population,historical_municipal_join_eligible
+2023-12-10,Российская Федерация,country,6310279,2267103,2063450,185333,18320,4043176,4013333,29439,404,statistics_2023.xlsx,9,FNS register stock; legal entities and sole traders,False
+2023-12-10,Центральный федеральный округ,federal_district,2010844,821598,746327,68077,7194,1189246,1181771,7354,121,statistics_2023.xlsx,10,FNS register stock; legal entities and sole traders,False
+2023-12-10,Белгородская область,region,60596,17972,16066,1710,196,42624,42349,272,3,statistics_2023.xlsx,11,FNS register stock; legal entities and sole traders,False
+2023-12-10,Брянская область,region,36925,9336,8138,1103,95,27589,27360,224,5,statistics_2023.xlsx,12,FNS register stock; legal entities and sole traders,False
+2023-12-10,Владимирская область,region,51721,15329,13615,1572,142,36392,36097,291,4,statistics_2023.xlsx,13,FNS register stock; legal entities and sole traders,False
+2023-12-10,Воронежская область,region,85982,27995,24821,2896,278,57987,57411,562,14,statistics_2023.xlsx,14,FNS register stock; legal entities and sole traders,False
+2023-12-10,Ивановская область,region,42089,16266,14799,1382,85,25823,25500,318,5,statistics_2023.xlsx,15,FNS register stock; legal entities and sole traders,False
+2023-12-10,Калужская область,region,42767,13389,11925,1336,128,29378,29143,231,4,statistics_2023.xlsx,16,FNS register stock; legal entities and sole traders,False
+2023-12-10,Костромская область,region,22885,7888,7012,821,55,14997,14699,289,9,statistics_2023.xlsx,17,FNS register stock; legal entities and sole traders,False
+2023-12-10,Курская область,region,34285,9221,8220,924,77,25064,24781,271,12,statistics_2023.xlsx,18,FNS register stock; legal entities and sole traders,False
+2023-12-10,Липецкая область,region,39243,11738,10555,1072,111,27505,27335,168,2,statistics_2023.xlsx,19,FNS register stock; legal entities and sole traders,False
+2023-12-10,Московская область,region,436352,134750,122672,10866,1212,301602,300446,1141,15,statistics_2023.xlsx,20,FNS register stock; legal entities and sole traders,False
+2023-12-10,Орловская область,region,25005,7016,6244,707,65,17989,17831,154,4,statistics_2023.xlsx,21,FNS register stock; legal entities and sole traders,False
+2023-12-10,Рязанская область,region,41343,14175,12602,1433,140,27168,26885,277,6,statistics_2023.xlsx,22,FNS register stock; legal entities and sole traders,False
+2023-12-10,Смоленская область,region,38014,16249,14831,1299,119,21765,21541,222,2,statistics_2023.xlsx,23,FNS register stock; legal entities and sole traders,False
+2023-12-10,Тамбовская область,region,29841,7677,6757,832,88,22164,21992,171,1,statistics_2023.xlsx,24,FNS register stock; legal entities and sole traders,False
+2023-12-10,Тверская область,region,46934,17333,15651,1551,131,29601,29334,267,0,statistics_2023.xlsx,25,FNS register stock; legal entities and sole traders,False
+2023-12-10,Тульская область,region,54290,17212,15520,1556,136,37078,36810,263,5,statistics_2023.xlsx,26,FNS register stock; legal entities and sole traders,False
+2023-12-10,Ярославская область,region,50322,21530,19703,1675,152,28792,28527,263,2,statistics_2023.xlsx,27,FNS register stock; legal entities and sole traders,False
+2023-12-10,г.Москва,region,872250,456522,417196,35342,3984,415728,413730,1970,28,statistics_2023.xlsx,28,FNS register stock; legal entities and sole traders,False
+2023-12-10,Северо-Западный федеральный округ,federal_district,702097,286926,260499,24181,2246,415171,412248,2891,32,statistics_2023.xlsx,29,FNS register stock; legal entities and sole traders,False
+2023-12-10,Республика Карелия,region,26199,10399,9679,680,40,15800,15729,69,2,statistics_2023.xlsx,30,FNS register stock; legal entities and sole traders,False
+2023-12-10,Республика Коми,region,25229,7840,7151,635,54,17389,17265,124,0,statistics_2023.xlsx,31,FNS register stock; legal entities and sole traders,False
+2023-12-10,Архангельская область,region,33767,10830,9860,892,78,22937,22690,243,4,statistics_2023.xlsx,32,FNS register stock; legal entities and sole traders,False
+2023-12-10,Вологодская область,region,46453,19339,17810,1397,132,27114,26793,315,6,statistics_2023.xlsx,33,FNS register stock; legal entities and sole traders,False
+2023-12-10,Калининградская область,region,56144,24755,22903,1729,123,31389,31084,303,2,statistics_2023.xlsx,34,FNS register stock; legal entities and sole traders,False
+2023-12-10,Ленинградская область,region,79078,21730,19693,1800,237,57348,56966,377,5,statistics_2023.xlsx,35,FNS register stock; legal entities and sole traders,False
+2023-12-10,Мурманская область,region,25844,8849,8181,622,46,16995,16857,138,0,statistics_2023.xlsx,36,FNS register stock; legal entities and sole traders,False
+2023-12-10,Новгородская область,region,20719,6667,5955,654,58,14052,13965,85,2,statistics_2023.xlsx,37,FNS register stock; legal entities and sole traders,False
+2023-12-10,Псковская область,region,20323,7221,6461,707,53,13102,13005,97,0,statistics_2023.xlsx,38,FNS register stock; legal entities and sole traders,False
+2023-12-10,г.Санкт-Петербург,region,366586,168810,152377,15015,1418,197776,196653,1112,11,statistics_2023.xlsx,39,FNS register stock; legal entities and sole traders,False
+2023-12-10,Ненецкий автономный округ,region,1755,486,429,50,7,1269,1241,28,0,statistics_2023.xlsx,40,FNS register stock; legal entities and sole traders,False
+2023-12-10,Южный федеральный округ,federal_district,717435,172310,156396,14497,1417,545125,540947,4133,45,statistics_2023.xlsx,41,FNS register stock; legal entities and sole traders,False
+2023-12-10,Республика Адыгея (Адыгея),region,16986,3340,2991,319,30,13646,13547,98,1,statistics_2023.xlsx,42,FNS register stock; legal entities and sole traders,False
+2023-12-10,Республика Калмыкия,region,18400,2544,2407,132,5,15856,15621,234,1,statistics_2023.xlsx,43,FNS register stock; legal entities and sole traders,False
+2023-12-10,Краснодарский край,region,295115,68630,62411,5621,598,226485,224747,1717,21,statistics_2023.xlsx,44,FNS register stock; legal entities and sole traders,False
+2023-12-10,Астраханская область,region,28506,7081,6415,624,42,21425,21219,202,4,statistics_2023.xlsx,45,FNS register stock; legal entities and sole traders,False
+2023-12-10,Волгоградская область,region,74375,19160,17214,1765,181,55215,54874,336,5,statistics_2023.xlsx,46,FNS register stock; legal entities and sole traders,False
+2023-12-10,Ростовская область,region,178198,44141,39557,4170,414,134057,133011,1036,10,statistics_2023.xlsx,47,FNS register stock; legal entities and sole traders,False
+2023-12-10,Республика Крым,region,82111,19923,18382,1421,120,62188,61758,428,2,statistics_2023.xlsx,48,FNS register stock; legal entities and sole traders,False
+2023-12-10,г.Севастополь,region,23744,7491,7019,445,27,16253,16170,82,1,statistics_2023.xlsx,49,FNS register stock; legal entities and sole traders,False
+2023-12-10,Северо-Кавказский федеральный округ,federal_district,227627,52706,48495,3811,400,174921,173844,1060,17,statistics_2023.xlsx,50,FNS register stock; legal entities and sole traders,False
+2023-12-10,Республика Дагестан,region,50537,11175,10453,669,53,39362,39232,130,0,statistics_2023.xlsx,51,FNS register stock; legal entities and sole traders,False
+2023-12-10,Республика Ингушетия,region,6105,2771,2686,80,5,3334,3324,10,0,statistics_2023.xlsx,52,FNS register stock; legal entities and sole traders,False
+2023-12-10,Кабардино-Балкарская Республика,region,20933,5534,5182,325,27,15399,15347,52,0,statistics_2023.xlsx,53,FNS register stock; legal entities and sole traders,False
+2023-12-10,Карачаево-Черкесская Республика,region,12729,2827,2620,181,26,9902,9849,53,0,statistics_2023.xlsx,54,FNS register stock; legal entities and sole traders,False
+2023-12-10,Республика Северная Осетия - Алания,region,17546,5052,4677,355,20,12494,12459,33,2,statistics_2023.xlsx,55,FNS register stock; legal entities and sole traders,False
+2023-12-10,Чеченская Республика,region,21342,4931,4633,266,32,16411,16245,165,1,statistics_2023.xlsx,56,FNS register stock; legal entities and sole traders,False
+2023-12-10,Ставропольский край,region,98435,20416,18244,1935,237,78019,77388,617,14,statistics_2023.xlsx,57,FNS register stock; legal entities and sole traders,False
+2023-12-10,Приволжский федеральный округ,federal_district,1085485,384280,348200,32872,3208,701205,695232,5902,71,statistics_2023.xlsx,58,FNS register stock; legal entities and sole traders,False
+2023-12-10,Республика Башкортостан,region,135311,45381,41422,3633,326,89930,89365,558,7,statistics_2023.xlsx,59,FNS register stock; legal entities and sole traders,False
+2023-12-10,Республика Марий Эл,region,21006,6834,6061,727,46,14172,14028,144,0,statistics_2023.xlsx,60,FNS register stock; legal entities and sole traders,False
+2023-12-10,Республика Мордовия,region,23174,6118,5397,641,80,17056,16817,238,1,statistics_2023.xlsx,61,FNS register stock; legal entities and sole traders,False
+2023-12-10,Республика Татарстан (Татарстан),region,172295,67326,61665,5156,505,104969,104285,676,8,statistics_2023.xlsx,62,FNS register stock; legal entities and sole traders,False
+2023-12-10,Удмуртская Республика,region,61225,22306,20203,1899,204,38919,38449,468,2,statistics_2023.xlsx,63,FNS register stock; legal entities and sole traders,False
+2023-12-10,Чувашская Республика - Чувашия,region,45666,13311,11800,1398,113,32355,32125,227,3,statistics_2023.xlsx,64,FNS register stock; legal entities and sole traders,False
+2023-12-10,Кировская область,region,46113,16818,15252,1432,134,29295,28959,326,10,statistics_2023.xlsx,65,FNS register stock; legal entities and sole traders,False
+2023-12-10,Нижегородская область,region,126513,50465,45360,4609,496,76048,75315,720,13,statistics_2023.xlsx,66,FNS register stock; legal entities and sole traders,False
+2023-12-10,Оренбургская область,region,59750,16252,14527,1574,151,43498,43194,301,3,statistics_2023.xlsx,67,FNS register stock; legal entities and sole traders,False
+2023-12-10,Пензенская область,region,45478,12505,11172,1211,122,32973,32486,482,5,statistics_2023.xlsx,68,FNS register stock; legal entities and sole traders,False
+2023-12-10,Пермский край,region,99778,35097,31962,2825,310,64681,64073,600,8,statistics_2023.xlsx,69,FNS register stock; legal entities and sole traders,False
+2023-12-10,Самарская область,region,130202,52695,48011,4265,419,77507,77110,393,4,statistics_2023.xlsx,70,FNS register stock; legal entities and sole traders,False
+2023-12-10,Саратовская область,region,75410,23666,21281,2199,186,51744,51247,492,5,statistics_2023.xlsx,71,FNS register stock; legal entities and sole traders,False
+2023-12-10,Ульяновская область,region,43564,15506,14087,1303,116,28058,27779,277,2,statistics_2023.xlsx,72,FNS register stock; legal entities and sole traders,False
+2023-12-10,Уральский федеральный округ,federal_district,521968,194173,177538,15126,1509,327795,324898,2867,30,statistics_2023.xlsx,73,FNS register stock; legal entities and sole traders,False
+2023-12-10,Курганская область,region,21830,6293,5642,587,64,15537,15329,206,2,statistics_2023.xlsx,74,FNS register stock; legal entities and sole traders,False
+2023-12-10,Свердловская область,region,207599,84594,77525,6441,628,123005,121809,1189,7,statistics_2023.xlsx,75,FNS register stock; legal entities and sole traders,False
+2023-12-10,Тюменская область,region,72000,27422,25190,2052,180,44578,44162,415,1,statistics_2023.xlsx,76,FNS register stock; legal entities and sole traders,False
+2023-12-10,Челябинская область,region,140302,53900,49510,4022,368,86402,85682,705,15,statistics_2023.xlsx,77,FNS register stock; legal entities and sole traders,False
+2023-12-10,Ханты-Мансийский автономный округ - Югра,region,62041,17704,15890,1596,218,44337,44080,254,3,statistics_2023.xlsx,78,FNS register stock; legal entities and sole traders,False
+2023-12-10,Ямало-Ненецкий автономный округ,region,18196,4260,3781,428,51,13936,13836,98,2,statistics_2023.xlsx,79,FNS register stock; legal entities and sole traders,False
+2023-12-10,Сибирский федеральный округ,federal_district,633214,234342,214265,18423,1654,398872,395555,3269,48,statistics_2023.xlsx,80,FNS register stock; legal entities and sole traders,False
+2023-12-10,Республика Алтай,region,8607,2390,2170,195,25,6217,6164,53,0,statistics_2023.xlsx,81,FNS register stock; legal entities and sole traders,False
+2023-12-10,Республика Тыва,region,9065,1414,1337,69,8,7651,7622,28,1,statistics_2023.xlsx,82,FNS register stock; legal entities and sole traders,False
+2023-12-10,Республика Хакасия,region,17272,4658,4280,362,16,12614,12452,159,3,statistics_2023.xlsx,83,FNS register stock; legal entities and sole traders,False
+2023-12-10,Алтайский край,region,77125,27112,24598,2274,240,50013,49621,387,5,statistics_2023.xlsx,84,FNS register stock; legal entities and sole traders,False
+2023-12-10,Красноярский край,region,110542,41045,37739,3031,275,69497,68952,534,11,statistics_2023.xlsx,85,FNS register stock; legal entities and sole traders,False
+2023-12-10,Иркутская область,region,87662,30768,28109,2465,194,56894,56459,429,6,statistics_2023.xlsx,86,FNS register stock; legal entities and sole traders,False
+2023-12-10,Кемеровская область,region,69731,23356,21056,2113,187,46375,46081,294,0,statistics_2023.xlsx,87,FNS register stock; legal entities and sole traders,False
+2023-12-10,Новосибирская область,region,148648,64399,59068,4899,432,84249,83693,549,7,statistics_2023.xlsx,88,FNS register stock; legal entities and sole traders,False
+2023-12-10,Омская область,region,64381,22955,20943,1836,176,41426,40778,637,11,statistics_2023.xlsx,89,FNS register stock; legal entities and sole traders,False
+2023-12-10,Томская область,region,40181,16245,14965,1179,101,23936,23733,199,4,statistics_2023.xlsx,90,FNS register stock; legal entities and sole traders,False
+2023-12-10,Дальневосточный федеральный округ,federal_district,315551,113268,104235,8344,689,202283,200281,1962,40,statistics_2023.xlsx,91,FNS register stock; legal entities and sole traders,False
+2023-12-10,Республика Бурятия,region,30315,9783,9228,525,30,20532,20318,207,7,statistics_2023.xlsx,92,FNS register stock; legal entities and sole traders,False
+2023-12-10,Республика Саха (Якутия),region,41723,11674,10951,681,42,30049,29873,174,2,statistics_2023.xlsx,93,FNS register stock; legal entities and sole traders,False
+2023-12-10,Приморский край,region,87561,36699,33712,2761,226,50862,50370,485,7,statistics_2023.xlsx,94,FNS register stock; legal entities and sole traders,False
+2023-12-10,Хабаровский край,region,50898,22061,20356,1584,121,28837,28575,259,3,statistics_2023.xlsx,95,FNS register stock; legal entities and sole traders,False
+2023-12-10,Амурская область,region,27411,9122,8274,797,51,18289,18058,226,5,statistics_2023.xlsx,96,FNS register stock; legal entities and sole traders,False
+2023-12-10,Камчатский край,region,15196,5278,4881,344,53,9918,9796,120,2,statistics_2023.xlsx,97,FNS register stock; legal entities and sole traders,False
+2023-12-10,Магаданская область,region,6637,2141,1902,213,26,4496,4439,54,3,statistics_2023.xlsx,98,FNS register stock; legal entities and sole traders,False
+2023-12-10,Сахалинская область,region,22662,7868,7075,710,83,14794,14644,148,2,statistics_2023.xlsx,99,FNS register stock; legal entities and sole traders,False
+2023-12-10,Забайкальский край,region,27804,7173,6517,608,48,20631,20365,260,6,statistics_2023.xlsx,100,FNS register stock; legal entities and sole traders,False
+2023-12-10,Еврейская автономная область,region,3747,1027,931,91,5,2720,2693,24,3,statistics_2023.xlsx,101,FNS register stock; legal entities and sole traders,False
+2023-12-10,Чукотский автономный округ,region,1597,442,408,30,4,1155,1150,5,0,statistics_2023.xlsx,102,FNS register stock; legal entities and sole traders,False
+2023-12-10,Юго-Западные субъекты Российской Федерации,other_region_group,96058,7500,7495,2,3,88558,88557,1,0,statistics_2023.xlsx,103,FNS register stock; legal entities and sole traders,False
+2023-12-10,Запорожская область,region,11086,830,828,2,0,10256,10256,0,0,statistics_2023.xlsx,104,FNS register stock; legal entities and sole traders,False
+2023-12-10,Донецкая Народная Республика,region,45526,4380,4378,0,2,41146,41145,1,0,statistics_2023.xlsx,105,FNS register stock; legal entities and sole traders,False
+2023-12-10,Луганская Народная Республика,region,33763,1832,1832,0,0,31931,31931,0,0,statistics_2023.xlsx,106,FNS register stock; legal entities and sole traders,False
+2023-12-10,Херсонская область,region,5683,458,457,0,1,5225,5225,0,0,statistics_2023.xlsx,107,FNS register stock; legal entities and sole traders,False
+2024-12-10,Российская Федерация,country,6566410,2248072,2032833,194800,20439,4318338,4285253,32552,533,statistics_2024.xlsx,9,FNS register stock; legal entities and sole traders,False
+2024-12-10,Центральный федеральный округ,federal_district,2078835,815404,734058,72925,8421,1263431,1255118,8143,170,statistics_2024.xlsx,10,FNS register stock; legal entities and sole traders,False
+2024-12-10,Белгородская область,region,61418,17570,15636,1734,200,43848,43567,276,5,statistics_2024.xlsx,11,FNS register stock; legal entities and sole traders,False
+2024-12-10,Брянская область,region,37448,9112,7898,1120,94,28336,28090,237,9,statistics_2024.xlsx,12,FNS register stock; legal entities and sole traders,False
+2024-12-10,Владимирская область,region,52880,15243,13496,1607,140,37637,37362,269,6,statistics_2024.xlsx,13,FNS register stock; legal entities and sole traders,False
+2024-12-10,Воронежская область,region,88505,27477,24161,3009,307,61028,60429,582,17,statistics_2024.xlsx,14,FNS register stock; legal entities and sole traders,False
+2024-12-10,Ивановская область,region,43368,15984,14446,1441,97,27384,27031,350,3,statistics_2024.xlsx,15,FNS register stock; legal entities and sole traders,False
+2024-12-10,Калужская область,region,44180,13293,11829,1334,130,30887,30643,236,8,statistics_2024.xlsx,16,FNS register stock; legal entities and sole traders,False
+2024-12-10,Костромская область,region,23341,7740,6852,833,55,15601,15300,292,9,statistics_2024.xlsx,17,FNS register stock; legal entities and sole traders,False
+2024-12-10,Курская область,region,34689,8970,7965,928,77,25719,25429,278,12,statistics_2024.xlsx,18,FNS register stock; legal entities and sole traders,False
+2024-12-10,Липецкая область,region,40215,11456,10186,1145,125,28759,28592,162,5,statistics_2024.xlsx,19,FNS register stock; legal entities and sole traders,False
+2024-12-10,Московская область,region,457247,134205,121489,11428,1288,323042,321731,1289,22,statistics_2024.xlsx,20,FNS register stock; legal entities and sole traders,False
+2024-12-10,Орловская область,region,25268,6931,6150,713,68,18337,18179,154,4,statistics_2024.xlsx,21,FNS register stock; legal entities and sole traders,False
+2024-12-10,Рязанская область,region,42175,13784,12179,1448,157,28391,28104,279,8,statistics_2024.xlsx,22,FNS register stock; legal entities and sole traders,False
+2024-12-10,Смоленская область,region,39285,15990,14480,1384,126,23295,23053,237,5,statistics_2024.xlsx,23,FNS register stock; legal entities and sole traders,False
+2024-12-10,Тамбовская область,region,30658,7545,6637,819,89,23113,22933,179,1,statistics_2024.xlsx,24,FNS register stock; legal entities and sole traders,False
+2024-12-10,Тверская область,region,47972,17048,15345,1569,134,30924,30671,253,0,statistics_2024.xlsx,25,FNS register stock; legal entities and sole traders,False
+2024-12-10,Тульская область,region,54769,16609,14893,1567,149,38160,37884,268,8,statistics_2024.xlsx,26,FNS register stock; legal entities and sole traders,False
+2024-12-10,Ярославская область,region,50785,20610,18741,1714,155,30175,29921,250,4,statistics_2024.xlsx,27,FNS register stock; legal entities and sole traders,False
+2024-12-10,г.Москва,region,904632,455837,411675,39132,5030,448795,446199,2552,44,statistics_2024.xlsx,28,FNS register stock; legal entities and sole traders,False
+2024-12-10,Северо-Западный федеральный округ,federal_district,723865,282171,254501,25227,2443,441694,438387,3268,39,statistics_2024.xlsx,29,FNS register stock; legal entities and sole traders,False
+2024-12-10,Республика Карелия,region,26414,9990,9252,698,40,16424,16350,71,3,statistics_2024.xlsx,30,FNS register stock; legal entities and sole traders,False
+2024-12-10,Республика Коми,region,25514,7513,6861,600,52,18001,17871,129,1,statistics_2024.xlsx,31,FNS register stock; legal entities and sole traders,False
+2024-12-10,Архангельская область,region,33982,10475,9495,903,77,23507,23270,233,4,statistics_2024.xlsx,32,FNS register stock; legal entities and sole traders,False
+2024-12-10,Вологодская область,region,47030,18702,17094,1474,134,28328,28006,317,5,statistics_2024.xlsx,33,FNS register stock; legal entities and sole traders,False
+2024-12-10,Калининградская область,region,58618,24540,22560,1834,146,34078,33759,317,2,statistics_2024.xlsx,34,FNS register stock; legal entities and sole traders,False
+2024-12-10,Ленинградская область,region,84776,22647,20499,1903,245,62129,61686,438,5,statistics_2024.xlsx,35,FNS register stock; legal entities and sole traders,False
+2024-12-10,Мурманская область,region,26547,8808,8106,659,43,17739,17541,198,0,statistics_2024.xlsx,36,FNS register stock; legal entities and sole traders,False
+2024-12-10,Новгородская область,region,21455,6618,5909,658,51,14837,14754,81,2,statistics_2024.xlsx,37,FNS register stock; legal entities and sole traders,False
+2024-12-10,Псковская область,region,20354,6777,6009,710,58,13577,13480,95,2,statistics_2024.xlsx,38,FNS register stock; legal entities and sole traders,False
+2024-12-10,г.Санкт-Петербург,region,377238,165578,148250,15736,1592,211660,210295,1350,15,statistics_2024.xlsx,39,FNS register stock; legal entities and sole traders,False
+2024-12-10,Ненецкий автономный округ,region,1937,523,466,52,5,1414,1375,39,0,statistics_2024.xlsx,40,FNS register stock; legal entities and sole traders,False
+2024-12-10,Южный федеральный округ,federal_district,750677,171671,155378,14812,1481,579006,574289,4654,63,statistics_2024.xlsx,41,FNS register stock; legal entities and sole traders,False
+2024-12-10,Республика Адыгея (Адыгея),region,18013,3435,3068,333,34,14578,14469,108,1,statistics_2024.xlsx,42,FNS register stock; legal entities and sole traders,False
+2024-12-10,Республика Калмыкия,region,26213,3594,3410,179,5,22619,22142,476,1,statistics_2024.xlsx,43,FNS register stock; legal entities and sole traders,False
+2024-12-10,Краснодарский край,region,308433,68547,62044,5866,637,239886,237982,1867,37,statistics_2024.xlsx,44,FNS register stock; legal entities and sole traders,False
+2024-12-10,Астраханская область,region,30014,7020,6352,625,43,22994,22780,211,3,statistics_2024.xlsx,45,FNS register stock; legal entities and sole traders,False
+2024-12-10,Волгоградская область,region,76225,18555,16634,1743,178,57670,57318,345,7,statistics_2024.xlsx,46,FNS register stock; legal entities and sole traders,False
+2024-12-10,Ростовская область,region,183052,43275,38683,4170,422,139777,138684,1082,11,statistics_2024.xlsx,47,FNS register stock; legal entities and sole traders,False
+2024-12-10,Республика Крым,region,84520,19829,18257,1441,131,64691,64235,454,2,statistics_2024.xlsx,48,FNS register stock; legal entities and sole traders,False
+2024-12-10,г.Севастополь,region,24207,7416,6930,455,31,16791,16679,111,1,statistics_2024.xlsx,49,FNS register stock; legal entities and sole traders,False
+2024-12-10,Северо-Кавказский федеральный округ,federal_district,249646,55003,50650,3930,423,194643,193323,1293,27,statistics_2024.xlsx,50,FNS register stock; legal entities and sole traders,False
+2024-12-10,Республика Дагестан,region,58690,12219,11477,679,63,46471,46272,195,4,statistics_2024.xlsx,51,FNS register stock; legal entities and sole traders,False
+2024-12-10,Республика Ингушетия,region,6754,2862,2780,78,4,3892,3877,15,0,statistics_2024.xlsx,52,FNS register stock; legal entities and sole traders,False
+2024-12-10,Кабардино-Балкарская Республика,region,22377,5781,5406,345,30,16596,16526,69,1,statistics_2024.xlsx,53,FNS register stock; legal entities and sole traders,False
+2024-12-10,Карачаево-Черкесская Республика,region,13763,2874,2666,184,24,10889,10821,67,1,statistics_2024.xlsx,54,FNS register stock; legal entities and sole traders,False
+2024-12-10,Республика Северная Осетия - Алания,region,18849,5198,4802,373,23,13651,13606,43,2,statistics_2024.xlsx,55,FNS register stock; legal entities and sole traders,False
+2024-12-10,Чеченская Республика,region,26326,5635,5258,330,47,20691,20419,271,1,statistics_2024.xlsx,56,FNS register stock; legal entities and sole traders,False
+2024-12-10,Ставропольский край,region,102887,20434,18261,1941,232,82453,81802,633,18,statistics_2024.xlsx,57,FNS register stock; legal entities and sole traders,False
+2024-12-10,Приволжский федеральный округ,federal_district,1128712,378143,341049,33724,3370,750569,744310,6164,95,statistics_2024.xlsx,58,FNS register stock; legal entities and sole traders,False
+2024-12-10,Республика Башкортостан,region,141429,45604,41554,3696,354,95825,95254,564,7,statistics_2024.xlsx,59,FNS register stock; legal entities and sole traders,False
+2024-12-10,Республика Марий Эл,region,21645,6632,5826,758,48,15013,14873,138,2,statistics_2024.xlsx,60,FNS register stock; legal entities and sole traders,False
+2024-12-10,Республика Мордовия,region,25004,6093,5394,620,79,18911,18623,288,0,statistics_2024.xlsx,61,FNS register stock; legal entities and sole traders,False
+2024-12-10,Республика Татарстан (Татарстан),region,178141,66468,60493,5434,541,111673,110973,688,12,statistics_2024.xlsx,62,FNS register stock; legal entities and sole traders,False
+2024-12-10,Удмуртская Республика,region,70421,21712,19554,1955,203,48709,48054,652,3,statistics_2024.xlsx,63,FNS register stock; legal entities and sole traders,False
+2024-12-10,Чувашская Республика - Чувашия,region,46921,13104,11584,1407,113,33817,33583,231,3,statistics_2024.xlsx,64,FNS register stock; legal entities and sole traders,False
+2024-12-10,Кировская область,region,46847,16429,14830,1468,131,30418,30071,337,10,statistics_2024.xlsx,65,FNS register stock; legal entities and sole traders,False
+2024-12-10,Нижегородская область,region,129978,49442,44158,4762,522,80536,79793,728,15,statistics_2024.xlsx,66,FNS register stock; legal entities and sole traders,False
+2024-12-10,Оренбургская область,region,62027,15991,14246,1577,168,46036,45726,306,4,statistics_2024.xlsx,67,FNS register stock; legal entities and sole traders,False
+2024-12-10,Пензенская область,region,46837,12370,11000,1239,131,34467,34000,461,6,statistics_2024.xlsx,68,FNS register stock; legal entities and sole traders,False
+2024-12-10,Пермский край,region,102427,34489,31290,2909,290,67938,67329,597,12,statistics_2024.xlsx,69,FNS register stock; legal entities and sole traders,False
+2024-12-10,Самарская область,region,134673,51916,47080,4384,452,82757,82344,405,8,statistics_2024.xlsx,70,FNS register stock; legal entities and sole traders,False
+2024-12-10,Саратовская область,region,77684,23147,20736,2202,209,54537,54041,485,11,statistics_2024.xlsx,71,FNS register stock; legal entities and sole traders,False
+2024-12-10,Ульяновская область,region,44678,14746,13304,1313,129,29932,29646,284,2,statistics_2024.xlsx,72,FNS register stock; legal entities and sole traders,False
+2024-12-10,Уральский федеральный округ,federal_district,539567,189317,172047,15689,1581,350250,347170,3054,26,statistics_2024.xlsx,73,FNS register stock; legal entities and sole traders,False
+2024-12-10,Курганская область,region,23208,6201,5528,608,65,17007,16747,258,2,statistics_2024.xlsx,74,FNS register stock; legal entities and sole traders,False
+2024-12-10,Свердловская область,region,212902,82120,74735,6724,661,130782,129536,1241,5,statistics_2024.xlsx,75,FNS register stock; legal entities and sole traders,False
+2024-12-10,Тюменская область,region,76034,27490,25142,2155,193,48544,48078,465,1,statistics_2024.xlsx,76,FNS register stock; legal entities and sole traders,False
+2024-12-10,Челябинская область,region,144417,52080,47540,4158,382,92337,91649,674,14,statistics_2024.xlsx,77,FNS register stock; legal entities and sole traders,False
+2024-12-10,Ханты-Мансийский автономный округ - Югра,region,64336,17184,15348,1611,225,47152,46847,302,3,statistics_2024.xlsx,78,FNS register stock; legal entities and sole traders,False
+2024-12-10,Ямало-Ненецкий автономный округ,region,18670,4242,3754,433,55,14428,14313,114,1,statistics_2024.xlsx,79,FNS register stock; legal entities and sole traders,False
+2024-12-10,Сибирский федеральный округ,federal_district,650352,228892,208165,18912,1815,421460,417973,3427,60,statistics_2024.xlsx,80,FNS register stock; legal entities and sole traders,False
+2024-12-10,Республика Алтай,region,9080,2429,2209,192,28,6651,6604,47,0,statistics_2024.xlsx,81,FNS register stock; legal entities and sole traders,False
+2024-12-10,Республика Тыва,region,10143,1439,1366,67,6,8704,8671,32,1,statistics_2024.xlsx,82,FNS register stock; legal entities and sole traders,False
+2024-12-10,Республика Хакасия,region,17993,4546,4166,360,20,13447,13278,165,4,statistics_2024.xlsx,83,FNS register stock; legal entities and sole traders,False
+2024-12-10,Алтайский край,region,79016,26789,24171,2352,266,52227,51805,416,6,statistics_2024.xlsx,84,FNS register stock; legal entities and sole traders,False
+2024-12-10,Красноярский край,region,112751,40287,36812,3170,305,72464,71859,590,15,statistics_2024.xlsx,85,FNS register stock; legal entities and sole traders,False
+2024-12-10,Иркутская область,region,90522,30165,27448,2496,221,60357,59890,461,6,statistics_2024.xlsx,86,FNS register stock; legal entities and sole traders,False
+2024-12-10,Кемеровская область,region,71860,22702,20380,2125,197,49158,48866,290,2,statistics_2024.xlsx,87,FNS register stock; legal entities and sole traders,False
+2024-12-10,Новосибирская область,region,151998,62536,56954,5109,473,89462,88877,576,9,statistics_2024.xlsx,88,FNS register stock; legal entities and sole traders,False
+2024-12-10,Омская область,region,65798,22087,20057,1835,195,43711,43039,658,14,statistics_2024.xlsx,89,FNS register stock; legal entities and sole traders,False
+2024-12-10,Томская область,region,41191,15912,14602,1206,104,25279,25084,192,3,statistics_2024.xlsx,90,FNS register stock; legal entities and sole traders,False
+2024-12-10,Дальневосточный федеральный округ,federal_district,329014,112851,103541,8549,761,216163,213953,2164,46,statistics_2024.xlsx,91,FNS register stock; legal entities and sole traders,False
+2024-12-10,Республика Бурятия,region,32267,9578,8989,556,33,22689,22443,241,5,statistics_2024.xlsx,92,FNS register stock; legal entities and sole traders,False
+2024-12-10,Республика Саха (Якутия),region,43707,11505,10740,716,49,32202,31954,242,6,statistics_2024.xlsx,93,FNS register stock; legal entities and sole traders,False
+2024-12-10,Приморский край,region,90354,36324,33263,2798,263,54030,53522,501,7,statistics_2024.xlsx,94,FNS register stock; legal entities and sole traders,False
+2024-12-10,Хабаровский край,region,52889,22129,20396,1606,127,30760,30478,275,7,statistics_2024.xlsx,95,FNS register stock; legal entities and sole traders,False
+2024-12-10,Амурская область,region,28762,9240,8353,817,70,19522,19283,232,7,statistics_2024.xlsx,96,FNS register stock; legal entities and sole traders,False
+2024-12-10,Камчатский край,region,15562,5302,4891,357,54,10260,10111,147,2,statistics_2024.xlsx,97,FNS register stock; legal entities and sole traders,False
+2024-12-10,Магаданская область,region,6765,2186,1933,221,32,4579,4508,68,3,statistics_2024.xlsx,98,FNS register stock; legal entities and sole traders,False
+2024-12-10,Сахалинская область,region,23216,7844,7046,721,77,15372,15201,170,1,statistics_2024.xlsx,99,FNS register stock; legal entities and sole traders,False
+2024-12-10,Забайкальский край,region,30009,7266,6589,630,47,22743,22482,255,6,statistics_2024.xlsx,100,FNS register stock; legal entities and sole traders,False
+2024-12-10,Еврейская автономная область,region,3829,1029,937,87,5,2800,2778,20,2,statistics_2024.xlsx,101,FNS register stock; legal entities and sole traders,False
+2024-12-10,Чукотский автономный округ,region,1654,448,404,40,4,1206,1193,13,0,statistics_2024.xlsx,102,FNS register stock; legal entities and sole traders,False
+2024-12-10,Юго-Западные субъекты Российской Федерации,other_region_group,115742,14620,13444,1032,144,101122,100730,385,7,statistics_2024.xlsx,103,FNS register stock; legal entities and sole traders,False
+2024-12-10,Запорожская область,region,15441,1862,1742,108,12,13579,13558,21,0,statistics_2024.xlsx,104,FNS register stock; legal entities and sole traders,False
+2024-12-10,Донецкая Народная Республика,region,53427,7644,7097,471,76,45783,45565,214,4,statistics_2024.xlsx,105,FNS register stock; legal entities and sole traders,False
+2024-12-10,Луганская Народная Республика,region,38858,4003,3537,417,49,34855,34711,141,3,statistics_2024.xlsx,106,FNS register stock; legal entities and sole traders,False
+2024-12-10,Херсонская область,region,8016,1111,1068,36,7,6905,6896,9,0,statistics_2024.xlsx,107,FNS register stock; legal entities and sole traders,False

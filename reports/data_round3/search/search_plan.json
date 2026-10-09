@@ -1,0 +1,62 @@
+[
+  {
+    "need_id": "r3_economy",
+    "query": "site:rosstat.gov.ru БД ПМО 8109001 инвестиции методология",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "r3_economy",
+    "query": "site:rosstat.gov.ru 8401011 отгружено товаров 2024 муниципальных",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "r3_economy",
+    "query": "site:rosstat.gov.ru 8401003 оборот розничной торговли муниципальные 2023",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "r3_sme",
+    "query": "site:rmsp.nalog.ru статистика архив 2024 работники муниципальные",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "r3_sme",
+    "query": "site:rosstat.gov.ru доля работников малого среднего предпринимательства муниципальные 2024",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "r3_cases",
+    "query": "Светловский городской округ отчет главы 2024 производство работники",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "r3_cases",
+    "query": "Свободненский район отчет 2024 работники",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "r3_cases",
+    "query": "Куркино отчет главы 2024 экономика",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "r3_geography",
+    "query": "site:publication.pravo.gov.ru 2838-ЗРК 2023",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "r3_geography",
+    "query": "site:publication.pravo.gov.ru 2837-ЗРК 2023",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "r3_geography",
+    "query": "site:publication.pravo.gov.ru 2839-ЗРК 2023",
+    "origin": "analyst_plan"
+  },
+  {
+    "need_id": "r3_geography",
+    "query": "site:rosstat.gov.ru Великий Устюг ОКТМО 586 2022",
+    "origin": "analyst_plan"
+  }
+]

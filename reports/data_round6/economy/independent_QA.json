@@ -1,0 +1,2499 @@
+{
+  "status": "PASS_WITH_CONDITIONS",
+  "review_method": "Independent pdfplumber/pdfminer extraction; no import of production parser helpers; all source total lines checked with Decimal",
+  "runtime": {
+    "python": "3.12.14",
+    "pdfplumber": "0.11.9",
+    "pdfminer.six": "20251230"
+  },
+  "pdftotext": "NOT RUN in independent audit; pdfplumber/pdfminer used instead",
+  "checked_numeric_values": 276,
+  "stavropol_documents": [
+    {
+      "territory_id": 826,
+      "year": 2023,
+      "source_name": "АЛЕКСАНДРОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "extracted/2023/00.pdf",
+      "pdf_sha256": "cd7614228b091099eb76755f2ae8caf60bc797425d143520856483a4e79092d9",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "3201141.2",
+        "120.0",
+        "3192279.2",
+        "119.9"
+      ],
+      "independent_resale_tokens": [
+        "1805084.3",
+        "88.9"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 827,
+      "year": 2023,
+      "source_name": "АНДРОПОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "extracted/2023/01.pdf",
+      "pdf_sha256": "c0fcab8e4bc2f25146b31adc5d935a97152c496200bd048954f78fca5c58e9c4",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "1297807.9",
+        "143.9",
+        "1285158.4",
+        "143.0"
+      ],
+      "independent_resale_tokens": [
+        "1329127.1",
+        "43.8"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 828,
+      "year": 2023,
+      "source_name": "АПАНАСЕНКОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "extracted/2023/02.pdf",
+      "pdf_sha256": "e4691b3274eabaa2389b44d222b74b968870c2dea6d579d47238b309b09c05ba",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "4085305.7",
+        "110.3",
+        "4084708.7",
+        "110.3"
+      ],
+      "independent_resale_tokens": [
+        "1591266.5",
+        "113.6"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 829,
+      "year": 2023,
+      "source_name": "АРЗГИРСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "extracted/2023/03.pdf",
+      "pdf_sha256": "6b0e1e455dca4572432269c69a3c7fc93428ab2c9ea2598339c16b750a127f79",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "1445059.5",
+        "155.1",
+        "1440624.8",
+        "154.6"
+      ],
+      "independent_resale_tokens": [
+        "1033237.6",
+        "107.4"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 810,
+      "year": 2023,
+      "source_name": "БЛАГОДАРНЕНСКИЙ ГОРОДСКОЙ ОКРУГ",
+      "pdf_path": "extracted/2023/04.pdf",
+      "pdf_sha256": "4af9c316b49b50c61ff362dd05f51b526b55fd2ddd5f459d1bbab60d70dfcf22",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "26588690.4",
+        "138.7",
+        "26585649.8",
+        "138.7"
+      ],
+      "independent_resale_tokens": [
+        "19114110.1",
+        "106.7"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 830,
+      "year": 2023,
+      "source_name": "БУДЕННОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "extracted/2023/05.pdf",
+      "pdf_sha256": "649747386c97cf7a95e03936b03506e02a18c589b8e384c804d380276ab0fd9f",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "70480053.7",
+        "89.9",
+        "70446340.9",
+        "89.9"
+      ],
+      "independent_resale_tokens": [
+        "9992469.7",
+        "119.5"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 811,
+      "year": 2023,
+      "source_name": "ГЕОРГИЕВСКИЙ ГОРОДСКОЙ ОКРУГ",
+      "pdf_path": "extracted/2023/06.pdf",
+      "pdf_sha256": "7f06ca494b85bc57f0021633aa18646e8557b1e5c7493671bc576b70f5d14e1a",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "22262425.5",
+        "120.0",
+        "22219240.8",
+        "120.0"
+      ],
+      "independent_resale_tokens": [
+        "10023483.8",
+        "113.3"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 812,
+      "year": 2023,
+      "source_name": "ГОРОД ЕССЕНТУКИ",
+      "pdf_path": "extracted/2023/07.pdf",
+      "pdf_sha256": "ac05e5bd1ab9f295724f12fd606ab38319c087bafede7bbf9f4e4466f6f3d73f",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "25205363.7",
+        "137.4",
+        "25162419.2",
+        "137.5"
+      ],
+      "independent_resale_tokens": [
+        "25186859.9",
+        "119.9"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 813,
+      "year": 2023,
+      "source_name": "ГОРОД ЖЕЛЕЗНОВОДСК",
+      "pdf_path": "extracted/2023/08.pdf",
+      "pdf_sha256": "3a42cf880445a97ff8eaab071ab65cf13a532c22decd958beebdc228786340fc",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "8025475.9",
+        "129.3",
+        "8004020.4",
+        "129.3"
+      ],
+      "independent_resale_tokens": [
+        "5932204.5",
+        "101.3"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 2876,
+      "year": 2023,
+      "source_name": "ГОРОД КИСЛОВОДСК",
+      "pdf_path": "extracted/2023/09.pdf",
+      "pdf_sha256": "0ea1c1c3358c86f7280f0c230008a4e1e870cf524a40f58224929589129fc93e",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "31896782.3",
+        "118.8",
+        "31786899.8",
+        "118.6"
+      ],
+      "independent_resale_tokens": [
+        "11002879.6",
+        "115.4"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 818,
+      "year": 2023,
+      "source_name": "ГОРОД ЛЕРМОНТОВ",
+      "pdf_path": "extracted/2023/10.pdf",
+      "pdf_sha256": "4a986842871efa5bc2bee212fa45f0d512db3f59c07b341ffd26079a7bf53102",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "10338551.6",
+        "218.6",
+        "10335345.6",
+        "218.7"
+      ],
+      "independent_resale_tokens": [
+        "18246936.3",
+        "136.6"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 820,
+      "year": 2023,
+      "source_name": "ГОРОД НЕВИННОМЫССК",
+      "pdf_path": "extracted/2023/11.pdf",
+      "pdf_sha256": "4db32fec04b74eeeafe79e1303fd8ee51956e92b91a5739b58306dba46424cad",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "164984508.6",
+        "90.1",
+        "163994336.9",
+        "89.8"
+      ],
+      "independent_resale_tokens": [
+        "94852788.8",
+        "132.2"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 824,
+      "year": 2023,
+      "source_name": "ГОРОД ПЯТИГОРСК",
+      "pdf_path": "extracted/2023/12.pdf",
+      "pdf_sha256": "722a4d64e6404e698e04cdc429f501d330012ea4f7154f07e793103cbde07ef0",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "50282889.7",
+        "117.5",
+        "50135932.9",
+        "117.3"
+      ],
+      "independent_resale_tokens": [
+        "68427818.1",
+        "141.0"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 809,
+      "year": 2023,
+      "source_name": "ГОРОД СТАВРОПОЛЬ",
+      "pdf_path": "extracted/2023/13.pdf",
+      "pdf_sha256": "5914b3e96ef33bfd5ba385618dabe4c2636ac898b3a26a22f68d3e119175381c",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "211464780.2",
+        "132.9",
+        "210694753.8",
+        "132.9"
+      ],
+      "independent_resale_tokens": [
+        "271387361.2",
+        "119.4"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 831,
+      "year": 2023,
+      "source_name": "ГРАЧЕВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "extracted/2023/14.pdf",
+      "pdf_sha256": "35a5d96fa25bbb895a8ac21f1471522b42398f1ccc1dbc62bf9607014584adbe",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "4369248.2",
+        "244.3",
+        "4344970.9",
+        "249.6"
+      ],
+      "independent_resale_tokens": [
+        "1887100.4",
+        "72.8"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 814,
+      "year": 2023,
+      "source_name": "ИЗОБИЛЬНЕНСКИЙ ГОРОДСКОЙ ОКРУГ",
+      "pdf_path": "extracted/2023/15.pdf",
+      "pdf_sha256": "b6c4e784a291a8030c5b9fbe8e52cdfccdd66b934b869ac7c712762073c0b9a4",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "65384857.5",
+        "138.1",
+        "65345031.9",
+        "138.2"
+      ],
+      "independent_resale_tokens": [
+        "15507030.1",
+        "110.8"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 815,
+      "year": 2023,
+      "source_name": "ИПАТОВСКИЙ ГОРОДСКОЙ ОКРУГ",
+      "pdf_path": "extracted/2023/16.pdf",
+      "pdf_sha256": "21fbc3c8d7c0fd6f0634dc27b2bcd35bb8c50ed93b0f38f7b952137e338da475",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "13044232.0",
+        "96.2",
+        "13005512.8",
+        "96.2"
+      ],
+      "independent_resale_tokens": [
+        "3326038.4",
+        "105.3"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 817,
+      "year": 2023,
+      "source_name": "КИРОВСКИЙ ГОРОДСКОЙ ОКРУГ",
+      "pdf_path": "extracted/2023/17.pdf",
+      "pdf_sha256": "108e07abf04c62a0a826e954888755339b76d5befa6e2f8f131b8a0f52cc4a88",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "8041306.6",
+        "115.1",
+        "7962930.3",
+        "115.1"
+      ],
+      "independent_resale_tokens": [
+        "8919264.5",
+        "200.7"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 832,
+      "year": 2023,
+      "source_name": "КОЧУБЕЕВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "extracted/2023/18.pdf",
+      "pdf_sha256": "4cd9618ee00e82bd8034584088b5b08be2da5a79dbc8557d074ff2350af30937",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "12697392.9",
+        "79.3",
+        "12654904.0",
+        "79.2"
+      ],
+      "independent_resale_tokens": [
+        "7745384.6",
+        "96.4"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 833,
+      "year": 2023,
+      "source_name": "КРАСНОГВАРДЕЙСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "extracted/2023/19.pdf",
+      "pdf_sha256": "7d8e1f5a6b91e63c10868d4b415dc5fd215e106ec86f2e4f61f72871447442ac",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "17450035.7",
+        "110.7",
+        "17440536.4",
+        "110.7"
+      ],
+      "independent_resale_tokens": [
+        "2045329.4",
+        "114.1"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 834,
+      "year": 2023,
+      "source_name": "КУРСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "extracted/2023/20.pdf",
+      "pdf_sha256": "93195896697848b76f9f33fdaaf47b8e1499551790fb04f938c94e1380eabae4",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "1900216.3",
+        "87.6",
+        "1883462.4",
+        "87.2"
+      ],
+      "independent_resale_tokens": [
+        "1292102.8",
+        "112.4"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 835,
+      "year": 2023,
+      "source_name": "ЛЕВОКУМСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "extracted/2023/21.pdf",
+      "pdf_sha256": "bac8482c5fdda54092379c4e61df48f083061bee52ea3cad68c006a4421e4b33",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "1233714.6",
+        "103.5",
+        "1225270.8",
+        "103.5"
+      ],
+      "independent_resale_tokens": [
+        "1042741.6",
+        "109.0"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 819,
+      "year": 2023,
+      "source_name": "МИНЕРАЛОВОДСКИЙ ГОРОДСКОЙ ОКРУГ",
+      "pdf_path": "extracted/2023/22.pdf",
+      "pdf_sha256": "3aeee08d49d7afd97e7e1b1923ffaad5ce35c015f5eea0d4838580b7d9901f6a",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "46518238.5",
+        "124.2",
+        "46351366.8",
+        "124.0"
+      ],
+      "independent_resale_tokens": [
+        "68969929.5",
+        "147.3"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 821,
+      "year": 2023,
+      "source_name": "НЕФТЕКУМСКИЙ ГОРОДСКОЙ ОКРУГ",
+      "pdf_path": "extracted/2023/23.pdf",
+      "pdf_sha256": "1f6076bac7467c2cb7016049789b1629da12f2905c0971c9116fd837480895cb",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "26402714.8",
+        "94.8",
+        "26236773.8",
+        "94.3"
+      ],
+      "independent_resale_tokens": [
+        "3720421.1",
+        "117.7"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 822,
+      "year": 2023,
+      "source_name": "НОВОАЛЕКСАНДРОВСКИЙ ГОРОДСКОЙ ОКРУГ",
+      "pdf_path": "extracted/2023/24.pdf",
+      "pdf_sha256": "9ed936fd3fe2a5dff59db8237414fd4d26e4038d4809b1331c37e4b3d1e07034",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "14674683.7",
+        "97.9",
+        "14617345.3",
+        "97.8"
+      ],
+      "independent_resale_tokens": [
+        "18962358.0",
+        "86.1"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 836,
+      "year": 2023,
+      "source_name": "НОВОСЕЛИЦКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "extracted/2023/25.pdf",
+      "pdf_sha256": "b8ac46d834b578e90eb55b71733bc1a63487a3be0de7baaad457bbe7cb99e264",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "3395204.0",
+        "98.3",
+        "3390724.5",
+        "98.3"
+      ],
+      "independent_resale_tokens": [
+        "801441.9",
+        "106.6"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 823,
+      "year": 2023,
+      "source_name": "ПЕТРОВСКИЙ ГОРОДСКОЙ ОКРУГ",
+      "pdf_path": "extracted/2023/26.pdf",
+      "pdf_sha256": "fb12d362a243925af16b7aa5fe6b2dd68a7dc6be2a3d21ac57f08b2ab0a7eb98",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "15342856.2",
+        "99.3",
+        "15272238.1",
+        "98.9"
+      ],
+      "independent_resale_tokens": [
+        "14464391.7",
+        "101.5"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 2881,
+      "year": 2023,
+      "source_name": "ПРЕДГОРНЫЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "extracted/2023/27.pdf",
+      "pdf_sha256": "b64a293637a6e250a5e02b16981df69481df35b5430e2cbddb8843de470af3e2",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "10283033.3",
+        "107.7",
+        "10276416.1",
+        "107.8"
+      ],
+      "independent_resale_tokens": [
+        "13950263.7",
+        "120.1"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 825,
+      "year": 2023,
+      "source_name": "СОВЕТСКИЙ ГОРОДСКОЙ ОКРУГ",
+      "pdf_path": "extracted/2023/28.pdf",
+      "pdf_sha256": "4d56056711ad26481fb75d574d3a892f32d59d1f9ac22d9fefda75f29ec038f5",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "9068484.6",
+        "131.4",
+        "8433181.0",
+        "123.3"
+      ],
+      "independent_resale_tokens": [
+        "7658804.0",
+        "111.9"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 838,
+      "year": 2023,
+      "source_name": "СТЕПНОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "extracted/2023/29.pdf",
+      "pdf_sha256": "822dda0ceb438cb00c8465e22e8b0f42710adcd21535c66a2abc357b4c948701",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "633218.9",
+        "72.8",
+        "632091.5",
+        "72.7"
+      ],
+      "independent_resale_tokens": [
+        "474412.3",
+        "115.2"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 839,
+      "year": 2023,
+      "source_name": "ТРУНОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "extracted/2023/30.pdf",
+      "pdf_sha256": "ab41b3c17987777758b67cd3888df4910c31a494c755b2ee9433320469d4d8d4",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "6107544.2",
+        "82.7",
+        "6106172.1",
+        "85.6"
+      ],
+      "independent_resale_tokens": [
+        "1750930.4",
+        "59.4"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 840,
+      "year": 2023,
+      "source_name": "ТУРКМЕНСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "extracted/2023/31.pdf",
+      "pdf_sha256": "9a8b4038fbfa260bf8e4364e31937c757ce7c56fc825ea010e2d005685f1ff9a",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "1404501.1",
+        "91.1",
+        "1404501.1",
+        "91.1"
+      ],
+      "independent_resale_tokens": [
+        "591896.0",
+        "110.1"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 841,
+      "year": 2023,
+      "source_name": "ШПАКОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "extracted/2023/32.pdf",
+      "pdf_sha256": "4a303d13d6674317cdd04b799534b9bc2c64af819b5453f70adcb13aa2008cfc",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "17427727.5",
+        "138.2",
+        "17227022.0",
+        "137.2"
+      ],
+      "independent_resale_tokens": [
+        "46124433.1",
+        "118.1"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 826,
+      "year": 2024,
+      "source_name": "АЛЕКСАНДРОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/00.pdf",
+      "pdf_sha256": "df7285eecaae57360e08148cbfdaba9a55a68ddcda9a8e50ceda4fe11a76280d",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "3533741.7",
+        "110.4",
+        "3524891.7",
+        "123.6"
+      ],
+      "independent_resale_tokens": [
+        "2151239.5",
+        "119.2"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 827,
+      "year": 2024,
+      "source_name": "АНДРОПОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/01.pdf",
+      "pdf_sha256": "b14b6aec2351e306d95a51a83d41abb668c1dd084e91c7c43a2b5b73547b2ad2",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "1638040.9",
+        "126.2",
+        "1624015.0",
+        "133.2"
+      ],
+      "independent_resale_tokens": [
+        "1563305.2",
+        "117.6"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 828,
+      "year": 2024,
+      "source_name": "АПАНАСЕНКОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/02.pdf",
+      "pdf_sha256": "7753e7d506cc523fb874c00eb2fdfbe081f0e91911dcc8ed11bc40d3e76c6ba8",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "4301654.0",
+        "105.3",
+        "4299303.2",
+        "115.1"
+      ],
+      "independent_resale_tokens": [
+        "1800866.7",
+        "113.2"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 829,
+      "year": 2024,
+      "source_name": "АРЗГИРСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/03.pdf",
+      "pdf_sha256": "091efbd84ef144ded06c430b0cd280c5d228e6a4196f76066438038b81d6e19e",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "1263712.7",
+        "87.5",
+        "1258166.0",
+        "96.1"
+      ],
+      "independent_resale_tokens": [
+        "1183206.3",
+        "114.5"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 810,
+      "year": 2024,
+      "source_name": "БЛАГОДАРНЕНСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/04.pdf",
+      "pdf_sha256": "6fbacee1ab0d1dd313aa537c7fcc4bea0e671457417109a2cf8bfa8f9de7239a",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "27142278.5",
+        "102.1",
+        "27139356.1",
+        "102.1"
+      ],
+      "independent_resale_tokens": [
+        "18106388.1",
+        "94.7"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 830,
+      "year": 2024,
+      "source_name": "БУДЕННОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/05.pdf",
+      "pdf_sha256": "5aea908c5f34686968982577bfb4830977d15337e1531f0ad0b351b43ae357f9",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "81825093.3",
+        "116.1",
+        "81789009.1",
+        "125.5"
+      ],
+      "independent_resale_tokens": [
+        "12787517.0",
+        "128.0"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 811,
+      "year": 2024,
+      "source_name": "ГЕОРГИЕВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/06.pdf",
+      "pdf_sha256": "49e4ce3d9ef01b7a302d2c3d33fd0f38e5b1c695ce09a36a4488ba308e3ddb90",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "21001347.3",
+        "94.3",
+        "20981643.5",
+        "94.4"
+      ],
+      "independent_resale_tokens": [
+        "10625064.8",
+        "106.0"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 812,
+      "year": 2024,
+      "source_name": "ГОРОД ЕССЕНТУКИ",
+      "pdf_path": "converted2024-final/07.pdf",
+      "pdf_sha256": "b0d3dff94d279afe83f183885261151cc0dfccf2b84b4c26318bb6b98c28c429",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "24455280.1",
+        "97.0",
+        "24414247.9",
+        "104.7"
+      ],
+      "independent_resale_tokens": [
+        "30594566.2",
+        "121.5"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 813,
+      "year": 2024,
+      "source_name": "ГОРОД ЖЕЛЕЗНОВОДСК",
+      "pdf_path": "converted2024-final/08.pdf",
+      "pdf_sha256": "32de4998f1f3af9d9cb3d5bbeb1a1690ad807eedb4676cd3286e4dd0d85bf258",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "9050621.5",
+        "112.8",
+        "8993658.9",
+        "121.5"
+      ],
+      "independent_resale_tokens": [
+        "8831757.3",
+        "143.8"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 2876,
+      "year": 2024,
+      "source_name": "ГОРОД КИСЛОВОДСК",
+      "pdf_path": "converted2024-final/09.pdf",
+      "pdf_sha256": "228955fef0ae4ce4efee8e84bf920d044a6826545ac6784a9c59a8694048c3a7",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "43160988.0",
+        "135.3",
+        "43075046.7",
+        "146.8"
+      ],
+      "independent_resale_tokens": [
+        "12595957.7",
+        "114.5"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 818,
+      "year": 2024,
+      "source_name": "ГОРОД ЛЕРМОНТОВ",
+      "pdf_path": "converted2024-final/10.pdf",
+      "pdf_sha256": "db8513cf76cf6c03a17f25af54dcfa1af8ec285729682fb0debe2c5bfebde6e5",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "14349399.7",
+        "138.8",
+        "14346629.7",
+        "148.5"
+      ],
+      "independent_resale_tokens": [
+        "26638737.7",
+        "146.0"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 820,
+      "year": 2024,
+      "source_name": "ГОРОД НЕВИННОМЫССК",
+      "pdf_path": "converted2024-final/11.pdf",
+      "pdf_sha256": "05f2f0b01e8b3bdb18567616714413ebd13e93dbcb54827329e9c1e7599fd6d6",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "206120665.6",
+        "124.9",
+        "205982014.0",
+        "136.9"
+      ],
+      "independent_resale_tokens": [
+        "110747142.6",
+        "116.8"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 824,
+      "year": 2024,
+      "source_name": "ГОРОД ПЯТИГОРСК",
+      "pdf_path": "converted2024-final/12.pdf",
+      "pdf_sha256": "1338c5cb1993e330a3059f106a4e50a0ab0aac1b3b9db85c9dfa718cf58b9414",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "57803041.1",
+        "115.0",
+        "57108069.6",
+        "123.5"
+      ],
+      "independent_resale_tokens": [
+        "82690478.1",
+        "120.8"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 809,
+      "year": 2024,
+      "source_name": "ГОРОД СТАВРОПОЛЬ",
+      "pdf_path": "converted2024-final/13.pdf",
+      "pdf_sha256": "eab20fee2fca2e752faa3fe14bf9937207e29eeb3c2f4adc9bc210022b99e652",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "247578410.8",
+        "117.1",
+        "246131938.8",
+        "126.5"
+      ],
+      "independent_resale_tokens": [
+        "317161580.8",
+        "116.9"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 831,
+      "year": 2024,
+      "source_name": "ГРАЧЕВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/14.pdf",
+      "pdf_sha256": "481e6c9fe5fd44aa2bbb2294ab3d5797730e2be64723c438ed501acc31a74f98",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "8329742.2",
+        "190.6",
+        "8329515.9",
+        "212.1"
+      ],
+      "independent_resale_tokens": [
+        "2447510.8",
+        "129.7"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 814,
+      "year": 2024,
+      "source_name": "ИЗОБИЛЬНЕНСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/15.pdf",
+      "pdf_sha256": "7d9fa33fae7db5fb3f8f43f55273ee147c1765c98d8a4da4652c41909a37bcb4",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "69840877.5",
+        "106.8",
+        "69802459.1",
+        "106.8"
+      ],
+      "independent_resale_tokens": [
+        "22665791.5",
+        "146.2"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 815,
+      "year": 2024,
+      "source_name": "ИПАТОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/16.pdf",
+      "pdf_sha256": "c6cee2b66bdea6750819438fcf1b7d5645e085f4a3f6c6243a4f11e5883f8796",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "15961443.4",
+        "122.4",
+        "15930272.4",
+        "122.5"
+      ],
+      "independent_resale_tokens": [
+        "3908436.0",
+        "117.5"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 817,
+      "year": 2024,
+      "source_name": "КИРОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/17.pdf",
+      "pdf_sha256": "dc8e8fb31d9cb66c847e056547a766b9906f4b9d908787a1e0be14a062a47481",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "9265194.3",
+        "115.2",
+        "9229034.8",
+        "115.9"
+      ],
+      "independent_resale_tokens": [
+        "8972813.0",
+        "100.6"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 832,
+      "year": 2024,
+      "source_name": "КОЧУБЕЕВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/18.pdf",
+      "pdf_sha256": "2605c8cd80f4f6a2d9084d809359d56dca2bed61469a424f59dc0bcb17f81d54",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "15578210.5",
+        "122.7",
+        "15560991.0",
+        "135.3"
+      ],
+      "independent_resale_tokens": [
+        "6379235.8",
+        "82.4"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 833,
+      "year": 2024,
+      "source_name": "КРАСНОГВАРДЕЙСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/19.pdf",
+      "pdf_sha256": "d70ec66d88e20ebed0892a9c6c55da725ff9aa10707d9c1adeb6eabf66a2f07f",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "19140167.7",
+        "109.7",
+        "19126000.3",
+        "117.3"
+      ],
+      "independent_resale_tokens": [
+        "3010960.3",
+        "147.2"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 834,
+      "year": 2024,
+      "source_name": "КУРСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/20.pdf",
+      "pdf_sha256": "a850f8f53ac685794c6b2cd285e51faed3bf0f59dd97ef8df6034017c5aacfe3",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "1839481.5",
+        "96.8",
+        "1824314.0",
+        "103.4"
+      ],
+      "independent_resale_tokens": [
+        "1437194.8",
+        "111.2"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 835,
+      "year": 2024,
+      "source_name": "ЛЕВОКУМСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/21.pdf",
+      "pdf_sha256": "8478c7a23c24f0d43aa375ffdb8cddafb6284bfed0b020742e6b827cde0357b3",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "1347452.4",
+        "109.2",
+        "1341316.4",
+        "116.0"
+      ],
+      "independent_resale_tokens": [
+        "1155612.2",
+        "110.8"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 819,
+      "year": 2024,
+      "source_name": "МИНЕРАЛОВОДСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/22.pdf",
+      "pdf_sha256": "63d7eefbc91d62582a55be22168ed04a1d4f8aa5433dad349a1fab63315a1018",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "53921827.2",
+        "115.9",
+        "53652364.5",
+        "115.8"
+      ],
+      "independent_resale_tokens": [
+        "91319322.5",
+        "132.8"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 821,
+      "year": 2024,
+      "source_name": "НЕФТЕКУМСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/23.pdf",
+      "pdf_sha256": "24e60889e87b6694fe2e958d5a4ebc8d7e7dddb9c187a75ccc99d65b64610518",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "29014377.3",
+        "109.9",
+        "27783492.7",
+        "105.9"
+      ],
+      "independent_resale_tokens": [
+        "3740008.8",
+        "100.5"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 822,
+      "year": 2024,
+      "source_name": "НОВОАЛЕКСАНДРОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/24.pdf",
+      "pdf_sha256": "1980f35777697d77d6d4b0922a10ecd65a3e1b232092c6e98c1e64f65d7f9295",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "16681206.1",
+        "113.7",
+        "16621885.6",
+        "113.7"
+      ],
+      "independent_resale_tokens": [
+        "25668430.0",
+        "135.4"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 836,
+      "year": 2024,
+      "source_name": "НОВОСЕЛИЦКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/25.pdf",
+      "pdf_sha256": "2c1474118d5df2af99dcc2f6102428bd4deb42494ccd9b8003b4fdb19a1b109b",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "3422916.9",
+        "100.8",
+        "3419971.0",
+        "114.2"
+      ],
+      "independent_resale_tokens": [
+        "871485.8",
+        "108.7"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 823,
+      "year": 2024,
+      "source_name": "ПЕТРОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/26.pdf",
+      "pdf_sha256": "e287ccb5a4c3902fca2bdd3c4541703a1e16f5f0be1f814cff409186a41b5ff8",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "12865556.5",
+        "83.9",
+        "12813697.3",
+        "83.9"
+      ],
+      "independent_resale_tokens": [
+        "6661951.6",
+        "46.1"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 2881,
+      "year": 2024,
+      "source_name": "ПРЕДГОРНЫЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/27.pdf",
+      "pdf_sha256": "5cf31dc1e7caabdbe50bfa3fdd1370b91d4b9c8e015c0df327f5dec81d81d705",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "12279381.3",
+        "119.4",
+        "12271171.9",
+        "131.3"
+      ],
+      "independent_resale_tokens": [
+        "13181643.6",
+        "94.5"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 825,
+      "year": 2024,
+      "source_name": "СОВЕТСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/28.pdf",
+      "pdf_sha256": "c32871b4b955873d1cc48a35e34f670952d3b1ce2b19a32b1603ad84c90f7068",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "9938172.0",
+        "109.6",
+        "9871821.8",
+        "117.1"
+      ],
+      "independent_resale_tokens": [
+        "9329634.5",
+        "121.8"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 838,
+      "year": 2024,
+      "source_name": "СТЕПНОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/29.pdf",
+      "pdf_sha256": "25f8656d344fcc7ada78d4a3b51ba10fde03932c3ea34eed9c0cbadd2d6e1d25",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "1384114.9",
+        "218.6",
+        "1383051.4",
+        "273.1"
+      ],
+      "independent_resale_tokens": [
+        "524269.4",
+        "110.5"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 839,
+      "year": 2024,
+      "source_name": "ТРУНОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/30.pdf",
+      "pdf_sha256": "bc98ce21cc112d2e668071c4e97313c06a481ebc08580a9859c9e45aaed842e4",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "7011119.1",
+        "114.8",
+        "7011119.1",
+        "126.8"
+      ],
+      "independent_resale_tokens": [
+        "1950806.9",
+        "111.4"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 840,
+      "year": 2024,
+      "source_name": "ТУРКМЕНСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/31.pdf",
+      "pdf_sha256": "f9d8fecb1409c05861e40afd641bc0b14eafcee802e65e1b22dfcb72f301b9b5",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "1717567.6",
+        "122.3",
+        "1717567.6",
+        "132.4"
+      ],
+      "independent_resale_tokens": [
+        "650078.2",
+        "109.8"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    },
+    {
+      "territory_id": 841,
+      "year": 2024,
+      "source_name": "ШПАКОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "pdf_path": "converted2024-final/32.pdf",
+      "pdf_sha256": "f026d5ac83b10f76b57a509e9f8d7032341b0cfa6ef674bf38b3098284994b5b",
+      "page": 3,
+      "independent_shipment_tokens": [
+        "23031146.7",
+        "132.2",
+        "22950478.0",
+        "144.8"
+      ],
+      "independent_resale_tokens": [
+        "50185765.3",
+        "108.8"
+      ],
+      "candidate_values_equal": true,
+      "thousand_ruble_header": true,
+      "shipment_without_VAT_excise": true,
+      "excludes_small_business_literal": true
+    }
+  ],
+  "saratov_food": [
+    {
+      "year": 2023,
+      "pdf_path": "saratov2023/food_2023.pdf",
+      "pdf_sha256": "003246ca7f35c28c12161166599ba721a30f4a8cea6ce1a9fd0fe32f110d0ef5",
+      "municipal_rows": 39,
+      "regional_total_thousand_rubles": "209777336.0",
+      "municipal_sum_thousand_rubles": "209114166.7",
+      "difference_thousand_rubles": "-663169.3",
+      "all_municipal_candidate_values_equal": true,
+      "unit": "thousand_rubles",
+      "without_hidden_activity": true
+    },
+    {
+      "year": 2024,
+      "pdf_path": "saratov2024/food_2024.pdf",
+      "pdf_sha256": "d093c20a652ab5f6efe181f6ecae247e0ef1b2cf33a0eb8e6e4238adb8821a73",
+      "municipal_rows": 39,
+      "regional_total_thousand_rubles": "241314345.1",
+      "municipal_sum_thousand_rubles": "240535927.3",
+      "difference_thousand_rubles": "-778417.8",
+      "all_municipal_candidate_values_equal": true,
+      "unit": "thousand_rubles",
+      "without_hidden_activity": true
+    }
+  ],
+  "frozen_sources": [
+    {
+      "path": "reports/enriched_analysis/core_v2/annual_panel.csv",
+      "sha256": "0e44e34b94c51aeb429615ec9a0e8127def140a6f414afa75e255e00cb4f8190",
+      "byte_identical_to_HEAD": true
+    },
+    {
+      "path": "reports/data_round5/economy/annual_candidate_panel.csv",
+      "sha256": "9fbefe186cb3a5dad0d3abc06f9b6bf543e7d48d20dc992af8935ca387919fd1",
+      "byte_identical_to_HEAD": true
+    },
+    {
+      "path": "reports/data_round5/economy/remaining_missing_cells.csv",
+      "sha256": "16ef92cc5763a55b5b410fcf0a00b27137ea3861c6048d5ea0e326aa089ed711",
+      "byte_identical_to_HEAD": true
+    }
+  ],
+  "candidate_unique_keys": true,
+  "candidate_units": {
+    "thousand_rubles": 276
+  },
+  "candidate_scopes": {
+    "without_small_business_including_organizations_under_15_workers_excluding_VAT_excise": 66,
+    "without_small_business_excluding_organizations_under_15_workers_excluding_VAT_excise": 66,
+    "without_small_business_including_organizations_under_15_workers_not_retail_turnover": 66,
+    "food_only_without_hidden_activity": 78
+  },
+  "old_monetary_panel_rows": 12096,
+  "old_remaining_missing_rows": 424,
+  "limitations": [
+    "Candidate name links do not prove historical boundary equivalence",
+    "Equivalence of operational shipment vintage to frozen BДПМО is not established; food/resale definitions differ from total retail turnover",
+    "Food subtotal differs from regional total; residual not allocated",
+    "DOC-to-DOCX/PDF conversion itself not rerun by reviewer",
+    "Standalone review executable not provided; this was one-off independent Python inspection"
+  ],
+  "source_name_document_checks": [
+    {
+      "territory_id": 826,
+      "year": 2023,
+      "source_name": "АЛЕКСАНДРОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "АЛЕКСАНДРОВСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 827,
+      "year": 2023,
+      "source_name": "АНДРОПОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "АНДРОПОВСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 828,
+      "year": 2023,
+      "source_name": "АПАНАСЕНКОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "АПАНАСЕНКОВСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 829,
+      "year": 2023,
+      "source_name": "АРЗГИРСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "АРЗГИРСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 810,
+      "year": 2023,
+      "source_name": "БЛАГОДАРНЕНСКИЙ ГОРОДСКОЙ ОКРУГ",
+      "cover_territory_title": "БЛАГОДАРНЕНСКОГО ГОРОДСКОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 830,
+      "year": 2023,
+      "source_name": "БУДЕННОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "БУДЕННОВСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 811,
+      "year": 2023,
+      "source_name": "ГЕОРГИЕВСКИЙ ГОРОДСКОЙ ОКРУГ",
+      "cover_territory_title": "ГЕОРГИЕВСКОГО ГОРОДСКОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 812,
+      "year": 2023,
+      "source_name": "ГОРОД ЕССЕНТУКИ",
+      "cover_territory_title": "ГОРОДСКОГО ОКРУГА ГОРОДА-КУРОРТА ЕССЕНТУКИ",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 813,
+      "year": 2023,
+      "source_name": "ГОРОД ЖЕЛЕЗНОВОДСК",
+      "cover_territory_title": "ГОРОДСКОГО ОКРУГА ГОРОДА-КУРОРТА ЖЕЛЕЗНОВОДСКА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 2876,
+      "year": 2023,
+      "source_name": "ГОРОД КИСЛОВОДСК",
+      "cover_territory_title": "ГОРОДСКОГО ОКРУГА ГОРОДА-КУРОРТА КИСЛОВОДСКА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 818,
+      "year": 2023,
+      "source_name": "ГОРОД ЛЕРМОНТОВ",
+      "cover_territory_title": "ГОРОДСКОГО ОКРУГА ГОРОДА ЛЕРМОНТОВА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 820,
+      "year": 2023,
+      "source_name": "ГОРОД НЕВИННОМЫССК",
+      "cover_territory_title": "ГОРОДСКОГО ОКРУГА ГОРОДА НЕВИННОМЫССКА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 824,
+      "year": 2023,
+      "source_name": "ГОРОД ПЯТИГОРСК",
+      "cover_territory_title": "ГОРОДСКОГО ОКРУГА ГОРОДА-КУРОРТА ПЯТИГОРСКА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 809,
+      "year": 2023,
+      "source_name": "ГОРОД СТАВРОПОЛЬ",
+      "cover_territory_title": "ГОРОДСКОГО ОКРУГА ГОРОДА СТАВРОПОЛЯ",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 831,
+      "year": 2023,
+      "source_name": "ГРАЧЕВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "ГРАЧЕВСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 814,
+      "year": 2023,
+      "source_name": "ИЗОБИЛЬНЕНСКИЙ ГОРОДСКОЙ ОКРУГ",
+      "cover_territory_title": "ИЗОБИЛЬНЕНСКОГО ГОРОДСКОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 815,
+      "year": 2023,
+      "source_name": "ИПАТОВСКИЙ ГОРОДСКОЙ ОКРУГ",
+      "cover_territory_title": "ИПАТОВСКОГО ГОРОДСКОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 817,
+      "year": 2023,
+      "source_name": "КИРОВСКИЙ ГОРОДСКОЙ ОКРУГ",
+      "cover_territory_title": "КИРОВСКОГО ГОРОДСКОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 832,
+      "year": 2023,
+      "source_name": "КОЧУБЕЕВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "КОЧУБЕЕВСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 833,
+      "year": 2023,
+      "source_name": "КРАСНОГВАРДЕЙСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "КРАСНОГВАРДЕЙСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 834,
+      "year": 2023,
+      "source_name": "КУРСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "КУРСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 835,
+      "year": 2023,
+      "source_name": "ЛЕВОКУМСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "ЛЕВОКУМСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 819,
+      "year": 2023,
+      "source_name": "МИНЕРАЛОВОДСКИЙ ГОРОДСКОЙ ОКРУГ",
+      "cover_territory_title": "МИНЕРАЛОВОДСКОГО ГОРОДСКОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 821,
+      "year": 2023,
+      "source_name": "НЕФТЕКУМСКИЙ ГОРОДСКОЙ ОКРУГ",
+      "cover_territory_title": "НЕФТЕКУМСКОГО ГОРОДСКОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 822,
+      "year": 2023,
+      "source_name": "НОВОАЛЕКСАНДРОВСКИЙ ГОРОДСКОЙ ОКРУГ",
+      "cover_territory_title": "НОВОАЛЕКСАНДРОВСКОГО ГОРОДСКОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 836,
+      "year": 2023,
+      "source_name": "НОВОСЕЛИЦКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "НОВОСЕЛИЦКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 823,
+      "year": 2023,
+      "source_name": "ПЕТРОВСКИЙ ГОРОДСКОЙ ОКРУГ",
+      "cover_territory_title": "ПЕТРОВСКОГО ГОРОДСКОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 2881,
+      "year": 2023,
+      "source_name": "ПРЕДГОРНЫЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "ПРЕДГОРНОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 825,
+      "year": 2023,
+      "source_name": "СОВЕТСКИЙ ГОРОДСКОЙ ОКРУГ",
+      "cover_territory_title": "СОВЕТСКОГО ГОРОДСКОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 838,
+      "year": 2023,
+      "source_name": "СТЕПНОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "СТЕПНОВСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 839,
+      "year": 2023,
+      "source_name": "ТРУНОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "ТРУНОВСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 840,
+      "year": 2023,
+      "source_name": "ТУРКМЕНСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "ТУРКМЕНСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 841,
+      "year": 2023,
+      "source_name": "ШПАКОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "ШПАКОВСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 826,
+      "year": 2024,
+      "source_name": "АЛЕКСАНДРОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "АЛЕКСАНДРОВСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 827,
+      "year": 2024,
+      "source_name": "АНДРОПОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "АНДРОПОВСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 828,
+      "year": 2024,
+      "source_name": "АПАНАСЕНКОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "АПАНАСЕНКОВСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 829,
+      "year": 2024,
+      "source_name": "АРЗГИРСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "АРЗГИРСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 810,
+      "year": 2024,
+      "source_name": "БЛАГОДАРНЕНСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "БЛАГОДАРНЕНСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 830,
+      "year": 2024,
+      "source_name": "БУДЕННОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "БУДЕННОВСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 811,
+      "year": 2024,
+      "source_name": "ГЕОРГИЕВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "ГЕОРГИЕВСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 812,
+      "year": 2024,
+      "source_name": "ГОРОД ЕССЕНТУКИ",
+      "cover_territory_title": "ГОРОДСКОГО ОКРУГА ГОРОДА-КУРОРТА ЕССЕНТУКИ",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 813,
+      "year": 2024,
+      "source_name": "ГОРОД ЖЕЛЕЗНОВОДСК",
+      "cover_territory_title": "ГОРОДСКОГО ОКРУГА ГОРОДА-КУРОРТА ЖЕЛЕЗНОВОДСКА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 2876,
+      "year": 2024,
+      "source_name": "ГОРОД КИСЛОВОДСК",
+      "cover_territory_title": "ГОРОДСКОГО ОКРУГА ГОРОДА-КУРОРТА КИСЛОВОДСКА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 818,
+      "year": 2024,
+      "source_name": "ГОРОД ЛЕРМОНТОВ",
+      "cover_territory_title": "ГОРОДСКОГО ОКРУГА ГОРОДА ЛЕРМОНТОВА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 820,
+      "year": 2024,
+      "source_name": "ГОРОД НЕВИННОМЫССК",
+      "cover_territory_title": "ГОРОДСКОГО ОКРУГА ГОРОДА НЕВИННОМЫССКА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 824,
+      "year": 2024,
+      "source_name": "ГОРОД ПЯТИГОРСК",
+      "cover_territory_title": "ГОРОДСКОГО ОКРУГА ГОРОДА-КУРОРТА ПЯТИГОРСКА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 809,
+      "year": 2024,
+      "source_name": "ГОРОД СТАВРОПОЛЬ",
+      "cover_territory_title": "ГОРОДСКОГО ОКРУГА ГОРОДА СТАВРОПОЛЯ",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 831,
+      "year": 2024,
+      "source_name": "ГРАЧЕВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "ГРАЧЕВСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 814,
+      "year": 2024,
+      "source_name": "ИЗОБИЛЬНЕНСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "ИЗОБИЛЬНЕНСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 815,
+      "year": 2024,
+      "source_name": "ИПАТОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "ИПАТОВСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 817,
+      "year": 2024,
+      "source_name": "КИРОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "КИРОВСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 832,
+      "year": 2024,
+      "source_name": "КОЧУБЕЕВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "КОЧУБЕЕВСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 833,
+      "year": 2024,
+      "source_name": "КРАСНОГВАРДЕЙСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "КРАСНОГВАРДЕЙСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 834,
+      "year": 2024,
+      "source_name": "КУРСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "КУРСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 835,
+      "year": 2024,
+      "source_name": "ЛЕВОКУМСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "ЛЕВОКУМСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 819,
+      "year": 2024,
+      "source_name": "МИНЕРАЛОВОДСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "МИНЕРАЛОВОДСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 821,
+      "year": 2024,
+      "source_name": "НЕФТЕКУМСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "НЕФТЕКУМСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 822,
+      "year": 2024,
+      "source_name": "НОВОАЛЕКСАНДРОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "НОВОАЛЕКСАНДРОВСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 836,
+      "year": 2024,
+      "source_name": "НОВОСЕЛИЦКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "НОВОСЕЛИЦКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 823,
+      "year": 2024,
+      "source_name": "ПЕТРОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "ПЕТРОВСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 2881,
+      "year": 2024,
+      "source_name": "ПРЕДГОРНЫЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "ПРЕДГОРНОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 825,
+      "year": 2024,
+      "source_name": "СОВЕТСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "СОВЕТСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 838,
+      "year": 2024,
+      "source_name": "СТЕПНОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "СТЕПНОВСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 839,
+      "year": 2024,
+      "source_name": "ТРУНОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "ТРУНОВСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 840,
+      "year": 2024,
+      "source_name": "ТУРКМЕНСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "ТУРКМЕНСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    },
+    {
+      "territory_id": 841,
+      "year": 2024,
+      "source_name": "ШПАКОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ",
+      "cover_territory_title": "ШПАКОВСКОГО МУНИЦИПАЛЬНОГО ОКРУГА",
+      "name_core_and_document_title_agree": true,
+      "historical_boundaries_proven": false
+    }
+  ],
+  "independent_pdf_docx_crosschecks": [
+    {
+      "territory_id": 826,
+      "year": 2024,
+      "docx_path": "converted2024-final/00.docx",
+      "docx_sha256": "7fcfae76eb5450135e6db35b3b68004eeb0d9bef27272e8810a2f29ebbc7ade9",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 827,
+      "year": 2024,
+      "docx_path": "converted2024-final/01.docx",
+      "docx_sha256": "43496a264b7d8194346ba71f41ffd94ea7b384362839f082a9c64e0103bbc121",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 828,
+      "year": 2024,
+      "docx_path": "converted2024-final/02.docx",
+      "docx_sha256": "9a5af3cdf6f0899fa213207bc812b78055bca9b8077263ab6396b0e36d5a8358",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 829,
+      "year": 2024,
+      "docx_path": "converted2024-final/03.docx",
+      "docx_sha256": "45f1ed4d3951f81d711b07254372ee0b86bed079869d3f4120d868d287ce0d06",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 810,
+      "year": 2024,
+      "docx_path": "converted2024-final/04.docx",
+      "docx_sha256": "b1e3b530b754e0da0ed3efe62d237241bb539465517316b23d95bf49fbb7e485",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 830,
+      "year": 2024,
+      "docx_path": "converted2024-final/05.docx",
+      "docx_sha256": "59a82b3aab8b47fa8b82c8f272ba11ea486963f4a3f0b80570211ebce0c99663",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 811,
+      "year": 2024,
+      "docx_path": "converted2024-final/06.docx",
+      "docx_sha256": "a3b55c4d380283be3edd53e05b51fb1b432771cc38263bc0f27645bb988332e0",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 812,
+      "year": 2024,
+      "docx_path": "converted2024-final/07.docx",
+      "docx_sha256": "ba96684d0763eea44289cd1870d9447f485ab3bff4dce4e5e40311fc57ca0030",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 813,
+      "year": 2024,
+      "docx_path": "converted2024-final/08.docx",
+      "docx_sha256": "3e905c8cd550f83582436932656c90472b4f698eb4aa7bfb62b2d1de609d0141",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 2876,
+      "year": 2024,
+      "docx_path": "converted2024-final/09.docx",
+      "docx_sha256": "5b42ceaa09b06f4474e0dd3fbe90d5f56b3496e51ca2167270c71c969ccad5b8",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 818,
+      "year": 2024,
+      "docx_path": "converted2024-final/10.docx",
+      "docx_sha256": "0e214d3167d380a3957da8ee9bbcc7f23d9bee48f69da32bbed4066408a5ec1c",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 820,
+      "year": 2024,
+      "docx_path": "converted2024-final/11.docx",
+      "docx_sha256": "40620c0ecd85df1f37fbc17a039e6b48bd721265316e37aba15868a6b965bd71",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 824,
+      "year": 2024,
+      "docx_path": "converted2024-final/12.docx",
+      "docx_sha256": "38b7cf6afe10443f1104179eabe883042886c62829d6cfbf3cedd495224e303c",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 809,
+      "year": 2024,
+      "docx_path": "converted2024-final/13.docx",
+      "docx_sha256": "93d16264956107e4493aa9f08a29bbc8802a6329facc2a72466546130ba819d7",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 831,
+      "year": 2024,
+      "docx_path": "converted2024-final/14.docx",
+      "docx_sha256": "434c0908d756059b6cd897f618b7841ace384d1f21261c535786cc72c65235b8",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 814,
+      "year": 2024,
+      "docx_path": "converted2024-final/15.docx",
+      "docx_sha256": "b0267cefcb6670e5c317f011c04607f826af7bb782b257efbc12c14d34f39ad6",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 815,
+      "year": 2024,
+      "docx_path": "converted2024-final/16.docx",
+      "docx_sha256": "cd7823641afab3def76c17a8521dc47603a9c6b6e9fda3b9233f25c49652a1bb",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 817,
+      "year": 2024,
+      "docx_path": "converted2024-final/17.docx",
+      "docx_sha256": "2a325239559f503b091fc8a6984a5f4a2f8dfb6b5776f96e108a49d05f6f0bfb",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 832,
+      "year": 2024,
+      "docx_path": "converted2024-final/18.docx",
+      "docx_sha256": "6e9ec536746875d99305d08760dd56dfb65452b4a7253e309e4df02f226d9dcc",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 833,
+      "year": 2024,
+      "docx_path": "converted2024-final/19.docx",
+      "docx_sha256": "5e11222be23a6e3b7caba9f37a1e146189962d42b821230c1f30544074475302",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 834,
+      "year": 2024,
+      "docx_path": "converted2024-final/20.docx",
+      "docx_sha256": "0d88e256946448b580bff5eea2a89e0128020ffff481878815205d95864bf3f0",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 835,
+      "year": 2024,
+      "docx_path": "converted2024-final/21.docx",
+      "docx_sha256": "5cdc895c480c2e260964ba7bba9ba45a995a07ea66835d5f97ddb128347b8a67",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 819,
+      "year": 2024,
+      "docx_path": "converted2024-final/22.docx",
+      "docx_sha256": "5e29ebd275648399e041a33f51020d414b8c61b1af767f0f2fde29cd17df8c7a",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 821,
+      "year": 2024,
+      "docx_path": "converted2024-final/23.docx",
+      "docx_sha256": "b8c265fd9e21af35c5f94f1c3bc5f6796bf07d6f6c60f16068d4d2fd0c9d352f",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 822,
+      "year": 2024,
+      "docx_path": "converted2024-final/24.docx",
+      "docx_sha256": "71e30db478cdf0dc3840446063791e8e761135f260b2d1b69701af61a07d140b",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 836,
+      "year": 2024,
+      "docx_path": "converted2024-final/25.docx",
+      "docx_sha256": "e26bec52d4501e16d143a5559e9be1a01fb2059c507a11080ffaec89147317fc",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 823,
+      "year": 2024,
+      "docx_path": "converted2024-final/26.docx",
+      "docx_sha256": "10b1496ccde79d1a9f884ce6c2118a5099ae1eb684ed4b29848bc5976481b5f2",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 2881,
+      "year": 2024,
+      "docx_path": "converted2024-final/27.docx",
+      "docx_sha256": "71a475c839ca3e8c80b66dea42b01b4bb734c32c8c18476bf600d6d2b50e996e",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 825,
+      "year": 2024,
+      "docx_path": "converted2024-final/28.docx",
+      "docx_sha256": "5c39cd1817039b78f1af6b4da425cf3ea2a5f43fced329c068fbd631e908a383",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 838,
+      "year": 2024,
+      "docx_path": "converted2024-final/29.docx",
+      "docx_sha256": "837e0b55fdd199a4bd2d562d41c8eb6c0a4623ca11b6ef9052104bb47199b50c",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 839,
+      "year": 2024,
+      "docx_path": "converted2024-final/30.docx",
+      "docx_sha256": "b5d32994f3907326c7bd8bf94ab81de2d7dac6d9afc42e4faeaf894ccafb1e3e",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 840,
+      "year": 2024,
+      "docx_path": "converted2024-final/31.docx",
+      "docx_sha256": "dd8c79f9dca8b2a4b2b046a1a37e0bec95d2cecaf74848c140c0d645433b8b5a",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    },
+    {
+      "territory_id": 841,
+      "year": 2024,
+      "docx_path": "converted2024-final/32.docx",
+      "docx_sha256": "c57fef55e22a2055d0384d9799eb79d06e704183b64d9731110fb84cc0511ac7",
+      "independent_pdf_xml_six_total_row_fields_equal": true
+    }
+  ],
+  "old_numeric_values": 11672,
+  "visual_review": {
+    "status": "PASS",
+    "scope": "four sampled pages only",
+    "sources": [
+      {
+        "source": "extracted/2023/00.pdf",
+        "page": 3,
+        "label": "АЛЕКСАНДРОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ 2023"
+      },
+      {
+        "source": "converted2024-final/00.pdf",
+        "page": 3,
+        "label": "АЛЕКСАНДРОВСКИЙ МУНИЦИПАЛЬНЫЙ ОКРУГ 2024"
+      },
+      {
+        "source": "saratov2024/food_2024.pdf",
+        "page": 1
+      },
+      {
+        "source": "saratov2024/food_2024.pdf",
+        "page": 2
+      }
+    ],
+    "method": "pdftoppm rendered PNG, viewed by reviewer; column labels, total cells, units and food footnote inspected"
+  },
+  "reviewed_at": "2026-09-16T20:31:57.431118+00:00",
+  "git_head": "3ea23bc0a0caed73df9cbf097ad48cfac6f0ba3c",
+  "candidate_csv_sha256": "8b28b00c77a8a84dc4894595973a6565eed4148a08c60f6a4200d9a47d7b9ea0",
+  "canonical_script_sha256": "3d3c20f3ba97534eb73a715a3292722f5a24db3f52371afcbd679f580237aed2",
+  "canonical_manifest_sha256": "38c62bd29f34105a8f5805675a195f71fa8027e652343c310f80681b7bcd2788",
+  "raw_inputs_sha256": {
+    "converted2024-final/00.docx": "7fcfae76eb5450135e6db35b3b68004eeb0d9bef27272e8810a2f29ebbc7ade9",
+    "converted2024-final/00.pdf": "df7285eecaae57360e08148cbfdaba9a55a68ddcda9a8e50ceda4fe11a76280d",
+    "converted2024-final/01.docx": "43496a264b7d8194346ba71f41ffd94ea7b384362839f082a9c64e0103bbc121",
+    "converted2024-final/01.pdf": "b14b6aec2351e306d95a51a83d41abb668c1dd084e91c7c43a2b5b73547b2ad2",
+    "converted2024-final/02.docx": "9a5af3cdf6f0899fa213207bc812b78055bca9b8077263ab6396b0e36d5a8358",
+    "converted2024-final/02.pdf": "7753e7d506cc523fb874c00eb2fdfbe081f0e91911dcc8ed11bc40d3e76c6ba8",
+    "converted2024-final/03.docx": "45f1ed4d3951f81d711b07254372ee0b86bed079869d3f4120d868d287ce0d06",
+    "converted2024-final/03.pdf": "091efbd84ef144ded06c430b0cd280c5d228e6a4196f76066438038b81d6e19e",
+    "converted2024-final/04.docx": "b1e3b530b754e0da0ed3efe62d237241bb539465517316b23d95bf49fbb7e485",
+    "converted2024-final/04.pdf": "6fbacee1ab0d1dd313aa537c7fcc4bea0e671457417109a2cf8bfa8f9de7239a",
+    "converted2024-final/05.docx": "59a82b3aab8b47fa8b82c8f272ba11ea486963f4a3f0b80570211ebce0c99663",
+    "converted2024-final/05.pdf": "5aea908c5f34686968982577bfb4830977d15337e1531f0ad0b351b43ae357f9",
+    "converted2024-final/06.docx": "a3b55c4d380283be3edd53e05b51fb1b432771cc38263bc0f27645bb988332e0",
+    "converted2024-final/06.pdf": "49e4ce3d9ef01b7a302d2c3d33fd0f38e5b1c695ce09a36a4488ba308e3ddb90",
+    "converted2024-final/07.docx": "ba96684d0763eea44289cd1870d9447f485ab3bff4dce4e5e40311fc57ca0030",
+    "converted2024-final/07.pdf": "b0d3dff94d279afe83f183885261151cc0dfccf2b84b4c26318bb6b98c28c429",
+    "converted2024-final/08.docx": "3e905c8cd550f83582436932656c90472b4f698eb4aa7bfb62b2d1de609d0141",
+    "converted2024-final/08.pdf": "32de4998f1f3af9d9cb3d5bbeb1a1690ad807eedb4676cd3286e4dd0d85bf258",
+    "converted2024-final/09.docx": "5b42ceaa09b06f4474e0dd3fbe90d5f56b3496e51ca2167270c71c969ccad5b8",
+    "converted2024-final/09.pdf": "228955fef0ae4ce4efee8e84bf920d044a6826545ac6784a9c59a8694048c3a7",
+    "converted2024-final/10.docx": "0e214d3167d380a3957da8ee9bbcc7f23d9bee48f69da32bbed4066408a5ec1c",
+    "converted2024-final/10.pdf": "db8513cf76cf6c03a17f25af54dcfa1af8ec285729682fb0debe2c5bfebde6e5",
+    "converted2024-final/11.docx": "40620c0ecd85df1f37fbc17a039e6b48bd721265316e37aba15868a6b965bd71",
+    "converted2024-final/11.pdf": "05f2f0b01e8b3bdb18567616714413ebd13e93dbcb54827329e9c1e7599fd6d6",
+    "converted2024-final/12.docx": "38b7cf6afe10443f1104179eabe883042886c62829d6cfbf3cedd495224e303c",
+    "converted2024-final/12.pdf": "1338c5cb1993e330a3059f106a4e50a0ab0aac1b3b9db85c9dfa718cf58b9414",
+    "converted2024-final/13.docx": "93d16264956107e4493aa9f08a29bbc8802a6329facc2a72466546130ba819d7",
+    "converted2024-final/13.pdf": "eab20fee2fca2e752faa3fe14bf9937207e29eeb3c2f4adc9bc210022b99e652",
+    "converted2024-final/14.docx": "434c0908d756059b6cd897f618b7841ace384d1f21261c535786cc72c65235b8",
+    "converted2024-final/14.pdf": "481e6c9fe5fd44aa2bbb2294ab3d5797730e2be64723c438ed501acc31a74f98",
+    "converted2024-final/15.docx": "b0267cefcb6670e5c317f011c04607f826af7bb782b257efbc12c14d34f39ad6",
+    "converted2024-final/15.pdf": "7d9fa33fae7db5fb3f8f43f55273ee147c1765c98d8a4da4652c41909a37bcb4",
+    "converted2024-final/16.docx": "cd7823641afab3def76c17a8521dc47603a9c6b6e9fda3b9233f25c49652a1bb",
+    "converted2024-final/16.pdf": "c6cee2b66bdea6750819438fcf1b7d5645e085f4a3f6c6243a4f11e5883f8796",
+    "converted2024-final/17.docx": "2a325239559f503b091fc8a6984a5f4a2f8dfb6b5776f96e108a49d05f6f0bfb",
+    "converted2024-final/17.pdf": "dc8e8fb31d9cb66c847e056547a766b9906f4b9d908787a1e0be14a062a47481",
+    "converted2024-final/18.docx": "6e9ec536746875d99305d08760dd56dfb65452b4a7253e309e4df02f226d9dcc",
+    "converted2024-final/18.pdf": "2605c8cd80f4f6a2d9084d809359d56dca2bed61469a424f59dc0bcb17f81d54",
+    "converted2024-final/19.docx": "5e11222be23a6e3b7caba9f37a1e146189962d42b821230c1f30544074475302",
+    "converted2024-final/19.pdf": "d70ec66d88e20ebed0892a9c6c55da725ff9aa10707d9c1adeb6eabf66a2f07f",
+    "converted2024-final/20.docx": "0d88e256946448b580bff5eea2a89e0128020ffff481878815205d95864bf3f0",
+    "converted2024-final/20.pdf": "a850f8f53ac685794c6b2cd285e51faed3bf0f59dd97ef8df6034017c5aacfe3",
+    "converted2024-final/21.docx": "5cdc895c480c2e260964ba7bba9ba45a995a07ea66835d5f97ddb128347b8a67",
+    "converted2024-final/21.pdf": "8478c7a23c24f0d43aa375ffdb8cddafb6284bfed0b020742e6b827cde0357b3",
+    "converted2024-final/22.docx": "5e29ebd275648399e041a33f51020d414b8c61b1af767f0f2fde29cd17df8c7a",
+    "converted2024-final/22.pdf": "63d7eefbc91d62582a55be22168ed04a1d4f8aa5433dad349a1fab63315a1018",
+    "converted2024-final/23.docx": "b8c265fd9e21af35c5f94f1c3bc5f6796bf07d6f6c60f16068d4d2fd0c9d352f",
+    "converted2024-final/23.pdf": "24e60889e87b6694fe2e958d5a4ebc8d7e7dddb9c187a75ccc99d65b64610518",
+    "converted2024-final/24.docx": "71e30db478cdf0dc3840446063791e8e761135f260b2d1b69701af61a07d140b",
+    "converted2024-final/24.pdf": "1980f35777697d77d6d4b0922a10ecd65a3e1b232092c6e98c1e64f65d7f9295",
+    "converted2024-final/25.docx": "e26bec52d4501e16d143a5559e9be1a01fb2059c507a11080ffaec89147317fc",
+    "converted2024-final/25.pdf": "2c1474118d5df2af99dcc2f6102428bd4deb42494ccd9b8003b4fdb19a1b109b",
+    "converted2024-final/26.docx": "10b1496ccde79d1a9f884ce6c2118a5099ae1eb684ed4b29848bc5976481b5f2",
+    "converted2024-final/26.pdf": "e287ccb5a4c3902fca2bdd3c4541703a1e16f5f0be1f814cff409186a41b5ff8",
+    "converted2024-final/27.docx": "71a475c839ca3e8c80b66dea42b01b4bb734c32c8c18476bf600d6d2b50e996e",
+    "converted2024-final/27.pdf": "5cf31dc1e7caabdbe50bfa3fdd1370b91d4b9c8e015c0df327f5dec81d81d705",
+    "converted2024-final/28.docx": "5c39cd1817039b78f1af6b4da425cf3ea2a5f43fced329c068fbd631e908a383",
+    "converted2024-final/28.pdf": "c32871b4b955873d1cc48a35e34f670952d3b1ce2b19a32b1603ad84c90f7068",
+    "converted2024-final/29.docx": "837e0b55fdd199a4bd2d562d41c8eb6c0a4623ca11b6ef9052104bb47199b50c",
+    "converted2024-final/29.pdf": "25f8656d344fcc7ada78d4a3b51ba10fde03932c3ea34eed9c0cbadd2d6e1d25",
+    "converted2024-final/30.docx": "b5d32994f3907326c7bd8bf94ab81de2d7dac6d9afc42e4faeaf894ccafb1e3e",
+    "converted2024-final/30.pdf": "bc98ce21cc112d2e668071c4e97313c06a481ebc08580a9859c9e45aaed842e4",
+    "converted2024-final/31.docx": "dd8c79f9dca8b2a4b2b046a1a37e0bec95d2cecaf74848c140c0d645433b8b5a",
+    "converted2024-final/31.pdf": "f9d8fecb1409c05861e40afd641bc0b14eafcee802e65e1b22dfcb72f301b9b5",
+    "converted2024-final/32.docx": "c57fef55e22a2055d0384d9799eb79d06e704183b64d9731110fb84cc0511ac7",
+    "converted2024-final/32.pdf": "f026d5ac83b10f76b57a509e9f8d7032341b0cfa6ef674bf38b3098284994b5b",
+    "converted2024-final/conversion_manifest.json": "c5669deb242d606b2120d1790c70303948f38cd8995250fefdef32729ea4eb8d",
+    "extracted/2023/00.pdf": "cd7614228b091099eb76755f2ae8caf60bc797425d143520856483a4e79092d9",
+    "extracted/2023/01.pdf": "c0fcab8e4bc2f25146b31adc5d935a97152c496200bd048954f78fca5c58e9c4",
+    "extracted/2023/02.pdf": "e4691b3274eabaa2389b44d222b74b968870c2dea6d579d47238b309b09c05ba",
+    "extracted/2023/03.pdf": "6b0e1e455dca4572432269c69a3c7fc93428ab2c9ea2598339c16b750a127f79",
+    "extracted/2023/04.pdf": "4af9c316b49b50c61ff362dd05f51b526b55fd2ddd5f459d1bbab60d70dfcf22",
+    "extracted/2023/05.pdf": "649747386c97cf7a95e03936b03506e02a18c589b8e384c804d380276ab0fd9f",
+    "extracted/2023/06.pdf": "7f06ca494b85bc57f0021633aa18646e8557b1e5c7493671bc576b70f5d14e1a",
+    "extracted/2023/07.pdf": "ac05e5bd1ab9f295724f12fd606ab38319c087bafede7bbf9f4e4466f6f3d73f",
+    "extracted/2023/08.pdf": "3a42cf880445a97ff8eaab071ab65cf13a532c22decd958beebdc228786340fc",
+    "extracted/2023/09.pdf": "0ea1c1c3358c86f7280f0c230008a4e1e870cf524a40f58224929589129fc93e",
+    "extracted/2023/10.pdf": "4a986842871efa5bc2bee212fa45f0d512db3f59c07b341ffd26079a7bf53102",
+    "extracted/2023/11.pdf": "4db32fec04b74eeeafe79e1303fd8ee51956e92b91a5739b58306dba46424cad",
+    "extracted/2023/12.pdf": "722a4d64e6404e698e04cdc429f501d330012ea4f7154f07e793103cbde07ef0",
+    "extracted/2023/13.pdf": "5914b3e96ef33bfd5ba385618dabe4c2636ac898b3a26a22f68d3e119175381c",
+    "extracted/2023/14.pdf": "35a5d96fa25bbb895a8ac21f1471522b42398f1ccc1dbc62bf9607014584adbe",
+    "extracted/2023/15.pdf": "b6c4e784a291a8030c5b9fbe8e52cdfccdd66b934b869ac7c712762073c0b9a4",
+    "extracted/2023/16.pdf": "21fbc3c8d7c0fd6f0634dc27b2bcd35bb8c50ed93b0f38f7b952137e338da475",
+    "extracted/2023/17.pdf": "108e07abf04c62a0a826e954888755339b76d5befa6e2f8f131b8a0f52cc4a88",
+    "extracted/2023/18.pdf": "4cd9618ee00e82bd8034584088b5b08be2da5a79dbc8557d074ff2350af30937",
+    "extracted/2023/19.pdf": "7d8e1f5a6b91e63c10868d4b415dc5fd215e106ec86f2e4f61f72871447442ac",
+    "extracted/2023/20.pdf": "93195896697848b76f9f33fdaaf47b8e1499551790fb04f938c94e1380eabae4",
+    "extracted/2023/21.pdf": "bac8482c5fdda54092379c4e61df48f083061bee52ea3cad68c006a4421e4b33",
+    "extracted/2023/22.pdf": "3aeee08d49d7afd97e7e1b1923ffaad5ce35c015f5eea0d4838580b7d9901f6a",
+    "extracted/2023/23.pdf": "1f6076bac7467c2cb7016049789b1629da12f2905c0971c9116fd837480895cb",
+    "extracted/2023/24.pdf": "9ed936fd3fe2a5dff59db8237414fd4d26e4038d4809b1331c37e4b3d1e07034",
+    "extracted/2023/25.pdf": "b8ac46d834b578e90eb55b71733bc1a63487a3be0de7baaad457bbe7cb99e264",
+    "extracted/2023/26.pdf": "fb12d362a243925af16b7aa5fe6b2dd68a7dc6be2a3d21ac57f08b2ab0a7eb98",
+    "extracted/2023/27.pdf": "b64a293637a6e250a5e02b16981df69481df35b5430e2cbddb8843de470af3e2",
+    "extracted/2023/28.pdf": "4d56056711ad26481fb75d574d3a892f32d59d1f9ac22d9fefda75f29ec038f5",
+    "extracted/2023/29.pdf": "822dda0ceb438cb00c8465e22e8b0f42710adcd21535c66a2abc357b4c948701",
+    "extracted/2023/30.pdf": "ab41b3c17987777758b67cd3888df4910c31a494c755b2ee9433320469d4d8d4",
+    "extracted/2023/31.pdf": "9a8b4038fbfa260bf8e4364e31937c757ce7c56fc825ea010e2d005685f1ff9a",
+    "extracted/2023/32.pdf": "4a303d13d6674317cdd04b799534b9bc2c64af819b5453f70adcb13aa2008cfc",
+    "extracted/2024/00.doc": "055903ead0f27bd2f196fca77e2ebc62933d36cd66266a88d08addfafea0ce9b",
+    "extracted/2024/01.doc": "2cd085546b1fce23f06978eeafbe37207326535363e89aaf60fd54a23972d9a2",
+    "extracted/2024/02.doc": "2bc92c66ebbcfb147af965e92e1b469bd9487e17b5590042cce53faaa2692b62",
+    "extracted/2024/03.doc": "66128e4615f2cfe11a5a607a331fac80a721cd64a6ab9b07bd5ad814edd9e0b1",
+    "extracted/2024/04.doc": "f3659e47b7f7a21ccd46de1ed3919095cd995f54ba1a6ac0d93a8e02e5cb27df",
+    "extracted/2024/05.doc": "7892822959de9d516063917afefe4af64a86e607c0b4901568a39dbc0943e8b3",
+    "extracted/2024/06.doc": "2a25a3370c6440d3a1ad2efdaa2a2a14432a56dbd04fce1607d1a2f6211c3a1c",
+    "extracted/2024/07.doc": "2ba1a78d0ec92624eb1b427ba2359c9906da654b66c21d066f842081e42fe21b",
+    "extracted/2024/08.doc": "666b497aa30c4626b0528e84f14b6310d6d05e2eafdfb6a4cbf1aa5dfac12c78",
+    "extracted/2024/09.doc": "63cb6b9178ea1fe741a21c11af94dd3adf727c3b800a359f35a73a29d4610baf",
+    "extracted/2024/10.doc": "98824fa421f54b4888757107d77ef4b682b04ecaa14c97dface006e11e487437",
+    "extracted/2024/11.doc": "ce38f39ebe55f961f20da24c7f55f2cd5cdf9c1801fb032ed5d40e5b0e0aef2f",
+    "extracted/2024/12.doc": "488a60be550bbca026c0b3a45053692fc0a72c3d935ae9845d5ce0788961c4df",
+    "extracted/2024/13.doc": "df00534f3fe66b11acce8948044f18073f6994e5adfc311e8f34c2f19dbd31bc",
+    "extracted/2024/14.doc": "21be8e0e823571941428362f81cfabe393e05a56bcf6f9c26f6d080b52a64c8f",
+    "extracted/2024/15.doc": "c67999d88ebe401ca24f1ad7058b4cc3774bbc8ba91785ee33dd2b420d0e0009",
+    "extracted/2024/16.doc": "88b6cb6305f36854b024a155d2c199fbbd207995fc56fe20cfb58798d3432f5e",
+    "extracted/2024/17.doc": "e8cd03e51708e36bda2b5261a5a2985bf210a52151185aacf7fd671150b29e1e",
+    "extracted/2024/18.doc": "9df239a0f84092187ccec475823d984852586e4cb537523da47e1bf7df7ea6e9",
+    "extracted/2024/19.doc": "6c39ac7cc9114a103382769aac348f22f69e02d3b5b2cf3060a7d22180329034",
+    "extracted/2024/20.doc": "0b8260891c87b8e03364c1f6db3c134ef293f24fc9bf8c730b6e6b6b76ab1c37",
+    "extracted/2024/21.doc": "4b12e5fd789e2e3919676e3ae09b3a95c8d10ef7d8532762c9db5ba1851f1e22",
+    "extracted/2024/22.doc": "35d379469f92a762bea280fd392e65c4e4ec0cf7c37872c1c15c0900d82dfe32",
+    "extracted/2024/23.doc": "b16f887ac4075ca5c620f30b5e9672b38cc7ce2df95387aaacc84cff71b8edd8",
+    "extracted/2024/24.doc": "4dabeb5827b29bb8343e2b6cb5fb37f7d6ff969651ed412e38d742844aae85a1",
+    "extracted/2024/25.doc": "5e66ebb43020a54c174c6d341985652d85e89145b1f0c8bda23dacabcab18c43",
+    "extracted/2024/26.doc": "acafaef7255a513c38bc85633cda40ef672eeafbd0ce8d0dbc1499d1248e2929",
+    "extracted/2024/27.doc": "ccf451145aa977fcdade8be682a83ed207fadb9bc3dc86ddf6c584606eedc333",
+    "extracted/2024/28.doc": "028e82864497ce1fa8b520cc7070a1f773e7d05344194b5328797620a48ee7cf",
+    "extracted/2024/29.doc": "87fc5dda63a7075bab8511a99bba45b7be447b1a2527ea44e48bbfd64274e9cd",
+    "extracted/2024/30.doc": "e58c11a8cad8d5bcdfe5ee2ad983b956b06b93aa8d24b85c748f3a30ebb3f40b",
+    "extracted/2024/31.doc": "a141ece17287ac07baac786e763442ec191862f64e40714aaff96f3906914e3b",
+    "extracted/2024/32.doc": "df6e5dc322e28c5e058c0af93a4cf1a833e8940016e328eaebca88f371727669",
+    "extracted/manifest.json": "cde72f2638070aef4925ca8d4689d29af2bfba30aebb5f6c4cb3023c1409f04c",
+    "pages/saratov_retail.html": "6d7cb9f69bc16dd38a1056ce8d76edd4a2c2624f7fa91c02dc216fc639fd0a56",
+    "saratov2023/food_2023.pdf": "003246ca7f35c28c12161166599ba721a30f4a8cea6ce1a9fd0fe32f110d0ef5",
+    "saratov2023/food_2023.pdf.retrieval.json": "e291b12aa591bcca96ccb79dac1f20f0df7dd2c829bef6706f6dbe66f23e4b65",
+    "saratov2024/food_2024.pdf": "d093c20a652ab5f6efe181f6ecae247e0ef1b2cf33a0eb8e6e4238adb8821a73",
+    "saratov2024/food_2024.pdf.retrieval.json": "697616141a86de27fb8cc256f500f226cfe1c536ba9330c978ec3b2ab33bcb06",
+    "stavropol_annual/annual_2023.zip": "22b1ad11c82352235f3a050729170ad103f30ff58f1bd3f4036484783247008a",
+    "stavropol_annual/annual_2023.zip.retrieval.json": "9a831eea5df742b1b053b49e6c7906c2e09c8de9ae0c96b6bfe06624c77f2b46",
+    "stavropol_annual/annual_2024.rar": "9b02352e7668b8e9c48022f0d63211fcde067ca3e73d6c26187ae3a22fea460d",
+    "stavropol_annual/annual_2024.rar.retrieval.json": "a7edd5a77c81d1a53e738be38b2c449ddef2f247a311bda6649c4b2b4b511219",
+    "stavropol_catalog/catalog.html": "953315ac9d2205b132473a36e92b125e5f83b8d7c5cfc15a445e92778e9b7053"
+  },
+  "repo_inputs_sha256": {
+    "reports/enriched_analysis/core_v2/annual_panel.csv": "0e44e34b94c51aeb429615ec9a0e8127def140a6f414afa75e255e00cb4f8190",
+    "enrichment/uv.lock": "b07d548b44a8a636ea0d8ace4d1f0babdbdbfd87c87c7a97e91a5742bbfab612"
+  },
+  "canonical_outputs_sha256": {
+    "catalog_publication_labels.csv": "20d80c2efb645fbb8a594f4a736e23a97d1cca62f7a025c91349d5eedef4b034",
+    "document_inventory.csv": "ca7b2e2c55ebcc16aa173351f74fe9dacf7d6af4393e4000740ca9c5a9b8ef81",
+    "food_reconciliation.csv": "4669766cad2ee3769fbe62f8e5956e17bcc83b7e46b818d51c44be8d788844c3",
+    "pdf_docx_crosscheck.csv": "dada65b2854ed137145ed7f45bef1e087cceb148f4b26ff6d7260bd58923349d",
+    "QA.json": "9258a7ddd665eb295c6cd4eb84708d7231343e779081023f62d2d9bb982c050e",
+    "regional_context_candidate.csv": "8b28b00c77a8a84dc4894595973a6565eed4148a08c60f6a4200d9a47d7b9ea0"
+  },
+  "metadata_correction": {
+    "finding": "without_SME ambiguously excluded medium businesses; source excludes small businesses",
+    "resolution": "without_small_business; VAT/excise exclusion explicitly added for shipments",
+    "status": "PASS",
+    "values_changed": false
+  },
+  "model_adoption": false,
+  "historical_boundary_equivalence_proven": false,
+  "all_candidate_rows_keep_replace_frozen_false": true,
+  "root_additional_visual_review": {
+    "role": "root",
+    "status": "reported PASS",
+    "source": "saratov2023/food_2023.pdf",
+    "pages": [
+      1,
+      2
+    ],
+    "basis": "root message; reviewer did not independently view these two rendered pages"
+  },
+  "all_numeric_values_verified_after_scope_rebuild": true
+}

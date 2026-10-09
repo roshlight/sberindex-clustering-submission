@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "file_matches": {
+    "annual_candidate_panel.csv": true,
+    "annual_candidate_panel.parquet": true,
+    "collection_status.json": true,
+    "coverage_delta.csv": true,
+    "delta_all_cells.csv": true,
+    "form_inventory.json": true,
+    "new_numeric_cells.csv": true,
+    "QA.json": true,
+    "recovered_source_cells.csv": true,
+    "remaining_missing_cells.csv": true,
+    "revision_conflicts.csv": true,
+    "source_only_outside_year_link.csv": true,
+    "target_cell_decisions.csv": true,
+    "manifest.json": true,
+    "execution.json": true
+  }
+}

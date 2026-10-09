@@ -1,0 +1,84 @@
+{
+  "status": "PASS_WITH_DOCUMENTED_BOUNDARY_AND_PUBLICATION_GAPS",
+  "scope": "78 changed Sber annual territories plus 6 disjoint calendar cases",
+  "cases": 78,
+  "regions": 17,
+  "exact_code_evidence_rows": 156,
+  "new_code_registry_date_counts": {
+    "01.01.2024": 78
+  },
+  "recoding_documents": 22,
+  "settlement_recoding_pairs": 10624,
+  "recoding_source_rows_requiring_review": 20,
+  "recoding_law_reference_rows": 20,
+  "reviewed_full_laws": 3,
+  "calendar_cases_reused": 6,
+  "calendar_overlap_with_78": 0,
+  "independent_boundary_equivalence_confirmed": 0,
+  "municipal_joins_from_settlement_prefixes": 0,
+  "source_count": 37,
+  "new_downloaded_source_count": 29,
+  "network_calls_by_builder": 0,
+  "inputs": {
+    "changes": {
+      "path": "../../work/data-round2/geography/inputs/primary_78_code_type_changes.csv",
+      "sha256": "e839fcc89afaa0f3b3ef8599cf1f14efd5ac96f53d34f50583ddb3c70591f791"
+    },
+    "spatial": {
+      "path": "../../work/data-round2/geography/inputs/sber_yearly_spatial_attributes.csv",
+      "sha256": "85986eb1091df29fe9aa9347a4bce1b974dac30386198daacbb8f976491362ce"
+    },
+    "calendar": {
+      "path": "../../work/data-round2/geography/inputs/calendar_code_adjudication.csv",
+      "sha256": "3b932ab68ace042cbdbad56988baa842641b2d63fecd53c9973e35cd24fc7eff"
+    },
+    "registry_audit": {
+      "path": "../../work/data-round2/geography/inputs/registry_vintage_audit.csv",
+      "sha256": "f46537b892ad4f61c5a6d3015b2425705790e698b6b1d2d5bcb305098a304432"
+    },
+    "reviewed_laws": {
+      "path": "../../work/data-round2/geography/inputs/round2_geography_reviewed_laws.json",
+      "sha256": "1e57317aea17cb2ab25f53533e6163e34b199c6a2656934ccd7abcc393efcd5d"
+    }
+  },
+  "script_sha256": "9fa6eba1007fe3aa8f9f0bab244f71b3d7873ba92c9cc7ffd90eb064afb2e52b",
+  "outputs": {
+    "case_register_78.csv": {
+      "rows": 78,
+      "sha256": "7bbb1e3e346f9e90c9d4b724b42ac46ac060f027598a905872a0ff21479e2104"
+    },
+    "exact_registry_evidence_156.csv": {
+      "rows": 156,
+      "sha256": "f666b9143c6dda00429cf14570948d07e65376cdcd8a33f0e70ca71ed5308404"
+    },
+    "settlement_recoding_pairs.csv": {
+      "rows": 10624,
+      "sha256": "7e2393921d2c9f0a26072de2297fb269def8f711eab11e0ee1e7e3a0e81f60b0"
+    },
+    "recoding_source_review.csv": {
+      "rows": 20,
+      "sha256": "ac65c5bbdf981fd56cba327e665a7b53e931188c63f4c4898677d534ab3fd1fe"
+    },
+    "calendar_priority_6.csv": {
+      "rows": 6,
+      "sha256": "8721dd6de89197bd5598407785e81bc132501de1d9a9fca0ed618cca6719d77b"
+    },
+    "reviewed_laws_3.csv": {
+      "rows": 3,
+      "sha256": "27b7dd6eeefe0027c7a138a4b94c98dfa1fb04382e115b993e35e765dbcc2a43"
+    },
+    "card_registry_date_differences.csv": {
+      "rows": 4,
+      "sha256": "e78db80227463c1fee99b8e44009760cb4aa986625299d3f70e33eb8a94831fe"
+    },
+    "source_catalog.csv": {
+      "rows": 37,
+      "sha256": "04937e310eb4714bfcbe1411d3c4177e5613a9795fa3b8fd37aeb97db236beb4"
+    },
+    "region_coverage.csv": {
+      "rows": 17,
+      "sha256": "62c140a2f64bbcb300f152aac46df1970713d69095d1db307a62c32bdb29f9fa"
+    }
+  },
+  "excluded_attempts_sha256": "513c2d620055e5d83288f2ca108e8b69384b866aeed9e0c19b4d49611054504c"
+}

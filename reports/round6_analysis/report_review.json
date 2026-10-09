@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "independent_report_claims",
+      "status": "PASS",
+      "assertions": 103
+    },
+    {
+      "check": "fresh_replay_report_byte_equality",
+      "status": "PASS",
+      "files": [
+        "REPORT.md",
+        "artifact.json",
+        "claim_values.json",
+        "report_design.json"
+      ]
+    },
+    {
+      "check": "fresh_replay_report_claims",
+      "status": "PASS",
+      "assertions": 103
+    },
+    {
+      "check": "economic_definitions_and_limitations",
+      "status": "PASS"
+    },
+    {
+      "check": "humanizer_minimal_prose_review",
+      "status": "PASS",
+      "claims_and_numbers_preserved": true
+    },
+    {
+      "check": "visual_inspection",
+      "status": "PASS",
+      "scope": "Three charts, wide cluster table and overview at 1440/1280/390; not every scrolled paragraph",
+      "wide_tables": "Native horizontal scrolling retained; p=0.0002 and q=0.0008 readable without rounding to zero",
+      "mobile_document_overflow": false
+    }
+  ],
+  "report_sha256": "c67808ba31481773d59a3f5e1ad289c1e80d840032f71caa3fe4c7bbac8b04d8",
+  "artifact_sha256": "179afbd14fafc919a28d95ac4172c6df362bda75459cb1cdfabf47945fa59ede",
+  "html_sha256": "3b9b55669c02c98b4d02f9a30f089c8a13ff77872f883de503b9a4ad1d21906c",
+  "model_refits": 0,
+  "sources": {
+    "reports/round6_analysis/regions/associations.csv": "0ecfd6d211fe03da5d410fdffc47bbb4509cfb957dd0e238dbbec24c50d4813a",
+    "reports/round6_analysis/regions/coverage.csv": "cf0ceaf9d2ee97406c854a399c010551c8e0ac1720e0ae84b7a44aed56950dc8",
+    "reports/round6_analysis/regions/regional_panel.csv": "a906c2ad08f7f7deb637626142d21b48c91cfdf41c09ec4d101b4c76e6046acc",
+    "reports/round6_analysis/regions/cluster_alignment.csv": "f2cdcd12e946f8cbdcf674b52b22d6e7004196a4991c16e80450295446233b32",
+    "reports/round6_analysis/context/airport_comparison.csv": "e38180ea1e1f2faf2fd0c0591501d49b068be2958e029932c63f6ccb50a755bd",
+    "reports/round6_analysis/context/airport_changes.csv": "88c3b23e226ac3acee3f3ab6d8860d7e8b59500328a945f85a9c761749c1c613",
+    "reports/round6_analysis/context/geography_queue_summary.csv": "fabe70f3f84b2bd2c0aed9229655dfbca2b0194a6f3088c2d3da18a01d046501",
+    "reports/round6_analysis/admission/ratio_summary.csv": "29c2a01991c6ede1e673c4f670edc83ec7b1413614eed80fa0f68a24995a39dd",
+    "reports/round6_analysis/admission/QA.json": "9b294ca0300aa61afee2da5ffec21b6a40ec816680ab1a022b9f4396a20e2356",
+    "configs/round6_analysis_v1.json": "2ece886fe1f4bf2c43bde3f10d6486e900ac9337558b945e0fbe74b44de74da6",
+    "reports/enriched_analysis/annual_networks/yearly_support.csv": "babf88b6e2aa11472c1ea1738a39eb04253b4ec9c32629930a9aa3853a163302"
+  },
+  "report_replay_sha256": {
+    "REPORT.md": "c67808ba31481773d59a3f5e1ad289c1e80d840032f71caa3fe4c7bbac8b04d8",
+    "artifact.json": "179afbd14fafc919a28d95ac4172c6df362bda75459cb1cdfabf47945fa59ede",
+    "claim_values.json": "cb2f7c4a51b294af1d69070f085267ffd9425430c278c88b7971e2559042f1fc",
+    "report_design.json": "28891937044dc60ada6ee18d878eeacf82179276eb650a9f04eb0120c202ddf0"
+  },
+  "fresh_report_claims_qa_sha256": "147202aa632401c5ce354e4311895dd0d480f97f0913849f7c04a53b1563f7ca",
+  "screenshots": {
+    "visual_qa/1280.png": "f93efbb408b3efadd8e02fa34136602f37dc56ad55969bce7eb72fd0bfd70bab",
+    "visual_qa/airport.png": "5d0b4cddbacd63703b60f7a6e7616c691fc8574b161820ba57b435bb6b6649b9",
+    "visual_qa/correlations.png": "7833013b9ea2e9e4ee35ccce124d99da9bc13895460e8684510fc3babb163402",
+    "visual_qa/desktop.png": "2d362c74e510b644d8f34a1d033c769dff4e8c0362bc7e3f53e8d3fa3d64436a",
+    "visual_qa/mobile.png": "39409696f7286a642c03eea70c6f3445dd5e7e3b1b0109076573b8dd8c163029",
+    "visual_qa/scatter.png": "15cef91ee414830990f0170f91102f2243acb6669f20f38236e5b8e6f094b279",
+    "visual_qa/table.png": "d8ec7eba896ad79a0b4a4e18e92f1a832ccd63b478668977608d32cca1681594"
+  },
+  "limitations": [
+    "No clean environment recreation",
+    "Visual inspection samples described above; native verifier covers all declared blocks",
+    "No new independent holdout or spatial correction"
+  ]
+}

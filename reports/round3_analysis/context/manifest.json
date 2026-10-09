@@ -1,0 +1,72 @@
+{
+  "script_sha256": "d82809bc0f99696918c8a42de333dc004a33a57ebd06cb5699905b28787da3aa",
+  "inputs": [
+    {
+      "path": "reports/data_round3/economy/annual_candidate_panel.csv",
+      "sha256": "6660b05f061eb699fdb23c29e41fc2435ae56ffcb291cd519f6ff24f93f71e37"
+    },
+    {
+      "path": "reports/data_round3/economy/source_cells.csv",
+      "sha256": "68100741506b02d12ea90f0aa442f408e10574c26ebea5020f06e3745e53c99a"
+    },
+    {
+      "path": "reports/data_round3/economy/independent_cell_QA.json",
+      "sha256": "4c1696ed8ae97862539e640425e23d27f142e61397eb69441336b8cf74d0f620"
+    },
+    {
+      "path": "reports/enriched_analysis/core_v2/annual_panel.csv",
+      "sha256": "0e44e34b94c51aeb429615ec9a0e8127def140a6f414afa75e255e00cb4f8190"
+    },
+    {
+      "path": "reports/enriched_analysis/examples/six_oof_examples_2024.csv",
+      "sha256": "229228616861a4818438ade314c7eddf61c2a9675fb853f62c9ea0cbfe8b160d"
+    },
+    {
+      "path": "reports/round2_analysis/sector/examples.csv",
+      "sha256": "f3242cc40f93c96ee6a43d97957bbeb80c42f0345eb6e7d70f0b1024c7121234"
+    },
+    {
+      "path": "reports/data_round3/cases/factual_evidence.csv",
+      "sha256": "c6f132abe7b7a5b47683d11da87fa987f2ef40a3de46977640423a55be4d0edb"
+    },
+    {
+      "path": "reports/data_round3/cases/source_roles.csv",
+      "sha256": "415f01bf616fb8d316acb8751835fa1bdf4d7897e1e34d3f6ca18ec75d53fe3b"
+    },
+    {
+      "path": "reports/data_round3/geography/QA.json",
+      "sha256": "9ede3aa64968efc466a797718bec63bbc145f42db4efd07cd2a9700e9c5a9624"
+    },
+    {
+      "path": "reports/data_round3/sme/vologda_small_organizations_unlinked.csv",
+      "sha256": "c7563f853d5a22d134a1c9db1d9a0f7e4d3b471c42560d60f4bbbd428c2973c9"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "document_comparability_checks.csv",
+      "sha256": "f67ff2da3594c69336c2152938b63d5742653316a437c7833a155d88e808e42f"
+    },
+    {
+      "path": "document_evidence_53.csv",
+      "sha256": "c6f132abe7b7a5b47683d11da87fa987f2ef40a3de46977640423a55be4d0edb"
+    },
+    {
+      "path": "document_source_roles.csv",
+      "sha256": "415f01bf616fb8d316acb8751835fa1bdf4d7897e1e34d3f6ca18ec75d53fe3b"
+    },
+    {
+      "path": "prior_sector_context.csv",
+      "sha256": "5b04271e1296517150775daa38098adab1c3957e1b9628cb260d29f5e65826c8"
+    },
+    {
+      "path": "six_cases_economy_pairs.csv",
+      "sha256": "f2bc250654032b1112dc650b0a9bbe60cf141f22d3586540babd3660d05fe8e5"
+    },
+    {
+      "path": "QA.json",
+      "sha256": "83e09f1dae1c8a3f84687efb6727bdf3ca5eff95a2632d35f9827a87913f1d3b"
+    }
+  ],
+  "no_frozen_sources_or_masks_changed": true
+}

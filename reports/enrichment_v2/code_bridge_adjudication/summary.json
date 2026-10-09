@@ -1,0 +1,10 @@
+{
+  "initial_temporal_flags": 6,
+  "calendar_code_conflicts_cleared": 6,
+  "explicit_Rosstandart_permission_links": 5,
+  "explicit_FNS_code_date_links": 1,
+  "independent_boundary_equivalence_confirmed_links": 0,
+  "original_audit_mutated": false,
+  "population_values_mutated": false,
+  "adjudication_scope": "Calendar use of exact codes; not legal or population boundary audit"
+}

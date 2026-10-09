@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "started_at": "2026-09-14T23:32:22.400462+00:00",
+  "protocol_sha256": "280fc6cd02efb9f04c42909f85e16f7eae1900469b33715661ac727fe3fe8969",
+  "input_hashes": {
+    "data/raw/consumption.parquet": "9833ddaaee7b2a182ed4cceeed16469031700ea87d508bd976150c6770ef8a61",
+    "reports/enrichment_v2/population/municipal_population_wide.csv": "3c625230fefe007abebcb025b72257e413e6465fc2224da38b3991353131f8fb",
+    "reports/enrichment_v3/economy/annual_candidates/annual_candidate_panel.csv": "c1d0bbeaaf742e14417d7d7d168764c060bb6c01199481a850a7eea3b6359bd4",
+    "reports/enrichment_v3/spatial/sber_yearly_spatial_attributes.csv": "85986eb1091df29fe9aa9347a4bce1b974dac30386198daacbb8f976491362ce",
+    "reports/enrichment_v3/spatial/sber_static_context_2024.csv": "a07e8517d4476a1f921936e83d42f532eb01b20adfb670f24c809acf778f569e",
+    "reports/enrichment_v2/code_bridge/primary_78_code_type_changes.csv": "e839fcc89afaa0f3b3ef8599cf1f14efd5ac96f53d34f50583ddb3c70591f791"
+  },
+  "code_sha256": "095722e93f9c8b8c6a34813879c933e3fb2fbc1d3dc4f1e51b169f4fa9c88102",
+  "analysis_status": "exploratory_conditional_geography",
+  "finished_at": "2026-09-14T23:32:24.829753+00:00",
+  "outputs": {
+    "annual_panel.csv": "0e44e34b94c51aeb429615ec9a0e8127def140a6f414afa75e255e00cb4f8190",
+    "annual_panel.parquet": "b1770837d8e6527ef62c4e1cb3cbfdacd09aa3aaaf130b2937d586222167d5ce",
+    "correlations.csv": "0c2a852528ec0e83e9730b9739326b34c3bcfe8393c9c22eecde9be70367fed2",
+    "coverage.csv": "ea8a7f17480b98c4ce53b1c9be6dcae0605bf92d4527f89739dd4079f8185222",
+    "cv_comparisons.csv": "202382faeda93bf68e8ea584a51789cb7e159b84047b2d2cf3e2b7cb52c01cf6",
+    "cv_metrics.csv": "f1735d7b5a2f9941085c3735d21fd1c9cecb81fddea142e9b66a74767f78de47",
+    "join_audit.json": "1ebd6d99964b604964d63377d687f29b9c2974978d786f78800c5053e7a73cc7",
+    "oof_predictions.parquet": "db69abc68e4b5d2eef100cac1518b1f86f3a8e8dcf7c21034c4baa7de96bcf8e",
+    "regression_coefficients.csv": "1c7b5cdfcd5b997bc40017dc0b7150f182c857a38559b59860a033be94c90d08",
+    "stable_code_changes.csv": "cab539a4979691484a5ec25e92a50c4eb042bd5c7b876c1e96c660702ae7badc"
+  },
+  "tests_of_causal_effects": false,
+  "untouched_evaluation_data": false
+}

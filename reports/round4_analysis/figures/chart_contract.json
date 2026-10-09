@@ -1,0 +1,12 @@
+{
+  "question": "Does restored monetary information improve the primary profile target?",
+  "family": "comparison",
+  "variant": "point estimates with 95% interval whiskers",
+  "rows": 8,
+  "unit": "percent reduction of MSE; positive is better",
+  "palette": "hard two-root cap: blue and gold plus neutrals",
+  "noncolor": "circle vs open square; labeled cohort legend",
+  "cohorts": "Frozen core and stable-code, two years and two split regimes",
+  "limitations": "Intervals condition on fixed OOF predictions; no full-pipeline refit",
+  "visual_review": "See QA.json for inspection of the exported PNG and its exact SHA256"
+}

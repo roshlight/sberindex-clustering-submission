@@ -1,0 +1,20 @@
+run_id,source_id,url,title,fetched_at,status,error,sha256,raw_file,raw_bytes
+data-round4-20260916-01,01588aa7429e7a6599ec,https://rosstat.gov.ru/storage/mediabank/met_bdpmo.htm,Росстат: методология БД ПМО,2026-09-16T17:24:46.389164+00:00,200,,949e39712589fbd7253576b76fe43c37dda5017fbab001da0514f114071c0e18,raw/01588aa7429e7a6599ec.bin,11918
+data-round4-20260916-01,02d546764629393b1a4e,[rejected-url], XLSX,2026-09-16T17:24:47.935970+00:00,,blocked_url,,,
+data-round4-20260916-01,0b3b3c0fad411a8571db,[rejected-url], XLS,2026-09-16T17:24:47.936134+00:00,,blocked_url,,,
+data-round4-20260916-01,14eae7cf19ef9d5e1063,[rejected-url], PDF,2026-09-16T17:24:47.936398+00:00,,blocked_url,,,
+data-round4-20260916-01,174397f42ac41bc10e95,https://69.rosstat.gov.ru/main_indicators,Тверь: муниципальные показатели,2026-09-16T17:24:46.125559+00:00,200,,e08cca637e84ae806f5bee5ff3f8b66a348b522750c243642321f618b7fc28c6,raw/174397f42ac41bc10e95.bin,925548
+data-round4-20260916-01,1a7c47f4d4dab8729cf6,https://kurkino-vmo.ru/glava-munitsipalnogo-okruga/reports/,Куркино: отчёты главы,2026-09-16T17:24:46.975903+00:00,200,,8dc22b31e348966e021ec7188e8d6741a550da152d885c784b21fd2cf9040656,raw/1a7c47f4d4dab8729cf6.bin,53678
+data-round4-20260916-01,3060e8a0282979e25101,[rejected-url], XLS,2026-09-16T17:24:47.936924+00:00,,blocked_url,,,
+data-round4-20260916-01,3db14c21e1524775985b,[rejected-url], PDF,2026-09-16T17:24:47.937048+00:00,,blocked_url,,,
+data-round4-20260916-01,476fb9e816e025623db7,[rejected-url], XLS,2026-09-16T17:24:47.937640+00:00,,blocked_url,,,
+data-round4-20260916-01,69d1f3a9c904994867c2,[rejected-url], XLS,2026-09-16T17:24:47.937765+00:00,,blocked_url,,,
+data-round4-20260916-01,6edd069fedaa6289a676,https://65.rosstat.gov.ru/main_indicators,Сахалин: муниципальные показатели,2026-09-16T17:24:46.423996+00:00,200,,58c32e9fc91059b22ab4b4fc8dc4a36719446ab6ab6cae255b286731692f87d5,raw/6edd069fedaa6289a676.bin,764667
+data-round4-20260916-01,774caac3f6e3e6ea8272,[rejected-url], PDF,2026-09-16T17:24:47.937469+00:00,,blocked_url,,,
+data-round4-20260916-01,79d67830870b415435db,[rejected-url], XLSX,2026-09-16T17:24:47.938544+00:00,,blocked_url,,,
+data-round4-20260916-01,7dc9db73e78ffa99c0a1,[rejected-url], PDF,2026-09-16T17:24:47.938807+00:00,,blocked_url,,,
+data-round4-20260916-01,7e210104659c3234f0f2,[rejected-url], XLS,2026-09-16T17:24:47.939071+00:00,,blocked_url,,,
+data-round4-20260916-01,8298665af4aebed202f1,[rejected-url], XLSX,2026-09-16T17:24:47.939639+00:00,,blocked_url,,,
+data-round4-20260916-01,998dcc0d73d78855c757,https://14.rosstat.gov.ru/storage/mediabank/%D0%95%D0%B6%D0%B5%D0%B3%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%202025.pdf,Якутстат: ежегодник 2025,2026-09-16T17:24:46.610568+00:00,,fetch_network_error,,,
+data-round4-20260916-01,ada33ea9b28731c0f54d,https://tochno.st/datasets/sme,"МСП, обогащение ФНС: география июня 2026",2026-09-16T17:24:47.901841+00:00,200,,27eeb064bc8363fc1c8c1365ae99b8f11438c48a463384cbd444f3a488e7e81a,raw/ada33ea9b28731c0f54d.bin,434878
+data-round4-20260916-01,d9735c0df5ce83154e67,https://63.rosstat.gov.ru/main_indicators,Самара: муниципальные показатели,2026-09-16T17:24:47.268827+00:00,200,,985a19451134d5e2ec1af3673dafd5dfc0d7aaa1dca5c0419a730c25739f2c11,raw/d9735c0df5ce83154e67.bin,736371

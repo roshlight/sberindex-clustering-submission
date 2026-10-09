@@ -1,0 +1,22 @@
+{
+  "status": "ready_with_conditions_for_record_audit_only",
+  "historical_municipal_attributes": "NOT_READY",
+  "main_panel_joins": 0,
+  "models_fit": 0,
+  "source_corrections": 0,
+  "issues": [
+    "Geographic coding is June2026, not a documented historical2023/2024 snapshot.",
+    "One INN/year can have multiple change-period records; rows are not company counts.",
+    "Workers for sole traders are missing; missing cannot be interpreted as zero.",
+    "Registered address / settlement coordinate is not a verified workplace location.",
+    "Current geography and mixed8/11digit codes need audited hierarchy/time mapping.",
+    "Medium enterprises may overlap with the existing non-small-business workforce layer.",
+    "PDF p3 reverses revenue/expenditure labels; p7 dictionary defines revenue as income.",
+    "Sakhalin municipal workers-share page updated2025 contains2015/2020, not2023/2024.",
+    "Each annual file contains one workers_count=-1; not accepted as a worker count.",
+    "Coordinates contain both SQL NULL and floating NaN; neither is a valid location."
+  ],
+  "sakhalin_encoding": "Windows-1251 bytes decoded explicitly; original bytes retained",
+  "raw_archive_crc": "verified by reading every archive member during collection",
+  "no_annual_workers_sum_published": true
+}

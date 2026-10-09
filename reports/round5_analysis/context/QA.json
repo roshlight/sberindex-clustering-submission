@@ -1,0 +1,32 @@
+{
+  "status": "ready_with_conditions",
+  "purpose": "context_and_source_readiness_only",
+  "year_row_reconciliation": [
+    {
+      "year": 2023,
+      "source_rows": 7555943,
+      "joined_rows": 7555943,
+      "missing_code_dimension_rows": 0,
+      "model_join": false
+    },
+    {
+      "year": 2024,
+      "source_rows": 7884985,
+      "joined_rows": 7884985,
+      "missing_code_dimension_rows": 0,
+      "model_join": false
+    }
+  ],
+  "workers_summed": false,
+  "historical_municipal_joins": 0,
+  "model_features_added": 0,
+  "new_network_requests": 0,
+  "causal_attributions": 0,
+  "source_table_reextraction": "not repeated; verified frozen upstream derived tables",
+  "distinct_ids_additive_across_strata_or_regions": false,
+  "fns_stock_is_annual_panel_denominator": false,
+  "dashes_converted_to_zero": false,
+  "python": "3.12.10",
+  "duckdb": "1.5.5",
+  "pandas": "3.0.5"
+}

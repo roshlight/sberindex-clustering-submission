@@ -1,0 +1,347 @@
+[
+  {
+    "root": "work",
+    "path": "data-round5/cases/metadata/arctic_tlc.json",
+    "archive_path": "work/data-round5/cases/metadata/arctic_tlc.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/metadata/district_home.json",
+    "archive_path": "work/data-round5/cases/metadata/district_home.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/metadata/favt_certification.json",
+    "archive_path": "work/data-round5/cases/metadata/favt_certification.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/metadata/gov_contract_uplift_a.json",
+    "archive_path": "work/data-round5/cases/metadata/gov_contract_uplift_a.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/metadata/gov_contract_uplift_a_http.json",
+    "archive_path": "work/data-round5/cases/metadata/gov_contract_uplift_a_http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/metadata/gov_contract_uplift_b.json",
+    "archive_path": "work/data-round5/cases/metadata/gov_contract_uplift_b.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/metadata/gov_contract_uplift_b_http.json",
+    "archive_path": "work/data-round5/cases/metadata/gov_contract_uplift_b_http.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/metadata/iltumen_app_js.json",
+    "archive_path": "work/data-round5/cases/metadata/iltumen_app_js.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/metadata/iltumen_arctic_review.json",
+    "archive_path": "work/data-round5/cases/metadata/iltumen_arctic_review.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/metadata/iltumen_article_api.json",
+    "archive_path": "work/data-round5/cases/metadata/iltumen_article_api.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/metadata/mintrans_permit.json",
+    "archive_path": "work/data-round5/cases/metadata/mintrans_permit.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/metadata/mintrans_report2023.json",
+    "archive_path": "work/data-round5/cases/metadata/mintrans_report2023.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/metadata/operator_home.json",
+    "archive_path": "work/data-round5/cases/metadata/operator_home.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/metadata/parliament_arctic_review.json",
+    "archive_path": "work/data-round5/cases/metadata/parliament_arctic_review.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/metadata/rosstat_arctic2024.json",
+    "archive_path": "work/data-round5/cases/metadata/rosstat_arctic2024.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/metadata/rtm_first_flight.json",
+    "archive_path": "work/data-round5/cases/metadata/rtm_first_flight.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/metadata/rtm_project.json",
+    "archive_path": "work/data-round5/cases/metadata/rtm_project.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/metadata/ysia_tlc_permit.json",
+    "archive_path": "work/data-round5/cases/metadata/ysia_tlc_permit.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/arctic_tlc.links.json",
+    "archive_path": "work/data-round5/cases/parsed/arctic_tlc.links.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/arctic_tlc.txt",
+    "archive_path": "work/data-round5/cases/parsed/arctic_tlc.txt"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/gov_contract_uplift_a_http.pages.json",
+    "archive_path": "work/data-round5/cases/parsed/gov_contract_uplift_a_http.pages.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/gov_contract_uplift_a_http.txt",
+    "archive_path": "work/data-round5/cases/parsed/gov_contract_uplift_a_http.txt"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/gov_contract_uplift_b_http.pages.json",
+    "archive_path": "work/data-round5/cases/parsed/gov_contract_uplift_b_http.pages.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/gov_contract_uplift_b_http.txt",
+    "archive_path": "work/data-round5/cases/parsed/gov_contract_uplift_b_http.txt"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/iltumen_app_js.links.json",
+    "archive_path": "work/data-round5/cases/parsed/iltumen_app_js.links.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/iltumen_app_js.txt",
+    "archive_path": "work/data-round5/cases/parsed/iltumen_app_js.txt"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/iltumen_arctic_review.links.json",
+    "archive_path": "work/data-round5/cases/parsed/iltumen_arctic_review.links.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/iltumen_arctic_review.txt",
+    "archive_path": "work/data-round5/cases/parsed/iltumen_arctic_review.txt"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/iltumen_article_api.links.json",
+    "archive_path": "work/data-round5/cases/parsed/iltumen_article_api.links.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/iltumen_article_api.txt",
+    "archive_path": "work/data-round5/cases/parsed/iltumen_article_api.txt"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/mintrans_permit.links.json",
+    "archive_path": "work/data-round5/cases/parsed/mintrans_permit.links.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/mintrans_permit.txt",
+    "archive_path": "work/data-round5/cases/parsed/mintrans_permit.txt"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/mintrans_report2023.pages.json",
+    "archive_path": "work/data-round5/cases/parsed/mintrans_report2023.pages.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/mintrans_report2023.txt",
+    "archive_path": "work/data-round5/cases/parsed/mintrans_report2023.txt"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/operator_home.links.json",
+    "archive_path": "work/data-round5/cases/parsed/operator_home.links.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/operator_home.txt",
+    "archive_path": "work/data-round5/cases/parsed/operator_home.txt"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/parliament_arctic_review.links.json",
+    "archive_path": "work/data-round5/cases/parsed/parliament_arctic_review.links.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/parliament_arctic_review.txt",
+    "archive_path": "work/data-round5/cases/parsed/parliament_arctic_review.txt"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/rosstat_arctic2024.pages.json",
+    "archive_path": "work/data-round5/cases/parsed/rosstat_arctic2024.pages.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/rosstat_arctic2024.txt",
+    "archive_path": "work/data-round5/cases/parsed/rosstat_arctic2024.txt"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/rtm_first_flight.links.json",
+    "archive_path": "work/data-round5/cases/parsed/rtm_first_flight.links.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/rtm_first_flight.txt",
+    "archive_path": "work/data-round5/cases/parsed/rtm_first_flight.txt"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/rtm_project.links.json",
+    "archive_path": "work/data-round5/cases/parsed/rtm_project.links.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/rtm_project.txt",
+    "archive_path": "work/data-round5/cases/parsed/rtm_project.txt"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/ysia_tlc_permit.links.json",
+    "archive_path": "work/data-round5/cases/parsed/ysia_tlc_permit.links.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/parsed/ysia_tlc_permit.txt",
+    "archive_path": "work/data-round5/cases/parsed/ysia_tlc_permit.txt"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/raw/arctic_tlc.html",
+    "archive_path": "work/data-round5/cases/raw/arctic_tlc.html"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/raw/gov_contract_uplift_a_http.pdf",
+    "archive_path": "work/data-round5/cases/raw/gov_contract_uplift_a_http.pdf"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/raw/gov_contract_uplift_b_http.pdf",
+    "archive_path": "work/data-round5/cases/raw/gov_contract_uplift_b_http.pdf"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/raw/iltumen_app_js.html",
+    "archive_path": "work/data-round5/cases/raw/iltumen_app_js.html"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/raw/iltumen_arctic_review.html",
+    "archive_path": "work/data-round5/cases/raw/iltumen_arctic_review.html"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/raw/iltumen_article_api.html",
+    "archive_path": "work/data-round5/cases/raw/iltumen_article_api.html"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/raw/mintrans_permit.html",
+    "archive_path": "work/data-round5/cases/raw/mintrans_permit.html"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/raw/mintrans_report2023.pdf",
+    "archive_path": "work/data-round5/cases/raw/mintrans_report2023.pdf"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/raw/operator_home.html",
+    "archive_path": "work/data-round5/cases/raw/operator_home.html"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/raw/parliament_arctic_review.html",
+    "archive_path": "work/data-round5/cases/raw/parliament_arctic_review.html"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/raw/rosstat_arctic2024.pdf",
+    "archive_path": "work/data-round5/cases/raw/rosstat_arctic2024.pdf"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/raw/rtm_first_flight.html",
+    "archive_path": "work/data-round5/cases/raw/rtm_first_flight.html"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/raw/rtm_project.html",
+    "archive_path": "work/data-round5/cases/raw/rtm_project.html"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/raw/ysia_tlc_permit.html",
+    "archive_path": "work/data-round5/cases/raw/ysia_tlc_permit.html"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/rendered/gov_a_physical04.png",
+    "archive_path": "work/data-round5/cases/rendered/gov_a_physical04.png"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/rendered/gov_a_physical28.png",
+    "archive_path": "work/data-round5/cases/rendered/gov_a_physical28.png"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/rendered/gov_b_physical03.png",
+    "archive_path": "work/data-round5/cases/rendered/gov_b_physical03.png"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/rendered/gov_b_physical30.png",
+    "archive_path": "work/data-round5/cases/rendered/gov_b_physical30.png"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/rendered/mintrans_report_physical18.png",
+    "archive_path": "work/data-round5/cases/rendered/mintrans_report_physical18.png"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/retrievals.json",
+    "archive_path": "work/data-round5/cases/retrievals.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/search_log.json",
+    "archive_path": "work/data-round5/cases/search_log.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/search_log_final.json",
+    "archive_path": "work/data-round5/cases/search_log_final.json"
+  },
+  {
+    "root": "work",
+    "path": "data-round5/cases/server_https_failures.json",
+    "archive_path": "work/data-round5/cases/server_https_failures.json"
+  }
+]

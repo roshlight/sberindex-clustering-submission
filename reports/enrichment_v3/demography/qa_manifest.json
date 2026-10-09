@@ -1,0 +1,112 @@
+{
+  "status": "PASS_sources_and_candidates_not_accepted_population_update",
+  "generated_at_utc": "2026-09-14T22:44:27.670109+00:00",
+  "v2_rows": 8064,
+  "cohort_ids": 2016,
+  "v2_numbers": 6940,
+  "v2_missing_cells": 1124,
+  "missing_total_by_year": {
+    "2023-01-01": 37,
+    "2024-01-01": 3
+  },
+  "source_numeric_cells": 1122,
+  "source_explicit_zeros": 981,
+  "numeric_candidate_counts": {
+    "2023-01-01:12": 552,
+    "2023-01-01:11": 37,
+    "2024-01-01:12": 530,
+    "2024-01-01:11": 3
+  },
+  "stage_counts": {
+    "candidate_match": 1118,
+    "source_blank_no_value": 2,
+    "reviewed_conditional": 4
+  },
+  "accepted_code_join": 0,
+  "reviewed_conditional_exact_caption": 4,
+  "candidate_version_conflicts": 4,
+  "manual_literal_alias_candidates_pending": 4,
+  "existing_value_conflict_cells_across_matched_subset": 24,
+  "matched_subset_year_rows": 3488,
+  "no_imputation": true,
+  "no_v2_changes": true,
+  "all_links_to_preexisting_nulls": true,
+  "no_automatic_name_join": true,
+  "no_general_terson_conversion_assumed": true,
+  "outputs": [
+    {
+      "file": "population_source_cells.csv",
+      "rows": 1124,
+      "sha256": "2030fd4caad5db269e7e4b041b6c998c0ffc8cebd9d0bd734957773d98919695"
+    },
+    {
+      "file": "population_candidate_links.csv",
+      "rows": 1124,
+      "sha256": "b1de57505de25a99f9af68ce6cc8bca861078552035c697c0edba06d5ac7a0e3"
+    },
+    {
+      "file": "total_gap_individual_review.csv",
+      "rows": 40,
+      "sha256": "db20f87f0f2cd5ed5d2e52112443bb3df6db145d4219922fbeac616fe9b74fcb"
+    },
+    {
+      "file": "registry_evidence.csv",
+      "rows": 150,
+      "sha256": "4e0d3130bd360f5a26c02da513828e7e0d3fd5984a4d97279e2aea91e818a413"
+    },
+    {
+      "file": "existing_value_conflicts.csv",
+      "rows": 24,
+      "sha256": "2abe784f6dc8a1eea775ba8050da5d5cdd71c432319991bfb573fd65cd9ee328"
+    },
+    {
+      "file": "unresolved_or_conflicting_candidates.csv",
+      "rows": 10,
+      "sha256": "cde08f489f46651c8378ea2b094560ff44e79b9277f8c7cac0995b8da4caa3f6"
+    },
+    {
+      "file": "verified_conditional_supplement.csv",
+      "rows": 4,
+      "sha256": "b1b27c258a053d2785816d937245cf2a0947bf73cfce483242682ab0e6e9714e"
+    },
+    {
+      "file": "samara_age_source_extract.csv",
+      "rows": 296,
+      "sha256": "ae2330f15e0b858f7ddc69dda90c86acdf3ca79a930d50ee23c4741c1a9ada2c"
+    },
+    {
+      "file": "municipal_flows_2023_source_extract.csv",
+      "rows": 202,
+      "sha256": "ee413afd4a5c93b1b6a49a9765812db57ca40775848669eb1045d8e2bf3183b3"
+    },
+    {
+      "file": "demographic_source_catalog.csv",
+      "rows": 16,
+      "sha256": "b15d390aac05c2524ac752f843a9ed2c91be5cc152a2c1d2a9c1168ceccb2461"
+    }
+  ],
+  "baseline_source_sha256": "cc874551a206b7eb11dc17ba0b93db4fe9173b23654410aab93a60ebc3036229",
+  "total_gap_status_counts": {
+    "candidate_match": 38,
+    "reviewed_conditional": 2
+  },
+  "total_bulletin_code_evidence": {
+    "no_source_code_2023": 37,
+    "source_terson_present_2024": 3,
+    "prefix_plus_labels_only_2024": 3,
+    "documented_full_terson_to_oktmo_bridge": 0,
+    "additional_exact_bdpmо_code_caption_for_vyshevolotsky_total_cells": 2
+  },
+  "additional_source_catalog_files": 16,
+  "age_source_extract_rows": 296,
+  "age_source_municipality_years": 74,
+  "flow_source_extract_rows": 202,
+  "flow_source_observed_cells": 200,
+  "independent_checks": {
+    "all_source_cells_and_exact_row_labels_re_read": 1124,
+    "age_group_sum_equals_each_total": true,
+    "age_municipal_totals_equal_region_both_years": true,
+    "samara_migration_municipal_sums_equal_region": true,
+    "explicit_code_bridge_not_assumed": true
+  }
+}

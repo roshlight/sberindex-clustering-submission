@@ -1,0 +1,92 @@
+archive,member,attribute,required,documentation
+gar_schemas.zip,AS_MUN_HIERARCHY_2_251_10_04_01_01.xsd,ID,required,Уникальный идентификатор записи. Ключевое поле
+gar_schemas.zip,AS_MUN_HIERARCHY_2_251_10_04_01_01.xsd,OBJECTID,required,Глобальный уникальный идентификатор адресного объекта 
+gar_schemas.zip,AS_MUN_HIERARCHY_2_251_10_04_01_01.xsd,PARENTOBJID,optional,Идентификатор родительского объекта
+gar_schemas.zip,AS_MUN_HIERARCHY_2_251_10_04_01_01.xsd,CHANGEID,required,ID изменившей транзакции
+gar_schemas.zip,AS_MUN_HIERARCHY_2_251_10_04_01_01.xsd,OKTMO,optional,Код ОКТМО
+gar_schemas.zip,AS_MUN_HIERARCHY_2_251_10_04_01_01.xsd,PREVID,optional,Идентификатор записи связывания с предыдущей исторической записью
+gar_schemas.zip,AS_MUN_HIERARCHY_2_251_10_04_01_01.xsd,NEXTID,optional,Идентификатор записи связывания с последующей исторической записью
+gar_schemas.zip,AS_MUN_HIERARCHY_2_251_10_04_01_01.xsd,UPDATEDATE,required,Дата внесения (обновления) записи
+gar_schemas.zip,AS_MUN_HIERARCHY_2_251_10_04_01_01.xsd,STARTDATE,required,Начало действия записи
+gar_schemas.zip,AS_MUN_HIERARCHY_2_251_10_04_01_01.xsd,ENDDATE,required,Окончание действия записи
+gar_schemas.zip,AS_MUN_HIERARCHY_2_251_10_04_01_01.xsd,ISACTIVE,required,Признак действующего адресного объекта
+gar_schemas.zip,AS_MUN_HIERARCHY_2_251_10_04_01_01.xsd,PATH,required,Материализованный путь к объекту (полная иерархия)
+gar_schemas.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,ID,required,Уникальный идентификатор записи. Ключевое поле
+gar_schemas.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,OBJECTID,required,Глобальный уникальный идентификатор адресного объекта типа INTEGER
+gar_schemas.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,OBJECTGUID,required,Глобальный уникальный идентификатор адресного объекта типа UUID
+gar_schemas.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,CHANGEID,required,ID изменившей транзакции
+gar_schemas.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,NAME,required,Наименование
+gar_schemas.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,TYPENAME,required,Краткое наименование типа объекта
+gar_schemas.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,LEVEL,required,Уровень адресного объекта
+gar_schemas.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,OPERTYPEID,required,Статус действия над записью – причина появления записи
+gar_schemas.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,PREVID,optional,Идентификатор записи связывания с предыдущей исторической записью
+gar_schemas.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,NEXTID,optional,Идентификатор записи связывания с последующей исторической записью
+gar_schemas.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,UPDATEDATE,required,Дата внесения (обновления) записи
+gar_schemas.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,STARTDATE,required,Начало действия записи
+gar_schemas.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,ENDDATE,required,Окончание действия записи
+gar_schemas.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,ISACTUAL,required,Статус актуальности адресного объекта ФИАС
+gar_schemas.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,ISACTIVE,required,Признак действующего адресного объекта
+gar_schemas.zip,AS_ADDR_OBJ_DIVISION_2_251_19_04_01_01.xsd,ID,required,Уникальный идентификатор записи. Ключевое поле
+gar_schemas.zip,AS_ADDR_OBJ_DIVISION_2_251_19_04_01_01.xsd,PARENTID,required,Родительский ID
+gar_schemas.zip,AS_ADDR_OBJ_DIVISION_2_251_19_04_01_01.xsd,CHILDID,required,Дочерний ID
+gar_schemas.zip,AS_ADDR_OBJ_DIVISION_2_251_19_04_01_01.xsd,CHANGEID,required,ID изменившей транзакции
+gar_schemas.zip,AS_ADDR_OBJ_TYPES_2_251_03_04_01_01.xsd,ID,required,Идентификатор записи
+gar_schemas.zip,AS_ADDR_OBJ_TYPES_2_251_03_04_01_01.xsd,LEVEL,required,Уровень адресного объекта
+gar_schemas.zip,AS_ADDR_OBJ_TYPES_2_251_03_04_01_01.xsd,SHORTNAME,required,Краткое наименование типа объекта
+gar_schemas.zip,AS_ADDR_OBJ_TYPES_2_251_03_04_01_01.xsd,NAME,required,Полное наименование типа объекта
+gar_schemas.zip,AS_ADDR_OBJ_TYPES_2_251_03_04_01_01.xsd,DESC,optional,Описание
+gar_schemas.zip,AS_ADDR_OBJ_TYPES_2_251_03_04_01_01.xsd,UPDATEDATE,required,Дата внесения (обновления) записи
+gar_schemas.zip,AS_ADDR_OBJ_TYPES_2_251_03_04_01_01.xsd,STARTDATE,required,Начало действия записи
+gar_schemas.zip,AS_ADDR_OBJ_TYPES_2_251_03_04_01_01.xsd,ENDDATE,required,Окончание действия записи
+gar_schemas.zip,AS_ADDR_OBJ_TYPES_2_251_03_04_01_01.xsd,ISACTIVE,required,Статус активности
+gar_schemas.zip,AS_CHANGE_HISTORY_251_21_04_01_01.xsd,CHANGEID,required,ID изменившей транзакции
+gar_schemas.zip,AS_CHANGE_HISTORY_251_21_04_01_01.xsd,OBJECTID,required,Уникальный ID объекта
+gar_schemas.zip,AS_CHANGE_HISTORY_251_21_04_01_01.xsd,ADROBJECTID,required,Уникальный ID изменившей транзакции (GUID)
+gar_schemas.zip,AS_CHANGE_HISTORY_251_21_04_01_01.xsd,OPERTYPEID,required,Тип операции
+gar_schemas.zip,AS_CHANGE_HISTORY_251_21_04_01_01.xsd,NDOCID,optional,ID документа
+gar_schemas.zip,AS_CHANGE_HISTORY_251_21_04_01_01.xsd,CHANGEDATE,required,Дата изменения
+fias_structure_20210312.zip,AS_MUN_HIERARCHY_2_251_10_04_01_01.xsd,ID,required,Уникальный идентификатор записи. Ключевое поле
+fias_structure_20210312.zip,AS_MUN_HIERARCHY_2_251_10_04_01_01.xsd,OBJECTID,required,Глобальный уникальный идентификатор адресного объекта 
+fias_structure_20210312.zip,AS_MUN_HIERARCHY_2_251_10_04_01_01.xsd,PARENTOBJID,optional,Идентификатор родительского объекта
+fias_structure_20210312.zip,AS_MUN_HIERARCHY_2_251_10_04_01_01.xsd,CHANGEID,required,ID изменившей транзакции
+fias_structure_20210312.zip,AS_MUN_HIERARCHY_2_251_10_04_01_01.xsd,OKTMO,optional,Код ОКТМО
+fias_structure_20210312.zip,AS_MUN_HIERARCHY_2_251_10_04_01_01.xsd,PREVID,optional,Идентификатор записи связывания с предыдущей исторической записью
+fias_structure_20210312.zip,AS_MUN_HIERARCHY_2_251_10_04_01_01.xsd,NEXTID,optional,Идентификатор записи связывания с последующей исторической записью
+fias_structure_20210312.zip,AS_MUN_HIERARCHY_2_251_10_04_01_01.xsd,UPDATEDATE,required,Дата внесения (обновления) записи
+fias_structure_20210312.zip,AS_MUN_HIERARCHY_2_251_10_04_01_01.xsd,STARTDATE,required,Начало действия записи
+fias_structure_20210312.zip,AS_MUN_HIERARCHY_2_251_10_04_01_01.xsd,ENDDATE,required,Окончание действия записи
+fias_structure_20210312.zip,AS_MUN_HIERARCHY_2_251_10_04_01_01.xsd,ISACTIVE,required,Признак действующего адресного объекта
+fias_structure_20210312.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,ID,required,Уникальный идентификатор записи. Ключевое поле
+fias_structure_20210312.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,OBJECTID,required,Глобальный уникальный идентификатор адресного объекта типа INTEGER
+fias_structure_20210312.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,OBJECTGUID,required,Глобальный уникальный идентификатор адресного объекта типа UUID
+fias_structure_20210312.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,CHANGEID,required,ID изменившей транзакции
+fias_structure_20210312.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,NAME,required,Наименование
+fias_structure_20210312.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,TYPENAME,required,Краткое наименование типа объекта
+fias_structure_20210312.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,LEVEL,required,Уровень адресного объекта
+fias_structure_20210312.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,OPERTYPEID,required,Статус действия над записью – причина появления записи
+fias_structure_20210312.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,PREVID,optional,Идентификатор записи связывания с предыдущей исторической записью
+fias_structure_20210312.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,NEXTID,optional,Идентификатор записи связывания с последующей исторической записью
+fias_structure_20210312.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,UPDATEDATE,required,Дата внесения (обновления) записи
+fias_structure_20210312.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,STARTDATE,required,Начало действия записи
+fias_structure_20210312.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,ENDDATE,required,Окончание действия записи
+fias_structure_20210312.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,ISACTUAL,required,Статус актуальности адресного объекта ФИАС
+fias_structure_20210312.zip,AS_ADDR_OBJ_2_251_01_04_01_01.xsd,ISACTIVE,required,Признак действующего адресного объекта
+fias_structure_20210312.zip,AS_ADDR_OBJ_DIVISION_2_251_19_04_01_01.xsd,ID,required,Уникальный идентификатор записи. Ключевое поле
+fias_structure_20210312.zip,AS_ADDR_OBJ_DIVISION_2_251_19_04_01_01.xsd,PARENTID,required,Родительский ID
+fias_structure_20210312.zip,AS_ADDR_OBJ_DIVISION_2_251_19_04_01_01.xsd,CHILDID,required,Дочерний ID
+fias_structure_20210312.zip,AS_ADDR_OBJ_DIVISION_2_251_19_04_01_01.xsd,CHANGEID,required,ID изменившей транзакции
+fias_structure_20210312.zip,AS_ADDR_OBJ_TYPES_2_251_03_04_01_01.xsd,ID,required,Идентификатор записи
+fias_structure_20210312.zip,AS_ADDR_OBJ_TYPES_2_251_03_04_01_01.xsd,LEVEL,required,Уровень адресного объекта
+fias_structure_20210312.zip,AS_ADDR_OBJ_TYPES_2_251_03_04_01_01.xsd,SHORTNAME,required,Краткое наименование типа объекта
+fias_structure_20210312.zip,AS_ADDR_OBJ_TYPES_2_251_03_04_01_01.xsd,NAME,required,Полное наименование типа объекта
+fias_structure_20210312.zip,AS_ADDR_OBJ_TYPES_2_251_03_04_01_01.xsd,DESC,optional,Описание
+fias_structure_20210312.zip,AS_ADDR_OBJ_TYPES_2_251_03_04_01_01.xsd,UPDATEDATE,required,Дата внесения (обновления) записи
+fias_structure_20210312.zip,AS_ADDR_OBJ_TYPES_2_251_03_04_01_01.xsd,STARTDATE,required,Начало действия записи
+fias_structure_20210312.zip,AS_ADDR_OBJ_TYPES_2_251_03_04_01_01.xsd,ENDDATE,required,Окончание действия записи
+fias_structure_20210312.zip,AS_ADDR_OBJ_TYPES_2_251_03_04_01_01.xsd,ISACTIVE,required,Статус активности
+fias_structure_20210312.zip,AS_CHANGE_HISTORY_251_21_04_01_01.xsd,CHANGEID,required,ID изменившей транзакции
+fias_structure_20210312.zip,AS_CHANGE_HISTORY_251_21_04_01_01.xsd,OBJECTID,required,Уникальный ID объекта
+fias_structure_20210312.zip,AS_CHANGE_HISTORY_251_21_04_01_01.xsd,ADROBJECTID,required,Уникальный ID изменившей транзакции (GUID)
+fias_structure_20210312.zip,AS_CHANGE_HISTORY_251_21_04_01_01.xsd,OPERTYPEID,required,Тип операции
+fias_structure_20210312.zip,AS_CHANGE_HISTORY_251_21_04_01_01.xsd,NDOCID,optional,ID документа
+fias_structure_20210312.zip,AS_CHANGE_HISTORY_251_21_04_01_01.xsd,CHANGEDATE,required,Дата изменения

@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "network_requests": 0,
+  "raw_files_unchanged": 50,
+  "compared_machine_files": 9,
+  "files": {
+    "QA.json": {
+      "sha256": "82099a507de73e8af16c59f641d184ecdefc2b1965be73fab23827450fbdac43",
+      "replayed_sha256": "82099a507de73e8af16c59f641d184ecdefc2b1965be73fab23827450fbdac43",
+      "equal": true
+    },
+    "airport_annual_finance.csv": {
+      "sha256": "83c344da375e48a4dcb402a7e77b75a575b48320a99ac275957319dacf50bbf1",
+      "replayed_sha256": "83c344da375e48a4dcb402a7e77b75a575b48320a99ac275957319dacf50bbf1",
+      "equal": true
+    },
+    "evidence_ledger.csv": {
+      "sha256": "4de9f5b4ec77704b92212ba1f86ecbda038c8f2c2a6c8d11778d35cfa10a2123",
+      "replayed_sha256": "4de9f5b4ec77704b92212ba1f86ecbda038c8f2c2a6c8d11778d35cfa10a2123",
+      "equal": true
+    },
+    "financial_semantics.csv": {
+      "sha256": "5661e3ef5b78c08dbc7be813104fea99fbc62ec03d704e8cb67b395b34bba340",
+      "replayed_sha256": "5661e3ef5b78c08dbc7be813104fea99fbc62ec03d704e8cb67b395b34bba340",
+      "equal": true
+    },
+    "followup_requests.csv": {
+      "sha256": "e4206e5e0e4559a040e6e64f8cb78627768b8e5d2bd07a31efc3641470d6c9e6",
+      "replayed_sha256": "e4206e5e0e4559a040e6e64f8cb78627768b8e5d2bd07a31efc3641470d6c9e6",
+      "equal": true
+    },
+    "hypothesis_status.csv": {
+      "sha256": "f97fa854f4d5faf097ef006b673ad39e8f09dc326c4a3c47951541a3a2ebd287",
+      "replayed_sha256": "f97fa854f4d5faf097ef006b673ad39e8f09dc326c4a3c47951541a3a2ebd287",
+      "equal": true
+    },
+    "manifest.json": {
+      "sha256": "3177ec7178d78d5d8e16bb3168138c4e7a3a11257046c9b23cfd042300cc5272",
+      "replayed_sha256": "3177ec7178d78d5d8e16bb3168138c4e7a3a11257046c9b23cfd042300cc5272",
+      "equal": true
+    },
+    "source_inventory.json": {
+      "sha256": "b30905f39d1ac11f1701d1c60cfce669b64d42bd62d0568a76e2fbae5176e7ab",
+      "replayed_sha256": "b30905f39d1ac11f1701d1c60cfce669b64d42bd62d0568a76e2fbae5176e7ab",
+      "equal": true
+    },
+    "source_status.csv": {
+      "sha256": "1c55884b75df0aff80815ca4ae08b5c7a67d10dc169ca4db5a438ea86340e700",
+      "replayed_sha256": "1c55884b75df0aff80815ca4ae08b5c7a67d10dc169ca4db5a438ea86340e700",
+      "equal": true
+    }
+  },
+  "manual_inputs_not_regenerated": [
+    "README.md",
+    "evidence_recipe.json",
+    "fetch_plan.json",
+    "raw_allowlist.json",
+    "independent_review.md"
+  ],
+  "semantic_tests": {
+    "passed": 14,
+    "command": "cd enrichment; uv run --frozen --offline pytest tests/test_round6_cases.py -q"
+  },
+  "script_sha256": "e53374a0844efa30cd23328b68afb3a5bbb7edfeb3a25ff8731fdaf8ffee85e0",
+  "helper_script_sha256": "1f72b2684464cfa539f13197a11bd5f2c62fffbb4950cf98675875a0c94f8950",
+  "raw_allowlist_sha256": "b69830246c2de651849b51959ad125b904d0a2dc57065c859d6f9a9beed6cf5d"
+}

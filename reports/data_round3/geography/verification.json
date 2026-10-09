@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "offline_rebuilt_output_files_identical": 11,
+  "source_hash_checks": 23,
+  "raw_allowlist_files": 36,
+  "raw_allowlist_bytes": 93492057,
+  "tests_passed": 5,
+  "ruff_check": "PASS",
+  "no_prior_outputs_modified_by_builder": true,
+  "boundary_equivalence_not_asserted": true,
+  "script_sha256": "e7796415d2c3d6f359e575a3d0b59ee195303f6b03b12c2ab1ecbb1abdf9627b",
+  "manifest_sha256": "f79a1d97aa8a9340c6e06a29935a368f979ccb0f4d5c577ce04750049c0a9b39",
+  "allowlist_sha256": "dc36680d2e18a71bbe6747bcd66f67b30d0eeae4813f79d858ada81af1e14783",
+  "manual_quote_correction": "Creation rule quote corrected to exact word считать; date conclusions unchanged"
+}

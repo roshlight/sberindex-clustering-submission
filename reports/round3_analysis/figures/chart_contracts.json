@@ -1,0 +1,38 @@
+{
+  "activity_coverage": {
+    "question": "How many core observations have each new value?",
+    "family": "grouped horizontal bars",
+    "rows": 6,
+    "denominator": "frozen core per year",
+    "axis_start": 0
+  },
+  "profile_increment": {
+    "question": "Is additional profile information supported?",
+    "family": "paired-regime interval forest",
+    "rows": 12,
+    "target": "profile_clr",
+    "baseline": "economic_sectors_newflags",
+    "alternative": "economic_sectors_newvalues"
+  },
+  "log_total_negative_control": {
+    "question": "How do secondary gains compare with shuffled values?",
+    "family": "paired-regime interval forest",
+    "rows": 8,
+    "target": "log_total",
+    "baseline": "economic_sectors_newflags",
+    "alternatives": [
+      "economic_sectors_newvalues",
+      "permuted_newvalues"
+    ]
+  },
+  "rendering": {
+    "engine": "Matplotlib static PNG/SVG",
+    "palette": [
+      "#4056A1",
+      "#397A79",
+      "#273442"
+    ],
+    "non_color_encoding": "hatching for coverage; marker shape/fill and row labels for forests",
+    "visual_review": "actual exported PNG files"
+  }
+}

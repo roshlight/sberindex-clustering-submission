@@ -1,0 +1,18 @@
+{
+  "archive_sha256": "372907c9f3ad91a6f35a0f20cab504806d01211b71a7108bceab024c1ff6d292",
+  "status": "PASS",
+  "byte_identical": {
+    "case_register_78.csv": true,
+    "exact_registry_evidence_156.csv": true,
+    "settlement_recoding_pairs.csv": true,
+    "recoding_source_review.csv": true,
+    "calendar_priority_6.csv": true,
+    "reviewed_laws_3.csv": true,
+    "card_registry_date_differences.csv": true,
+    "source_catalog.csv": true,
+    "region_coverage.csv": true,
+    "excluded_retrieval_attempts.json": true,
+    "manifest.json": true
+  },
+  "qa_path": "work\\data-round2\\geography-delivery-qa-v1\\rebuilt\\QA.json"
+}

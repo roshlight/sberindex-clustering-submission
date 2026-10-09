@@ -1,0 +1,178 @@
+{
+  "status": "PASS",
+  "independent_reader": "stdlib ZIP/XML (not openpyxl)",
+  "verified_price_cells": 3836682,
+  "duplicate_keys": 0,
+  "monthly": [
+    {
+      "year": 2023,
+      "month": 1,
+      "verified_price_cells": 160740,
+      "verified_city_codes": 282,
+      "verified_product_codes": 570
+    },
+    {
+      "year": 2023,
+      "month": 2,
+      "verified_price_cells": 160740,
+      "verified_city_codes": 282,
+      "verified_product_codes": 570
+    },
+    {
+      "year": 2023,
+      "month": 3,
+      "verified_price_cells": 160740,
+      "verified_city_codes": 282,
+      "verified_product_codes": 570
+    },
+    {
+      "year": 2023,
+      "month": 4,
+      "verified_price_cells": 160740,
+      "verified_city_codes": 282,
+      "verified_product_codes": 570
+    },
+    {
+      "year": 2023,
+      "month": 5,
+      "verified_price_cells": 160740,
+      "verified_city_codes": 282,
+      "verified_product_codes": 570
+    },
+    {
+      "year": 2023,
+      "month": 6,
+      "verified_price_cells": 160740,
+      "verified_city_codes": 282,
+      "verified_product_codes": 570
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "verified_price_cells": 160740,
+      "verified_city_codes": 282,
+      "verified_product_codes": 570
+    },
+    {
+      "year": 2023,
+      "month": 8,
+      "verified_price_cells": 160740,
+      "verified_city_codes": 282,
+      "verified_product_codes": 570
+    },
+    {
+      "year": 2023,
+      "month": 9,
+      "verified_price_cells": 160740,
+      "verified_city_codes": 282,
+      "verified_product_codes": 570
+    },
+    {
+      "year": 2023,
+      "month": 10,
+      "verified_price_cells": 160740,
+      "verified_city_codes": 282,
+      "verified_product_codes": 570
+    },
+    {
+      "year": 2023,
+      "month": 11,
+      "verified_price_cells": 160740,
+      "verified_city_codes": 282,
+      "verified_product_codes": 570
+    },
+    {
+      "year": 2023,
+      "month": 12,
+      "verified_price_cells": 160740,
+      "verified_city_codes": 282,
+      "verified_product_codes": 570
+    },
+    {
+      "year": 2024,
+      "month": 1,
+      "verified_price_cells": 159030,
+      "verified_city_codes": 279,
+      "verified_product_codes": 570
+    },
+    {
+      "year": 2024,
+      "month": 2,
+      "verified_price_cells": 159030,
+      "verified_city_codes": 279,
+      "verified_product_codes": 570
+    },
+    {
+      "year": 2024,
+      "month": 3,
+      "verified_price_cells": 159030,
+      "verified_city_codes": 279,
+      "verified_product_codes": 570
+    },
+    {
+      "year": 2024,
+      "month": 4,
+      "verified_price_cells": 159030,
+      "verified_city_codes": 279,
+      "verified_product_codes": 570
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "verified_price_cells": 159030,
+      "verified_city_codes": 279,
+      "verified_product_codes": 570
+    },
+    {
+      "year": 2024,
+      "month": 6,
+      "verified_price_cells": 159030,
+      "verified_city_codes": 279,
+      "verified_product_codes": 570
+    },
+    {
+      "year": 2024,
+      "month": 7,
+      "verified_price_cells": 159030,
+      "verified_city_codes": 279,
+      "verified_product_codes": 570
+    },
+    {
+      "year": 2024,
+      "month": 8,
+      "verified_price_cells": 159030,
+      "verified_city_codes": 279,
+      "verified_product_codes": 570
+    },
+    {
+      "year": 2024,
+      "month": 9,
+      "verified_price_cells": 159030,
+      "verified_city_codes": 279,
+      "verified_product_codes": 570
+    },
+    {
+      "year": 2024,
+      "month": 10,
+      "verified_price_cells": 159030,
+      "verified_city_codes": 279,
+      "verified_product_codes": 570
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "verified_price_cells": 158751,
+      "verified_city_codes": 279,
+      "verified_product_codes": 569
+    },
+    {
+      "year": 2024,
+      "month": 12,
+      "verified_price_cells": 158751,
+      "verified_city_codes": 279,
+      "verified_product_codes": 569
+    }
+  ],
+  "source_parquet_sha256": "62ec7a852b8c6b6aa8c95ee46ebd4d9c9a973d084d293a00deea864fecc5009f",
+  "verifier_sha256": "b7a679b241e3efcb3772668eff761f1fd7b8b01567d4d817f9b3e5a419b5f4be"
+}

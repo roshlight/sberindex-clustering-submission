@@ -1,0 +1,80 @@
+[
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst28/DBInet.cgi",
+    "payload": {
+      "pl": "8423005"
+    },
+    "request_key": "6c82fb9cf95135da9db0f6d2e87ac8c5ff5b93434e4276dd7a4fe79a11f68c55",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst28/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-14T22:43:03.280440+00:00",
+    "raw_sha256": "27a56f6cdfec446618bc2f7490f73b2028377dd3f1f9abbc0809d2b52d0a12d8",
+    "bytes": 53244,
+    "redirects": [],
+    "purpose": "coded_indicator_form"
+  },
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst28/DBInet.cgi",
+    "payload": {
+      "Qry": "Pokazateli:8423005;munr:28602000,28604000,28606000,28608000,28610000,28612000,28614000,28616000,28618000,28620000,28622000,28624000,28626000,28628000,28630000,28632000,28634000,28636000,28638000,28640000,28642000,28643000,28644000,28645000,28646000,28647000,28648000,28649000,28650000,28651000,28652000,28653000,28654000,28655000,28657000,28700000,28500000;tippos:10,7,20;oktmo:28714000;okved2:101,10000,20000,30000,40000,41000,45000,49000,55000,63000,60000,68000,70000,80000,84000,85000,86000,90000,95000;god:2023,2024;period:79;",
+      "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;okved2_b:1;god_s:1;",
+      "QryFootNotes": ";",
+      "YearsList": "2023;2024;",
+      "tbl": "1",
+      "Format": "CSV",
+      "YearFrom": "2023",
+      "YearTo": "2024"
+    },
+    "request_key": "ef4920e05e9955474e3df8d03a712feac89fcab62dfb4cb9c0485c69ac2eca08",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst28/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "application/x-csv; name=Report.csv",
+    "retrieved_at": "2026-09-15T09:57:06.633428+00:00",
+    "raw_sha256": "04301977ffa56d552515e6efe3d5344b78fbd96ce50d3a0947175c8d229c67be",
+    "bytes": 1437,
+    "redirects": [],
+    "purpose": "single_code_caption_review"
+  },
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst28/DBInet.cgi",
+    "payload": {
+      "pl": "8423007"
+    },
+    "request_key": "ac4e6c5cff32b6102579b7f0bfda389203e68325c4e9589b26a87d9e40f835ca",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst28/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-09-14T22:43:10.344556+00:00",
+    "raw_sha256": "8978a29c3d0a00b2f1831068c1ea659c2a0fbf4c28a95bffc25b1e4b61342b93",
+    "bytes": 53246,
+    "redirects": [],
+    "purpose": "coded_indicator_form"
+  },
+  {
+    "method": "POST",
+    "url": "https://rosstat.gov.ru/dbscripts/munst/munst28/DBInet.cgi",
+    "payload": {
+      "Qry": "Pokazateli:8423007;munr:28602000,28604000,28606000,28608000,28610000,28612000,28614000,28616000,28618000,28620000,28622000,28624000,28626000,28628000,28630000,28632000,28634000,28636000,28638000,28640000,28642000,28643000,28644000,28645000,28646000,28647000,28648000,28649000,28650000,28651000,28652000,28653000,28654000,28655000,28657000,28700000,28500000;tippos:10,7,20;oktmo:28714000;okved2:101,10000,20000,30000,40000,41000,45000,49000,55000,63000,60000,68000,70000,80000,84000,85000,86000,90000,95000;god:2023,2024;period:79;",
+      "QryGm": "Pokazateli_z:1;munr_z:2;tippos_z:3;oktmo_z:4;period_z:5;okved2_b:1;god_s:1;",
+      "QryFootNotes": ";",
+      "YearsList": "2023;2024;",
+      "tbl": "1",
+      "Format": "CSV",
+      "YearFrom": "2023",
+      "YearTo": "2024"
+    },
+    "request_key": "cea099146651d3afcc87ae6008bbeed3e13c414d5510f7cc53e6945e55879827",
+    "final_url": "https://rosstat.gov.ru/dbscripts/munst/munst28/DBInet.cgi",
+    "status_code": 200,
+    "content_type": "application/x-csv; name=Report.csv",
+    "retrieved_at": "2026-09-15T09:57:10.878626+00:00",
+    "raw_sha256": "cff188a668492a357188421835429ca770fcd0fb7669181b03acf61346fca9a0",
+    "bytes": 1529,
+    "redirects": [],
+    "purpose": "single_code_caption_review"
+  }
+]
