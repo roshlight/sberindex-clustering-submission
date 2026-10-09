@@ -4,7 +4,7 @@
 
 ## Получение снимков
 
-Из [приватного выпуска context-data-2026-09-15](https://github.com/sberindex-hackathon-2026/municipal-economic-profiles/releases/tag/context-data-2026-09-15) скачать три ZIP, `archives_manifest.json` и `SHA256SUMS.txt`. Доступ требует членства в репозитории. SHA-256 каждого ZIP должен совпасть с манифестом; каталоги всех вложенных файлов находятся также в `data/releases/context-2026-09-15/`.
+Из [выпуска context-data-2026-09-15](https://github.com/roshlight/sberindex-clustering-submission/releases/tag/context-data-2026-09-15) скачать три ZIP, `archives_manifest.json` и `SHA256SUMS.txt`. SHA-256 каждого ZIP должен совпасть с манифестом; каталоги всех вложенных файлов находятся также в `data/releases/context-2026-09-15/`.
 
 - `server-discovery-snapshots.zip`: девять оригинальных архивов БДМО, фильтрованные Parquet, метаданные, серверный разбор источников и его снимок кода.
 - `server-economy-snapshots.zip`: первичные формы и CSV, HTTP-кэш, обе версии массового сбора экономики, результаты, параметры и снимки реализации.

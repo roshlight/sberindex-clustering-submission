@@ -1,5 +1,7 @@
 # Воспроизведение пятого анализа
 
+Проверки `verify_*_bundle.py` сверяют исходные тексты документов. Выполняйте их в [копии с первоначальной документацией](../../submission/REPRODUCE.md#проверка-исторических-контрольных-сумм); расчётные команды и данные от редакционных изменений не зависят.
+
 Статус: **ready for independent reproduction**. Полная вычислительная цепочка повторена в новом каталоге с существующим окружением; независимый проверяющий скрипт прошёл и на опубликованных, и на свежих результатах. Новый независимый запуск с созданием чистого окружения ещё не выполнен. Проверка HTML проведена отдельно штатным браузерным валидатором.
 
 Владелец исследования — команда `sberindex-hackathon-2026/municipal-economic-profiles`. Область применения: ретроспективное описание муниципальных потребительских профилей в первом кейсе, 2023/2024 годы. Базовый коммит до анализа — `932afe503e11d248f39360c6f8f23df75d7819cc`. Код и результаты анализа публикуются последующим коммитом; сохраните его через `git rev-parse HEAD`. Тег `data-round5-2026-09-16` содержит сбор данных, но ещё не содержит этот анализ.
@@ -16,7 +18,7 @@
 
 ## Окружение и проверка опубликованного пакета
 
-Использованы Windows, Python 3.12.10 и корневой `uv.lock`; CPU, без GPU и платных API. Контекстный DuckDB использует 2 потока и лимит памяти 2 ГБ. Для распаковки прежних источников МСП и свежего повтора ориентируйтесь на 6 ГБ свободного места и 8 ГБ ОЗУ. GitHub-доступ нужен только для получения частного репозитория и архивов; OpenRouter, SearXNG, Telegram и серверные ключи для анализа не нужны.
+Использованы Windows, Python 3.12.10 и корневой `uv.lock`; CPU, без GPU и платных API. Контекстный DuckDB использует 2 потока и лимит памяти 2 ГБ. Для распаковки прежних источников МСП и свежего повтора ориентируйтесь на 6 ГБ свободного места и 8 ГБ ОЗУ. GitHub-доступ нужен только для получения репозитория и архивов; OpenRouter, SearXNG, Telegram и серверные ключи для анализа не нужны.
 
 Из корня полученного репозитория:
 
@@ -34,7 +36,7 @@ uv run --frozen python scripts/verify_round5_analysis.py --repo . --out ../../wo
 
 ```powershell
 New-Item -ItemType Directory -Force ../../work/round5-analysis-assets
-gh release download data-round4-2026-09-16 --repo sberindex-hackathon-2026/municipal-economic-profiles --pattern data-round4-sme.zip --pattern SHA256SUMS.txt --dir ../../work/round5-analysis-assets
+gh release download data-round4-2026-09-16 --repo roshlight/sberindex-clustering-submission --pattern data-round4-sme.zip --pattern SHA256SUMS.txt --dir ../../work/round5-analysis-assets
 $assetRoot = (Resolve-Path ../../work/round5-analysis-assets).Path
 $checksumLine = @(Get-Content (Join-Path $assetRoot SHA256SUMS.txt) | Where-Object { $_ -match '\sdata-round4-sme\.zip$' })
 if ($checksumLine.Count -ne 1) { throw 'Expected one SME archive checksum' }

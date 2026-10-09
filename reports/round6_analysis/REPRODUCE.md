@@ -1,5 +1,7 @@
 # Воспроизведение шестого анализа
 
+Проверки `verify_*_bundle.py` сверяют исходные тексты документов. Выполняйте их в [копии с первоначальной документацией](../../submission/REPRODUCE.md#проверка-исторических-контрольных-сумм); расчётные команды и данные от редакционных изменений не зависят.
+
 Владелец — команда `sberindex-hackathon-2026/municipal-economic-profiles`. Анализ выполнен на переходе 16–17 сентября 2026 года по московскому времени. Исходный коммит перед анализом: `c39666da2b4a35223d3f3be96f6e1dfcc2456545`. Сохранённые источники относятся к шестому сбору; тег `data-round6-2026-09-16` содержит сбор, но ещё не этот анализ. Для анализа используйте коммит, содержащий данную папку, и сохраните `git rev-parse HEAD`.
 
 Канонические результаты — `reports/round6_analysis/`, протокол — `configs/round6_analysis_v1.json`. Отчёт представлен в одной вычислительной цепочке: `artifact.json` содержит блоки и данные, `report.html` — автономный интерактивный документ, `REPORT.md` — представление для GitHub. Результаты прошлых раундов не заменяются.
@@ -25,7 +27,7 @@
 ```powershell
 uv sync --python 3.12.10 --frozen
 New-Item -ItemType Directory -Force ../../work/round6-analysis-assets
-gh release download data-round6-2026-09-16 --repo sberindex-hackathon-2026/municipal-economic-profiles --pattern data-round6-economy.zip --dir ../../work/round6-analysis-assets
+gh release download data-round6-2026-09-16 --repo roshlight/sberindex-clustering-submission --pattern data-round6-economy.zip --dir ../../work/round6-analysis-assets
 $collectionSeal = Get-Content -Raw reports/data_round6/delivery_manifest.json | ConvertFrom-Json
 $expectedArchive = @($collectionSeal.raw_releases | Where-Object { $_.path -eq 'data-round6-economy.zip' })
 if ($expectedArchive.Count -ne 1) { throw 'Expected one pinned economy archive' }

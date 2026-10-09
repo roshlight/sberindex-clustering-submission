@@ -2,11 +2,11 @@
 
 Код использует существующее окружение `enrichment` с Python 3.12 и его `uv.lock`. Все повторные расчёты следует направлять в новую папку. Исходные файлы и прежние исследовательские результаты не перезаписываются.
 
-Архивы исходников публикуются в [релизе data-round2-2026-09-15](https://github.com/sberindex-hackathon-2026/municipal-economic-profiles/releases/tag/data-round2-2026-09-15). Сначала скачайте их и распакуйте содержимое в один каталог `work/data-round2` в клоне репозитория. У каждого архива есть собственный `MANIFEST.<имя архива>.json` с путями и SHA-256 всех включённых файлов. Хеши самих архивов и результаты обратного чтения приведены в `delivery_manifest.json`.
+Архивы исходников публикуются в [релизе data-round2-2026-09-15](https://github.com/roshlight/sberindex-clustering-submission/releases/tag/data-round2-2026-09-15). Сначала скачайте их и распакуйте содержимое в один каталог `work/data-round2` в клоне репозитория. У каждого архива есть собственный `MANIFEST.<имя архива>.json` с путями и SHA-256 всех включённых файлов. Хеши самих архивов и результаты обратного чтения приведены в `delivery_manifest.json`.
 
 ```powershell
 uv sync --project enrichment --frozen
-gh release download data-round2-2026-09-15 --repo sberindex-hackathon-2026/municipal-economic-profiles --pattern '*.zip' --dir work/round2-archives
+gh release download data-round2-2026-09-15 --repo roshlight/sberindex-clustering-submission --pattern '*.zip' --dir work/round2-archives
 ```
 
 Пути архивов разделены по веткам. Для воспроизведения используйте распакованные пути `work/data-round2/<ветка>`; исходные журналы могут содержать пути рабочей машины, начинающиеся с `../../work/data-round2`.

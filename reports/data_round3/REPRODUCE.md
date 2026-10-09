@@ -4,10 +4,10 @@
 
 ## Получить поставку
 
-Нужен репозиторий `sberindex-hackathon-2026/municipal-economic-profiles`, доступный участникам команды. Пять ZIP находятся в [релизе](https://github.com/sberindex-hackathon-2026/municipal-economic-profiles/releases/tag/data-round3-2026-09-16). Их размеры и SHA-256 — в `delivery/summary.json`; внутренние списки файлов — в `delivery/*.manifest.json`.
+Нужен репозиторий `sberindex-hackathon-2026/municipal-economic-profiles`, доступный участникам команды. Пять ZIP находятся в [релизе](https://github.com/roshlight/sberindex-clustering-submission/releases/tag/data-round3-2026-09-16). Их размеры и SHA-256 — в `delivery/summary.json`; внутренние списки файлов — в `delivery/*.manifest.json`.
 
 ```powershell
-gh release download data-round3-2026-09-16 --repo sberindex-hackathon-2026/municipal-economic-profiles --pattern '*.zip' --dir round3-downloads
+gh release download data-round3-2026-09-16 --repo roshlight/sberindex-clustering-submission --pattern '*.zip' --dir round3-downloads
 ```
 
 ZIP содержат пути от корня рабочего пространства, например `work/data-round3/cases/...` и `work/data-round3/economy-server/...`. Распаковать их следует в корень рабочего пространства, внутри которого репозиторий находится в `outputs/municipal-economic-profiles`. Альтернативное расположение допускается, если явно изменить аргументы путей. Сначала сверить SHA архивов; не перезаписывать прежние исследовательские результаты.

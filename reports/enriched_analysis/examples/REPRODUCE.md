@@ -2,12 +2,12 @@
 
 Скрипт [scripts/build_enriched_examples.py](../../../scripts/build_enriched_examples.py) повторяет механический выбор и проверку исходных клеток, описанные в [FINDINGS.md](FINDINGS.md). Он принимает три обязательных аргумента: `--repo` — корень репозитория с зафиксированными входами; `--archive-dir` — папка с двумя ZIP; `--out` — новая или пустая папка результатов. Пути задаются пользователем и не зависят от расположения исходной исследовательской среды.
 
-Поместите в одну папку, например `../release-assets`, два файла релизов приватного репозитория:
+Поместите в одну папку, например `../release-assets`, два файла релизов этого репозитория:
 
 | Release asset | Релиз | SHA256 |
 |---|---|---|
-| `server-economy-snapshots.zip` | [context-data-2026-09-15](https://github.com/sberindex-hackathon-2026/municipal-economic-profiles/releases/tag/context-data-2026-09-15) | `83cc1b420e22fccc9e51af4f3b5441ea58202b767f49cce46a81ff3454993f7f` |
-| `server-population-snapshots.zip` | [population-data-2026-09-15](https://github.com/sberindex-hackathon-2026/municipal-economic-profiles/releases/tag/population-data-2026-09-15) | `02b785cc9ab6d0dfd6bce6e6096cf7fc7a4149efa14a19f0483d495def647fde` |
+| `server-economy-snapshots.zip` | [context-data-2026-09-15](https://github.com/roshlight/sberindex-clustering-submission/releases/tag/context-data-2026-09-15) | `83cc1b420e22fccc9e51af4f3b5441ea58202b767f49cce46a81ff3454993f7f` |
+| `server-population-snapshots.zip` | [population-data-2026-09-15](https://github.com/roshlight/sberindex-clustering-submission/releases/tag/population-data-2026-09-15) | `02b785cc9ab6d0dfd6bce6e6096cf7fc7a4149efa14a19f0483d495def647fde` |
 
 Распаковывать эти ZIP для данного скрипта не требуется. Он читает `ARCHIVE_MANIFEST.json`, находит исходные ответы по SHA256 и проверяет конкретные клетки внутри архива. В новом манифесте сохраняются имена, размеры и хеши обоих assets. В `source_cell_checks.csv` поле `raw_archive` сохраняет исторические **логические обозначения** `work/enrichment-v3-release/...` и `work/enrichment-v2-release/...`, чтобы таблица совпадала с исходным запуском. Фактическое расположение файлов определяется только `--archive-dir` и именем ZIP; историческая структура папок не требуется.
 

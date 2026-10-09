@@ -14,7 +14,7 @@
 
 ```powershell
 New-Item -ItemType Directory outputs
-gh repo clone sberindex-hackathon-2026/municipal-economic-profiles outputs/municipal-economic-profiles
+gh repo clone roshlight/sberindex-clustering-submission outputs/municipal-economic-profiles
 Set-Location outputs/municipal-economic-profiles
 git switch --detach data-round6-2026-09-16
 uv sync --project enrichment --frozen

@@ -2,7 +2,7 @@
 
 **Статус: archival evidence only.** Эта поставка сохраняет собранные материалы первого кейса и позволяет проверить их байты. Новый анализ, повторное обучение и независимое воспроизведение исследования при архивировании не выполнялись.
 
-Скачать архивы можно в [Assets релиза data-2026-09-15](https://github.com/sberindex-hackathon-2026/municipal-economic-profiles/releases/tag/data-2026-09-15). Всего **770 файлов**, **406 523 723 байта** в двух ZIP (около 407 МБ); после распаковки содержимое занимает 749 783 432 байта без служебных манифестов. Репозиторий остаётся приватным; нужен доступ участника команды.
+Скачать архивы можно в [Assets релиза data-2026-09-15](https://github.com/roshlight/sberindex-clustering-submission/releases/tag/data-2026-09-15). Всего **770 файлов**, **406 523 723 байта** в двух ZIP (около 407 МБ); после распаковки содержимое занимает 749 783 432 байта без служебных манифестов.
 
 ## Что находится в архивах
 
@@ -30,7 +30,7 @@
 Из корня клонированного репозитория, с установленными GitHub CLI и Python 3.12:
 
 ```text
-gh release download data-2026-09-15 --repo sberindex-hackathon-2026/municipal-economic-profiles --dir work/source-data-20260915
+gh release download data-2026-09-15 --repo roshlight/sberindex-clustering-submission --dir work/source-data-20260915
 python scripts/verify_data_release.py work/source-data-20260915 --manifest data/releases/2026-09-15/archives_manifest.json
 ```
 

@@ -1,0 +1,397 @@
+{
+  "source_repository": "sberindex-hackathon-2026/municipal-economic-profiles",
+  "source_commit": "4288698",
+  "destination_repository": "roshlight/sberindex-clustering-submission",
+  "verification": "Asset sizes and SHA-256 digests match between source and destination GitHub Releases. Bytes were additionally checked locally during transfer.",
+  "asset_count": 43,
+  "total_bytes": 2535016632,
+  "assets": [
+    {
+      "tag": "data-round6-2026-09-16",
+      "name": "data-round6-cases.zip",
+      "bytes": 8709992,
+      "sha256": "9ca904136db420903278f530adeb5a12e998bcccb89a23b3fecfb6391c54692b",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round6-2026-09-16/data-round6-cases.zip"
+    },
+    {
+      "tag": "data-round6-2026-09-16",
+      "name": "data-round6-economy.zip",
+      "bytes": 24007644,
+      "sha256": "8448100206ab9286887fef5f4d9b80644b8ce13a1cc2c6e0c3596212da9196b5",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round6-2026-09-16/data-round6-economy.zip"
+    },
+    {
+      "tag": "data-round6-2026-09-16",
+      "name": "data-round6-geography.zip",
+      "bytes": 7085633,
+      "sha256": "c5b6e8c8d7279d61d2d01e438af0a19c4bd44498e6322cec22abb4a7455dea57",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round6-2026-09-16/data-round6-geography.zip"
+    },
+    {
+      "tag": "data-round6-2026-09-16",
+      "name": "data-round6-search.zip",
+      "bytes": 13057197,
+      "sha256": "dc254c3aedc1c9706aae05e8f333589738baecb899250839b58782a99bd543a9",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round6-2026-09-16/data-round6-search.zip"
+    },
+    {
+      "tag": "data-round6-2026-09-16",
+      "name": "data-round6-sme.zip",
+      "bytes": 7938137,
+      "sha256": "ae202256ebf7add5e6c13b4be28c4a44720461799ed5eead436664e43897266d",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round6-2026-09-16/data-round6-sme.zip"
+    },
+    {
+      "tag": "data-round6-2026-09-16",
+      "name": "SHA256SUMS.txt",
+      "bytes": 450,
+      "sha256": "0ff46fdff9e0f67e5509316b91ff2e8d5f5caa05beae10a3a25144b7234d5250",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round6-2026-09-16/SHA256SUMS.txt"
+    },
+    {
+      "tag": "data-round5-2026-09-16",
+      "name": "data-round5-cases.zip",
+      "bytes": 7428418,
+      "sha256": "b7f0e67b61374d49f49c0007b7f94a89a3aed85f918384611b2b9df33377c364",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round5-2026-09-16/data-round5-cases.zip"
+    },
+    {
+      "tag": "data-round5-2026-09-16",
+      "name": "data-round5-economy.zip",
+      "bytes": 748399,
+      "sha256": "9e81f298948ed76c3a41bf2611b022e8e103fa2dd493ca35a67a3edb4ea18002",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round5-2026-09-16/data-round5-economy.zip"
+    },
+    {
+      "tag": "data-round5-2026-09-16",
+      "name": "data-round5-geography.zip",
+      "bytes": 13437154,
+      "sha256": "e97459041c0ebba6c0821dadb7a246256f4b93507d53c70c639e8b89d2f3a9c2",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round5-2026-09-16/data-round5-geography.zip"
+    },
+    {
+      "tag": "data-round5-2026-09-16",
+      "name": "data-round5-search.zip",
+      "bytes": 15899658,
+      "sha256": "86dc705137da4789964b8eb9b9f384970a7a83dbfc2f67a5dc15c9dd63fb1d55",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round5-2026-09-16/data-round5-search.zip"
+    },
+    {
+      "tag": "data-round5-2026-09-16",
+      "name": "data-round5-sme.zip",
+      "bytes": 14566643,
+      "sha256": "dc211797c4d385a4122ebd61752c8e5501359026647a781163a629ea13080777",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round5-2026-09-16/data-round5-sme.zip"
+    },
+    {
+      "tag": "data-round5-2026-09-16",
+      "name": "SHA256SUMS.txt",
+      "bytes": 450,
+      "sha256": "0d87f8d71165f089adac22653a67fa85e698b3ffc5446158971f0e2b1c4d7aff",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round5-2026-09-16/SHA256SUMS.txt"
+    },
+    {
+      "tag": "data-round4-2026-09-16",
+      "name": "data-round4-cases.zip",
+      "bytes": 97780703,
+      "sha256": "70d1601b14875f33e682fdeb1cfdbee2fff2c3130a2c6a90b50154b2263ac884",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round4-2026-09-16/data-round4-cases.zip"
+    },
+    {
+      "tag": "data-round4-2026-09-16",
+      "name": "data-round4-economy.zip",
+      "bytes": 528199,
+      "sha256": "d89029c9024f78409275790b87365803890b521766a4d93a58b2e059bd93aaaa",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round4-2026-09-16/data-round4-economy.zip"
+    },
+    {
+      "tag": "data-round4-2026-09-16",
+      "name": "data-round4-geography.zip",
+      "bytes": 65744124,
+      "sha256": "c0d4f5dfa26e23c31bd344fdf0d5b74158ed654e9f8727bac0acab7d3ee1b355",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round4-2026-09-16/data-round4-geography.zip"
+    },
+    {
+      "tag": "data-round4-2026-09-16",
+      "name": "data-round4-search.zip",
+      "bytes": 865883,
+      "sha256": "c5e09d80cef3cf1cec882258be354006cfed543227400902a5657cce797cccbd",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round4-2026-09-16/data-round4-search.zip"
+    },
+    {
+      "tag": "data-round4-2026-09-16",
+      "name": "data-round4-sme.zip",
+      "bytes": 806448079,
+      "sha256": "f81487fa843ee718bd172011f0d53ba33a9ceefe78e47b4fb9f77135679a88f2",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round4-2026-09-16/data-round4-sme.zip"
+    },
+    {
+      "tag": "data-round4-2026-09-16",
+      "name": "SHA256SUMS.txt",
+      "bytes": 445,
+      "sha256": "b9617273b12118943e155cadf22b9665e887d7c09458efd2f36ddf6bba1f1305",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round4-2026-09-16/SHA256SUMS.txt"
+    },
+    {
+      "tag": "data-round3-2026-09-16",
+      "name": "CHECKSUMS.sha256",
+      "bytes": 450,
+      "sha256": "c52a00fef35b1be2c6d7cedc47ad804a5402f1b20a878c69daa64449d2ce5cd8",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round3-2026-09-16/CHECKSUMS.sha256"
+    },
+    {
+      "tag": "data-round3-2026-09-16",
+      "name": "data-round3-cases.zip",
+      "bytes": 73724103,
+      "sha256": "72541f43c18a7d303a99392de8d5b51c5c0e3414cf5ed5b06fd91c2787d8d443",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round3-2026-09-16/data-round3-cases.zip"
+    },
+    {
+      "tag": "data-round3-2026-09-16",
+      "name": "data-round3-economy.zip",
+      "bytes": 5419570,
+      "sha256": "e348ac77471590f9c77aa4af94c3f1e22630335bdfd9cc0ad7117dd12cbe30b4",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round3-2026-09-16/data-round3-economy.zip"
+    },
+    {
+      "tag": "data-round3-2026-09-16",
+      "name": "data-round3-geography.zip",
+      "bytes": 48298330,
+      "sha256": "9cd94327e6a6da2fab8573d6587930dd10a8da455cbcf896b3e482fb70984870",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round3-2026-09-16/data-round3-geography.zip"
+    },
+    {
+      "tag": "data-round3-2026-09-16",
+      "name": "data-round3-search.zip",
+      "bytes": 3099571,
+      "sha256": "29266816808ee1e8f5c49b6a9bfb5fbb9b461a1a7ac535ed00a238fed0a42115",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round3-2026-09-16/data-round3-search.zip"
+    },
+    {
+      "tag": "data-round3-2026-09-16",
+      "name": "data-round3-sme.zip",
+      "bytes": 2756108,
+      "sha256": "7e821991055ff8be96b622f1888bd6f5462f3e666ea95a158b573bfe6527fcc1",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round3-2026-09-16/data-round3-sme.zip"
+    },
+    {
+      "tag": "data-round2-2026-09-15",
+      "name": "publication-verification.json",
+      "bytes": 1365,
+      "sha256": "8f92b4f916020b4dda4494e58ffda96fc0dd6a4cb5d0f62a4e59455ca41b193d",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round2-2026-09-15/publication-verification.json"
+    },
+    {
+      "tag": "data-round2-2026-09-15",
+      "name": "round2-commuting-discovery-v1.zip",
+      "bytes": 5562666,
+      "sha256": "7adb967c96d442f33e4d0990442bb32d3a9cbf844fe4a302d4f902c7b19d6efe",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round2-2026-09-15/round2-commuting-discovery-v1.zip"
+    },
+    {
+      "tag": "data-round2-2026-09-15",
+      "name": "round2-geography-v1.zip",
+      "bytes": 43103332,
+      "sha256": "372907c9f3ad91a6f35a0f20cab504806d01211b71a7108bceab024c1ff6d292",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round2-2026-09-15/round2-geography-v1.zip"
+    },
+    {
+      "tag": "data-round2-2026-09-15",
+      "name": "round2-prices-v1.zip",
+      "bytes": 65619964,
+      "sha256": "3e6b51c41d6769a2289e07297140d9a95800b2180f35bed2b76ddc6df2f8d7f3",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round2-2026-09-15/round2-prices-v1.zip"
+    },
+    {
+      "tag": "data-round2-2026-09-15",
+      "name": "round2-sector-v1.zip",
+      "bytes": 16674961,
+      "sha256": "2c59c3f6899e4c12103f25e6757caaf7aa15cc720138c6532df8dc925811b740",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-round2-2026-09-15/round2-sector-v1.zip"
+    },
+    {
+      "tag": "population-data-2026-09-15",
+      "name": "archives_manifest.json",
+      "bytes": 1077,
+      "sha256": "0e21e9ac4adc8f6993cac06ab1a979c029298ac65ba5ad9c81ed6e59d3c173b6",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/population-data-2026-09-15/archives_manifest.json"
+    },
+    {
+      "tag": "population-data-2026-09-15",
+      "name": "local-source-snapshots.zip",
+      "bytes": 134118647,
+      "sha256": "a1a1b6c1c9a5ce9817cf199a4420678eb852c902d03bd90721dade1b1e0f173c",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/population-data-2026-09-15/local-source-snapshots.zip"
+    },
+    {
+      "tag": "population-data-2026-09-15",
+      "name": "server-population-snapshots.zip",
+      "bytes": 46262849,
+      "sha256": "02b785cc9ab6d0dfd6bce6e6096cf7fc7a4149efa14a19f0483d495def647fde",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/population-data-2026-09-15/server-population-snapshots.zip"
+    },
+    {
+      "tag": "population-data-2026-09-15",
+      "name": "SHA256SUMS.txt",
+      "bytes": 191,
+      "sha256": "4f48a1fd43f7973ca4eb39fd15191f9fab809e4bb59d3b7eb54ea3316a15c462",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/population-data-2026-09-15/SHA256SUMS.txt"
+    },
+    {
+      "tag": "data-2026-09-15",
+      "name": "archives_manifest.json",
+      "bytes": 861,
+      "sha256": "8f7f18fdd6c05d95412ec3e30aa6be707d35014fe1b5c139941ddafee6b4bd9d",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-2026-09-15/archives_manifest.json"
+    },
+    {
+      "tag": "data-2026-09-15",
+      "name": "local-data-supplement.zip",
+      "bytes": 27631834,
+      "sha256": "ffef5a042a026421e536dbcc6dbc0daf08dce30a3145b8a8b75416e9c454b575",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-2026-09-15/local-data-supplement.zip"
+    },
+    {
+      "tag": "data-2026-09-15",
+      "name": "server-data-snapshots.zip",
+      "bytes": 378891889,
+      "sha256": "dcae60a64c9dac4aa5e4930e352f049034a2ca7c98e93bbfb6ce9cf14af51f78",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-2026-09-15/server-data-snapshots.zip"
+    },
+    {
+      "tag": "data-2026-09-15",
+      "name": "SHA256SUMS.txt",
+      "bytes": 184,
+      "sha256": "43e95340195259009acd489eb89882edddf31fb67dd1cf03c421bd2be0ca9259",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/data-2026-09-15/SHA256SUMS.txt"
+    },
+    {
+      "tag": "context-data-2026-09-15",
+      "name": "archives_manifest.json",
+      "bytes": 1512,
+      "sha256": "f421788738c6dab1f7480bc3aac12f52afe35fa0d8240434f7b2a3dc4014055e",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/context-data-2026-09-15/archives_manifest.json"
+    },
+    {
+      "tag": "context-data-2026-09-15",
+      "name": "github_verification.json",
+      "bytes": 2040,
+      "sha256": "a11b08332e07eb8fa092521eb1cced38c99bac25fe74429a499b7663eb2f021f",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/context-data-2026-09-15/github_verification.json"
+    },
+    {
+      "tag": "context-data-2026-09-15",
+      "name": "local-context-snapshots.zip",
+      "bytes": 38083321,
+      "sha256": "2b865d884e4f765fc1694054603ae1c1815879d7870efc219330236511bd47d6",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/context-data-2026-09-15/local-context-snapshots.zip"
+    },
+    {
+      "tag": "context-data-2026-09-15",
+      "name": "server-discovery-snapshots.zip",
+      "bytes": 547260826,
+      "sha256": "1cc3c4e96a0dc7a4f4049207933ff9b033d873acd6327c2f6fc41c09e4f9274f",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/context-data-2026-09-15/server-discovery-snapshots.zip"
+    },
+    {
+      "tag": "context-data-2026-09-15",
+      "name": "server-economy-snapshots.zip",
+      "bytes": 14253487,
+      "sha256": "83cc1b420e22fccc9e51af4f3b5441ea58202b767f49cce46a81ff3454993f7f",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/context-data-2026-09-15/server-economy-snapshots.zip"
+    },
+    {
+      "tag": "context-data-2026-09-15",
+      "name": "SHA256SUMS.txt",
+      "bytes": 286,
+      "sha256": "06942996f23acf81fd9a986aa7970eb0cf6c5806c5a46d86dd39ef51e0883432",
+      "source_digest_verified": true,
+      "destination_digest_verified": true,
+      "url": "https://github.com/roshlight/sberindex-clustering-submission/releases/download/context-data-2026-09-15/SHA256SUMS.txt"
+    }
+  ]
+}
