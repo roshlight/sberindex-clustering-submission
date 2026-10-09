@@ -1,0 +1,97 @@
+{
+  "protocol_base_commit": "f60455a6d82428eb519776540c6fbd32f890ba5d",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1"
+  },
+  "config": {
+    "protocol_version": "profile-hypotheses-v1",
+    "year": 2024,
+    "seed": 13,
+    "n_resamples": 9999,
+    "alpha": 0.05,
+    "family": [
+      "H1_population_foodservice",
+      "H2_wage_real_spending",
+      "H3_manufacturing_marketplaces",
+      "H3_manufacturing_transport",
+      "H4_cross_region_similarity"
+    ],
+    "regressions": {
+      "sample": "core_eligible",
+      "numeric": [
+        "log_population",
+        "log_wage",
+        "log_worker_concentration"
+      ],
+      "fixed_effects": [
+        "region_code",
+        "municipal_district_type"
+      ],
+      "H1_target": "CLR of annual mean normalized foodservice component",
+      "H2_target": "log of mean monthly nominal expenditure divided by regional CPI chain",
+      "primary_p": "restricted-null region Rademacher wild cluster bootstrap-t",
+      "diagnostics": [
+        "nominal H2",
+        "scalar regional deflator invariance"
+      ]
+    },
+    "H3": {
+      "sample": "core_eligible and observed sector_C_share",
+      "split": "strictly above median sector_C_share within region and municipality type",
+      "log_covariate_caliper_sd": 0.5,
+      "minimum_sector_share_gap": 0,
+      "matching": "maximum cardinality, then minimum standardized economic distance; no reuse",
+      "inference": "one shared random sign per region for all its paired differences",
+      "joint_rule": "both directed CLR component tests must pass the common Holm family"
+    },
+    "H4": {
+      "sample": "core_eligible and complete eight observed sector shares",
+      "different_regions": true,
+      "log_covariate_caliper_sd": 0.5,
+      "sector_rms_z_caliper": 1.0,
+      "cost": "sqrt(0.5*mean(core z differences squared)+0.5*mean(sector z differences squared))",
+      "matching": "maximum cardinality, then minimum cost; no reuse",
+      "distance": "sqrt(sum((sqrt(p)-sqrt(q))**2)/2)",
+      "inference": "shuffle complete five-component profiles within eligible regions; fixed pairs"
+    }
+  },
+  "source_hashes": {
+    "configs/hypothesis_checks_v1.json": "ba9ef3c6a74efffb83abc8b1de2ac0ebad6b6bf285509f1604e444498c9285e1",
+    "reports/hypothesis_checks/PROTOCOL.md": "de87eb784d0d7e08051d88ba607d27bc1f8659c3d0574675eff45bcf2d2314fe",
+    "scripts/test_profile_hypotheses.py": "8f25c67c1770fc6c1233b97ea1e5d8725dc5970f9e799725f444ec3a6520f3b3",
+    "src/municipal_profiles/hypothesis_regressions.py": "f819035a9a3f707bc16ba4d037262e7c42aeaaae832cc943bb8d4f38c7ed6eda",
+    "src/municipal_profiles/hypothesis_matching.py": "7cdb35f2826b5e45b4a52d664ca2383a6ab7ea24265aed4e33a31569a56008ba",
+    "src/municipal_profiles/hypothesis_summary.py": "33c750d8f71e2e4118e15a57a79c3acc6440d4ec98765d5f1e3733683cf15911",
+    "reports/enriched_analysis/core_v2/annual_panel.csv": "0e44e34b94c51aeb429615ec9a0e8127def140a6f414afa75e255e00cb4f8190",
+    "reports/enriched_analysis/prices/municipal_annual_price_context.csv": "49c46e2e2927f0847aa5ff00da8899991545974bd4f0f8b825dbf3c6dfa9277f",
+    "reports/enriched_analysis/prices/municipal_monthly_price_context.csv": "807fe842c434fc3a5ad56203995af69d1da40171888d1e9b1a290a56d688361f",
+    "reports/enriched_analysis/prices/regional_cpi_chain.csv": "4ff84d5c1acf4cadded15778bb9c36338bf4eaeb06e91ff6cf91120689a8ef6d",
+    "reports/round2_analysis/models/model_panel.csv": "fd302a8da31bf16305d1664dd2e34708dda5042f18521858db6b902e3ada2f7b",
+    "reports/round2_analysis/models/selected_sector_features.csv": "14a89221e2ad2eaa089d272171b4c19214b898a8c102dd273618cce92944145e"
+  },
+  "output_hashes": {
+    "matching/balance.csv": "b7ee65dcb91a28529182760d510fa6164b200f963d2d85072b8126dffecef572",
+    "matching/coverage.json": "82294f3e15c1a862b3a63d52710b2cd47aaf790135e6f136de14b5a30a3c2aa2",
+    "matching/matching_protocol.json": "d07561b81f436c5c3f2b1c9cd1e68ef6a322e07fac4c94e561cc413c3c94bfa6",
+    "matching/nulls_H3.csv": "f66fe11e5ee48ea23e22d481761ca0da0bedacdbd28635422c110b6f658788e2",
+    "matching/nulls_H4.csv": "d807e4f7401bb6b86715d1083ee605286c651a02cce2b31307c34636eda913ea",
+    "matching/pairs_H3.csv": "aed5f9cbc43d2ae560f65b7827b7b7e8a64ccad7820b6ecef657dff338d9d8e9",
+    "matching/pairs_H4.csv": "d8e3329f728401e82838965c7fbbe619cadb7bcbb624926b8ca16a9a342ec1cb",
+    "matching/results.csv": "23ee499a443a6bd6a96fd08b37eafd1230172ab3eac3d4251fbd99b9f486252d",
+    "matching/sample.csv": "28528a700ffdb1500a0108b57c1c942a3ffc8d081dcee87d3511a9c33b5cb6d5",
+    "matching/source_hashes.json": "5218072e298c6f61df9694cb06e75899192d7239ddadf5246cabbd33389191db",
+    "regressions/audit.json": "43e2f7a113a3d7c55a0c9db447b8e4a63d2e4ab50721c13132642c2a8a564186",
+    "regressions/coefficients.csv": "074e43bcd00a34ae9a44ee6aba351f615369ec12040e987d5888752383e2c351",
+    "regressions/diagnostics.json": "cc69cb6a85606d8d942f9e1dd58abf6928d0bc7ac2de11b82bc75d3e9661b27a",
+    "regressions/manifest.json": "ec7b0839f7b79b86fff0c2e7aef07b35f5733f113728371e93fc5f9922213f75",
+    "regressions/regression_tests.csv": "85087b1fae6f01334e88a4aad0bdfafcad576dff1fbc15b081b52ca205627c3d",
+    "regressions/sample.csv": "457592369f364e5c3340bf5ce9b7af11e308944b8c1d62dc47e5da8d5a8fa24f",
+    "regressions/sampling_audit.csv": "8b1e6df588478dd18bee8831de6424df5d90e9c2399225f6c8b3a604ec066306",
+    "REPORT.md": "1411053236b6735beaf56f6c43404e3fff986303dc266e59db1ae0f818d32053",
+    "results.csv": "3101e3135d5fa5608152a515c5ce47b1c74abf828dece1369650d484aa7035d7",
+    "summary.json": "448fe682949903cbb958a38f0deeca34e40fbf159ffe0104a6d42109c65549ae"
+  }
+}

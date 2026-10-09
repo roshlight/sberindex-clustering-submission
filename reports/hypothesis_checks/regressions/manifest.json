@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-10-09T19:16:03.425170+00:00",
+  "year": 2024,
+  "seed": 13,
+  "n_resamples": 9999,
+  "test_family": "H1/H2 are two members of caller's Holm family",
+  "inputs": {
+    "annual_panel": {
+      "path": "reports/enriched_analysis/core_v2/annual_panel.csv",
+      "sha256": "0e44e34b94c51aeb429615ec9a0e8127def140a6f414afa75e255e00cb4f8190"
+    },
+    "annual_prices": {
+      "path": "reports/enriched_analysis/prices/municipal_annual_price_context.csv",
+      "sha256": "49c46e2e2927f0847aa5ff00da8899991545974bd4f0f8b825dbf3c6dfa9277f"
+    },
+    "monthly_prices": {
+      "path": "reports/enriched_analysis/prices/municipal_monthly_price_context.csv",
+      "sha256": "807fe842c434fc3a5ad56203995af69d1da40171888d1e9b1a290a56d688361f"
+    },
+    "regional_chain": {
+      "path": "reports/enriched_analysis/prices/regional_cpi_chain.csv",
+      "sha256": "4ff84d5c1acf4cadded15778bb9c36338bf4eaeb06e91ff6cf91120689a8ef6d"
+    },
+    "raw_cpi": {
+      "path": "reports/enrichment_v3/prices/cpi_monthly_2023_2024.csv",
+      "sha256": "81bd703ff20b9837ef5e89f4e66ed3b8751454fa322afc6c5339ff9858641c75"
+    },
+    "price_links": {
+      "path": "reports/enrichment_v3/prices/municipal_region_price_links.csv",
+      "sha256": "0632857da52a0e4890e4d70ea93f2d572e6da615d9942a6c776469f6d9790e77"
+    }
+  },
+  "implementation_sha256": "f819035a9a3f707bc16ba4d037262e7c42aeaaae832cc943bb8d4f38c7ed6eda",
+  "outputs": {
+    "audit.json": "43e2f7a113a3d7c55a0c9db447b8e4a63d2e4ab50721c13132642c2a8a564186",
+    "coefficients.csv": "074e43bcd00a34ae9a44ee6aba351f615369ec12040e987d5888752383e2c351",
+    "diagnostics.json": "cc69cb6a85606d8d942f9e1dd58abf6928d0bc7ac2de11b82bc75d3e9661b27a",
+    "regression_tests.csv": "85087b1fae6f01334e88a4aad0bdfafcad576dff1fbc15b081b52ca205627c3d",
+    "sample.csv": "457592369f364e5c3340bf5ce9b7af11e308944b8c1d62dc47e5da8d5a8fa24f",
+    "sampling_audit.csv": "8b1e6df588478dd18bee8831de6424df5d90e9c2399225f6c8b3a604ec066306"
+  },
+  "numpy_version": "2.5.3",
+  "pandas_version": "3.0.5"
+}

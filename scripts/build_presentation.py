@@ -43,7 +43,7 @@ METHOD_NAMES = {
     "kmeans_matched_k": "KMeans / сопоставимое K",
 }
 METHOD_COLORS = [TEAL, GOLD, BLUE, "#935B87"]
-TOTAL_SLIDES = 14
+TOTAL_SLIDES = 16
 
 
 def register_fonts() -> None:
@@ -478,16 +478,88 @@ def market_access() -> plt.Figure:
     return fig
 
 
+def hypothesis_results() -> pd.DataFrame:
+    """Use the completed fixed protocol, including the common five-test family."""
+    from municipal_profiles.hypothesis_summary import TEST_IDS, summarize_tests
+
+    data = read("reports/hypothesis_checks/results.csv")
+    verified = summarize_tests(data)
+    if not data.year.eq(2024).all() or not verified.available.all():
+        raise ValueError("The presentation requires five available 2024 contrasts")
+    if not np.allclose(data.p_holm, verified.p_holm, atol=1e-12, rtol=0):
+        raise ValueError("Saved and recalculated common-family Holm p-values disagree")
+    return verified.set_index("test_id").loc[list(TEST_IDS)]
+
+
+def manufacturing_checks() -> plt.Figure:
+    results = hypothesis_results()
+    nulls = read("reports/hypothesis_checks/matching/nulls_H3.csv")
+    fig, axes = plt.subplots(1, 2, figsize=(12, 3.6))
+    for ax, field, label, color in zip(
+        axes,
+        ["marketplaces", "transport"],
+        ["Маркетплейсы", "Транспорт"],
+        [GOLD, TEAL],
+        strict=True,
+    ):
+        row = results.loc[f"H3_manufacturing_{field}"]
+        ax.hist(nulls[field], bins=42, color=color, alpha=0.36, edgecolor="white", linewidth=0.5)
+        ax.axvline(row.estimate, color=color, linewidth=2.7)
+        ax.axvline(0, color=MUTED, linewidth=1, linestyle=":")
+        ax.set_title(label, loc="left", pad=14)
+        ax.text(
+            0.99,
+            0.96,
+            f"Δ CLR = {russian(row.estimate, 4)}\np Holm = {russian(row.p_holm, 4)}",
+            transform=ax.transAxes,
+            ha="right",
+            va="top",
+            fontsize=13,
+            color=INK,
+        )
+        ax.set_xlabel("Средняя парная разница CLR", labelpad=10)
+        ax.set_ylabel("Перестановки" if field == "marketplaces" else "")
+        ax.tick_params(axis="y", labelsize=11)
+        ax.tick_params(axis="x", labelsize=11)
+        ax.set_xlim(min(nulls[field].min(), row.estimate) - 0.006, nulls[field].max() + 0.006)
+    fig.subplots_adjust(left=0.075, right=0.975, bottom=0.21, top=0.86, wspace=0.24)
+    return fig
+
+
+def cross_region_checks() -> plt.Figure:
+    row = hypothesis_results().loc["H4_cross_region_similarity"]
+    nulls = read("reports/hypothesis_checks/matching/nulls_H4.csv")
+    fig, ax = plt.subplots(figsize=(6.6, 4.0))
+    ax.hist(nulls.mean_distance, bins=42, color=TEAL, alpha=0.36, edgecolor="white", linewidth=0.6)
+    ax.axvline(row.observed, color=BLUE, linewidth=2.7, label="Подобранные пары")
+    ax.axvline(row.null_mean, color=MUTED, linewidth=1.8, linestyle="--", label="Среднее контроля")
+    ax.set_xlim(row.observed - 0.004, nulls.mean_distance.max() + 0.003)
+    ax.set_xlabel("Среднее расстояние Хеллингера", labelpad=12)
+    ax.set_ylabel("Перестановки")
+    ax.legend(loc="upper left", fontsize=11)
+    ax.tick_params(labelsize=12)
+    fig.subplots_adjust(left=0.11, right=0.98, bottom=0.18, top=0.97)
+    return fig
+
+
 def build(output: Path) -> None:
     register_fonts()
     deck = Deck(output)
     economic = economic_comparisons()
     profile_gain = float(economic.loc[("within_region", "profile_clr"), "relative_mse_reduction"])
-    heldout_gain = float(economic.loc[("heldout_regions", "profile_clr"), "relative_mse_reduction"])
     correlations = read("reports/enriched_analysis/core_v2/correlations.csv")
     correlations = correlations.loc[correlations.year == 2024].set_index(["feature", "outcome"])
     population_foodservice = correlations.loc[("log_population", "p_foodservice")]
     wage_spending = correlations.loc[("log_wage", "log_total")]
+    checks = hypothesis_results()
+    h1 = checks.loc["H1_population_foodservice"]
+    h2 = checks.loc["H2_wage_real_spending"]
+    h3_market = checks.loc["H3_manufacturing_marketplaces"]
+    h3_transport = checks.loc["H3_manufacturing_transport"]
+    h4 = checks.loc["H4_cross_region_similarity"]
+    population_effect = 100 * np.expm1(h1.estimate * np.log(1.1))
+    wage_effect = 100 * np.expm1(h2.estimate * np.log(1.1))
+    similarity_gain = 100 * (1 - h4.observed / h4.null_mean)
     spatial = read("data/derived/reviews/spatial_external_v1/spatial_checks.csv")
     spatial = spatial.loc[
         (spatial["sample"] == "all")
@@ -834,7 +906,121 @@ def build(output: Path) -> None:
         "spatial_checks.csv; docs/reviews/spatial_validation.md"
     )
 
-    # 12: concrete applications of profile comparison and economic interpretation.
+    # 12: completed conditional tests, with interpretable changes and exact units.
+    deck.start(
+        "Проверки",
+        "Масштаб и зарплата связаны с потреблением",
+        f"2024 год; {integer(h1.n_entities)} МО, {integer(h1.n_regions)} региона. "
+        "Две регрессии с одинаковыми экономическими контролями.",
+    )
+    for left, title, effect, body, row, coefficient in [
+        (
+            54,
+            "Население выше на 10%",
+            population_effect,
+            "выше отношение компонента общепита к геометрическому среднему пяти компонент профиля",
+            h1,
+            "β населения",
+        ),
+        (
+            662,
+            "Зарплата выше на 10%",
+            wage_effect,
+            "выше средние расходы после помесячной поправки на региональную инфляцию",
+            h2,
+            "β зарплаты",
+        ),
+    ]:
+        deck.text(left, 204, title, 25, TEAL, True)
+        deck.text(left, 258, "+" + russian(effect, 2) + "%", 70, INK, True)
+        deck.paragraph(left, 350, body, 550, 22, leading=29)
+        deck.line(left, 452, left + 548, 452)
+        deck.text(left, 475, coefficient + " = " + russian(row.estimate, 4), 22, TEAL, True)
+        deck.text(
+            left,
+            511,
+            "95% CR1: ["
+            + russian(row.ci95_low_cr1, 3)
+            + "; "
+            + russian(row.ci95_high_cr1, 3)
+            + "]",
+            18,
+            MUTED,
+        )
+        deck.text(left, 544, "p Holm = " + russian(row.p_holm, 4), 20, INK, True)
+    deck.paragraph(
+        54,
+        597,
+        "Контроли: население, зарплата, работники на душу населения, регион и тип МО. "
+        "ИПЦ: база декабря 2022 своего региона. CLR описывает относительный состав профиля.",
+        1160,
+        18,
+        leading=25,
+    )
+    deck.footer(
+        "Источник: reports/hypothesis_checks/results.csv; 9 999 wild-bootstrap по регионам; "
+        "общая Holm-семья: 5 тестов, α = 0,05"
+    )
+
+    # 13: preserve both manufacturing outcomes and the joint decision.
+    deck.start(
+        "Проверки",
+        "Доля обработки связана с меньшим CLR транспорта",
+        f"{integer(h3_transport.n_pairs)} пар; {integer(h3_transport.n_entities)} МО "
+        f"из {integer(h3_transport.n_regions)} регионов. В паре совпадают регион и тип МО.",
+    )
+    deck.figure(manufacturing_checks(), 35, 185, 1195, 342)
+    deck.text(54, 542, "Маркетплейсы: критерий не пройден", 22, GOLD, True)
+    deck.text(662, 542, "Транспорт: различие подтверждено", 22, TEAL, True)
+    deck.paragraph(
+        54,
+        584,
+        "У МО с большей долей учтённых работников обработки ниже CLR транспорта. "
+        "Совместная гипотеза о росте маркетплейсов и снижении транспорта не прошла критерий. "
+        "Полосы: региональные перестановки; линия: наблюдаемая парная разница.",
+        1160,
+        18,
+        leading=25,
+    )
+    deck.footer(
+        "Источники: hypothesis_checks/matching/pairs_H3.csv, nulls_H3.csv; "
+        "9 999 общих региональных смен знака; caliper каждого log-признака ≤ 0,5 SD"
+    )
+
+    # 14: matched economics yield a smaller observed distance under a regional null.
+    deck.start(
+        "Проверки",
+        "Экономически близкие МО имеют сходные профили",
+        f"{integer(h4.n_pairs)} межрегиональные пары: {integer(h4.n_entities)} МО "
+        f"из {integer(h4.n_regions)} регионов. Отбор из {integer(h4.n_eligible)} МО "
+        "с полными данными по восьми отраслям.",
+    )
+    deck.text(54, 223, "Расстояние меньше на", 25, TEAL, True)
+    deck.text(54, 271, russian(similarity_gain, 1) + "%", 78, INK, True)
+    deck.paragraph(
+        54, 379, "относительно среднего регионального перестановочного контроля", 470, 23
+    )
+    deck.text(
+        54, 467, russian(h4.observed, 4) + "  против  " + russian(h4.null_mean, 4), 29, TEAL, True
+    )
+    deck.text(54, 515, "p Holm = " + russian(h4.p_holm, 4), 22, INK, True)
+    deck.figure(cross_region_checks(), 564, 196, 675, 365)
+    deck.paragraph(
+        54,
+        595,
+        "Пары подобраны по населению, зарплате, концентрации рабочих мест и восьми отраслям. "
+        "Потребление при подборе не использовалось. Целые профили переставляются внутри "
+        "регионов при фиксированных парах; 20 регионов с одним доступным МО остаются на месте.",
+        1160,
+        18,
+        leading=24,
+    )
+    deck.footer(
+        "Источники: hypothesis_checks/matching/pairs_H4.csv, nulls_H4.csv; "
+        "9 999 перестановок; log caliper ≤ 0,5 SD, отраслевой RMS ≤ 1,0 SD"
+    )
+
+    # 15: concrete applications of profile comparison and economic interpretation.
     deck.start(
         "Применение",
         "Как применять результат",
@@ -869,40 +1055,45 @@ def build(output: Path) -> None:
         "submission/METHODOLOGY.md"
     )
 
-    # 13: name the observed relationship, its magnitude and its sample.
-    deck.start("Выводы", "Что именно показали данные за 2024 год")
+    # 16: conclusions reflect executed tests rather than proposals for future work.
+    deck.start(
+        "Выводы",
+        "Какие связи подтверждены за 2024 год",
+        "Общая поправка Holm для пяти направленных тестов; порог 0,05. "
+        "Три гипотезы прошли проверку целиком.",
+    )
     findings = [
         (
             185,
             "Масштаб МО",
-            "Чем крупнее муниципалитет, тем выше компонент общепита: "
-            f"ρ = {russian(population_foodservice.spearman, 3)}; после регионального "
-            f"центрирования {russian(population_foodservice.region_centered_rank_correlation, 3)}. "
-            f"Выборка: {integer(population_foodservice.n)} МО.",
+            "При населении на 10% больше отношение общепита к геометрическому "
+            f"среднему профиля выше на {russian(population_effect, 2)}%. "
+            f"С учётом зарплаты, рабочих мест, региона и типа. {integer(h1.n_entities)} МО; "
+            f"p Holm = {russian(h1.p_holm, 4)}.",
         ),
         (
             292,
             "Зарплата",
-            "Выше зарплата организаций, выше уровень расходов: "
-            f"ρ = {russian(wage_spending.spearman, 3)}; после регионального центрирования "
-            f"{russian(wage_spending.region_centered_rank_correlation, 3)}. "
-            f"Выборка: {integer(wage_spending.n)} МО.",
+            "У МО с зарплатой организаций на 10% выше расходы после учёта "
+            f"инфляции выше на {russian(wage_effect, 2)}%. С учётом тех же контролей. "
+            f"{integer(h2.n_entities)} МО; p Holm = {russian(h2.p_holm, 4)}.",
         ),
         (
             399,
-            "Экономика и отрасли",
-            "Экономические признаки снижают ошибку профиля на "
-            f"{russian(profile_gain * 100, 1)}% внутри регионов и на "
-            f"{russian(heldout_gain * 100, 1)}% на регионах вне обучения. "
-            "Отрасли добавляют 1,38% и 7,34% в тех же режимах. Выборка: 1 998 МО.",
+            "Сходство экономик",
+            "У экономически близких МО разных регионов расстояние профилей "
+            f"на {russian(similarity_gain, 1)}% ниже регионального перестановочного "
+            f"контроля. {integer(h4.n_pairs)} пары, {integer(h4.n_entities)} МО; "
+            f"p Holm = {russian(h4.p_holm, 4)}.",
         ),
         (
             506,
-            "Доступность рынков",
-            "В декабре между группами приходится "
-            f"{russian(spatial.loc['2024-12', 'observed'] * 100, 1)}% разброса индекса "
-            f"против {russian(spatial.loc['2024-12', 'null_mean'] * 100, 1)}% "
-            "регионального контроля; p Holm = 0,004. Выборка: 2 004 МО.",
+            "Обработка и транспорт",
+            "У МО с большей долей работников обработки CLR транспорта ниже "
+            f"на {russian(-h3_transport.estimate, 4)}; p Holm = "
+            f"{russian(h3_transport.p_holm, 4)}. {integer(h3_transport.n_pairs)} пар. "
+            "Для маркетплейсов критерий не пройден: "
+            f"p Holm = {russian(h3_market.p_holm, 4)}.",
         ),
     ]
     for top, title, body in findings:
@@ -912,66 +1103,14 @@ def build(output: Path) -> None:
     deck.text(
         54,
         627,
-        "Для сравнения МО учитывайте масштаб, зарплату, отрасли и доступность рынков.",
+        "Сравнивайте территории по масштабу, зарплате и экономическому профилю.",
         21,
         TEAL,
         True,
     )
     deck.footer(
-        "Источники: enriched_analysis/core_v2/correlations.csv; core_v2/cv_comparisons.csv; "
-        "round2_analysis/REPORT.md; docs/reviews/spatial_validation.md"
-    )
-
-    # 14: proposed hypotheses have explicit predictions and a next test.
-    deck.start(
-        "Гипотезы",
-        "Какие соотношения проверить следующим шагом",
-        "Для каждой гипотезы заданы ожидаемая связь и отдельная проверка.",
-    )
-    for left, label in [(54, "Гипотеза"), (335, "Ожидаемая связь"), (826, "Как проверить")]:
-        deck.text(left, 176, label, 18, MUTED, True)
-    hypotheses = [
-        (
-            215,
-            "01  Масштаб МО",
-            "При сопоставимой зарплате в крупных МО выше CLR-компонент общепита.",
-            "Регрессия с зарплатой, работниками на душу населения, регионом и типом МО. "
-            "Коэффициент населения > 0.",
-        ),
-        (
-            324,
-            "02  Зарплата",
-            "При сопоставимом населении выше зарплата организаций, выше расходы после "
-            "поправки на цены.",
-            "Региональный ИПЦ; регрессия log расходов с населением и работниками "
-            "на душу населения, "
-            "регионом и типом МО. Коэффициент зарплаты > 0.",
-        ),
-        (
-            433,
-            "03  Обработка",
-            "При близких населении и зарплате выше доля учтённых работников обработки: "
-            "выше CLR-компонент маркетплейсов, ниже транспорта.",
-            "Пары МО внутри регионов с близкими базовыми признаками. "
-            "Разницы CLR-компонентов: маркетплейсы > 0, транспорт < 0.",
-        ),
-        (
-            542,
-            "04  Между регионами",
-            "Экономически похожие МО из разных регионов имеют более близкие "
-            "потребительские профили.",
-            "Подбор пар по экономике. Расстояние Хеллингера ниже контроля "
-            "с перестановкой профилей внутри регионов при фиксированных парах.",
-        ),
-    ]
-    for top, title, prediction, test in hypotheses:
-        deck.line(54, top - 12, 1226, top - 12)
-        deck.text(54, top, title, 18, TEAL, True)
-        deck.paragraph(335, top, prediction, 458, 19, leading=25)
-        deck.paragraph(826, top, test, 400, 17, leading=22)
-    deck.footer(
-        "Гипотезы следующего этапа. Протокол: фиксированные выборки; региональные блоки; "
-        "поправка Holm, α = 0,05. Подробности: README.md"
+        "Источники: reports/hypothesis_checks/results.csv, REPORT.md и PROTOCOL.md; "
+        "описательные проверки ранее изученной панели, 2024 год"
     )
     deck.finish()
 
